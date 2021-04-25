@@ -1,0 +1,7 @@
+# basic usage
+ssh-audit.py <rhost:rport>
+
+# -1, force ssh version 1 only 
+# -v, verbose
+# -l, level can be info,warn,fail
+

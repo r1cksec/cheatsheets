@@ -1,0 +1,3 @@
+# create AP with WPA2 encryption
+sudo airbase-ng --essid "<name>" -c 6 -P -vv <interface> -W 1 -Z 2 
+

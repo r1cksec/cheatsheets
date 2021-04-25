@@ -1,0 +1,3 @@
+# get remote logged in user
+qwinsta /server:<rhost>
+

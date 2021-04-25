@@ -1,0 +1,15 @@
+# failed log attemps (ssh)
+/var/log/auth.log
+
+# failed log attemps
+/var/log/secure
+
+# failed log attemps
+/var/log/faillog
+
+# HTTP requests
+/var/log/httpd/
+
+# improper shutdown
+/var/log/boot.log
+

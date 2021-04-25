@@ -1,0 +1,3 @@
+# reqeust TGT for user without PreAuthenticaiton set
+GetNPUsers.py <domain>/<user>:<password>
+

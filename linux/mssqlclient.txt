@@ -1,0 +1,3 @@
+# start mssql session
+python3 mssqlclient.py <user>:<password>@<rhost>
+

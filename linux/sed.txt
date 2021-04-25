@@ -1,0 +1,3 @@
+# remove commands from powershell script
+sed '/<#/,/#>/d' <file>.ps1 
+

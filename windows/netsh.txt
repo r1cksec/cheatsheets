@@ -1,0 +1,9 @@
+# show saved wireless profiles
+netsh wlan show profiles
+
+# list interfaces 
+netsh interface ip show interfaces
+
+# set new dns server
+netsh interface ip set dns local static <rhost>
+

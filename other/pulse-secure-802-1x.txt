@@ -1,0 +1,4 @@
+# 802.1X with pulse secure
+# username is the MAC address without : 
+# the password correspond to the username, but you have to use capital letters
+

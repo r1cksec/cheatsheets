@@ -1,0 +1,3 @@
+# start and creates a new process (detached)
+Start-Process -FilePath "cmd" -ArgumentList "/c type <powershellScript> | powershell"
+

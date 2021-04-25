@@ -1,0 +1,6 @@
+# impacket smbclient (supports pass-the-hash)
+python3 smbclient.py <domain>/<user>:<password>@<rhost>
+
+# native smbclient using old protocols
+smbclient --option='client min protocol=nt1' -L "\\<rhost>\\<share>" -U <user> --option='client lanman auth = yes' --option='client ntlmv2 auth = no' --option='ntlm auth = no'
+

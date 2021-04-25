@@ -1,0 +1,19 @@
+# modules:
+intel - collect basic information about target for getting a starting point
+enum - enumration mapping to find possible attack avenues
+viz - visual result presentation
+track - compare results across enumerations
+
+# Sources
+Ask, Baidu, Bing, BuiltWith, DNSDumpster, DNSTable, HackerOne, RapidDNS, Riddler, SiteDossier, ViewDNS, Yahoo, Censys, CertSpotter, Crtsh, FacebookCT, GoogleCT, AlienVault, BinaryEdge, BufferOver, C99, CIRCL, CommonCrawl, DNSDB, GitHub, HackerTarget, IPToASN, Mnemonic, NetworksDB, PassiveTotal, Pastebin, RADb, Robtex, SecurityTrails, ShadowServer, Shodan, Spyse, Sublist3rAPI, TeamCymru, ThreatCrowd, ThreatMiner, Twitter, Umbrella, URLScan, VirusTotal, WhoisXML, ZETAlytics, ArchiveIt, LoCArchive, UKGovArchive, Wayback
+
+# reverse DNS Lookup on range, -src show source of information
+amass intel -ip -src -cidr <ip/cidr>
+
+# search domains using ASN number
+amass intel -asn <asnNumber>
+
+# basic enumeration using different OSINT sources (passiv - no DNS resolution and validation, src show source)
+amass enum -passive -d <domain> -src -o <outputfile>
+
+

@@ -1,0 +1,3 @@
+# scan repos of single user and interesting infos write into json file
+gitrob -save <jsonOutput> -github-access-token <token> <targetGithubUser>
+

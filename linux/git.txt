@@ -1,0 +1,34 @@
+# set email and username for all repositories (remove --global for current repository)
+git config --global user.email "<userExample>@<mail.com>"
+git config --global user.name "<user>"
+
+# sign files with given key
+git config --global commit.gpgsign true
+
+# list config of current repository
+git config --list --local
+
+# show version history
+git log
+
+# show available tags
+git fetch --tags
+
+# show information about specific tag
+git log <tagName>
+
+# switch to specific version
+git checkout <tagName>
+
+# switch to newest commit (new repos use main)
+git checkout master
+
+# get path to project
+git remote get-url origin
+
+# generate access token
+https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+
+# ignore certificate errors
+git -c http.sslVerify=false
+

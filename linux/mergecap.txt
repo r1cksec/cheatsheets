@@ -1,0 +1,3 @@
+# merge cap files
+mergecap -w <newFile.cap> *.cap
+

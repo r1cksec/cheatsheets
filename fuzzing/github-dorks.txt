@@ -1,0 +1,22 @@
+API_key
+APP_SECRET
+authorization
+authorization bearer
+cinfig
+connectstring
+consumerkey
+dev
+dotfiles
+ftp
+JDBC
+JIRA_Password
+login
+password
+pwd
+secret
+security_credentials
+send_keys or send,keys
+ssh2_auth_password
+SSO_LOGIN
+token
+X-API

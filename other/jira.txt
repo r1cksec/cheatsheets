@@ -1,0 +1,3 @@
+# get permissions of current user (possibly unauthenticated attackers could also have permissions)
+curl https://<domain>/rest/api/2/mypermissions | jq | grep -iB6 '"havePermission": true'
+

@@ -1,0 +1,6 @@
+# start smb server
+smbserver.py <shareName> <pathToSharedDir>
+
+# add smb version 2 support
+smbserver.py <shareName> <pathToSharedDir> -smb2support
+

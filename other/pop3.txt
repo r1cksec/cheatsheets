@@ -1,0 +1,10 @@
+# connect and read mails
+telnet <rhost> 110
+
+USER <user>
+PASS <password>
+LIST
+RETR <number>
+QUIT
+
+

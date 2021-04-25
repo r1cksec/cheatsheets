@@ -1,0 +1,3 @@
+# bruteforce directory (-x extension, -k insecuressl, -e expanded)
+gobuster dir -u <rhost>:<rport> -w /usr/share/wordlists/dirb/common.txt -x .aspx,.php,.html -k -e
+

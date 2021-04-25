@@ -1,0 +1,3 @@
+# RDP connection from linux
+rdesktop -u <user> -p <password> <rhost> -d <domain>
+

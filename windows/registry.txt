@@ -1,0 +1,42 @@
+# OS information
+HKLM\Software\Microsoft\Windows NT\CurrentVersion
+
+# registered owner
+HKLM\Software\Microsoft\Windows NT\CurrentVersion /v RegisteredOwner
+
+# system root
+HKLM\Software\Microsoft\Windows NT\CurrentVersion /v SystemRoot
+
+# mapped network drives
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Map Network Drive MRU
+
+# mounted devices
+HKLM\Sjstern\MountedDevices
+
+# USB devices
+HKLM\System\CurrentControlSet\Enurn\USBStor
+
+# password keys 
+HKEY_LOCAL_MACHINE\Security\Policy\Secrets
+HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon \autoadminlogon
+
+# installed software on machine
+HKLM\Software
+
+# installed software for user
+HKCU\Software
+
+# startup locations (userland)
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+HKCU\Software\Microsoft\Windows\CurrentVersion\RunServices
+HKCU\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
+
+# startup locations (elevated)
+HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce
+HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices
+HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
+

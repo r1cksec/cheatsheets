@@ -1,0 +1,10 @@
+# uses port 5985,5986
+# activate remote powershell, needs to be executed as admin locally
+Enable-PSRemoting -Force
+
+# connect to remote device and execute single command
+Invoke-Command -ComputerName <rhost> -ScriptBlock { <command> } -credential <user>
+
+# start remote session
+Enter-PSSession -ComputerName <rhost> -Credential <user>
+

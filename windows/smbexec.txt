@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/Kevin-Robertson/Invoke-TheHash/master/Invoke-SMBExec.ps1
+
+# run command remotely
+Invoke-SMBExec -Target <rhost> -User <user> -Command "<command>"
+

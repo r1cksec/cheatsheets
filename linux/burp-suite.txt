@@ -1,0 +1,62 @@
+# download STANDALONE file Jython Bibliothek for Burp Expander
+https://www.jython.org/download
+Extender > Options > Python Environment > Location of standalone file
+
+# add extensions 
+Acitve Scanner++
+Authorize
+AWS Security Checks
+Backslash Powered Scanner
+Error Message Checks
+HTTP Requeset Smuggler
+Image Size Issues
+J2EEScan
+JSON Beautifier 
+JSON Web Token Attacker
+Json Web Tokens
+Logger++
+Retire.js
+Software Version Reporter
+Turbo Intruder
+xssValidator
+
+# put Logger++ to the buttom
+Extender > Burp Extensions
+
+# custom Collaborator Server
+Project Options > Misc > Burp Collaborator Server > Use a privat Collaborator Server > Server location: <serverLocation>
+User Options > Misc > Perfomance Feedback > Uncheck Submit Box
+
+# save spidering
+Spider > Options > Form Submission > Don't submit
+Spider > Options > Application Login > Don't submit login forms
+
+# silence burp 
+Proxy > Options > Intercept Client Requests > Add:
+And, Domain name, Does not match
+-> mozilla, ocsp, digicert, firefox, googleapis, openh264
+
+Target > Scope > Use advanced scope control > Exclude from scope > Add:
+Any Protocol
+-> mozilla, ocsp, digicert, firefox, googleapis, openh264
+
+Target > Site map > Show only in-scope items
+
+Dashboard > Live passive crawl from Proxy > Settings > Suite scope
+Dashboard > Lie audit from Proxy > Settings > Suite scope
+
+# export custom configuration 
+Burp > Project Options > Save Project Options
+
+# start burp from command line
+java -jar <path/to/burp.jar>
+
+# Intruder Payload types
+Sniper - One of the marked parameters tested at a time, with one of the payload items.
+Battering Ram - All marked parameters tested at the same time, using one of the payload items.
+Pitchfork - Hits each parameter at the same time with one item from its associated payload.
+Cluster Bomb - Combination of all payloads vs. parameters 
+
+# use burp with proxychains
+User options > SOCKS Proxy > SOCKS proxy host: 127.0.0.1 > SOCKS proxy port 9050
+

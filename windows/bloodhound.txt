@@ -1,0 +1,22 @@
+# ingestors
+https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Collectors/SharpHound.ps1
+https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe
+
+# stealth collection method touch only systems that are most likely to have user session data
+SharpHound.exe --CollectionMethod Session --Stealth 
+
+# collection methods
+All
+DCOnly (Users, Groups, Computers, Domain trusts, ACLs, OUs, GPO-Links)
+ComputerOnly (Sessions, local Groups)
+Sessions
+ACL
+GPOLocalGroup (touch only DC)
+Trusts
+Container (OU, GPO-links)
+LocalGroup (RDP, DCOM, PSRemote)
+LocalAdmin
+RDP
+DCOM
+PSRemote
+

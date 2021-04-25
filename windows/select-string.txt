@@ -1,0 +1,3 @@
+# grep for string in current directory
+sls <string> *
+

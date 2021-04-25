@@ -1,0 +1,3 @@
+# list all user inside the domain (-dc-ip must only be passed if DNS is not available)
+python GetADUsers.py -dc-ip <domainControllerIp> <domain>/<user>:<password> -all
+

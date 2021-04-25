@@ -1,0 +1,20 @@
+# create new session
+tmux new -s <name>
+
+# attach session
+tmux attach
+
+# list sessions
+tmux ls
+
+# kill session
+tmux kill-session -t <name>
+
+# attach session by name
+tmux a -t <name>
+
+# detach: CTRL + b, d
+
+# scroll
+Ctrl and b, PgUp
+

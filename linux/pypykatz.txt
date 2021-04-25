@@ -1,0 +1,3 @@
+# crack lsass dump on local linux
+pypykatz lsa minidump <file>
+

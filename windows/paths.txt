@@ -1,0 +1,19 @@
+# home directory (Windows NT 6.0 - 10.0)
+C:\Users\<user>
+
+# home directory (Windows NT 5.0 - 5.2)
+C:\Documents and Settings\<user>
+
+# cmd.exe
+C:\WINDOWS\system32\cmd.exe
+
+# powershell
+C:\WINDOWS\system32\WindowsPowershellShell\v1.0\powershell.exe
+
+# temp dir
+C:\Windows\Temp
+C:\Users\<user>\Default\AppData\LocalTemp
+
+# powershell history
+C:\Users\<user>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+

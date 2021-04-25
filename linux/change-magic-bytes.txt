@@ -1,0 +1,11 @@
+# manipulate magic bytes:
+vim <file>
+
+# make hexdump
+:%!xxd
+
+# manipulate bytes
+
+# reverse hexdump
+:%!xxd -r
+

@@ -1,0 +1,3 @@
+# generate hash for /etc/passwd
+openssl passwd -1 -salt <user> <password>
+

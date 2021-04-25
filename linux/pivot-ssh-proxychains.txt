@@ -1,0 +1,6 @@
+# dynamic port forwarding (does not works well with nmap and nessus)
+ssh -D 9050 <user>@<attackerHost> -N -v
+
+# proxychains uses port 9050 as default -> /etc/proxychain)
+proxychains rdesktop <targetHost>
+

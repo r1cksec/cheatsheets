@@ -1,0 +1,5 @@
+# get proxy settings using powershell
+Get-ItemProperty -Path "Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings"
+
+# if there is an AutoConfigURL parameter -> get settings using Invoke-Webrequest
+

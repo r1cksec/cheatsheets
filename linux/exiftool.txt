@@ -1,0 +1,6 @@
+# print metadata of file
+exiftool <file>
+
+# add php code inside comment of png file
+exiftool -Comment='<phpCode>' <file>.png
+

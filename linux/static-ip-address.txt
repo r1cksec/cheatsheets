@@ -1,0 +1,19 @@
+vim /etc/network/interfaces
+# insert:
+
+# ipv4
+auto <interface>
+iface <interface> inet static
+    address <ip>
+    netmask <netmask>
+    gateway <gateway>
+
+# ipv6
+iface <interface> inet6 static
+    address <ipv6Adress>
+    netmask 64
+    gateway fe80::1
+    accept_ra 0
+    autoconf 0
+    privext 0
+

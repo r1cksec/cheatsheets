@@ -1,0 +1,18 @@
+# current user in cmd
+echo %USERNAME%
+
+# current homepath in cmd
+echo %HOMEPATH%
+
+# fully qualified domain name in cmd
+echo %COMPUTERNAME%.%USERDNSDOMAIN%
+
+# get all windows environment variables in powershell
+gci env:
+
+# print specific variable in powershell
+echo $env:userdomain
+
+# fully qualified domain name on powershell
+echo $env:computername.$env:userdnsdomain
+

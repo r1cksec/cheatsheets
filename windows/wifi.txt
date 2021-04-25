@@ -1,0 +1,6 @@
+# list saved Wifis
+netsh wlan show profile
+
+# get the clear-text password 
+netsh wlan show profile <SSID> key=clear
+

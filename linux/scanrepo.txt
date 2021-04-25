@@ -1,0 +1,3 @@
+# search through git history of current branch for secrets
+git log -p | scanrepo
+

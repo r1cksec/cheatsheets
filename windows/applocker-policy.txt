@@ -1,0 +1,3 @@
+# show applocker policy
+Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
+

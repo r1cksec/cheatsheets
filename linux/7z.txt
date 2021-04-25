@@ -1,0 +1,6 @@
+# create 7 zip archive
+7z a <resultZip> <fileOrDir>
+
+# unzip on place
+7z e <file>.7z 
+
