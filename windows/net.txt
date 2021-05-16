@@ -53,9 +53,6 @@ net use * \\<lhost>\<share>
 # unmount smb share
 net use <localDrive> \\<rhost>\<remoteDrive> /delete
 
-# create new smb share (accessible for all)
-net share=C:\<path> /grant:username,full
-
 # get active SMB sessions
 net session
 

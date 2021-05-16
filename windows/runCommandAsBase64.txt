@@ -1,0 +1,4 @@
+$str = "<command>"
+$base = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($str))
+powershell -exec bypass -enc $base
+

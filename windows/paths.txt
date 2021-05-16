@@ -8,12 +8,15 @@ C:\Documents and Settings\<user>
 C:\WINDOWS\system32\cmd.exe
 
 # powershell
-C:\WINDOWS\system32\WindowsPowershellShell\v1.0\powershell.exe
+C:\WINDOWS\system32\WindowsPowershell\v1.0\powershell.exe
+
+# powershell history
+C:\Users\<user>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
 
 # temp dir
 C:\Windows\Temp
 C:\Users\<user>\Default\AppData\LocalTemp
 
-# powershell history
-C:\Users\<user>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+# hosts
+C:\Windows\system32\drivers\etc\hosts
 

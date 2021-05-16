@@ -1,0 +1,6 @@
+# get domain name and domain controler
+[System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain()
+
+# get forest information
+[System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest()
+

@@ -1,0 +1,3 @@
+# display access control entries of object towards another object
+dsacls "<distinguishedNameObject1>" | Select-String "<object2>"
+

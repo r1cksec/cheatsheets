@@ -1,0 +1,15 @@
+# get users
+([adsisearcher]"(&(objectClass=user)(samaccountname=*))").FindAll().Properties.samaccountname
+
+# get domain admins
+([adsisearcher]"(&(objectClass=user)(admincount=1))").FindAll().Properties.samaccountname
+
+# query for specific user
+([adsisearcher]"(&(objectClass=user)(samaccountname=<user>))").FindAll().Properties
+
+# get distinguished name of specific user
+([adsisearcher]"(&(objectClass=user)(samaccountname=<user>))").FindAll().Properties.distinguishedname
+
+# get description and name of all computer
+([adsisearcher]"(&(objectClass=computer)(samaccountname=*))").FindAll().Properties.description
+

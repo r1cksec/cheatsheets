@@ -2,17 +2,17 @@
 ssh-keygen -t rsa -b 4096
 
 # upload key to server
-ssh-copy-id -i ~/.ssh/<privKeyId> <user>@<rhost>
+ssh-copy-id -i ~/.ssh/<privateKey> <user>@<rhost>
 
 # if error occurs try:
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 
 # download public ssh key
-ssh-keyscan -t rsa <ip> -p <port>
+ssh-keyscan -t rsa <rhost> -p <rport>
 
 # change password of private ssh key
-ssh-keygen -p -f <path/to/private/key>
+ssh-keygen -p -f <<privatKey>>
 
 # only allow key-based authentication
 sudo vim /etc/ssh/sshd_config
@@ -23,11 +23,25 @@ PermitRootLogin no
 Banner none
 DebianBanner no
 
-# local port forward
-ssh -L 3389:<rhost>:3389 user@<sshHost>
-# connect using
-rdesktop 127.0.0.1
-
-# conncect using old encryption algorithms
+# connect using specific key exchange algorithm and cipher
 ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c 3des-cbc <user>@<rhost>
+
+# local port forwarding (forward into ssh server network)
+ssh -L <sshClientPort>:<targetHost>:<targetPort> <user>@<sshServer>
+# from client connect using 
+<command> 127.0.0.1:<sshClientPort>
+
+# remote port forwarding (forwarding into ssh client network)
+ssh -R <sshServerPort>:<targetHost>:<targetPort> <user>@<sshServer>
+# from server connect using
+<command> 127.0.0.1:<sshServerPort>
+
+# dynamic port forwarding (forward proxychains traffic into server network)
+ssh -D 9050 <user>@<sshServer> -N -v
+
+# remote  port forwarding (forward proxychains traffic into client network)
+ssh -R 9050 <user>@<sshServer> -N -v
+
+# proxychains uses port 9050 as default -> /etc/proxychain)
+proxychains rdesktop <targetHost>
 

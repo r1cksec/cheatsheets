@@ -1,0 +1,12 @@
+# get all windows environment variables
+gci env:
+
+# print specific variable
+echo $env:userdomain
+
+# fully qualified domain name
+echo $env:computername.$env:userdnsdomain
+
+# last error message
+echo $Error[0]
+

@@ -85,7 +85,10 @@ wmic service get name,displayname,pathname,startmode | findstr /i /v "C:\\Window
 # check folder permissions (look for F (Full) under Everyone)
 icacls "C:\Program Files (x86)\<path> "
 
-# replace exe file and restart service (alternatively reboot)
+# place exe file
+C:\Program Files (x86)\<path>.exe
+
+# restart service (alternatively reboot)
 sc stop "<serviceName>"
 sc start "<serviceName>"
 

