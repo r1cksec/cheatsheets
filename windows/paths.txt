@@ -20,3 +20,6 @@ C:\Users\<user>\Default\AppData\LocalTemp
 # hosts
 C:\Windows\system32\drivers\etc\hosts
 
+# gpos
+\\<domainControler>\SYSVOL\<domain>\Policies
+

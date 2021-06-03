@@ -1,3 +1,6 @@
 # start and creates a new process (detached)
 Start-Process -FilePath "cmd" -ArgumentList "/c type <powershellScript> | powershell"
 
+# start process as another user (windows will shortly be visible)
+$scp = ConvertTo-SecureString '<password>' -AsPlainText -Force; $cred = New-Object System.Management.Automation.PSCredential('<domain>\<user>', $scp); start-process -FilePath "cmd.exe" -ArgumentList "/c <command>" -Credential $cred
+

@@ -1,0 +1,6 @@
+# get GPO for given OU
+Get-GPInheritance -Target '<dinstiguishedName>'
+
+# show verbose
+Get-GPInheritance -Target '<dinstiguishedName>' | select-object -expandproperty InheritedGpoLinks
+

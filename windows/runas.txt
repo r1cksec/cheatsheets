@@ -1,6 +1,6 @@
 # run command as another user
-runas /user:<domain>\<user> "powershell.exe -c Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False"
+runas /user:<domain>\<user> "powershell.exe -c <command>"
 
 # use kerberos ticket from ram
-runas /netonly /user:<domain>\<user> "cmd.exe c <command>"
+runas /netonly /user:<domain>\<user> "cmd.exe -c <command>"
 

@@ -1,0 +1,3 @@
+# create new link from GPO to OU
+New-GPLink -Guid "<id>" -Target <distinguishedName>
+

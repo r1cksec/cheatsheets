@@ -32,3 +32,6 @@ https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-a
 # ignore certificate errors
 git -c http.sslVerify=false
 
+# get all repositories of specific user
+curl -s "https://api.github.com/users/<user>/repos?per_page=100" | grep -o 'git@[^"]*' | grep "git"
+

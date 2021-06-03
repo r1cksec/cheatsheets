@@ -2,7 +2,7 @@ API_key
 APP_SECRET
 authorization
 authorization bearer
-cinfig
+config
 connectstring
 consumerkey
 dev

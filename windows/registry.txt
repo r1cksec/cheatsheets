@@ -40,3 +40,6 @@ HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
 HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices
 HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
 
+# local account token filter policy
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system\LocalAccountTokenFilterPolicy
+

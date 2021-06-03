@@ -1,0 +1,6 @@
+# create new GPO
+New-GPO -Name <gpoName>
+
+# get informations about GPO
+Get-GPO <gpoName>
+

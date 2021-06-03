@@ -13,7 +13,9 @@ amass intel -ip -src -cidr <ip/cidr>
 # search domains using ASN number
 amass intel -asn <asnNumber>
 
+# find further root domain names (provided domains are run through reverse whois)
+amass intel -d <domain> -whois
+
 # basic enumeration using different OSINT sources (passiv - no DNS resolution and validation, src show source)
 amass enum -passive -d <domain> -src -o <outputfile>
-
 

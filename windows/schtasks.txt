@@ -17,7 +17,10 @@ onevent
 schtasks /create /sc minute /mo 1 /tn "taskName" /tr C:\Users\username\file.exe /ru system
 
 # example - execute script every day at 11 am
- schtasks /create /sc daily /st 11:00 /tn "taskName" /tr C:\Users\username\file.cmd
+schtasks /create /sc daily /st 11:00 /tn "taskName" /tr C:\Users\username\file.cmd
+
+# run task as specific user
+schtasks /create /sc <event> /mo <modifier> /tn <taskName> /tr <taskRun> /ru <domain>\<user> /rp <password>
 
 # get information about task
 schtasks /query /tn "<taskName>" /fo List /v

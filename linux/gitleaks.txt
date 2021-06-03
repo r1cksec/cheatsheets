@@ -1,0 +1,3 @@
+# scan entire history
+gitleaks --repo-url=<githubRepository> -v
+

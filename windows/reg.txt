@@ -19,3 +19,6 @@ reg add HKCU\Software\Policies\Microsoft\Windows\System /v DisableCMD /t REG_DWO
 # write security hive to file
 reg save hklm\security <file>
 
+# disable remote user account control (UAC) local account token filter policy
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
+

@@ -1,23 +1,23 @@
 # wordlist crack, -m hash type, -a attack mode
-hashcat -m 0 -a 1 <pathToHashes> <pathToPassword>
+hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 
 # Attack modes
 0 = Straight
-1 = Combination
+1 = Combination (combines 2 wordlists)
 2 = Toggle-Case
 3 = Brute-force
 4 = Permutation
 5 = Table-Lookup
-8 = Prince
 
 # bruteforce charsets
 ?l = a-z
 ?u = A-Z
 ?d = 0-9
 ?s = !-~
+?a = ?l?u?d?s
 
 # example all alphanumeric chars for 6 chars
-hashcat -3 <pathToHashes> -1 ?l?u?d ?1?1?1?1?1?1
+hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1
 
 # some hashtypes
 11 = Joomla < 2.5.18
@@ -45,7 +45,7 @@ hashcat -3 <pathToHashes> -1 ?l?u?d ?1?1?1?1?1?1
 19700 = Kerberos 5 TGS-REP (etype 18)
 
 # cracking kerberoast, -O optimize kernel but also limits password length, -w workload high (speeds up but can also affect availability)
-hashcat -o <resultFile> -m 13100 <fileToCrack> <wordlist> -O -r <pathToRule> -w 3
+hashcat -a 0 -o <resultFile> -m 13100 <fileToCrack> <wordlist> -O -r <pathToRule> -w 3
 
 # cracking wpa2
 cap2hccapx <input>.pcap <output>.hccapx [<essid1>] [<essid2>]
