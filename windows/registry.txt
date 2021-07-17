@@ -20,6 +20,9 @@ HKLM\System\CurrentControlSet\Enurn\USBStor
 HKEY_LOCAL_MACHINE\Security\Policy\Secrets
 HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon \autoadminlogon
 
+# password caching (disabled by default since Windows 2008 R2)
+HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest\UseLogonCredential
+
 # installed software on machine
 HKLM\Software
 
@@ -42,4 +45,7 @@ HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
 
 # local account token filter policy
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system\LocalAccountTokenFilterPolicy
+
+# WUServer (spoofable if http for WUServer)
+HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate
 

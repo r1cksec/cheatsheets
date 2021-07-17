@@ -7,15 +7,18 @@ track - compare results across enumerations
 # Sources
 Ask, Baidu, Bing, BuiltWith, DNSDumpster, DNSTable, HackerOne, RapidDNS, Riddler, SiteDossier, ViewDNS, Yahoo, Censys, CertSpotter, Crtsh, FacebookCT, GoogleCT, AlienVault, BinaryEdge, BufferOver, C99, CIRCL, CommonCrawl, DNSDB, GitHub, HackerTarget, IPToASN, Mnemonic, NetworksDB, PassiveTotal, Pastebin, RADb, Robtex, SecurityTrails, ShadowServer, Shodan, Spyse, Sublist3rAPI, TeamCymru, ThreatCrowd, ThreatMiner, Twitter, Umbrella, URLScan, VirusTotal, WhoisXML, ZETAlytics, ArchiveIt, LoCArchive, UKGovArchive, Wayback
 
-# reverse DNS Lookup on range, -src show source of information
-amass intel -ip -src -cidr <ip/cidr>
+# find further root domain names 
+amass intel -d <domain> -whois
 
 # search domains using ASN number
 amass intel -asn <asnNumber>
 
-# find further root domain names (provided domains are run through reverse whois)
-amass intel -d <domain> -whois
-
 # basic enumeration using different OSINT sources (passiv - no DNS resolution and validation, src show source)
 amass enum -passive -d <domain> -src -o <outputfile>
+
+# reverse DNS Lookup on cidr ranges 
+amass intel -ip -cidr <cidr>
+
+# reverse DNS Lookup on ranges
+amass intel -ip -addr <XXX.XXX.XXX.XXX-XXX>
 

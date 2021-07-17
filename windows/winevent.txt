@@ -1,0 +1,8 @@
+# get admin logon event
+Get-WinEvent -FilterHashtable @{Logname='Security';ID=4672} -MaxEvents 1 | Format-List –Property *
+
+# Event IDs
+4624 Account Logon
+4634 Account Logoff
+4672 Admin Logon
+

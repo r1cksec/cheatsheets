@@ -1,3 +1,6 @@
 # start mssql session
 python3 mssqlclient.py <user>:<password>@<rhost>
 
+# using hashes
+python3 mssqlclient.py -hashes ":<ntHash>" <user>@<rhost>
+

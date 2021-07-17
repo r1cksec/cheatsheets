@@ -28,8 +28,11 @@ msf> to_handler
 # automigrate to another process, directly after infecting target
 msf> set AutoRunScript post/windows/manage/migrate
 
+# load powershell script into current meterpreter session
+mtr> powershell_import <localFile>.ps1
+
 # tunnel traffic trough proxy
-set PROXIES HTTP:127.0.0.1:8080
+msf> set PROXIES HTTP:127.0.0.1:8080
 
 # pivoting using proxychains
 msf> auxiliary/server/socks_proxy

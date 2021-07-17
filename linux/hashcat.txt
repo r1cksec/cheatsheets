@@ -28,7 +28,7 @@ hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1
 200  = MySQL323
 300  = MySQL4.1/MySQL5
 1000 = NTLM
-1100 = Domain Cached Credentials (DCC), MS Cache
+1100 = Domain Cached Credentials (DCC), MS Cache - format: $DCC2$10240#<user>#<hash>
 1400 = SHA256
 1410 = sha256($pass.$salt)
 1420 = sha256($salt.$pass)

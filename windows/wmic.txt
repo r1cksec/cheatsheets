@@ -1,3 +1,5 @@
+# wmic uses port 135 to determine a random port for further communication
+
 # enable WinRM remotely
 wmic /node:"<rhost>" process call create "powershell enable-psremoting -force"
 

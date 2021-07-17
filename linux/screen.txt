@@ -15,6 +15,9 @@ screen -list
 # reattach
 screen -r <name>
 
+# detach session
+screen -d <name>
+
 # switch windows: CTRL + a + n
 
 # new window: CTRL + a + c 

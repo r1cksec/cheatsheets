@@ -1,7 +1,4 @@
-# check status of windows defender
-Get-Command -Module defender
-
-# exlcude path from windows defender
+# exclude path from windows defender
 Import-Module Defender
 Add-MpPreference -ExclusionPath C:\Exclude
 

