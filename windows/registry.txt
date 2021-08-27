@@ -47,5 +47,12 @@ HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system\LocalAccountTokenFilterPolicy
 
 # WUServer (spoofable if http for WUServer)
-HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate
+HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate
+
+# transcription/console logging (powershell.exe, PowerShell ISE, .NET DLL, msbuild, etc.)
+HKLM\Software\Policies\Microsoft\Windows\PowerShell\Transcription
+
+# script block logging
+HKLM\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging
+
 

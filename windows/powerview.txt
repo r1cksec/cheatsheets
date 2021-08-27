@@ -32,7 +32,7 @@ ConvertFrom-SID <securityIdentifier>
 Get-DomainOU | Get-DomainObjectAcl -ResolveGUIDs | ? { $_.ObjectAceType -eq "GP-Link" -and $_.ActiveDirectoryRights -match "WriteProperty" } | select ObjectDN, SecurityIdentifier | fl
 
 # get computeraccounts in specific OU
-Get-DomainComputer | ? { $_.DistinguishedName -match "<distinguishedName>" -or $_.DistinguishedName -match "OU=5735" } | select DnsHostName
+Get-DomainComputer | ? { $_.DistinguishedName -match "<distinguishedName>" -or $_.DistinguishedName -match "OU=<ou>" } | select DnsHostName
 
 # add full permissions over a group to specific user (right = All or ResetPassword or WriteMembers)
 Add-ObjectAcl -TargetADSprefix '<distinguishedName>' -PrincipalSamAccountName <user> -Rights <right> -Verbose

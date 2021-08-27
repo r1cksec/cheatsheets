@@ -5,11 +5,11 @@ python wmiexec.py <domain>/<user>:<password>@<rhost> <command>
 python wmiexec.py -hashes :<:ntlmHash> <domain>/<user>@<rhost> 
 
 # opsec considerations
-Windows Security Log Event IDs
+# Windows Security Log Event IDs
 -Logon (4624) -> multiple
 -Special Logon (4672) -> multiple
 
-Running Processes
+# running processes
 wininit.exe
 └── services.exe
     └── svchost.exe

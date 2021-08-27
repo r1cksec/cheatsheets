@@ -1,0 +1,5 @@
+$wsh = New-Object -comObject WScript.Shell
+$Shortcut = $wsh.CreateShortcut("$Home\Desktop\shortcut.lnk")
+$Shortcut.TargetPath = "<pathToExecutable>"
+$Shortcut.Save()
+

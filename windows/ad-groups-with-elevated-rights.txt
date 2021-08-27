@@ -75,7 +75,7 @@ S-1-5-32-554
 S-1-5-32-550
 
 # Protected Users
-# members are afforded additional protection against the compromise of credentials during authentication processes
+# members are afforded additional protection (cannot use CredSSP and WDigest, no cleartext credentials caching, no NTLM hash cached, Kerberos does not use DES or RC4 keys)
 # SID/RID:
 S-1-5-21-<domain>-525
 
@@ -87,7 +87,7 @@ S-1-5-32-555
 # Schema Admins
 # members can modify the active directory schema - group exists only in the root domain of an active directory forest
 # SID/RID:
-S-1-5-<root domain>-518
+S-1-5-<rootDomain>-518
 
 # Server Operators
 # members can sign in to a server interactively - (can not be renamed or deleted)

@@ -10,3 +10,12 @@ echo $env:computername.$env:userdnsdomain
 # last error message
 echo $Error[0]
 
+# current powershell profile
+echo $profile
+
+# show all variables of current scope
+Get-ChildItem Variable:\
+
+# equivalent to /dev/null
+$null
+

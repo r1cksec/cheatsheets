@@ -1,3 +1,11 @@
 # get user with SPN set and request tickets (kerberoast)
 python GetUserSPNs.py -request <domain>/<user>:<password> -outputfile <file>
 
+# opsec considerations
+# Windows Security Log Event IDs
+-Logon (4624)
+-Logoff (4634)
+-Kerberos Authentication Service (4768)
+-Kerberos Service Ticket Operations (4769)
+-Credential Validation (4776)
+

@@ -1,8 +1,19 @@
 # get admin logon event
 Get-WinEvent -FilterHashtable @{Logname='Security';ID=4672} -MaxEvents 1 | Format-List –Property *
 
-# Event IDs
+# discover possible kerberoasting attacks
+Get-WinEvent -FilterHashtable @{Logname='Security';ID=4769} -MaxEvents 1000 | ?{$_.Message.split("`n")[8] -ne 'krbtgt' -and $_.Message.split("`n")[8] -ne '*$' -and $_.Message.split("`n")[3] -notlike '*$@*' -and $_.Message.split("`n")[18] -like '*0x0*' -and $_.Message.split("`n")[17] -like "*0x17*"} | select -ExpandProperty message
+
+# Event IDs lateral movement
 4624 Account Logon
 4634 Account Logoff
 4672 Admin Logon
+
+# Event ID kerberoast
+4769 Request Kerberos Ticket 
+
+# Event IDs modification of ACLs (Audit Policy for object must be enabled)
+4662  An operation was performed on an object
+4670  Permissions on an object were changed
+5136  A directory service object was modified
 

