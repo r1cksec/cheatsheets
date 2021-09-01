@@ -1,6 +1,9 @@
 # show saved wireless profiles
 netsh wlan show profiles
 
+# get the clear-text password 
+netsh wlan show profile <ssid> key=clearownload
+
 # list interfaces 
 netsh interface ip show interfaces
 
