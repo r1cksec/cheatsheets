@@ -5,15 +5,15 @@ https://github.com/fox-it/BloodHound.py
 python3 bloodhound.py -u <user> -d <domain> -p <password> -dc <dcHostname> --collectionmethod all 
 
 # collection methods
+Acl
+DCOM
+DCOnly (Group,Acl,Trusts,ObjectProps)
 Group
 LocalAdmin
-RDP
-DCOM
-PSRemote
-DCOnly (Group,Acl,Trusts,ObjectProps)
-Session
-Acl
-Trusts
 LoggedOn
 ObjectProps (LastLogon, PwdLastSet)
+PSRemote
+RDP
+Session
+Trusts
 

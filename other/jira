@@ -1,3 +1,12 @@
 # get permissions of current user (possibly unauthenticated attackers could also have permissions)
-curl https://<domain>/rest/api/2/mypermissions | jq | grep -iB6 '"havePermission": true'
+curl https://<rhost>/rest/api/2/mypermissions | jq | grep -iB6 '"havePermission": true'
+
+# check for sign up possibility
+https://<rhost>/servicedesk/customer/user/login
+
+# check for publicly available filters and dashboards
+/secure/popups/UserPickerBrowser.jspa
+/secure/ManageFilters.jspa?filterView=popular
+/secure/ConfigurePortalPages!default.jspa?view=popular
+/rest/project-templates/1.0/createshared
 

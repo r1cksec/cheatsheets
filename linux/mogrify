@@ -1,0 +1,3 @@
+# resize image
+mogrify -resize 100x50 <file.png>
+

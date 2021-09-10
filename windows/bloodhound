@@ -6,17 +6,17 @@ https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe
 SharpHound.exe --CollectionMethod Session --Stealth 
 
 # collection methods
-All
-DCOnly (Users, Groups, Computers, Domain trusts, ACLs, OUs, GPO-Links)
-ComputerOnly (Sessions, local Groups)
-Sessions
 ACL
-GPOLocalGroup (touch only DC)
-Trusts
+All
+ComputerOnly (Sessions, local Groups)
 Container (OU, GPO-links)
-LocalGroup (RDP, DCOM, PSRemote)
-LocalAdmin
-RDP
 DCOM
+DCOnly (Users, Groups, Computers, Domain trusts, ACLs, OUs, GPO-Links)
+GPOLocalGroup (touch only DC)
+LocalAdmin
+LocalGroup (RDP, DCOM, PSRemote)
 PSRemote
+RDP
+Session
+Trusts
 

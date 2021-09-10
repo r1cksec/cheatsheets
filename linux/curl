@@ -19,3 +19,6 @@ curl -k --connect-timeout 3 https://<domain>
 # use cookie and follow redirect
 curl -L --cookie "<cookieName>=<value>" https://<domain>
 
+# ntlm authentication
+curl -u '<domainIntern>\<user>:<password>' --ntlm https://<rhost>
+

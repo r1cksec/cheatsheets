@@ -7,3 +7,6 @@ sed 's/$/<string>/g' <file>
 # print lines between 2 patterns
 sed -n '/<pattern1>/,/<pattern2>/p' <file>
 
+# print only words longer than 3 chars
+sed -r '/^.{,3}$/d' <file>
+
