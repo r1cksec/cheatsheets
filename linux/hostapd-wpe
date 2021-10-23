@@ -1,3 +1,6 @@
+# source
+https://github.com/OpenSecurityResearch/hostapd-wpe
+
 # get vendor of to clone access point
 # dont use the same bssid and channel -> otherwise you create conflicts and probably DOS
 

@@ -18,3 +18,8 @@ tmux a -t <name>
 # scroll
 Ctrl and b, PgUp
 
+# save output to file
+Ctrl and b, :
+capture-pane -S -99999
+save-buffer <file>
+

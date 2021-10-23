@@ -1,12 +1,8 @@
-# get all users without limit 
-$res = ([adsisearcher]"(objectClass=user)")
-$res.PageSize = 1000
-$res.FindAll() | ForEach-Object { $_.GetDirectoryEntry() } | Select-Object -Property samaccountname
+# get all usernames without limit 
+$res = ([adsisearcher]"(objectClass=user)"); $res.PageSize = 1000; $res.FindAll().Properties.samaccountname
 
 # get description and name of all computer
-$res = ([adsisearcher]"(objectClass=computer)")
-$res.PageSize = 1000
-$res.FindAll() | ForEach-Object { $_.GetDirectoryEntry() } | Select-Object -Property *
+$res = ([adsisearcher]"(objectClass=computer)"); $res.PageSize = 1000; $res.FindAll().Properties 
 
 # get domain admins
 ([adsisearcher]"(&(objectClass=user)(admincount=1))").FindAll().Properties.samaccountname

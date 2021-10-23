@@ -1,3 +1,6 @@
+# source
+https://github.com/aircrack-ng/aircrack-ng
+
 # check packet loss - simulate clients that want to connect
 aireplay-ng --test -a <ssid> <interface>
 

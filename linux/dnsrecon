@@ -1,3 +1,6 @@
+# source
+https://github.com/darkoperator/dnsrecon
+
 # d domain, D dictionary, t type standard, gb google bing
 dnsrecon -d <domain> -D <file> -t <std> -gb
 

@@ -1,3 +1,6 @@
+# source
+https://github.com/vanhauser-thc/thc-hydra
+
 # -l user, -L userList
 # -C user-pass-list (root:password)
 # -p password, -P  passwordlist

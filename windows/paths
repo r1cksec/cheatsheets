@@ -36,3 +36,9 @@ C:\Windows\system32\drivers\etc\hosts
 # gpos
 \\<domainController>\SYSVOL\<domain>\Policies
 
+# ntds.dit
+C:\Windows\system32\Windows\NTDS\ntds.dit
+
+# sam, system, security
+C:\Windows\system32\config
+

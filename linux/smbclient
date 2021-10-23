@@ -1,3 +1,6 @@
+# source
+https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbclient.py
+
 # impacket smbclient (supports pass-the-hash)
 python3 smbclient.py <domain>/<user>:<password>@<rhost>
 

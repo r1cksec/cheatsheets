@@ -1,3 +1,6 @@
+# source
+https://github.com/sqlmapproject/sqlmap
+
 # scan GET parameter, -u URL, -p parameter
 sqlmap -u http://<domain>/<path>.php?<var>=1 -p <var>
 

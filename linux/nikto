@@ -1,3 +1,6 @@
+# source
+https://github.com/sullo/nikto
+
 # run nikto with all tunings except DOS
 nikto -Tuning x 6 -h <domain> -port <rport>,<rport>
 

@@ -26,6 +26,9 @@ git checkout master
 # get path to project
 git remote get-url origin
 
+# set custom timestamp
+git commit --date="Wed Feb 13 15:00 2019 +0100" -m "<message>"
+
 # generate access token
 https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
 

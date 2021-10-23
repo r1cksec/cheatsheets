@@ -1,3 +1,6 @@
+# source
+https://github.com/SecureAuthCorp/impacket/blob/master/examples/ntlmrelayx.py
+
 # Pass-The-Hash with NTHash/NTLM possible
 # Pass-The-Hash with NET-NTLM/NTLMv1/v2 not possible
 

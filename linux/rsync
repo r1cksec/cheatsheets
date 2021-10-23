@@ -1,3 +1,6 @@
+# source
+https://github.com/WayneD/rsync
+
 # list files 
 rsync -av --list-only rsync://<rhost>/<share> 
 

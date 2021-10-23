@@ -1,3 +1,6 @@
+# source
+https://github.com/jordansissel/xdotool
+
 # type some string
 xdotool type <string>
 

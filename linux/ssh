@@ -12,7 +12,7 @@ chmod 600 ~/.ssh/authorized_keys
 ssh-keyscan -t rsa <rhost> -p <rport>
 
 # change password of private ssh key
-ssh-keygen -p -f <<privatKey>>
+ssh-keygen -p -f <privateKey>
 
 # only allow key-based authentication
 sudo vim /etc/ssh/sshd_config
@@ -36,12 +36,25 @@ ssh -R <sshServerPort>:<targetHost>:<targetPort> <user>@<sshServer>
 # from server connect using
 <command> 127.0.0.1:<sshServerPort>
 
+# create user with no login shell for proxychains forwarding
+useradd <user> -m -s /bin/false
+cd /home/<user>
+mkdir .ssh
+chown <user>:<user> .ssh
+chmod 700 .ssh
+cd .ssh
+touch authorized_keys
+chown <user>:<user> authorized_keys
+chmod 600 authorized_keys
+ssh-keygen -t rsa -b 4096
+cat <publicKey> >> authorized_keys
+
 # dynamic port forwarding (forward proxychains traffic into server network)
 ssh -D 9050 <user>@<sshServer> -N -v
 
-# remote  port forwarding (forward proxychains traffic into client network)
-ssh -R 9050 <user>@<sshServer> -N -v
+# remote port forwarding (forward proxychains traffic into client network)
+ssh -o 'StrictHostKeyChecking=no' -i .\<publicKey> -N -R 9050 <user>@<sshServer>
 
-# proxychains uses port 9050 as default -> /etc/proxychain)
-proxychains rdesktop <targetHost>
+# proxychains uses port 9050 as default -> /etc/proxychains4.conf)
+proxychains <command>
 

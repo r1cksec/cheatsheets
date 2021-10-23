@@ -1,3 +1,6 @@
+# source
+https://github.com/hak5darren/USB-Rubber-Ducky
+
 # german keyboard layout
 java -jar duckencoder.jar -l de -i <duckyScript>.txt -o inject.bin
 

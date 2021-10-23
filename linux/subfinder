@@ -1,3 +1,6 @@
+# source
+https://github.com/projectdiscovery/subfinder
+
 # find domains using OSINT
 subfinder -d <domain>
 

@@ -1,6 +1,9 @@
 # create new session
 screen -S <name>
 
+# log session to file
+screen -S <name> -L -Logfile <file>
+
 # detach: CTRL + a, d
 
 # kill session: CTRL + a, k

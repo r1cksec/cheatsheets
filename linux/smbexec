@@ -1,3 +1,6 @@
+# source
+https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbexec.py
+
 # get semi interactive shell
 python smbexec.py <domain>/<user>:<password>@<rhost>
 

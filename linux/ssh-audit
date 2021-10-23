@@ -1,3 +1,6 @@
+# source
+https://github.com/jtesta/ssh-audit
+
 # basic usage
 ssh-audit.py <rhost:rport>
 

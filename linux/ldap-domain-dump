@@ -1,3 +1,6 @@
+# source
+https://github.com/dirkjanm/ldapdomaindump
+
 # basic usage
 python3 ldapdomaindump -u <domain>\\<user> -p <password> <ipOfDomainController> -d "|"
 

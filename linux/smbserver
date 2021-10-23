@@ -1,3 +1,6 @@
+# source
+https://github.com/SecureAuthCorp/impacket/blob/master/impacket/smbserver.py
+
 # start smb server
 smbserver.py <shareName> <pathToSharedDir>
 

@@ -1,3 +1,6 @@
+# source
+https://github.com/kornelski/7z
+
 # create 7 zip archive
 7z a <resultZip> <fileOrDir>
 

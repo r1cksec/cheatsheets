@@ -1,3 +1,6 @@
+# source
+https://github.com/Hackplayers/evil-winrm
+
 # start shell on host (port 5985)
 evil-winrm -i <ip> -u <user> -p <password>
 

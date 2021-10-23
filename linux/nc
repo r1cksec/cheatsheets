@@ -1,3 +1,6 @@
+# source
+https://github.com/diegocr/netcat
+
 # start listener
 nc -lvp <lport>
 

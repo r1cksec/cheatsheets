@@ -1,3 +1,6 @@
+# source
+https://github.com/ShawnDEvans/smbmap
+
 # list mountable shares on remote host
 smbmap -d <domain> -H <rhost>
 

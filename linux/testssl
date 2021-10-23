@@ -1,3 +1,6 @@
+# source
+https://github.com/drwetter/testssl.sh
+
 # test testssl
 bash testssl.sh <domain>
 

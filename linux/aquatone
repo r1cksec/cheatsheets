@@ -1,3 +1,6 @@
+# source
+https://github.com/michenriksen/aquatone
+
 # run aquatone based on XML nmap result
 cat <nmap.xml> | aquatone -nmap -out <pathToResults>
 

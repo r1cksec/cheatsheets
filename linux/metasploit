@@ -1,3 +1,6 @@
+# source
+https://github.com/rapid7/metasploit-framework
+
 # execute before start of msfconsole
 msf> systemctl start postgresql
 
@@ -28,6 +31,9 @@ msf> to_handler
 # automigrate to another process, directly after infecting target
 msf> set AutoRunScript post/windows/manage/migrate
 
+# smb_login with ntlm hash
+ms> set smbpass <nthash:nthash>
+
 # load powershell script into current meterpreter session
 mtr> powershell_import <localFile>.ps1
 
@@ -43,5 +49,5 @@ msf> run -j
 # adjust listening port
 sudo vim /etc/proxychains4.conf
 # insert
-socks4 	127.0.0.1 1080
+socks4  127.0.0.1 1080
 

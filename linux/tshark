@@ -1,3 +1,6 @@
+# source
+https://github.com/wireshark/wireshark/blob/master/tshark.c
+
 # filter output, -T set format for output, -e field for formatted output - see https://www.wireshark.org/docs/dfref
 tshark -i <interface> -T fields -e smb.native_lanman
 

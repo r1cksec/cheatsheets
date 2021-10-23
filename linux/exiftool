@@ -1,3 +1,6 @@
+# source
+https://github.com/exiftool/exiftool
+
 # print metadata of file
 exiftool <file>
 

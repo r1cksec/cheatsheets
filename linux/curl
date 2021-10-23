@@ -13,8 +13,8 @@ curl -I https://<domain>
 # JSON PUT
 curl -i -H 'Content-Type: application/json' -H 'Accept: application/json' -X PUT -d '{"updated_<field>":"updated_<value>"}' "http://<domain>/<path>"
 
-# use timeout of 3 seconds, skip TLS verification
-curl -k --connect-timeout 3 https://<domain>
+# use timeout of 3 seconds, skip TLS verification, use POST with variables
+curl -k --max-time 3 --data-binary $'username='"$user"'' https://<domain>
 
 # use cookie and follow redirect
 curl -L --cookie "<cookieName>=<value>" https://<domain>

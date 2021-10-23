@@ -13,3 +13,5 @@ phonebook = search for phone numbers, not combineable
 author = search for author of google groups, combineable
 group = search for google group, combineable
 
+# search for "internalDomain" -> to get informations about internal structure
+

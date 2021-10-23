@@ -1,3 +1,6 @@
+# source
+https://github.com/SecureAuthCorp/impacket/blob/master/examples/mssqlclient.py
+
 # start mssql session
 python3 mssqlclient.py <user>:<password>@<rhost>
 

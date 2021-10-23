@@ -1,3 +1,6 @@
+# source
+https://github.com/hashcat/hashcat
+
 # wordlist crack, -m hash type, -a attack mode
 hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 
