@@ -10,6 +10,9 @@ $res = ([adsisearcher]"(objectClass=computer)"); $res.PageSize = 1000; $res.Find
 # query for specific user
 ([adsisearcher]"(&(objectClass=user)(samaccountname=<user>))").FindAll().Properties
 
+# query for azure ad connect server
+([adsisearcher]"(samaccountname=MSQL_*)").FindAll().Properties
+
 # get distinguished name of specific user
 ([adsisearcher]"(&(objectClass=user)(samaccountname=<user>))").FindAll().Properties.distinguishedname
 

@@ -55,6 +55,6 @@ Request-SPNTicket -SPN 'foo/bar'
 # after export of tickets using mimikatz remove SPN
 Set-DomainObject -Credential $Cred -Identity <userOrComputer> -Clear serviceprincipalname
 
-# list accesible shares
-Find-DomainShare -CheckShareAccess
+# list accesible shares (without -ComputerName check all domain joined hosts)
+Find-DomainShare -CheckShareAccess -ComputerName <rhost>
 

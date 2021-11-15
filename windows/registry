@@ -55,4 +55,9 @@ HKLM\Software\Policies\Microsoft\Windows\PowerShell\Transcription
 # script block logging
 HKLM\Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging
 
+# wsus
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate
+
+# local account token filter policy
+HKLM\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\POLICIES\SYSTEM /V LocalAccountTokenFilterPolicy
 

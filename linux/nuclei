@@ -1,0 +1,6 @@
+# source
+https://github.com/projectdiscovery/nuclei
+
+# scan list of hosts using default templates
+nuclei -list <rhostsFile> -o <file>
+

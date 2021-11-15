@@ -10,3 +10,6 @@ netsh interface ip show interfaces
 # set new dns server
 netsh interface ip set dns local static <rhost>
 
+# list proxy settings
+netsh winhttp show proxy
+

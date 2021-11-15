@@ -19,3 +19,6 @@ Get-ChildItem Variable:\
 # equivalent to /dev/null
 $null
 
+# current process id
+$PID
+

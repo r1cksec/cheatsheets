@@ -59,3 +59,7 @@ net session
 # terminate all running sessions
 net use /delete *
 
+
+# get remote shares
+net view \\<rhost> /all
+
