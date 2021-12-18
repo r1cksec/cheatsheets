@@ -96,6 +96,7 @@ The User Principle Name is the name of a system user in an email address format.
 
 # Bloodhound Components
 Depending on the options used for Sharphound, the following information is collected directly from the Domain Controller:
+
     -Security Group Memberships
         Security Groups can consist of users, computers and other groups and are also transitive.
         This means that if user A is a member of group B and group B is a member of group C, then user A is also a member of group C.
@@ -152,71 +153,77 @@ Bloodhound obtains the following information from all domain-joined Windows comp
 # Nodes
 
 ## User
--AdminCount
--ASREP Roastable
--Cannot Be Delegated
--Description
--Distinguishedname
--Enabled Status
--FQDN
--Last Logon
--Object ID
--Password Last Changed
--Password Never Expires
--Reachable High Value Targets
--SAM
--Sibling Objects in the Same OU
--UPN
+
+    -AdminCount
+    -ASREP Roastable
+    -Cannot Be Delegated
+    -Description
+    -Distinguishedname
+    -Enabled Status
+    -FQDN
+    -Last Logon
+    -Object ID
+    -Password Last Changed
+    -Password Never Expires
+    -Reachable High Value Targets
+    -SAM
+    -Sibling Objects in the Same OU
+    -UPN
 
 ## Group
--Description
--Distinguishedname
--FQDN
--Members
--Object ID
--UPN
+
+    -Description
+    -Distinguishedname
+    -FQDN
+    -Members
+    -Object ID
+    -UPN
 
 ## Computer
--DCOM Execution Policy
--Description
--Distinguishedname
--Enabled Status
--FQDN
--LAPS
--Last Logon 
--Local Admin Rights
--Object ID
--OS
--Password Last Changed
--RDP Execution Policy
--Sessions
--SQL Execution Policy
--TRUSTED_FOR_DELEGATION
+
+    -DCOM Execution Policy
+    -Description
+    -Distinguishedname
+    -Enabled Status
+    -FQDN
+    -LAPS
+    -Last Logon 
+    -Local Admin Rights
+    -Object ID
+    -OS
+    -Password Last Changed
+    -RDP Execution Policy
+    -Sessions
+    -SQL Execution Policy
+    -TRUSTED_FOR_DELEGATION
 
 ## Domain
--DCSync Execution Policy
--Distinguishedname
--Domain Functional Level
--FQDN
--Name
--Object ID
--Trusts
+
+    -DCSync Execution Policy
+    -Distinguishedname
+    -Domain Functional Level
+    -FQDN
+    -Name
+    -Object ID
+    -Trusts
 
 ## GPO
--Distinguishedname
--FQDN
--Name
--Object ID
--Trusts
+
+    -Distinguishedname
+    -FQDN
+    -Name
+    -Object ID
+    -Trusts
 
 ## OU
--Distinguishedname
--FQDN
--Inheritance Policy
--Members
--Object ID
--SAM
--UPN
+
+    -Distinguishedname
+    -FQDN
+    -Inheritance Policy
+    -Members
+    -Object ID
+    -SAM
+    -UPN
 
 
 # Edges
@@ -340,7 +347,7 @@ The last step will request a service ticket on behalf of User X for Service B:
 
 ```
 PS> Rubeus.exe s4u /user:<attackerComputerA> /rc4:<attackerComputerNtlmHash> /impersonateuser:<targetUserX> /msdsspn:<spn>/<fqdnTargetComputerB> /ptt
-``
+```
 
 The tickets are all loaded into memory (because of the /ptt option) so that Service B on behalf of User X can be accessed from the same logon session:
 

