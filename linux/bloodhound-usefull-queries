@@ -10,7 +10,7 @@ MATCH p1 = (daPrincipal)-[:MemberOf*1..]->(daGroup:Group {name:'DOMÄNEN-ADMINS@
 MATCH (n:User) WHERE n.hasspn=true RETURN n
 
 # find unsupported OS Windows 7
-MATCH (H:Computer) WHERE H.operatingsystem =~ 'Windows 7 Enterprise Service Pack 1|Windows Server 2008 R2 Standard Service Pack 1' RETURN H
+MATCH (H:Computer) WHERE H.operatingsystem =~ 'Windows 7 Enterprise Service Pack 1|Windows Server 2008 R2 Standard Service Pack 1|Windows Server 2012 R2 Standard|Windows Server 2003|Windows 7 Enterprise|Windows 7 Professional|Windows Server 2003|Windows Server 2008 R2 Enterprise|Windows Server 2008 R2 Standard|Windows XP Professional' RETURN H
 
 # view GPOs that contain a keyword
 Match (n:GPO) WHERE n.name CONTAINS "SERVER" return n

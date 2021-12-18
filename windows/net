@@ -23,7 +23,7 @@ net group /domain
 # get users of a group
 net group "<group>" /domain
 
-# get domain controler
+# get domain controller
 net group "Domain Controllers" /domain
 
 # add user to group

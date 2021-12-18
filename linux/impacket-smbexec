@@ -1,7 +1,7 @@
 # source
 https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbexec.py
 
-# get semi interactive shell
+# get semi interactive powershell
 python smbexec.py <domain>/<user>:<password>@<rhost>
 
 # using hash

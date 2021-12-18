@@ -1,3 +1,5 @@
+# requires Remote Server Administration Tools - default on domain controller
+
 # get GPO for given OU
 Get-GPInheritance -Target '<dinstiguishedName>'
 

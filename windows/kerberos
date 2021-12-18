@@ -5,7 +5,7 @@ LTSK   - Long-Term Session Key
 PAC    - Privilege Access Certificate
 SPN    - Service Principle Name (contains ServiceClass and Hostname of server)
 TGS    - Ticket-Granting Service
-TGT    - Ticket-Granting Ticket
+TGT    - Ticket-Granting Ticket (SPN of TGT is krbtgt/<domain>)
 
 ## not 100% accurate 
 # user > (ID, IP, lifetime) > AS

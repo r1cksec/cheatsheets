@@ -1,3 +1,5 @@
+# requires Remote Server Administration Tools - default on domain controller
+
 # create new link from GPO to OU
 New-GPLink -Guid "<id>" -Target <distinguishedName>
 

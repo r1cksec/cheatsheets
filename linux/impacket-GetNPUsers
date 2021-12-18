@@ -2,5 +2,5 @@
 https://raw.githubusercontent.com/SecureAuthCorp/impacket/master/examples/GetNPUsers.py
 
 # reqeust TGT for user without PreAuthentication set (asreproasting)
-GetNPUsers.py <domain>/<user>:<password>
+impacket-GetNPUsers <domain>/<user>:<password>
 

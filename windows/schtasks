@@ -13,13 +13,13 @@ onidle
 monthly
 onevent
 
-# example - execute script every minute regardless of which user has logged in
+# example - execute script every minute regardless of which user logged in - start immediately
 schtasks /create /sc minute /mo 1 /tn "taskName" /tr C:\Users\username\file.exe /ru system
 
 # example - execute script every day at 11 am
 schtasks /create /sc daily /st 11:00 /tn "taskName" /tr C:\Users\username\file.cmd
 
-# run task as specific user
+# run task as specific user - if executed as elevated process /rp is not needed
 schtasks /create /sc <event> /mo <modifier> /tn <taskName> /tr <taskRun> /ru <domain>\<user> /rp <password>
 
 # get information about task

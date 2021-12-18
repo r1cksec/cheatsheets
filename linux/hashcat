@@ -20,7 +20,7 @@ hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 ?a = ?l?u?d?s
 
 # example all alphanumeric chars for 6 chars
-hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1
+hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
 
 # some hashtypes
 11 = Joomla < 2.5.18

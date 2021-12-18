@@ -20,7 +20,7 @@ Get-NetDomainTrust
 Get-NetForest
 
 # find all machines where user has local admin rights
-Find-LocalAdminAccess –Verbose
+Find-LocalAdminAccess –Verbose -Domain <domain> -Computername <rhost>
 
 # show all security identifiers (SID) that can create new GPOs
 Get-DomainObjectAcl -SearchBase "CN=Policies,CN=System,DC=<domainComponent>,DC=<domainComponent>" -ResolveGUIDs | ? { $_.ObjectAceType -eq "Group-Policy-Container" } | select ObjectDN, ActiveDirectoryRights, SecurityIdentifier | fl
