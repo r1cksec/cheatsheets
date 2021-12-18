@@ -620,6 +620,7 @@ An attacker can grant himself all access permissions:
 
 ```
 PS> Add-DomainObjectAcl -PrincipalIdentity <targetComputerAccount> -Rights All
+```
 
 The further procedure is then the same as for AddAllowedToAct or ReadLAPSPassword.
 
