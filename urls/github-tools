@@ -55,6 +55,9 @@ Another LSASS dumping tool that uses a dynamically compiled LSA plugin to grab a
 https://github.com/CCob/SharpBlock
 A method of bypassing EDR's active projection DLL's by preventing entry point exection
 
+https://github.com/Cn33liz/p0wnedShell
+PowerShell Runspace Post Exploitation Toolkit
+
 https://github.com/D4stiny/ForkPlayground
 An implementation and proof-of-concept of Process Forking.
 
@@ -72,6 +75,9 @@ https://github.com/EdOverflow/can-i-take-over-xyz
 
 https://github.com/ExAndroidDev/fakemeeting
 Creates and sends fake meeting invite
+
+https://github.com/FDlucifer/Proxy-Attackchain
+proxylogon, proxyshell, proxyoracle and proxytoken full chain exploit tool
 
 https://github.com/FSecureLABS/SharpGPOAbuse
 SharpGPOAbuse is a .NET application written in C# that can be used to take advantage of a user's edit rights on a Group Policy Object (GPO) in order to compromise the objects that are controlled by that GPO.
@@ -400,6 +406,9 @@ A protective and Low Level Shellcode Loader that defeats modern EDR systems.
 https://github.com/cube0x0/CVE-2021-1675
 C# and Impacket implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527
 
+https://github.com/cube0x0/noPac
+CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter.
+
 https://github.com/cym13/vbs-reverse-shell
 VBS reverse shell scripts
 
@@ -486,6 +495,9 @@ HTA Visual Basic script for remote shell on windows machines
 
 https://github.com/frohoff/ysoserial
 A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+
+https://github.com/fullhunt/log4j-scan
+A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-2021-44228
 
 https://github.com/gentilkiwi/mimikatz
 A little tool to play with Windows security
@@ -628,6 +640,9 @@ HTA encryption tool for RedTeams
 https://github.com/nccgroup/ssh_user_enum
 SSH User Enumeration Script in Python Using The Timing Attack
 
+https://github.com/nettitude/RunPE
+C# Reflective loader for unmanaged binaries.
+
 https://github.com/nettitude/SharpSocks
 Tunnellable HTTP/HTTPS socks4a proxy written in C# and deployable via PowerShell
 
@@ -640,8 +655,14 @@ Kerberoast is a series of tools for attacking MS Kerberos implementations.
 https://github.com/nmap/nmap
 Nmap - the Network Mapper. Github mirror of official SVN repository.
 
+https://github.com/nodauf/GoMapEnum
+User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin
+
 https://github.com/nomi-sec/PoC-in-GitHub
 PoC auto collect from GitHub. warning Be careful Malware.
+
+https://github.com/noperator/CVE-2019-18935
+RCE exploit for a .NET JSON deserialization vulnerability in Telerik UI for ASP.NET AJAX.
 
 https://github.com/nyxgeek/lyncsmash
 locate and attack Lync/Skype for Business

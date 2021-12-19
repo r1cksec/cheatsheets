@@ -1,8 +1,4 @@
-# Cheatsheets
-
-This repository contains cheatsheets.
-
-## Categories
+# Categories
 
 Exploits <br>
 Fuzzing <br>
