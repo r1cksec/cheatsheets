@@ -1,6 +1,6 @@
-$str = "some string"
+$Str = "some string"
 
-if ($str.contains("string"))
+if ($Str.contains("string"))
 {
     echo "String contains substring"
 }

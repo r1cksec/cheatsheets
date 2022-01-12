@@ -907,3 +907,12 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/klezVirus/vortex
+VPN Overall Reconnaissance, Testing, Enumeration and eXploitation Toolkit
+
+https://github.com/pwn1sher/WMEye
+WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Execution for lateral movement
+
+https://github.com/D3VL/L3MON
+L3MON - Remote Android Managment Suite
+

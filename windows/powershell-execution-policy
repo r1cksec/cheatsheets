@@ -28,7 +28,7 @@ PowerShell.exe -ExecutionPolicy Remote-signed -File <file>.ps1
 
 function Disable-ExecutionPolicy {($ctx = $executioncontext.gettype().getfield("context","nonpublic,instance").getvalue( $executioncontext)).gettype().getfield("_authorizationManager","nonpublic,instance").setvalue($ctx, (new-object System.Management.Automation.AuthorizationManager "Microsoft.PowerShell"))}  Disable-ExecutionPolicy  <file>.ps1
 
-Set-ExecutionPolicy Bypass -Scope Process
+Set-ExecutionPolicy Bypass -Scope Process -Force
 
-Set-Executionpolicy -Scope CurrentUser -ExecutionPolicy UnRestricted
+Set-Executionpolicy -Scope CurrentUser -ExecutionPolicy UnRestricted -Force
 
