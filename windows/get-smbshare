@@ -1,3 +1,0 @@
-# list smb shares
-Get-SmbShare -name "<computer>"
-

@@ -16,9 +16,14 @@ comsvcs_stealth
 dllinject
 dumpert
 dumpertdll
+edrsandblast
+mirrordump
 mirrordump_embedded
-procdump
-procdump_embedded
+nanodump
 ppldump
 ppldump_embedded
+procdump
+procdump_embedded
+rdrleakdiag
+wer
 

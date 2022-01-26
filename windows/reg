@@ -26,3 +26,6 @@ reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalA
 # enable remotely RDP
 reg add "\\<rhost>\HKLM\SYSTEM\CurentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 
+# read configured Windows defender exclusions
+reg query "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions" /s
+

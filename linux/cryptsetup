@@ -2,10 +2,10 @@
 cryptsetup luksFormat <device> -s 512 -h sha512 -i 5000 --type luks2
 
 # decrypt device
-cryptsetup open <device> <encryptDev>
+cryptsetup open <device> <encryptedDev>
 
 # encrypt device
-cryptsetup close <device> /dev/mapper/<encryptDev>
+cryptsetup close /dev/mapper/<encryptedDev>
 
 # add keyslot with new 1000 iterations
 cryptsetup -i 1000 --key-slot <slot> luksAddKey <dev>

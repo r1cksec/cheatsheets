@@ -916,3 +916,36 @@ WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Executi
 https://github.com/D3VL/L3MON
 L3MON - Remote Android Managment Suite
 
+https://github.com/w1u0u1/smb2os
+Use smb2 protocol to detect remote computer os version, support win7/server2008-win10/server2019
+
+https://github.com/Ridter/noPac
+Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user
+
+https://github.com/sa7mon/S3Scanner
+Scan for open S3 buckets and dump the contents
+
+https://github.com/kgretzky/evilginx2
+Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
+
+https://github.com/gophish/gophish
+Open-Source Phishing Toolkit
+
+https://github.com/initstring/cloud_enum
+Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+
+https://github.com/RedCursorSecurityConsulting/PPLKiller
+Tool to bypass LSA Protection (aka Protected Process Light)
+
+https://github.com/chrismaddalena/SharpCloud
+Simple C# for checking for the existence of credential files related to AWS, Microsoft Azure, and Google Compute.
+
+https://github.com/CCob/SweetPotato
+Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019
+
+https://github.com/antonioCoco/SharPyShell
+SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications
+
+https://github.com/DarkCoderSc/PowerRemoteDesktop
+Remote Desktop entirely coded in PowerShell.
+

