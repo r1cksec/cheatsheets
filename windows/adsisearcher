@@ -1,7 +1,7 @@
 # get all usernames without limit 
 $res = ([adsisearcher]"(objectClass=user)"); $res.PageSize = 1000; $res.FindAll().Properties.samaccountname
 
-# get description and name of all computer
+# get all computer object 
 $res = ([adsisearcher]"(objectClass=computer)"); $res.PageSize = 1000; $res.FindAll().Properties | convertto-json
 
 # get domain admins

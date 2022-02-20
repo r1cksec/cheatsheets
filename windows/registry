@@ -46,6 +46,9 @@ HKLM\System\CurrentControlSet\Enurn\USBStor
 # RunAsPPL (Protected Process Light)
 HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v RunAsPPL
 
+# AMSI provider
+HKLM\SOFTWARE\Microsoft\AMSI\Providers
+
 # startup locations (elevated)
 HKLM\Software\Microsoft\Windows\CurrentVersion\Run
 HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce

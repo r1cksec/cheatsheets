@@ -2,5 +2,5 @@
 Select-String <string> * -CaseSensitive -Recurse 2> $null
 
 # grep line before and after matching line
-<string> * -Context 1,1
+Select-String <string> * -Context 1,1
 

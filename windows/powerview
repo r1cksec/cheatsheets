@@ -44,7 +44,9 @@ Add-ObjectAcl -TargetDistinguishedName 'distinguishedName' -PrincipalSamAccountN
 Set-DomainUserPassword -Identity <user> -AccountPassword (ConvertTo-SecureString "<password>" -AsPlainText -Force) -Verbose
 
 # check if user has SPN set (targeted kerberoast)
-Get-DomainUser -Identity <userOrComputer> | select serviceprincipalname
+Get-DomainUser -Identity <user> | select serviceprincipalname
+# or
+Get-DomainComputer -Identity <user> | select serviceprincipalname
 
 # set a new SPN
 Set-DomainObject -Identity <userOrComputer> -Set @{serviceprincipalname='foo/bar'}

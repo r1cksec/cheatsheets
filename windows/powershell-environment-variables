@@ -22,3 +22,6 @@ $null
 # current process id
 $PID
 
+# status of last executed command
+$?
+

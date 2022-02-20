@@ -1,0 +1,2 @@
+$FileContent = Get-Content .\FileName
+

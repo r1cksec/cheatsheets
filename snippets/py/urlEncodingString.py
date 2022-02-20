@@ -1,4 +1,4 @@
 import urllib.parse
 
-print(urllib.parse.quote("https://www.example.com/"))
+print(urllib.parse.quote("example :! test"))
 

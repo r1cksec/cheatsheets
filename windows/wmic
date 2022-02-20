@@ -1,4 +1,4 @@
-# wmic uses port 135 to determine a random port for further communication
+# wmic uses port 135 to determine a random port for further communication - appears to not work with Fully Qualified Domain Names
 
 # enable WinRM remotely
 wmic /node:"<rhost>" process call create "powershell enable-psremoting -force"
@@ -18,6 +18,9 @@ wmic os get ServicePackMajorVersion,Caption,OSArchitecture
 
 # list all patches
 wmic qfe
+
+# get domain name
+wmic computersystem get domain
 
 # display architecture (32/64 bit)
 wmic cpu get DataWidth /format:list
