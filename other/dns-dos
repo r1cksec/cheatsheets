@@ -1,7 +1,0 @@
-dig <domain> A @<dnsHost>
-
-# not possible if request gets refused
-
-# possible
-->>HEADER<<- opcode: QUERY...
-
