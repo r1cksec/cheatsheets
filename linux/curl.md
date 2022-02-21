@@ -1,0 +1,40 @@
+### insert parameter in request, -d data, -s show error
+```
+curl -s -d grant_type=password -d param1=<value> -d param2=<value> https://<domain>/<path>
+```
+
+### print POST body of request
+```
+curl --trace-ascii /dev/stdout -s -d param1=<value> https://<domain>/<path>
+```
+
+### use GET and insert 2 lines into Header
+```
+curl -X GET -H 'Accept: application/json' -H 'eyJhbBar...' 'https://<domain>/<path>'
+```
+
+### show only header of response
+```
+curl -I https://<domain>
+```
+
+### JSON PUT
+```
+curl -i -H 'Content-Type: application/json' -H 'Accept: application/json' -X PUT -d '{"updated_<field>":"updated_<value>"}' "http://<domain>/<path>"
+```
+
+### use timeout of 3 seconds, skip TLS verification, use POST with variables
+```
+curl -k --max-time 3 --data-binary $'username='"$user"'' https://<domain>
+```
+
+### use cookie and follow redirect
+```
+curl -L --cookie "<cookieName>=<value>" https://<domain>
+```
+
+### ntlm authentication
+```
+curl -u '<domainIntern>\<user>:<password>' --ntlm https://<rhost>
+```
+
