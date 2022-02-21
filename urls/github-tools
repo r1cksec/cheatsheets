@@ -103,6 +103,9 @@ SharpGPOAbuse is a .NET application written in C# that can be used to take advan
 https://github.com/Flangvik/DeployPrinterNightmare
 C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc!
 
+https://github.com/Flangvik/NetLoader
+Loads any C# binary in mem, patching AMSI + ETW.
+
 https://github.com/Flangvik/SharpCollection
 Nightly builds of common C# offensive tools, fresh from their respective master branches built and released in a CDI fashion using Azure DevOps release pipelines.
 

