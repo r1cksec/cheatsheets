@@ -1,7 +1,7 @@
 ### source
 https://github.com/s0lst1c3/silentbridge  
 
-### required informations and steps
+### required informations
 ```
 disable DHCP and Network-Manager for used interfaces
 

