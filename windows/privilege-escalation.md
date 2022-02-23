@@ -49,8 +49,8 @@ Get-ScheduledTask | where {$_.TaskPath -notlike "\Microsoft*"} | ft TaskName,Tas
 
 ## Services
 ### get services with vulnerable permissions 
-https://live.sysinternals.com/accesschk.exe
-https://github.com/ankh2054/windows-pentest/blob/master/Privelege/accesschk-2003-xp.exe
+https://live.sysinternals.com/accesschk.exe  
+https://github.com/ankh2054/windows-pentest/blob/master/Privelege/accesschk-2003-xp.exe  
 ```
 accesschk.exe -uwcqv "Everyone" * /accepteula
 accesschk.exe -uwcqv "Authenticated Users" * /accepteula
