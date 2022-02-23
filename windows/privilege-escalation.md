@@ -9,8 +9,8 @@ https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_x86/Seat
 https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_x86/Watson.exe  
 
 ## Juicy Potato
-https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
-https://github.com/ivanitlearning/Juicy-Potato-x86/releases/download/1.2/Juicy.Potato.x86.exe
+https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe  
+https://github.com/ivanitlearning/Juicy-Potato-x86/releases/download/1.2/Juicy.Potato.x86.exe  
 ```
 needs SeImpersonate or SeAssignPrimaryToken privilege
 whoami /priv
@@ -22,8 +22,8 @@ whoami /priv
 ```
 
 ### get CLSID
-https://raw.githubusercontent.com/ohpe/juicy-potato/master/CLSID/GetCLSID.ps1
-https://ohpe.it/juicy-potato/CLSID
+https://raw.githubusercontent.com/ohpe/juicy-potato/master/CLSID/GetCLSID.ps1  
+https://ohpe.it/juicy-potato/CLSID  
 
 
 
