@@ -1,5 +1,0 @@
-# source
-https://github.com/RythmStick/AMSITrigger/releases/download/v3/AmsiTrigger_x64.exe
-
-AmsiTrigger_x64.exe -u http://<rhost>/<script>.ps1
-
