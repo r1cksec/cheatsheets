@@ -1,0 +1,2 @@
+sizeof($arr);
+

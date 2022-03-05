@@ -182,3 +182,8 @@ shift + a
 :read ! <command>
 ```
 
+### increment next integer by 1
+```
+1 + CTRL + A
+```
+
