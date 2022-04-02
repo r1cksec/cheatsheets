@@ -40,10 +40,10 @@ hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
 200  = MySQL323
 300  = MySQL4.1/MySQL5
 1000 = NTLM
-1100 = Domain Cached Credentials (DCC), MS Cache - format: $DCC2$10240#<user>#<hash>
 1400 = SHA256
 1410 = sha256($pass.$salt)
 1420 = sha256($salt.$pass)
+2100 = Domain Cached Credentials (DCC), MS Cache - format: $DCC2$10240#<user>#<hash>
 2500 = WPA/WPA2
 5600 = NetNTLMv2
 7300 = IPMI2 RAKP HMAC-SHA1
@@ -52,6 +52,7 @@ hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
 11200 = MySQL Challenge-Response Authentication (SHA1)
 11400 = SIP digest authentication (MD5)
 13100 = Kerberos 5 TGS-REP (etype 23)
+13400 = Keepass (kdbx file) - format: :$keepass$*2*<int>*<hash>
 18200 = Kerberos 5 AS-REP (etype 23)
 19600 = Kerberos 5 TGS-REP (etype 17)
 19700 = Kerberos 5 TGS-REP (etype 18)

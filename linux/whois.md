@@ -34,3 +34,7 @@ upd-to
 zone-c
 ```
 
+### grep for IP addresses related to AS number
+```
+whois -h whois.radb.net -- '-i origin <asn>' | grep -Eo "([0-9.]+){4}/[0-9]+" | uniq
+```

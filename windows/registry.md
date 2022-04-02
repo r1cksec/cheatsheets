@@ -43,6 +43,11 @@ HKLM\Software\Microsoft\Windows NT\CurrentVersion
 HKLM\Software\Microsoft\Windows NT\CurrentVersion /v RegisteredOwner 
 ```
 
+### UAC settings
+```
+reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System | Select-String EnableLUA
+```
+
 ### system root
 ```
 HKLM\Software\Microsoft\Windows NT\CurrentVersion /v SystemRoot 

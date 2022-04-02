@@ -1012,3 +1012,12 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/Wra7h/SharpGhosting
+Process Ghosting in C#
+
+https://github.com/MartinIngesen/TokenStomp
+C# implementation of the token privilege removal flaw discovered by @GabrielLandau/Elastic
+
+https://github.com/login-securite/DonPAPI
+Dumping DPAPI credz remotely
+
