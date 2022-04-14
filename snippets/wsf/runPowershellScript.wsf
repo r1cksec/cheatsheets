@@ -1,0 +1,9 @@
+<package>
+  <job id="js">
+    <script languange="JScript">
+      var sh = WScript.CreateObject("WScript.Shell");
+      sh.Run("Powershell.exe");
+    </script>
+  </job>
+</package>
+

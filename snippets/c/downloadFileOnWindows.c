@@ -4,7 +4,7 @@
 #define MAX_LINE 512
 
 char url[MAX_LINE] = "https://rhost";
-char destination[MAX_LINE] = "destinationFile.txt";
+char destination[MAX_LINE] = "file.txt";
 char buffer[MAX_LINE];
 
 HRESULT dl;
