@@ -1,4 +1,4 @@
-### error codes
+### Error codes
 ```
 KDC_ERR_NONE                - No error
 KDC_ERR_NAME_EXP            - Client's entry in database has expired

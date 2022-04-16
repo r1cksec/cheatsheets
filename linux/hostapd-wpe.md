@@ -1,18 +1,18 @@
-### source
+### Source
 https://github.com/OpenSecurityResearch/hostapd-wpe  
 
-### general information to clone access point
+### General information to clone access point
 ```
 get vendor of to clone access point
 dont use the same bssid and channel -> otherwise you create conflicts and probably DOS
 ```
 
-### copy example config
+### Copy example config
 ```
 /etc/hostapd-wpe/hostapd-wpe.conf
 ```
 
-### edit copied config
+### Edit copied config
 ```
 interface=<interface>
 ...
@@ -28,39 +28,39 @@ channel=1
 bssid=<bssid>
 ```
 
-### launch evil twin attack (in config at least interface, ssid and channel must be set)
+### Launch evil twin attack (in config at least interface, ssid and channel must be set)
 ```
 hostapd-wpe -c hostapd-wpe.conf
 ```
 
-### create custom certificates using example certs
+### Create custom certificates using example certs
 ```
 /etc/hostapd-wpe/certs
 ```
 
-### delete all certificates
+### Delete all certificates
 ```
 make destroycerts
 ```
 
-### create new dh-param
+### Create new dh-param
 ```
 ./bootstrap
 ```
 
-### edit certs
+### Edit certs
 ```
 vim ca.cnf
 ```
 
-### create new certificates 
+### Create new certificates 
 ```
 make ca
 make client
 make server
 ```
 
-### karma mode
+### Karma mode
 ```
 hostapd-wpe -k <config>
 ```

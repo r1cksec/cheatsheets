@@ -1,44 +1,44 @@
-### get all windows environment variables
+### Get all windows environment variables
 ```
 gci env:
 ```
 
-### print specific variable
+### Print specific variable
 ```
 echo $env:userdomain
 ```
 
-### fully qualified domain name
+### Fully qualified domain name
 ```
 echo $env:computername.$env:userdnsdomain
 ```
 
-### last error message
+### Last error message
 ```
 echo $Error[0]
 ```
 
-### current powershell profile
+### Current powershell profile
 ```
 echo $profile
 ```
 
-### show all variables of current scope
+### Show all variables of current scope
 ```
 Get-ChildItem Variable:\
 ```
 
-### equivalent to /dev/null
+### Equivalent to /dev/null
 ```
 $null
 ```
 
-### current process id
+### Current process id
 ```
 $PID
 ```
 
-### status of last executed command
+### Status of last executed command
 ```
 $?
 ```

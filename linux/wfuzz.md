@@ -1,4 +1,4 @@
-### source
+### Source
 https://github.com/xmendez/wfuzz  
 
 ### -c = color, -z = paylaod, file.txt contains strings for fuzzing --hc = hide response with code XXX

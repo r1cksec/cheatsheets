@@ -1,7 +1,7 @@
-### source
+### Source
 https://raw.githubusercontent.com/dafthack/MFASweep/master/MFASweep.ps1  
 
-### check if mfa is enabled for:
+### Check if mfa is enabled for:
 ```
 Microsoft Graph API - exploit using Import-Module MSOnline; Connect-MsolService or $credential = Get-Credential; Connect-MsolService -Credential $credential
 Azure Service Managment API - exploit using Import-Module Az; Connect-AzAccount or $credential = Get-Credential; Connect-AzAccount -Credential $credential
@@ -11,7 +11,7 @@ Microsoft 365 Web Portal /w Mobile User Agent - exploit by changing the user age
 Microsoft 365 ActiveSync - exploit using build in mail application in windows
 ```
 
-### check mfa settings
+### Check mfa settings
 ```
 Invoke-MFWSweep -Username <user>@<domain> -Password <password>
 ```

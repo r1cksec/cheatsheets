@@ -1,82 +1,82 @@
 ## wmic uses port 135 to determine a random port for further communication - appears to not work with Fully Qualified Domain Names
 
-### enable WinRM remotely
+### Enable WinRM remotely
 ```
 wmic /node:"<rhost>" process call create "powershell enable-psremoting -force"
 ```
 
-### get user accounts
+### Get user accounts
 ```
 wmic useraccount get name,fullname
 ```
 
-### get password expire value of accounts
+### Get password expire value of accounts
 ```
 wmic useraccount get name,passwordexpires /Value
 ```
 
-### unlock user account
+### Unlock user account
 ```
 wmic useraccount where name='username' set disabled=true
 ```
 
-### get os informations
+### Get os informations
 ```
 wmic os list Brief /format:list
 wmic os get ServicePackMajorVersion,Caption,OSArchitecture
 ```
 
-### list all patches
+### List all patches
 ```
 wmic qfe
 ```
 
-### get domain name
+### Get domain name
 ```
 wmic computersystem get domain
 ```
 
-### display architecture (32/64 bit)
+### Display architecture (32/64 bit)
 ```
 wmic cpu get DataWidth /format:list
 ```
 
-### list services that start automatically
+### List services that start automatically
 ```
 wmic SERVICE WHERE StartMode="Auto" GET Name, State
 ```
 
-### execute process
+### Execute process
 ```
 wmic process call create "<processName>"
 ```
 
-### kill process
+### Kill process
 ```
 wmic process where name="<processName>" call terminate
 ```
 
-### view logical shares
+### View logical shares
 ```
 wmic logicaldisk get description,name
 ```
 
-### remotely determine logged in user
+### Remotely determine logged in user
 ```
 wmic /node:"<rhost>" computersystem get username
 ```
 
-### execute file hosted over SMB on remote system with specified credential
+### Execute file hosted over SMB on remote system with specified credential
 ```
 wmic /node:"<rhost>" /user:"<domain>\<user>" /password:<password> process call create "\\<rhost>\<share>\<file.exe>"
 ```
 
-### remotely start RDP
+### Remotely start RDP
 ```
 wmic /node:"<rhost>" path Win32_TerminalServiceSetting where AllowTSConnections="0" call SetAllowTSConnections "1"
 ```
 
-### execute command
+### Execute command
 ```
 wmic /node:"<rhost>" /user:"<domain>\<user>" /password:"<password>" process call create "powershell <command>"
 ```

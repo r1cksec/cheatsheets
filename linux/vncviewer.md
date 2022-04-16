@@ -1,4 +1,4 @@
-### start VNC session
+### Start VNC session
 ```
 vncviewer <rhost>:<rport>
 ```

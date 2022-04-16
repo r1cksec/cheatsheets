@@ -1,4 +1,4 @@
-### compile and run cs code in memory
+### Compile and run cs code in memory
 ```
 $sourceCode = @"
     using System.IO;

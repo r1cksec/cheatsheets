@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/rezasp/joomscan  
 
-### update
+### Update
 ```
 perl joomscan.pl --update
 ```
 
-### scan for vulnerabilities, misconfigurations and admin-level shortcomings
+### Scan for vulnerabilities, misconfigurations and admin-level shortcomings
 ```
 perl joomscan.pl -u <domain>
 ```

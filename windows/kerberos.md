@@ -1,4 +1,4 @@
-### terms
+### Terms
 ```
 AS     - Authentication Service
 KDC    - Key Distribution Center
@@ -10,7 +10,7 @@ TGS    - Ticket-Granting Service
 TGT    - Ticket-Granting Ticket (SPN of TGT is krbtgt/<domain>)
 ```
 
-### rough procedure
+### Rough procedure
 ```
 user > (ID, IP, lifetime) > AS
 AS will check database for ID
@@ -24,7 +24,7 @@ TGS > (Ticket for service - encrypted with service key) > user
 user > (Ticket for service) > service 
 ```
 
-### golden ticket
+### Golden ticket
 ```
 TGT signed and encrypted by the hash of KrbTGT account
 it can be used to impersonate any user with any privileges from even a non-domain machine

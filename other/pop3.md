@@ -1,9 +1,9 @@
-### connect 
+### Connect 
 ```
 telnet <rhost> 110
 ```
 
-### read mails
+### Read mails
 ```
 USER <user>
 PASS <password>

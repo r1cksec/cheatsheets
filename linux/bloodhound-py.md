@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/fox-it/BloodHound.py  
 
-### collect active directory informations
+### Collect active directory informations
 ```
 python3 bloodhound.py -u <user> -d <domain> -p <password> -dc <dcFqdn> -ns <dnsServerIp> --collectionmethod all 
 ```
 
-### collection methods
+### Collection methods
 ```
 Acl
 DCOM

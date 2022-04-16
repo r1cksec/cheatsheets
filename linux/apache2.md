@@ -1,14 +1,14 @@
-### create new user and password
+### Create new user and password
 ```
 htpasswd -c /etc/apache2/.htpasswd <user>
 ```
 
-### add dir for basic auth
+### Add dir for basic auth
 ```
 vim /etc/apache2/apache2.conf
 ```
 
-### basic authentication inside: /etc/apache2/apache2.conf
+### Basic authentication inside: /etc/apache2/apache2.conf
 ```
 <Directory /var/www/html>
     AuthType Basic
@@ -18,28 +18,28 @@ vim /etc/apache2/apache2.conf
 </Directory>
 ```
 
-### disable packages
+### Disable packages
 ```
 a2disconf <package>
 systemctl reload apache2
 ```
 
-### alternative remove symlink
+### Alternative remove symlink
 ```
 rm /etc/apache2/mods-enabled/<package>
 ```
 
-### manipulate header
+### Manipulate header
 ```
 a2enmod headers
 ```
 
-### prevent clickjacking
+### Prevent clickjacking
 ```
 sed -i '$ a\Header always append X-Frame-Options DENY' /etc/apache2/apache2.conf
 ```
 
-### remove apache version inside: /etc/apache2/apache2.conf
+### Remove apache version inside: /etc/apache2/apache2.conf
 ```
 Header unset Server
 ServerSignature Off

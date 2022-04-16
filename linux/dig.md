@@ -1,34 +1,34 @@
-### check domain result
+### Check domain result
 ```
 dig <domain> +short
 ```
 
-### reverse search (rDNS)
+### Reverse search (rDNS)
 ```
 dig -x <ip> +short
 ```
 
-### get mail server
+### Get mail server
 ```
 dig <domain> mx
 ```
 
-### zonetransfer on specific host
+### Zonetransfer on specific host
 ```
 dig axfr @<dns-ip> <domain>
 ```
 
-### get any information
+### Get any information
 ```
 dig ANY @<dns-ip> <domain>
 ```
 
-### check sender policy framework
+### Check sender policy framework
 ```
 dig -t txt <domain> | grep -i spf
 ```
 
-### check txt records for third party software
+### Check txt records for third party software
 ```
 dig -t txt <domain>
 ```

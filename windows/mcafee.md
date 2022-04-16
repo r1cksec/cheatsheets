@@ -1,9 +1,9 @@
-### path to quarantine
+### Path to quarantine
 ```
 C:\Quarantine\quarantine
 ```
 
-### password for zip
+### Password for zip
 ```
 infected
 ```

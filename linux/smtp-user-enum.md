@@ -1,4 +1,4 @@
-### source
+### Source
 https://gitlab.com/kalilinux/packages/smtp-user-enum  
 
 ### -M method (VRFY,EXPN,RCPT), w wait seconds for response

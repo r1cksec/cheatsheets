@@ -1,4 +1,4 @@
-### show current directory structure recursively
+### Show current directory structure recursively
 ```
 tree /f
 ```

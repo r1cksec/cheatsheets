@@ -1,4 +1,4 @@
-### get information about current user
+### Get information about current user
 ```
 gpresult /r 
 ```

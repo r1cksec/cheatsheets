@@ -1,4 +1,4 @@
-### test manual for open relay
+### Test manual for open relay
 ```
 HELO <domain>
 250 ...
@@ -13,7 +13,7 @@ Subject: <subject>
 .
 ```
 
-### authenticate using base64
+### Authenticate using base64
 ```
 echo -n <user> | base64
 echo -n <password> | base64
@@ -25,12 +25,12 @@ AUTH LOGIN
 <passwordBase64>
 ```
 
-### verify if user exists
+### Verify if user exists
 ```
 VRFY <user>
 ```
 
-### mail spoof countermeasures - SPF (Sender Policy Framework - check if host is authorized to send mail)
+### Mail spoof countermeasures - SPF (Sender Policy Framework - check if host is authorized to send mail)
 ```
 dig <domain> | grep spf
 ```

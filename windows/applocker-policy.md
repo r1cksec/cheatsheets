@@ -1,9 +1,9 @@
-### show applocker policy
+### Show applocker policy
 ```
 Get-AppLockerPolicy -Effective | select -ExpandProperty RuleCollections
 ```
 
-### possibly writeable paths
+### Possibly writeable paths
 ```
 C:\Windows\Tasks
 C:\Windows\Temp

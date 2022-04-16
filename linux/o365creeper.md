@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/LMGsec/o365creeper  
 
-### validate list of emails
+### Validate list of emails
 ```
 o365creeper.py -f <emailsFile> -o <validEmailsFil>
 ```

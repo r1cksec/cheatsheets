@@ -21,14 +21,14 @@ OnBootSec=10s
 WantedBy=timers.target  
 ```
 
-### start job
+### Start job
 ```
 systemctl daemon-reload
 systemctl start <jobName>.timer
 systemctl enable <jobName>.timer
 ```
 
-### check status
+### Check status
 ```
 systemctl list-timers --all
 ```

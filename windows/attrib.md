@@ -1,9 +1,9 @@
-### hide directory or file
+### Hide directory or file
 ```
 attrib +h <file>
 ```
 
-### remove hidden attribute 
+### Remove hidden attribute 
 ```
 attrib -h <file>
 ```

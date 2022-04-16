@@ -1,14 +1,14 @@
-### download RIPE database
+### Download RIPE database
 ```
 wget ftp://ftp.ripe.net/ripe/dbase/ripe.db.gz
 ```
 
-### download RADB databases (no RIPE)
+### Download RADB databases (no RIPE)
 ```
 wget -r --exclude-directories=/radb/dbase/archive/ -A gz ftp://ftp.radb.net/radb/dbase/
 ```
 
-###registries
+###rEgistries
 ```
 whois.ripe.net (Europe, Middle East, Russia)
 whois.arin.net (USA, Canada, Caribbean)

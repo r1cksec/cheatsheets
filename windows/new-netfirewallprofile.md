@@ -1,19 +1,19 @@
-### allow specific tcp port for ingoing traffic
+### Allow specific tcp port for ingoing traffic
 ```
 New-NetFirewallRule -DisplayName "<name>" -Direction Inbound -LocalPort <port> -Protocol TCP -Action Allow
 ```
 
-### block specific tcp port for ingoing traffic
+### Block specific tcp port for ingoing traffic
 ```
 New-NetFirewallRule -DisplayName "<name>" -Direction Inbound -LocalPort <port> -Protocol TCP -Action Block
 ```
 
-### list firewall rule
+### List firewall rule
 ```
 Get-NetFirewallRule -DisplayName "<name>"
 ```
 
-### remove firewall rule
+### Remove firewall rule
 ```
 Get-NetFirewallRule -DisplayName "<name>"
 ```

@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/jtesta/ssh-audit  
 
-### basic usage
+### Basic usage
 ```
 ssh-audit.py <rhost:rport>
 ```
 
-### useful arguments
+### Useful arguments
 ```
 -1, force ssh version 1 only 
 -v, verbose

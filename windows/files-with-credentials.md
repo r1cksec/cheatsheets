@@ -1,4 +1,4 @@
-### https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/LFI/LFI-gracefulsecurity-windows.txt
+### Https://raw.githubusercontent.com/danielmiessler/SecLists/master/Fuzzing/LFI/LFI-gracefulsecurity-windows.txt
 ```
 C:\Program Files\MySQL\MySQL Server 5.0\MSSQL\master.mdf
 C:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\master.mdf

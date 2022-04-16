@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/hashcat/hashcat  
 
-### wordlist crack, -m hash type, -a attack mode
+### Wordlist crack, -m hash type, -a attack mode
 ```
 hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 ```
@@ -16,7 +16,7 @@ hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 5 = Table-Lookup
 ```
 
-### bruteforce charsets
+### Bruteforce charsets
 ```
 ?l = a-z
 ?u = A-Z
@@ -25,12 +25,12 @@ hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 ?a = ?l?u?d?s
 ```
 
-### example all alphanumeric chars for 6 chars
+### Example all alphanumeric chars for 6 chars
 ```
 hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
 ```
 
-### some hashtypes
+### Some hashtypes
 ```
 11 = Joomla < 2.5.18
 12 = PostgreSQL
@@ -58,18 +58,18 @@ hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
 19700 = Kerberos 5 TGS-REP (etype 18)
 ```
 
-### cracking kerberoast, -O optimize kernel but also limits password length, -w workload high (speeds up but can also affect availability)
+### Cracking kerberoast, -O optimize kernel but also limits password length, -w workload high (speeds up but can also affect availability)
 ```
 hashcat -a 0 -o <resultFile> -m 13100 <fileToCrack> <wordlist> -O -r <pathToRule> -w 3
 ```
 
-### cracking wpa2
+### Cracking wpa2
 ```
 cap2hccapx <input>.pcap <output>.hccapx [<essid1>] [<essid2>]
 hashcat -m 2500 -a 0 <wordlist> <file>.hccapx
 ```
 
-### show results
+### Show results
 ```
 hashcat -m <hashId> <resultFile> --show
 ```

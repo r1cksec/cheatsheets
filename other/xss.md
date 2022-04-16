@@ -24,7 +24,7 @@ window.navigate()
 window.open()
 ```
 
-### eventhandler
+### Eventhandler
 ```
 onabort
 onblur
@@ -49,7 +49,7 @@ onsubmit
 onunload
 ```
 
-### examples
+### Examples
 ```
 <a href="javascript:alert(1)">
 <iframe onmouseover=alert(1)>

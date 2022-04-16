@@ -1,17 +1,17 @@
-### source
+### Source
 https://github.com/openwall/john  
 
-### show results
+### Show results
 ```
 john <hashFile> --show --format=<format>
 ```
 
-### generate password list with permutations
+### Generate password list with permutations
 ```
 john --stdout --wordlist=<wordListFile.txt> --rules=korelogic > <newListName.txt>
 ```
 
-### common hash type
+### Common hash type
 ```
 krb5tgs
 lm
@@ -21,27 +21,27 @@ mscash2 (domain cached credentials)
 wpapsk (wpa2)
 ```
 
-### use already cracked passwords and more CPU
+### Use already cracked passwords and more CPU
 ```
 john --loopback --fork=4
 ```
 
-### file containing cracked passwords
+### File containing cracked passwords
 ```
 ~/.john/john.pot
 ```
 
-### list all formats
+### List all formats
 ```
 john --list=formats
 ```
 
-### example
+### Example
 ```
 john --wordlist=<wordlist> <fileToCrack> --rules=korelogic --format=NT
 ```
 
-### convert file for john
+### Convert file for john
 ```
 rar2john
 zip2john

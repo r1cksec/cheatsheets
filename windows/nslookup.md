@@ -1,4 +1,4 @@
-### user specific DNS server
+### User specific DNS server
 ```
 nslookup <domain> <dnsServerIp>
 ```

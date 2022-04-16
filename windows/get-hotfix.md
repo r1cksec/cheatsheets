@@ -1,4 +1,4 @@
-### get installed hotfixes
+### Get installed hotfixes
 ```
 get-hotfix
 ```

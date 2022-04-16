@@ -1,4 +1,4 @@
-### test and check for WebDAV enabled servers
+### Test and check for WebDAV enabled servers
 ```
 davtest -url <url>
 ```

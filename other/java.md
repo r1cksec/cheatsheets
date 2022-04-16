@@ -1,4 +1,4 @@
-### java user-supplied data
+### Java user-supplied data
 ```
 getParameter
 getParameterNames
@@ -19,24 +19,24 @@ getRequestURI
 getRequestURL
 ```
 
-### array of Cookie objects and sessions IDs
+### Array of Cookie objects and sessions IDs
 ```
 getCookies
 getRequestedSessionId
 ```
 
-### different representations of the raw request received from the client 
+### Different representations of the raw request received from the client 
 ```
 getInputStream
 getReader
 ```
 
-### method used in the HTTP request
+### Method used in the HTTP request
 ```
 getMethod
 ```
 
-### reading / writing files
+### Reading / writing files
 ```
 java.io.FileInputStream
 java.io.FileOutputStream
@@ -44,7 +44,7 @@ java.io.FileReader
 java.io.FileWriter
 ```
 
-### database access
+### Database access
 ```
 java.sql.Connection.createStatement
 java.sql.Statement.execute
@@ -57,7 +57,7 @@ java.lang.runtime.Runtime.getRuntime
 java.lang.runtime.Runtime.exec
 ```
 
-### redirection
+### Redirection
 ```
 javax.servlet.http.HttpServletResponse.sendRedirect
 javax.servlet.http.HttpServletResponse.setStatus

@@ -1,4 +1,4 @@
-### get history of executed commands
+### Get history of executed commands
 ```
 get-history | fl
 ```

@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/signedsecurity/sigurlfind3r  
 
-### find subdomains using passiv osint
+### Find subdomains using passiv osint
 ```
 sigurlfind3r -d <domain>
 ```
 
-### sources withou api key needed
+### Sources withou api key needed
 ```
 commoncrawl, otx, urlscan, wayback, waybackrobots
 ```

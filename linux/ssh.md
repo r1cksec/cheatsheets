@@ -1,30 +1,30 @@
-### generate new ssh key pair
+### Generate new ssh key pair
 ```
 ssh-keygen -t rsa -b 4096
 ```
 
-### upload key to server
+### Upload key to server
 ```
 ssh-copy-id -i ~/.ssh/<privateKey> <user>@<rhost>
 ```
 
-### if error occurs try:
+### If error occurs try:
 ```
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-### download public ssh key
+### Download public ssh key
 ```
 ssh-keyscan -t rsa <rhost> -p <rport>
 ```
 
-### change password of private ssh key
+### Change password of private ssh key
 ```
 ssh-keygen -p -f <privateKey>
 ```
 
-### only allow key-based authentication in /etc/ssh/sshd_config
+### Only allow key-based authentication in /etc/ssh/sshd_config
 ```
 PubkeyAuthentication yes
 PasswordAuthentication no
@@ -33,29 +33,29 @@ Banner none
 DebianBanner no
 ```
 
-### connect using specific key exchange algorithm and cipher
+### Connect using specific key exchange algorithm and cipher
 ```
 ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c 3des-cbc <user>@<rhost>
 ```
 
-### local port forwarding (forward into ssh server network)
+### Local port forwarding (forward into ssh server network)
 ```
 ssh -L <sshClientPort>:<targetHost>:<targetPort> <user>@<sshServer>
 # from client connect using 
 <command> 127.0.0.1:<sshClientPort>
 ```
 
-### remote port forwarding (forwarding into ssh client network)
+### Remote port forwarding (forwarding into ssh client network)
 ```
 ssh -R <sshServerPort>:<targetHost>:<targetPort> <user>@<sshServer>
 ```
 
-### from server connect using
+### From server connect using
 ```
 <command> 127.0.0.1:<sshServerPort>
 ```
 
-### create user with no login shell for proxychains forwarding
+### Create user with no login shell for proxychains forwarding
 ```
 useradd <user> -m -s /bin/false
 cd /home/<user>
@@ -70,17 +70,17 @@ ssh-keygen -t rsa -b 4096
 cat <publicKey> >> authorized_keys
 ```
 
-### dynamic port forwarding (forward proxychains traffic into server network)
+### Dynamic port forwarding (forward proxychains traffic into server network)
 ```
 ssh -D 9050 <user>@<sshServer> -N -v
 ```
 
-### remote port forwarding (forward proxychains traffic into client network)
+### Remote port forwarding (forward proxychains traffic into client network)
 ```
 ssh -o 'StrictHostKeyChecking=no' -i .\<publicKey> -N -R 9050 <user>@<sshServer>
 ```
 
-### proxychains uses port 9050 as default -> /etc/proxychains4.conf)
+### Proxychains uses port 9050 as default -> /etc/proxychains4.conf)
 ```
 proxychains <command>
 ```

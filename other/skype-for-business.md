@@ -1,10 +1,10 @@
-### tools for user enumeration and bruteforce
+### Tools for user enumeration and bruteforce
 ```
 lyncsmash (linux)
 lyncsniper (windows)
 ```
 
-### paths for ntlm authentication
+### Paths for ntlm authentication
 ```
 /abs
 /WebTicket/WebTicketService.svc
@@ -17,7 +17,7 @@ lyncsniper (windows)
 /mcx
 ```
 
-### scan for internal domain
+### Scan for internal domain
 ```
 nmap -v -Pn -sS -p 443 --script http-ntlm-info --script-args http-ntlm-info.root="/abs/" <rhost>
 ```

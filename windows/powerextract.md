@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/powerpointken/PowerExtract  
 
-### parse lsass dump
+### Parse lsass dump
 ```
 Invoke-PowerExtract -PathToDMP <file>.dmp
 ```

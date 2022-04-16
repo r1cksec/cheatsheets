@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/s0lst1c3/silentbridge  
 
-### required informations
+### Required informations
 ```
 disable DHCP and Network-Manager for used interfaces
 
@@ -16,12 +16,12 @@ get MAC address of default gateway - example <mac3>
 C> ipconfig /all  
 ```
 
-### start silent bridge and listen
+### Start silent bridge and listen
 ```
 $> ./silentbridge --create-bridge --upstream <interface1> --phy <interface2> --sidechannel <interface1>
 ```
 
-### start interactive mode
+### Start interactive mode
 ```
 $> ./silentbridge --add-interaction --gw-mac <mac3> --client-ip <ip> --upstream <interface1> --client-mac <mac2> --phy <interface2> --switch-mac <mac1> --sidechannel <interface1>
 ```

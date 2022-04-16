@@ -1,4 +1,4 @@
-### ssdl - a text string that can be used to describe a security descriptor
+### Ssdl - a text string that can be used to describe a security descriptor
 ```
 RP 	= Start  
 WP 	= Stop  
@@ -8,7 +8,7 @@ BA	= Built-in (local) administrators
 AU	= Authenticated Users  
 ```
 
-### example
+### Example
 ```
 (A;;RPQP;;;AU) - users within the authenticated users group are allowed to start or stop the service
 ```

@@ -1,14 +1,14 @@
-### get group member
+### Get group member
 ```
 Get-ADGroupMember -identity <group>
 ```
 
-### add group member
+### Add group member
 ```
 Add-ADGroupMember -Identity <group> -Members <user>
 ```
 
-### remove group member
+### Remove group member
 ```
 Remove-ADGroupMember -Identity <group> -Members <user>
 ```

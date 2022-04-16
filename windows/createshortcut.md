@@ -1,4 +1,4 @@
-### create shortcut
+### Create shortcut
 ```
 $Wsh = New-Object -comObject WScript.Shell
 $Shortcut = $Wsh.CreateShortcut("$Home\Desktop\shortcut.lnk")

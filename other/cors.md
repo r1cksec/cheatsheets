@@ -1,15 +1,15 @@
-### detect cors vulns (also add . at the end of the domain)
+### Detect cors vulns (also add . at the end of the domain)
 ```
 curl https://<domain> -H "Origin: https://<attackerDomain>" -I
 ```
 
-### check for:
+### Check for:
 ```
 Access-Control-Allow-Origin: https://<attackerDomain>
 Access-Control-Allow-Credentials: true
 ```
 
-### proof of concept code
+### Proof of concept code
 ```
 <html>
 <head>

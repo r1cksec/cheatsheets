@@ -1,4 +1,4 @@
-### execute command reading from a file (example send mail using smtp) - bash <file>.sh
+### Execute command reading from a file (example send mail using smtp) - bash <file>.sh
 ```
 {
     sleep 3;

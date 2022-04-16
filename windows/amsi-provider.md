@@ -1,4 +1,4 @@
-### get amsi provider
+### Get amsi provider
 ```
 $A = Get-ChildItem 'HKLM:\SOFTWARE\Microsoft\AMSI\Providers' -Recurse
 $A -match '[0-9A-Fa-f\-]{36}'

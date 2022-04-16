@@ -33,6 +33,12 @@ The Local Administrator Password Solution is a tool for storing local admin pass
 ## LDAP 
 The Lightweight Directory Access Protocol is a network protocol for querying and modifying information from distributed directory services. The protocol listens on port 389 and 636 (LDAP over SSL).
 
+## msDS-KeyCredentialLink
+LDAP attribute that holds the public key of the TPM if the Key Trust model is implemented
+
+## ms-MCS-AdmPwd
+LDAP attribute that holds the password of the local administrator. Used inside the Local Administrator Password Solution (LAPS).
+
 ## NOT_DELEGATED 
 A flag which can be set in the UAC flags. If this flag is set, services are not allowed to impersonate this account.
 
@@ -77,6 +83,9 @@ The Ticket Granting Service issues a service ticket for the requested service af
 
 ## TGT 
 The Ticket Granting Ticket allows users and services to request tickets from the Ticket Granting Service.
+
+## TPM
+The Trusted Platform Module is designed to provide hardware-based, security-related functions. It can be used to store cryptographic keys or in combination with certificates.
 
 ## TRUSTED_FOR_DELEGATION 
 A flag which can be set in the User Account Control Flags. This flag prevents the extension S4U2Self from being used. If this flag is set, a service can only forward the authentication of a user to the Kerberos Authentication Server. The impersonated user must have interacted with the service before impersonation.

@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/hak5darren/USB-Rubber-Ducky  
 
-### german keyboard layout
+### German keyboard layout
 ```
 java -jar duckencoder.jar -l de -i <duckyScript>.txt -o inject.bin
 ```
 
-### keys
+### Keys
 ```
 ALT 
 CTRL-ALT
@@ -18,39 +18,39 @@ GUI | WINDOWS
 SHIFT 
 ```
 
-### wait for 5 seconds
+### Wait for 5 seconds
 ```
 DELAY 5000
 ```
 
-### wait 2 seconds between each command
+### Wait 2 seconds between each command
 ```
 DEFAULT_DELAY 200
 ```
 
-### press CTRL + S
+### Press CTRL + S
 ```
 CTRL S
 ```
 
-### repeat last command N times
+### Repeat last command N times
 ```
 REPEAT [N] 
 ```
 
-### open mac OS X Spotlight
+### Open mac OS X Spotlight
 ```
 GUI SPACE
 STRING <string>
 ```
 
-### open CMD terminal
+### Open CMD terminal
 ```
 WINDOWS
 STRING cmd.exe
 ```
 
-### press Windows key + R
+### Press Windows key + R
 ```
 GUI r
 ```

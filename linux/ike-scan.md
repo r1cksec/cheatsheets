@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/royhills/ike-scan  
 
-### find valid transformation
+### Find valid transformation
 ```
 ike-scan -M <rhost>
 ```
 
-### get vendor
+### Get vendor
 ```
 ike-scan -M --showbackoff <rhost>
 ```

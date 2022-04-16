@@ -1,4 +1,4 @@
-### clone a website
+### Clone a website
 ```
  k = convert local links to refer to local copies
  p = downloads all prerequisite files
@@ -7,7 +7,7 @@
 wget -k -p -nH -N http://<rhost>
 ```
 
-### download file and write it to file
+### Download file and write it to file
 ```
 wget <rhost> -O <file>
 ```

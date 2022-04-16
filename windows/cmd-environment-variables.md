@@ -1,24 +1,24 @@
-### current user
+### Current user
 ```
 echo %USERNAME%
 ```
 
-### current homepath
+### Current homepath
 ```
 echo %HOMEPATH%
 ```
 
-### fully qualified domain name
+### Fully qualified domain name
 ```
 echo %COMPUTERNAME%.%USERDNSDOMAIN%
 ```
 
-### roaming directory
+### Roaming directory
 ```
 echo %APPDATA%
 ```
 
-### domain controller
+### Domain controller
 ```
 echo %LOGONSERVER%
 ```

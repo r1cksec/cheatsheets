@@ -1,14 +1,14 @@
-### connect to remote host via ftp
+### Connect to remote host via ftp
 ```
 ftp <host>
 ```
 
-### download all files
+### Download all files
 ```
 wget -m --no-passive ftp://<user>:<password>@<rhost>
 ```
 
-### switch to binary mode for down-/uploading binary files
+### Switch to binary mode for down-/uploading binary files
 ```
 ftp> binary
 ```

@@ -1,14 +1,14 @@
-### manipulate magic bytes:
+### Manipulate magic bytes:
 ```
 vim <file>
 ```
 
-### convert to hexdump and manipulate bytes
+### Convert to hexdump and manipulate bytes
 ```
 :%!xxd
 ```
 
-### convert back
+### Convert back
 ```
 :%!xxd -r
 ```

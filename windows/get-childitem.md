@@ -1,4 +1,4 @@
-### show hidden files
+### Show hidden files
 ```
 Get-ChildItem . -Force
 ```

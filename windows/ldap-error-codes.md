@@ -1,4 +1,4 @@
-### error codes
+### Error codes
 ```
 525 user not found 
 52e invalid credentials 

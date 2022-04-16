@@ -1,9 +1,9 @@
-### check execution policy 
+### Check execution policy 
 ```
 Get-ExecutionPolicy -List | Format-Table -AutoSize
 ```
 
-### different bypass techniques
+### Different bypass techniques
 ```
 Echo Write-Host "<command>"  | PowerShell.exe -noprofile -
 

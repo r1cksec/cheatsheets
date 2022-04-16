@@ -1,4 +1,4 @@
-### all -> a search result must contain all given keywords once all is used
+### All -> a search result must contain all given keywords once all is used
 ```
 operators: and = &, or = |, wildcard = *, negative = -
 intitle = search inside <title>, combineable  

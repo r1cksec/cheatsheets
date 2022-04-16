@@ -1,14 +1,14 @@
-### get path to history file
+### Get path to history file
 ```
 (Get-PSReadlineOption).HistorySavePath
 ```
 
-### default path
+### Default path
 ```
 C:\Users\<user>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 ```
 
-### disable powershell history
+### Disable powershell history
 ```
 Set-PSReadlineOption -HistorySaveStyle SaveNothing
 ```

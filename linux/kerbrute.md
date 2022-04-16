@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/ropnop/kerbrute  
 
-### enumerate user
+### Enumerate user
 ```
 ./kerbrute_linux_amd64 userenum <userlist>.txt -d <domain> -v
 ```
 
-### bruteforce passwords
+### Bruteforce passwords
 ```
 ./kerbrute_linux_amd64 passwordspray <userlist>.txt <password> -d <domain> --dc <domainControllerFqdn> -o <file>.txt -v
 ```

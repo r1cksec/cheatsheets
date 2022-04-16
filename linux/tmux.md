@@ -1,39 +1,39 @@
-### create new session
+### Create new session
 ```
 tmux new -s <name>
 ```
 
-### attach session
+### Attach session
 ```
 tmux attach
 ```
 
-### list sessions
+### List sessions
 ```
 tmux ls
 ```
 
-### kill session
+### Kill session
 ```
 tmux kill-session -t <name>
 ```
 
-### attach session by name
+### Attach session by name
 ```
 tmux a -t <name>
 ```
 
-### detach
+### Detach
 ```
 CTRL + b, d
 ```
 
-### scroll
+### Scroll
 ```
 Ctrl and b, PgUp
 ```
 
-### save output to file
+### Save output to file
 ```
 Ctrl and b, :
 capture-pane -S -99999

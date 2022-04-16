@@ -1,17 +1,17 @@
-### source
+### Source
 https://github.com/michenriksen/aquatone  
 
-### run aquatone based on XML nmap result
+### Run aquatone based on XML nmap result
 ```
 cat <nmap.xml> | aquatone -nmap -out <pathToResults>
 ```
 
-### use aquatone without nmap
+### Use aquatone without nmap
 ```
 cat hosts.txt | aquatone -ports large
 ```
 
-### aquatone checks for following ports:
+### Aquatone checks for following ports:
 ```
 small: 80, 443
 medium: 80, 443, 8000, 8080, 8443 (same as default)

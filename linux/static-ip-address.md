@@ -1,4 +1,4 @@
-### adjust file: /etc/network/interfaces
+### Adjust file: /etc/network/interfaces
 ```
 auto <interface>
 iface <interface> inet static

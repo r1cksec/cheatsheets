@@ -3,17 +3,17 @@
 Get-MpPreference
 ```
 
-### exclude directory from real-time and scheduled scanning
+### Exclude directory from real-time and scheduled scanning
 ```
 Set-MpPreference -ExclusionPath <path>
 ```
 
-### disable real-time protection
+### Disable real-time protection
 ```
 Set-MpPreference -DisableRealtimeMonitoring $true
 ```
 
-### disable defender
+### Disable defender
 ```
 Set-MpPreference -DisableIntrusionPreventionSystem $true -DisableIOAVProtection $true -DisableRealtimeMonitoring $true -DisableScriptScanning $true -EnableControlledFolderAccess Disabled -EnableNetworkProtection AuditMode -Force -MAPSReporting Disabled -SubmitSamplesConsent NeverSend
 ```

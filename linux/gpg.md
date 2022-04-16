@@ -1,62 +1,62 @@
-### generate gpg key
+### Generate gpg key
 ```
 gpg --cert-digest-algo SHA512 --full-gen-key
 ```
 
-### get private id -> uid
+### Get private id -> uid
 ```
 gpg --list-secret-keys
 ```
 
-### get fingerprint of gpg keys
+### Get fingerprint of gpg keys
 ```
 gpg --list-keys --with-fingerprint --with-colons
 ```
 
-### consider storing revocation file for key
+### Consider storing revocation file for key
 ```
 gpg --output <file>.asc --gen-revoke <keyId>
 gpg --list-secret-keys
 gpg --keyserver <keyserver> --send-key <keyId>
 ```
 
-### export public key to file
+### Export public key to file
 ```
 gpg -a --export <keyId> > <file>.asc
 ```
 
-### import public gpg key
+### Import public gpg key
 ```
 gpg --keyserver <keyserver> --search-keys <email>
 ```
 
-### export private key
+### Export private key
 ```
 gpg --armor --export-secret-key <keyId> > <file>.asc
 ```
 
-### import private key
+### Import private key
 ```
 gpg --import <file>.asc
 ```
 
-### change password of gpg
+### Change password of gpg
 ```
 gpg --edit-key <keyId>
 gpg> passwd
 gpg> save
 ```
 
-### decrypt file
+### Decrypt file
 ```
 gpg --decrypt <encryptedFile>.gpg > <decryptedFile>
 ```
 
-### import key remotely
+### Import key remotely
 ```
 gpg --recv-key <id>
 ```
 
-### or import local key
+### Or import local key
 ```
 gpg --import <file>.key

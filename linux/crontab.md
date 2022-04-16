@@ -1,11 +1,11 @@
-### run on reboot
+### Run on reboot
 ```
 crontab -e
 # insert
 @reboot <absolutePath>/<file>.sh
 ```
 
-### make executable
+### Make executable
 ```
 chmod +x <absolutePath>/<file>.sh
 ```

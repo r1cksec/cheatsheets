@@ -1,4 +1,4 @@
-### typically C:\Windows
+### Typically C:\Windows
 ```
 %SYSTEMROOT%
 ```
@@ -8,27 +8,27 @@
 %SYSTEMROOT%\System32\drivers\etc\hosts
 ```
 
-### user & password hashes
+### User & password hashes
 ```
 %SYSTEMROOT%\system32\config\SAM
 ```
 
-### backup of SAM
+### Backup of SAM
 ```
 %SYSTEMROOT%\repair\SAM
 ```
 
-### backup of SAM
+### Backup of SAM
 ```
 %SYSTEMROOT%\System32\config\RegBack\SAM
 ```
 
-### application Log
+### Application Log
 ```
 %WINDIR%\system32\config\AppEvent.Evt
 ```
 
-### security Log
+### Security Log
 ```
 %WINDIR%\system32\config\SecEvent.Evt
 ```

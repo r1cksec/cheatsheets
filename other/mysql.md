@@ -1,34 +1,34 @@
-### show all databases
+### Show all databases
 ```
 show databases;
 ```
 
-### switch context
+### Switch context
 ```
 use <database>;
 ```
 
-### show tables
+### Show tables
 ```
 show tables;
 ```
 
-### print content of table
+### Print content of table
 ```
 select * from <table>;
 ```
 
-### execute command
+### Execute command
 ```
 select do_system('<command>');
 ```
 
-### read file
+### Read file
 ```
 select load_file('<file>');
 ```
 
-### wite to file
+### Wite to file
 ```
 select "<content>" into outfile '<file>';
 ```

@@ -1,54 +1,54 @@
-### create new session
+### Create new session
 ```
 screen -S <name>
 ```
 
-### log session to file
+### Log session to file
 ```
 screen -S <name> -L -Logfile <file>
 ```
 
-### detach
+### Detach
 ```
 CTRL + a, d
 ```
 
-### kill session
+### Kill session
 ```
 CTRL + a, k
 ```
 
-### scroll
+### Scroll
 ```
 CTRL + a + Esc -> use arrow keys
 ```
 
-### go back from scrolling
+### Go back from scrolling
 ```
 q or Esc
 ```
 
-### list session
+### List session
 ```
 screen -list
 ```
 
-### reattach
+### Reattach
 ```
 screen -r <name>
 ```
 
-### detach session
+### Detach session
 ```
 screen -d <name>
 ```
 
-### switch windows
+### Switch windows
 ```
 CTRL + a + n
 ```
 
-### new window
+### New window
 ```
 CTRL + a + c 
 ```

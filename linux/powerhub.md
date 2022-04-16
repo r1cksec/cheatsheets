@@ -1,17 +1,17 @@
-### source
+### Source
 https://github.com/AdrianVollmer/PowerHub  
 
-### start server
+### Start server
 ```
 python3 powerhub.py <lhost> --auth <user>:<password>
 ```
 
-### using certificates
+### Using certificates
 ```
 python3 powerhub.py <lhost> --auth <user>:<password> -c <sslCert>.pem -k <sslKey>.pem
 ```
 
-### upload files will be stored in:
+### Upload files will be stored in:
 ```
 ~/.local/share/powerhub/upload/
 ```

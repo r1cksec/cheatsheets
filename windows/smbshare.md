@@ -1,9 +1,9 @@
-### list smb shares
+### List smb shares
 ```
 Get-SmbShare -name "<rhost>"
 ```
 
-### create smb share
+### Create smb share
 ```
 New-SmbShare -Name "<name>" -Path "<path>" -FullAccess "<domain>\<user>"
 ```

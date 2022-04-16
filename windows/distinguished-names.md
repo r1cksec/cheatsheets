@@ -1,4 +1,4 @@
-### components
+### Components
 ```
 DC      domainComponent
 CN      commonName
@@ -10,7 +10,7 @@ C       countryName
 UID     userid
 ```
 
-### example
+### Example
 ```
 CN=name lastname,OU=orgaUnit,DC=testdomain,DC=COM
 ```

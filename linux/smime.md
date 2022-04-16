@@ -1,19 +1,19 @@
-### extract from .p12 file
+### Extract from .p12 file
 ```
 openssl pkcs12 -info -nodes -in <file>.p12
 ```
 
-### create .p12 file
+### Create .p12 file
 ```
 openssl pkcs12 -export -inkey <privateKey>.key -in certificates.pem -name <file>.p12
 ```
 
-### decrypt
+### Decrypt
 ```
 openssl smime -decrypt -in <mail>.asc -inkey <privateKey>.key
 ```
 
-### verfiy signature
+### Verfiy signature
 ```
 openssl smime -decrypt -in <mail>.asc -inkey <privateKey>.key | openssl smime -verify
 ```

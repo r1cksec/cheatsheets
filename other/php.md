@@ -1,4 +1,4 @@
-### user supplied data
+### User supplied data
 ```
 $_GET
 $HTTP_GET_VARS
@@ -22,7 +22,7 @@ $_SERVER['HTTP_REFERER']
 $_SERVER['HTTP_USER_AGENT']
 ```
 
-### file access
+### File access
 ```
 copy
 file
@@ -47,7 +47,7 @@ unlink
 virtual
 ```
 
-### database access
+### Database access
 ```
 mysql_query
 mssql_query

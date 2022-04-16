@@ -1,24 +1,24 @@
-### show if network manager manages interface
+### Show if network manager manages interface
 ```
 nmli device
 ```
 
-### disable interface for network manager
+### Disable interface for network manager
 ```
 nmcli device set <interface> managed no
 ```
 
-### show all connections
+### Show all connections
 ```
 nmcli connection
 ```
 
-### list available wifis (passiv)
+### List available wifis (passiv)
 ```
 nmcli device wifi list
 ```
 
-### rescan for available wifis (active)
+### Rescan for available wifis (active)
 ```
 nmcli device wifi rescan
 ```

@@ -1,4 +1,4 @@
-### create Dynamic Data Exchange inside Word document
+### Create Dynamic Data Exchange inside Word document
 ```
 Insert > Quick Parts (Icon with arrow down) > Field
 = (Formula) > OK

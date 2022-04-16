@@ -1,4 +1,4 @@
-### compress a file (zip).
+### Compress a file (zip).
 ```
 Compress-Archive -U -LiteralPath <source> -DestinationPath <destination>
 ```

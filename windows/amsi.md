@@ -10,7 +10,7 @@ AmsiCloseSession
 AmsiUninitialize
 ```
 
-### registry key
+### Registry key
 ```
 HKCU\Software\Microsoft\Windows Script\Settings\AmsiEnable
 ```

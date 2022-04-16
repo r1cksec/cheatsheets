@@ -1,9 +1,9 @@
-### find string inside the current directory
+### Find string inside the current directory
 ```
 find /I "<string>"
 ```
 
-### line count of command output
+### Line count of command output
 ```
 <command> | find /c /v ""
 ```

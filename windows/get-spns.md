@@ -1,4 +1,4 @@
-### get spns
+### Get spns
 ```
 Function Get-Spns
 {

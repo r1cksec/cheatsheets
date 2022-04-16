@@ -1,9 +1,9 @@
-### get list of updates for connected hardware
+### Get list of updates for connected hardware
 ```
 fwupdmgr get-updates
 ```
 
-### update firmware to latest version available
+### Update firmware to latest version available
 ```
 fwupdmgr update
 ```

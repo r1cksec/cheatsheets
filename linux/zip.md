@@ -1,9 +1,9 @@
-### create encrypted zip archive
+### Create encrypted zip archive
 ```
 zip -P <password> <resultZip>.zip <file>
 ```
 
-### create zip archive from directory
+### Create zip archive from directory
 ```
 zip -r <resultZip> <directory>
 ```

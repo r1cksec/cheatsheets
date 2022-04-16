@@ -1,12 +1,12 @@
-### source
+### Source
 https://github.com/SecureAuthCorp/impacket/blob/master/examples/mssqlclient.py  
 
-### start mssql session
+### Start mssql session
 ```
 impacket-mssqlclient <user>:<password>@<rhost>
 ```
 
-### using hashes
+### Using hashes
 ```
 impacket-mssqlclient -hashes :<ntlmHash> <user>@<rhost>
 ```

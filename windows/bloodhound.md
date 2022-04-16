@@ -1,13 +1,13 @@
-### ingestors
+### Ingestors
 https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Collectors/SharpHound.ps1  
 https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe  
 
-### stealthier collection method (wait 15 seconds between probes and jitter with 10% probability)
+### Stealthier collection method (wait 15 seconds between probes and jitter with 10% probability)
 ```
 Invoke-BloodHound -CollectionMethod Session -Throttle 15000 -Jitter 10
 ```
 
-### collection methods
+### Collection methods
 ```
 ACL
 All

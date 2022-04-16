@@ -1,4 +1,4 @@
-### get local logged in user
+### Get local logged in user
 ```
 qwinsta
 ```

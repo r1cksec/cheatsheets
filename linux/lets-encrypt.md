@@ -1,29 +1,29 @@
-### get lets encrypt certificate on debian - insert into /etc/apt/sources.list
+### Get lets encrypt certificate on debian - insert into /etc/apt/sources.list
 ```
 deb http://deb.debian.org/debian stretch-backports main
 ```
 
-### install
+### Install
 ```
 apt-get install certbot python-certbot-apache -t stretch-backports
 ```
 
-### get fully qualified domain name
+### Get fully qualified domain name
 ```
 hostname -f
 ```
 
-### create certificate
+### Create certificate
 ```
 certbot --apache
 ```
 
-### renew certificate 
+### Renew certificate 
 ```
 certbot --apache certonly
 ```
 
-### create backup of keys
+### Create backup of keys
 ```
 /etc/letsencrypt/live/<hostname>/privkey.pem
 ```

@@ -1,19 +1,19 @@
-### show language mode 
+### Show language mode 
 ```
 $ExecutionContext.SessionState.LanguageMode
 ```
 
-### set full language mode
+### Set full language mode
 ```
 $ExecutionContext.SessionState.LanguageMode = "FullLanguage"
 ```
 
-### bypass language mode using powershell version 2
+### Bypass language mode using powershell version 2
 ```
 powershell -v 2 -exec bypass
 ```
 
-### show powershell version
+### Show powershell version
 ```
 $PSVersionTable
 ```

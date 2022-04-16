@@ -1,22 +1,22 @@
-### source
+### Source
 https://github.com/phatina/simple-mtpfs  
 
-### create new dir
+### Create new dir
 ```
 mkdir <dir>
 ```
 
-### list devices
+### List devices
 ```
 simple-mtpfs -l
 ```
 
-### mount device
+### Mount device
 ```
 simple-mtpfs --device 1 <dir>
 ```
 
-### unmount device
+### Unmount device
 ```
 fusermount -u <dir>
 ```

@@ -1,9 +1,9 @@
-### using import
+### Using import
 ```
 sleep 5 ; import -window root <file>.jpg
 ```
 
-### using flameshot
+### Using flameshot
 ```
 flameshot gui -p $(pwd)
 ```

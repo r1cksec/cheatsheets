@@ -1,4 +1,4 @@
-### start of string
+### Start of string
 ```
 ^
 ```
@@ -18,12 +18,12 @@
 ?
 ```
 
-### any char but \n
+### Any char but \n
 ```
 .
 ```
 
-### exactly 3
+### Exactly 3
 ```
 {3}
 ```
@@ -48,32 +48,32 @@
 [345]
 ```
 
-### not 3 or 4
+### Not 3 or 4
 ```
 [^34]
 ```
 
-### lowercase a-z
+### Lowercase a-z
 ```
 [a-z]
 ```
 
-### uppercase A-Z
+### Uppercase A-Z
 ```
 [A-Z]
 ```
 
-### digit 0-9
+### Digit 0-9
 ```
 [0-9]
 ```
 
-### digit
+### Digit
 ```
 \d
 ```
 
-### not digit
+### Not digit
 ```
 \D
 ```
@@ -83,17 +83,17 @@
 \w
 ```
 
-### not A-Z,a-z,0-9
+### Not A-Z,a-z,0-9
 ```
 \W
 ```
 
-### white space (\t\r\n\f)
+### White space (\t\r\n\f)
 ```
 \s
 ```
 
-### not (\t\r\n\f)
+### Not (\t\r\n\f)
 ```
 \S
 ```
@@ -123,7 +123,7 @@ regex+
 [Rr]egex
 ```
 
-### exactly 3 digits
+### Exactly 3 digits
 ```
 \d{3}
 ```
@@ -133,12 +133,12 @@ regex+
 \d{3,)
 ```
 
-### any vowel
+### Any vowel
 ```
 [aeiou]
 ```
 
-### numbers 03-25
+### Numbers 03-25
 ```
 (0[3-9] | 1[0-9] | 2[0-5])
 ```

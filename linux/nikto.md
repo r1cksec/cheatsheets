@@ -1,22 +1,22 @@
-### source
+### Source
 https://github.com/sullo/nikto  
 
-### run nikto with all tunings except DOS
+### Run nikto with all tunings except DOS
 ```
 nikto -Tuning x 6 -h <domain> -port <rport>,<rport>
 ```
 
-### use with basic authentication
+### Use with basic authentication
 ```
 nikto -id <id:password> -h <rhost>
 ```
 
-### choose specific Tuning
+### Choose specific Tuning
 ```
 nikto -Tuning 012 -h <rhost>
 ```
 
-### tuning options
+### Tuning options
 ```
 0 - File Upload
 1 - Interesting File / Seen in logs

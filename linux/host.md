@@ -1,4 +1,4 @@
-### check spf record
+### Check spf record
 ```
 host -t TXT <domain>
 ```

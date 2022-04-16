@@ -1,19 +1,19 @@
-### failed log attemps (ssh)
+### Failed log attemps (ssh)
 ```
 /var/log/auth.log
 ```
 
-### get amount of failed connections by ip address
+### Get amount of failed connections by ip address
 ```
 cat /var/log/auth.log | grep sshd | grep "Invalid user" | awk -F " " '{print $10}' | sort | uniq -c
 ```
 
-### failed log attemps
+### Failed log attemps
 ```
 /var/log/secure
 ```
 
-### failed log attemps
+### Failed log attemps
 ```
 /var/log/faillog
 ```
@@ -23,7 +23,7 @@ cat /var/log/auth.log | grep sshd | grep "Invalid user" | awk -F " " '{print $10
 /var/log/httpd/
 ```
 
-### improper shutdown
+### Improper shutdown
 ```
 /var/log/boot.log
 ```

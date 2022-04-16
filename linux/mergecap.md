@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/wireshark/wireshark/blob/master/mergecap.c  
 
-### merge cap files
+### Merge cap files
 ```
 mergecap -w <newFile.cap> *.cap
 ```

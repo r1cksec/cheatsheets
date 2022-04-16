@@ -1,16 +1,16 @@
-### variant 1
+### Variant 1
 ```
 system("whoami");
 ```
 
-### variant 2
+### Variant 2
 ```
 $output=null;
 exec('whoami', $output);
 print_r($output);
 ```
 
-### variant 3
+### Variant 3
 ```
 passthru ("whoami");
 ```

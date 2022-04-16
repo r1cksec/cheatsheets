@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/nmap/nmap  
 
-### for bypassing firewalls
+### For bypassing firewalls
 ```
 -sN (Null scan; do not set RST, SYN or ACK bit)
 -sF (FIN scan)
@@ -14,37 +14,37 @@ https://github.com/nmap/nmap
 --badsum                (send packets with a bogus TCP/UDP/SCTP checksum)
 ```
 
-### custom flags
+### Custom flags
 ```
 --scanflags URG,ACK,PSH,RST,SYN,FIN
 ```
 
-### intense scan - use it for capture the flags
+### Intense scan - use it for capture the flags
 ```
 sudo nmap -A -sV -O --min-rate 600 --script "(vuln or exploit or auth) and not broadcast" -oA <rhost>-vuln-scripts <rhost> -p- -vv --open
 ```
 
-### resume stopped scan (need normal (-oN) or grepable (-oG) format)
+### Resume stopped scan (need normal (-oN) or grepable (-oG) format)
 ```
 nmap --resume <file>
 ```
 
-### versions intensity 0-9 (9 highest)
+### Versions intensity 0-9 (9 highest)
 ```
 nmap --version-intensity 4
 ```
 
-### advanced scan for detecting most of the services/os and versions
+### Advanced scan for detecting most of the services/os and versions
 ```
 nmap --min-rate 500 -sS -sV -O -sC -iL <file> -oA <file>-sS-sV-O-sC-1k-ports
 ```
 
-### grep all hosts that has the port 445 open
+### Grep all hosts that has the port 445 open
 ```
 cat <file>.gnmap | grep "445/open/tcp" | cut -f2 -d " "
 ```
 
-### get information about scripts
+### Get information about scripts
 ```
 nmap --script-help "*ms* and *sql*"
 ```

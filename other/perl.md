@@ -1,4 +1,4 @@
-### user supplied data
+### User supplied data
 ```
 cookiehttp  
 https  
@@ -15,7 +15,7 @@ user_agent
 Vars  
 ```
 
-### file access
+### File access
 ```
 open
 sysopen

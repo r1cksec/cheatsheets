@@ -1,7 +1,7 @@
-### source
+### Source
 https://github.com/elixir-mogrify/mogrify  
 
-### resize image
+### Resize image
 ```
 mogrify -resize 100x50 <file.png>
 ```

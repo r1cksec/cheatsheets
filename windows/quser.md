@@ -1,4 +1,4 @@
-### get logged on user on remote host
+### Get logged on user on remote host
 ```
 quser /Server:<rhost>
 ```
