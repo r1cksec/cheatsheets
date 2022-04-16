@@ -1,4 +1,4 @@
-### Automate search for vulnerabilities
+## Automate search for vulnerabilities
 https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/winPEAS/winPEASexe/binaries/Release/winPEASany.exe  
 https://raw.githubusercontent.com/AdrianVollmer/PowerSploit/master/Privesc/PowerUp.ps1 - Invoke-PrivescAudit  
 https://raw.githubusercontent.com/rasta-mouse/Sherlock/master/Sherlock.ps1 - Find-AllVulns  

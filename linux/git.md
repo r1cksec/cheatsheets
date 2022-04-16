@@ -50,7 +50,7 @@ git commit --date="Wed Feb 13 15:00 2019 +0100" -m "<message>"
 ```
 
 ### Generate access token
-https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token  
+https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
 
 ### Ignore certificate errors
 ```
