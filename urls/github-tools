@@ -1042,3 +1042,6 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/ShutdownRepo/pywhisker
+Python version of the C# tool for "Shadow Credentials" attacks
+
