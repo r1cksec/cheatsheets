@@ -7,5 +7,7 @@ $Disk.FreeSpace /1GB
 ### get logged on user on remote host
 ```
 Get-WmiObject win32_loggedonuser -ComputerName <computer>
+
+Get-WmiObject –ComputerName <computer> –Class Win32_ComputerSystem | Select-Object UserName
 ```
 

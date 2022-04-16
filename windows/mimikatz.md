@@ -43,3 +43,8 @@ mimi> sekurlsa::minidump <file>.dmp
 mimi> sekurlsa::logonPasswords full
 ```
 
+### write output of command to file
+```
+mimi> log <file>.txt
+```
+

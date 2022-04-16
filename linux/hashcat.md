@@ -39,7 +39,7 @@ hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
 120  = sha1($salt.$pass)
 200  = MySQL323
 300  = MySQL4.1/MySQL5
-1000 = NTLM
+1000 = NTLM format: User:UID:LM:NTLM:::
 1400 = SHA256
 1410 = sha256($pass.$salt)
 1420 = sha256($salt.$pass)

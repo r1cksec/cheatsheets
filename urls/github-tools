@@ -73,6 +73,9 @@ L3MON - Remote Android Managment Suite
 https://github.com/D4stiny/ForkPlayground
 An implementation and proof-of-concept of Process Forking.
 
+https://github.com/DarkCoderSc/PowerBruteLogon
+PowerBruteLogon (Ported version of WinBruteLogon in pure PowerShell)
+
 https://github.com/DarkCoderSc/PowerRemoteDesktop
 Remote Desktop entirely coded in PowerShell.
 
@@ -112,6 +115,9 @@ Nightly builds of common C# offensive tools, fresh from their respective master 
 https://github.com/FluxionNetwork/fluxion
 Fluxion is a remake of linset by vk496 with enhanced functionality.
 
+https://github.com/FortyNorthSecurity/CIMplant
+C# port of WMImplant which uses either CIM or WMI to query remote systems
+
 https://github.com/FortyNorthSecurity/EDD
 Enumerate Domain Data
 
@@ -147,6 +153,9 @@ Trying to tame the three-headed dog.
 
 https://github.com/GhostPack/Seatbelt
 Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives.
+
+https://github.com/GhostPack/SharpDPAPI
+SharpDPAPI is a C# port of some Mimikatz DPAPI functionality.
 
 https://github.com/GhostPack/SharpDump
 SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality.
@@ -184,6 +193,9 @@ Process Ghosting Tool
 https://github.com/InfosecMatter/Minimalistic-offensive-security-tools
 A repository of tools for pentesting of restricted and isolated environments.
 
+https://github.com/JamesCooteUK/SharpSphere
+.NET Project for Attacking vCenter
+
 https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell
 Fully functioning reverse shell written entirely in VBA.
 
@@ -198,6 +210,9 @@ Python script that performs email address validation against Office 365 without 
 
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection
+
+https://github.com/MartinIngesen/TokenStomp
+C# implementation of the token privilege removal flaw discovered by @GabrielLandau/Elastic
 
 https://github.com/Mattiwatti/PPLKiller
 Protected Processes Light Killer
@@ -301,6 +316,9 @@ Automation for internal Windows Penetrationtest / AD-Security
 https://github.com/SECFORCE/Tunna
 Tunna is a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.
 
+https://github.com/SaulBerrenson/BrowserStealer
+Simple password/cookies/history/bookmarks stealer/dumper for chrome all version (includes 80+), microsoft edge browser,includes all chromium based browsers, and all gecko based browser (firefox etc.).
+
 https://github.com/SecWiki/linux-kernel-exploits
 linux-kernel-exploits Linux平台提权漏洞集合
 
@@ -351,6 +369,9 @@ PoC for CVE-2021-36934, which enables a standard user to be able to retrieve the
 
 https://github.com/WoeUSB/WoeUSB
 A Microsoft Windows® USB installation media preparer for GNU+Linux
+
+https://github.com/Wra7h/SharpGhosting
+Process Ghosting in C#
 
 https://github.com/ambionics/phpggc
 PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
@@ -459,6 +480,9 @@ C# and Impacket implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527
 
 https://github.com/cube0x0/noPac
 CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter.
+
+https://github.com/cybersecsi/dockerized-android
+A container-based framework to enable the integration of mobile components in security training platforms
 
 https://github.com/cym13/vbs-reverse-shell
 VBS reverse shell scripts
@@ -675,6 +699,9 @@ PoC exploits for software vulnerabilities
 
 https://github.com/lockedbyte/CVE-Exploits/tree/master/CVE-2020-28018
 There exists a Use-after-free (UAF) vulnerability in tls-openssl.c that allow remote unauthenticated attackers to corrupt internal memory data, thus finally achieving remote code execution.
+
+https://github.com/login-securite/DonPAPI
+Dumping DPAPI credz remotely
 
 https://github.com/lukebaggett/dnscat2-powershell
 A Powershell client for dnscat2, an encrypted DNS command and control tool.
@@ -979,6 +1006,9 @@ morphHTA - Morphing Cobalt Strike's evil.HTA
 https://github.com/w1u0u1/smb2os
 Use smb2 protocol to detect remote computer os version, support win7/server2008-win10/server2019
 
+https://github.com/waydroid/waydroid
+Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
+
 https://github.com/wpscanteam/wpscan
 WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.
 
@@ -1011,13 +1041,4 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
-
-https://github.com/Wra7h/SharpGhosting
-Process Ghosting in C#
-
-https://github.com/MartinIngesen/TokenStomp
-C# implementation of the token privilege removal flaw discovered by @GabrielLandau/Elastic
-
-https://github.com/login-securite/DonPAPI
-Dumping DPAPI credz remotely
 
