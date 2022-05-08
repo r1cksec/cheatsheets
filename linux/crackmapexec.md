@@ -13,5 +13,5 @@ crackmapexec winrm <rhost> -u <userFile> -p <passwordFile>
 
 ### List of servers with SMB signing flag
 ```
-crackmapexec smb <rhost>/24 --gen-relay-list
+crackmapexec smb <rhost>/24 --gen-relay-list <outfile>
 ```

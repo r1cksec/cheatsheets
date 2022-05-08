@@ -1045,3 +1045,21 @@ Persistence via WMI
 https://github.com/ShutdownRepo/pywhisker
 Python version of the C# tool for "Shadow Credentials" attacks
 
+https://github.com/SolomonSklash/RubeusToCcache
+A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache files for Impacket
+
+https://github.com/ihebski/DefaultCreds-cheat-sheet
+One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password shield
+
+https://github.com/AlsidOfficial/WSUSpendu
+Implement WSUSpendu attack
+
+https://github.com/nettitude/SharpWSUS
+SharpWSUS is a CSharp tool for lateral movement through WSUS.
+
+https://github.com/maldevel/EmailHarvester
+Email addresses harvester 
+
+https://github.com/m4ll0k/infoga
+Infoga - Email OSINT
+
