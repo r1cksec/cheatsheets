@@ -25,7 +25,7 @@ $res = ([adsisearcher]"(objectClass=computer)"); $res.PageSize = 1000; $res.Find
 
 ### Query for laps password
 ```
-[ADSISearcher]"(&(objectClass=computer)(name=computer))").FindAll().Properties | ForEach-Object {$_.name, $_."ms-mcs-admpwd"}
+([adsisearcher]"(&(objectClass=computer)(name=<computer>))").FindAll().Properties | ForEach-Object {$_.name, $_."ms-mcs-admpwd"}
 ```
 
 ### Get distinguished name of specific user
