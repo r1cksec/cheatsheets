@@ -3,11 +3,11 @@ https://github.com/ly4k/Certipy
 
 ### Check for vulnerable templates
 ```
-certipy '<domain>/<user>:<password>@<domainController>' find -vulnerable
+certipy find '<domain>/<user>:<password>@<domainController>' -vulnerable
 ```
 
-### Request nt hash for administrator
+### Collect data for bloodhound
 ```
-certipy '<domain>/<user>:<password>@<domainController>' auto
+certipy find '<domain>/<user>:<password>@<domainController>' -bloodhound
 ```
 

@@ -50,12 +50,27 @@ MATCH p=(n:User)-[r:MemberOf*1..]->(m:Group {highvalue:true}) RETURN p
 MATCH p1=shortestPath(((u1:User)-[r1:MemberOf*1..]->(g1:Group))) MATCH p2=(u1)-[:AdminTo*1..]->(c:Computer) RETURN p2
 ```
 
+### Get top 10 users with most sessions
+```
+MATCH (n:User),(m:Computer), (n)<-[r:HasSession]-(m) WHERE NOT n.name STARTS WITH 'ANONYMOUS LOGON' AND NOT n.name='' WITH n, count(r) as rel_count order by rel_count desc LIMIT 10 MATCH p=(m)-[r:HasSession]->(n) RETURN p
+```
+
+### Get top 10 users with most local admin rights
+```
+MATCH (n:User),(m:Computer), (n)-[r:AdminTo]->(m) WHERE NOT n.name STARTS WITH 'ANONYMOUS LOGON' AND NOT n.name='' WITH n, count(r) as rel_count order by rel_count desc LIMIT 10 MATCH p=(m)<-[r:AdminTo]-(n) RETURN p
+```
+
 
 # Console (127.0.0.1:7474)
 
 ### List all user
 ```
-Match (n:User) return n
+Match (n:User) RETURN n
+```
+
+### computer description -console
+```
+MATCH (c:Computer) RETURN c.name,c.description
 ```
 
 ### Return all nodes where a given group has GenericAll rights

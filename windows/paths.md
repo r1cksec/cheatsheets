@@ -70,3 +70,8 @@ C:\Windows\system32\Windows\NTDS\ntds.dit
 C:\Windows\system32\config
 ```
 
+### Scheduled taks as system
+```
+C:\windows\system32\Tasks
+```
+

