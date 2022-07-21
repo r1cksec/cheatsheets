@@ -33,6 +33,21 @@ $res = ([adsisearcher]"(objectClass=computer)"); $res.PageSize = 1000; $res.Find
 ([adsisearcher]"(&(objectClass=user)(samaccountname=<user>))").FindAll().Properties.distinguishedname
 ```
 
+### Get kerberoastable accounts
+```
+([adsisearcher]"(&(sAMAccountType=805306368)(servicePrincipalName=*))").FindAll()
+```
+
+### Get all user with Logon Script field
+```
+([adsisearcher]'(&(objectCategory=person)(objectClass=user)(scriptPath=*))').FindAll()
+```
+
+### Get failed logon attempt of specific user
+```
+([adsisearcher]"(&(ObjectCategory=Person)(ObjectClass=User))").FindAll() | % {write-host $_.Properties['name'] " - " $_.Properties['badpwdcount'] }
+```
+
 ### Print network ranges
 ```
 $s=[adsisearcher]'(name=*)'; $s.SearchRoot = [adsi]"LDAP://cn=Subnets,cn=Sites,cn=Configuration,dc=<domainComponent>,dc=<domainComponent>"; $s.FindAll() | Select *

@@ -1,4 +1,4 @@
-# check permission of file or directory
+### Check permission of file or directory
 ```
 Get-Acl -Path <path> | Format-List
 ```

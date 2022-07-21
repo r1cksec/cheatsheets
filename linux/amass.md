@@ -24,11 +24,6 @@ amass intel -d <domain> -whois
 amass intel -asn <asnNumber>
 ```
 
-### Basic enumeration using different OSINT sources (passiv - no DNS resolution and validation, src show source)
-```
-amass enum -passive -d <domain> -src -o <outputfile>
-```
-
 ### Reverse DNS Lookup on cidr ranges 
 ```
 amass intel -ip -cidr <cidr>
@@ -37,5 +32,10 @@ amass intel -ip -cidr <cidr>
 ### Reverse DNS Lookup on ranges
 ```
 amass intel -ip -addr <XXX.XXX.XXX.XXX-XXX>
+```
+
+### Basic enumeration using different OSINT sources (passiv - no DNS resolution and validation, src show source)
+```
+amass enum -passive -d <domain> -src -o <outputfile>
 ```
 

@@ -1,4 +1,4 @@
-## bypass applocker unsing alternate data streams
+## Bypass applocker using alternate data streams
 
 ### Copy malicious exe into the locked directory (current working directory must be one level above the locked directory)
 ```

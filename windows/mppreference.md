@@ -1,5 +1,5 @@
-
-# get windows defender settings
+### Get windows defender settings
+```
 Get-MpPreference
 ```
 

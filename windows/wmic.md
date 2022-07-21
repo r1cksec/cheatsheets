@@ -1,4 +1,8 @@
-## wmic uses port 135 to determine a random port for further communication - appears to not work with Fully Qualified Domain Names
+### Note
+```
+Wmic uses port 135 to determine a random port for further communication.
+Appears to not work with Fully Qualified Domain Names.
+```
 
 ### Enable WinRM remotely
 ```

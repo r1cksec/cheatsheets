@@ -39,12 +39,3 @@
 - File Format Pasers
 ```
 
-# Recommendations:
-```
-Isolating Machines Improves Protection
-Auditing Security Products
-Use Prileges Safety
-Improve Savety of Update Services and Protocols
-Remove or Disable old code
-```
-

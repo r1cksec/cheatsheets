@@ -28,3 +28,8 @@ grep "<a " | awk -F "href=\"" '{print $2}' | cut -d "\"" -f 1 | sort -u
 grep -v -f <file1> <file2>
 ```
 
+### Count amount of substrings in line
+```
+echo <string> | grep -o "substring" | wc -l
+```
+

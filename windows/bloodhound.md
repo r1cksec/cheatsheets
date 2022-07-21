@@ -25,3 +25,6 @@ Session
 Trusts
 ```
 
+### Opsec considerations
+https://blog.compass-security.com/2022/05/bloodhound-inner-workings-part-1
+

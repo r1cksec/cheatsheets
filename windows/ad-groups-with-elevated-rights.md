@@ -7,7 +7,7 @@ S-1-5-32-548
 
 ### Administrators
 ```
-# members have unrestricted access to the domain - (can not be renamed or deleted)
+members have unrestricted access to the domain - (can not be renamed or deleted)
 SID/RID:
 1-5-32-544
 ```
@@ -42,7 +42,7 @@ S-1-5-<domain>-517
 
 ### Distributed COM Users
 ```
- members are allowed to launch, activate, and use Distributed COM objects on the computer
+members are allowed to launch, activate, and use Distributed COM objects on the computer
 Distributed Component Object Model (DCOM) allows applications to be distributed across locations
 SID/RID:
 S-1-5-32-562

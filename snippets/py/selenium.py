@@ -1,3 +1,7 @@
+from selenium import webdriver                        
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.keys import Keys
+
 # pip3 install selenium webdriver-manager
 # download chrome driver - https://sites.google.com/chromium.org/driver/downloads
 
@@ -22,13 +26,18 @@ driver.find_element_by_id("id").click()
 
 # read inner html
 element = driver.find_element_by_id("id")
-innerHtml = result.get_attribute("innerHTML")
+innerHtml = element.get_attribute("innerHTML")
 
 # scroll to bottom
 driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 
 # get attribute of element by class
 elements = driver.find_elements_by_class_name("class")
+for e in elements:
+    print(e.get_attribute("href"))
+
+# get all elements by tag
+elements = driver.find_elements_by_xpath("//a[@href]")
 for e in elements:
     print(e.get_attribute("href"))
 

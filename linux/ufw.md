@@ -1,3 +1,8 @@
+### Start firewall
+```
+ufw status numbered
+```
+
 ### Blacklist by default
 ```
 ufw default deny

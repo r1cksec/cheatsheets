@@ -8,7 +8,7 @@ cat <nmap.xml> | aquatone -nmap -out <pathToResults>
 
 ### Use aquatone without nmap
 ```
-cat hosts.txt | aquatone -ports large
+cat <rhostFile> | aquatone -ports large
 ```
 
 ### Aquatone checks for following ports:

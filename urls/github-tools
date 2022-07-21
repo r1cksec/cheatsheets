@@ -1,6 +1,9 @@
 https://gist.githubusercontent.com/superkojiman/11076951/raw/053152dba6c5cc3107ff0374ce7246306958d72c/namemash.py
 Generate Userlist
 
+https://github.com/0xZDH/o365spray
+Username enumeration and password spraying tool aimed at Microsoft O365.
+
 https://github.com/0xthirteen/SharpRDP
 Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
 
@@ -24,6 +27,9 @@ Privilege Escalation Project - Windows / Linux / Mac
 
 https://github.com/AlessandroZ/LaZagne
 Credentials recovery project
+
+https://github.com/AlsidOfficial/WSUSpendu
+Implement WSUSpendu attack
 
 https://github.com/AlteredSecurity/365-Stealer
 365-Stealer is a phishing simualtion tool written in python3. It can be used to execute Illicit Consent Grant Attack.
@@ -136,6 +142,9 @@ My musings with PowerShell
 https://github.com/FuzzySecurity/StandIn
 StandIn is a small .NET35/45 AD post-exploitation toolkit
 
+https://github.com/G0ldenGunSec/GetWebDAVStatus
+Determine if the WebClient Service (WebDAV) is running on a remote system
+
 https://github.com/G0ldenGunSec/SharpSecDump
 .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py
 
@@ -229,6 +238,9 @@ A cross-platform implant written in Nim
 https://github.com/NetSPI/MicroBurst
 A collection of scripts for assessing Microsoft Azure security
 
+https://github.com/NetSPI/NetblockTool
+Find netblocks owned by a company
+
 https://github.com/NetSPI/PowerUpSQL
 PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
 
@@ -283,6 +295,9 @@ CVE-2018-8581
 https://github.com/Ridter/noPac
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user
 
+https://github.com/RoganDawes/SharpLocker
+SharpLocker helps get current user credentials by popping a fake Windows lock screen.
+
 https://github.com/RythmStick/AMSITrigger
 The Hunt for Malicious Strings
 
@@ -334,6 +349,9 @@ CVE-2021-28482
 https://github.com/ShawnDEvans/smbmap
 SMBMap is a handy SMB enumeration tool
 
+https://github.com/ShutdownRepo/pywhisker
+Python version of the C# tool for "Shadow Credentials" attacks
+
 https://github.com/SimplySecurity/SimplyEmail
 Email recon made fast and easy, with a framework to build on
 
@@ -342,6 +360,9 @@ UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/
 
 https://github.com/SnaffCon/Snaffler
 A tool to help find credentials on smb shares.
+
+https://github.com/SolomonSklash/RubeusToCcache
+A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache files for Impacket
 
 https://github.com/SpiderLabs/Responder
 Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
@@ -418,6 +439,9 @@ The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and 
 https://github.com/bishopfox/eyeballer
 Convolutional neural network for analyzing pentest screenshots
 
+https://github.com/bitsadmin/fakelogonscreen
+Fake Windows logon screen to steal passwords
+
 https://github.com/bitsadmin/wesng
 Windows Exploit Suggester - Next Generation
 
@@ -478,6 +502,9 @@ A protective and Low Level Shellcode Loader that defeats modern EDR systems.
 https://github.com/cube0x0/CVE-2021-1675
 C# and Impacket implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527
 
+https://github.com/cube0x0/KrbRelay
+Framework for Kerberos relaying
+
 https://github.com/cube0x0/noPac
 CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter.
 
@@ -498,6 +525,9 @@ This repository contains a collection of cheatsheets I have put together for too
 
 https://github.com/dafthack/MFASweep
 A tool for checking if MFA is enabled on multiple Microsoft Services
+
+https://github.com/dafthack/MSOLSpray
+A password spraying tool for Microsoft Online accounts (Azure/O365). The script logs if a user cred is valid, if MFA is enabled on the account, if a tenant doesn't exist, if a user doesn't exist, if the account is locked, or if the account is disabled.
 
 https://github.com/dafthack/MailSniper
 MailSniper is a penetration testing tool for searching through email in a Microsoft Exchange environment for specific terms (passwords, insider intel, network architecture information, etc.). It can be used as a non-administrative user to search their own email, or by an administrator to search the mailboxes of every user in a domain.
@@ -598,6 +628,9 @@ World's fastest and most advanced password recovery utility
 https://github.com/hashcat/hashcat-utils
 Small utilities that are useful in advanced password cracking
 
+https://github.com/hausec/PowerZure
+PowerShell framework to assess Azure security
+
 https://github.com/hausec/ProxyLogon
 ProxyLogon PoC
 
@@ -624,6 +657,9 @@ Bypass AMSI via PowerShell by splitting a file into multiple chunks
 
 https://github.com/idnahacks/GoodHound
 Uses Sharphound, Bloodhound and Neo4j to produce an actionable list of attack paths for targeted remediation.
+
+https://github.com/ihebski/DefaultCreds-cheat-sheet
+One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password shield
 
 https://github.com/immunIT/TeamsUserEnum
 User enumeration with Microsoft Teams API
@@ -706,6 +742,12 @@ Dumping DPAPI credz remotely
 https://github.com/lukebaggett/dnscat2-powershell
 A Powershell client for dnscat2, an encrypted DNS command and control tool.
 
+https://github.com/m4ll0k/infoga
+Infoga - Email OSINT
+
+https://github.com/maldevel/EmailHarvester
+Email addresses harvester 
+
 https://github.com/mandiant/SharPersist
 Windows persistence toolkit written in C#.
 
@@ -717,6 +759,9 @@ Web path scanner
 
 https://github.com/med0x2e/SigFlip
 SigFlip is a tool for patching authenticode signed PE files (exe, dll, sys ..etc) without invalidating or breaking the existing signature.
+
+https://github.com/mgeeky/Penetration-Testing-Tools
+A collection of more than 170+ tools, scripts, cheatsheets and other loots that I have developed over years for Red Teaming/Pentesting/IT Security audits purposes. Most of them came handy on at least one of my real-world engagements.
 
 https://github.com/micahvandeusen/gMSADumper
 Lists who can read any gMSA password blobs and parses them if the current user has access.
@@ -750,6 +795,9 @@ C# Reflective loader for unmanaged binaries.
 
 https://github.com/nettitude/SharpSocks
 Tunnellable HTTP/HTTPS socks4a proxy written in C# and deployable via PowerShell
+
+https://github.com/nettitude/SharpWSUS
+SharpWSUS is a CSharp tool for lateral movement through WSUS.
 
 https://github.com/newsoft/adduser
 Programmatically create an administrative user under Windows
@@ -925,6 +973,9 @@ Patch PE, ELF, Mach-O binaries with shellcode new version in development, availa
 https://github.com/sensepost/gowitness
 gowitness is a website screenshot utility written in Golang, that uses Chrome Headleas
 
+https://github.com/sensepost/ruler
+A tool to abuse Exchange services
+
 https://github.com/sherlock-project/sherlock
 Hunt down social media accounts by username across social networks
 
@@ -1042,24 +1093,39 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
-https://github.com/ShutdownRepo/pywhisker
-Python version of the C# tool for "Shadow Credentials" attacks
+https://github.com/skelsec/octopwnweb
+OctoPwn in your browser
 
-https://github.com/SolomonSklash/RubeusToCcache
-A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache files for Impacket
+https://github.com/Octoberfest7/XLL_Phishing
+XLL Phishing Tradecraft
 
-https://github.com/ihebski/DefaultCreds-cheat-sheet
-One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password shield
+https://github.com/liamg/dismember
+Scan memory for secrets and more. Maybe eventually a full /proc toolkit.
 
-https://github.com/AlsidOfficial/WSUSpendu
-Implement WSUSpendu attack
+https://github.com/Wh04m1001/DFSCoerce
+PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAddStdRoot (found by @xct_de) methods.
 
-https://github.com/nettitude/SharpWSUS
-SharpWSUS is a CSharp tool for lateral movement through WSUS.
+https://github.com/mgeeky/Penetration-Testing-Tools/blob/master/phishing/vba-windows-persistence.vbs
+This macro implements two windows persistence methods:  WMI Event Filter object and HKCU Registry Run
 
-https://github.com/maldevel/EmailHarvester
-Email addresses harvester 
+https://github.com/mgeeky/SharpWebServer
+Red Team oriented C# Simple HTTP & WebDAV Server with Net-NTLM hashes capture functionality
 
-https://github.com/m4ll0k/infoga
-Infoga - Email OSINT
+https://github.com/ropnop/impacket_static_binaries
+Standalone binaries for Linux/Windows of Impacket's examples
+
+https://github.com/Taonn/EmailAll
+EmailAll is a powerful Email Collect tool
+
+https://github.com/optiv/Mangle
+Mangle is a tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
+
+https://github.com/p0dalirius/Coercer
+A python script to automatically coerce a Windows server to authenticate on an arbitrary machine through 9 methods.
+
+https://github.com/simondotsh/DirSync
+DirSync is a simple proof of concept PowerShell module to demonstrate the impact of delegating DS-Replication-Get-Changes and DS-Replication-Get-Changes-In-Filtered-Set.
+
+https://github.com/aniqfakhrul/powerview.py
+PowerView alternative
 

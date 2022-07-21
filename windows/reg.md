@@ -23,7 +23,7 @@ reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /v so
 reg query "<path>"
 ```
 
-### Write security hive to file
+### Write security hive to file (sam, system, security, software)
 ```
 reg save hklm\security <file>
 ```

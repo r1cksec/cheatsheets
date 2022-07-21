@@ -3,7 +3,7 @@ https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.0_Any/Rub
 https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1  
 https://github.com/GhostPack/Rubeus
 
-## note: always use the fully qualified domain name to execute commands after getting a ticket
+## Note: Always use the fully qualified domain name to execute commands after getting a ticket
 
 ### List kerberos tickets applied to current logon session
 ```

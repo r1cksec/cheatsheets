@@ -13,6 +13,6 @@ Microsoft 365 ActiveSync - exploit using build in mail application in windows
 
 ### Check mfa settings
 ```
-Invoke-MFWSweep -Username <user>@<domain> -Password <password>
+Invoke-MFASweep -Username <user>@<domain> -Password <password>
 ```
 

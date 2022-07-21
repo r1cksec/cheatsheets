@@ -1,5 +1,8 @@
-## credentials for local accounts in SAM and Service account credentials from LSA Secrets are not protected by credential guard
-## only available on the Windows 10 Enterprise edition and Server 2016
+### Note
+```
+Credentials for local accounts in SAM and Service account credentials from LSA Secrets are not protected by credential guard.
+Only available on the Windows 10 Enterprise edition and Server 2016.
+```
 
 ### If credential guard is running, the following should return some output
 ```

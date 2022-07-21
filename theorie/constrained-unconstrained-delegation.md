@@ -1,5 +1,5 @@
 # Unconstrained Delegation
-An account with a set SPN (e.g. Service A) can impersonate an user using the service set via the SPN at any other service in Active Directory. For this purpose, the service can use the user's ticket granting ticket, which is send together with the TGS for Service A.
+An account with a set SPN (e.g. Service A) can impersonate a user using the service set via the SPN at any other service in Active Directory. For this purpose, the service can use the user's ticket granting ticket, which is send together with the TGS for Service A.
 
 ## Prerequisites
 ```
@@ -30,7 +30,7 @@ Invoke-Rubeus -Computer 'ptt /ticket:<base64Ticket>'
 
 
 # Constrained Delegation
-An account with a set SPN (e.g. Computer A with Service A) can impersonate an user using Service A towards other services in Active Directory. Impersonation can be applied to services (e.g. Service B) defined in the msDS-AllowedToDelegateTo attribute of Computer A. The impersonation is performed by using the S4U2Proxy Extension, after the user authenticates to Service A. It is also possible to impersonate the user for an alternative service, as long as these service are provided by Computer B. This is because the service part of the SPN (<spn>/<fqdn>) in a service ticket is not signed by Kerberos and thus can later be manipulated.
+An account with a set SPN (e.g. Computer A with Service A) can impersonate a user using Service A towards other services in Active Directory. Impersonation can be applied to services (e.g. Service B) defined in the msDS-AllowedToDelegateTo attribute of Computer A. The impersonation is performed by using the S4U2Proxy Extension, after the user authenticates to Service A. It is also possible to impersonate the user for an alternative service, as long as these service are provided by Computer B. This is because the service part of the SPN (<spn>/<fqdn>) in a service ticket is not signed by Kerberos and thus can later be manipulated.
 
 ## Prerequisites
 ```
@@ -62,7 +62,7 @@ Invoke-Rubeus -Command 's4u /user:<attackerComputerA> /rc4:<ntlmHashComputerA> /
 
 
 # Resource Based Constrained Delegation
-An account (e.g. Computer A) with set SPN (e.g. Service A) can impersonate an user using Service A towards other services (e.g. Service B of Computer B) in Active Directory. Impersonation can only take place if the msDS-AllowedToActOnBehalfOfOtherIdentity attribute of Service B lists Computer A.
+An account (e.g. Computer A) with set SPN (e.g. Service A) can impersonate a user using Service A towards other services (e.g. Service B of Computer B) in Active Directory. Impersonation can only take place if the msDS-AllowedToActOnBehalfOfOtherIdentity attribute of Service B lists Computer A.
 
 ## Prerequisites
 ```
