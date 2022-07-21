@@ -1,8 +1,3 @@
-### Start firewall
-```
-ufw status numbered
-```
-
 ### Blacklist by default
 ```
 ufw default deny
@@ -26,6 +21,11 @@ ufw allow from <rhost>
 ### Limit connections (default 6 connection per 30 seconds)
 ```
 ufw limit <port>/tcp
+```
+
+### Start firewall
+```
+ufw enable
 ```
 
 ### List all rules

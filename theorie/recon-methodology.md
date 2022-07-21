@@ -56,7 +56,7 @@ Rootdomains can be identified by simple using the company name and a single Goog
 But it is also possible that the rootdomains differ based on top-level domains.
 However a domain with a completely different name could also belong to the target company.
 
-One possibility to find rootdomains is the use of the Intel module from Amass (see https://github.com/r1cksec/cheatsheets/blob/main/linux/amass.md).
+One option to find rootdomains is the use of the Intel module from Amass (see https://github.com/r1cksec/cheatsheets/blob/main/linux/amass.md).
 The Intel module collects various root domains from different sources of the Open Source Intelligence (OSINT) sector.
 These sources include, for example https://viewdns.info.
 
@@ -99,7 +99,7 @@ amass intel -ip -addr <XXX.XXX.XXX.XXX-XXX>
 
 Moreover, it is possible to crawl the website of a company with a web spider.
 Among the extracted domains and subdomains, further root domains can be identified in this way.
-The tool `hakrawler` makes it possible to extract all URLs from a given website (see https://github.com/r1cksec/cheatsheets/blob/main/linux/hakrawler.md):
+The tool `hakrawler` allows to extract all URLs from a given website (see https://github.com/r1cksec/cheatsheets/blob/main/linux/hakrawler.md):
 
 ```
 cat "<urlFile>" | hakrawler -s -u -d 1
@@ -110,7 +110,7 @@ cat "<urlFile>" | hakrawler -s -u -d 1
 The list of domains resulting from this procedure must then be sorted and classified.
 
 Often websites can be assigned to a specific company based on the copyright.
-Once you have a long list of possible root domains, you can sort and classify them according to their copyrights.
+In this way a long list of root domains can be sorted and classified accordingly.
 Again this process can be automated using the tool `get-copyright` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-copyright):
 
 ```
@@ -120,7 +120,7 @@ Again this process can be automated using the tool `get-copyright` (see https://
 Alternatively the copyright can be used to find further root domains.
 A simple Google search with `"copyright"` is often sufficient to list other root domains (see https://github.com/r1cksec/autorec/blob/master/scripts/search-google).
 
-Another possibility to assign rootdomains to a target company is the comparision of favicons.
+Another way to assign rootdomains to a target company is the comparision of favicons.
 The tool favfreak is suitable for this purpsoe (see https://github.com/r1cksec/cheatsheets/blob/main/linux/favfreak.md).
 Favfreak calculates the MD5 hash of a favicon and then groups equal results:
 
@@ -135,7 +135,8 @@ Aquatone takes screenshots and then groups equal results (see https://github.com
 cat <rhostFile> | aquatone -out <outputDirectory>
 ```
 
-Alternatively you can also compare the `title` tag of different webapplications using `get-title` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-title)
+Alternatively rootdomains can also be classified based on the `title` tag.
+The tool `get-title` automates this process (see https://github.com/r1cksec/autorec/blob/master/scripts/get-title):
 
 ### Subdomain enumeration
 
@@ -155,7 +156,7 @@ Again the tool `amass` automates this process.
 amass enum -passive -d <domain> -src
 ```
 
-Alternatively, the use of `subfinder` is also possible:
+Alternatively, there are tools like `subfinder`:
 
 ```
 subfinder -d <domain>
@@ -279,6 +280,6 @@ python3 crosslinked.py -f '{first}.{last}@<domain>' "<companyName>" --safe
 ```
 
 Another source to get more email addresses are known database leaks.
-Besides a list of possibly still active mail addresses and maybe even passwords, this source can also be used to discover new root domains.
+Besides a list of mail addresses and maybe even passwords, this source can also be used to discover new root domains.
 Once a new rootdomain has been found, the enumeration of subdomains and internal informations can be repeated.
 
