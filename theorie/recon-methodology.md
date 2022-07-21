@@ -15,7 +15,9 @@ The following sources of information can be used to identify the relationships b
 * https://www.northdata.de
 * https://www.unternehmensregister.de
 
-The search for company names, which according to northdata are related to each other, can be automated with the help of the tool `north-scraper` (see https://github.com/r1cksec/autorec/blob/master/scripts/north-scraper). Depending on the target company it is necessary to remove some false positives afterwards, because northdata also shows past relations between companies.
+The search for company names, which according to northdata are related to each other, can be automated with the help of the tool `north-scraper` (see https://github.com/r1cksec/autorec/blob/master/scripts/north-scraper).
+
+Depending on the target company it is necessary to remove some false positives afterwards, because northdata also shows past relations between companies.
 
 Furthermore, a look at the company website or wikipedia often helps to better understand the structure of the company.
 Information on subsidiaries and company locations may be listed there.
@@ -34,8 +36,9 @@ wget ftp://ftp.ripe.net/ripe/dbase/ripe.db.gz
 ```
 
 Afterwards it is possible to search the database with a simple `grep` command.
-The name of the target company or acronyms can give a good starting point.
+The name of the target company or acronyms provide a good starting point.
 Since there is no established standard for specifying information in the database, the results should be completed or checked with https://www.shodan.io or https://bgp.he.net/cc.
+
 The search on bgp.he.net can be automated using the tool `get-netblocks` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-netblocks):
 
 ```
@@ -43,7 +46,7 @@ get-netblocks '<companyName>'
 ```
 
 Sometimes it is necessary to quickly get the name of the hoster for a given IP address.
-For thie the tool `get-whois-hoster` is suitable (see https://github.com/r1cksec/autorec/blob/master/scripts/get-whois-hoster):
+The tool `get-whois-hoster` is suitable (see https://github.com/r1cksec/autorec/blob/master/scripts/get-whois-hoster):
 
 ```
 get-whois-hoster <domainFile>
@@ -57,6 +60,7 @@ But it is also possible that the rootdomains differ based on top-level domains.
 However a domain with a completely different name could also belong to the target company.
 
 One option to find rootdomains is the use of the Intel module from Amass (see https://github.com/r1cksec/cheatsheets/blob/main/linux/amass.md).
+
 The Intel module collects various root domains from different sources of the Open Source Intelligence (OSINT) sector.
 These sources include, for example https://viewdns.info.
 
@@ -122,6 +126,7 @@ A simple Google search with `"copyright"` is often sufficient to list other root
 
 Another way to assign rootdomains to a target company is the comparision of favicons.
 The tool favfreak is suitable for this purpsoe (see https://github.com/r1cksec/cheatsheets/blob/main/linux/favfreak.md).
+
 Favfreak calculates the MD5 hash of a favicon and then groups equal results:
 
 ```
@@ -150,6 +155,7 @@ cat <subdomainFile> | awk -F " " '{print $1".<domain>"}' | massdns -r <dnsResolv
 Subdomain wordlists can be obtained here https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS.
 
 Additionally subdomains can be enumerated using public OSINT resources like https://crt.sh or https://dnsdumpster.com. 
+
 Again the tool `amass` automates this process.
 
 ```
