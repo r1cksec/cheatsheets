@@ -154,7 +154,7 @@ cat <subdomainFile> | awk -F " " '{print $1".<domain>"}' | massdns -r <dnsResolv
 
 Subdomain wordlists can be obtained here https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS.
 
-Additionally subdomains can be enumerated using public OSINT resources like https://crt.sh or https://dnsdumpster.com. 
+Additionally, subdomains can be enumerated using public OSINT resources like https://crt.sh or https://dnsdumpster.com. 
 
 Again the tool `amass` automates this process.
 
@@ -232,6 +232,8 @@ The following tools facilitate this search:
 * https://github.com/r1cksec/cheatsheets/blob/main/linux/scanrepo.md
 * https://github.com/r1cksec/cheatsheets/blob/main/linux/trufflehog.md
 
+Or, the githound tool can aid in the discovery of api-keys or konfiguration files. (see https://github.com/tillson/git-hound).
+
 Furthermore Github dorks can also be used to gather interesting files (see https://github.com/r1cksec/cheatsheets/blob/main/fuzzing/github-dorks).
 
 ## Employees and E-mail addresses
@@ -284,6 +286,8 @@ However, many false positives may be collected.
 ```
 python3 crosslinked.py -f '{first}.{last}@<domain>' "<companyName>" --safe
 ```
+
+Alternativly, the lead-generating and rekruting solution PhantomBuster (see https://phantombuster.com/) can be used on LinkedIn to extract useful information and data.
 
 Another source to get more email addresses are known database leaks.
 Besides a list of mail addresses and maybe even passwords, this source can also be used to discover new root domains.
