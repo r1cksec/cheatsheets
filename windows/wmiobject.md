@@ -16,3 +16,10 @@ Get-WmiObject –ComputerName <computer> –Class Win32_ComputerSystem | Select-
 Get-WmiObject -namespace "root\ccm\policy\Machine\ActualConfig" -class "CCM_NetworkAccessAccount"
 ```
 
+### Get RAM usage
+```
+$obj =  Get-WmiObject -Class WIN32_OperatingSystem
+$ram = (($obj.TotalVisibleMemorySize - $obj.FreePhysicalMemory)/1024/1024)
+Write-Host "RAM usage in GB:" $ram
+```
+

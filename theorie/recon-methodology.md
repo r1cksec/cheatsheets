@@ -287,7 +287,13 @@ However, many false positives may be collected.
 python3 crosslinked.py -f '{first}.{last}@<domain>' "<companyName>" --safe
 ```
 
-Alternativly, the lead-generating and rekruting solution PhantomBuster (see https://phantombuster.com/) can be used on LinkedIn to extract useful information and data.
+If a manual approach is preferred, it is also possible to run a simple Google Dorks.
+
+```
+intitle:"companyName" inurl:"linkedin.com/in/" site:linkedin.com
+```
+
+Alternativly, the lead-generating and rekruting solution PhantomBuster (see https://phantombuster.com) can be used on LinkedIn to extract useful information and data.
 
 Another source to get more email addresses are known database leaks.
 Besides a list of mail addresses and maybe even passwords, this source can also be used to discover new root domains.

