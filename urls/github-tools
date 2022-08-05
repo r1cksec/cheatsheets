@@ -1129,3 +1129,30 @@ DirSync is a simple proof of concept PowerShell module to demonstrate the impact
 https://github.com/aniqfakhrul/powerview.py
 PowerView alternative
 
+https://github.com/Octoberfest7/DNS_Tunneling
+DNS Tunneling using powershell to download and execute a payload. Works in CLM.
+
+https://github.com/ohbriansung/phishing_email_pdf_attack
+Attach an executable file and use JavaScript to download the attachment
+
+https://github.com/persistence-info/persistence-info.github.io
+The repository tries to gather an information about Windows persistence mechanisms to make the protection/detection more efficient.
+
+https://github.com/RedTeamPentesting/pretender
+Your MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing.
+
+https://github.com/kleiton0x00/Shelltropy
+A technique of hiding malicious shellcode via Shannon encoding.
+
+https://github.com/FSecureLABS/physmem2profit
+Physmem2profit can be used to create a minidump of a target hosts' LSASS process by analysing physical memory remotely
+
+https://github.com/FSecureLABS/physmem2profit
+Physmem2profit can be used to create a minidump of a target hosts' LSASS process by analysing physical memory remotely
+
+https://github.com/zeronetworks/BloodHound-Tools
+Collection of tools that reflect the network dimension into Bloodhound's data
+
+https://github.com/Mayyhem/SharpSCCM
+A C# utility for interacting with SCCM
+

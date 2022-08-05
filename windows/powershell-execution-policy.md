@@ -17,7 +17,7 @@ Powershell -command "Write-Host '<command>'"
 
 Powershell -c "Write-Host '<command>'"  
 
-$command = "Write-Host '<command>'" $bytes = [System.Text.Encoding]::Unicode.GetBytes($command) $encodedCommand = [Convert]::ToBase64String($bytes) powershell.exe -EncodedCommand $encodedCommand  
+powershell.exe -EncodedCommand $encodedCommand  
 
 Invoke-Command -scriptblock {Write-Host "<command>"}  
 

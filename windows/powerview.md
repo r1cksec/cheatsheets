@@ -92,8 +92,13 @@ Request-SPNTicket -SPN 'foo/bar'
 Set-DomainObject -Credential $Cred -Identity <userOrComputer> -Clear serviceprincipalname
 ```
 
-### List accesible shares (without -ComputerName check all domain joined hosts)
+### List accessible shares (without -ComputerName check all domain joined hosts)
 ```
 Find-DomainShare -CheckShareAccess -ComputerName <rhost>
+```
+
+### Search for accounts with DS-Replication-Get-Changes or DS-Replication-Get-Changes-In-Filtered-Set
+```
+Get-ObjectAcl -DistinguishedName "dc=<domainComponent>,dc=<domainComponent> -ResolveGUIDs | ?{($_.ObjectType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll')}
 ```
 

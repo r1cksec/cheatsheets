@@ -25,9 +25,9 @@ hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 ?a = ?l?u?d?s
 ```
 
-### Example all alphanumeric chars for 6 chars
+### Example all alphanumeric chars from 1 to 6 chars
 ```
-hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
+hashcat -o <outfile> -m <hashType> -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType> --increment
 ```
 
 ### Some hashtypes
@@ -52,7 +52,7 @@ hashcat -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType>
 11200 = MySQL Challenge-Response Authentication (SHA1)
 11400 = SIP digest authentication (MD5)
 13100 = Kerberos 5 TGS-REP (etype 23)
-13400 = Keepass (kdbx file) - format: :$keepass$*2*<int>*<hash>
+13400 = Keepass (kdbx file) - format: $keepass$*2*<int>*<hash>
 18200 = Kerberos 5 AS-REP (etype 23)
 19600 = Kerberos 5 TGS-REP (etype 17)
 19700 = Kerberos 5 TGS-REP (etype 18)

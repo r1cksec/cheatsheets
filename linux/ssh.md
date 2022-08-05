@@ -68,6 +68,7 @@ chown <user>:<user> authorized_keys
 chmod 600 authorized_keys
 ssh-keygen -t rsa -b 4096
 cat <publicKey> >> authorized_keys
+chown <user>:<user> <key>* 
 ```
 
 ### Dynamic port forwarding (forward proxychains traffic into server network)

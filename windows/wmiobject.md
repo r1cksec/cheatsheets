@@ -11,3 +11,8 @@ Get-WmiObject win32_loggedonuser -ComputerName <computer>
 Get-WmiObject –ComputerName <computer> –Class Win32_ComputerSystem | Select-Object UserName
 ```
 
+### Check locally for SCCM credentials (admin priviledge needed)
+```
+Get-WmiObject -namespace "root\ccm\policy\Machine\ActualConfig" -class "CCM_NetworkAccessAccount"
+```
+

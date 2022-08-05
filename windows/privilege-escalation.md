@@ -185,6 +185,7 @@ dir c:\ /s /b /c | findstr /si *vnc.ini
 ```
 findstr /si password *.txt | *.xml | *.ini
 findstr /si pass *.txt | *.xml | *.ini
+findstr /si ConvertTo-SecureString *.txt | *.xml | *.ini
 ```
 
 ### Big search for possible credentials

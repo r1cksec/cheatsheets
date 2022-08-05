@@ -3,7 +3,7 @@ https://github.com/ly4k/Certipy
 
 ### Check for vulnerable templates
 ```
-certipy find '<domain>/<user>:<password>@<domainController>' -vulnerable
+certipy find '<domain>/<user>:<password>@<domainController>'
 ```
 
 ### Collect data for bloodhound

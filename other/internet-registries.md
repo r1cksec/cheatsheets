@@ -8,7 +8,7 @@ wget ftp://ftp.ripe.net/ripe/dbase/ripe.db.gz
 wget -r --exclude-directories=/radb/dbase/archive/ -A gz ftp://ftp.radb.net/radb/dbase/
 ```
 
-###rEgistries
+### Registries
 ```
 whois.ripe.net (Europe, Middle East, Russia)
 whois.arin.net (USA, Canada, Caribbean)

