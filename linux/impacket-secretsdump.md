@@ -28,7 +28,7 @@ impacket-secretsdump -system <systemFile> -sam <samFile> -security <securityFile
 
 ### Dump from local system and ntds.dit
 ```
-impacket-secretsdump -ntds <ntdsFile> -system system <systemFile>  LOCAL
+impacket-secretsdump -ntds <ntdsFile> -system <systemFile> LOCAL
 ```
 
 ### Opsec considerations 

@@ -3,8 +3,14 @@
 ## Azure Key Vault 
 Azure Key Vaults are places where encrypted secrets can stored.
 
+## Azure Resource Manager
+The ARM is the Client deployment and management service for Azure used to manage the access control of resources.
+
 ## Conditional Access Policies
 Fine-grained controls for access to resources and when or where MFA is applied.
+
+## Core Domain
+The initial domain name (Example: tenant.onmicrosoft.com)
 
 ## Enterprise
 The Enterprise represents the Azure global unique identity that a company owns and allows access to subscriptions, tenants and services.
@@ -22,7 +28,7 @@ A Runbook is part of the Azure Automation service. It supports scripting languag
 An Azure storage account can contain all sort of Azure Storage data objects, including blobs, file shares, queues, tables, and disks.
 
 ## Subscriptions
-Describes how you gain access to an Azure service.
+A Subscription is a logical unit of Azure services that links to an Azure account. The Subscriptions describes how you gain access to an Azure service. Each Subscription can only trust a single directory.
 
 ## System-Assigned Managed Identity
 Once a resource has been deleted the SAMI will be deleted too.
@@ -33,6 +39,46 @@ A Tenant is an instance of an Enterprise. An Enterprise can have multiple tenant
 ## User-Assigned Managed Identity
 Once a resource has been deleted the UAMI won't not be deleted. UAMI can be used on multiple resources.
 
+# Resource Based Access Control
+
+Azure AD Objects or Principals have Roles on Scopes.
+
+## Azure AD Object / Principal
+```
+User
+Group
+Service Principal
+Managed Identity
+```
+
+## Roles
+Role assignment is transitive for groups.
+An explicit deny role takes precedence.
+
+### Owner
+Has full control over a resource and can also change access rights for other users.
+
+### Contributor
+Has full access to all resources without the possibility to manage access.
+
+### Reader
+Has only read access.
+
+### User Access Administrator
+Can view all resources and ha the possibility to manage user access to Azure resources.
+
+## Scope Architecture
+```
+Management-Groups
+├── Subscriptions
+│   ├── Resource-Groups
+│   ├── Resource-Groups
+│   │   ├── Resources (Account, Run-Book, Virtual Network, Application)
+│   │   └── ...
+│   └── ...
+├── Subscriptions
+└── ...
+```
 
 # Azure AD Connect Methods
 
@@ -45,6 +91,19 @@ Using the Pass Through Authentication (PTA) the passwords are kept on-premise an
 ## Active Directory Federation Services
 Using the Active Directory Federation Services (ADFS) Azure AD is set as a trusted agent for federation and allows to login with on-premise credentials.
 
+## Azure AD Directory
+Each tenant has a dedicated Directory, which is used to perform identity and access managment functions.
+
+# OpenID Connect token types
+
+## Access Tokens
+Used in combination of user, client, and resource. Cannot be revoked until expiry (1 hour default).
+
+## ID Tokens
+Used in combination of user and client. Contains information about the user.
+
+## Refresh Tokens
+Used in combination of user and client. Used to get new access and ID tokens. Cannot be revoked until expiry (default 90 days of inactivity).
 
 # Microsoft MFA verification options
 ```
@@ -62,20 +121,18 @@ Require MFA during authentication when necessary
 Protects privileged activities likes access to Azure AD
 ```
 
-# Roles
+# Environment variables
 
-## Owner
-Has full control over a resource.
+## Apps that has a managed identity
+```
+IDENTITY_HEADER
+IDENTITY_ENDPOINT
+```
 
-## Contributor
-Has all rights exceüt the ability to change permissions.
-
-## Reader
-Has only read access.
-
-## User Access Administrator
-Has the possibility to manage user access to Azure resources.
-
+### Get access token
+```
+curl "$IDENTITY_ENDPOINT?resource=https://management.azure.com/&api-version=2017-09-01" -H secret:$IDENTITY_HEADER
+```
 
 # Urls
 
@@ -118,8 +175,10 @@ Invoke-MSOLSpray -UserList .\<userlist>.txt -Password <password>
 ```
 
 ## Tools for authenticated recon
-https://github.com/nyxgeek/o365recon
 https://github.com/dirkjanm/ROADtools
+https://github.com/Gerenios/AADInternals
+https://github.com/nyxgeek/o365recon
+https://www.powershellgallery.com/packages/AzureAD/2.0.2.140
 
 ## Search mailboxes and extract contact informations
 https://github.com/dafthack/MailSniper

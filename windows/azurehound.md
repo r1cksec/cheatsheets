@@ -12,6 +12,9 @@ Install-Module -Name AzureAD -Scope CurrentUser -Repository PSGallery -Force
 Import-Module Az
 Import-Module Azuread
 
+Connect-AzAccount
+Connect-AzureAD
+
 Invoke-Azurehound
 ```
 

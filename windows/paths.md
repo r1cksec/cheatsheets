@@ -1,3 +1,9 @@
+### Azure access tokens
+```
+C:\Users\<user>\.Azure\accessTokens.json
+C:\Users\<user>\.Azure\TokenCache.dat
+```
+
 ### Cmd.exe 
 ```
 C:\WINDOWS\system32\cmd.exe

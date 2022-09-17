@@ -1,5 +1,5 @@
 ### Source
-https://github.com/droope/droopescan  
+https://github.com/SamJoan/droopescan
 
 ### Scan drupal plugins (alternative joomla or moodle), -t threads
 ```

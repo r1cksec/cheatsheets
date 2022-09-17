@@ -1,4 +1,6 @@
+https://login.microsoftonline.com/getuserrealm.srf?login=<targetMail>
+https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 https://outlook.office.com/mail
+https://portal.azure.com
 https://rdweb.wvd.microsoft.com/arm/webclient/index.html
 https://teams.microsoft.com
-

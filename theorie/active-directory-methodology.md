@@ -45,7 +45,7 @@ The Lightweight Directory Access Protocol is a network protocol for querying and
 This attribute is used for access checks to determine if a requestor has permission to retrieve the password for a group Microsoft Account.
 
 ## msDS-KeyCredentialLink
-LDAP attribute that holds the public key of the TPM if the Key Trust model is implemented
+LDAP attribute that holds the public key of the TPM if the Key Trust model is implemented.
 
 ## ms-MCS-AdmPwd
 LDAP attribute that holds the password of the local administrator. Used inside the Local Administrator Password Solution (LAPS).

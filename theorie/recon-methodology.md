@@ -101,6 +101,16 @@ Of course, it is worthwhile to perform a reverse dns lookup for all known IP add
 amass intel -ip -addr <XXX.XXX.XXX.XXX-XXX>
 ```
 
+Furthermore, it is also possible to find other root domains by searching for the start date of certificates, because many certificates are renewed automatically at a fixed time.
+The search can be performed using https://search.censys.io:
+
+```
+parsed.validity.start:<year>-<month>-<day>T<hour>\:<minutes>\:<second>Z
+```
+
+Some Certificate Authority like DigiCert use 00:00:00 as start time.
+Therefore, when a CA does not include the exact issuing time to certificates, the certificates issued close in time can be discovered on https://crt.sh by their positions in the logs.
+
 Moreover, it is possible to crawl the website of a company with a web spider.
 Among the extracted domains and subdomains, further root domains can be identified in this way.
 The tool `hakrawler` allows to extract all URLs from a given website (see https://github.com/r1cksec/cheatsheets/blob/main/linux/hakrawler.md):

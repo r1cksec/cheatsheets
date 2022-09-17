@@ -515,10 +515,7 @@ https://github.com/cobbr/PSAmsi
 PSAmsi is a tool for auditing and defeating AMSI signatures.
 
 https://github.com/cobbr/SharpSploit
- SharpSploit is a .NET post-exploitation library written in C#
-
-https://github.com/countercept/chainsaw
-Rapidly Search and Hunt through Windows Event Logs
+SharpSploit is a .NET post-exploitation library written in C#
 
 https://github.com/cribdragg3r/Alaris
 A protective and Low Level Shellcode Loader that defeats modern EDR systems.
@@ -589,7 +586,7 @@ Active Directory information dumper via LDAP
 https://github.com/djhohnstein/SharpChromium
 .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
 
-https://github.com/droope/droopescan
+https://github.com/SamJoan/droopescan
 A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
 
 https://github.com/drwetter/testssl.sh
@@ -868,11 +865,8 @@ Attach an executable file and use JavaScript to download the attachment
 https://github.com/ohpe/juicy-potato/blob/master/CLSID/GetCLSID.ps1
 This script extracts CLSIDs and AppIDs related to LocalService.DESCRIPTION
 
-https://github.com/ollypwn/Certipy
-Python implementation for Active Directory certificate abuse.
-
-https://github.com/ollypwn/PetitPotam
-Python implementation for PetitPotam
+https://github.com/ly4k/Certipy
+Tool for Active Directory Certificate Services enumeration and abuse
 
 https://github.com/openwall/john
 John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs
@@ -942,9 +936,6 @@ Subfinder is a subdomain discovery tool that discovers valid subdomains for webs
 
 https://github.com/punk-security/pwnspoof
 pwnSpoof (from Punk Security) generates realistic spoofed log files for common web servers with customisable attack scenarios.
-
-https://github.com/putterpanda/mimikittenz
-mimikittenz is a post-exploitation powershell tool that utilizes the Windows function ReadProcessMemory() in order to extract plain-text passwords from various target processes.
 
 https://github.com/pwn1sher/WMEye
 WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Execution for lateral movement
@@ -1051,7 +1042,7 @@ Transparent proxy server that works as a poor man's VPN. Forwards over ssh. Does
 https://github.com/stealth/devpops
 Companion Worm research
 
-https://github.com/stonepresto/CLMBypass
+https://github.com/ropbear/CLMBypass
 Bypass Constrained Language Mode in PowerShell
 
 https://github.com/streaak/keyhacks
@@ -1152,4 +1143,61 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
+
+https://github.com/mandiant/capa
+The FLARE team's open-source tool to identify capabilities in executable files.
+
+https://github.com/Z4kSec/Masky
+Python library with CLI allowing to remotely dump domain user credentials via an ADCS without dumping the LSASS process memory
+
+https://github.com/last-byte/PersistenceSniper
+Powershell module that can be used by Blue Teams, Incident Responders and System Administrators to hunt persistences implanted in Windows machines.
+
+https://github.com/kaluche/bloodhound-quickwin
+Simple script to extract useful informations from the combo BloodHound + Neo4j
+
+https://github.com/rvrsh3ll/Misc-Powershell-Scripts
+Random Tools (Create-Hotkey, FileSplitter, Get-BrowserData)
+
+https://github.com/MWR-CyberSec/PXEThief
+PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager 
+
+https://github.com/s0md3v/Smap
+a drop-in replacement for Nmap powered by shodan.io
+
+https://github.com/d4rckh/gorilla
+tool for generating wordlists or extending an existing one using mutations.
+
+https://github.com/zeronetworks/BlueHound
+BlueHound is an open-source tool that helps blue teams pinpoint the security issues that actually matter.
+
+https://github.com/iilegacyyii/ExportDumper
+A small tool I made to dump the export table of PE files. The primary use case was intended for use within DLL proxying.
+
+https://github.com/h4wkst3r/SCMKit
+Source Code Management Attack Toolkit
+
+https://github.com/FortyNorthSecurity/PersistAssist
+Fully modular persistence framework
+
+https://github.com/ps1337/reinschauer
+A PoC to remotely control Windows machines over Websockets.
+
+https://github.com/Wra7h/FlavorTown
+Various ways to execute shellcode
+
+https://github.com/r4wd3r/Suborner
+A simple program to create a Windows account you will only know about :)
+
+https://github.com/ytdl-org/youtube-dl
+Command-line program to download videos from YouTube.com and other video sites
+
+https://github.com/onekey-sec/unblob
+Extract files from any kind of container formats
+
+https://github.com/Flangvik/TeamFiltration
+TeamFiltration is a cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts
+
+https://github.com/Meltedd/HVNC
+Standalone HVNC Client & Server | Coded in C++ (Modified Tinynuke)
 
