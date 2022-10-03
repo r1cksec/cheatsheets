@@ -1,0 +1,2 @@
+declare -a arr=("")
+

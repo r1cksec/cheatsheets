@@ -36,7 +36,7 @@ az ad group member list -g "<groupName>" --query "[].[displayName]"
 az webapp list 
 ```
 
-### List functionsapps
+### List function apps
 ```
 az functionapp list 
 ```

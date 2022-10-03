@@ -21,6 +21,11 @@ Get-AzContext -ListAvailable
 Get-AzureADMSRoleDefinition | ?{_.IsBUiltin -eq $False} | Select Displayname
 ```
 
+### Get group member
+```
+Get-AzADGroupMember -GroupDisplayName '<name>'
+```
+
 ### Get all resources visible to current user
 ```
 Get-AzResource
@@ -29,6 +34,11 @@ Get-AzResource
 ### List all RBAC role assignments
 ```
 Get-AzRoleAssigment
+```
+
+### List all RBAC roles for specific user
+```
+Get-AzRoleAssignment -SignInName <user>@<tenant>.onmicrosoft.com
 ```
 
 ### List all service principals 
@@ -46,9 +56,19 @@ Get-AzADServicePrincipal -ObjectId <id>
 Get-AzKeyVault
 ```
 
+### List all VMs where current user has at least Reader role
+```
+Get-AzVM
+```
+
 ### List visble network profiles
 ```
-Get-azvm | Select -ExpandProperty NetworkProfile
+Get-AzVM -Name <name> | Select -ExpandProperty NetworkProfile
+```
+
+### Run command
+```
+Invoke-AzVMRunCommand -ScriptPath <file>.ps1 -CommandId "<someName>" -VMName "<name>" -ResourceGroupName "<name>"
 ```
 
 ### List visible storage accounts
@@ -56,7 +76,7 @@ Get-azvm | Select -ExpandProperty NetworkProfile
 Get-AzStorageAccount 
 ```
 
-### List visble webapps
+### List visile service and function apps
 ```
 Get-AzWebApp | ?{$_.Kind -notmatch "functionapp"}
 Get-AzFunctionApp

@@ -69,6 +69,12 @@ Get-AzureADUser | Get-AzureADUserCreatedObject
 Get-AzureADUserOwnedObject -ObjectId <user>@<tenant>.onmicrosoft.com
 ```
 
+### Set new password for user
+```
+$Pw = "<password>" | ConvertTo-SecureString -AsPlainText -Force
+(Get-AzureADUser -All $true | ?{$_.UserPrincipalName -eq "<user>@<tenant>.onmicrosoft.com"}).ObjectId | Set-AzureADUserPassword -Password $Pw
+```
+
 ### Get groups containing the word admin
 ```
 Get-AzureADGroup -SearchString "admin"
@@ -92,6 +98,16 @@ Get-AzureADDirectoryRole
 ### Get role members
 ```
 Get-AzureADDirectoryRoleMember -objectid <id>
+```
+
+### Get administrative unit of a given object
+```
+Get-AzureADMSAdministrativeUnit -Id <id>
+```
+
+### Get member of administrative unit
+```
+Get-AzureADMSAdministrativeUnitMember -Id <id>
 ```
 
 ### Get active devices

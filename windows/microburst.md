@@ -11,3 +11,8 @@ Import-Module MicroBurst.psm1
 Invoke-EnumerateAzureSubDomains -Base <tenant> -Verbose
 ```
 
+### Enumerate Azure Blobs
+```
+Invoke-EnumerateAzureBlobs -Base <tenant> defcorp 
+```
+

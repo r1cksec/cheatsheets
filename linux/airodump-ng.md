@@ -21,7 +21,7 @@ airodump-ng --band a
 airodump-ng <interface> -w <result> -c <channel>
 ```
 
-### The option -a list only associated devices - IOS und android uses ranodmized mac addresses as far as they are not connected to wifi 
+### The option -a list only associated devices - IOS und android uses randomized mac addresses as far as they are not connected to wifi 
 ```
 airodump-ng <interface> -a
 ```

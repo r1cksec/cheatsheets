@@ -1,7 +1,16 @@
 # Vocabulary
 
+## Administrative units
+An administrative unit is an Azure AD resource that can be a container for users, groups, or devices. It is used to restrict permissions for a given role.
+
+## Azure App Service
+The Azure App Service provides HTTP-based services for hosting webapplications or REST APIs.
+
+## Azure Blob Storage
+Stores unstructered data like files, videos, audio, etc.
+
 ## Azure Key Vault 
-Azure Key Vaults are places where encrypted secrets can stored.
+Azure Key Vaults are places where encrypted secrets can stored (types: key, secret, certificate).
 
 ## Azure Resource Manager
 The ARM is the Client deployment and management service for Azure used to manage the access control of resources.
@@ -14,6 +23,9 @@ The initial domain name (Example: tenant.onmicrosoft.com)
 
 ## Enterprise
 The Enterprise represents the Azure global unique identity that a company owns and allows access to subscriptions, tenants and services.
+
+## Function App
+The also called Azure Functions provides the possibility to run code serverless. The code execution reacts to events like processing file uploads or scheduled tasks.
 
 ## Managed Identity
 A Managed Identity is a Service Principal of a special type that may only be used with Azure resources. Managed Identities can be used to access Azure Key Vaults and storage accounts.
@@ -65,7 +77,7 @@ Has full access to all resources without the possibility to manage access.
 Has only read access.
 
 ### User Access Administrator
-Can view all resources and ha the possibility to manage user access to Azure resources.
+Can view all resources and has the possibility to manage user access to Azure resources.
 
 ## Scope Architecture
 ```
@@ -134,7 +146,7 @@ IDENTITY_ENDPOINT
 curl "$IDENTITY_ENDPOINT?resource=https://management.azure.com/&api-version=2017-09-01" -H secret:$IDENTITY_HEADER
 ```
 
-# Urls
+# Workflow
 
 ## Verify if the target company uses Azure AD
 https://login.microsoftonline.com/getuserrealm.srf?login=<targetMail>
@@ -162,8 +174,18 @@ o365creeper.py -f <emailsFile> -o <validEmailsFile>
 ```
 
 ## Basic Azure Storage Url
+https://github.com/NetSPI/MicroBurst
+
 ```
-<storageAccountName>.blob.core.windows.net
+https://<storageAccount>.blob.core.windows.net
+https://<storageAccount>.dfs.core.windows.net
+https://<storageAccount>.file.core.windows.net
+https://<storageAccount>.queue.core.windows.net
+https://<storageAccount>.table.core.windows.net
+```
+
+```
+Invoke-EnumerateAzureBlobs -Base <tenant> defcorp
 ```
 
 ## Authenticated user enumeration and Password Spraying
@@ -196,7 +218,6 @@ Invoke-MFWSweep -Username <user>@<domain> -Password <password>
 ```
 
 ## Vulnerability Analyse
-https://github.com/NetSPI/MicroBurst
 https://github.com/hausec/PowerZure
 https://github.com/Azure/Stormspotter
 https://github.com/BloodHoundAD/AzureHound

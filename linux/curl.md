@@ -38,3 +38,7 @@ curl -L --cookie "<cookieName>=<value>" https://<domain>
 curl -u '<domainIntern>\<user>:<password>' --ntlm https://<rhost>
 ```
 
+### Send ldap request
+```
+curl --user $<credentials> "ldaps://<fqdnDomanController>/DC=<domainComponent>,DC=<domainComponent>))
+```
