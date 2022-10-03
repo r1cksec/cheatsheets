@@ -26,10 +26,10 @@ SCMUACBypass.exe
 ```
 
 ## Tools / References
-https://github.com/cube0x0/KrbRelay
-https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.0_Any/Rubeus.exe
-https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1
-https://gist.github.com/tyranid/c24cfd1bd141d14d4925043ee7e03c82 (compile using: cl -DUNICODE SCMUACBypass.cpp advapi32.lib)
-https://github.com/eladshamir/Whisker
-https://icyguider.github.io/2022/05/19/NoFix-LPE-Using-KrbRelay-With-Shadow-Credentials.html
+* https://github.com/cube0x0/KrbRelay
+* https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.0_Any/Rubeus.exe
+* https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1
+* https://gist.github.com/tyranid/c24cfd1bd141d14d4925043ee7e03c82 (compile using: cl -DUNICODE SCMUACBypass.cpp advapi32.lib)
+* https://github.com/eladshamir/Whisker
+* https://icyguider.github.io/2022/05/19/NoFix-LPE-Using-KrbRelay-With-Shadow-Credentials.html
 

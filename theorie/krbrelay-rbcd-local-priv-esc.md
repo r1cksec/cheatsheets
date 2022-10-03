@@ -47,11 +47,11 @@ sc delete <service>
 ```
 
 ## Tools / References
-https://github.com/Kevin-Robertson/Sharpmad
-https://raw.githubusercontent.com/Kevin-Robertson/Powermad/master/Powermad.ps1
-https://github.com/cube0x0/KrbRelay
-https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.0_Any/Rubeus.exe
-https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1
-https://gist.github.com/tyranid/c24cfd1bd141d14d4925043ee7e03c82 (compile using: cl -DUNICODE SCMUACBypass.cpp advapi32.lib)
-https://gist.github.com/tothi/bf6c59d6de5d0c9710f23dae5750c4b9
+* https://github.com/Kevin-Robertson/Sharpmad
+* https://raw.githubusercontent.com/Kevin-Robertson/Powermad/master/Powermad.ps1
+* https://github.com/cube0x0/KrbRelay
+* https://github.com/Flangvik/SharpCollection/blob/master/NetFramework_4.0_Any/Rubeus.exe
+* https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1
+* https://gist.github.com/tyranid/c24cfd1bd141d14d4925043ee7e03c82 (compile using: cl -DUNICODE SCMUACBypass.cpp advapi32.lib)
+* https://gist.github.com/tothi/bf6c59d6de5d0c9710f23dae5750c4b9
 

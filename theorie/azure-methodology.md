@@ -149,8 +149,8 @@ curl "$IDENTITY_ENDPOINT?resource=https://management.azure.com/&api-version=2017
 # Workflow
 
 ## Verify if the target company uses Azure AD
-https://login.microsoftonline.com/getuserrealm.srf?login=<targetMail>
-https://github.com/0xZDH/o365spray
+* https://login.microsoftonline.com/getuserrealm.srf?login=<targetMail>
+* https://github.com/0xZDH/o365spray
 
 ```
 Check 'NameSpaceType' value:
@@ -163,9 +163,9 @@ python3 o365spray.py --validate --domain <targetDomain>
 ```
 
 ## Verify email addresses
-https://login.microsoftonline.com/common/GetCredentialType
-https://github.com/dievus/Oh365UserFinder
-https://github.com/LMGsec/o365creeper
+* https://login.microsoftonline.com/common/GetCredentialType
+* https://github.com/dievus/Oh365UserFinder
+* https://github.com/LMGsec/o365creeper
 
 ```
 python3 Oh365UserFinder.py -r <emailFile> -w <output> -t <seconds>
@@ -174,7 +174,7 @@ o365creeper.py -f <emailsFile> -o <validEmailsFile>
 ```
 
 ## Basic Azure Storage Url
-https://github.com/NetSPI/MicroBurst
+* https://github.com/NetSPI/MicroBurst
 
 ```
 https://<storageAccount>.blob.core.windows.net
@@ -189,21 +189,21 @@ Invoke-EnumerateAzureBlobs -Base <tenant> defcorp
 ```
 
 ## Authenticated user enumeration and Password Spraying
-https://login.Microsoft.com/common/oauth2/token
-https://github.com/dafthack/MSOLSpray
+* https://login.Microsoft.com/common/oauth2/token
+* https://github.com/dafthack/MSOLSpray
 
 ```
 Invoke-MSOLSpray -UserList .\<userlist>.txt -Password <password>
 ```
 
 ## Tools for authenticated recon
-https://github.com/dirkjanm/ROADtools
-https://github.com/Gerenios/AADInternals
-https://github.com/nyxgeek/o365recon
-https://www.powershellgallery.com/packages/AzureAD/2.0.2.140
+* https://github.com/dirkjanm/ROADtools
+* https://github.com/Gerenios/AADInternals
+* https://github.com/nyxgeek/o365recon
+* https://www.powershellgallery.com/packages/AzureAD/2.0.2.140
 
 ## Search mailboxes and extract contact informations
-https://github.com/dafthack/MailSniper
+* https://github.com/dafthack/MailSniper
 ```
 Invoke-SelfSearch -Mailbox <user>@<domain> -Terms "*password*","*secret*","*key*"
 
@@ -211,21 +211,21 @@ Get-GlobalAddressList -ExchHostname <rhost> -UserName <domain>\<user> -Password 
 ```
 
 ## Identify inconsistencies in Microsoft MFA deployments
-https://github.com/dafthack/MFASweep
+* https://github.com/dafthack/MFASweep
 
 ```
 Invoke-MFWSweep -Username <user>@<domain> -Password <password>
 ```
 
 ## Vulnerability Analyse
-https://github.com/hausec/PowerZure
-https://github.com/Azure/Stormspotter
-https://github.com/BloodHoundAD/AzureHound
+* https://github.com/hausec/PowerZure
+* https://github.com/Azure/Stormspotter
+* https://github.com/BloodHoundAD/AzureHound
 
 ## Resources
-https://hausec.com/2022/05/04/azure-virtual-machine-execution-techniques
-https://m365internals.com/2021/11/30/lateral-movement-with-managed-identities-of-azure-virtual-machines
-https://pentestbook.six2dez.com/enumeration/cloud/azure
-https://posts.specterops.io/attacking-azure-azure-ad-and-introducing-powerzure-ca70b330511a
-https://www.youtube.com/watch?v=u_3cV0pzptY
+* https://hausec.com/2022/05/04/azure-virtual-machine-execution-techniques
+* https://m365internals.com/2021/11/30/lateral-movement-with-managed-identities-of-azure-virtual-machines
+* https://pentestbook.six2dez.com/enumeration/cloud/azure
+* https://posts.specterops.io/attacking-azure-azure-ad-and-introducing-powerzure-ca70b330511a
+* https://www.youtube.com/watch?v=u_3cV0pzptY
 
