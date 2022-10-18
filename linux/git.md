@@ -62,3 +62,19 @@ git -c http.sslVerify=false
 curl -s "https://api.github.com/users/<user>/repos?per_page=100" | grep -o 'git@[^"]*' | grep "git"
 ```
 
+### Use git via ssh
+```
+# server
+git --bare init
+
+# client
+git init
+touch README
+git add README
+git commit -m "initial commit"
+git remote add origin ssh://<user>@<rhost>/<path>.git
+git push origin master
+
+git clone ssh://<user>@<rhost>/<path>.git
+```
+

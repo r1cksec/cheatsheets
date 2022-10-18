@@ -1258,3 +1258,60 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/tomnomnom/gron
+Make JSON greppable!
+
+https://github.com/xRET2pwn/Teamsniper
+Teamsniper is a tool for fetching keywords in a Microsoft Teams such as (passwords, emails, database, etc.).
+
+https://github.com/D1rkMtr/DumpThatLSASS
+Dumping LSASS by Unhooking MiniDumpWriteDump by getting a fresh DbgHelp.dll copy from the disk , plus functions and strings obfuscation , it contains Anti-sandbox , if you run it under unperformant Virtual Machine you need to uncomment the code related to it and recompile.
+
+https://github.com/bobbyrsec/Microsoft-Teams-GIFShell
+Covert Attack Chain and C2 Utilizing Microsoft Teams GIFs
+
+https://github.com/d4rckh/nimc2
+a c2 fully written in nim
+
+https://github.com/ORCx41/AtomPePacker
+A Highly capable Pe Packer
+
+https://github.com/D1rkMtr/FileLessRemoteShellcode
+Run Fileless Remote Shellcode directly in memory with Module Unhooking , Module Stomping, No New Thread. This repository contains the TeamServer and the Stager
+
+https://github.com/r0oth3x49/ghauri
+An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws
+
+https://github.com/t3l3machus/eviltree
+A python3 remake of the classic "tree" command with the additional feature of searching for user provided keywords/regex in files, highlighting those that contain matches.
+
+https://github.com/med0x2e/vba2clr
+Running .NET from VBA
+
+https://github.com/m3n0sd0n4ld/GooFuzz
+GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumerate directories, files, subdomains or parameters without leaving evidence on the target's server and by means of advanced Google searches (Google Dorking).
+
+https://github.com/BishopFox/cloudfox
+Automating situational awareness for cloud penetration tests.
+
+https://github.com/X-C3LL/SharpNTLMRawUnHide
+C# version of NTLMRawUnHide
+
+https://github.com/dhn/spk
+spk aka spritzgebaeck: A small OSINT/Recon tool to find CIDRs that belong to a specific organization.
+
+https://github.com/mxrch/gitfive
+Track down GitHub users.
+
+https://github.com/Greenwolf/ntlm_theft
+A tool for generating multiple types of NTLMv2 hash theft files by Jacob Wilkin (Greenwolf)
+
+https://github.com/redteamsocietegenerale/DLLirant
+DLLirant is a tool to automatize the DLL Hijacking researches on a specified binary.
+
+https://github.com/anil-yelken/wardriving
+Python Wardriving
+
+https://github.com/xpn/WAMBam
+Tooling related to the WAM Bam - Recovering Web Tokens From Office blog post
+
