@@ -28,3 +28,8 @@ sed -r '/^.{,3}$/d' <file>
 echo "00123" | sed 's/^0*//'
 ```
 
+# Edit file in place
+```
+sed -i 's/replaceThis/replaceWith/g' <file>
+```
+

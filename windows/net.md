@@ -103,3 +103,8 @@ net use /delete *
 net view \\<rhost> /all
 ```
 
+### Get information about error id
+```
+net helpmsg <id>
+```
+

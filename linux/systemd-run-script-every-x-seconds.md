@@ -33,3 +33,13 @@ systemctl enable <jobName>.timer
 systemctl list-timers --all
 ```
 
+### Send output to journal
+```
+echo "text" | systemd-cat -p info
+```
+
+### List unit files
+```
+systemctl list-unit-files
+```
+

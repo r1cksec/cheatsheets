@@ -60,3 +60,4 @@ gpg --recv-key <id>
 ### Or import local key
 ```
 gpg --import <file>.key
+```

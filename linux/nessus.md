@@ -1,3 +1,10 @@
+### Install
+```
+Download Nessus https://www.tenable.com/downloads/nessus
+sudo dpkg -i Nessus-*.deb"
+sudo systemctl start nessusd"
+```
+
 ### Update plugins
 ```
 sudo systemctl stop nessusd

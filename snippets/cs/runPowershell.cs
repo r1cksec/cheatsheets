@@ -1,11 +1,24 @@
 using System;
 using System.Diagnostics;
 
-var startInfo = new ProcessStartInfo()
+var proc = new Process
 {
-    FileName = "powershell.exe",
-    Arguments = "whoami",
-    UseShellExecute = false
+    StartInfo = new ProcessStartInfo
+    {
+        FileName = "powershell.exe",
+        Arguments = "whoami",
+        UseShellExecute = false,
+        CreateNoWindow = true,
+        RedirectStandardOutput = true
+    }
 };
-Process.Start(startInfo);
+proc.Start();
+string line = "";
+
+while (!proc.StandardOutput.EndOfStream)
+{
+    line = line + proc.StandardOutput.ReadLine() + "\n";
+}
+
+Console.WriteLine(line);
 

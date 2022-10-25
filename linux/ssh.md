@@ -38,24 +38,7 @@ DebianBanner no
 ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c 3des-cbc <user>@<rhost>
 ```
 
-### Local port forwarding (forward into ssh server network)
-```
-ssh -L <sshClientPort>:<targetHost>:<targetPort> <user>@<sshServer>
-# from client connect using 
-<command> 127.0.0.1:<sshClientPort>
-```
-
-### Remote port forwarding (forwarding into ssh client network)
-```
-ssh -R <sshServerPort>:<targetHost>:<targetPort> <user>@<sshServer>
-```
-
-### From server connect using
-```
-<command> 127.0.0.1:<sshServerPort>
-```
-
-### Create user with no login shell for proxychains forwarding
+### Create user with no login shell for pivoting
 ```
 useradd <user> -m -s /bin/false
 cd /home/<user>
@@ -86,3 +69,8 @@ ssh -o 'StrictHostKeyChecking=no' -i .\<publicKey> -N -R 9050 <user>@<sshServer>
 proxychains <command>
 ```
 
+### Stealth ssh
+```
+# will not be added to /var/log/utmp, sessions will not appear using w, no usage of .bash_profile .profile
+ssh -o UserKnownHostsFile=/dev/null -T <user>@<rhost> 'bash -i'
+```
