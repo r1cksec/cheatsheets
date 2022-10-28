@@ -223,6 +223,7 @@ Invoke-MFWSweep -Username <user>@<domain> -Password <password>
 * https://github.com/BloodHoundAD/AzureHound
 
 ## Resources
+* https://csandker.io/2022/10/19/Untangling-Azure-Permissions.html
 * https://hausec.com/2022/05/04/azure-virtual-machine-execution-techniques
 * https://m365internals.com/2021/11/30/lateral-movement-with-managed-identities-of-azure-virtual-machines
 * https://pentestbook.six2dez.com/enumeration/cloud/azure

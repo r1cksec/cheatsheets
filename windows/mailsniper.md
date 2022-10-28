@@ -16,3 +16,8 @@ Get-GlobalAddressList -ExchHostname <rhost> -UserName <domain>\<user> -Password 
 Invoke-SelfSearch -Mailbox <user>@<domain> -Terms "*password*","*secret*","*key*"
 ```
 
+### Find mailboxes with permissions set to allow other users access
+```
+Invoke-OpenInboxFinder -EmailList .\<file>.txt
+```
+
