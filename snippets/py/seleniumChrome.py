@@ -1,6 +1,7 @@
 from selenium import webdriver                        
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
+import time
 
 # pip3 install selenium webdriver-manager
 # download chrome driver - https://sites.google.com/chromium.org/driver/downloads

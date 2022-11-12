@@ -1,5 +1,5 @@
-if [ -d path/to/dir ]
+if [ ! -d path/to/dir ]
 then
-    echo "Dir exists"
+    echo "Dir does not exists"
 fi
 
