@@ -881,7 +881,6 @@ $> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <
 ```
 
 
-
 # Best Practice
 - Check and follow up log notifications
 - Disable Link-Local Multicast Name Resolution and Multicast Name Resolution protocol

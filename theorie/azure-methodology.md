@@ -223,7 +223,7 @@ python 365-Stealer.py --run-app
 Use access token with graph.microsoft.com/v1.0/users list users in target tenant
 ```
 
-## Authenticated user enumeration and Password Spraying
+## Authenticated User Enumeration and Password Spraying
 * https://login.Microsoft.com/common/oauth2/token
 * https://github.com/dafthack/MSOLSpray
 
@@ -273,7 +273,7 @@ Invoke-SelfSearch -Mailbox <user>@<domain> -Terms "*password*","*secret*","*key*
 Get-GlobalAddressList -ExchHostname <rhost> -UserName <domain>\<user> -Password <password> -OutFile <outFile>
 ```
 
-## Authenticated Storage Accounts
+## Authenticated - Storage Accounts
 * https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
 * https://azure.microsoft.com/en-us/products/storage/storage-explorer
 
@@ -281,7 +281,7 @@ Get-GlobalAddressList -ExchHostname <rhost> -UserName <domain>\<user> -Password 
 Get-AzStorageAccount
 ```
 
-## Authenticated Key Vaults
+## Authenticated - Key Vaults
 * https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
 * https://github.com/r1cksec/cheatsheets/blob/main/windows/az.md
 
@@ -371,7 +371,7 @@ Invoke-AzVmRunCommand -VmName <name> -ResourceGroupName <name> -CommandId "<name
 * https://learn.microsoft.com/en-us/azure/app-service/scripts/cli-continuous-deployment-github
 
 ```
-Function app supports continuous deployment -> triggered when source code update is pushed
+Function app supports continuous deployment -> triggered when source code update is pushed.
 
 Supportet locations:
 Azure Repos
