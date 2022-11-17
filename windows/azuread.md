@@ -39,6 +39,11 @@ Get-AzureADGroup -All $true | ConvertTo-Json
 Get-AzureADApplication -All $true | ConvertTo-Json
 ```
 
+### Get application proxys
+```
+Get-AzureADApplication | %{try{Get-AzureADApplicationProxyApplication -ObjectId $_.ObjectID;$_.DisplayName;$_.ObjectID}catch{}
+```
+
 ### Get all service principals
 ```
 Get-AzureADServicePrincipal -All $true | ConvertTo-Json
@@ -69,6 +74,11 @@ Get-AzureADUser | Get-AzureADUserCreatedObject
 Get-AzureADUserOwnedObject -ObjectId <user>@<tenant>.onmicrosoft.com
 ```
 
+### Search for password inside properties
+```
+Get-AzureADUser -All $true |%{$Properties = $_;$Properties.PSObject.Properties.Name | % {if ($Properties.$_ -match 'password') {"$($Properties.UserPrincipalName) - $_ - $($Properties.$_)"}}} # testen
+```
+
 ### Set new password for user
 ```
 $Pw = "<password>" | ConvertTo-SecureString -AsPlainText -Force
@@ -83,6 +93,11 @@ Get-AzureADGroup -SearchString "admin"
 ### Get member of group
 ```
 Get-AzureADGroupMember -ObjectId <id>
+```
+
+### Add member to group
+```
+Add-AzureADGroupMember -ObjectId <targetGroupId> -RefObjectId <newMemberId> -Verbose
 ```
 
 ### Get all role templates

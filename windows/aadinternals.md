@@ -26,3 +26,8 @@ Get-AADIntLSASecrets -AccountName "<domain>\<user>"
 Connect-AzureAD -AccountId <user>@<tenant>.onmicrosoft.com -AadAccessToken <token>
 ```
 
+### Retrviere Primary Refresh Token from memory
+```
+Get-AADIntUserPRTToken
+```
+

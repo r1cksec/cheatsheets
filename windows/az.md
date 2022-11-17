@@ -31,6 +31,11 @@ az ad group list
 az ad group member list -g "<groupName>" --query "[].[displayName]"
 ```
 
+### List virtual machines
+```
+az vm list
+```
+
 ### List webapps
 ```
 az webapp list 
@@ -39,6 +44,17 @@ az webapp list
 ### List function apps
 ```
 az functionapp list 
+```
+
+### List automation accounts
+```
+az extension add --upgrade -n automation
+az automation account list
+```
+
+### Check if there is a user logged in via az cli
+```
+az ad signed-in-user show
 ```
 
 ### List storage accounts

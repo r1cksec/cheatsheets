@@ -31,6 +31,21 @@ Get-AzADGroupMember -GroupDisplayName '<name>'
 Get-AzResource
 ```
 
+### Get all resource groups visible to current user
+```
+Get-AzResourceGroup
+```
+
+### Get details about deployment of specific resource group
+```
+Get-AzResourceGroupDeployment -ResourceGroupName '<name>'
+```
+
+### Download resource group deployment template 
+```
+Save-AzResourceGroupDeploymentTemplate -ResourceGroupName <name> -DeploymentName <deploymentName>
+```
+
 ### List all RBAC role assignments
 ```
 Get-AzRoleAssigment
@@ -51,12 +66,18 @@ Get-AzADServicePrincipal
 Get-AzADServicePrincipal -ObjectId <id>
 ```
 
-### List accessible keyvaults
+### List accessible key vaults
 ```
 Get-AzKeyVault
 ```
 
-### List all VMs where current user has at least Reader role
+### Access key vault
+```
+Get-AzKeyvaultsecret -VaultName <name>
+Get-AzKeyVault -VaultName <vaultName> -Name <secretName> -AsPlainTex
+```
+
+### List all virtual machines where current user has at least Reader role
 ```
 Get-AzVM
 ```
@@ -66,9 +87,26 @@ Get-AzVM
 Get-AzVM -Name <name> | Select -ExpandProperty NetworkProfile
 ```
 
+### Get details about extension
+```
+Get-AzVMExtension -ResourceGroupName <resourceGroupName> -VMName <name> | Select -ExpandProperty NetworkProfile
+```
+
+### Create new vm extension
+```
+Set-AzVMExtension -ResourceGroupName <resourceGroupName> -ExtensionName "ExecCmd" -VMName <VMName> -Location "<location>" -Publisher Microsoft.Compute -ExtensionType CustomScriptExtension -TypeHandlerVersion 1.8 -SettingString '{"commandToExecute":"powershell <command>"}'
+```
+
 ### Run command
 ```
 Invoke-AzVMRunCommand -ScriptPath <file>.ps1 -CommandId "<someName>" -VMName "<name>" -ResourceGroupName "<name>"
+```
+
+### Run command via rubook
+```
+Import-AzAutomationRunbook -Name <runName> -Path <local\path\to\ps1> -AutomationAccountName <name> -ResourceGroupName <name> -Type PowerShell -Force -Verbose
+Publish-AzAutomationRunbook -RunbookName <runName> -AutomationAccountName <name> -ResourceGroupName <name> -Verbose
+Start-AzAutomationRunbook -RunbookName <name> -RunOn <workGroup> -AutomationAccountName <name> -ResourceGroupName <name>
 ```
 
 ### List visible storage accounts
@@ -76,7 +114,12 @@ Invoke-AzVMRunCommand -ScriptPath <file>.ps1 -CommandId "<someName>" -VMName "<n
 Get-AzStorageAccount 
 ```
 
-### List visile service and function apps
+### Get content of storage container
+```
+Get-AzStorageContainer -Context (Get-AzStorageAccount -Name <name> -ResourceGroupName <resourceGroupName>).Context
+```
+
+### List visible service apps and function apps
 ```
 Get-AzWebApp | ?{$_.Kind -notmatch "functionapp"}
 Get-AzFunctionApp
