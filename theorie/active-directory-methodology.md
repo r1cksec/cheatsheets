@@ -6,6 +6,9 @@ Access Control Entries define which security principals have which access rights
 ## CIF 
 The Common Internet File System is an original version of the SMB protocol.
 
+## Certificate Authortiy
+The PKI server that generates and issues certificates.
+
 ## Constrained Delegation 
 An account with a set SPN (e.g. computer A with service A) can impersonate an user using service A at other services in Active Directory. Impersonation can be applied only to services (e.g. service B) defined in the msDS-AllowedToDelegateTo attribute of computer A. The impersonation is performed by using the S4U2Proxy Extension, after the user authenticates to service A.
 
@@ -20,6 +23,9 @@ A Windows computer for which a computer account has been created. This computer 
 
 ## DPAPI
 The Data Protection Api is a cryptographic application programming interface used by to store credentials locally.
+
+## Enteprise CA
+The Certificate Authortiy which offers the certificate templates.
 
 ## fCONFIDENTIAL
 If this flag is set for an LDAP attribute, only accounts with the permissions RIGHT_DS_READ_PROPERTY and RIGHT_DS_CONTROL_ACCESS can read the attribute (example: ms-Mcs-AdmPwd).
@@ -38,8 +44,6 @@ The Local Administrator Password Solution is a tool for storing local admin pass
 
 ## LDAP 
 The Lightweight Directory Access Protocol is a network protocol for querying and modifying information from distributed directory services. The protocol listens on port 389 and 636 (LDAP over SSL).
-
-## MSA
 
 ## msDS-GroupMSAMembership
 This attribute is used for access checks to determine if a requestor has permission to retrieve the password for a group Microsoft Account.
@@ -61,6 +65,9 @@ This data structure describes who may access an object and how and defines how t
 
 ## PAC
 The Privilege Attribute Certificate is a informations inside a TGT and contains among other things the SIDs of the groups that the user is a member of.
+
+## PKINIT
+A Kerberos extension that enables the usage of certificates to request tickets.
 
 ## Realm DB 
 The central database for the Kerberos protocol.

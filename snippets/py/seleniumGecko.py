@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 import time
 
 # pip3 install selenium webdriver-manager
@@ -11,6 +12,11 @@ import time
 # https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/Keys.html
 
 driver = webdriver.Firefox()
+
+# options = FirefoxOptions()
+# options.add_argument("--headless")
+# driver = webdriver.Firefox(options=options)
+
 
 url = "https://rhost"
 driver.get(url)

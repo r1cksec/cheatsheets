@@ -8,6 +8,11 @@ sed '/<#/,/#>/d' <file>.ps1
 sed '/string/d' <file>
 ```
 
+### Delete empty
+```
+sed -i '/^[[:space:]]*$/d' <file>
+```
+
 ### Add string to each line
 ```
 sed 's/$/<string>/g' <file>

@@ -2,6 +2,11 @@
 https://github.com/GhostPack/Certify  
 https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Certify.ps1  
 
+### List certificate authorities
+```
+Certify.exe cas
+```
+
 ### Get information about certificate environment and find vulnerable certificates (enrollment rights)
 ```
 Certify.exe find /vulnerable

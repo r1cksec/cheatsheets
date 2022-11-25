@@ -1330,3 +1330,24 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/projectdiscovery/katana
+A next-generation crawling and spidering framework.
+
+https://github.com/nheiniger/SnaffPoint
+A tool for pointesters to find candies in SharePoint
+
+https://github.com/Accenture/Spartacus
+Spartacus DLL Hijacking Discovery Tool
+
+https://github.com/X-C3LL/SharpNTLMRawUnHide
+C# version of NTLMRawUnHide
+
+https://github.com/mlgualtieri/NTLMRawUnHide
+NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
+
+https://github.com/aleixrodriala/wa-tunnel
+Tunneling Internet traffic over Whatsapp
+
+https://github.com/RythmStick/AMSITrigger
+The Hunt for Malicious Strings
+
