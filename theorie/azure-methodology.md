@@ -145,18 +145,29 @@ Protects privileged activities likes access to Azure AD
 
 # Environment variables
 
-## Apps that has a managed identity
+## App environment using a managed identity
 ```
+env
+
 IDENTITY_HEADER
 IDENTITY_ENDPOINT
 ```
 
-### Get access token
+## Get access token
 ```
 https://github.com/r1cksec/cheatsheets/blob/main/snippets/py/getAzureIdentity.py
 
 curl "$IDENTITY_ENDPOINT?resource=https://management.azure.com/&api-version=2017-09-01" -H secret:$IDENTITY_HEADER
 ```
+
+## API resources
+```
+https://storage.azure.com
+https://vault.azure.net
+https://graph.microsoft.com
+https://management.azure.com
+```
+
 
 # Workflow
 

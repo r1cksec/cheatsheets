@@ -1,6 +1,15 @@
 ### Source
 https://github.com/openwall/john  
 
+### Install
+```
+wget https://www.openwall.com/john/k/john-currentNumber-jumbo-1.tar.xz
+tar -xf <file>
+cd <johnRepo>/src
+./configure && make
+../run/john
+```
+
 ### Show results
 ```
 john <hashFile> --show --format=<format>

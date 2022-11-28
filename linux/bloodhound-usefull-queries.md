@@ -68,7 +68,7 @@ MATCH (n:User),(m:Computer), (n)-[r:AdminTo]->(m) WHERE NOT n.name STARTS WITH '
 Match (n:User) RETURN n
 ```
 
-### computer description -console
+### Show computer description -console
 ```
 MATCH (c:Computer) RETURN c.name,c.description
 ```

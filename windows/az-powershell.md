@@ -102,7 +102,7 @@ Set-AzVMExtension -ResourceGroupName <resourceGroupName> -ExtensionName "ExecCmd
 Invoke-AzVMRunCommand -ScriptPath <file>.ps1 -CommandId "<someName>" -VMName "<name>" -ResourceGroupName "<name>"
 ```
 
-### Run command via rubook
+### Run command via runbook
 ```
 Import-AzAutomationRunbook -Name <runName> -Path <local\path\to\ps1> -AutomationAccountName <name> -ResourceGroupName <name> -Type PowerShell -Force -Verbose
 Publish-AzAutomationRunbook -RunbookName <runName> -AutomationAccountName <name> -ResourceGroupName <name> -Verbose
