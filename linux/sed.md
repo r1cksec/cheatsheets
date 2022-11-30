@@ -8,7 +8,7 @@ sed '/<#/,/#>/d' <file>.ps1
 sed '/string/d' <file>
 ```
 
-### Delete empty
+### Delete empty lines
 ```
 sed -i '/^[[:space:]]*$/d' <file>
 ```

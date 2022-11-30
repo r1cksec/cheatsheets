@@ -1354,3 +1354,9 @@ The Hunt for Malicious Strings
 https://github.com/dirkjanm/adidnsdump
 Active Directory Integrated DNS dumping by any authenticated user
 
+https://github.com/Coldzer0/ReverseSock5Proxy
+A tiny Reverse Sock5 Proxy written in C
+
+https://github.com/ThreatUnkown/jsubfinder
+jsubfinder searches webpages for javascript & analyzes them for hidden subdomains and secrets (wip).
+

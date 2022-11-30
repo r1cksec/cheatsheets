@@ -15,6 +15,7 @@ driver = webdriver.Firefox()
 
 # options = FirefoxOptions()
 # options.add_argument("--headless")
+# options.set_preference("general.useragent.override", "Safari: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.3 (KHTML, like Gecko) Version/11.1 Safari/605.1.3")
 # driver = webdriver.Firefox(options=options)
 
 
@@ -34,6 +35,12 @@ div = driver.find_elements(By.XPATH, './/div[@class = "className"]')
 
 # click by getting element by class
 WebDriverWait(driver,3).until(EC.element_to_be_clickable((By.CLASS_NAME, "className"))).click()
+
+# get attribute
+elems = driver.find_elements(By.XPATH, "//a[@href]")
+
+for elem in elems:
+    href = elem.get_attribute("href")
 
 # send global keydown arrow
 actions = ActionChains(driver)
