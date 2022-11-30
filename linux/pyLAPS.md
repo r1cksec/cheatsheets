@@ -8,6 +8,6 @@ python3 pyLAPS.py --action get -u '<user>' -d '<domain>' -p '<password>' --dc-ip
 
 ### Read the password of a specific computer
 ```
-python3 pyLAPS.py --action get --computer '<computer>' -u '<user>' -d '<domain>' -p '<password>' --dc-ip <domainControllerIp>
+python3 pyLAPS.py --action get --computer '<computer>$' -u '<user>' -d '<domain>' -p '<password>' --dc-ip <domainControllerIp>
 ```
 
