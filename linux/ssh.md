@@ -61,7 +61,7 @@ ssh -D 9050 <user>@<sshServer> -N -v
 
 ### Remote port forwarding (forward proxychains traffic into client network)
 ```
-ssh -o 'StrictHostKeyChecking=no' -i .\<publicKey> -N -R 9050 <user>@<sshServer>
+ssh -o 'StrictHostKeyChecking=no' -i .\<privateKey> -N -R 9050 <user>@<sshServer>
 ```
 
 ### Proxychains uses port 9050 as default -> /etc/proxychains4.conf)

@@ -31,6 +31,4 @@ umount -R /mnt
 ```
 
 ### Shut down kali and boot windows system ->  click "Utilman"
-```
-```
 

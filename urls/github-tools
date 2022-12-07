@@ -1366,3 +1366,9 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/trustedsec/orpheus
+Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types
+
+https://github.com/deepinstinct/Lsass-Shtinkering
+New method of dumping LSASS by abusing the Windows Error Reporting service.
+
