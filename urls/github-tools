@@ -10,6 +10,9 @@ Remote Desktop Protocol .NET Console Application for Authenticated Command Execu
 https://github.com/3v4Si0N/HTTP-revshell
 Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware
 
+https://github.com/Accenture/Spartacus
+Spartacus DLL Hijacking Discovery Tool
+
 https://github.com/AdrianVollmer/PowerHub
 A post exploitation tool based on a web application, focusing on bypassing endpoint protection and application whitelisting
 
@@ -78,6 +81,9 @@ Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Serv
 
 https://github.com/Cn33liz/p0wnedShell
 PowerShell Runspace Post Exploitation Toolkit
+
+https://github.com/Coldzer0/ReverseSock5Proxy
+A tiny Reverse Sock5 Proxy written in C
 
 https://github.com/D1rkMtr/DumpThatLSASS
 Dumping LSASS by Unhooking MiniDumpWriteDump by getting a fresh DbgHelp.dll copy from the disk , plus functions and strings obfuscation , it contains Anti-sandbox , if you run it under unperformant Virtual Machine you need to uncomment the code related to it and recompile.
@@ -304,6 +310,9 @@ OpenVPN road warrior installer for Ubuntu, Debian, AlmaLinux, Rocky Linux, CentO
 https://github.com/OJ/gobuster
 Directory/File, DNS and VHost busting tool written in Go
 
+https://github.com/OPENCYBER-FR/RustHound
+Active Directory data collector for BloodHound written in rust. crab
+
 https://github.com/ORCx41/AtomPePacker
 A Highly capable Pe Packer
 
@@ -448,6 +457,9 @@ EmailAll is a powerful Email Collect tool
 https://github.com/TheWover/CertStealer
 A .NET tool for exporting and importing certificates without touching disk.
 
+https://github.com/ThreatUnkown/jsubfinder
+jsubfinder searches webpages for javascript & analyzes them for hidden subdomains and secrets (wip).
+
 https://github.com/Tylous/Limelighter
 A tool for generating fake code signing certificates or signing real ones
 
@@ -480,6 +492,9 @@ Python library with CLI allowing to remotely dump domain user credentials via an
 
 https://github.com/ZephrFish/AutoHoneyPoC
 AutoPoC Generator HoneyPoC
+
+https://github.com/aleixrodriala/wa-tunnel
+Tunneling Internet traffic over Whatsapp
 
 https://github.com/ambionics/phpggc
 PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
@@ -682,6 +697,9 @@ Exchange your privileges for Domain Admin privs by abusing Exchange
 https://github.com/dirkjanm/ROADtools
 The Azure AD exploration framework.
 
+https://github.com/dirkjanm/adidnsdump
+Active Directory Integrated DNS dumping by any authenticated user
+
 https://github.com/dirkjanm/ldapdomaindump
 Active Directory information dumper via LDAP
 
@@ -784,6 +802,9 @@ Welcome to dnscat2, a DNS tunnel that WON'T make you sick and kill you!
 https://github.com/icyguider/PowerChunker
 Bypass AMSI via PowerShell by splitting a file into multiple chunks
 
+https://github.com/icyguider/Shhhloader
+Syscall Shellcode Loader (Work in Progress)
+
 https://github.com/idnahacks/GoodHound
 Uses Sharphound, Bloodhound and Neo4j to produce an actionable list of attack paths for targeted remediation.
 
@@ -868,6 +889,9 @@ PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN 
 https://github.com/liamg/dismember
 Scan memory for secrets and more. Maybe eventually a full /proc toolkit.
 
+https://github.com/limbenjamin/HTTPSBeaconShell
+C# Windows Beacon Reverse Shell - HTTP compliant | GZIP-like encoding | In-band File Transfer
+
 https://github.com/lkarlslund/adalanche
 Active Directory ACL Visualizer and Explorer - who's really Domain Admin?
 
@@ -937,6 +961,9 @@ A Tool for Domain Flyovers
 https://github.com/michenriksen/gitrob
 Reconnaissance tool for GitHub organizations
 
+https://github.com/mlgualtieri/NTLMRawUnHide
+NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
+
 https://github.com/mpgn/BackupOperatorToDA
 From an account member of the group Backup Operators to Domain Admin without RDP or WinRM on the Domain Controller
 
@@ -972,6 +999,9 @@ SharpWSUS is a CSharp tool for lateral movement through WSUS.
 
 https://github.com/newsoft/adduser
 Programmatically create an administrative user under Windows
+
+https://github.com/nheiniger/SnaffPoint
+A tool for pointesters to find candies in SharePoint
 
 https://github.com/nidem/kerberoast
 Kerberoast is a series of tools for attacking MS Kerberos implementations.
@@ -1018,6 +1048,9 @@ SambaCry exploit and vulnerable container (CVE-2017-7494)
 https://github.com/optiv/Go365
 An Office365 User Attack Tool
 
+https://github.com/optiv/Ivy
+Ivy is a payload creation framework for the execution of arbitrary VBA (macro) source code directly in memory. Ivy’s loader does this by utilizing programmatical access in the VBA object environment to load, decrypt and execute shellcode.
+
 https://github.com/optiv/Mangle
 Mangle is a tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
 
@@ -1062,6 +1095,9 @@ Computer object takeover through Resource-Based Constrained Delegation (msDS-All
 
 https://github.com/plackyhacker/Shellcode-Injection-Techniques
 A collection of C# shellcode injection techniques. All techniques use an AES encrypted meterpreter payload. I will be building this project up as I learn, discover or develop more techniques. Some techniques are better than others at bypassing AV.
+
+https://github.com/projectdiscovery/katana
+A next-generation crawling and spidering framework.
 
 https://github.com/projectdiscovery/nuclei
 Fast and customizable vulnerability scanner based on simple YAML based DSL.
@@ -1329,34 +1365,4 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
-
-https://github.com/projectdiscovery/katana
-A next-generation crawling and spidering framework.
-
-https://github.com/nheiniger/SnaffPoint
-A tool for pointesters to find candies in SharePoint
-
-https://github.com/Accenture/Spartacus
-Spartacus DLL Hijacking Discovery Tool
-
-https://github.com/X-C3LL/SharpNTLMRawUnHide
-C# version of NTLMRawUnHide
-
-https://github.com/mlgualtieri/NTLMRawUnHide
-NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
-
-https://github.com/aleixrodriala/wa-tunnel
-Tunneling Internet traffic over Whatsapp
-
-https://github.com/RythmStick/AMSITrigger
-The Hunt for Malicious Strings
-
-https://github.com/dirkjanm/adidnsdump
-Active Directory Integrated DNS dumping by any authenticated user
-
-https://github.com/Coldzer0/ReverseSock5Proxy
-A tiny Reverse Sock5 Proxy written in C
-
-https://github.com/ThreatUnkown/jsubfinder
-jsubfinder searches webpages for javascript & analyzes them for hidden subdomains and secrets (wip).
 
