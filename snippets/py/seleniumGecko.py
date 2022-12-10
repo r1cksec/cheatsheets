@@ -33,8 +33,11 @@ textField.send_keys(Keys.RETURN)
 # get element by xpath
 div = driver.find_elements(By.XPATH, './/div[@class = "className"]')
 
-# click by getting element by class
-WebDriverWait(driver,3).until(EC.element_to_be_clickable((By.CLASS_NAME, "className"))).click()
+# get inner html of elemen
+elements = driver.find_elements(By.CLASS_NAME, "classname")
+
+for e in elements:
+    e.get_attribute("innerHTML")
 
 # get attribute
 elems = driver.find_elements(By.XPATH, "//a[@href]")

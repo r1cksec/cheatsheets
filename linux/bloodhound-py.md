@@ -3,7 +3,7 @@ https://github.com/fox-it/BloodHound.py
 
 ### Collect active directory informations
 ```
-python3 bloodhound.py -u <user> -d <domain> -p <password> -dc <dcFqdn> -ns <dnsServerIp> --collectionmethod all 
+python3 bloodhound.py -u <user> -d <domain> -p <password> -dc <dcFqdn> -ns <dnsServerIp> --dns-tcp --collectionmethod DCOnly 
 ```
 
 ### Collection methods

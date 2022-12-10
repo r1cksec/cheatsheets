@@ -13,3 +13,8 @@ tr '[:upper:]' '[:lower:]'
 tr " " "\n"
 ```
 
+### Remove all non-printable ASCII characters
+```
+tr -cd '\11\12\40-\176'
+```
+

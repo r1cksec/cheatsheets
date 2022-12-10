@@ -1372,3 +1372,12 @@ Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types
 https://github.com/deepinstinct/Lsass-Shtinkering
 New method of dumping LSASS by abusing the Windows Error Reporting service.
 
+https://github.com/reveng007/SharpGmailC2
+Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol
+
+https://github.com/kleiton0x00/RedditC2
+Abusing Reddit API to host the C2 traffic, since most of the blue-team members use Reddit, it might be a great way to make the traffic look legit.
+
+https://github.com/fr0gger/IATelligence
+IATelligence is a Python script that will extract the IAT of a PE file and request GPT to get more information about the API and the ATT&CK matrix related
+
