@@ -1381,3 +1381,12 @@ Abusing Reddit API to host the C2 traffic, since most of the blue-team members u
 https://github.com/fr0gger/IATelligence
 IATelligence is a Python script that will extract the IAT of a PE file and request GPT to get more information about the API and the ATT&CK matrix related
 
+https://github.com/BeichenDream/PrintNotifyPotato
+Another potato, using PrintNotify COM service for lifting rights
+
+https://github.com/deepinstinct/Dirty-Vanity
+A POC for the new injection technique, abusing windows fork API to evade EDRs.
+
+https://github.com/praetorian-inc/noseyparker
+Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
+
