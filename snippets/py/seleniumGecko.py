@@ -33,7 +33,7 @@ textField.send_keys(Keys.RETURN)
 # get element by xpath
 div = driver.find_elements(By.XPATH, './/div[@class = "className"]')
 
-# get inner html of elemen
+# get inner html of element
 elements = driver.find_elements(By.CLASS_NAME, "classname")
 
 for e in elements:
