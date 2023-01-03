@@ -16,3 +16,15 @@ evil-winrm -i <ip> -u <user> -H <ntlmHash>
 evil-winrm -u <user> -H <Hash> -i <IP>
 ```
 
+### Opsec considerations
+```
+-WMI/Operational (5857)
+```
+
+### Running processes
+```
+wsmprovhost.exe
+└── sc.exe
+    └── conhost.exe
+```
+

@@ -49,3 +49,8 @@ reg add "\\<rhost>\HKLM\SYSTEM\CurentControlSet\Control\Terminal Server" /v fDen
 reg query "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions" /s
 ```
 
+### Enable multiple RDP sessions per user
+```
+reg add HKLM\System\CurrentControlSet\Control\TerminalServer /v fSingleSessionPerUser /d 0 /f
+```
+

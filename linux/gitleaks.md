@@ -3,6 +3,6 @@ https://github.com/zricethezav/gitleaks
 
 ### Scan entire history
 ```
-gitleaks --repo-url=<githubRepository> -v
+gitleaks detect --source <local/path/to/repository> -v
 ```
 

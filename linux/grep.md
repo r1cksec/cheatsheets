@@ -18,18 +18,13 @@ grep -E "pattern1|pattern2" <file>
 grep --text "<string>" <file>
 ```
 
-### Grep urls from HTML files
-```
-grep "<a " | awk -F "href=\"" '{print $2}' | cut -d "\"" -f 1 | sort -u
-```
-
 ### Find lines in one file that are not in another
 ```
 grep -v -f <file1> <file2>
 ```
 
-### Count amount of substrings in line
+### Print X char around string
 ```
-echo <string> | grep -o "substring" | wc -l
+grep -Eio ".{0,20}string.{0,20}"
 ```
 

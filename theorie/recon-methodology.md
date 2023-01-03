@@ -37,12 +37,18 @@ wget ftp://ftp.ripe.net/ripe/dbase/ripe.db.gz
 
 Afterwards it is possible to search the database with a simple `grep` command.
 The name of the target company or acronyms provide a good starting point.
-Since there is no established standard for specifying information in the database, the results should be completed or checked with https://www.shodan.io or https://bgp.he.net/cc.
+Since there is no established standard for specifying information in the database, the results should be completed or checked with further ressources like https://www.shodan.io or https://bgp.he.net/cc.
 
 The search on bgp.he.net can be automated using the tool `get-netblocks` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-netblocks):
 
 ```
 get-netblocks '<companyName>'
+```
+
+There is additionally also the tool `spk` (see https://github.com/dhn/spk) which queries various databases like https://apps.db.ripe.net, https://wq.apnic.net or https://bgp.tools directly.
+
+```
+spk -silent -s <companyName>
 ```
 
 Sometimes it is necessary to quickly get the name of the hoster for a given IP address.
@@ -59,13 +65,20 @@ Rootdomains can be identified by simple using the company name and a single Goog
 But it is also possible that the rootdomains differ based on top-level domains.
 However a domain with a completely different name could also belong to the target company.
 
-One option to find rootdomains is the use of the Intel module from Amass (see https://github.com/r1cksec/cheatsheets/blob/main/linux/amass.md).
+One option to find rootdomains is the use of the Intel module from Amass (see https://github.com/OWASP/Amass).
 
 The Intel module collects various root domains from different sources of the Open Source Intelligence (OSINT) sector.
 These sources include, for example https://viewdns.info.
 
 ```
 amass intel -d <domain> -whois
+```
+
+If the target company is using O365, root domains can also be identified via requesting the Autodiscover service.
+The process has been automated using tool `letItGo` (see https://github.com/SecurityRiskAdvisors/letitgo).
+
+```
+letItGo <domain>
 ```
 
 However, the Intel module from amass can also be started with an ASN or an IP address or range.
@@ -113,7 +126,7 @@ Therefore, when a CA does not include the exact issuing time to certificates, th
 
 Moreover, it is possible to crawl the website of a company with a web spider.
 Among the extracted domains and subdomains, further root domains can be identified in this way.
-The tool `hakrawler` allows to extract all URLs from a given website (see https://github.com/r1cksec/cheatsheets/blob/main/linux/hakrawler.md):
+The tool `hakrawler` allows to extract all URLs from a given website (see https://github.com/hakluke/hakrawler):
 
 ```
 cat "<urlFile>" | hakrawler -s -u -d 1
@@ -123,19 +136,19 @@ cat "<urlFile>" | hakrawler -s -u -d 1
 
 The list of domains resulting from this procedure must then be sorted and classified.
 
-Often websites can be assigned to a specific company based on the copyright.
+In the most cases websites can be assigned to a specific company based on the copyright or the imprint.
 In this way a long list of root domains can be sorted and classified accordingly.
-Again this process can be automated using the tool `get-copyright` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-copyright):
+Again this process can be automated using the tool `get-copyright` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-page-owner):
 
 ```
-./get-copyrights <domainFile>
+python3 get-page-owner <domainFile>
 ```
 
 Alternatively the copyright can be used to find further root domains.
 A simple Google search with `"copyright"` is often sufficient to list other root domains (see https://github.com/r1cksec/autorec/blob/master/scripts/search-google).
 
 Another way to assign rootdomains to a target company is the comparision of favicons.
-The tool favfreak is suitable for this purpsoe (see https://github.com/r1cksec/cheatsheets/blob/main/linux/favfreak.md).
+The tool favfreak is suitable for this purpsoe (see https://github.com/devanshbatham/FavFreak).
 
 Favfreak calculates the MD5 hash of a favicon and then groups equal results:
 
@@ -144,7 +157,7 @@ cat <urlFile> | favfreak
 ```
 
 It is also possible to sort the domains using screenshots of websites using the tool `aquatone`.
-Aquatone takes screenshots and then groups equal results (see https://github.com/r1cksec/cheatsheets/blob/main/linux/aquatone.md):
+Aquatone takes screenshots and then groups equal results (see https://github.com/michenriksen/aquatone):
 
 ```
 cat <rhostFile> | aquatone -out <outputDirectory>
@@ -156,7 +169,7 @@ The tool `get-title` automates this process (see https://github.com/r1cksec/auto
 ### Subdomain enumeration
 
 Domains can be easily be guessed.
-The tool `massdns` is particularly well suited for this, since several DNS servers are used and thus many queries can be parallelized (see https://github.com/r1cksec/cheatsheets/blob/main/linux/massdns.md):
+The tool `massdns` is particularly well suited for this, since several DNS servers are used and thus many queries can be parallelized (see https://github.com/blechschmidt/massdns):
 
 ```
 cat <subdomainFile> | awk -F " " '{print $1".<domain>"}' | massdns -r <dnsResolversFile> -t A -o S -w <outputFile>
@@ -190,7 +203,7 @@ Internal informations are necessary to send trust-building phishing messages or 
 nmap -p 80,443 --script http-ntlm-info --script-args http-ntlm-info.root=/root/ <target>
 ```
 
-To cover a larger set of web paths it is also possible to use the tool `ntlmrecon` (see https://github.com/r1cksec/cheatsheets/blob/main/linux/ntlmrecon.md). 
+To cover a larger set of web paths it is also possible to use the tool `ntlmrecon` (see https://github.com/pwnfoo/NTLMRecon). 
 
 ```
 ntlmrecon --input <url>
@@ -203,13 +216,13 @@ The internal domain thus determined can then be used for a Google search for `"i
 Often interesting information are hidden in metadata of published documents like PDF, Excel or Word files.
 
 Examining the `producer` and `author` fields of different files, will likely reveal conclusions about the internal Active Directory user syntax.
-Using `metagoofil` several documents can be downloaded in the first step (see https://github.com/r1cksec/cheatsheets/blob/main/linux/metagoofil.md):
+Using `metagoofil` several documents can be downloaded in the first step (see https://github.com/kurobeats/metagoofil):
 
 ```
 metagoofil -d <ipOrDomain> -t pdf -l 100 -n 25 -o <outputDir> -w
 ```
 
-Afterwards the metadata can be extracted using `exiftool` (see https://github.com/r1cksec/cheatsheets/blob/main/linux/exiftool.md):
+Afterwards the metadata can be extracted using `exiftool` (see https://github.com/exiftool/exiftool):
 
 ```
 exiftool * | grep -i "Producer\|Author" | sort -u
@@ -237,10 +250,11 @@ If the target company runs one or more Github repositories, it is often worthwhi
 The following tools facilitate this search:
 
 * https://github.com/r1cksec/autorec/blob/master/scripts/get-github-repos
-* https://github.com/r1cksec/autorec/blob/master/scripts/grep-inside-github-repos
-* https://github.com/r1cksec/cheatsheets/blob/main/linux/gitleaks.md
-* https://github.com/r1cksec/cheatsheets/blob/main/linux/scanrepo.md
-* https://github.com/r1cksec/cheatsheets/blob/main/linux/trufflehog.md
+* https://github.com/r1cksec/autorec/blob/master/scripts/grep-through-commits
+* https://github.com/r1cksec/autorec/blob/master/scripts/get-grep-app
+* https://github.com/zricethezav/gitleaks
+* https://github.com/techjacker/repo-security-scanner
+* https://github.com/trufflesecurity/truffleHog
 
 Or, the githound tool can aid in the discovery of api-keys or konfiguration files. (see https://github.com/tillson/git-hound).
 
@@ -262,7 +276,7 @@ python3 get-mails <domain>
 ```
 
 It is also possible to find e-mail addresses using search engines like Google or Baidoo.
-The tool `EmailAll` combines the scrape of OSINT resources and the use of search engines (see https://github.com/r1cksec/cheatsheets/blob/main/linux/EmailAll.md).
+The tool `EmailAll` combines the scrape of OSINT resources and the use of search engines (see https://github.com/Taonn/EmailAll).
 
 ```
 python3 emailall.py --domain <domain> run
@@ -290,7 +304,7 @@ Host: www.xing.com
 
 LinkedIn is more restrictive regarding lists of employees.
 Neverless there are different tools to gather the names of employees.
-For example `crosslinked` collects employee names with the help of search engine queries (https://github.com/r1cksec/cheatsheets/blob/main/linux/crosslinked.md).
+For example `crosslinked` collects employee names with the help of search engine queries (see https://github.com/m8sec/CrossLinked).
 However, many false positives may be collected.
 
 ```

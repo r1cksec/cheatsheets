@@ -18,6 +18,7 @@ upload randomly named exe file to C:\Windows
 Windows Security Log Event IDs
 -Logon (4624) -> multiple
 -Special Logon (4672) -> multiple
+-A service was installed in the system (4697) 
 
 Windows System Logs
 -Service Control Manager (7045)

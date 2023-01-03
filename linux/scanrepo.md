@@ -1,5 +1,5 @@
 ### Source
-https://github.com/UKHomeOffice/repo-security-scanner  
+https://github.com/techjacker/repo-security-scanner
 
 ### Search through git history of current branch for secrets
 ```
