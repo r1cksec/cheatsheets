@@ -64,6 +64,9 @@ Invoke-ZeroLogon allows attackers to impersonate any computer, including the dom
 https://github.com/BankSecurity/Red_Team
 Some scripts useful for red team activities
 
+https://github.com/BeichenDream/PrintNotifyPotato
+Another potato, using PrintNotify COM service for lifting rights
+
 https://github.com/BishopFox/cloudfox
 Automating situational awareness for cloud penetration tests.
 
@@ -373,6 +376,9 @@ Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard dom
 https://github.com/RoganDawes/SharpLocker
 SharpLocker helps get current user credentials by popping a fake Windows lock screen.
 
+https://github.com/RoseSecurity/ScrapPY
+ ScrapPY is a Python utility for scraping manuals, documents, and other sensitive PDFs to generate wordlists that can be utilized by offensive security tools to perform brute force, forced browsing, and dictionary attacks against targets. The tool dives deep to discover keywords and phrases leading to potential passwords or hidden directories.
+
 https://github.com/RythmStick/AMSITrigger
 The Hunt for Malicious Strings
 
@@ -420,6 +426,9 @@ windows-kernel-exploits Windows平台提权漏洞集合
 
 https://github.com/SecureAuthCorp/impacket
 Impacket is a collection of Python classes for working with network protocols.
+
+https://github.com/SecurityRiskAdvisors/letitgo
+Enumerate and check domains for Azure tenants
 
 https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC/blob/main/Proof-Of-Concept.py
 CVE-2021-28482
@@ -676,6 +685,12 @@ SecLists is the security tester's companion. It's a collection of multiple types
 https://github.com/deepfence/SecretScanner
 Find secrets and passwords in container images and file systems
 
+https://github.com/deepinstinct/Dirty-Vanity
+A POC for the new injection technique, abusing windows fork API to evade EDRs.
+
+https://github.com/deepinstinct/Lsass-Shtinkering
+New method of dumping LSASS by abusing the Windows Error Reporting service.
+
 https://github.com/deepinstinct/LsassSilentProcessExit
 Command line interface to dump LSASS memory to disk via SilentProcessExit
 
@@ -733,6 +748,9 @@ Python3 terminal application that contains 260+ Neo4j cyphers for BloodHound dat
 https://github.com/fofapro/fapro
 Fake Protocol Server
 
+https://github.com/forrest-orr/moneta
+Moneta is a live usermode memory analysis tool for Windows with the capability to detect malware IOCs
+
 https://github.com/fox-it/BloodHound.py
 A Python based ingestor for BloodHound
 
@@ -741,6 +759,9 @@ Active Directory ACL exploitation with BloodHound
 
 https://github.com/fox-it/adconnectdump
 Dump Azure AD Connect credentials for Azure AD and Active Directory
+
+https://github.com/fr0gger/IATelligence
+IATelligence is a Python script that will extract the IAT of a PE file and request GPT to get more information about the API and the ATT&CK matrix related
 
 https://github.com/freshness79/HTA-Shell
 HTA Visual Basic script for remote shell on windows machines
@@ -817,6 +838,9 @@ A small tool I made to dump the export table of PE files. The primary use case w
 https://github.com/immunIT/TeamsUserEnum
 User enumeration with Microsoft Teams API
 
+https://github.com/in9uz/Above
+Sniff-based Network Vulnerability Scanner
+
 https://github.com/initstring/cloud_enum
 Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 
@@ -865,6 +889,9 @@ Powershell function to pull the local admin passwords from LDAP, stored there by
 https://github.com/kgretzky/evilginx2
 Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
 
+https://github.com/kleiton0x00/RedditC2
+Abusing Reddit API to host the C2 traffic, since most of the blue-team members use Reddit, it might be a great way to make the traffic look legit.
+
 https://github.com/kleiton0x00/Shelltropy
 A technique of hiding malicious shellcode via Shannon encoding.
 
@@ -895,6 +922,9 @@ C# Windows Beacon Reverse Shell - HTTP compliant | GZIP-like encoding | In-band 
 https://github.com/lkarlslund/adalanche
 Active Directory ACL Visualizer and Explorer - who's really Domain Admin?
 
+https://github.com/lkarlslund/ldapnomnom
+Anonymously bruteforce Active Directory usernames from Domain Controllers by abusing LDAP Ping requests (cLDAP)
+
 https://github.com/lobuhi/byp4xx
 Pyhton script for HTTP 40X responses bypassing. Features: Verb tampering, headers, #bugbountytips tricks and 2454 User-Agents.
 
@@ -916,6 +946,9 @@ A Powershell client for dnscat2, an encrypted DNS command and control tool.
 https://github.com/ly4k/Certipy
 Tool for Active Directory Certificate Services enumeration and abuse
 
+https://github.com/ly4k/PassTheChallenge
+Recovering NTLM hashes from Credential Guard
+
 https://github.com/m3n0sd0n4ld/GooFuzz
 GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumerate directories, files, subdomains or parameters without leaving evidence on the target's server and by means of advanced Google searches (Google Dorking).
 
@@ -936,6 +969,9 @@ Identifies the bytes that Microsoft Defender flags on.
 
 https://github.com/maurosoria/dirsearch
 Web path scanner
+
+https://github.com/mdsecactivebreach/DragonCastle
+A PoC that combines AutodialDLL lateral movement technique and SSP to scrape NTLM hashes from LSASS process.
 
 https://github.com/med0x2e/SigFlip
 SigFlip is a tool for patching authenticode signed PE files (exe, dll, sys ..etc) without invalidating or breaking the existing signature.
@@ -1096,6 +1132,15 @@ Computer object takeover through Resource-Based Constrained Delegation (msDS-All
 https://github.com/plackyhacker/Shellcode-Injection-Techniques
 A collection of C# shellcode injection techniques. All techniques use an AES encrypted meterpreter payload. I will be building this project up as I learn, discover or develop more techniques. Some techniques are better than others at bypassing AV.
 
+https://github.com/powerpointken/PowerExtract
+This tool is able to parse memory dumps of the LSASS process without any additional tools (e.g. Debuggers) or additional sideloading of mimikatz.
+
+https://github.com/pracsec/AmsiBypassHookManagedAPI
+A new AMSI Bypass technique using .NET ALI Call Hooking.
+
+https://github.com/praetorian-inc/noseyparker
+Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
+
 https://github.com/projectdiscovery/katana
 A next-generation crawling and spidering framework.
 
@@ -1146,6 +1191,9 @@ Scripted Local Linux Enumeration &amp; Privilege Escalation Checks
 
 https://github.com/redteamsocietegenerale/DLLirant
 DLLirant is a tool to automatize the DLL Hijacking researches on a specified binary.
+
+https://github.com/reveng007/SharpGmailC2
+Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol
 
 https://github.com/rezasp/joomscan
 OWASP Joomla Vulnerability Scanner Project
@@ -1212,6 +1260,9 @@ Patch PE, ELF, Mach-O binaries with shellcode new version in development, availa
 
 https://github.com/sensepost/gowitness
 gowitness is a website screenshot utility written in Golang, that uses Chrome Headleas
+
+https://github.com/sensepost/impersonate
+A windows token impersonation tool
 
 https://github.com/sensepost/ruler
 A tool to abuse Exchange services
@@ -1287,6 +1338,9 @@ PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC
 
 https://github.com/trufflesecurity/truffleHog
 Searches through git repositories for high entropy strings and secrets, digging deep into commit history
+
+https://github.com/trustedsec/orpheus
+Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types
 
 https://github.com/twelvesec/passcat
 Passwords Recovery Tool
@@ -1365,28 +1419,4 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
-
-https://github.com/trustedsec/orpheus
-Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types
-
-https://github.com/deepinstinct/Lsass-Shtinkering
-New method of dumping LSASS by abusing the Windows Error Reporting service.
-
-https://github.com/reveng007/SharpGmailC2
-Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol
-
-https://github.com/kleiton0x00/RedditC2
-Abusing Reddit API to host the C2 traffic, since most of the blue-team members use Reddit, it might be a great way to make the traffic look legit.
-
-https://github.com/fr0gger/IATelligence
-IATelligence is a Python script that will extract the IAT of a PE file and request GPT to get more information about the API and the ATT&CK matrix related
-
-https://github.com/BeichenDream/PrintNotifyPotato
-Another potato, using PrintNotify COM service for lifting rights
-
-https://github.com/deepinstinct/Dirty-Vanity
-A POC for the new injection technique, abusing windows fork API to evade EDRs.
-
-https://github.com/praetorian-inc/noseyparker
-Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
 

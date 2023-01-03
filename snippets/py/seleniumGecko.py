@@ -6,18 +6,24 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 import time
+from selenium.webdriver.firefox.service import Service
+from os import path
 
 # pip3 install selenium webdriver-manager
 # download gecko driver - https://github.com/mozilla/geckodriver/releases
 # https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/Keys.html
 
-driver = webdriver.Firefox()
-
 # options = FirefoxOptions()
 # options.add_argument("--headless")
+# options.add_argument("--ignore-ssl-errors=yes")
+# options.add_argument('--ignore-certificate-errors')
+# options.set_preference("network.http.redirection-limit", 4)
 # options.set_preference("general.useragent.override", "Safari: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.3 (KHTML, like Gecko) Version/11.1 Safari/605.1.3")
-# driver = webdriver.Firefox(options=options)
-
+# prevent creation of geckodriver.log
+# service = Service(log_path=path.devnull)
+# driver = webdriver.Firefox(options=options, service=service)
+# 6 seconds timeout
+# driver.set_page_load_timeout(6)
 
 url = "https://rhost"
 driver.get(url)
@@ -32,6 +38,9 @@ textField.send_keys(Keys.RETURN)
 
 # get element by xpath
 div = driver.find_elements(By.XPATH, './/div[@class = "className"]')
+
+# get element by string search
+obj = driver.find_elements(By.XPATH, "//*[contains(text(), 'searchThisString')]")
 
 # get inner html of element
 elements = driver.find_elements(By.CLASS_NAME, "classname")

@@ -8,3 +8,8 @@ zip -P <password> <resultZip>.zip <file>
 zip -r <resultZip> <directory>
 ```
 
+### Extract to specifig directory
+```
+zip <archive>.zip -d <destination>
+```
+
