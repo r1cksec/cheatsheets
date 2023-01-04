@@ -112,6 +112,9 @@ Another potato, using PrintNotify COM service for lifting rights
 https://github.com/BishopFox/cloudfox
 Automating situational awareness for cloud penetration tests.
 
+https://github.com/BishopFox/cloudfoxable
+Create your own vulnerable by design AWS penetration testing playground
+
 https://github.com/BishopFox/sliver
 Adversary Emulation Framework
 
@@ -159,6 +162,9 @@ PowerBruteLogon (Ported version of WinBruteLogon in pure PowerShell)
 
 https://github.com/DarkCoderSc/PowerRemoteDesktop
 Remote Desktop entirely coded in PowerShell.
+
+https://github.com/DarkCoderSc/SharpFtpC2
+A Streamlined FTP-Driven Command and Control Conduit for Interconnecting Remote Systems.
 
 https://github.com/DarkCoderSc/win-brute-logon
 Crack any Microsoft Windows users password without any privilege (Guest account included)
@@ -294,6 +300,9 @@ The ultimate WinRM shell for hacking/pentesting
 
 https://github.com/HarmJ0y/DAMP
 The Discretionary ACL Modification Project: Persistence Through Host-based Security Descriptor Modification
+
+https://github.com/HotCakeX/Harden-Windows-Security/blob/main/Rationale.md
+Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels
 
 https://github.com/HunnicCyber/SharpSniper
 Find specific users in active directory via their username and logon IP address
@@ -658,6 +667,9 @@ Lifetime AMSI bypass
 https://github.com/ZeroMemoryEx/C2-Hunter
 Extract C2 Traffic
 
+https://github.com/ZeroMemoryEx/Terminator
+Reproducing Spyboy technique to terminate all EDR/XDR/AVs processes
+
 https://github.com/ab2pentest/MacOSThreatTrack
 Bash tool used for proactive detection of malicious activity on macOS systems.
 
@@ -705,6 +717,9 @@ Just another "Won't Fix" Windows Privilege Escalation from User to Domain Admin.
 
 https://github.com/antonioCoco/SharPyShell
 SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications
+
+https://github.com/api0cradle/RedTeamScripts
+Just some random Red Team Scripts that are useful
 
 https://github.com/api0cradle/UltimateAppLockerByPassList
 The goal of this repository is to document the most common techniques to bypass AppLocker.
@@ -1009,6 +1024,9 @@ A proof-of-concept tool for generating payloads that exploit unsafe Java object 
 https://github.com/fullhunt/log4j-scan
 A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-2021-44228
 
+https://github.com/fwdcloudsec/known_aws_accounts
+List of known AWS accounts
+
 https://github.com/garrettfoster13/sccmhunter
 SCCMHunter is a post-ex tool built to streamline identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
 
@@ -1077,6 +1095,9 @@ CVE-2021-26084 Remote Code Execution on Confluence Servers
 
 https://github.com/huntergregal/mimipenguin
 A tool to dump the login password from the current linux user
+
+https://github.com/hustvl/Matte-Anything
+Matte Anything: Interactive Natural Image Matting with Segment Anything Models
 
 https://github.com/hyc/fcrackzip
 A braindead program for cracking encrypted ZIP archives. Forked from http://oldhome.schmorp.de/marc/fcrackzip.html
@@ -1261,6 +1282,9 @@ List all IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS
 https://github.com/lsecqt/OffensiveCpp
 This repo contains C/C++ snippets that can be handy in specific offensive scenarios.
 
+https://github.com/luigigubello/PayloadsAllThePDFs
+A list of crafted malicious PDF files to test the security of PDF readers and tools.
+
 https://github.com/lukebaggett/dnscat2-powershell
 A Powershell client for dnscat2, an encrypted DNS command and control tool.
 
@@ -1383,6 +1407,9 @@ a tool to help operate in EDRs' blind spots
 
 https://github.com/naksyn/PythonMemoryModule
 pure-python implementation of MemoryModule technique to load a dll entirely from memory
+
+https://github.com/narstybits/MacOS-DuckyScripts
+PLUG & PLAY FLIPPER ZERO SCRIPTS For MacOS
 
 https://github.com/nccgroup/DroppedConnection
 Emulates a Cisco ASA Anyconnect VPN service, accepting any credentials (and logging them) before serving VBS to the client that gets executed in the context of the user.
@@ -1519,6 +1546,9 @@ The repository tries to gather an information about Windows persistence mechanis
 https://github.com/persistent-security/SMShell
 PoC for a SMS-based shell. Send commands and receive responses over SMS from mobile broadband capable computers
 
+https://github.com/persistent-security/hermes-the-messenger
+A PoC for achieving persistence via push notifications on Windows
+
 https://github.com/piaolin/DetectDee
 DetectDee: Hunt down social media accounts by username, email or phone across social networks.
 
@@ -1560,6 +1590,9 @@ Community curated list of templates for the nuclei engine to find security vulne
 
 https://github.com/projectdiscovery/subfinder
 Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
+
+https://github.com/projectdiscovery/useragent
+Curated list of categorized User Agents
 
 https://github.com/pry0cc/ProxyDock
 ProxyDock is a Dockerfile and Bash script that converts your OpenVPN files into local proxies.
@@ -1807,6 +1840,9 @@ Fetch all the URLs that the Wayback Machine knows about for a domain
 https://github.com/topotam/PetitPotam
 PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions.
 
+https://github.com/tr3ss/newclei
+A Go tool that gets the newest PRs from projectdiscovery/nuclei-templates.
+
 https://github.com/trickster0/OffensiveRust
 Rust Weaponization for Red Team Engagements.
 
@@ -1863,6 +1899,9 @@ WPScan WordPress security scanner. Written for security professionals and blog m
 
 https://github.com/xRET2pwn/Teamsniper
 Teamsniper is a tool for fetching keywords in a Microsoft Teams such as (passwords, emails, database, etc.).
+
+https://github.com/xalicex/LOLDrivers_finder
+The purpose of this project is to retrieve potential process killer drivers.
 
 https://github.com/xforcered/InvisibilityCloak
 Proof-of-concept obfuscation toolkit for C# post-exploitation tools
