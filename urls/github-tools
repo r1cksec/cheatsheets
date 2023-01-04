@@ -118,6 +118,9 @@ Adversary Emulation Framework
 https://github.com/BishopFox/spoofcheck
 Simple script that checks a domain for email protections
 
+https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence
+Protintelligence is a Python script for the OSINT and Cyber Community. It finds intelligence on Protonmail accounts
+
 https://github.com/CCob/MirrorDump
 Another LSASS dumping tool that uses a dynamically compiled LSA plugin to grab an lsass handle and API hooking for capturing the dump in memory
 
@@ -162,6 +165,9 @@ Crack any Microsoft Windows users password without any privilege (Guest account 
 
 https://github.com/Datalux/Osintgram
 Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname
+
+https://github.com/Dec0ne/DavRelayUp
+DavRelayUp - a universal no-fix local privilege escalation in domain-joined windows workstations where LDAP signing is not enforced (the default settings).
 
 https://github.com/Dionach/CMSmap
 CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
@@ -520,6 +526,9 @@ This repo covers some code execution and AV Evasion methods for Macros in Office
 https://github.com/S3cur3Th1sSh1t/PowerSharpPack
 Many usefull offensive CSharp Projects wraped into Powershell for easy usage.
 
+https://github.com/S3cur3Th1sSh1t/Ruy-Lopez
+This repository contains the Proof-of-Concept(PoC) for a new approach to completely prevent DLLs from being loaded into a newly spawned process.
+
 https://github.com/S3cur3Th1sSh1t/SharpImpersonation
 A User Impersonation tool - via Token or Shellcode injection
 
@@ -582,6 +591,9 @@ Next generation fireprox AWS API endpoint creation utility.
 
 https://github.com/Sq00ky/LeetLinked
 A Google/Bing Scraping tool for LinkedIn
+
+https://github.com/Squiblydoo/debloat
+A GUI tool for removing bloat from executables
 
 https://github.com/SySS-Research/Seth
 Perform a MitM attack and extract clear text credentials from RDP connections
@@ -765,6 +777,9 @@ My experiments in weaponizing Nim
 
 https://github.com/byt3bl33d3r/SprayingToolkit
 Scripts to make password spraying attacks against Lync/S4B, OWA &amp; O365 a lot quicker, less painful and more efficient
+
+https://github.com/caarlos0/twitter-cleaner
+Automatically delete tweets, retweets, and favorites from your timeline, and, if provided, from your twitter archive as well.
 
 https://github.com/calebstewart/CVE-2021-1675
 Pure PowerShell implementation of CVE-2021-1675 Print Spooler Local Privilege Escalation (PrintNightmare)
@@ -1171,6 +1186,9 @@ Powershell function to pull the local admin passwords from LDAP, stored there by
 https://github.com/kgretzky/evilginx2
 Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
 
+https://github.com/khast3x/h8mail
+Email OSINT & Password breach hunting tool, locally or using premium services. Supports chasing down related email
+
 https://github.com/kholia/OSX-KVM
 Run macOS on QEMU/KVM. With OpenCore + Big Sur + Monterey + Ventura support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
 
@@ -1288,6 +1306,9 @@ SigFlip is a tool for patching authenticode signed PE files (exe, dll, sys ..etc
 https://github.com/med0x2e/vba2clr
 Running .NET from VBA
 
+https://github.com/megadose/holehe
+holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
+
 https://github.com/mgeeky/PackMyPayload
 A PoC that packages payloads into output containers to evade Mark-of-the-Web flag & demonstrate risks associated with container file formats. Supports: ZIP, 7zip, PDF, ISO, IMG, CAB, VHD, VHDX
 
@@ -1320,6 +1341,9 @@ Automated Adversary Emulation Platform
 
 https://github.com/mlgualtieri/NTLMRawUnHide
 NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
+
+https://github.com/moonD4rk/HackBrowserData
+Decrypt passwords/cookies/history/bookmarks from the browser.
 
 https://github.com/mpgn/BackupOperatorToDA
 From an account member of the group Backup Operators to Domain Admin without RDP or WinRM on the Domain Controller
@@ -1399,6 +1423,9 @@ Kerberoast is a series of tools for attacking MS Kerberos implementations.
 https://github.com/nmap/nmap
 Nmap - the Network Mapper. Github mirror of official SVN repository.
 
+https://github.com/nocomp/Kiosk-evasion-BADUsb-Bruteforce
+experimental kiosk evasion bruteforce payload
+
 https://github.com/nodauf/GoMapEnum
 User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin
 
@@ -1415,7 +1442,7 @@ https://github.com/nyxgeek/o365recon
 retrieve information via O365 and AzureAD with a valid cred
 
 https://github.com/nyxgeek/onedrive_user_enum
-pentest tool to enumerate valid onedrive users
+onedrive user enumeration - pentest tool to enumerate valid o365 users
 
 https://github.com/odedshimon/BruteShark
 Network Analysis Tool
@@ -1470,6 +1497,9 @@ Python setter/getter for property ms-Mcs-AdmPwd used by LAPS.
 
 https://github.com/p0dalirius/robotstester
 This Python script can enumerate all URLs present in robots.txt files, and test whether they can be accessed or not.
+
+https://github.com/p1ngul1n0/blackbird
+An OSINT tool to search for accounts by username in social networks.
 
 https://github.com/p3nt4/PowerShdll
 Run PowerShell with rundll32. Bypass software restrictions.
