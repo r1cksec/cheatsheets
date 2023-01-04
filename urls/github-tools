@@ -436,6 +436,9 @@ game of active directory
 https://github.com/Orange-Cyberdefense/wmi-shell
 WMI Shell project : proof-of-concept of remote access to a Windows machine using only the WMI service.
 
+https://github.com/PShlyundin/ldap_shell
+AD ACL abuse
+
 https://github.com/PalindromeLabs/awesome-websocket-security
 Awesome information for WebSockets security research 
 
@@ -700,6 +703,9 @@ A technique to run binaries filelessly and stealthily on Linux by "overwriting" 
 https://github.com/assume-breach/Home-Grown-Red-Team
 This repo is a resource for various red teaming techniques and tools based on open source software and non-commerical tools.
 
+https://github.com/avilum/secimport
+Python sandbox toolkit, powered by eBPF / Dtrace
+
 https://github.com/awslabs/git-secrets
 Prevents you from committing secrets and credentials into git repositories
 
@@ -868,6 +874,9 @@ PowerShell Obfuscator
 https://github.com/danielmiessler/SecLists
 SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
+https://github.com/deFr0ggy/NightOwl
+An offline Phishing Email Analyzer. Enabling non-techies to analyze phishing emails automatically!
+
 https://github.com/deepfence/SecretScanner
 Find secrets and passwords in container images and file systems
 
@@ -918,6 +927,9 @@ InQL - A Burp Extension for GraphQL Security Testing
 
 https://github.com/drwetter/testssl.sh
 Testing TLS/SSL encryption anywhere on any port
+
+https://github.com/dwisiswant0/apkleaks
+Scanning APK file for URIs, endpoints & secrets.
 
 https://github.com/ecriminal/phpvuln
 Audit tool to find common vulnerabilities in PHP source code
@@ -1059,6 +1071,9 @@ Welcome to dnscat2, a DNS tunnel that WON'T make you sick and kill you!
 
 https://github.com/iamj0ker/bypass-403
 A simple script just made for self use for bypassing 403
+
+https://github.com/icyguider/LightsOut
+Generate an obfuscated DLL that will disable AMSI & ETW
 
 https://github.com/icyguider/NewPowerDNS
 Updated version of PowerDNS by @domchell. Adds support for transfers over DNS A records and a few other useful features.
@@ -1294,6 +1309,9 @@ A Tool for Domain Flyovers
 https://github.com/michenriksen/gitrob
 Reconnaissance tool for GitHub organizations
 
+https://github.com/microsoft/krabsetw
+KrabsETW provides a modern C++ wrapper and a .NET wrapper around the low-level ETW trace consumption functions.
+
 https://github.com/microsoft/terminal
 The new Windows Terminal and the original Windows console host, all in the same place! 
 
@@ -1468,6 +1486,9 @@ PowerShell Script to Dump Windows Credentials from the Credential Manager
 https://github.com/persistence-info/persistence-info.github.io
 The repository tries to gather an information about Windows persistence mechanisms to make the protection/detection more efficient.
 
+https://github.com/persistent-security/SMShell
+PoC for a SMS-based shell. Send commands and receive responses over SMS from mobile broadband capable computers
+
 https://github.com/piaolin/DetectDee
 DetectDee: Hunt down social media accounts by username, email or phone across social networks.
 
@@ -1512,6 +1533,9 @@ Subfinder is a subdomain discovery tool that discovers valid subdomains for webs
 
 https://github.com/pry0cc/ProxyDock
 ProxyDock is a Dockerfile and Bash script that converts your OpenVPN files into local proxies.
+
+https://github.com/pry0cc/cloud-ranges
+A list of cloud ranges from different providers.
 
 https://github.com/ps1337/reinschauer
 A PoC to remotely control Windows machines over Websockets.
@@ -1644,6 +1668,9 @@ Stealing Signatures and Making One Invalid Signature at a Time
 
 https://github.com/secretsquirrel/the-backdoor-factory
 Patch PE, ELF, Mach-O binaries with shellcode new version in development, available only to sponsors
+
+https://github.com/secur30nly/go-self-delete
+Go implementation of the self-deletion of an running executable from disk
 
 https://github.com/seekr-osint/seekr
 A multi-purpose OSINT toolkit with a neat web-interface.
@@ -1827,6 +1854,9 @@ Official git repo for iodine dns tunnel
 
 https://github.com/ytdl-org/youtube-dl
 Command-line program to download videos from YouTube.com and other video sites
+
+https://github.com/z0m31en7/WhatMail
+WhatMail is a command-line tool that analyzes the header of an email and provides detailed information about various fields.
 
 https://github.com/zblurx/dploot
 DPAPI looting remotely in Python
