@@ -40,11 +40,6 @@ MATCH (u:User {dontreqpreauth: true}) RETURN u
 MATCH (n:User) WHERE n.lastlogontimestamp=-1.0 AND n.enabled=TRUE RETURN n.name ORDER BY n.name
 ```
 
-### Show all high value target groups
-```
-MATCH p=(n:User)-[r:MemberOf*1..]->(m:Group {highvalue:true}) RETURN p
-```
-
 ### Find the AdminTo edges of the domain users against the domain computers
 ```
 MATCH p1=shortestPath(((u1:User)-[r1:MemberOf*1..]->(g1:Group))) MATCH p2=(u1)-[:AdminTo*1..]->(c:Computer) RETURN p2

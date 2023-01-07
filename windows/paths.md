@@ -87,6 +87,7 @@ C:\Windows\CCM\Logs
 
 ### Temp directory
 ```
-C:\Windows\Temp C:\Users\<user>\Default\AppData\LocalTemp
+C:\Windows\Temp
+C:\Users\<user>\Default\AppData\LocalTemp
 ```
 
