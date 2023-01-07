@@ -1420,3 +1420,48 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/trickster0/OffensiveRust
+Rust Weaponization for Red Team Engagements.
+
+https://github.com/OccamsXor/Dragnmove
+Infect Shared Files In Memory for Lateral Movement
+
+https://github.com/D1rkMtr/DumpThatLSASS
+Dumping LSASS by Unhooking MiniDumpWriteDump by getting a fresh DbgHelp.dll copy from the disk , plus functions and strings obfuscation , it contains Anti-sandbox , if you run it under unperformant Virtual Machine you need to uncomment the code related to it and recompile.
+
+https://github.com/threatexpress/domainhunter
+Checks expired domains for categorization/reputation and Archive.org history to determine good candidates for phishing and C2 domain names 
+
+https://github.com/pry0cc/ProxyDock
+ProxyDock is a Dockerfile and Bash script that converts your OpenVPN files into local proxies.
+
+https://github.com/google/osv-scanner
+Vulnerability scanner written in Go which uses the data provided by osv.dev
+
+https://github.com/deepinstinct/Dirty-Vanity
+A POC for the new injection technique, abusing windows fork API to evade EDRs.
+
+https://github.com/defparam/smuggler
+Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
+
+https://github.com/m4ll0k/SecretFinder
+SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files
+
+https://github.com/irsdl/IIS-ShortName-Scanner
+latest version of scanners for IIS short filename (8.3) disclosure vulnerability
+
+https://github.com/iamj0ker/bypass-403
+A simple script just made for self use for bypassing 403
+
+https://github.com/RhinoSecurityLabs/GCPBucketBrute
+A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
+
+https://github.com/JoelGMSec/PSRansom
+PowerShell Ransomware Simulator with C2 Server
+
+https://github.com/Ne0nd0g/go-shellcode
+A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
+
+https://github.com/gildas-lormeau/SingleFileZ
+Web Extension for Firefox/MS Edge and CLI tool to save a faithful copy of an entire web page in a self-extracting HTML/ZIP polyglot file
+

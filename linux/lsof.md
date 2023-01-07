@@ -4,8 +4,8 @@ lsof -Pnl +M -i4
 lsof -Pnl +M -i6
 ```
 
-### Geet information for specific port number
+### Get information for specific port number
 ```
-sudo lsof -i :33991
+lsof -i :33991
 ```
 

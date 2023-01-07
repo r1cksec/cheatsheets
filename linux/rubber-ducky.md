@@ -1,5 +1,5 @@
 ### Source
-https://github.com/hak5darren/USB-Rubber-Ducky  
+https://github.com/hak5/usbrubberducky-payloads
 
 ### German keyboard layout
 ```
