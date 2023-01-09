@@ -10,6 +10,9 @@ Minimal PoC code for Kerberos Unlock LPE (CVE-2023-21817)
 https://gist.github.com/xpn/23dc5b6c260a7571763ca8ca745c32f4
 Quick POC looking at how encryption works for LAPS (v2)
 
+https://gist.github.com/zblurx/009633b2db25918bdbbff664a01508fc
+Simple script to extract local admin password in cleartext with LAPSv2 using impacket
+
 https://gist.githubusercontent.com/superkojiman/11076951/raw/053152dba6c5cc3107ff0374ce7246306958d72c/namemash.py
 Generate Userlist
 
@@ -138,6 +141,9 @@ A tiny Reverse Sock5 Proxy written in C
 
 https://github.com/D3Ext/Hooka
 Shellcode loader, hooks detector and more written in Golang
+
+https://github.com/D3Ext/WEF
+Wi-Fi Exploitation Framework
 
 https://github.com/D3Ext/maldev
 Golang library for malware development and red teamers
@@ -321,6 +327,9 @@ Python script that performs email address validation against Office 365 without 
 
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection
+
+https://github.com/LuemmelSec/ntlmrelayx.py_to_exe
+While trying to convert a current version of impackets ntlmrelayx.py to an exe with pyinstaller, I stumbled upon a shitload of problems.
 
 https://github.com/MWR-CyberSec/PXEThief
 PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager 
@@ -607,6 +616,9 @@ CLI tool that finds secrets accidentally committed to a git repo, eg passwords, 
 https://github.com/VoldeSec/PatchlessCLRLoader
 .NET assembly loader with patchless AMSI and ETW bypass
 
+https://github.com/WKL-Sec/Warmer
+Selenium-based Python script to automate sending emails to warm up your sender reputation and improve email deliverability
+
 https://github.com/Wh04m1001/DFSCoerce
 PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAddStdRoot (found by @xct_de) methods.
 
@@ -642,6 +654,9 @@ Lifetime AMSI bypass
 
 https://github.com/ZeroMemoryEx/C2-Hunter
 Extract C2 Traffic
+
+https://github.com/ab2pentest/MacOSThreatTrack
+Bash tool used for proactive detection of malicious activity on macOS systems.
 
 https://github.com/abdallah-elsharif/hellMaker
 Hiding unsigned DLL inside a signed DLL
@@ -946,6 +961,9 @@ Fast web fuzzer written in Go
 https://github.com/fin3ss3g0d/cypherhound
 Python3 terminal application that contains 260+ Neo4j cyphers for BloodHound data sets
 
+https://github.com/fin3ss3g0d/evilgophish
+evilginx2 + gophish
+
 https://github.com/fofapro/fapro
 Fake Protocol Server
 
@@ -999,6 +1017,9 @@ Vulnerability scanner written in Go which uses the data provided by osv.dev
 
 https://github.com/gophish/gophish
 Open-Source Phishing Toolkit
+
+https://github.com/grimlockx/ADCSKiller
+An ADCS Exploitation Automation Tool Weaponizing Certipy and Coercer
 
 https://github.com/h311d1n3r/Cerberus
 A Python tool to unstrip Rust binaries on Linux
@@ -1483,6 +1504,9 @@ A new AMSI Bypass technique using .NET ALI Call Hooking.
 https://github.com/praetorian-inc/noseyparker
 Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
 
+https://github.com/projectdiscovery/asnmap
+Go CLI and Library for quickly mapping organization network ranges using ASN information.
+
 https://github.com/projectdiscovery/katana
 A next-generation crawling and spidering framework.
 
@@ -1746,6 +1770,9 @@ Rust Weaponization for Red Team Engagements.
 
 https://github.com/trufflesecurity/truffleHog
 Searches through git repositories for high entropy strings and secrets, digging deep into commit history
+
+https://github.com/trustedsec/hardcidr
+hardCIDR is a Linux Bash script, but also functions under macOS. Your mileage may vary on other distros. The script with no specified options will query ARIN and a pool of BGP route servers. The route server is selected at random at runtime.
 
 https://github.com/trustedsec/orpheus
 Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types

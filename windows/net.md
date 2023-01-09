@@ -87,7 +87,7 @@ net use * \\<lhost>\<share>
 net use <localDrive> \\<rhost>\<remoteDrive> /delete
 ```
 
-### Get active SMB sessions
+### Get active sessions of local computer
 ```
 net session
 ```
