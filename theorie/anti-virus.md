@@ -1,4 +1,4 @@
-# Types of Antivirus-plug-ins:
+### Types of Antivirus-plug-ins:
 ```
 - Scanner and Generic Routines
 - File format and Protocol Support
@@ -7,7 +7,7 @@
 - Emulators
 ```
 
-# Heuristics:
+### Heuristics:
 ```
 - Bayesian Networks
 - Bloom Filters
@@ -17,7 +17,7 @@
 - Dynamic Heuristics 
 ```
 
-# Antivirus Signatures:
+### Antivirus Signatures:
 ```
 - Byte-Streams
 - Checksums
@@ -26,14 +26,14 @@
 - Graph-Based Hashes for Executable FIles
 ```
 
-# The Update System:
+### The Update System:
 ```
 - Support of SSL/TLS
 - Veryfieng the Update Protocol
 - Dissecting an Update Protocol
 ```
 
-# Denial of Service:
+### Denial of Service:
 ```
 - Compression Bombs
 - File Format Pasers

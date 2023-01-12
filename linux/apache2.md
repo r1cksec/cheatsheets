@@ -18,6 +18,25 @@ vim /etc/apache2/apache2.conf
 </Directory>
 ```
 
+### Redirect to port 443
+```
+<VirtualHost *:80>
+    ServerName <domain>
+
+    <IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteCond %{REQUEST_METHOD} ^TRACE
+        RewriteRule .* - [F]
+        RewriteCond %{REQUEST_METHOD} ^TRACK
+        RewriteRule .* - [F]
+
+        #redirect all port 80 traffic to 443
+        RewriteCond %{SERVER_PORT} !^443$
+        RewriteRule ^/?(.*) https:/<domain>/$1 [L,R]
+    </IfModule>
+</VirtualHost>
+```
+
 ### Disable packages
 ```
 a2disconf <package>

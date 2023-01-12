@@ -1,4 +1,4 @@
-### Search recursively for filenam
+### Search recursively for filename
 ```
 dir <file> /s
 ```
