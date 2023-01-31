@@ -1519,3 +1519,18 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/maldevel/gophish
+GoPhish automation
+
+https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Get-BrowserData.ps1
+Enumerates browser history or bookmarks for a Chrome, Internet Explorer and/or Firefox browsers on Windows machines.
+
+https://github.com/samratashok/ADModule
+Microsoft signed ActiveDirectory PowerShell module
+
+https://gist.github.com/S3cur3Th1sSh1t/e6f30b33d142ed8a5588e46eb328c0a6
+Little Credential Manager dumping Script.
+
+https://github.com/assume-breach/Home-Grown-Red-Team/tree/main/MemoryPull
+MemoryPull is a simple (extremely simple) C# shellcode runner that will call out to external server hosting raw shellcode and run it.
+

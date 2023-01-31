@@ -58,5 +58,9 @@ for elem in elems:
 actions = ActionChains(driver)
 actions.send_keys(Keys.ARROW_DOWN).perform()
 
+# download png file
+driver.get("https://rhost/file.png")
+driver.save_screenshot("/tmp/result.png")
+
 driver.close()
 

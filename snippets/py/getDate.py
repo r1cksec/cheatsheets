@@ -13,6 +13,6 @@ createDate = str(dat.year)+"-"+str(dat.month)+"-"+str(dat.day)
 print(createDate)
 
 # alternative
-createDate = datetime.datetime.today().strftime("%d-%m-%Y_%H:%M:%S")
-print(createDate)
+timestamp = datetime.datetime.today().strftime("%d-%m-%Y_%H:%M:%S")
+print(timestamp)
 
