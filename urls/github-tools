@@ -928,6 +928,9 @@ Whisker is a C# tool for taking over Active Directory user and computer accounts
 https://github.com/elastic/silhouette
 Silhouette is a POC that mitigates the use of physical memory to dump credentials from LSASS. It does this in three ways:
 
+https://github.com/enferex/pdfresurrect
+Analyze and help extract older "hidden" versions of a pdf from the current pdf.
+
 https://github.com/enjoiz/Privesc
 Windows batch script that finds misconfiguration issues which can lead to privilege escalation.
 
@@ -988,6 +991,9 @@ SingleFile can be launched from the command line by running it into a (headless)
 https://github.com/glmcdona/Process-Dump
 Windows tool for dumping malware PE files from memory back to disk for analysis.
 
+https://github.com/glmcdona/strings2
+strings2: An improved strings extraction tool.
+
 https://github.com/google/osv-scanner
 Vulnerability scanner written in Go which uses the data provided by osv.dev
 
@@ -1026,6 +1032,9 @@ Defeating Windows User Account Control
 
 https://github.com/horizon3ai/CVE-2021-38647
 Proof on Concept Exploit for CVE-2021-38647 (OMIGOD)
+
+https://github.com/hthh/switch-reversing
+My Switch reversing scripts
 
 https://github.com/httpvoid/writeups/blob/main/Confluence-RCE.md
 CVE-2021-26084 Remote Code Execution on Confluence Servers
@@ -1099,8 +1108,14 @@ WhatsApp spy - logs online/offline events from ANYONE in the world
 https://github.com/jazzpizazz/BloodHound.py-Kerberos
 A Python based ingestor for BloodHound
 
+https://github.com/jborean93/dpapi-ng
+Python DPAPI NG Decryptor for non-Windows Platforms
+
 https://github.com/jfmaes/Invoke-DLLClone
 Koppeling x Metatwin x LazySign
+
+https://github.com/joeavanzato/Trawler
+PowerShell script to help Incident Responders discover adversary persistence mechanisms.
 
 https://github.com/jonaslejon/malicious-pdf
 Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator
@@ -1440,6 +1455,9 @@ PowerShell Script to Dump Windows Credentials from the Credential Manager
 
 https://github.com/persistence-info/persistence-info.github.io
 The repository tries to gather an information about Windows persistence mechanisms to make the protection/detection more efficient.
+
+https://github.com/piaolin/DetectDee
+DetectDee: Hunt down social media accounts by username, email or phone across social networks.
 
 https://github.com/pielco11/fav-up
 IP lookup by favicon using Shodan

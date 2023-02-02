@@ -16,12 +16,12 @@ docker run -itd --rm --name <containerName> ubuntu
 
 ### Start container, execute a command and stop container
 ```
-docker run -itd --rm --name <containerName> ubuntu bash -c "<command>"
+docker run -itd --rm --name <containerNameOrId> ubuntu bash -c "<command>"
 ```
 
 ### Interact with container
 ```
-docker exec -it <containerName> bash
+docker exec -it <containerNameOrId> bash
 ```
 
 ### List containers
@@ -31,7 +31,12 @@ docker ps -a
 
 ### Stop container
 ```
-docker stop <containerName>
+docker stop <containerNameOrId>
+```
+
+### Delete container
+```
+docker rm <containerNameOrId>
 ```
 
 ### Create docker network

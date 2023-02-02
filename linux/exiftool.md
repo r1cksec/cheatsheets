@@ -1,6 +1,11 @@
 ### Source
 https://github.com/exiftool/exiftool  
 
+### Reverse changes made by exiftool
+```
+exiftool -PDF-update:all= <file>
+```
+
 ### Print metadata of file
 ```
 exiftool <file>
