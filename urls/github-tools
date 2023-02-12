@@ -1,11 +1,23 @@
+https://gist.github.com/S3cur3Th1sSh1t/e6f30b33d142ed8a5588e46eb328c0a6
+Little Credential Manager dumping Script.
+
+https://gist.github.com/S3cur3Th1sSh1t/e6f30b33d142ed8a5588e46eb328c0a6#file-credman-ps1
+Little Credential Manager dumping Script.
+
 https://gist.githubusercontent.com/superkojiman/11076951/raw/053152dba6c5cc3107ff0374ce7246306958d72c/namemash.py
 Generate Userlist
 
 https://github.com/0xZDH/o365spray
 Username enumeration and password spraying tool aimed at Microsoft O365.
 
+https://github.com/0xdea/exploits
+A handy collection of my public exploits, all in one place.
+
 https://github.com/0xthirteen/SharpRDP
 Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
+
+https://github.com/1njected/CMLoot
+Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) SMB shares
 
 https://github.com/3v4Si0N/HTTP-revshell
 Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware
@@ -76,6 +88,9 @@ Another potato, using PrintNotify COM service for lifting rights
 https://github.com/BishopFox/cloudfox
 Automating situational awareness for cloud penetration tests.
 
+https://github.com/BishopFox/sliver
+Adversary Emulation Framework
+
 https://github.com/BishopFox/spoofcheck
 Simple script that checks a domain for email protections
 
@@ -93,33 +108,6 @@ PowerShell Runspace Post Exploitation Toolkit
 
 https://github.com/Coldzer0/ReverseSock5Proxy
 A tiny Reverse Sock5 Proxy written in C
-
-https://github.com/D1rkMtr/DumpThatLSASS
-Dumping LSASS by Unhooking MiniDumpWriteDump by getting a fresh DbgHelp.dll copy from the disk , plus functions and strings obfuscation , it contains Anti-sandbox , if you run it under unperformant Virtual Machine you need to uncomment the code related to it and recompile.
-
-https://github.com/D1rkMtr/ExecRemoteAssembly
-Execute Remote Assembly with args passing and with AMSI and ETW patching
-
-https://github.com/D1rkMtr/ExplorerPersist
-Explorer Persistence technique : Hijacking cscapi.dll order loading path and writing our malicious dll into C:\Windows\cscapi.dll , when it's get loaded into the explorer process , our malicoius code get executed
-
-https://github.com/D1rkMtr/FileLessRemoteShellcode
-Run Fileless Remote Shellcode directly in memory with Module Unhooking , Module Stomping, No New Thread. This repository contains the TeamServer and the Stager
-
-https://github.com/D1rkMtr/FilelessNtdllReflection
-Bypass Userland EDR hooks by Loading Reflective Ntdll in memory from a remote server based on Windows ReleaseID to avoid opening a handle to ntdll, and trigger exported API from the export table
-
-https://github.com/D1rkMtr/FilelessRemotePE
-Loading Fileless Remote PE from URI to memory with argument passing and ETW patching and NTDLL unhooking and No New Thread technique
-
-https://github.com/D1rkMtr/UnhookingPatch
-Bypass EDR Hooks by patching NT API stub, and resolving SSNs and syscall instructions at runtime
-
-https://github.com/D1rkMtr/VirusTotalC2
-Abusing VirusTotal API to host our C2 traffic, usefull for bypassing blocking firewall rules if VirusTotal is in the target white list , and in case you don't have C2 infrastructure , now you have a free one
-
-https://github.com/D1rkMtr/githubC2
-Abusing Github API to host our C2 traffic, usefull for bypassing blocking firewall rules if github is in the target white list , and in case you don't have C2 infrastructure , now you have a free one
 
 https://github.com/D3VL/L3MON
 L3MON - Remote Android Managment Suite
@@ -292,11 +280,17 @@ Python script that performs email address validation against Office 365 without 
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection
 
+https://github.com/LuemmelSec/Pentest-Tools-Collection
+Tool collection
+
 https://github.com/MWR-CyberSec/PXEThief
 PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager 
 
 https://github.com/MartinIngesen/TokenStomp
 C# implementation of the token privilege removal flaw discovered by @GabrielLandau/Elastic
+
+https://github.com/MattKeeley/Spoofy
+Spoofy is a program that checks if a list of domains can be spoofed based on SPF and DMARC records.
 
 https://github.com/Mattiwatti/PPLKiller
 Protected Processes Light Killer
@@ -408,6 +402,9 @@ Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard dom
 
 https://github.com/RoganDawes/SharpLocker
 SharpLocker helps get current user credentials by popping a fake Windows lock screen.
+
+https://github.com/Rolix44/Kubestroyer
+Kubernetes exploitation tool
 
 https://github.com/RoseSecurity/ScrapPY
  ScrapPY is a Python utility for scraping manuals, documents, and other sensitive PDFs to generate wordlists that can be utilized by offensive security tools to perform brute force, forced browsing, and dictionary attacks against targets. The tool dives deep to discover keywords and phrases leading to potential passwords or hidden directories.
@@ -583,6 +580,9 @@ SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications
 https://github.com/api0cradle/UltimateAppLockerByPassList
 The goal of this repository is to document the most common techniques to bypass AppLocker.
 
+https://github.com/assume-breach/Home-Grown-Red-Team
+This repo is a resource for various red teaming techniques and tools based on open source software and non-commerical tools.
+
 https://github.com/awslabs/git-secrets
 Prevents you from committing secrets and credentials into git repositories
 
@@ -672,6 +672,9 @@ SharpSploit is a .NET post-exploitation library written in C#
 
 https://github.com/conflict-investigations/media-search-engine
 Search geolocations for (social) media posts in databases like Bellingcat, Cen4InfoRes etc.
+
+https://github.com/corkami/pics
+File formats explanations, logos redrawing...
 
 https://github.com/cribdragg3r/Alaris
 A protective and Low Level Shellcode Loader that defeats modern EDR systems.
@@ -783,6 +786,9 @@ Internal Monologue Attack: Retrieving NTLM Hashes without Touching LSASS
 
 https://github.com/eladshamir/Whisker
 Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding "Shadow Credentials" to the target account.
+
+https://github.com/elastic/silhouette
+Silhouette is a POC that mitigates the use of physical memory to dump credentials from LSASS. It does this in three ways:
 
 https://github.com/enjoiz/Privesc
 Windows batch script that finds misconfiguration issues which can lead to privilege escalation.
@@ -919,6 +925,9 @@ Dump the memory of a PPL with a userland exploit
 https://github.com/itm4n/PrintSpoofer
 Abusing Impersonation Privileges on Windows 10 and Server 2019
 
+https://github.com/its-a-feature/Mythic
+A collaborative, multi-platform, red teaming framework
+
 https://github.com/jacob-baines/concealed_position
 Bring your own print driver privilege escalation tool
 
@@ -952,6 +961,9 @@ Powershell function to pull the local admin passwords from LDAP, stored there by
 https://github.com/kgretzky/evilginx2
 Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
 
+https://github.com/kholia/OSX-KVM
+Run macOS on QEMU/KVM. With OpenCore + Big Sur + Monterey + Ventura support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
+
 https://github.com/kleiton0x00/RedditC2
 Abusing Reddit API to host the C2 traffic, since most of the blue-team members use Reddit, it might be a great way to make the traffic look legit.
 
@@ -963,6 +975,9 @@ Pure C++, weaponized, fully automated implementation of RottenPotatoNG
 
 https://github.com/klezVirus/vortex
 VPN Overall Reconnaissance, Testing, Enumeration and eXploitation Toolkit
+
+https://github.com/knight0x07/OneNoteAnalyzer
+A C# based tool for analysing malicious OneNote documents
 
 https://github.com/kobs0N/CVE-2019-11581.git
 CVE-2019–11581 PoC
@@ -1026,6 +1041,9 @@ Infoga - Email OSINT
 
 https://github.com/maldevel/EmailHarvester
 Email addresses harvester 
+
+https://github.com/maldevel/gophish
+GoPhish automation
 
 https://github.com/mandiant/SharPersist
 Windows persistence toolkit written in C#.
@@ -1210,6 +1228,9 @@ Computer object takeover through Resource-Based Constrained Delegation (msDS-All
 https://github.com/plackyhacker/Shellcode-Injection-Techniques
 A collection of C# shellcode injection techniques. All techniques use an AES encrypted meterpreter payload. I will be building this project up as I learn, discover or develop more techniques. Some techniques are better than others at bypassing AV.
 
+https://github.com/post-cyberlabs/Offensive_tools/tree/main/PostDump
+PostDump is a C# tool developt by COS team (CyberForce Offensive Security) of POST Luxembourg.
+
 https://github.com/powerpointken/PowerExtract
 This tool is able to parse memory dumps of the LSASS process without any additional tools (e.g. Debuggers) or additional sideloading of mimikatz.
 
@@ -1221,9 +1242,6 @@ Nosey Parker is a command-line program that finds secrets and sensitive informat
 
 https://github.com/projectdiscovery/katana
 A next-generation crawling and spidering framework.
-
-https://github.com/projectdiscovery/nuclei
-Fast and customizable vulnerability scanner based on simple YAML based DSL.
 
 https://github.com/projectdiscovery/nuclei
 Fast and customizable vulnerability scanner based on simple YAML based DSL. 
@@ -1276,6 +1294,9 @@ Scripted Local Linux Enumeration &amp; Privilege Escalation Checks
 https://github.com/redteamsocietegenerale/DLLirant
 DLLirant is a tool to automatize the DLL Hijacking researches on a specified binary.
 
+https://github.com/reveng007/AMSI-patches-learned-till-now
+I have documented all of the AMSI patches that I learned till now
+
 https://github.com/reveng007/SharpGmailC2
 Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol
 
@@ -1312,6 +1333,9 @@ Random Tools
 https://github.com/rvrsh3ll/Misc-Powershell-Scripts
 Random Tools (Create-Hotkey, FileSplitter, Get-BrowserData)
 
+https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Get-BrowserData.ps1
+Enumerates browser history or bookmarks for a Chrome, Internet Explorer and/or Firefox browsers on Windows machines.
+
 https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Invoke-DCOM.ps1
 Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
 
@@ -1329,6 +1353,9 @@ a drop-in replacement for Nmap powered by shodan.io
 
 https://github.com/sa7mon/S3Scanner
 Scan for open S3 buckets and dump the contents
+
+https://github.com/samratashok/ADModule
+Microsoft signed ActiveDirectory PowerShell module
 
 https://github.com/samratashok/Deploy-Deception
 A PowerShell module to deploy active directory decoy objects.
@@ -1392,6 +1419,9 @@ Nikto web server scanner
 
 https://github.com/swisskyrepo/HardwareAllTheThings
 Hardware/IOT Pentesting Wiki
+
+https://github.com/t3l3machus/Villain
+Villain is a Windows & Linux backdoor generator and multi-session handler that allows users to connect with sibling servers (other machines running Villain) and share their backdoor sessions, handy for working as a team.
 
 https://github.com/t3l3machus/eviltree
 A python3 remake of the classic "tree" command with the additional feature of searching for user provided keywords/regex in files, highlighting those that contain matches.
@@ -1492,6 +1522,9 @@ Official git repo for iodine dns tunnel
 https://github.com/ytdl-org/youtube-dl
 Command-line program to download videos from YouTube.com and other video sites
 
+https://github.com/zblurx/dploot
+DPAPI looting remotely in Python
+
 https://github.com/zeronetworks/BloodHound-Tools
 Collection of tools that reflect the network dimension into Bloodhound's data
 
@@ -1518,19 +1551,4 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
-
-https://github.com/maldevel/gophish
-GoPhish automation
-
-https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Get-BrowserData.ps1
-Enumerates browser history or bookmarks for a Chrome, Internet Explorer and/or Firefox browsers on Windows machines.
-
-https://github.com/samratashok/ADModule
-Microsoft signed ActiveDirectory PowerShell module
-
-https://gist.github.com/S3cur3Th1sSh1t/e6f30b33d142ed8a5588e46eb328c0a6
-Little Credential Manager dumping Script.
-
-https://github.com/assume-breach/Home-Grown-Red-Team/tree/main/MemoryPull
-MemoryPull is a simple (extremely simple) C# shellcode runner that will call out to external server hosting raw shellcode and run it.
 
