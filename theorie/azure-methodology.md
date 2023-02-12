@@ -154,8 +154,9 @@ IDENTITY_ENDPOINT
 ```
 
 ## Get access token
+* https://github.com/r1cksec/cheatsheets/blob/main/snippets/py/getAzureIdentity.py
+
 ```
-https://github.com/r1cksec/cheatsheets/blob/main/snippets/py/getAzureIdentity.py
 
 curl "$IDENTITY_ENDPOINT?resource=https://management.azure.com/&api-version=2017-09-01" -H secret:$IDENTITY_HEADER
 ```
@@ -216,10 +217,10 @@ Invoke-EnumerateAzureBlobs -Base <tenant> defcorp
 ```
 
 ## Phishing (Illicit Consent Grant)
-```
-https://github.com/AlteredSecurity/365-Stealer
-https://github.com/r1cksec/cheatsheets/blob/main/windows/azure-arm-api.md
+* https://github.com/AlteredSecurity/365-Stealer
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/azure-arm-api.md
 
+```
 Get Access Token by creating an application in the attacker tenant and send the Authorization Link to a victim.
 
 https://portal.azure.com > Azure Active Directory > App Registrations > New registration > Choose Name
