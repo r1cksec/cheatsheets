@@ -1,5 +1,5 @@
 ### Source
-https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Collectors/AzureHound.ps1
+https://github.com/BloodHoundAD/AzureHound/releases
 
 ### Install modules
 ```

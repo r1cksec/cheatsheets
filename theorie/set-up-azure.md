@@ -2,12 +2,12 @@
 ### Create developer account and configure Microsoft 365 E5 sandbox
 ```
 https://docs.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program-get-started
-https://developer.microsoft.com/en-us/microsoft-365/dev-program 
+https://developer.microsoft.com/en-us/microsoft-365/dev-program > Join Now (you might need to wait a few hours after account creation) > Configurable sandbox
 ```
 
 ### Start setup
 ```
-https://admin.microsoft.com/Adminportal/Home#/homepage > Go to guided setup
+https://admin.microsoft.com > Left Navigation Bar > Settings > Domains > Start Setup
 ```
 
 ### Download Microsoft Azure Active Directory Connect and install on DC using "Express Settings"
@@ -15,12 +15,7 @@ https://admin.microsoft.com/Adminportal/Home#/homepage > Go to guided setup
 https://www.microsoft.com/en-us/download/details.aspx?id=47594
 ```
 
-### Complete setup
-```
-https://admin.microsoft.com > Left Navigation Bar > Settings > Domains > Start Setup
-```
-
-## Microsoft ATP
+## Licenses
 ### Microsoft Defender for Endpoint P2 licence
 ```
 https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e
@@ -83,7 +78,7 @@ Run as SYSTEM:
 https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/error-installing-atp-sensor-on-dc-2019-gives-an-0x800070643/m-p/3070769
 ```
 
-# Integrate Microsoft Defender for Endpoint into Intune
+### Integrate Microsoft Defender for Endpoint into Intune
 ```
 https://portal.atp.azure.com > Microsoft Defender for Endpoint > Features has not been fully enabled. Enable integration on the Microsoft Defender for Endpoint Endpoin Portal > Enable Settings
 ```

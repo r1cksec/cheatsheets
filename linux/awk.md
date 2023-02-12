@@ -10,11 +10,16 @@ awk -F ':' '/vboxusers/{print $4}' /etc/group
 
 ### Convert to lower case
 ```
-awk '{print tolower($0)}'
+awk '{print tolower($1)}'
+```
+
+### Print first two chars
+```
+awk '{print substr($1,1,2)}'
 ```
 
 ### Print line if less 10 chars
 ```
-awk 'length($0) < 10 { print $0 }'
+awk 'length($1) < 10 { print $1 }'
 ```
 
