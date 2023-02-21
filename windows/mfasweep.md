@@ -11,7 +11,7 @@ Microsoft 365 Web Portal /w Mobile User Agent - exploit by changing the user age
 Microsoft 365 ActiveSync - exploit using build in mail application in windows
 ```
 
-### Check mfa settings
+### Check mfa settings without trigger MFA request
 ```
 Invoke-MFASweep -Username <user>@<domain> -Password <password>
 ```
