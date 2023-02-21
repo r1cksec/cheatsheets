@@ -3,18 +3,19 @@ https://login.microsoftonline.com/getuserrealm.srf?login=<targetMail>
 https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 
 # Services
+https://admin.microsoft.com
+https://endpoint.microsoft.com
+https://myapps.microsoft.com
 https://outlook.office.com/mail
 https://portal.azure.com
 https://rdweb.wvd.microsoft.com/arm/webclient/index.html
 https://teams.microsoft.com
-https://endpoint.microsoft.com
-https://myapps.microsoft.com
 
 # Token resources
+https://management.azure.com
+https://graph.microsoft.com
 https://storage.azure.com
 https://vault.azure.net
-https://graph.microsoft.com
-https://management.azure.com
 
 # Azure Blob Storage
 
