@@ -187,3 +187,8 @@ shift + a
 1 + CTRL + A
 ```
 
+### Set viewport of current line to middle
+```
+zz
+```
+

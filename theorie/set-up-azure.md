@@ -21,11 +21,6 @@ https://www.microsoft.com/en-us/download/details.aspx?id=47594
 https://signup.microsoft.com/create-account/signup?products=7f379fee-c4f9-4278-b0a1-e4c8c2fcdf7e
 ```
 
-### Office E5 licence
-```
-https://www.microsoft.com/de-de/microsoft-365/enterprise/office-365-e5
-```
-
 ### Microsoft Intune licence
 ```
 https://signup.microsoft.com/get-started/signup?products=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&ali=1
@@ -46,6 +41,11 @@ https://admin.microsoft.com/#/catalog/offer-details/microsoft-365-e5/821CC756-02
 https://www.microsoft.com/en-us/microsoft-365/microsoft-365-business-standard-one-month-trial
 ```
 
+### Office E5 licence
+```
+https://www.microsoft.com/de-de/microsoft-365/enterprise/office-365-e5
+```
+
 ### Check current licenses
 ```
 https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products
@@ -55,6 +55,7 @@ https://portal.azure.com/#blade/Microsoft_AAD_IAM/LicensesMenuBlade/Products
 ```
 https://endpoint.microsoft.com > Users > Choose user > Licenses > Assignments > Select Licenses > Save
 https://admin.microsoft.com/usermanagement/usermanager.aspx
+https://admin.microsoft.com/Adminportal/Home?#/licenses
 ```
 
 ### Create Microsoft Defender for Endpoint Account

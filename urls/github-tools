@@ -310,6 +310,9 @@ Fileless lateral movement tool that relies on ChangeServiceConfigA to run comman
 https://github.com/MythicAgents/Nimplant
 A cross-platform implant written in Nim
 
+https://github.com/MzHmO/psexec_noinstall
+Repository contains psexec, which will help to exploit the forgotten pipe
+
 https://github.com/Ne0nd0g/go-shellcode
 A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
 
@@ -483,6 +486,9 @@ A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache f
 
 https://github.com/SpiderLabs/Responder
 Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
+
+https://github.com/Spnl48/PSInjector
+Code injection is a technique where a process can insert a part of or all of its code from its own running process into another target process and get the target process to execute the injected code.
 
 https://github.com/Sprocket-Security/fireproxng
 Next generation fireprox AWS API endpoint creation utility.
@@ -1243,6 +1249,9 @@ A next-generation crawling and spidering framework.
 https://github.com/projectdiscovery/nuclei
 Fast and customizable vulnerability scanner based on simple YAML based DSL. 
 
+https://github.com/projectdiscovery/nuclei-templates
+Community curated list of templates for the nuclei engine to find security vulnerabilities.
+
 https://github.com/projectdiscovery/subfinder
 Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
 
@@ -1326,9 +1335,6 @@ Reads the password blob from a GMSA account using LDAP, and parses the values in
 
 https://github.com/rvrsh3ll/Misc-Powershell-Scripts
 Random Tools
-
-https://github.com/rvrsh3ll/Misc-Powershell-Scripts
-Random Tools (Create-Hotkey, FileSplitter, Get-BrowserData)
 
 https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Get-BrowserData.ps1
 Enumerates browser history or bookmarks for a Chrome, Internet Explorer and/or Firefox browsers on Windows machines.
@@ -1470,6 +1476,9 @@ Obfuscate Go binaries and packages
 
 https://github.com/urbanadventurer/WhatWeb
 Next generation web scanner 
+
+https://github.com/ustayready/ShredHound
+Small utility to chunk up a large BloodHound JSON file into smaller files for importing.
 
 https://github.com/ustayready/fireprox
 AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation
