@@ -23,3 +23,8 @@ netsh interface ip set dns local static <rhost>
 netsh winhttp show proxy
 ```
 
+### Load dll
+```
+netsh.exe add helper <file>.dll
+```
+

