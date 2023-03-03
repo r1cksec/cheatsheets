@@ -15,7 +15,12 @@ curl -X GET -H 'Accept: application/json' -H 'eyJhbBar...' 'https://<domain>/<pa
 
 ### Show only header of response
 ```
-curl -I https://<domain>
+curl -I https://<domain> 
+```
+
+### Get http status code and redirect url
+```
+curl -L --write-out '%{http_code}\n%{url_effective}'
 ```
 
 ### JSON PUT

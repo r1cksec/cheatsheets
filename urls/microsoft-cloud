@@ -6,6 +6,7 @@ https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 https://admin.microsoft.com
 https://endpoint.microsoft.com
 https://myapps.microsoft.com
+https://mysignins.microsoft.com/security-info
 https://outlook.office.com/mail
 https://portal.azure.com
 https://rdweb.wvd.microsoft.com/arm/webclient/index.html

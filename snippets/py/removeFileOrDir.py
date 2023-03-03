@@ -1,4 +1,5 @@
 import os
+import shutil
 
 # remove a file
 os.remove("file.txt")

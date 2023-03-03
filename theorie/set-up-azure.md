@@ -3,6 +3,7 @@
 ```
 https://docs.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program-get-started
 https://developer.microsoft.com/en-us/microsoft-365/dev-program > Join Now (you might need to wait a few hours after account creation) > Configurable sandbox
+https://developer.microsoft.com/en-us/microsoft-365/profile
 ```
 
 ### Start setup

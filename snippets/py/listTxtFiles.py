@@ -7,8 +7,7 @@ for files in os.listdir("dir"):
 # list files recursively
 import pathlib
 
-fileDir = r"dir"
+fileDir = "dir"
 fileExt = r"**/*.txt"
 list(pathlib.Path(fileDir).glob(fileExt))
-
 

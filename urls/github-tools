@@ -88,6 +88,9 @@ Kernel privilege escalation vulnerability collection, with compilation environme
 https://github.com/AzAgarampur/byeintegrity8-uac
 Bypass UAC at any level by abusing the Program Compatibility Assistant with RPC, WDI, and more Windows components
 
+https://github.com/AzeemIdrisi/PhoneSploit-Pro
+An all-in-one hacking tool to remotely exploit Android devices using ADB and Metasploit-Framework to get a Meterpreter session.
+
 https://github.com/Azure/Stormspotter
 Azure Red Team tool for graphing Azure and Azure Active Directory objects
 
@@ -111,9 +114,6 @@ Another potato, using PrintNotify COM service for lifting rights
 
 https://github.com/BishopFox/cloudfox
 Automating situational awareness for cloud penetration tests.
-
-https://github.com/BishopFox/cloudfoxable
-Create your own vulnerable by design AWS penetration testing playground
 
 https://github.com/BishopFox/sliver
 Adversary Emulation Framework
@@ -351,6 +351,9 @@ PXEThief is a set of tooling that can extract passwords from the Operating Syste
 
 https://github.com/Macmod/goblob
 A fast enumeration tool for publicly exposed Azure Storage blobs.
+
+https://github.com/Malwarize/webpalm
+WebPalm is a powerful command-line tool for website mapping and web scraping. With its recursive approach, it can generate a complete tree of all webpages and their links on a website. It can also extract data from the body of each page using regular expressions, making it an ideal tool for web scraping and data extraction.
 
 https://github.com/MartinIngesen/TokenStomp
 C# implementation of the token privilege removal flaw discovered by @GabrielLandau/Elastic
@@ -691,6 +694,9 @@ PHPGGC is a library of PHP unserialize() payloads along with a tool to generate 
 https://github.com/anderspitman/awesome-tunneling
 List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
 
+https://github.com/andresriancho/enumerate-iam
+Enumerate the permissions associated with AWS credential set
+
 https://github.com/anil-yelken/wardriving
 Python Wardriving
 
@@ -1018,6 +1024,9 @@ IATelligence is a Python script that will extract the IAT of a PE file and reque
 https://github.com/freshness79/HTA-Shell
 HTA Visual Basic script for remote shell on windows machines
 
+https://github.com/frkngksl/NimExec
+Fileless Command Execution for Lateral Movement in Nim
+
 https://github.com/frohoff/ysoserial
 A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
 
@@ -1029,6 +1038,9 @@ List of known AWS accounts
 
 https://github.com/garrettfoster13/sccmhunter
 SCCMHunter is a post-ex tool built to streamline identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
+
+https://github.com/gchq/CyberChef
+The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
 
 https://github.com/gentilkiwi/mimikatz
 A little tool to play with Windows security
@@ -1056,6 +1068,9 @@ Open-Source Phishing Toolkit
 
 https://github.com/grimlockx/ADCSKiller
 An ADCS Exploitation Automation Tool Weaponizing Certipy and Coercer
+
+https://github.com/gtworek/PSBits
+Simple (relatively) things allowing you to dig a bit deeper than usual.
 
 https://github.com/h311d1n3r/Cerberus
 A Python tool to unstrip Rust binaries on Linux
@@ -1414,6 +1429,9 @@ PLUG & PLAY FLIPPER ZERO SCRIPTS For MacOS
 https://github.com/nccgroup/DroppedConnection
 Emulates a Cisco ASA Anyconnect VPN service, accepting any credentials (and logging them) before serving VBS to the client that gets executed in the context of the user.
 
+https://github.com/nccgroup/ScoutSuite
+Multi-Cloud Security Auditing Tool
+
 https://github.com/nccgroup/acCOMplice
 Tools for discovery and abuse of COM hijacks
 
@@ -1593,6 +1611,9 @@ Subfinder is a subdomain discovery tool that discovers valid subdomains for webs
 
 https://github.com/projectdiscovery/useragent
 Curated list of categorized User Agents
+
+https://github.com/prowler-cloud/prowler
+Prowler is an Open Source Security tool for AWS, Azure and GCP to perform Cloud Security best practices assessments, audits, incident response, compliance, continuous monitoring, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, GXP, Well-Architected Security, ENS and more.
 
 https://github.com/pry0cc/ProxyDock
 ProxyDock is a Dockerfile and Bash script that converts your OpenVPN files into local proxies.
