@@ -1,2 +1,4 @@
-**bold**
+*bold**
+*italics*
+***both***
 

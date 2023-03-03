@@ -3,9 +3,9 @@
 [Unit]
 Description=<description>
 
-[Service]  
-Type=forking  
-ExecStart=/bin/bash <path/to/script>.sh  
+[Service]
+Type=forking
+ExecStart=/bin/bash <path/to/script>.sh
 ```
 
 # insert into: /etc/systemd/system/<jobName>.timer  
@@ -13,12 +13,12 @@ ExecStart=/bin/bash <path/to/script>.sh
 [Unit]
 Description=<description>
 
-[Timer]  
-OnUnitActiveSec=10s  
-OnBootSec=10s  
+[Timer]
+OnUnitActiveSec=10s
+OnBootSec=10s
 
-[Install]  
-WantedBy=timers.target  
+[Install]
+WantedBy=timers.target
 ```
 
 ### Start job

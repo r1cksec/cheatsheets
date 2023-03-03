@@ -6,3 +6,5 @@
 <img src="pathToFile">
 </p>
 
+![text](file.png){#id width=100%}
+

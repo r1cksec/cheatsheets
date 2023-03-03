@@ -1,4 +1,4 @@
-[^1]
+[^id]
 
-[^1]: [text](https://reference)
+[^id]: [text](url)
 

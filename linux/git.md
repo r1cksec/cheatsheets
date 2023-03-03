@@ -75,6 +75,12 @@ git push origin master
 git clone ssh://<user>@<rhost>/<path>.git
 ```
 
+### Proxy settings
+```
+git config --global http.proxy http://<rhost>:<port>
+git config --global --unset http.proxy
+```
+
 ### Generate access token
 https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
 

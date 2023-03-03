@@ -9,3 +9,5 @@
 | Urls     | Resources on the Internet
 | Windows  | Command line for Windows
 
+Use with caution, some links may contain malware.
+

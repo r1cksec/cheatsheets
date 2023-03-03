@@ -1,5 +1,5 @@
-| Field1 | Field2 | Field3
-| - | :- | -:
-| Cell | CellLeft | CellRight 
-| Cell | CellLeft | CellRight
+Table: text \label{id}
 
+| CL | CM | CR |
+| :- | - | -: |
+| C | C | C |

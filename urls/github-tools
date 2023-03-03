@@ -19,8 +19,8 @@ Generate Userlist
 https://github.com/0xZDH/o365spray
 Username enumeration and password spraying tool aimed at Microsoft O365.
 
-https://github.com/0xdea/exploits
-A handy collection of my public exploits, all in one place.
+https://github.com/0xor0ne/debugoff
+Linux anti-debugging and anti-analysis rust library
 
 https://github.com/0xthirteen/SharpRDP
 Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
@@ -535,15 +535,6 @@ Tunna is a set of tools which will wrap and tunnel any TCP communication over HT
 https://github.com/SamJoan/droopescan
 A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
 
-https://github.com/SaulBerrenson/BrowserStealer
-Simple password/cookies/history/bookmarks stealer/dumper for chrome all version (includes 80+), microsoft edge browser,includes all chromium based browsers, and all gecko based browser (firefox etc.).
-
-https://github.com/SecWiki/linux-kernel-exploits
-linux-kernel-exploits Linux平台提权漏洞集合
-
-https://github.com/SecWiki/windows-kernel-exploits
-windows-kernel-exploits Windows平台提权漏洞集合
-
 https://github.com/SecuraBV/Timeroast
 Timeroasting scripts by Tom Tervoort
 
@@ -621,9 +612,6 @@ Selenium-based Python script to automate sending emails to warm up your sender r
 
 https://github.com/Wh04m1001/DFSCoerce
 PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAddStdRoot (found by @xct_de) methods.
-
-https://github.com/WindowsExploits/Exploits
-Windows Exploits
 
 https://github.com/WiredPulse/Invoke-HiveNightmare
 PoC for CVE-2021-36934, which enables a standard user to be able to retrieve the SAM, Security, and Software Registry hives in Windows 10 version 1809 or newer
@@ -730,6 +718,9 @@ netshell features all in version 2 powershell
 https://github.com/bettercap/bettercap
 The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.
 
+https://github.com/beurtschipper/Depix
+Recovers passwords from pixelized screenshots
+
 https://github.com/biffalo/handy-posh/blob/main/get-tasks.ps1
 Get scheduled tasks in task root and prints name and action of each
 
@@ -742,14 +733,14 @@ Fake Windows logon screen to steal passwords
 https://github.com/bitsadmin/wesng
 Windows Exploit Suggester - Next Generation
 
+https://github.com/blackhillsinfosec/skyhook
+A round-trip obfuscated HTTP file transfer setup built to bypass IDS detections.
+
 https://github.com/blacklanternsecurity/MANSPIDER
 Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!
 
 https://github.com/blackorbird/PrintNightmare
 Remote code execution in Windows Spooler Service
-
-https://github.com/blasty/CVE-2021-3156
-This is an exploit for the CVE-2021-3156 sudo vulnerability
 
 https://github.com/blechschmidt/massdns
 A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
@@ -1051,9 +1042,6 @@ ProxyLogon PoC
 https://github.com/hfiref0x/UACME
 Defeating Windows User Account Control
 
-https://github.com/horizon3ai/CVE-2021-38647
-Proof on Concept Exploit for CVE-2021-38647 (OMIGOD)
-
 https://github.com/hthh/switch-reversing
 My Switch reversing scripts
 
@@ -1134,6 +1122,9 @@ Python DPAPI NG Decryptor for non-Windows Platforms
 
 https://github.com/jfmaes/Invoke-DLLClone
 Koppeling x Metatwin x LazySign
+
+https://github.com/jhaddix/awsScrape
+A tool to scrape the AWS ranges looking for a keyword in SSL certificate data.
 
 https://github.com/joeavanzato/Trawler
 PowerShell script to help Incident Responders discover adversary persistence mechanisms.
@@ -1224,9 +1215,6 @@ Pyhton script for HTTP 40X responses bypassing. Features: Verb tampering, header
 
 https://github.com/lockedbyte/CVE-2021-40444
 CVE-2021-40444 PoC
-
-https://github.com/lockedbyte/CVE-Exploits
-PoC exploits for software vulnerabilities
 
 https://github.com/lockedbyte/CVE-Exploits/tree/master/CVE-2020-28018
 There exists a Use-after-free (UAF) vulnerability in tls-openssl.c that allow remote unauthenticated attackers to corrupt internal memory data, thus finally achieving remote code execution.
@@ -1320,6 +1308,9 @@ From an account member of the group Backup Operators to Domain Admin without RDP
 
 https://github.com/mrd0x/EvilSelenium
 EvilSelenium is a tool that weaponizes Selenium to attack Chromium based browsers.
+
+https://github.com/mrd0x/file-archiver-in-the-browser
+Two sample phishing templates that can be used with .zip domains to emulate a file archiver in the browser.
 
 https://github.com/mrexodia/lolbin-poc
 Small PoC of using a Microsoft signed executable as a lolbin.
@@ -1594,9 +1585,6 @@ Powershell version of SharpGPOAbuse
 https://github.com/rootcathacking/awscracknip
 Hascat deploy and install script in aws
 
-https://github.com/rootsecdev/Azure-Red-Team
-Azure Security Resources and Notes
-
 https://github.com/ropbear/CLMBypass
 Bypass Constrained Language Mode in PowerShell
 
@@ -1701,9 +1689,6 @@ Nginxpwner is a simple tool to look for common Nginx misconfigurations and vulne
 
 https://github.com/stealth/devpops
 Companion Worm research
-
-https://github.com/streaak/keyhacks
-Keyhacks is a repository which shows quick ways in which API keys leaked by a bug bounty program can be checked to see if they're valid.
 
 https://github.com/sullo/nikto
 Nikto web server scanner
