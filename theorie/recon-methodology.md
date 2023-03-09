@@ -52,7 +52,7 @@ spk -silent -s <companyName>
 ```
 
 Sometimes it is necessary to quickly get the name of the hoster for a given IP address.
-The tool `get-whois-hoster` is suitable (see https://github.com/r1cksec/autorec/blob/master/scripts/get-whois-hoster):
+The tool `get-whois-hoster` automatically queries lookip.net and provides the hoster for the system in question (see https://github.com/r1cksec/autorec/blob/master/scripts/get-whois-hoster):
 
 ```
 get-whois-hoster <domainFile>
@@ -61,8 +61,8 @@ get-whois-hoster <domainFile>
 ### Get rootdomains
 
 In order to perform a subdomain enumeration, rootdomains are needed.
-Rootdomains can be identified by simple using the company name and a single Google search.
-But it is also possible that the rootdomains differ based on top-level domains.
+Rootdomains can be identified by simply searching for the company name using any search engine.
+It is also possible that the rootdomains differ based on top-level domains.
 However a domain with a completely different name could also belong to the target company.
 
 One option to find rootdomains is the use of the Intel module from Amass (see https://github.com/OWASP/Amass).
@@ -75,7 +75,7 @@ amass intel -d <domain> -whois
 ```
 
 If the target company is using O365, root domains can also be identified via requesting the Autodiscover service.
-The process has been automated using tool `letItGo` (see https://github.com/SecurityRiskAdvisors/letitgo).
+The process has been automated by the tool `letItGo` (see https://github.com/SecurityRiskAdvisors/letitgo).
 
 ```
 letItGo <domain>
@@ -111,7 +111,7 @@ python3 get-cert-domains-from-ip-range.py <ipRange>
 Of course, it is worthwhile to perform a reverse dns lookup for all known IP addresses.
 
 ```
-amass intel -ip -addr <XXX.XXX.XXX.XXX-XXX>
+nmap -sL <ipRange> | awk -F 'Nmap scan report for ' '{print $2}' | grep '('
 ```
 
 Furthermore, it is also possible to find other root domains by searching for the start date of certificates, because many certificates are renewed automatically at a fixed time.
@@ -138,14 +138,14 @@ The list of domains resulting from this procedure must then be sorted and classi
 
 In the most cases websites can be assigned to a specific company based on the copyright or the imprint.
 In this way a long list of root domains can be sorted and classified accordingly.
-Again this process can be automated using the tool `get-copyright` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-page-owner):
+Again this process can be automated using the tool `get-page-owner` (see https://github.com/r1cksec/autorec/blob/master/scripts/get-page-owner):
 
 ```
 python3 get-page-owner <domainFile>
 ```
 
 Alternatively the copyright can be used to find further root domains.
-A simple Google search with `"copyright"` is often sufficient to list other root domains (see https://github.com/r1cksec/autorec/blob/master/scripts/search-google).
+A simple Google search with `"copyright"` is often sufficient to list other root domains.
 
 Another way to assign rootdomains to a target company is the comparision of favicons.
 The tool favfreak is suitable for this purpsoe (see https://github.com/devanshbatham/FavFreak).
@@ -168,7 +168,7 @@ The tool `get-title` automates this process (see https://github.com/r1cksec/auto
 
 ### Subdomain enumeration
 
-Domains can be easily be guessed.
+Some subdomains are easy to guess.
 The tool `massdns` is particularly well suited for this, since several DNS servers are used and thus many queries can be parallelized (see https://github.com/blechschmidt/massdns):
 
 ```
@@ -185,7 +185,7 @@ Again the tool `amass` automates this process.
 amass enum -passive -d <domain> -src
 ```
 
-Alternatively, there are tools like `subfinder`:
+Alternatively, there are also tools like `subfinder` (see https://github.com/projectdiscovery/subfinder):
 
 ```
 subfinder -d <domain>
@@ -234,6 +234,12 @@ The metadata can also contain other informations like domains or e-mail addresse
 strings * | grep -i "@"
 ```
 
+Searching for PDF documents and extracting the metadata can also be done at once with the script `get-pdf-metadata` (see https://github.com/r1cksec/thoth/blob/master/scripts/get-pdf-metadata)
+
+```
+get-pdf-Metadata <domain>
+```
+
 ### DNS records
 
 It is also advisable to check all DNS records of a domain.
@@ -254,11 +260,8 @@ The following tools facilitate this search:
 * https://github.com/r1cksec/autorec/blob/master/scripts/get-grep-app
 * https://github.com/zricethezav/gitleaks
 * https://github.com/techjacker/repo-security-scanner
+* https://github.com/tillson/git-hound
 * https://github.com/trufflesecurity/truffleHog
-
-Or, the githound tool can aid in the discovery of api-keys or konfiguration files. (see https://github.com/tillson/git-hound).
-
-Furthermore Github dorks can also be used to gather interesting files (see https://github.com/r1cksec/cheatsheets/blob/main/fuzzing/github-dorks).
 
 ## Employees and E-mail addresses
 
@@ -269,13 +272,7 @@ The following two services offers a good collection of e-mail addresses for a gi
 * https://phonebook.cz
 * https://www.skymem.info
 
-The tool `get-mails` will automatically extract the addresses of theses resources (see https://github.com/r1cksec/autorec/blob/master/scripts/get-mails):
-
-```
-python3 get-mails <domain>
-```
-
-It is also possible to find e-mail addresses using search engines like Google or Baidoo.
+It is also possible to find e-mail addresses using search engines.
 The tool `EmailAll` combines the scrape of OSINT resources and the use of search engines (see https://github.com/Taonn/EmailAll).
 
 ```
@@ -303,21 +300,19 @@ Host: www.xing.com
 ```
 
 LinkedIn is more restrictive regarding lists of employees.
-Neverless there are different tools to gather the names of employees.
-For example `crosslinked` collects employee names with the help of search engine queries (see https://github.com/m8sec/CrossLinked).
-However, many false positives may be collected.
-
-```
-python3 crosslinked.py -f '{first}.{last}@<domain>' "<companyName>" --safe
-```
-
-If a manual approach is preferred, it is also possible to run a simple Google Dorks.
+But it is still possible to collect employees using Google Dorks.
 
 ```
 intitle:"companyName" inurl:"linkedin.com/in/" site:linkedin.com
 ```
 
-Alternativly, the lead-generating and rekruting solution PhantomBuster (see https://phantombuster.com) can be used on LinkedIn to extract useful information and data.
+Since automation is king, there is of course a script `dork-linkedIn-employees` that crawls the first pages of the Dork query results (see https://github.com/r1cksec/thoth/blob/master/scripts/dork-linkedIn-employees)
+
+```
+python3 dork-linkedIn-employees <companyName>
+```
+
+Alternativly, you can pay for rekruting solutions like PhantomBuster (see https://phantombuster.com) and thus obtain additional information.
 
 Another source to get more email addresses are known database leaks.
 Besides a list of mail addresses and maybe even passwords, this source can also be used to discover new root domains.
