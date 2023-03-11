@@ -192,3 +192,8 @@ shift + a
 zz
 ```
 
+### Log all keystrokes written inside vim (insert into vimrc)
+```
+:autocmd BufWritePost * :silent :w! >> <file>
+```
+

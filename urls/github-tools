@@ -22,6 +22,9 @@ Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware
 https://github.com/4D5A/Networks-Administration/blob/main/Invoke-DNSQuery/Invoke-DNSQuery.ps1
 Queries public DNS records for a domain in regard of mail security
 
+https://github.com/Accenture/Codecepticon
+.NET/PowerShell/VBA Offensive Security Obfuscator
+
 https://github.com/Accenture/Spartacus
 Spartacus DLL Hijacking Discovery Tool
 
@@ -42,9 +45,6 @@ Privilege Escalation Project - Windows / Linux / Mac
 
 https://github.com/AlessandroZ/LaZagne
 Credentials recovery project
-
-https://github.com/AlsidOfficial/WSUSpendu
-Implement WSUSpendu attack
 
 https://github.com/AlteredSecurity/365-Stealer
 365-Stealer is a phishing simualtion tool written in python3. It can be used to execute Illicit Consent Grant Attack.
@@ -100,14 +100,17 @@ A method of bypassing EDR's active projection DLL's by preventing entry point ex
 https://github.com/CCob/SweetPotato
 Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019
 
+https://github.com/CCob/ThreadlessInject
+Threadless Process Injection using remote function hooking.
+
+https://github.com/CiscoCXSecurity/bbqsql
+SQL Injection Exploitation Tool
+
 https://github.com/Cn33liz/p0wnedShell
 PowerShell Runspace Post Exploitation Toolkit
 
 https://github.com/Coldzer0/ReverseSock5Proxy
 A tiny Reverse Sock5 Proxy written in C
-
-https://github.com/D3VL/L3MON
-L3MON - Remote Android Managment Suite
 
 https://github.com/D4stiny/ForkPlayground
 An implementation and proof-of-concept of Process Forking.
@@ -271,6 +274,9 @@ https://github.com/Kevin-Robertson/Inveigh
 https://github.com/Kevin-Robertson/Invoke-TheHash
 PowerShell Pass The Hash Utils
 
+https://github.com/Kudaes/Split
+This script gets all accepted domains in Microsoft 365 using autodiscover, gets the tenant name and checks if there is a Microsoft Defender for Identity instance. This way you can figure out if a company runs Microsoft Defender for Identity.
+
 https://github.com/LMGsec/o365creeper
 Python script that performs email address validation against Office 365 without submitting login attempts.
 
@@ -330,6 +336,9 @@ A proxy aware C2 framework used to aid red teamers with post-exploitation and la
 
 https://github.com/Nyr/openvpn-install
 OpenVPN road warrior installer for Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS and Fedora
+
+https://github.com/OALabs/BlobRunner
+Quickly debug shellcode extracted during malware analysis
 
 https://github.com/OJ/gobuster
 Directory/File, DNS and VHost busting tool written in Go
@@ -457,6 +466,9 @@ linux-kernel-exploits Linux平台提权漏洞集合
 https://github.com/SecWiki/windows-kernel-exploits
 windows-kernel-exploits Windows平台提权漏洞集合
 
+https://github.com/SecuraBV/Timeroast
+Timeroasting scripts by Tom Tervoort
+
 https://github.com/SecureAuthCorp/impacket
 Impacket is a collection of Python classes for working with network protocols.
 
@@ -502,6 +514,9 @@ Perform a MitM attack and extract clear text credentials from RDP connections
 https://github.com/Taonn/EmailAll
 EmailAll is a powerful Email Collect tool
 
+https://github.com/TheD1rkMtr/FilelessPELoader
+Loading Remote AES Encrypted PE in memory , Decrypted it and run it
+
 https://github.com/TheWover/CertStealer
 A .NET tool for exporting and importing certificates without touching disk.
 
@@ -540,6 +555,9 @@ Python library with CLI allowing to remotely dump domain user credentials via an
 
 https://github.com/ZephrFish/AutoHoneyPoC
 AutoPoC Generator HoneyPoC
+
+https://github.com/ZeroMemoryEx/Amsi-Killer
+Lifetime AMSI bypass
 
 https://github.com/ZeroMemoryEx/C2-Hunter
 Extract C2 Traffic
@@ -582,6 +600,9 @@ SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications
 
 https://github.com/api0cradle/UltimateAppLockerByPassList
 The goal of this repository is to document the most common techniques to bypass AppLocker.
+
+https://github.com/arget13/DDexec
+A technique to run binaries filelessly and stealthily on Linux by "overwriting" the shell's process with another.
 
 https://github.com/assume-breach/Home-Grown-Red-Team
 This repo is a resource for various red teaming techniques and tools based on open source software and non-commerical tools.
@@ -778,6 +799,9 @@ Active Directory information dumper via LDAP
 https://github.com/djhohnstein/SharpChromium
 .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
 
+https://github.com/doyensec/inql
+InQL - A Burp Extension for GraphQL Security Testing
+
 https://github.com/drwetter/testssl.sh
 Testing TLS/SSL encryption anywhere on any port
 
@@ -795,6 +819,9 @@ Silhouette is a POC that mitigates the use of physical memory to dump credential
 
 https://github.com/enjoiz/Privesc
 Windows batch script that finds misconfiguration issues which can lead to privilege escalation.
+
+https://github.com/expl0itabl3/check_mdi
+Python script to enumerate valid Microsoft 365 domains, retrieve tenant name, and check for an MDI instance Resources
 
 https://github.com/felamos/weirdhta
 A tool to create obfuscated HTA script.
@@ -835,8 +862,14 @@ A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-202
 https://github.com/gentilkiwi/mimikatz
 A little tool to play with Windows security
 
+https://github.com/gildas-lormeau/SingleFile
+Web Extension and CLI tool for saving a faithful copy of an entire web page in a single HTML file
+
 https://github.com/gildas-lormeau/SingleFileZ
 Web Extension for Firefox/MS Edge and CLI tool to save a faithful copy of an entire web page in a self-extracting HTML/ZIP polyglot file
+
+https://github.com/gildas-lormeau/single-file-cli
+SingleFile can be launched from the command line by running it into a (headless) browser.
 
 https://github.com/google/osv-scanner
 Vulnerability scanner written in Go which uses the data provided by osv.dev
@@ -985,6 +1018,9 @@ A C# based tool for analysing malicious OneNote documents
 https://github.com/kobs0N/CVE-2019-11581.git
 CVE-2019–11581 PoC
 
+https://github.com/laluka/jolokia-exploitation-toolkit
+Jolokia is a protocol bridge that enables users to interact with MBeans (JMB) through HTTP. 
+
 https://github.com/laramies/metagoofil
 Metagoofil is an information gathering tool designed for extracting metadata of public documents (pdf,doc,xls,ppt,docx,pptx,xlsx) belonging to a target company.
 
@@ -1045,9 +1081,6 @@ Infoga - Email OSINT
 https://github.com/maldevel/EmailHarvester
 Email addresses harvester 
 
-https://github.com/maldevel/gophish
-GoPhish automation
-
 https://github.com/mandiant/SharPersist
 Windows persistence toolkit written in C#.
 
@@ -1095,6 +1128,9 @@ From an account member of the group Backup Operators to Domain Admin without RDP
 
 https://github.com/mrd0x/EvilSelenium
 EvilSelenium is a tool that weaponizes Selenium to attack Chromium based browsers.
+
+https://github.com/msfrisbie/spy-extension
+A Chrome extension that will steal literally everything it can
 
 https://github.com/mxrch/gitfive
 Track down GitHub users.
@@ -1437,6 +1473,9 @@ This is a webshell open source project
 
 https://github.com/tevora-threat/SharpView
 C# implementation of harmj0y's PowerView
+
+https://github.com/thalpius/Microsoft-Defender-for-Identity-Check-Instance
+This script gets all accepted domains in Microsoft 365 using autodiscover, gets the tenant name and checks if there is a Microsoft Defender for Identity instance. This way you can figure out if a company runs Microsoft Defender for Identity.
 
 https://github.com/theWover/Donut
 Generates x86, x64, or AMD64+x86 position-independent shellcode that loads .NET Assemblies, PE files, and other Windows payloads from memory and runs them with parameters

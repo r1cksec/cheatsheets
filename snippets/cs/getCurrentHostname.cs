@@ -1,4 +1,5 @@
 using System;
 
-Console.WriteLine(System.Windows.Forms.SystemInformation.ComputerName);
+string hostname = Environment.MachineName;
+Console.WriteLine("Hostname: " + hostname);
 

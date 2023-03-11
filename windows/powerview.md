@@ -102,3 +102,8 @@ Find-DomainShare -CheckShareAccess -ComputerName <rhost>
 Get-ObjectAcl -DistinguishedName "dc=<domainComponent>,dc=<domainComponent> -ResolveGUIDs | ?{($_.ObjectType -match 'replication-get') -or ($_.ActiveDirectoryRights -match 'GenericAll')}
 ```
 
+### List machine account quota
+```
+Get-DomainObject -Domain <domain> -Properties ms-ds-machineaccountquota | Select -First 1
+```
+
