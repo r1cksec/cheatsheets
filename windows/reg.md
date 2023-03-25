@@ -54,3 +54,8 @@ reg query "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions" /s
 reg add HKLM\System\CurrentControlSet\Control\TerminalServer /v fSingleSessionPerUser /d 0 /f
 ```
 
+### Enable Powershell Constrained Language Mode
+```
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v "__PSLockdownPolicy" /t REG_SZ /d "4" /f
+```
+

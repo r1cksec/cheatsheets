@@ -3,8 +3,8 @@ https://github.com/OWASP/Amass
 
 ### Modules:
 ```
-intel - collect basic information about target for getting a starting point
-enum - enumration mapping to find possible attack avenues
+intel - collect further root domains associated with the organisation 
+enum - collect subdomains
 viz - visual result presentation
 track - compare results across enumerations
 ```

@@ -5,7 +5,7 @@ every user get single session (Pairwise Transient key - PTK, calculated from Pai
 replay protected
 ```
 
-### Capture hanshake
+### Capture handshake
 ```
 airmon-ng check
 airmon-ng check kill

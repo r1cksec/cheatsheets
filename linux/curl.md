@@ -1,4 +1,4 @@
-### Insert parameter in request, -d data, -s show error
+### Insert parameter in request, -d data, -s dont show error
 ```
 curl -s -d grant_type=password -d param1=<value> -d param2=<value> https://<domain>/<path>
 ```
@@ -42,3 +42,9 @@ curl -u '<domainIntern>\<user>:<password>' --ntlm https://<rhost>
 ```
 curl --user $<credentials> "ldaps://<fqdnDomanController>/DC=<domainComponent>,DC=<domainComponent>))
 ```
+
+### Weather forecast
+```
+curl wttr.in/<city>
+```
+

@@ -1,14 +1,24 @@
 ### Source
 https://github.com/projectdiscovery/nuclei  
 
-### Scan list of hosts using default templates
+### Install
+```
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+```
+
+### Scan single host using default templates
 ```
 nuclei -u <rhost> -o <file>
 ```
 
-### Scan list of hosts using default templates
+### Scan list of hosts using single template
 ```
-nuclei -l <rhostsFile> -o <file>
+nuclei -l <rhostsFile> osint/<template>.yaml -o <file>
+```
+
+### Execute only osint tempaltes
+```
+nuclei -tags osint -var user=<user> -o <file>
 ```
 
 ### List available templates

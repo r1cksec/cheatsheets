@@ -12,3 +12,8 @@ wget -k -p -nH -N http://<rhost>
 wget <rhost> -O <file>
 ```
 
+### Print result to stdout
+```
+wget -qO- <rhost>
+```
+

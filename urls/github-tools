@@ -40,6 +40,9 @@ Inject shellcode into the process ID of your choosing or within the context of t
 https://github.com/Aetsu/OffensivePipeline
 OffensivePipeline allows to download, compile (without Visual Studio) and obfuscate C# tools for Red Team exercises.
 
+https://github.com/Alb-310/Geogramint
+An OSINT Geolocalization tool for Telegram that find nearby users and groups
+
 https://github.com/AlessandroZ/BeRoot
 Privilege Escalation Project - Windows / Linux / Mac
 
@@ -275,16 +278,13 @@ https://github.com/Kevin-Robertson/Invoke-TheHash
 PowerShell Pass The Hash Utils
 
 https://github.com/Kudaes/Split
-This script gets all accepted domains in Microsoft 365 using autodiscover, gets the tenant name and checks if there is a Microsoft Defender for Identity instance. This way you can figure out if a company runs Microsoft Defender for Identity.
+Apply a divide and conquer approach to bypass EDRs 
 
 https://github.com/LMGsec/o365creeper
 Python script that performs email address validation against Office 365 without submitting login attempts.
 
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection
-
-https://github.com/LuemmelSec/Pentest-Tools-Collection
-Tool collection
 
 https://github.com/MWR-CyberSec/PXEThief
 PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager 
@@ -318,6 +318,9 @@ A cross-platform implant written in Nim
 
 https://github.com/MzHmO/psexec_noinstall
 Repository contains psexec, which will help to exploit the forgotten pipe
+
+https://github.com/NHAS/reverse_ssh
+SSH based reverse shell
 
 https://github.com/Ne0nd0g/go-shellcode
 A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
@@ -373,6 +376,12 @@ WMI Shell project : proof-of-concept of remote access to a Windows machine using
 https://github.com/PalindromeLabs/awesome-websocket-security
 Awesome information for WebSockets security research 
 
+https://github.com/PhilipHaglund/ADCS
+The two PowerShell scripts provides an easy and documented process to install, configure and setup a complete two-tier PKI environment.
+
+https://github.com/Postuf/telegram-osint-lib
+ Telegram scenario-based API aimed at OSINT
+
 https://github.com/PowerShellMafia/PowerSCCM
 PowerSCCM - PowerShell module to interact with SCCM deployments
 
@@ -398,9 +407,6 @@ https://github.com/RhinoSecurityLabs/GCPBucketBrute
 A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
 
 https://github.com/RiccardoAncarani/LiquidSnake
-LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript
-
-https://github.com/RiccardoAncarani/LiquidSnake/tree/main/CSharpNamedPipeLoader/CSharpNamedPipeLoader
 LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript
 
 https://github.com/Ridter/Exchange2domain
@@ -682,6 +688,9 @@ Simple C# for checking for the existence of credential files related to AWS, Mic
 https://github.com/chronoxor/NetCoreServer
 Ultra fast and low latency asynchronous socket server & client C# .NET Core library with support TCP, SSL, UDP, HTTP, HTTPS, WebSocket protocols and 10K connections problem solution
 
+https://github.com/chvancooten/NimPlant
+A light-weight first-stage C2 implant written in Nim.
+
 https://github.com/clong/DetectionLab
 Automate the creation of a lab environment complete with security tooling and logging best practices
 
@@ -714,6 +723,9 @@ Framework for Kerberos relaying
 
 https://github.com/cube0x0/noPac
 CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter.
+
+https://github.com/cyberark/PipeViewer
+A tool that shows detailed information about named pipes in Windows
 
 https://github.com/cybersecsi/dockerized-android
 A container-based framework to enable the integration of mobile components in security training platforms
@@ -777,6 +789,9 @@ Making Favicon.ico based Recon Great again !
 
 https://github.com/dhn/spk
 spk aka spritzgebaeck: A small OSINT/Recon tool to find CIDRs that belong to a specific organization.
+
+https://github.com/dhn/udon
+A simple tool that helps to find assets/domains based on the Google Analytics ID.
 
 https://github.com/diegocr/netcat
 NetCat for Windows 
@@ -958,6 +973,9 @@ latest version of scanners for IIS short filename (8.3) disclosure vulnerability
 https://github.com/itm4n/PPLdump
 Dump the memory of a PPL with a userland exploit
 
+https://github.com/itm4n/PPLmedic
+Dump the memory of any PPL with a Userland exploit chain
+
 https://github.com/itm4n/PrintSpoofer
 Abusing Impersonation Privileges on Windows 10 and Server 2019
 
@@ -967,6 +985,9 @@ A collaborative, multi-platform, red teaming framework
 https://github.com/jacob-baines/concealed_position
 Bring your own print driver privilege escalation tool
 
+https://github.com/jasperan/whatsapp-osint
+WhatsApp spy - logs online/offline events from ANYONE in the world
+
 https://github.com/jazzpizazz/BloodHound.py-Kerberos
 A Python based ingestor for BloodHound
 
@@ -975,6 +996,9 @@ Koppeling x Metatwin x LazySign
 
 https://github.com/jonaslejon/malicious-pdf
 Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator
+
+https://github.com/jordanwildon/Telepathy
+Public release of Telepathy, an OSINT toolkit for investigating Telegram chats.
 
 https://github.com/jpillora/chisel
 A fast TCP/UDP tunnel over HTTP
@@ -1120,6 +1144,9 @@ A Tool for Domain Flyovers
 https://github.com/michenriksen/gitrob
 Reconnaissance tool for GitHub organizations
 
+https://github.com/mitre/caldera
+Automated Adversary Emulation Platform
+
 https://github.com/mlgualtieri/NTLMRawUnHide
 NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
 
@@ -1128,6 +1155,9 @@ From an account member of the group Backup Operators to Domain Admin without RDP
 
 https://github.com/mrd0x/EvilSelenium
 EvilSelenium is a tool that weaponizes Selenium to attack Chromium based browsers.
+
+https://github.com/mrexodia/lolbin-poc
+Small PoC of using a Microsoft signed executable as a lolbin.
 
 https://github.com/msfrisbie/spy-extension
 A Chrome extension that will steal literally everything it can
@@ -1150,6 +1180,9 @@ Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) remote admi
 https://github.com/naksyn/PythonMemoryModule
 pure-python implementation of MemoryModule technique to load a dll entirely from memory
 
+https://github.com/nccgroup/DroppedConnection
+Emulates a Cisco ASA Anyconnect VPN service, accepting any credentials (and logging them) before serving VBS to the client that gets executed in the context of the user.
+
 https://github.com/nccgroup/acCOMplice
 Tools for discovery and abuse of COM hijacks
 
@@ -1158,6 +1191,9 @@ HTA encryption tool for RedTeams
 
 https://github.com/nccgroup/ssh_user_enum
 SSH User Enumeration Script in Python Using The Timing Attack
+
+https://github.com/nettitude/Aladdin
+Aladdin is a payload generation technique based on the work of James Forshaw (@tiraniddo) that allows the deseriallization of a .NET payload and execution in memory.
 
 https://github.com/nettitude/RunPE
 C# Reflective loader for unmanaged binaries.
@@ -1197,6 +1233,9 @@ retrieve information via O365 and AzureAD with a valid cred
 
 https://github.com/nyxgeek/onedrive_user_enum
 pentest tool to enumerate valid onedrive users
+
+https://github.com/odedshimon/BruteShark
+Network Analysis Tool
 
 https://github.com/ohbriansung/phishing_email_pdf_attack
 Attach an executable file and use JavaScript to download the attachment
@@ -1260,6 +1299,9 @@ PowerShell Script to Dump Windows Credentials from the Credential Manager
 
 https://github.com/persistence-info/persistence-info.github.io
 The repository tries to gather an information about Windows persistence mechanisms to make the protection/detection more efficient.
+
+https://github.com/pielco11/fav-up
+IP lookup by favicon using Shodan
 
 https://github.com/pkb1s/SharpAllowedToAct
 Computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity)
@@ -1387,6 +1429,9 @@ Silentbridge is a toolkit for bypassing 802.1x-2010 and 802.1x-2004.
 https://github.com/s0md3v/Arjun
 HTTP parameter discovery suite.
 
+https://github.com/s0md3v/Orbit
+Blockchain Transactions Investigation Tool
+
 https://github.com/s0md3v/Smap
 a drop-in replacement for Nmap powered by shodan.io
 
@@ -1480,11 +1525,17 @@ This script gets all accepted domains in Microsoft 365 using autodiscover, gets 
 https://github.com/theWover/Donut
 Generates x86, x64, or AMD64+x86 position-independent shellcode that loads .NET Assemblies, PE files, and other Windows payloads from memory and runs them with parameters
 
+https://github.com/threat9/routersploit
+Exploitation Framework for Embedded Devices
+
 https://github.com/threatexpress/domainhunter
 Checks expired domains for categorization/reputation and Archive.org history to determine good candidates for phishing and C2 domain names 
 
 https://github.com/threatexpress/invoke-pipeshell
 SMB Named Pipe shell
+
+https://github.com/tillson/git-hound
+Reconnaissance tool for GitHub code search. Finds exposed API keys using pattern matching, commit history searching, and a unique result scoring system.
 
 https://github.com/tokyoneon/Chimera
 Chimera is a PowerShell obfuscation script designed to bypass AMSI and commercial antivirus solutions.
@@ -1560,6 +1611,9 @@ Tooling related to the WAM Bam - Recovering Web Tokens From Office blog post
 
 https://github.com/xroche/httrack
 HTTrack Website Copier, copy websites to your computer (Official repository)
+
+https://github.com/yamakadi/clroxide
+A rust library that allows you to host the CLR and execute dotnet binaries.
 
 https://github.com/yarrick/iodine
 Official git repo for iodine dns tunnel

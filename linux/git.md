@@ -14,11 +14,6 @@ git config --global commit.gpgsign true
 git config --list --local
 ```
 
-### Show version history
-```
-git log
-```
-
 ### Show available tags
 ```
 git fetch --tags
@@ -49,17 +44,19 @@ git remote get-url origin
 git commit --date="Wed Feb 13 15:00 2019 +0100" -m "<message>"
 ```
 
-### Generate access token
-https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
-
 ### Ignore certificate errors
 ```
 git -c http.sslVerify=false
 ```
 
-### Get all repositories of specific user
+### Show available difftools
 ```
-curl -s "https://api.github.com/users/<user>/repos?per_page=100" | grep -o 'git@[^"]*' | grep "git"
+git difftool --tool-help
+```
+
+### Use specific difftool and do not prompt user
+```
+git difftool -y --tool=vimdiff
 ```
 
 ### Use git via ssh
@@ -77,4 +74,7 @@ git push origin master
 
 git clone ssh://<user>@<rhost>/<path>.git
 ```
+
+### Generate access token
+https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
 
