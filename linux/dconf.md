@@ -8,3 +8,8 @@ dconf dump /
 dconf load / < <file>
 ```
 
+### Remove all settings
+```
+dconf reset -f /
+```
+

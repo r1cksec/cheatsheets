@@ -1,2 +1,4 @@
-Footnote[^someContent]
+[^1]
+
+[^1]: [text](https://reference)
 

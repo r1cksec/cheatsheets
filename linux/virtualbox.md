@@ -22,11 +22,8 @@ Graphic Memory > 64M
 ### Install guest additions
 ```
 - Debian
-su
-/sbin/usermod -a -G sudo <user>
-reboot
+su root
 sudo apt install build-essential dkms linux-headers-$(uname -r)
-sudo reboot
 sudo mkdir -p /mnt/cdrom
 sudo mount /dev/cdrom /mnt/cdrom
 cd /mnt/cdrom

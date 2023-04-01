@@ -139,6 +139,9 @@ A tiny Reverse Sock5 Proxy written in C
 https://github.com/D3Ext/Hooka
 Shellcode loader, hooks detector and more written in Golang
 
+https://github.com/D3Ext/maldev
+Golang library for malware development and red teamers
+
 https://github.com/D4stiny/ForkPlayground
 An implementation and proof-of-concept of Process Forking.
 
@@ -360,6 +363,9 @@ Fileless lateral movement tool that relies on ChangeServiceConfigA to run comman
 
 https://github.com/MythicAgents/Nimplant
 A cross-platform implant written in Nim
+
+https://github.com/MzHmO/PowershellKerberos
+Some scripts to abuse kerberos using Powershell
 
 https://github.com/MzHmO/psexec_noinstall
 Repository contains psexec, which will help to exploit the forgotten pipe
@@ -743,7 +749,7 @@ https://github.com/byt3bl33d3r/CrackMapExec
 A swiss army knife for pentesting networks
 
 https://github.com/byt3bl33d3r/OffensiveNim
-My experiments in weaponizing Nim (<a href="https://nim-lang.org/" rel="nofollow">https://nim-lang.org/</a>)
+My experiments in weaponizing Nim
 
 https://github.com/byt3bl33d3r/SprayingToolkit
 Scripts to make password spraying attacks against Lync/S4B, OWA &amp; O365 a lot quicker, less painful and more efficient
@@ -963,6 +969,9 @@ A proof-of-concept tool for generating payloads that exploit unsafe Java object 
 
 https://github.com/fullhunt/log4j-scan
 A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-2021-44228
+
+https://github.com/garrettfoster13/sccmhunter
+SCCMHunter is a post-ex tool built to streamline identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
 
 https://github.com/gentilkiwi/mimikatz
 A little tool to play with Windows security
@@ -1495,6 +1504,9 @@ C2 Powershell Command & Control Framework with BuiltIn Commands
 https://github.com/r0oth3x49/ghauri
 An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws
 
+https://github.com/r1cksec/thoth
+Automate recon for red team assessments.
+
 https://github.com/r3nt0n/bopscrk
 Tool to generate smart and powerful wordlists
 
@@ -1536,6 +1548,9 @@ A delightful community-driven (with 1900+ contributors) framework for managing y
 
 https://github.com/rootSySdk/PowerGPOAbuse
 Powershell version of SharpGPOAbuse
+
+https://github.com/rootcathacking/awscracknip
+Hascat deploy and install script in aws
 
 https://github.com/rootsecdev/Azure-Red-Team
 Azure Security Resources and Notes
