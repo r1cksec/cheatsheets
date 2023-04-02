@@ -40,21 +40,11 @@ vim /etc/apache2/apache2.conf
 ### Disable packages
 ```
 a2disconf <package>
-systemctl reload apache2
-```
-
-### Alternative remove symlink
-```
-rm /etc/apache2/mods-enabled/<package>
-```
-
-### Manipulate header
-```
-a2enmod headers
 ```
 
 ### Prevent clickjacking
 ```
+a2enmod headers
 sed -i '$ a\Header always append X-Frame-Options DENY' /etc/apache2/apache2.conf
 ```
 
@@ -63,5 +53,10 @@ sed -i '$ a\Header always append X-Frame-Options DENY' /etc/apache2/apache2.conf
 Header unset Server
 ServerSignature Off
 ServerTokens Prod
+```
+
+### Install PHP
+```
+apt-get install apache2 php libapache2-mod-php
 ```
 

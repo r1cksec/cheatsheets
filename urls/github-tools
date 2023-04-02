@@ -13,6 +13,9 @@ A handy collection of my public exploits, all in one place.
 https://github.com/0xthirteen/SharpRDP
 Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
 
+https://github.com/0xv1n/proc-suspend
+powershell script i wrote that can suspend an arbitrary process (with limits)
+
 https://github.com/1njected/CMLoot
 Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) SMB shares
 
@@ -132,6 +135,9 @@ Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perfor
 
 https://github.com/Dionach/CMSmap
 CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
+
+https://github.com/DragoQCC/HardHatC2
+A C# Command & Control framework
 
 https://github.com/EdOverflow/can-i-take-over-xyz
 "Can I take over XYZ?" — a list of services and how to claim (sub)domains with dangling DNS records.
@@ -289,6 +295,9 @@ Active Directory Tool Collection
 https://github.com/MWR-CyberSec/PXEThief
 PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager 
 
+https://github.com/Macmod/goblob
+A fast enumeration tool for publicly exposed Azure Storage blobs.
+
 https://github.com/MartinIngesen/TokenStomp
 C# implementation of the token privilege removal flaw discovered by @GabrielLandau/Elastic
 
@@ -380,7 +389,7 @@ https://github.com/PhilipHaglund/ADCS
 The two PowerShell scripts provides an easy and documented process to install, configure and setup a complete two-tier PKI environment.
 
 https://github.com/Postuf/telegram-osint-lib
- Telegram scenario-based API aimed at OSINT
+Telegram scenario-based API aimed at OSINT
 
 https://github.com/PowerShellMafia/PowerSCCM
 PowerSCCM - PowerShell module to interact with SCCM deployments
@@ -522,6 +531,9 @@ EmailAll is a powerful Email Collect tool
 
 https://github.com/TheD1rkMtr/FilelessPELoader
 Loading Remote AES Encrypted PE in memory , Decrypted it and run it
+
+https://github.com/TheD1rkMtr/HeapCrypt
+Encypting the Heap while sleeping by hooking and modifying Sleep with our own sleep that encrypts the heap
 
 https://github.com/TheWover/CertStealer
 A .NET tool for exporting and importing certificates without touching disk.
@@ -682,6 +694,9 @@ Privilege Escalation Awesome Scripts SUITE new generation
 https://github.com/cfalta/PowerShellArmoury
 A PowerShell armoury for security guys and girls
 
+https://github.com/channyein1337/jsleak
+jsleak is a tool to find secret , paths or links in the source code during the recon.
+
 https://github.com/chrismaddalena/SharpCloud
 Simple C# for checking for the existence of credential files related to AWS, Microsoft Azure, and Google Compute.
 
@@ -823,6 +838,9 @@ Testing TLS/SSL encryption anywhere on any port
 https://github.com/ecriminal/phpvuln
 Audit tool to find common vulnerabilities in PHP source code
 
+https://github.com/edoardottt/cariddi
+Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more
+
 https://github.com/eladshamir/Internal-Monologue
 Internal Monologue Attack: Retrieving NTLM Hashes without Touching LSASS
 
@@ -886,6 +904,9 @@ Web Extension for Firefox/MS Edge and CLI tool to save a faithful copy of an ent
 https://github.com/gildas-lormeau/single-file-cli
 SingleFile can be launched from the command line by running it into a (headless) browser.
 
+https://github.com/glmcdona/Process-Dump
+Windows tool for dumping malware PE files from memory back to disk for analysis.
+
 https://github.com/google/osv-scanner
 Vulnerability scanner written in Go which uses the data provided by osv.dev
 
@@ -936,6 +957,9 @@ Welcome to dnscat2, a DNS tunnel that WON'T make you sick and kill you!
 
 https://github.com/iamj0ker/bypass-403
 A simple script just made for self use for bypassing 403
+
+https://github.com/icyguider/NewPowerDNS
+Updated version of PowerDNS by @domchell. Adds support for transfers over DNS A records and a few other useful features.
 
 https://github.com/icyguider/PowerChunker
 Bypass AMSI via PowerShell by splitting a file into multiple chunks
@@ -1174,6 +1198,9 @@ Linux privilege escalation auditing tool
 https://github.com/n00py/GetFGPP
 Get Fine Grained Password Policy
 
+https://github.com/n0kovo/fb_friend_list_scraper
+OSINT tool to scrape names and usernames from large friend lists on Facebook, without being rate limited.
+
 https://github.com/n1nj4sec/pupy
 Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python
 
@@ -1285,6 +1312,9 @@ A python script to automatically coerce a Windows server to authenticate on an a
 https://github.com/p0dalirius/pyLAPS
 Python setter/getter for property ms-Mcs-AdmPwd used by LAPS.
 
+https://github.com/p0dalirius/robotstester
+This Python script can enumerate all URLs present in robots.txt files, and test whether they can be accessed or not.
+
 https://github.com/p3nt4/PowerShdll
 Run PowerShell with rundll32. Bypass software restrictions.
 
@@ -1314,6 +1344,9 @@ PostDump is a C# tool developt by COS team (CyberForce Offensive Security) of PO
 
 https://github.com/powerpointken/PowerExtract
 This tool is able to parse memory dumps of the LSASS process without any additional tools (e.g. Debuggers) or additional sideloading of mimikatz.
+
+https://github.com/powerseb/NoPhish
+Another phishing toolkit which provides an docker and noVNC based infrastructure.
 
 https://github.com/pracsec/AmsiBypassHookManagedAPI
 A new AMSI Bypass technique using .NET ALI Call Hooking.
@@ -1408,6 +1441,9 @@ Standalone binaries for Linux/Windows of Impacket's examples
 https://github.com/ropnop/kerbrute
 A tool to perform Kerberos pre-auth bruteforcing
 
+https://github.com/rtrouton/create_macos_vm_install_dmg
+This script prepares macOS installer disk images for use with virtualization software like VMware Fusion or Parallels.
+
 https://github.com/rvazarkar/GMSAPasswordReader
 Reads the password blob from a GMSA account using LDAP, and parses the values into hashes for re-use.
 
@@ -1446,6 +1482,9 @@ A PowerShell module to deploy active directory decoy objects.
 
 https://github.com/samratashok/nishang
 Nishang - Offensive PowerShell for red team, penetration testing and offensive security.
+
+https://github.com/saw-your-packet/EC2StepShell
+EC2StepShell is an AWS post-exploitation tool for getting high privileges reverse shells in public or private EC2 instances.
 
 https://github.com/secretsquirrel/SigThief
 Stealing Signatures and Making One Invalid Signature at a Time
@@ -1536,6 +1575,9 @@ SMB Named Pipe shell
 
 https://github.com/tillson/git-hound
 Reconnaissance tool for GitHub code search. Finds exposed API keys using pattern matching, commit history searching, and a unique result scoring system.
+
+https://github.com/tinyproxy/tinyproxy
+tinyproxy - a light-weight HTTP/HTTPS proxy daemon for POSIX operating systems
 
 https://github.com/tokyoneon/Chimera
 Chimera is a PowerShell obfuscation script designed to bypass AMSI and commercial antivirus solutions.

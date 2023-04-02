@@ -197,3 +197,8 @@ zz
 :autocmd BufWritePost * :silent :w! >> <file>
 ```
 
+### Remove trailing characters of strings
+```
+%s/<trailingString>\+$//e
+```
+

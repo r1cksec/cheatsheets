@@ -45,6 +45,6 @@ curl --user $<credentials> "ldaps://<fqdnDomanController>/DC=<domainComponent>,D
 
 ### Weather forecast
 ```
-curl wttr.in/<city>
+curl https://wttr.in/<city>
 ```
 

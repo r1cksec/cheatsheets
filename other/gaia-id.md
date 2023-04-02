@@ -6,3 +6,8 @@ Search for:
 \"xsrf\",\"[...]\",[\"<gaiaIdHere>\"],\"
 ```
 
+### Get information about Gaia ID
+```
+https://www.google.com/maps/contrib/<gaiaId>
+```
+

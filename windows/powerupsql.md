@@ -1,7 +1,7 @@
 ### Source
 https://raw.githubusercontent.com/NetSPI/PowerUpSQL/master/PowerUpSQL.ps1  
 
-### Discover active directory domain SQL server (use)
+### Discover active directory domain SQL server
 ```
 Get-SQLInstanceDomain -Verbose -DomainController <dc> | Get-SQLServerinfo -Verbose
 ```
