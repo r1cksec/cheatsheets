@@ -1,0 +1,2 @@
+Footnote[^someContent]
+

@@ -52,6 +52,9 @@ Privilege Escalation Project - Windows / Linux / Mac
 https://github.com/AlessandroZ/LaZagne
 Credentials recovery project
 
+https://github.com/AlmondOffSec/PassTheCert
+Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel
+
 https://github.com/AlteredSecurity/365-Stealer
 365-Stealer is a phishing simualtion tool written in python3. It can be used to execute Illicit Consent Grant Attack.
 
@@ -424,6 +427,9 @@ CVE-2018-8581
 https://github.com/Ridter/noPac
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user
 
+https://github.com/Rnalter/ThunderCloud
+Cloud Exploit Framework
+
 https://github.com/RoganDawes/SharpLocker
 SharpLocker helps get current user credentials by popping a fake Windows lock screen.
 
@@ -568,6 +574,9 @@ Process Ghosting in C#
 https://github.com/X-C3LL/SharpNTLMRawUnHide
 C# version of NTLMRawUnHide
 
+https://github.com/XiaoliChan/wmiexec-Pro
+New generation of wmiexec.py
+
 https://github.com/Z4kSec/Masky
 Python library with CLI allowing to remotely dump domain user credentials via an ADCS without dumping the LSASS process memory
 
@@ -579,6 +588,9 @@ Lifetime AMSI bypass
 
 https://github.com/ZeroMemoryEx/C2-Hunter
 Extract C2 Traffic
+
+https://github.com/achyuthjoism/tweeds
+An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a Tweets and more while evading most API limitations.
 
 https://github.com/aleixrodriala/wa-tunnel
 Tunneling Internet traffic over Whatsapp
@@ -913,6 +925,9 @@ Vulnerability scanner written in Go which uses the data provided by osv.dev
 https://github.com/gophish/gophish
 Open-Source Phishing Toolkit
 
+https://github.com/h311d1n3r/Cerberus
+A Python tool to unstrip Rust binaries on Linux
+
 https://github.com/h4wkst3r/SCMKit
 Source Code Management Attack Toolkit
 
@@ -1077,6 +1092,9 @@ Powershell module that can be used by Blue Teams, Incident Responders and System
 
 https://github.com/leechristensen/SpoolSample
 PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface. This is possible via other protocols as well.
+
+https://github.com/leftp/DPAPISnoop
+A C# tool to output crackable DPAPI hashes from user MasterKeys
 
 https://github.com/liamg/dismember
 Scan memory for secrets and more. Maybe eventually a full /proc toolkit.
@@ -1692,4 +1710,7 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
+
+https://github.com/maurizi0/pentest-python
+A simple pentest container equipped with common python pentest tools.
 

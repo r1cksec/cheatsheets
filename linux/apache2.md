@@ -60,3 +60,35 @@ ServerTokens Prod
 apt-get install apache2 php libapache2-mod-php
 ```
 
+### Load Balancer
+```
+a2ensite forward_proxy.conf
+
+vim /etc/apache2/mods-enabled/proxy.conf
+
+ProxyRequests On
+<Proxy *>
+   AddDefaultCharset off
+   Require all denied
+   #Require local
+</Proxy>
+
+
+vim /etc/apache2/sites-available/forward_proxy.conf
+
+<VirtualHost *:80>
+    <Proxy balancer://someName>
+        BalancerMember http://<rhost>:8080 route=worker1
+        BalancerMember http://<rhost>:8080 route=worker2
+    </Proxy>
+
+    ProxyRequests On
+    ProxyVia On
+    <Proxy "*">
+        Require ip 192.168
+    </Proxy>
+    ErrorLog ${APACHE_LOG_DIR}/error_forward_proxy.log
+    CustomLog ${APACHE_LOG_DIR}/access_forward_proxy.log combined
+</VirtualHost>
+```
+
