@@ -1,3 +1,6 @@
+https://gist.github.com/CCob/fe3b63d80890fafeca982f76c8a3efdf
+Patch AMSI using hardware breakpoints
+
 https://gist.github.com/S3cur3Th1sSh1t/e6f30b33d142ed8a5588e46eb328c0a6
 Little Credential Manager dumping Script.
 
@@ -87,6 +90,9 @@ Some scripts useful for red team activities
 
 https://github.com/BeetleChunks/SpoolSploit
 A collection of Windows print spooler exploits containerized with other utilities for practical exploitation.
+
+https://github.com/BeichenDream/GodPotato
+Based on the history of Potato privilege escalation for 6 years, from the beginning of RottenPotato to the end of JuicyPotatoNG, I discovered a new technology by researching DCOM, which enables privilege escalation in Windows 2012 - Windows 2022, now as long as you have "ImpersonatePrivilege" permission.
 
 https://github.com/BeichenDream/PrintNotifyPotato
 Another potato, using PrintNotify COM service for lifting rights
@@ -217,6 +223,9 @@ A python script that finds endpoints in JavaScript files
 https://github.com/Gerenios/AADInternals
 AADInternals PowerShell module for administering Azure AD and Office 365
 
+https://github.com/GhostManager/Ghostwriter
+The SpecterOps project management and reporting engine
+
 https://github.com/GhostPack/RestrictedAdmin
 Remotely enables Restricted Admin Mode
 
@@ -334,6 +343,9 @@ Repository contains psexec, which will help to exploit the forgotten pipe
 https://github.com/NHAS/reverse_ssh
 SSH based reverse shell
 
+https://github.com/NUL0x4C/AtomPePacker
+A Highly capable Pe Packer
+
 https://github.com/Ne0nd0g/go-shellcode
 A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
 
@@ -360,9 +372,6 @@ Directory/File, DNS and VHost busting tool written in Go
 
 https://github.com/OPENCYBER-FR/RustHound
 Active Directory data collector for BloodHound written in rust. crab
-
-https://github.com/ORCx41/AtomPePacker
-A Highly capable Pe Packer
 
 https://github.com/OWASP/Amass
 In-depth Attack Surface Mapping and Asset Discovery
@@ -417,6 +426,9 @@ Your MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as
 
 https://github.com/RhinoSecurityLabs/GCPBucketBrute
 A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
+
+https://github.com/RhinoSecurityLabs/pacu
+The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.
 
 https://github.com/RiccardoAncarani/LiquidSnake
 LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript
@@ -492,6 +504,9 @@ Timeroasting scripts by Tom Tervoort
 
 https://github.com/SecureAuthCorp/impacket
 Impacket is a collection of Python classes for working with network protocols.
+
+https://github.com/SecurityAndStuff/DllLoadPath
+Showcasing two different techniques for changing DLL load order by using undocumented APIs.
 
 https://github.com/SecurityRiskAdvisors/letitgo
 Enumerate and check domains for Azure tenants
@@ -591,6 +606,9 @@ Extract C2 Traffic
 
 https://github.com/achyuthjoism/tweeds
 An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a Tweets and more while evading most API limitations.
+
+https://github.com/ajuelosemmanuel/duolingOSINT
+Gather information about a Duolingo user
 
 https://github.com/aleixrodriala/wa-tunnel
 Tunneling Internet traffic over Whatsapp
@@ -717,6 +735,9 @@ Ultra fast and low latency asynchronous socket server & client C# .NET Core libr
 
 https://github.com/chvancooten/NimPlant
 A light-weight first-stage C2 implant written in Nim.
+
+https://github.com/chvancooten/maldev-for-dummies
+A workshop about Malware Development
 
 https://github.com/clong/DetectionLab
 Automate the creation of a lab environment complete with security tooling and logging best practices
@@ -1126,6 +1147,9 @@ Dumping DPAPI credz remotely
 https://github.com/lord-alfred/ipranges
 List all IP ranges from: Google (Cloud & GoogleBot), Bing (Bingbot), Amazon (AWS), Microsoft (Azure), Oracle (Cloud), DigitalOcean, GitHub, Facebook (Meta), Twitter and Linode with daily updates.
 
+https://github.com/lsecqt/OffensiveCpp
+This repo contains C/C++ snippets that can be handy in specific offensive scenarios.
+
 https://github.com/lukebaggett/dnscat2-powershell
 A Powershell client for dnscat2, an encrypted DNS command and control tool.
 
@@ -1156,6 +1180,9 @@ The FLARE team's open-source tool to identify capabilities in executable files.
 https://github.com/matterpreter/DefenderCheck
 Identifies the bytes that Microsoft Defender flags on.
 
+https://github.com/maurizi0/pentest-python
+A simple pentest container equipped with common python pentest tools.
+
 https://github.com/maurosoria/dirsearch
 Web path scanner
 
@@ -1185,6 +1212,9 @@ A Tool for Domain Flyovers
 
 https://github.com/michenriksen/gitrob
 Reconnaissance tool for GitHub organizations
+
+https://github.com/microsoft/terminal
+The new Windows Terminal and the original Windows console host, all in the same place! 
 
 https://github.com/mitre/caldera
 Automated Adversary Emulation Platform
@@ -1222,6 +1252,9 @@ OSINT tool to scrape names and usernames from large friend lists on Facebook, wi
 https://github.com/n1nj4sec/pupy
 Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python
 
+https://github.com/naksyn/Pyramid
+a tool to help operate in EDRs' blind spots
+
 https://github.com/naksyn/PythonMemoryModule
 pure-python implementation of MemoryModule technique to load a dll entirely from memory
 
@@ -1233,6 +1266,9 @@ Tools for discovery and abuse of COM hijacks
 
 https://github.com/nccgroup/demiguise
 HTA encryption tool for RedTeams
+
+https://github.com/nccgroup/sadcloud
+A tool for standing up (and tearing down!) purposefully insecure cloud infrastructure
 
 https://github.com/nccgroup/ssh_user_enum
 SSH User Enumeration Script in Python Using The Timing Attack
@@ -1360,11 +1396,11 @@ A collection of C# shellcode injection techniques. All techniques use an AES enc
 https://github.com/post-cyberlabs/Offensive_tools/tree/main/PostDump
 PostDump is a C# tool developt by COS team (CyberForce Offensive Security) of POST Luxembourg.
 
-https://github.com/powerpointken/PowerExtract
-This tool is able to parse memory dumps of the LSASS process without any additional tools (e.g. Debuggers) or additional sideloading of mimikatz.
-
 https://github.com/powerseb/NoPhish
 Another phishing toolkit which provides an docker and noVNC based infrastructure.
+
+https://github.com/powerseb/PowerExtract
+This tool is able to parse memory dumps of the LSASS process without any additional tools (e.g. Debuggers) or additional sideloading of mimikatz.
 
 https://github.com/pracsec/AmsiBypassHookManagedAPI
 A new AMSI Bypass technique using .NET ALI Call Hooking.
@@ -1389,6 +1425,9 @@ ProxyDock is a Dockerfile and Bash script that converts your OpenVPN files into 
 
 https://github.com/ps1337/reinschauer
 A PoC to remotely control Windows machines over Websockets.
+
+https://github.com/pufferffish/wireproxy
+Wireguard client that exposes itself as a socks5 proxy
 
 https://github.com/punk-security/pwnspoof
 pwnSpoof (from Punk Security) generates realistic spoofed log files for common web servers with customisable attack scenarios.
@@ -1509,6 +1548,9 @@ Stealing Signatures and Making One Invalid Signature at a Time
 
 https://github.com/secretsquirrel/the-backdoor-factory
 Patch PE, ELF, Mach-O binaries with shellcode new version in development, available only to sponsors
+
+https://github.com/seekr-osint/seekr
+A multi-purpose OSINT toolkit with a neat web-interface.
 
 https://github.com/sensepost/gowitness
 gowitness is a website screenshot utility written in Golang, that uses Chrome Headleas
@@ -1639,6 +1681,9 @@ Password guess tool
 https://github.com/vanhoefm/fragattacks
 This repository contains the FragAttacks tool. It can test Wi-Fi clients and access points for fragmentation and aggregation attacks.
 
+https://github.com/vmdiff/vmdiff-prototype
+Diff and display virtual machine snapshots
+
 https://github.com/volatilityfoundation/volatility
 An advanced memory forensics framework
 
@@ -1710,7 +1755,4 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
-
-https://github.com/maurizi0/pentest-python
-A simple pentest container equipped with common python pentest tools.
 

@@ -13,7 +13,7 @@ nuclei -u <rhost> -o <file>
 
 ### Scan list of hosts using single template
 ```
-nuclei -l <rhostsFile> osint/<template>.yaml -o <file>
+nuclei -l <rhostsFile> -t osint/<template>.yaml -o <file>
 ```
 
 ### Execute only osint tempaltes
