@@ -202,3 +202,24 @@ zz
 %s/<trailingString>\+$//e
 ```
 
+### Capitalize the first letter of each line
+```
+%s/^\a/\u&/g
+```
+
+### Set spell check
+```
+set spell
+set spelllang=en
+```
+
+### Add word to spell dictionary
+```
+zg
+```
+
+### Remove word from spell dictionary
+```
+zw
+```
+

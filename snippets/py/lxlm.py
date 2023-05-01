@@ -13,3 +13,13 @@ for o in objectClass:
     results = o.xpath('.//span[contains(@class, "class1") or contains(@class, "class2")]')
     print(result.text)
 
+# print objects in sequence
+for element in tree.iterdescendants():
+    if (element.tag == "div"):
+        if (element.text is not None):
+            print(element.text)
+
+    elif (element.tag == "h1"):
+        if (element.text is not None):
+            print(element.text)
+

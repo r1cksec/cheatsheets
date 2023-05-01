@@ -1,4 +1,4 @@
-### Boot kali from usb stick
+### Boot kali from usb stick and create directory
 ```
 mkdir /mnt/windows
 ```

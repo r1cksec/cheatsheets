@@ -22,6 +22,9 @@ Username enumeration and password spraying tool aimed at Microsoft O365.
 https://github.com/0xor0ne/debugoff
 Linux anti-debugging and anti-analysis rust library
 
+https://github.com/0xrawsec/whids
+Open Source EDR for Windows
+
 https://github.com/0xthirteen/PerfExec
 The code is not super clean but project contains an example performance dll that will run CMD.exe and a .NET assembly that will execute the DLL or gather performance data locally or remotely.
 
@@ -214,6 +217,9 @@ SharpGPOAbuse is a .NET application written in C# that can be used to take advan
 https://github.com/FSecureLABS/physmem2profit
 Physmem2profit can be used to create a minidump of a target hosts' LSASS process by analysing physical memory remotely
 
+https://github.com/Fadi002/unshackle
+Open-source tool to bypass windows and linux passwords from bootable usb
+
 https://github.com/Flangvik/DeployPrinterNightmare
 C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc!
 
@@ -249,6 +255,9 @@ This repo is for WMIOps, a powershell script which uses WMI for various purposes
 
 https://github.com/FortyNorthSecurity/WMImplant
 This is a PowerShell based tool that is designed to act like a RAT. Its interface is that of a shell where any command that is supported is translated into a WMI-equivalent for use on a network/remote machine. WMImplant is WMI based.
+
+https://github.com/FourCoreLabs/LolDriverScan
+Scan vulnerable drivers on Windows with loldrivers.io
 
 https://github.com/FuzzySecurity/PowerShell-Suite
 My musings with PowerShell
@@ -646,6 +655,9 @@ Encypting the Heap while sleeping by hooking and modifying Sleep with our own sl
 https://github.com/TheD1rkMtr/TakeMyRDP
 A keystroke logger targeting the Remote Desktop Protocol (RDP) related processes, It utilizes a low-level keyboard input hook, allowing it to record keystrokes in certain contexts (like in mstsc.exe and CredentialUIBroker.exe)
 
+https://github.com/ThePorgs/impacket
+Impacket is a collection of Python classes for working with network protocols.
+
 https://github.com/TheWover/CertStealer
 A .NET tool for exporting and importing certificates without touching disk.
 
@@ -723,6 +735,9 @@ List of ngrok alternatives and other ngrok-like tunneling software and services.
 
 https://github.com/andresriancho/enumerate-iam
 Enumerate the permissions associated with AWS credential set
+
+https://github.com/androidmalware/DigisparkAttiny85-scripts
+The script tests 20 most popular mobile phone PINs in 6 minutes using Digispark ATtiny85 board.
 
 https://github.com/anil-yelken/wardriving
 Python Wardriving
@@ -1287,6 +1302,9 @@ SysWhispers on Steroids - AV/EDR evasion via direct system calls.
 
 https://github.com/klezVirus/vortex
 VPN Overall Reconnaissance, Testing, Enumeration and eXploitation Toolkit
+
+https://github.com/knight0x07/ImpulsiveDLLHijack
+C# based tool which automates the process of discovering and exploiting DLL Hijacks in target binaries. The Hijacked paths discovered can later be weaponized during Red Team Operations to evade EDR's.
 
 https://github.com/knight0x07/OneNoteAnalyzer
 A C# based tool for analysing malicious OneNote documents
@@ -2013,6 +2031,9 @@ Official git repo for iodine dns tunnel
 
 https://github.com/yasserbdj96/hiphp
 The BackDoor of HIPHP gives you the power to control websites based on PHP using HTTP/HTTPS protocol. By sending files, tokens and commands through port 80's POST/GET method, users can access a range of activities such as downloading and editing files. It also allows for connecting to Tor networks with password protection for extra security.
+
+https://github.com/yokoffing/Betterfox
+user.js file to harden Firefox and optimize privacy, security, and speed
 
 https://github.com/ytdl-org/youtube-dl
 Command-line program to download videos from YouTube.com and other video sites
