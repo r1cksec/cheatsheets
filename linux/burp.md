@@ -1,7 +1,7 @@
 ### Download for Jython Bibliothek Standalone
 https://www.jython.org/download
 ```
-Extender > Options > Python Environment > Location of standalone file
+Extensions > Extensions settings > Python Environment > Location of standalone file
 ```
 
 ### Custom Collaborator Server
@@ -12,11 +12,11 @@ User Options > Misc > Perfomance Feedback > Uncheck Submit Box
 
 ### Silence traffic 
 ```
-Proxy > Options > Intercept Client Requests > Add:
+Proxy > Proxy settings > Request interception rules
 And, Domain name, Does not match
 -> mozilla, ocsp, digicert, firefox, googleapis, openh264
 
-Target > Scope > Use advanced scope control > Exclude from scope > Add:
+Target > Scope Settings > Use advanced scope control > Exclude from scope > Add:
 Any Protocol
 -> mozilla, ocsp, digicert, firefox, googleapis, openh264
 

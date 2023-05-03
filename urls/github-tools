@@ -22,6 +22,9 @@ Username enumeration and password spraying tool aimed at Microsoft O365.
 https://github.com/0xor0ne/debugoff
 Linux anti-debugging and anti-analysis rust library
 
+https://github.com/0xthirteen/PerfExec
+The code is not super clean but project contains an example performance dll that will run CMD.exe and a .NET assembly that will execute the DLL or gather performance data locally or remotely.
+
 https://github.com/0xthirteen/SharpRDP
 Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
 
@@ -351,6 +354,12 @@ Apply a divide and conquer approach to bypass EDRs
 
 https://github.com/LMGsec/o365creeper
 Python script that performs email address validation against Office 365 without submitting login attempts.
+
+https://github.com/LaresLLC/OffensiveSysAdmin
+A collection of tools Neil and Andy have been working on released in one place and interlinked with previous tools
+
+https://github.com/LaresLLC/SlinkyCat
+Slinky Cat attempts to give users an easy-to-navigate menu offering predefined Active Directory Service Interfaces (ADSI) and .NET queries which can be used to enumerate a Windows domain.
 
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection
@@ -787,6 +796,9 @@ Get scheduled tasks in task root and prints name and action of each
 https://github.com/bishopfox/eyeballer
 Convolutional neural network for analyzing pentest screenshots
 
+https://github.com/bitquark/shortscan
+An IIS short filename enumeration tool
+
 https://github.com/bitsadmin/fakelogonscreen
 Fake Windows logon screen to steal passwords
 
@@ -993,6 +1005,9 @@ Audit tool to find common vulnerabilities in PHP source code
 
 https://github.com/edoardottt/cariddi
 Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more
+
+https://github.com/efchatz/WPAxFuzz
+A full-featured open-source Wi-Fi fuzzer
 
 https://github.com/eladshamir/Internal-Monologue
 Internal Monologue Attack: Retrieving NTLM Hashes without Touching LSASS
@@ -1228,6 +1243,9 @@ Generate a bunch of malicious pdf files with phone-home functionality. Can be us
 https://github.com/jordanwildon/Telepathy
 Public release of Telepathy, an OSINT toolkit for investigating Telegram chats.
 
+https://github.com/joshhighet/ransomwatch
+the transparent ransomware claim tracker
+
 https://github.com/jpillora/chisel
 A fast TCP/UDP tunnel over HTTP
 
@@ -1293,6 +1311,9 @@ PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN 
 
 https://github.com/leftp/DPAPISnoop
 A C# tool to output crackable DPAPI hashes from user MasterKeys
+
+https://github.com/lem0nSec/ShellGhost
+A memory-based evasion technique which makes shellcode invisible from process start to end.
 
 https://github.com/liamg/dismember
 Scan memory for secrets and more. Maybe eventually a full /proc toolkit.
@@ -1818,6 +1839,9 @@ Mimikatz implementation in pure Python
 
 https://github.com/smokeme/PDFator
 PDFator is an InfoSec project that consists of a Python script and a C application to generate an executable payload.
+
+https://github.com/snovvcrash/SharpDXWebcam
+Utilizing DirectX and DShowNET assemblies to record video from a host's webcam
 
 https://github.com/soufianetahiri/CitrixSecureAccessAuthCookieDump
 Dump Citrix Secure Access auth cookie from the process memory
