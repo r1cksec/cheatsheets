@@ -1,4 +1,4 @@
-### Retrieve GAIA ID from given phone number
+### Retrieve GAIA ID from given phone number (21 digit)
 ```
 gmail.com > Login with your Gmail account > Logout > Choose Login with other Account > Enter Phone Number > Next > CTRL + U
 

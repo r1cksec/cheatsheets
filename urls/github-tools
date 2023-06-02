@@ -157,6 +157,9 @@ Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Serv
 https://github.com/CCob/ThreadlessInject
 Threadless Process Injection using remote function hooking.
 
+https://github.com/CCob/gssapi-abuse
+A tool for enumerating potential hosts that are open to GSSAPI abuse within Active Directory networks
+
 https://github.com/CiscoCXSecurity/bbqsql
 SQL Injection Exploitation Tool
 
@@ -820,6 +823,9 @@ An IIS short filename enumeration tool
 https://github.com/bitsadmin/fakelogonscreen
 Fake Windows logon screen to steal passwords
 
+https://github.com/bitsadmin/nopowershell
+PowerShell rebuilt in C# for Red Teaming purposes
+
 https://github.com/bitsadmin/wesng
 Windows Exploit Suggester - Next Generation
 
@@ -964,6 +970,9 @@ SecLists is the security tester's companion. It's a collection of multiple types
 https://github.com/deFr0ggy/NightOwl
 An offline Phishing Email Analyzer. Enabling non-techies to analyze phishing emails automatically!
 
+https://github.com/decompiler-explorer/decompiler-explorer
+Decompiler Explorer! Compare tools on the forefront of static analysis, now in your web browser!
+
 https://github.com/deepfence/SecretScanner
 Find secrets and passwords in container images and file systems
 
@@ -975,6 +984,9 @@ New method of dumping LSASS by abusing the Windows Error Reporting service.
 
 https://github.com/deepinstinct/LsassSilentProcessExit
 Command line interface to dump LSASS memory to disk via SilentProcessExit
+
+https://github.com/deepinstinct/NoFilter
+Tool for abusing the Windows Filtering Platform for privilege escalation. It can launch a new console as "NT AUTHORITY\SYSTEM" or as another user that is logged on to the machine.
 
 https://github.com/defparam/smuggler
 Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
@@ -1267,6 +1279,9 @@ A Python based ingestor for BloodHound
 https://github.com/jborean93/dpapi-ng
 Python DPAPI NG Decryptor for non-Windows Platforms
 
+https://github.com/jeffbencteux/mailsecchk
+POSIX script for mail security checks of domain names
+
 https://github.com/jfjallid/go-secdump
 Tool to remotely dump secrets from the Windows registry
 
@@ -1366,6 +1381,9 @@ A C# tool to output crackable DPAPI hashes from user MasterKeys
 https://github.com/lem0nSec/ShellGhost
 A memory-based evasion technique which makes shellcode invisible from process start to end.
 
+https://github.com/lexfo/sshimpanzee
+A reverse shell based on sshd supporting DNS and ICMP Tunnelling as well as HTTP and Socks Proxies
+
 https://github.com/liamg/dismember
 Scan memory for secrets and more. Maybe eventually a full /proc toolkit.
 
@@ -1464,6 +1482,9 @@ A collection of more than 170+ tools, scripts, cheatsheets and other loots that 
 
 https://github.com/mgeeky/Penetration-Testing-Tools/blob/master/phishing/vba-windows-persistence.vbs
 This macro implements two windows persistence methods:  WMI Event Filter object and HKCU Registry Run
+
+https://github.com/mgeeky/ProtectMyTooling
+Multi-Packer wrapper letting us daisy-chain various packers, obfuscators and other Red Team oriented weaponry. Featured with artifacts watermarking, IOCs collection & PE Backdooring. You feed it with your implant, it does a lot of sneaky things and spits out obfuscated executable.
 
 https://github.com/mgeeky/SharpWebServer
 Red Team oriented C# Simple HTTP & WebDAV Server with Net-NTLM hashes capture functionality
@@ -2125,6 +2146,9 @@ WhatMail is a command-line tool that analyzes the header of an email and provide
 https://github.com/zblurx/dploot
 DPAPI looting remotely in Python
 
+https://github.com/zer0condition/ReverseKit
+x64 Dynamic Reverse Engineering Toolkit
+
 https://github.com/zeronetworks/BloodHound-Tools
 Collection of tools that reflect the network dimension into Bloodhound's data
 
@@ -2148,7 +2172,4 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
-
-https://github.com/lexfo/sshimpanzee
-A reverse shell based on sshd supporting DNS and ICMP Tunnelling as well as HTTP and Socks Proxies
 
