@@ -5,6 +5,6 @@ then
     echo "Does not exist"
     
 else
-   echo "File exists"
+    echo "File exists"
 fi
 

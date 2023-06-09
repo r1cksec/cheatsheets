@@ -1,5 +1,5 @@
 ### Source
-https://github.com/OWASP/Amass  
+https://github.com/owasp-amass/amass
 
 ### Modules:
 ```

@@ -75,10 +75,7 @@ net share
 ### Mount smb share
 ```
 net use <localDrive> \\<rhost>\<remoteDrive>
-```
-
-### Or 
-```
+or
 net use * \\<lhost>\<share>
 ```
 
@@ -106,5 +103,10 @@ net view \\<rhost> /all
 ### Get information about error id
 ```
 net helpmsg <id>
+```
+
+### Map network drive to sysinternal website
+```
+net use <driverLetter>: http://live.sysinternals.com/tools
 ```
 

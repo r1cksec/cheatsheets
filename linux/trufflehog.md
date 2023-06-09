@@ -6,3 +6,8 @@ https://github.com/trufflesecurity/truffleHog
 trufflehog git <remoteGitRepo> --no-update
 ```
 
+### Scan local repository
+```
+trufflehog filesystem <localGitRepo> --no-update
+```
+

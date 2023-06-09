@@ -1,5 +1,5 @@
 ### Source
-https://github.com/zricethezav/gitleaks  
+https://github.com/gitleaks/gitleaks
 
 ### Scan entire history
 ```

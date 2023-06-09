@@ -160,6 +160,9 @@ SQL Injection Exploitation Tool
 https://github.com/Cn33liz/p0wnedShell
 PowerShell Runspace Post Exploitation Toolkit
 
+https://github.com/CognisysGroup/SweetDreams
+Implementation of Advanced Module Stomping and Heap/Stack Encryption
+
 https://github.com/Coldzer0/ReverseSock5Proxy
 A tiny Reverse Sock5 Proxy written in C
 
@@ -463,9 +466,6 @@ Directory/File, DNS and VHost busting tool written in Go
 https://github.com/OPENCYBER-FR/RustHound
 Active Directory data collector for BloodHound written in rust. crab
 
-https://github.com/OWASP/Amass
-In-depth Attack Surface Mapping and Asset Discovery
-
 https://github.com/OccamsXor/Dragnmove
 Infect Shared Files In Memory for Lateral Movement
 
@@ -480,9 +480,6 @@ XLL Phishing Tradecraft
 
 https://github.com/OpenSecurityResearch/hostapd-wpe
 Modified hostapd to facilitate AP impersonation attacks
-
-https://github.com/Orange-Cyberdefense/GOAD
-game of active directory
 
 https://github.com/Orange-Cyberdefense/wmi-shell
 WMI Shell project : proof-of-concept of remote access to a Windows machine using only the WMI service.
@@ -667,14 +664,14 @@ jsubfinder searches webpages for javascript & analyzes them for hidden subdomain
 https://github.com/Tylous/Limelighter
 A tool for generating fake code signing certificates or signing real ones
 
-https://github.com/UKHomeOffice/repo-security-scanner
-CLI tool that finds secrets accidentally committed to a git repo, eg passwords, private keys
-
 https://github.com/VoldeSec/PatchlessCLRLoader
 .NET assembly loader with patchless AMSI and ETW bypass
 
 https://github.com/WKL-Sec/Warmer
 Selenium-based Python script to automate sending emails to warm up your sender reputation and improve email deliverability
+
+https://github.com/WKL-Sec/dcomhijack
+Lateral Movement Using DCOM and DLL Hijacking
 
 https://github.com/Wh04m1001/DFSCoerce
 PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAddStdRoot (found by @xct_de) methods.
@@ -1009,6 +1006,9 @@ https://github.com/djhohnstein/SharpChromium
 https://github.com/doyensec/inql
 InQL - A Burp Extension for GraphQL Security Testing
 
+https://github.com/doyensec/wsrepl
+WebSocket REPL for pentesters
+
 https://github.com/drwetter/testssl.sh
 Testing TLS/SSL encryption anywhere on any port
 
@@ -1087,6 +1087,9 @@ A proof-of-concept tool for generating payloads that exploit unsafe Java object 
 https://github.com/fullhunt/log4j-scan
 A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-2021-44228
 
+https://github.com/fullmetalcache/domainGain-dep
+Helps with finding and registering categorized domains
+
 https://github.com/fwdcloudsec/known_aws_accounts
 List of known AWS accounts
 
@@ -1107,6 +1110,9 @@ Web Extension for Firefox/MS Edge and CLI tool to save a faithful copy of an ent
 
 https://github.com/gildas-lormeau/single-file-cli
 SingleFile can be launched from the command line by running it into a (headless) browser.
+
+https://github.com/gitleaks/gitleaks
+Scan git repos (or files) for secrets using regex and entropy
 
 https://github.com/glmcdona/Process-Dump
 Windows tool for dumping malware PE files from memory back to disk for analysis.
@@ -1239,6 +1245,9 @@ A Python based ingestor for BloodHound
 
 https://github.com/jborean93/dpapi-ng
 Python DPAPI NG Decryptor for non-Windows Platforms
+
+https://github.com/jfjallid/go-secdump
+Tool to remotely dump secrets from the Windows registry
 
 https://github.com/jfmaes/Invoke-DLLClone
 Koppeling x Metatwin x LazySign
@@ -1416,6 +1425,9 @@ Running .NET from VBA
 
 https://github.com/megadose/holehe
 holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
+
+https://github.com/merces/entropy
+CLI program to calculate file entropy
 
 https://github.com/mgeeky/PackMyPayload
 A PoC that packages payloads into output containers to evade Mark-of-the-Web flag & demonstrate risks associated with container file formats. Supports: ZIP, 7zip, PDF, ISO, IMG, CAB, VHD, VHDX
@@ -1603,6 +1615,9 @@ A cross-platform assistant for creating malicious MS Office documents. Can hide 
 https://github.com/ovotech/gitoops
 GitOops is a tool to help attackers and defenders identify lateral movement and privilege escalation paths in GitHub organizations by abusing CI/CD pipelines and GitHub access controls.
 
+https://github.com/owasp-amass/amass
+In-depth Attack Surface Mapping and Asset Discovery
+
 https://github.com/p0dalirius/Coercer
 A python script to automatically coerce a Windows server to authenticate on an arbitrary machine through 9 methods.
 
@@ -1696,11 +1711,17 @@ A PoC to remotely control Windows machines over Websockets.
 https://github.com/pufferffish/wireproxy
 Wireguard client that exposes itself as a socks5 proxy
 
+https://github.com/punk-security/dnsReaper
+dnsReaper - subdomain takeover tool for attackers, bug bounty hunters and the blue team!
+
 https://github.com/punk-security/pwnspoof
 pwnSpoof (from Punk Security) generates realistic spoofed log files for common web servers with customisable attack scenarios.
 
 https://github.com/pwn1sher/WMEye
 WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Execution for lateral movement
+
+https://github.com/pwnsauc3/RWXFinder
+The program uses the Windows API functions to traverse through directories and locate DLL files with RWX section
 
 https://github.com/pwntester/ysoserial.net
 Deserialization payload generator for a variety of .NET formatters
@@ -1743,6 +1764,9 @@ DLLirant is a tool to automatize the DLL Hijacking researches on a specified bin
 
 https://github.com/reveng007/AMSI-patches-learned-till-now
 I have documented all of the AMSI patches that I learned till now
+
+https://github.com/reveng007/DarkWidow
+Indirect Dynamic Syscall, SSN + Syscall address sorting via Modified TartarusGate approach + Remote Process Injection via APC Early Bird + Spawns a sacrificial Process as target process + (ACG+BlockDll) mitigation policy on spawned process + PPID spoofing (Emotet method) + Api resolving from TIB + API hashing
 
 https://github.com/reveng007/SharpGmailC2
 Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol
@@ -1855,6 +1879,9 @@ OctoPwn in your browser
 https://github.com/skelsec/pypykatz
 Mimikatz implementation in pure Python
 
+https://github.com/slemire/WSPCoerce
+PoC to coerce authentication from Windows hosts using MS-WSP
+
 https://github.com/smokeme/PDFator
 PDFator is an InfoSec project that consists of a Python script and a C application to generate an executable payload.
 
@@ -1896,6 +1923,9 @@ A python3 remake of the classic "tree" command with the additional feature of se
 
 https://github.com/tb0hdan/domains
 World’s single largest Internet domains dataset
+
+https://github.com/techjacker/repo-security-scanner
+CLI tool that finds secrets accidentally committed to a git repo, eg passwords, private keys
 
 https://github.com/tennc/webshell
 This is a webshell open source project
@@ -1981,9 +2011,6 @@ This repository contains the FragAttacks tool. It can test Wi-Fi clients and acc
 https://github.com/vmdiff/vmdiff-prototype
 Diff and display virtual machine snapshots
 
-https://github.com/volatilityfoundation/volatility
-An advanced memory forensics framework
-
 https://github.com/vysecurity/morphHTA
 morphHTA - Morphing Cobalt Strike's evil.HTA
 
@@ -1998,6 +2025,9 @@ x64 binary obfuscator
 
 https://github.com/werdhaihai/AtlasReaper
 A command-line tool for reconnaissance and targeted write operations on Confluence and Jira instances.
+
+https://github.com/wh0amitz/KRBUACBypass
+UAC Bypass By Abusing Kerberos Tickets
 
 https://github.com/wpscanteam/wpscan
 WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.
@@ -2049,9 +2079,6 @@ Collection of tools that reflect the network dimension into Bloodhound's data
 
 https://github.com/zeronetworks/BlueHound
 BlueHound is an open-source tool that helps blue teams pinpoint the security issues that actually matter.
-
-https://github.com/zricethezav/gitleaks
-Scan git repos (or files) for secrets using regex and entropy
 
 https://github.com/zsh-users/zsh-autosuggestions 
 Fish-like autosuggestions for zsh
