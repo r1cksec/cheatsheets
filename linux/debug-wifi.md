@@ -3,6 +3,12 @@
 iwconfig
 ```
 
+### 
+```
+iw dev
+iw dev <interface> link
+```
+
 ### Check error logs
 ```
 dmesg | grep iw

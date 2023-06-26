@@ -2149,3 +2149,6 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/lexfo/sshimpanzee
+A reverse shell based on sshd supporting DNS and ICMP Tunnelling as well as HTTP and Socks Proxies
+
