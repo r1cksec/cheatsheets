@@ -14,10 +14,17 @@ track - compare results across enumerations
 Ask, Baidu, Bing, BuiltWith, DNSDumpster, DNSTable, HackerOne, RapidDNS, Riddler, SiteDossier, ViewDNS, Yahoo, Censys, CertSpotter, Crtsh, FacebookCT, GoogleCT, AlienVault, BinaryEdge, BufferOver, C99, CIRCL, CommonCrawl, DNSDB, GitHub, HackerTarget, IPToASN, Mnemonic, NetworksDB, PassiveTotal, Pastebin, RADb, Robtex, SecurityTrails, ShadowServer, Shodan, Spyse, Sublist3rAPI, TeamCymru, ThreatCrowd, ThreatMiner, Twitter, Umbrella, URLScan, VirusTotal, WhoisXML, ZETAlytics, ArchiveIt, LoCArchive, UKGovArchive, Wayback
 ```
 
-### Path to config file and file example
+### API setup
 ```
+Path to config file and file example:
 $HOME/.config/amass/config.ini
 https://raw.githubusercontent.com/owasp-amass/amass/master/examples/config.ini
+
+Example:
+# https://fullhunt.io (Free)
+[data_sources.FullHunt]
+[data_sources.FullHunt.Credentials]
+apikey = apiKey
 ```
 
 ### Find further root domain names 

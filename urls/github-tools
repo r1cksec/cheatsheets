@@ -37,6 +37,9 @@ Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware
 https://github.com/4D5A/Networks-Administration/blob/main/Invoke-DNSQuery/Invoke-DNSQuery.ps1
 Queries public DNS records for a domain in regard of mail security
 
+https://github.com/4ra1n/java-gate
+Java JNI HellsGate/HalosGate/TartarusGate/RecycledGate/SSN Syscall/Many Shellcode Loaders
+
 https://github.com/ADPunisher/OwnershipStealer
 This C# code is a console application that attempts to take ownership of a specified file.
 
@@ -451,6 +454,9 @@ Infect Shared Files In Memory for Lateral Movement
 https://github.com/Octoberfest7/DNS_Tunneling
 DNS Tunneling using powershell to download and execute a payload. Works in CLM.
 
+https://github.com/Octoberfest7/TeamsPhisher
+Send phishing messages and attachments to Microsoft Teams users
+
 https://github.com/Octoberfest7/XLL_Phishing
 XLL Phishing Tradecraft
 
@@ -627,6 +633,9 @@ Loading Remote AES Encrypted PE in memory , Decrypted it and run it
 
 https://github.com/TheD1rkMtr/HeapCrypt
 Encypting the Heap while sleeping by hooking and modifying Sleep with our own sleep that encrypts the heap
+
+https://github.com/TheD1rkMtr/TakeMyRDP
+A keystroke logger targeting the Remote Desktop Protocol (RDP) related processes, It utilizes a low-level keyboard input hook, allowing it to record keystrokes in certain contexts (like in mstsc.exe and CredentialUIBroker.exe)
 
 https://github.com/TheWover/CertStealer
 A .NET tool for exporting and importing certificates without touching disk.
@@ -1015,6 +1024,9 @@ Python3 terminal application that contains 260+ Neo4j cyphers for BloodHound dat
 https://github.com/fin3ss3g0d/evilgophish
 evilginx2 + gophish
 
+https://github.com/florylsk/RecycledInjector
+Native Syscalls Shellcode Injector
+
 https://github.com/fofapro/fapro
 Fake Protocol Server
 
@@ -1341,6 +1353,9 @@ Windows persistence toolkit written in C#.
 
 https://github.com/mandiant/capa
 The FLARE team's open-source tool to identify capabilities in executable files.
+
+https://github.com/markuta/bw-dump
+A proof-of-concept that extracts plaintext master passwords from a locked Bitwarden vault. 
 
 https://github.com/matterpreter/DefenderCheck
 Identifies the bytes that Microsoft Defender flags on.
@@ -1905,6 +1920,9 @@ Obfuscate Go binaries and packages
 
 https://github.com/urbanadventurer/WhatWeb
 Next generation web scanner 
+
+https://github.com/user1342/Obfu-DE-Scate
+Obfu[DE]scate is a de-obfuscation tool for Android APKs that uses fuzzy comparison logic to identify similarities between functions, even if they have been renamed as part of obfuscation. It compares two versions of an APK and generates a mapping text file and an interactive HTML file as outputs!
 
 https://github.com/ustayready/ShredHound
 Small utility to chunk up a large BloodHound JSON file into smaller files for importing.
