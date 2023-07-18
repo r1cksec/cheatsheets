@@ -1,5 +1,5 @@
 Acer        Esc, F12, F9  
-Asus        Esc, F8  
+Asus        Esc, F2 
 Clevo       F7  
 Dell        F12  
 Fujitsu     F12, Esc  

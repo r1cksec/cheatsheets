@@ -2098,3 +2098,39 @@ Convert .net exe into powershell script.
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
 
+https://github.com/khyatiparekh/API-Fuzzer
+This is a comprehensive, feature-rich API Fuzzer designed to help discover potential vulnerabilities in your application. Features
+
+https://github.com/projectdiscovery/simplehttpserver
+Go alternative of python SimpleHTTPServer
+
+https://github.com/ACE-Responder/RogueSliver
+A suite of tools to disrupt campaigns using the Sliver C2 framework.
+
+https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds
+Zeek-Formatted Threat Intelligence Feeds
+
+https://github.com/mrphrazer/obfuscation_detection
+Binary Ninja plugin to identify obfuscated code and other interesting code constructs
+
+https://github.com/hasherezade/exe_to_dll
+Converts a EXE into DLL
+
+https://github.com/foxlox/GIUDA
+Ask a TGS on behalf of another user without password
+
+https://github.com/reveng007/DarkWidow
+Indirect Dynamic Syscall, SSN + Syscall address sorting via Modified TartarusGate approach + Remote Process Injection via APC Early Bird + Spawns a sacrificial Process as target process + (ACG+BlockDll) mitigation policy on spawned process + PPID spoofing + Api resolving from TIB + API hashing
+
+https://github.com/sa7mon/S3Scanner
+Scan for misconfigured S3 buckets across S3-compatible APIs!
+
+https://github.com/nyancrimew/goop
+Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
+
+https://github.com/wh0amitz/S4UTomato
+Escalate Service Account To LocalSystem via Kerberos
+
+https://github.com/gh0x0st/wanderer
+An open-source process injection enumeration tool written in C#
+
