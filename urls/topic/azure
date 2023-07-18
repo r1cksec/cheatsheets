@@ -1,8 +1,10 @@
 https://aadinternals.com/talks/Dumping%20NTHashes%20from%20AAD.pdf
 https://cloudbrothers.info/azure-attack-paths
 https://csandker.io/2022/10/19/Untangling-Azure-Permissions.html
+https://godiego.co/posts/STO-Azure
 https://hackingthe.cloud/azure/abusing-managed-identities
 https://hausec.com/2022/05/04/azure-virtual-machine-execution-techniques
+https://improsec.com/tech-blog/read2own
 https://m365internals.com/2021/11/30/lateral-movement-with-managed-identities-of-azure-virtual-machines
 https://o365blog.com/post/gmsa
 https://pentestbook.six2dez.com/enumeration/cloud/azure
@@ -15,11 +17,9 @@ https://powerzure.readthedocs.io/en/latest
 https://sra.io/blog/letitgo-a-case-study-in-expired-domains-and-azure-ad
 https://www.crowdstrike.com/blog/noauth-microsoft-azure-ad-vulnerability
 https://www.descope.com/blog/post/noauth
+https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html
 https://www.trustedsec.com/blog/common-conditional-access-misconfigurations-and-bypasses-in-azure
 https://www.trustedsec.com/blog/hacking-your-cloud-tokens-edition-2-0
 https://www.trustedsec.com/blog/onedrive-to-enum-them-all
 https://www.wiz.io/blog/azure-active-directory-bing-misconfiguration
 https://www.youtube.com/watch?v=u_3cV0pzptY
-https://godiego.co/posts/STO-Azure
-https://improsec.com/tech-blog/read2own
-https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html

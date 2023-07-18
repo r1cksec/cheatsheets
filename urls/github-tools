@@ -46,6 +46,9 @@ Queries public DNS records for a domain in regard of mail security
 https://github.com/4ra1n/java-gate
 Java JNI HellsGate/HalosGate/TartarusGate/RecycledGate/SSN Syscall/Many Shellcode Loaders
 
+https://github.com/ACE-Responder/RogueSliver
+A suite of tools to disrupt campaigns using the Sliver C2 framework.
+
 https://github.com/ADPunisher/OwnershipStealer
 This C# code is a console application that attempts to take ownership of a specified file.
 
@@ -165,6 +168,9 @@ Implementation of Advanced Module Stomping and Heap/Stack Encryption
 
 https://github.com/Coldzer0/ReverseSock5Proxy
 A tiny Reverse Sock5 Proxy written in C
+
+https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds
+Zeek-Formatted Threat Intelligence Feeds
 
 https://github.com/D3Ext/Hooka
 Shellcode loader, hooks detector and more written in Golang
@@ -1072,6 +1078,9 @@ Active Directory ACL exploitation with BloodHound
 https://github.com/fox-it/adconnectdump
 Dump Azure AD Connect credentials for Azure AD and Active Directory
 
+https://github.com/foxlox/GIUDA
+Ask a TGS on behalf of another user without password
+
 https://github.com/fr0gger/IATelligence
 IATelligence is a Python script that will extract the IAT of a PE file and request GPT to get more information about the API and the ATT&CK matrix related
 
@@ -1101,6 +1110,9 @@ The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and
 
 https://github.com/gentilkiwi/mimikatz
 A little tool to play with Windows security
+
+https://github.com/gh0x0st/wanderer
+An open-source process injection enumeration tool written in C#
 
 https://github.com/gildas-lormeau/SingleFile
 Web Extension and CLI tool for saving a faithful copy of an entire web page in a single HTML file
@@ -1149,6 +1161,9 @@ World's fastest and most advanced password recovery utility
 
 https://github.com/hashcat/hashcat-utils
 Small utilities that are useful in advanced password cracking
+
+https://github.com/hasherezade/exe_to_dll
+Converts a EXE into DLL
 
 https://github.com/hasherezade/pe-bear
 Portable Executable reversing tool with a friendly GUI
@@ -1296,6 +1311,9 @@ Email OSINT & Password breach hunting tool, locally or using premium services. S
 
 https://github.com/kholia/OSX-KVM
 Run macOS on QEMU/KVM. With OpenCore + Big Sur + Monterey + Ventura support now! Only commercial (paid) support is available now to avoid spammy issues. No Mac system is required.
+
+https://github.com/khyatiparekh/API-Fuzzer
+This is a comprehensive, feature-rich API Fuzzer designed to help discover potential vulnerabilities in your application. Features
 
 https://github.com/kleiton0x00/RedditC2
 Abusing Reddit API to host the C2 traffic, since most of the blue-team members use Reddit, it might be a great way to make the traffic look legit.
@@ -1477,6 +1495,9 @@ Two sample phishing templates that can be used with .zip domains to emulate a fi
 https://github.com/mrexodia/lolbin-poc
 Small PoC of using a Microsoft signed executable as a lolbin.
 
+https://github.com/mrphrazer/obfuscation_detection
+Binary Ninja plugin to identify obfuscated code and other interesting code constructs
+
 https://github.com/msfrisbie/spy-extension
 A Chrome extension that will steal literally everything it can
 
@@ -1560,6 +1581,9 @@ PoC auto collect from GitHub. warning Be careful Malware.
 
 https://github.com/noperator/CVE-2019-18935
 RCE exploit for a .NET JSON deserialization vulnerability in Telerik UI for ASP.NET AJAX.
+
+https://github.com/nyancrimew/goop
+Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
 
 https://github.com/nyxgeek/lyncsmash
 locate and attack Lync/Skype for Business
@@ -1690,6 +1714,9 @@ Fast and customizable vulnerability scanner based on simple YAML based DSL.
 https://github.com/projectdiscovery/nuclei-templates
 Community curated list of templates for the nuclei engine to find security vulnerabilities.
 
+https://github.com/projectdiscovery/simplehttpserver
+Go alternative of python SimpleHTTPServer
+
 https://github.com/projectdiscovery/subfinder
 Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
 
@@ -1768,6 +1795,9 @@ I have documented all of the AMSI patches that I learned till now
 https://github.com/reveng007/DarkWidow
 Indirect Dynamic Syscall, SSN + Syscall address sorting via Modified TartarusGate approach + Remote Process Injection via APC Early Bird + Spawns a sacrificial Process as target process + (ACG+BlockDll) mitigation policy on spawned process + PPID spoofing (Emotet method) + Api resolving from TIB + API hashing
 
+https://github.com/reveng007/DarkWidow
+Indirect Dynamic Syscall, SSN + Syscall address sorting via Modified TartarusGate approach + Remote Process Injection via APC Early Bird + Spawns a sacrificial Process as target process + (ACG+BlockDll) mitigation policy on spawned process + PPID spoofing + Api resolving from TIB + API hashing
+
 https://github.com/reveng007/SharpGmailC2
 Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol
 
@@ -1824,6 +1854,9 @@ Blockchain Transactions Investigation Tool
 
 https://github.com/s0md3v/Smap
 a drop-in replacement for Nmap powered by shodan.io
+
+https://github.com/sa7mon/S3Scanner
+Scan for misconfigured S3 buckets across S3-compatible APIs!
 
 https://github.com/sa7mon/S3Scanner
 Scan for open S3 buckets and dump the contents
@@ -2029,6 +2062,9 @@ A command-line tool for reconnaissance and targeted write operations on Confluen
 https://github.com/wh0amitz/KRBUACBypass
 UAC Bypass By Abusing Kerberos Tickets
 
+https://github.com/wh0amitz/S4UTomato
+Escalate Service Account To LocalSystem via Kerberos
+
 https://github.com/wpscanteam/wpscan
 WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.
 
@@ -2097,40 +2133,4 @@ Convert .net exe into powershell script.
 
 https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
 Persistence via WMI
-
-https://github.com/khyatiparekh/API-Fuzzer
-This is a comprehensive, feature-rich API Fuzzer designed to help discover potential vulnerabilities in your application. Features
-
-https://github.com/projectdiscovery/simplehttpserver
-Go alternative of python SimpleHTTPServer
-
-https://github.com/ACE-Responder/RogueSliver
-A suite of tools to disrupt campaigns using the Sliver C2 framework.
-
-https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds
-Zeek-Formatted Threat Intelligence Feeds
-
-https://github.com/mrphrazer/obfuscation_detection
-Binary Ninja plugin to identify obfuscated code and other interesting code constructs
-
-https://github.com/hasherezade/exe_to_dll
-Converts a EXE into DLL
-
-https://github.com/foxlox/GIUDA
-Ask a TGS on behalf of another user without password
-
-https://github.com/reveng007/DarkWidow
-Indirect Dynamic Syscall, SSN + Syscall address sorting via Modified TartarusGate approach + Remote Process Injection via APC Early Bird + Spawns a sacrificial Process as target process + (ACG+BlockDll) mitigation policy on spawned process + PPID spoofing + Api resolving from TIB + API hashing
-
-https://github.com/sa7mon/S3Scanner
-Scan for misconfigured S3 buckets across S3-compatible APIs!
-
-https://github.com/nyancrimew/goop
-Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
-
-https://github.com/wh0amitz/S4UTomato
-Escalate Service Account To LocalSystem via Kerberos
-
-https://github.com/gh0x0st/wanderer
-An open-source process injection enumeration tool written in C#
 
