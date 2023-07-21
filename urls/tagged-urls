@@ -172,6 +172,7 @@ https://luemmelsec.github.io/Pentest-Everything-SMTP ; #smtp #simple-mail-transf
 https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI ; #active-directory #certificate-service #adcs #methodology #esc1-10
 https://m365internals.com/2021/11/30/lateral-movement-with-managed-identities-of-azure-virtual-machines ; #cloud #azure #entra #lateral-movement #managed-identities #vm
 https://maia.crimew.gay/posts/fuckstalkerware-2 ; #webapp #git #file-upload
+https://maikroservice.com/how-to-setup-wazuh-as-your-siem-with-debian-proxmox ; #setup #siem #proxmox #wazuh
 https://mattfrisbie.substack.com/p/spy-chrome-extension ; #browser #chrome #extension
 https://mccaulay.co.uk/mast1c0re-introduction-exploiting-the-ps4-and-ps5-through-a-gamesave ; #gaming #playstation #escape #emulator
 https://mccaulay.co.uk/mast1c0re-part-2-arbitrary-ps2-code-execution ; #gaming #playstation #escape #assembly #elf
@@ -182,6 +183,7 @@ https://medium.com/@bobbyrsec/gifshell-covert-attack-chain-and-c2-utilizing-micr
 https://medium.com/@bobbyrsec/microsoft-teams-attachment-spoofing-and-lack-of-permissions-enforcement-leads-to-rce-via-ntlm-458aea1826c5 ; #phishing #spoofing #attachment
 https://medium.com/@bobbyrsec/the-dangers-of-googles-zip-tld-5e1e675e59a5 ; #phishing #spoofing #url #scheme-abuse
 https://medium.com/@cyb_detective/how-to-automate-the-analysis-of-links-to-user-profiles-obtained-with-nickname-enumeration-tools-1d0abaf22c53 ; #osint #nickname #nuclei
+https://medium.com/@moon_osint/how-to-find-the-administrator-of-an-onion-site-89d176b0061a ; #osint #tor #darknet #threat-intelligence
 https://medium.com/@psychsecurity/mfa-phishing-using-novnc-and-aws-ebc781b4d093 ; #phishing #mfa #vnc
 https://medium.com/@youcef.s.kelouaz/writing-a-sliver-c2-powershell-stager-with-shellcode-compression-and-aes-encryption-9725c0201ea8 ; #c2 #sliver #powershell #stager #shellcode #hollowing
 https://miltonamcs-private-organization.gitbook.io/analysing-a-malicious-github-repository ; #threat-intelligence #malware-analyse #github #repository
@@ -198,6 +200,7 @@ https://news.sophos.com/en-us/2022/03/29/reconstructing-powershell-scripts-from-
 https://nixintel.info/osint/geolocating-mobile-phones-with-an-ip ; #osint #geo-location #ip
 https://nixintel.info/osint/geolocation-at-the-retail-park ; #osint #geo-location #image #map
 https://noperator.dev/posts/zip-snip ; #phishing #spoofing #zip #scheme-abuse
+https://notsosecure.com/hacking-aws-cognito-misconfigurations : #aws #cognito #cloud
 https://o365blog.com/post/gmsa ; #cloud #azure #entra #group-managed-service-account #gmsa #password-dump
 https://objective-see.org/downloads/MacMalware_2022.pdf ; #macosx #malware #analyse #threat-intelligence
 https://offensivedefence.co.uk/posts/dinvoke-syscalls ; #syscall #dinvoke
@@ -240,6 +243,7 @@ https://powerzure.readthedocs.io/en/latest/Functions/infogathering.html; #cloud 
 https://ppn.snovvcrash.rocks/red-team/maldev/code-injection/shellcode-runners ; #shellcode #vba #powershell #csharp #cheatsheets
 https://practicalsecurityanalytics.com/new-amsi-bypass-using-clr-hooking ; #windows #amsi #bypass #clr-hooking #api-call
 https://prfalken.org/index.php/2023/01/26/installing-a-malware-analysis-lab ; #threat-intelligence #malware-analyzing #lab-setup #windows #vm #flare-vm #remnux
+https://pushsecurity.com/blog/samljacking-a-poisoned-tenant ; #saml #samljacking #sso #saas #phishing #nuclino
 https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/docs/images/SharpHoundCheatSheet.png ; #bloodhound #ingestor #sharphound #collection-method
 https://raw.githubusercontent.com/ly4k/Certipy/main/customqueries.json ; #active-directory #certificate-service #adcs #bloodhound #query
 https://raw.githubusercontent.com/RiccardoAncarani/talks/master/F-Secure/unorthodox-lateral-movement.pdf ; #lateral-movement #windows #methodology #rpc #dcom #wmi
@@ -257,6 +261,7 @@ https://research.ifcr.dk/pass-the-challenge-defeating-windows-defender-credentia
 https://research.nccgroup.com/2023/03/01/making-new-connections-leveraging-cisco-anyconnect-client-to-drop-and-run-payloads ; #router #cisco #anyconnect #payload
 https://research.nccgroup.com/2023/05/15/netgear-routers-a-playground-for-hackers ; #router #netgear
 https://rez0.blog/hacking/2022/12/02/hacking-on-a-plane.html ; #webapp #api
+https://rhinosecuritylabs.com/aws/assume-worst-aws-assume-role-enumeration ; #aws #assumerole #iam #role-enumeration #cloud
 https://ristbs.github.io/2023/02/08/your-pocket-guide-to-opsec-in-adversary-emulation.html ; #windows #edr #evasion #bypass #kernel-callback #etw
 https://s3cur3th1ssh1t.github.io/A-tale-of-EDR-bypass-methods ; #syscall #av #edr #bypass #windows
 https://s3cur3th1ssh1t.github.io/On-how-to-access-protected-networks ; #network #firewall #pingcastle #infrastructure
@@ -300,6 +305,7 @@ https://tij.me/blog/harvesting-active-directory-credentials-via-http-request-smu
 https://tomforb.es/i-scanned-every-package-on-pypi-and-found-57-live-aws-keys ; #python #pypi #aws #enumeration #github-actions
 https://trevorsaudi.com/posts/2023-07-21_red_team03 ; #shellcode #c++ #process-injection
 https://trikkss.github.io/posts/hiding_windows_api_calls_part1 ; #windows #api-hashing #evasion #getprocaddress
+https://trufflesecurity.com/blog/trufflehog-commands-git-vs-filesystem ; #trufflehog #git #github #secrets #keys
 https://undev.ninja/introduction-to-threat-intelligence-etw ; #windows #event-tracing #descriptors 
 https://unit42.paloaltonetworks.com/next-gen-kerberos-attacks ; #kerberos #active-directory #diamond #sapphire #s4u2self #delegation #tgs #tgt
 https://v3ded.github.io/redteam/red-team-tactics-writing-windows-kernel-drivers-for-advanced-persistence-part-2 ; #windows #persistence #kernel-driver
@@ -385,7 +391,7 @@ https://www.secura.com/uploads/whitepapers/Secura-WP-Timeroasting-v3.pdf ; #acti
 https://www.securesystems.de/blog/active-directory-spotlight-attacking-the-microsoft-configuration-manager ; #windows #sccm #system-centre-configuration-manager #active-directory #hardening
 https://www.securesystems.de/blog/offphish-phishing-revisited-in-2023 ; #phishing #mail #motw #evasion #bypass
 https://www.securityjoes.com/post/process-mockingjay-echoing-rwx-in-userland-to-achieve-code-execution ; #windows #process-mockingjay #injection #rwx #edr #evasion #bypass
-https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation ; #threat-introducing #malware-analyse #sparkrat #golang #shellcode
+https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation ; #threat-intelligence #malware-analyse #sparkrat #golang #shellcode
 https://www.shielder.com/blog/2022/09/how-to-decrypt-manage-engine-pmp-passwords-for-fun-and-domain-admin-a-red-teaming-tale ; #reverse-engineering #manageengine-password-manager #java-deserialization
 https://www.synack.com/blog/exploits-explained-5-unusual-authentication-bypass-techniques ; #webapp #refresh-token
 https://www.synacktiv.com/en/publications/a-dive-into-microsoft-defender-for-identity.html ; #windows #etw #mdi #azure #entra #edr #ldap #kerberos #evasion #bypass
@@ -410,7 +416,7 @@ https://www.trustedsec.com/blog/prefetch-the-little-snitch-that-tells-on-you ; #
 https://www.trustedsec.com/blog/red-vs-blue-kerberos-ticket-times-checksums-and-you ; #kerberos #active-directory #ticket-times #checksum
 https://www.trustedsec.com/blog/set-up-an-android-hacking-lab-for-0 ; #android #lab #emulator #frida #apk
 https://www.trustedsec.com/blog/the-art-of-bypassing-kerberoast-detections-with-orpheus ; #kerberoasting #active-directory #kerberoast #encryption #detection #orpheus
-https://www.uptycs.com/blog/new-poc-exploit-backdoor-malware ; #threat-introducing #malware-analyzing #fake-poc #github
+https://www.uptycs.com/blog/new-poc-exploit-backdoor-malware ; #threat-intelligence #malware-analyzing #fake-poc #github
 https://www.websec.ca/kb/sql_injection ; #mysql #cheatsheets #wiki
 https://www.wiz.io/blog/azure-active-directory-bing-misconfiguration ; #cloud #azure #entra #bing #account-takeover
 https://www.x86matthew.com/view_post?id=clipboard_inject ; #shellcode #clipboard #injection #c

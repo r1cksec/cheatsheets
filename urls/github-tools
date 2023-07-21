@@ -208,11 +208,11 @@ CMSmap is a python open source CMS scanner that automates the process of detecti
 https://github.com/DragoQCC/HardHatC2
 A C# Command & Control framework
 
-https://github.com/EdOverflow/can-i-take-over-xyz
-"Can I take over XYZ?" — a list of services and how to claim (sub)domains with dangling DNS records.
-
 https://github.com/EncodeGroup/Gopher
 C# tool to discover low hanging fruits
+
+https://github.com/EricZimmerman/LECmd
+Lnk Explorer Command line edition!!
 
 https://github.com/ExAndroidDev/fakemeeting
 Creates and sends fake meeting invite
@@ -436,6 +436,9 @@ Some scripts to abuse kerberos using Powershell
 https://github.com/MzHmO/psexec_noinstall
 Repository contains psexec, which will help to exploit the forgotten pipe
 
+https://github.com/N0rz3/GitSint
+OSINT Tool (github tracker)
+
 https://github.com/NHAS/reverse_ssh
 SSH based reverse shell
 
@@ -595,6 +598,9 @@ Tunna is a set of tools which will wrap and tunnel any TCP communication over HT
 https://github.com/SamJoan/droopescan
 A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
 
+https://github.com/ScorpionesLabs/MSSqlPwner
+MSSqlPwner is an advanced and versatile pentesting tool designed to seamlessly interact with MSSQL servers and based on Impacket.
+
 https://github.com/SecuraBV/Timeroast
 Timeroasting scripts by Tom Tervoort
 
@@ -750,6 +756,9 @@ Python Wardriving
 
 https://github.com/aniqfakhrul/powerview.py
 PowerView alternative
+
+https://github.com/anirudhbiyani/findmytakeover
+find dangling domains in a multi cloud environment
 
 https://github.com/anshumanbh/git-all-secrets
 A tool to capture all the git secrets by leveraging multiple open source git searching tools
@@ -967,6 +976,9 @@ PowerShell Obfuscator
 https://github.com/danielmiessler/SecLists
 SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
+https://github.com/darkquasar/AzureHunter
+A Cloud Forensics Powershell module to run threat hunting playbooks on data from Azure and O365
+
 https://github.com/deFr0ggy/NightOwl
 An offline Phishing Email Analyzer. Enabling non-techies to analyze phishing emails automatically!
 
@@ -996,6 +1008,9 @@ Making Favicon.ico based Recon Great again !
 
 https://github.com/devanshbatham/OpenRedireX
 A fuzzer for detecting open redirect vulnerabilities
+
+https://github.com/dfir-dd/dfir-toolkit
+CLI tools for forensic investigation of Windows artifacts
 
 https://github.com/dhn/spk
 spk aka spritzgebaeck: A small OSINT/Recon tool to find CIDRs that belong to a specific organization.
@@ -1062,6 +1077,9 @@ Windows batch script that finds misconfiguration issues which can lead to privil
 
 https://github.com/expl0itabl3/check_mdi
 Python script to enumerate valid Microsoft 365 domains, retrieve tenant name, and check for an MDI instance Resources
+
+https://github.com/facefusion/facefusion
+Next generation face swapper and enhancer
 
 https://github.com/felamos/weirdhta
 A tool to create obfuscated HTA script.
@@ -1288,6 +1306,9 @@ Tool to remotely dump secrets from the Windows registry
 https://github.com/jfmaes/Invoke-DLLClone
 Koppeling x Metatwin x LazySign
 
+https://github.com/jfmaes/LazySign
+Create fake certs for binaries using windows binaries and the power of bat files
+
 https://github.com/jhaddix/awsScrape
 A tool to scrape the AWS ranges looking for a keyword in SSL certificate data.
 
@@ -1320,6 +1341,9 @@ Simple script to extract useful informations from the combo BloodHound + Neo4j
 
 https://github.com/kaonashi-passwords/Kaonashi
 Wordlist, rules and masks from Kaonashi project (RootedCON 2019)
+
+https://github.com/karendm/ADHunt
+Tool for enumerating Active Directory environments
 
 https://github.com/kfosaaen/Get-LAPSPasswords
 Powershell function to pull the local admin passwords from LDAP, stored there by LAPS.
@@ -2112,9 +2136,6 @@ The purpose of this project is to retrieve potential process killer drivers.
 
 https://github.com/xforcered/InvisibilityCloak
 Proof-of-concept obfuscation toolkit for C# post-exploitation tools
-
-https://github.com/xforcered/SQLRecon
-A C# MS SQL toolkit designed for offensive reconnaissance and post-exploitation.
 
 https://github.com/xpn/Powershell-PostExploitation
 Scripts created to help with post exploitation of a Windows host

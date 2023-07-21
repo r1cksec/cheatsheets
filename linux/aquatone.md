@@ -8,7 +8,7 @@ cat <nmap.xml> | aquatone -nmap -out <pathToResults>
 
 ### Use aquatone without nmap
 ```
-cat <rhostFile> | aquatone -ports large
+cat <rhostFile> | aquatone -ports large -http-timeout 9000 -scan-timeout 1000 -screenshot-timeout 90000 -out <pathToResults>
 ```
 
 ### Aquatone checks for following ports:

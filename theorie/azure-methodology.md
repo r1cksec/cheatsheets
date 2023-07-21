@@ -114,10 +114,10 @@ Each tenant has a dedicated Directory, which is used to perform identity and acc
 
 # Token types
 
-## Access Tokens
+## Access Token
 Used in combination of user, client, and resource. Cannot be revoked until expiry (1 hour default).
 
-## ID Tokens
+## ID Token
 Used in combination of user and client. Contains information about the user.
 
 ## Refresh Token
@@ -153,15 +153,15 @@ IDENTITY_HEADER
 IDENTITY_ENDPOINT
 ```
 
-## Get access token
+## Get Access Token
 * https://github.com/r1cksec/cheatsheets/blob/main/snippets/py/getAzureIdentity.py
 
 ```
-
 curl "$IDENTITY_ENDPOINT?resource=https://management.azure.com/&api-version=2017-09-01" -H secret:$IDENTITY_HEADER
+curl "$IDENTITY_ENDPOINT?resource=https://graph.windows.net/&api-version=2017-09-01" -H secret:$IDENTITY_HEADER
 ```
 
-## API resources
+## API Resources
 ```
 https://storage.azure.com
 https://vault.azure.net
@@ -186,7 +186,8 @@ Unknown = Record does not exist
 python3 o365spray.py --validate --domain <targetDomain>
 ```
 
-## Verify email addresses
+## Verify Email Addresses
+* https://github.com/nyxgeek/onedrive_user_enum
 * https://github.com/dievus/Oh365UserFinder
 * https://github.com/LMGsec/o365creeper
 * https://github.com/immunIT/TeamsUserEnum
@@ -219,6 +220,7 @@ Invoke-EnumerateAzureBlobs -Base <tenant> defcorp
 ## Phishing (Illicit Consent Grant)
 * https://github.com/AlteredSecurity/365-Stealer
 * https://github.com/r1cksec/cheatsheets/blob/main/windows/azure-arm-api.md
+* https://github.com/rvrsh3ll/TokenTactics
 
 ```
 Get Access Token by creating an application in the attacker tenant and send the Authorization Link to a victim.
@@ -266,7 +268,7 @@ Invoke-MSOLSpray -UserList .\<userlist>.txt -Password <password>
 Invoke-MFWSweep -Username <user>@<domain> -Password <password>
 ```
 
-## Authenticated recon
+## Authenticated - Recon
 * https://github.com/dirkjanm/ROADtools
 * https://github.com/Gerenios/AADInternals
 * https://github.com/nyxgeek/o365recon
