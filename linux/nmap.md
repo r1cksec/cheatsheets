@@ -31,7 +31,7 @@ nmap --resume <file>
 
 ### Versions intensity 0-9 (9 highest)
 ```
-nmap --version-intensity 4
+nmap --version-intensity 4 <rhost>
 ```
 
 ### Advanced scan for detecting most of the services/os and versions
@@ -39,13 +39,13 @@ nmap --version-intensity 4
 nmap --min-rate 500 -sS -sV -O -sC -iL <file> -oA <file>-sS-sV-O-sC-1k-ports
 ```
 
-### Grep all hosts that has the port 445 open
-```
-cat <file>.gnmap | grep "445/open/tcp" | cut -f2 -d " "
-```
-
 ### Get information about scripts
 ```
 nmap --script-help "*ms* and *sql*"
+```
+
+### Scan NTLM authentication
+```
+nmap -p 443 --script http-ntlm-info --script-args http-ntlm-info.root=/<path>/ <rhost>
 ```
 

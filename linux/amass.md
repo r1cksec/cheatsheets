@@ -16,15 +16,17 @@ Ask, Baidu, Bing, BuiltWith, DNSDumpster, DNSTable, HackerOne, RapidDNS, Riddler
 
 ### API setup
 ```
-Path to config file and file example:
-$HOME/.config/amass/config.ini
-https://raw.githubusercontent.com/owasp-amass/amass/master/examples/config.ini
+# Path to config file and file example:
+$HOME/.config/amass/config.yaml
+# Insert:
+options:
+  datasources: "<homeDir>/.config/amass/datasources.yaml"
 
-Example:
-# https://fullhunt.io (Free)
-[data_sources.FullHunt]
-[data_sources.FullHunt.Credentials]
-apikey = apiKey
+# Example for datasources:
+https://raw.githubusercontent.com/owasp-amass/amass/master/examples/datasources.yaml
+
+# Execute
+amass intel -d <domain> whois --config <pathToConfigYaml>
 ```
 
 ### Find further root domain names 

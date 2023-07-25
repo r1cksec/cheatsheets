@@ -34,9 +34,14 @@ git checkout <tagName>
 git checkout master
 ```
 
-### Get path to project
+### Get project url
 ```
 git remote get-url origin
+```
+
+### Set project url
+```
+git remote set-url origin <user>@<rhost>:<path>.git
 ```
 
 ### Set custom timestamp

@@ -538,6 +538,9 @@ Tool to bypass LSA Protection (aka Protected Process Light)
 https://github.com/RedTeamPentesting/pretender
 Your MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing.
 
+https://github.com/ResearchandDestroy/DorXNG
+Next Generation DorX. Built by Dorks, for Dorks. 
+
 https://github.com/RhinoSecurityLabs/GCPBucketBrute
 A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
 
@@ -997,6 +1000,9 @@ A Cloud Forensics Powershell module to run threat hunting playbooks on data from
 https://github.com/deFr0ggy/NightOwl
 An offline Phishing Email Analyzer. Enabling non-techies to analyze phishing emails automatically!
 
+https://github.com/decalage2/oletools
+oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging.
+
 https://github.com/decompiler-explorer/decompiler-explorer
 Decompiler Explorer! Compare tools on the forefront of static analysis, now in your web browser!
 
@@ -1107,6 +1113,9 @@ Python3 terminal application that contains 260+ Neo4j cyphers for BloodHound dat
 
 https://github.com/fin3ss3g0d/evilgophish
 evilginx2 + gophish
+
+https://github.com/florylsk/NtRemoteLoad
+Remote shellcode injector, based on HWSyscalls by ShorSec, leveraging undetectable (currently) indirect native syscalls to inject shellcode into another process, creating a thread and executing it.
 
 https://github.com/florylsk/RecycledInjector
 Native Syscalls Shellcode Injector
@@ -1497,6 +1506,9 @@ A simple pentest container equipped with common python pentest tools.
 
 https://github.com/maurosoria/dirsearch
 Web path scanner
+
+https://github.com/mbrg/power-pwn
+An offensive and defensive security toolset for Microsoft 365 Power Platform
 
 https://github.com/mdsecactivebreach/DragonCastle
 A PoC that combines AutodialDLL lateral movement technique and SSP to scrape NTLM hashes from LSASS process.
@@ -2029,6 +2041,9 @@ Villain is a Windows & Linux backdoor generator and multi-session handler that a
 https://github.com/t3l3machus/eviltree
 A python3 remake of the classic "tree" command with the additional feature of searching for user provided keywords/regex in files, highlighting those that contain matches.
 
+https://github.com/tastypepperoni/PPLBlade
+Protected Process Dumper Tool
+
 https://github.com/tb0hdan/domains
 World’s single largest Internet domains dataset
 
@@ -2064,6 +2079,9 @@ Reconnaissance tool for GitHub code search. Finds exposed API keys using pattern
 
 https://github.com/tinyproxy/tinyproxy
 tinyproxy - a light-weight HTTP/HTTPS proxy daemon for POSIX operating systems
+
+https://github.com/tixlegeek/CachedBashCoinTicker
+A simple script allowing to get crypto coins price without flooding free APIs
 
 https://github.com/tokyoneon/Chimera
 Chimera is a PowerShell obfuscation script designed to bypass AMSI and commercial antivirus solutions.

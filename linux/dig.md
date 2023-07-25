@@ -1,6 +1,6 @@
-### Check domain result
+### Get nameserver
 ```
-dig <domain> +short
+dig +short NS <domain>
 ```
 
 ### Reverse search (rDNS)
@@ -28,7 +28,7 @@ dig ANY @<dns-ip> <domain>
 dig -t txt <domain> | grep -i spf
 ```
 
-### Check txt records for third party software
+### Get txt records 
 ```
 dig -t txt <domain>
 ```
