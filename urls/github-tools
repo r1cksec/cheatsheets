@@ -199,9 +199,6 @@ Crack any Microsoft Windows users password without any privilege (Guest account 
 https://github.com/Datalux/Osintgram
 Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname
 
-https://github.com/Dec0ne/DavRelayUp
-DavRelayUp - a universal no-fix local privilege escalation in domain-joined windows workstations where LDAP signing is not enforced (the default settings).
-
 https://github.com/Dionach/CMSmap
 CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
 
@@ -613,6 +610,9 @@ CVE-2021-28482
 https://github.com/ShawnDEvans/smbmap
 SMBMap is a handy SMB enumeration tool
 
+https://github.com/ShorSec/DavRelayUp
+DavRelayUp - a universal no-fix local privilege escalation in domain-joined windows workstations where LDAP signing is not enforced (the default settings).
+
 https://github.com/ShutdownRepo/pywhisker
 Python version of the C# tool for "Shadow Credentials" attacks
 
@@ -982,6 +982,9 @@ Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
 https://github.com/devanshbatham/FavFreak
 Making Favicon.ico based Recon Great again !
 
+https://github.com/devanshbatham/OpenRedireX
+A fuzzer for detecting open redirect vulnerabilities
+
 https://github.com/dhn/spk
 spk aka spritzgebaeck: A small OSINT/Recon tool to find CIDRs that belong to a specific organization.
 
@@ -1176,6 +1179,9 @@ ProxyLogon PoC
 
 https://github.com/hfiref0x/UACME
 Defeating Windows User Account Control
+
+https://github.com/hisxo/JSpector
+A simple Burp Suite extension to crawl JavaScript (JS) files in passive mode and display the results directly on the issues
 
 https://github.com/hthh/switch-reversing
 My Switch reversing scripts
@@ -1410,6 +1416,9 @@ SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt
 
 https://github.com/m4ll0k/infoga
 Infoga - Email OSINT
+
+https://github.com/magisterquis/chromecookiestealer
+Steal/Inject Chrome cookies over the DevTools (--remote-debugging-port) protocol.
 
 https://github.com/maldevel/EmailHarvester
 Email addresses harvester 
@@ -1927,6 +1936,9 @@ Dump Citrix Secure Access auth cookie from the process memory
 https://github.com/sqlmapproject/sqlmap
 Automatic SQL injection and database takeover tool
 
+https://github.com/sse-secure-systems/TeamsEnum
+User Enumeration of Microsoft Teams users via API
+
 https://github.com/sshuttle/sshuttle
 Transparent proxy server that works as a poor man's VPN. Forwards over ssh. Doesn't require admin. Works with Linux and MacOS. Supports DNS tunneling.
 
@@ -2079,6 +2091,9 @@ The purpose of this project is to retrieve potential process killer drivers.
 
 https://github.com/xforcered/InvisibilityCloak
 Proof-of-concept obfuscation toolkit for C# post-exploitation tools
+
+https://github.com/xforcered/SQLRecon
+A C# MS SQL toolkit designed for offensive reconnaissance and post-exploitation.
 
 https://github.com/xpn/Powershell-PostExploitation
 Scripts created to help with post exploitation of a Windows host

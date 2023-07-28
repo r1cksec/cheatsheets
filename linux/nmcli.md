@@ -13,6 +13,11 @@ nmcli device set <interface> managed no
 nmcli connection
 ```
 
+### Show details of a connection
+```
+nmcli connection show <name>
+```
+
 ### List available wifis (passiv)
 ```
 nmcli device wifi list

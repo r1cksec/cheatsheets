@@ -10,25 +10,20 @@ Project Options > Misc > Burp Collaborator Server > Use a privat Collaborator Se
 User Options > Misc > Perfomance Feedback > Uncheck Submit Box
 ```
 
-### Silence traffic 
+### Silence traffic (firefox)
 ```
-Proxy > Proxy settings > Request interception rules
+Proxy > Proxy settings > Tools > Proxy > Request interception rules
 And, Domain name, Does not match
--> mozilla, ocsp, digicert, firefox, googleapis, openh264
+-> mozilla.com
 
-Target > Scope Settings > Use advanced scope control > Exclude from scope > Add:
-Any Protocol
--> mozilla, ocsp, digicert, firefox, googleapis, openh264
-
-Target > Site map > Show only in-scope items
-
-Dashboard > Live passive crawl from Proxy > Settings > Suite scope
-Dashboard > Live audit from Proxy > Settings > Suite scope
+Proxy > Proxy settings > Project > Scope > Target Scope
+Exclude from scope > Add
+-> mozilla.com
 ```
 
 ### Export custom configuration 
 ```
-Burp > Project Options > Save Project Options
+Burp > User settings > Save user settings 
 ```
 
 ### Start burp from command line without extensions
