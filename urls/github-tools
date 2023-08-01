@@ -436,6 +436,9 @@ Patch AMSI and ETW
 https://github.com/Mr-Un1k0d3r/SCShell
 Fileless lateral movement tool that relies on ChangeServiceConfigA to run command
 
+https://github.com/MustafaBilgici/SucoshScanny
+"Sucosh" is an automated Source Code vulnerability scanner and assessment framework for Python(Flask-Django) & NodeJs capable of performing code review in Web Application Developing or Source Code Analysis processes.
+
 https://github.com/MythicAgents/Nimplant
 A cross-platform implant written in Nim
 
@@ -459,6 +462,9 @@ transform your payload into ipv4/ipv6/mac arrays
 
 https://github.com/Ne0nd0g/go-shellcode
 A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
+
+https://github.com/NetSPI/FuncoPop
+Tools for attacking Azure Function Apps
 
 https://github.com/NetSPI/MicroBurst
 A collection of scripts for assessing Microsoft Azure security
@@ -576,6 +582,9 @@ The Hunt for Malicious Strings
 
 https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
 This repo contains some Amsi Bypass methods i found on different Blog Posts.
+
+https://github.com/S3cur3Th1sSh1t/Caro-Kann
+Encrypted shellcode Injection to avoid Kernel triggered memory scans
 
 https://github.com/S3cur3Th1sSh1t/Creds
 Some usefull Scripts and Executables for Pentest &amp; Forensics
@@ -885,6 +894,9 @@ Scripts to make password spraying attacks against Lync/S4B, OWA &amp; O365 a lot
 
 https://github.com/caarlos0/twitter-cleaner
 Automatically delete tweets, retweets, and favorites from your timeline, and, if provided, from your twitter archive as well.
+
+https://github.com/cado-security/varc
+Volatile Artifact Collector collects a snapshot of volatile data from a system. It tells you what is happening on a system, and is of particular use when investigating a security incident.
 
 https://github.com/calebstewart/CVE-2021-1675
 Pure PowerShell implementation of CVE-2021-1675 Print Spooler Local Privilege Escalation (PrintNightmare)
@@ -1209,6 +1221,9 @@ Source Code Management Attack Toolkit
 
 https://github.com/haccer/subjack
 Subdomain Takeover tool written in Go
+
+https://github.com/hakaioffsec/navgix
+navgix is a multi-threaded golang tool that will check for nginx alias traversal vulnerabilities
 
 https://github.com/hakluke/hakrawler
 Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
@@ -1665,6 +1680,9 @@ RCE exploit for a .NET JSON deserialization vulnerability in Telerik UI for ASP.
 
 https://github.com/nyancrimew/goop
 Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
+
+https://github.com/nyxgeek/guestlist
+tool for identifying guest relationships between companies
 
 https://github.com/nyxgeek/lyncsmash
 locate and attack Lync/Skype for Business

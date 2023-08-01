@@ -6,8 +6,7 @@ https://github.com/opsdisk/pagodo
 python3 ghdb_scraper.py
 ```
 
-
-### Search for potentially vulnerable web pages and applications using google dorks
+### Get google dork results (-d will be site:)
 ```
 python3 pagodo.py -d <domain> -g <dorkList> 
 ```

@@ -53,3 +53,8 @@ $res = ([adsisearcher]"(objectClass=computer)"); $res.PageSize = 1000; $res.Find
 $s=[adsisearcher]'(name=*)'; $s.SearchRoot = [adsi]"LDAP://cn=Subnets,cn=Sites,cn=Configuration,dc=<domainComponent>,dc=<domainComponent>"; $s.FindAll() | Select *
 ```
 
+### Get SCCM server
+```
+([adsisearcher]("objectClass=mSSMSManagementPoint")).FindAll() | % {$_.Properties}
+```
+
