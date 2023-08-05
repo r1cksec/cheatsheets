@@ -50,9 +50,9 @@ wmic cpu get DataWidth /format:list
 wmic SERVICE WHERE StartMode="Auto" GET Name, State
 ```
 
-### Execute process
+### Execute cmd.exe
 ```
-wmic process call create "<processName>"
+wmic.exe process call create "cmd /c <command>
 ```
 
 ### Kill process

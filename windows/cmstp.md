@@ -1,6 +1,5 @@
 ### Source
 * https://github.com/mgeeky/Penetration-Testing-Tools/blob/master/red-teaming/cmstp-template.inf
-* https://lolbas-project.github.io/lolbas/Binaries/Cmstp/
 
 ### File template
 ```

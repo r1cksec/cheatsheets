@@ -15,11 +15,6 @@ C:\Windows\Microsoft.NET\Framework64\v2.0.50727\csc.exe /r:C:\<pathToWix>\Micros
 C:\<pathToWix>\sdk\MakeSfxCA.exe C:\<pathTo>\<newCustomAction>.dll C:\<pathToWix>\sdk\x64\sfxca.dll C:\<pathToWix>\<file>.dll C:\<pathToWix>\Microsoft.Deployment.WindowsInstaller.dll
 ```
 
-### Uninstall msi
-```
-msiexec /q /x <file>.msi
-```
-
 ### Custom action type numbers
 | Number | Action |
 | - | - |

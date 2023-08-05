@@ -943,6 +943,9 @@ A light-weight first-stage C2 implant written in Nim.
 https://github.com/chvancooten/maldev-for-dummies
 A workshop about Malware Development
 
+https://github.com/cjm00n/EvilSln
+A New Exploitation Technique for Visual Studio Projects
+
 https://github.com/clong/DetectionLab
 Automate the creation of a lab environment complete with security tooling and logging best practices
 
@@ -1722,6 +1725,9 @@ User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and ga
 
 https://github.com/nomi-sec/PoC-in-GitHub
 PoC auto collect from GitHub. warning Be careful Malware.
+
+https://github.com/nopcorn/DuckDuckC2
+A proof-of-concept C2 channel through DuckDuckGo's image proxy service
 
 https://github.com/noperator/CVE-2019-18935
 RCE exploit for a .NET JSON deserialization vulnerability in Telerik UI for ASP.NET AJAX.

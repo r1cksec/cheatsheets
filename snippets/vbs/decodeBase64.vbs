@@ -1,16 +1,28 @@
-base64codes = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+Private Function decode64String(ByVal encodedData)
+    Dim xmlDom, xmlNode, decoded, counter, decoded2
+    Set xmlDom = CreateObject("Msxml2.DOMDocument.3.0")
+    Set xmlNode = xmlDom.createElement("internalNode")
+    xmlNode.DataType = "bin.base64"
+    xmlNode.Text = encodedData
+    decode64String = convertBinaryToString(xmlNode.NodeTypedValue)
 
-Public Function Base64Decode(byVal strIn)
-    Dim strOut,old
-    For n=1 to Len(strIn)
-        k = ((n-1) And 3)
-        bit=4^k
-        val = InStr(base64codes,Mid(strIn,n,1))-1
-        if k>0 then strOut=strOut+Chr(((old*bit+Int((val*bit)/64)) And 255))
-        old=val
-    Next
-    Base64Decode = strOut
+    Exit Function
 End Function
 
-msgbox(Base64Decode("dGVzdAo="))
+Function convertBinaryToString(binary)
+    Dim binaryStream
+    Set binaryStream = CreateObject("ADODB.Stream")
+
+    binaryStream.Type = 1
+    binaryStream.Open
+    binaryStream.Write binary
+    binaryStream.Position = 0
+    binaryStream.Type = 2
+    binaryStream.CharSet = "Windows-1252"
+
+    convertBinaryToString = binaryStream.ReadText
+    set binaryStream = Nothing
+End Function
+
+decode64String("dGVzdAo=")
 

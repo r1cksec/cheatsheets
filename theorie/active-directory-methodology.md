@@ -1,132 +1,132 @@
 # Vocabulary
 
-## ACE 
+#### ACE 
 Access Control Entries define which security principals have which access rights to objects. An Access Control List (ACL) is a list of ACEs.
 
-## CIF 
+#### CIF 
 The Common Internet File System is an original version of the SMB protocol.
 
-## Certificate Authortiy
+#### Certificate Authortiy
 The PKI server that generates and issues certificates.
 
-## Constrained Delegation 
+#### Constrained Delegation 
 An account with a set SPN (e.g. computer A with service A) can impersonate an user using service A at other services in Active Directory. Impersonation can be applied only to services (e.g. service B) defined in the msDS-AllowedToDelegateTo attribute of computer A. The impersonation is performed by using the S4U2Proxy Extension, after the user authenticates to service A.
 
-## DACL 
+#### DACL 
 A Discretionary Access Control List lists all security principals to which an ACL is to be applied.
 
-## DFS 
+#### DFS 
 The Distributed File System provide the ability to group shares on multiple servers and to transparently link shares into a single hierarchical namespace.
 
-## Domain Joined Computer 
+#### Domain Joined Computer 
 A Windows computer for which a computer account has been created. This computer takes over the settings from the Active Directory.
 
-## DPAPI
+#### DPAPI
 The Data Protection Api is a cryptographic application programming interface used by to store credentials locally.
 
-## Enteprise CA
+#### Enteprise CA
 The Certificate Authortiy which offers the certificate templates.
 
-## fCONFIDENTIAL
+#### fCONFIDENTIAL
 If this flag is set for an LDAP attribute, only accounts with the permissions RIGHT_DS_READ_PROPERTY and RIGHT_DS_CONTROL_ACCESS can read the attribute (example: ms-Mcs-AdmPwd).
 
-## FQDN 
+#### FQDN 
 The Full Qualified Domain Name represents the full name in the domain context (e.g. dnshostname.domaincomponent.domaincompontent)
 
-## GMSA 
+#### GMSA 
 Group Managed Service Accounts are used to manage the passwords of service accounts automatically.
 
-## Kerberos Authentication Server 
+#### Kerberos Authentication Server 
 This server authenticates users and services and issues the TGT together with the Key Distribution Center.
 
-## LAPS 
+#### LAPS 
 The Local Administrator Password Solution is a tool for storing local admin passwords in LDAP.
 
-## LDAP 
+#### LDAP 
 The Lightweight Directory Access Protocol is a network protocol for querying and modifying information from distributed directory services. The protocol listens on port 389 and 636 (LDAP over SSL).
 
-## LSASS
+#### LSASS
 The Local Security Authority Server Service (LSASS) process verifies user loggings, handles password changes, creates access tokens and writes to security logs.
 
-## msDS-GroupMSAMembership
+#### msDS-GroupMSAMembership
 This attribute is used for access checks to determine if a requestor has permission to retrieve the password for a group Microsoft Account.
 
-## msDS-KeyCredentialLink
+#### msDS-KeyCredentialLink
 LDAP attribute that holds the public key of the TPM if the Key Trust model is implemented.
 
-## ms-MCS-AdmPwd
+#### ms-MCS-AdmPwd
 LDAP attribute that holds the password of the local administrator. Used inside the Local Administrator Password Solution (LAPS).
 
-## NOT_DELEGATED 
+#### NOT_DELEGATED 
 A flag which can be set in the UAC flags. If this flag is set, services are not allowed to impersonate this account.
 
-## ObjectGUID 
+#### ObjectGUID 
 A unique number to identify a GPO. The ObjectGUID can be used to read the group policy via the domain controller (Ex: \\<domain>\sysvol\<domain>\Policies\{<ObjectGUID>}).
 
-## Object Security Descriptor 
+#### Object Security Descriptor 
 This data structure describes who may access an object and how and defines how this access takes place (DACL + SACL).
 
-## PAC
+#### PAC
 The Privilege Attribute Certificate is a informations inside a TGT and contains among other things the SIDs of the groups that the user is a member of.
 
-## PKINIT
+#### PKINIT
 A Kerberos extension that enables the usage of certificates to request tickets.
 
-## Realm DB 
+#### Realm DB 
 The central database for the Kerberos protocol.
 
-## Resource Based Constrained Delegation 
+#### Resource Based Constrained Delegation 
 An account (e.g. computer B) with set SPN (e.g. service B) can impersonate an user using service B at other services (e.g. service C of computer C) in Active Directory. Impersonation can only take place if the msDS-AllowedToActOnBehalfOfOtherIdentity attribute of service C lists computer B.
 
-## S4U2Proxy 
+#### S4U2Proxy 
 The service for User to Proxy Extension allows a service that has a service ticket from a user for its own service to request a service ticket from the domain controller on behalf of the user for other services. The S4U2Proxy extension works for resource-based constrained delegation even if the provided TGS of the user is not forwardable (design error of microsoft).
 
-## S4U2Self 
+#### S4U2Self 
 The service-for-User-to-Self extension allows a service to obtain a service ticket to itself on behalf of a arbitrary user. In order to work, the TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION UAC flag of Service A need to be set to true. If the flag is not true the resulting TGS of user X will not be forwardable.
 
-## SACL 
+#### SACL 
 A System Access Control List describes which accesses to objects are to be logged.
 
-## SAM 
+#### SAM 
 The Security Account Manger is the logon name used to support clients and servers running earlier versions of windos, such as NT 4.0, 95, 98 and LAN Manager. Duplicate in database is not possible.
 
-## SCCM
+#### SCCM
 The System Center Configuration Manager is deployment software.
 
-## Security Principal 
+#### Security Principal 
 A user or computer account, group or process running in a security context.
 
-## SeEnableDelegationPrivilege 
+#### SeEnableDelegationPrivilege 
 The permission to set the TRUSTED_FOR_DELEGATION flag for computer accounts (normally owned by domain admins).
 
-## SID 
+#### SID 
 A unique security identifier. The access rights stored in ACLs are assigned to the security principals via the SID. The SID remains the same regardless of the name of the security principal.
 
-## SPN 
+#### SPN 
 A Service Principal Name is a unique identifier for a service instance that is used for authentication within Kerberos. For example, you need an SPN for a web app if you want to log in to the web app using Kerberos. An SPN is assigned to the account that runs the given service. To make Kerberos authentication possible, a service ticket (encrypted with the service account password) must be deposited with the Key Distribution Center. SPNs have the form: <service>/<fqdn>. Examples of an SPN would be: imap/mail.domain.com or ldap/ldapHost1.domain.com.
 
-## TGS 
+#### TGS 
 The Ticket Granting Service issues a service ticket for the requested service after a user or service presents its TGT. The TGS shares the same realm DB with the Kerberos Authentication Server.
 
-## TGT 
+#### TGT 
 The Ticket Granting Ticket allows users and services to request tickets from the Ticket Granting Service.
 
-## TPM
+#### TPM
 The Trusted Platform Module is designed to provide hardware-based, security-related functions. It can be used to store cryptographic keys or in combination with certificates.
 
-## TRUSTED_FOR_DELEGATION 
+#### TRUSTED_FOR_DELEGATION 
 A flag which can be set in the User Account Control Flags. This flag prevents the extension S4U2Self from being used. If this flag is set, a service can only forward the authentication of a user to the Kerberos Authentication Server. The impersonated user must have interacted with the service before impersonation.
 
-## TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION 
+#### TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION 
 A flag that can be set in the UAC flags. If this flag is set, this service can request a service ticket for its own service using the S4U2Self extension for any account. No user interaction is required before impersonation.
 
-## UAC Flag 
+#### UAC Flag 
 User Account Control Flags can be used to set certain attributes for Active Directory objects. Among others there are attributes like DONT_REQ_PREAUTH, DONT_EXPIRE_PASSWORD, ACCOUNTDISABLE or TRUSTED_FOR_DELEGATION.
 
-## Unconstrained delegation 
+#### Unconstrained delegation 
 An account with a set SPN (e.g. service A) can impersonate an user using the service set via the SPN at any other service in Active Directory. For this purpose, the service can use the user's ticket granting ticket, which is send together with the TGS for service A.
 
-## UPN 
+#### UPN 
 The User Principle Name is the name of a system user in an email address format. Duplicate in database is possible.
 
 

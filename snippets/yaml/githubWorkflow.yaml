@@ -1,0 +1,32 @@
+name: CI
+
+# controls when the workflow will run
+on:
+  # triggers the workflow on push or pull request events for the main branch
+  schedule:
+    - cron:  '*/5 * * * *'
+
+  # allows to run this workflow manually from the actions tab
+  workflow_dispatch:
+
+jobs:
+  update_profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update
+        run: |
+          sudo apt-get update
+
+      # check out repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@main
+
+      # run commands
+      - name: Run a multi-line script
+        run: |
+          echo "test" >> README .md
+          git config user.email "user@mail.com"
+          git config user.name "name"
+          git commit -am "Modified README"
+          git push
+

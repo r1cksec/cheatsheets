@@ -6,12 +6,13 @@ https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 
 ### Services
 * https://admin.microsoft.com
-* https://endpoint.microsoft.com
+* https://intune.microsoft.com
 * https://myapps.microsoft.com
 * https://mysignins.microsoft.com/security-info
 * https://outlook.office.com/mail
 * https://portal.azure.com
 * https://rdweb.wvd.microsoft.com/arm/webclient/index.html
+* https://security.microsoft.com
 * https://teams.microsoft.com
 
 ### Token resources
@@ -25,7 +26,7 @@ https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 #### Blob storage 
 `https://<storageAccount>.blob.core.windows.net`
 
-#### Azure Data Lake Storage Gen2 
+#### Azure Data Lake Storage
 `https://<storageAccount>.dfs.core.windows.net`
 
 #### Azure Files

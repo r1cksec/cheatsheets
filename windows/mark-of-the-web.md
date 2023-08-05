@@ -1,6 +1,6 @@
 ### Read the NTFS ADS (Alternate Data Stream) of a file
 ```
-Get-Content -Stream Zone.Identifiert .\<file>
+Get-Content .\<file> -Stream Zone.Identifier
 ```
 
 ### Possible ZoneId values

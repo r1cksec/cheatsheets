@@ -32,3 +32,9 @@ Connect-AzureAD -AccountId <user>@<tenant>.onmicrosoft.com -AadAccessToken <toke
 Get-AADIntUserPRTToken
 ```
 
+### Check MS Teams
+```
+Get-AADIntAccessTokenForTeams -SaveToCache
+Get-Content "mail-addresses.txt" | % { echo $_ ; Get-AADIntTeamsAvailability -UserPrincipalName $_ }
+```
+
