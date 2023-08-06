@@ -77,3 +77,6 @@ List devices (may need some minutes)
 * https://portal.atp.azure.com/tenantPortal
 > Learning period on (create more false positive alerts)
 
+### Expiry date of the trials
+* https://admin.microsoft.com/Adminportal/Home#/subscriptions
+

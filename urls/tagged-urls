@@ -96,7 +96,7 @@ https://cdn.defastra.com/downloads/papers/Defastra_SMS_Verification_Black_Market
 https://cedowens.medium.com/what-to-expect-when-youre-expecting-purple-team-edition-c6879655fe1 ; #expect-routines #linux #automation #c2 #purple-teaming #sliver #golang
 https://charbelnemnom.com/deploy-microsoft-defender-for-identity/?expand_article=1 ; #microsoft #defender-for-identity #azure #entra #setup #adcs
 https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html ; #webapp #graphql #cheatsheets #methodology
-https://chris.partridge.tech/2023/malware-targeting-cybersecurity-subreddit ; #threatinel #malware-analyse #stager #lnk
+https://chris.partridge.tech/2023/malware-targeting-cybersecurity-subreddit ; #threat-intel #malware-analyse #stager #lnk
 https://cloudbrothers.info/azure-attack-paths ; #cloud #azure #entra #methodology #subscription #delegation #lighthouse #adfs #runbook
 https://cocomelonc.github.io/malware/2023/06/07/syscalls-1.html ; #syscall #c++ #dll
 https://code.visualstudio.com/docs/remote/tunnels ; #pivoting #tunnel #vs-code
@@ -133,6 +133,8 @@ https://fortynorthsecurity.com/blog/extending-and-detecting-persistassist-act-ii
 https://fortynorthsecurity.com/blog/extending-persistassist ; #windows #persistence #wmi
 https://frischkorn-nicholas.medium.com/red-teaming-macos-101-33b5a1834a2e ; #macosx #methodology #wiki
 https://ghostlulz.com/binary-exploitation-ret2libc ; #buffer-overflow #linux #gdb
+https://gi7w0rm.medium.com/the-curious-case-of-the-7777-botnet-86e3464c3ffd ; #threat-intel #botnet #shodan
+https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4 ; #threat-intel #webdav #uri-handler #search-ms
 https://gist.github.com/NotMedic/b1ab7809eea94cc05513905b26964663 ; #pivoting #tunnel #chrome
 https://gist.github.com/ustayready/3ba2e4b1a4ec3cdad188f0f7d0dc4b73 ; #phishing #open-redirect #google-docs
 https://git.culbertreport.com/posts/Sliver-vs-Havoc ; #c2 #command-and-control #sliver #havoc
@@ -170,6 +172,7 @@ https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-p
 https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-3-sid-filtering-explained ; #active-directory #kerberos #inter-realm #goldenticket #sid-filter
 https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-4-bypass-sid-filtering-research ; #active-directory #kerberos #sid-filter #trust
 https://inbits-sec.com/posts/in-memory-unhooking ; #edr #unhooking #windows
+https://infosecwriteups.com/behind-the-screens-exploring-a-fresh-phishing-campaign-in-indonesia-stealing-facebook-credentials-9240016c5989 ; #threat-intel #phishing #urlscanio #crtsh
 https://infosecwriteups.com/one-of-the-most-devastating-ransomware-is-a-good-point-to-start-learning-malware-analysis-a80007093de3 ; #threat-intelligence #malware-analyse #ransomware #wannacry
 https://infosecwriteups.com/password-reset-poisoning-with-host-header-injection-345b902a9ca5?gi=7cf13b5f9d42 ; #webapp #host-header-injection
 https://infosecwriteups.com/red-teaming-evading-av-c948ec5d10e9 ; #windows #av #anti-virus #edr #evasion #bypass #windows-defender #shellcode #meterpreter
@@ -224,9 +227,11 @@ https://medium.com/@cyb_detective/how-to-automate-the-analysis-of-links-to-user-
 https://medium.com/@moon_osint/how-to-find-the-administrator-of-an-onion-site-89d176b0061a ; #osint #tor #darknet #threat-intelligence
 https://medium.com/@psychsecurity/mfa-phishing-using-novnc-and-aws-ebc781b4d093 ; #phishing #mfa #vnc
 https://medium.com/@ronkaminskyy/geolocating-a-traveler-via-osint-techniques-ed34ed120a00 ; #osint #geo-location #image
+https://medium.com/@Sec0ps/using-windows-helpfile-as-a-foothold-cebbb55f6655 : #threat-intel #chm #initial-access #phishing
 https://medium.com/@two06/hacking-a-tapo-tc60-camera-e6ce7ca6cad1 ; #hardware #iot #internet-of-things #reverse-engineering #camera
 https://medium.com/@youcef.s.kelouaz/writing-a-sliver-c2-powershell-stager-with-shellcode-compression-and-aes-encryption-9725c0201ea8 ; #c2 #sliver #powershell #stager #shellcode #hollowing
 https://mgeeky.tech/msi-shenanigans-part-1 ; #windows #msi #vbscript #dll #initial-access #wix
+https://micahbabinski.medium.com/search-ms-webdav-and-chill-99c5b23ac462 ; #initial-access #webdav #search-ms #uri-handler #windows
 https://miltonamcs-private-organization.gitbook.io/analysing-a-malicious-github-repository ; #threat-intelligence #malware-analyse #github #repository
 https://montysecurity.medium.com/identifying-phishing-pages-with-shodan-3fa664bd5372 ; #threat-intelligence #shodan #phishing
 https://mrd0x.com/browser-in-the-browser-phishing-attack ; #phishing #browser-in-the-browser #bitb
@@ -343,6 +348,7 @@ https://sh1ttykids.medium.com/new-techniques-uncovering-tor-hidden-service-with-
 https://shorsec.io/blog/dll-notification-injection ; #windows #process-injection #dll-notification-callback
 https://shubakki.github.io/posts/2022/12/detecting-and-evading-sandboxing-through-time-based-evasion ; #sandbox #evasion #time-based #cpu-cycles
 https://sonarsource.com/blog/it-s-a-snmp-trap-gaining-code-execution-on-librenms?utm_source=twitter&utm_medium=social&utm_content=security ; #snmp #librenms #php #cisco
+https://soxoj.substack.com/p/getting-an-instagram-profile-by-phone ; #threat-intel #phone #instagram
 https://splintercod3.blogspot.com/p/bypassing-uac-with-sspi-datagram.html ; #windows #lsass #token #uac #sspi #ntlm
 https://squiblydoo.blog/2023/06/05/understanding-pe-bloat-with-malcat ; #reverse-engineering #pe-bloat #malcat
 https://sra.io/blog/letitgo-a-case-study-in-expired-domains-and-azure-ad ; #cloud #azure #entra #domain-takeover #recon
@@ -360,6 +366,7 @@ https://sysdig.com/blog/ambersquid ; #threat-intel #malware #aws #cloud #ec2 #cr
 https://systemweakness.com/satellite-osint-space-based-intelligence-in-cybersecurity-e87f9dca4d81?gi=75215bb0af82 ; #satelite #osint #api
 https://tastypepperoni.medium.com/bypassing-defenders-lsass-dump-detection-and-ppl-protection-in-go-7dd85d9a32e6 ; #anti-virus #bypass #ppl #windows #go #minidump #evasion
 https://techryptic.github.io/2023/09/01/Annoying-Apple-Fans ; #ios #apple #flipper #dos #bluetooth #adv
+https://thebinaryhick.blog/2023/10/17/finding-phones-with-google-maps-part-1-android ; #android #forensic #googlemaps
 https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware ; #threat-intelligence #malware-analyse #iso #lnk #dll
 https://thedfirreport.com/2023/05/22/icedid-macro-ends-in-nokoyawa-ransomware ; #threat-intelligence #malware-analyse #icedid #vnc
 https://thedfirreport.com/2023/09/25/from-screenconnect-to-hive-ransomware-in-61-hours ; #threat-intel #malware #ransomware
@@ -394,7 +401,7 @@ https://www.akamai.com/blog/security-research/rpc-toolkit-fantastic-interfaces-h
 https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-server_595799 ; #pivoting #forward-proxy #nginx
 https://www.alteredsecurity.com/post/a-primer-on-dcsync-attack-and-detection ; #forensic #active-directory #dcsync #detection
 https://www.alteredsecurity.com/post/fantastic-windows-logon-types-and-where-to-find-credentials-in-them ; #forensic #logon-types #lsass-dump #detection #event-logs
-https://www.aware-online.com/en/how-can-i-find-a-google-account-by-phone-number ; #osint #google #gaia-id
+https://www.aware-online.com/en/how-can-i-find-a-google-account-by-phone-number ; #osint #google #gaia-id #phone
 https://www.aware-online.com/en/osint-investigation-on-spotify ; #osint #spotify
 https://www.bamsoftware.com/papers/fronting ; #domain-fronting #dns #https
 https://www.bellingcat.com/resources/how-tos/2023/05/08/finding-geolocation-leads-with-bellingcats-openstreetmap-search-tool ; #osint #geo-location #open-street-map #image

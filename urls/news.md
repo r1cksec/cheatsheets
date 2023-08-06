@@ -6,6 +6,6 @@
 * https://latesthackingnews.com/category/cyber-security-news
 * https://thehackernews.com
 * https://thisweekin4n6.com
-* https://www.databreaches.net/news
 * https://www.golem.de/specials/security
+* https://www.ransomware.live/#/recentvictims
 * https://www.threatable.io

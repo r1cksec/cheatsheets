@@ -304,6 +304,9 @@ AADInternals PowerShell module for administering Azure AD and Office 365
 https://github.com/GhostManager/Ghostwriter
 The SpecterOps project management and reporting engine
 
+https://github.com/GhostPack/ForgeCert
+ForgeCert uses the BouncyCastle C# API and a stolen Certificate Authority (CA) certificate + private key to forge certificates for arbitrary users capable of authentication to Active Directory.
+
 https://github.com/GhostPack/RestrictedAdmin
 Remotely enables Restricted Admin Mode
 
@@ -436,6 +439,9 @@ Standalone HVNC Client & Server | Coded in C++ (Modified Tinynuke)
 https://github.com/MichaelGrafnetter/DSInternals
 Directory Services Internals (DSInternals) PowerShell Module and Framework
 
+https://github.com/MitchHS/DLL-Spoofer
+This python script scans a provided DLL's exports and creates a basic duplicate CPP DLL template. All exported functions are re-used and pop a simple message window. Additionally on DLL attach we execute the first exported function. This is useful for simple providing POC for DLL hijacking.
+
 https://github.com/MitchHS/Discord-DLL-Hijacking
 This is a simple example of DLL hijacking enabling proxy execution.
 
@@ -544,6 +550,9 @@ Telegram scenario-based API aimed at OSINT
 https://github.com/PowerShellMafia/PowerSCCM
 PowerSCCM - PowerShell module to interact with SCCM deployments
 
+https://github.com/Prepouce/CoercedPotato
+From Patate (LOCAL/NETWORK SERVICE) to SYSTEM by abusing SeImpersonatePrivilege on Windows 10, Windows 11 and Server 2022.
+
 https://github.com/PwnDexter/Invoke-EDRChecker
 Checks running processes, process metadata, Dlls loaded into your current process and the each DLLs metadata, common install directories, installed services, the registry and running drivers for the presence of known defensive products such as AV's, EDR's and logging tools.
 
@@ -592,8 +601,14 @@ Kubernetes exploitation tool
 https://github.com/RoseSecurity/ScrapPY
 ScrapPY is a Python utility for scraping manuals, documents, and other sensitive PDFs to generate wordlists that can be utilized by offensive security tools to perform brute force, forced browsing, and dictionary attacks against targets. The tool dives deep to discover keywords and phrases leading to potential passwords or hidden directories.
 
+https://github.com/RtlDallas/Jomungand
+Shellcode Loader with memory evasion
+
 https://github.com/RythmStick/AMSITrigger
 The Hunt for Malicious Strings
+
+https://github.com/S1lkys/SharpKiller
+Lifetime AMSI bypass by @ZeroMemoryEx ported to .NET Framework 4.8
 
 https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
 This repo contains some Amsi Bypass methods i found on different Blog Posts.
@@ -1017,6 +1032,9 @@ Go scripts for checking API key / access token validity
 
 https://github.com/dafthack/CloudPentestCheatsheets
 This repository contains a collection of cheatsheets I have put together for tools related to pentesting organizations that leverage cloud providers.
+
+https://github.com/dafthack/GraphRunner
+A Post-exploitation Toolset for Interacting with the Microsoft Graph API
 
 https://github.com/dafthack/MFASweep
 A tool for checking if MFA is enabled on multiple Microsoft Services
@@ -1641,6 +1659,9 @@ Automated Adversary Emulation Platform
 
 https://github.com/mlgualtieri/NTLMRawUnHide
 NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
+
+https://github.com/montysecurity/C2-Tracker
+Live Feed of C2 servers, tools, and botnets
 
 https://github.com/moonD4rk/HackBrowserData
 Decrypt passwords/cookies/history/bookmarks from the browser.
