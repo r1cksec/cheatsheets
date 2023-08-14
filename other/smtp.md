@@ -30,18 +30,23 @@ AUTH LOGIN
 VRFY <user>
 ```
 
-### Mail spoof countermeasures - SPF (Sender Policy Framework - check if host is authorized to send mail)
+### SPF (Sender Policy Framework)
 ```
-dig <domain> | grep spf
-```
-
-### DMARC (Domain-based Message Authentication, Reporting & Conformance - polycies instruct mail server how to process mail for given domain)
-```
-dig _dmarc.<domain> TXT
+dig +short txt <domain> | grep spf
 ```
 
-### DKIM (DomainKeys Identified Mail - mail is signed and validatet by foreign Mail Transfer Agent - key is held within TXT DNS-record)
+### DMARC (Domain-based Message Authentication, Reporting & Conformance)
 ```
-dig <domain> TXT | grep "p="
+Polycies instruct mail server how to process mail for given domain if dkim or spf fails.
+
+dig +short txt _dmarc.<domain>
+```
+
+### DKIM (DomainKeys Identified Mail)
+```
+Email is signed and validatet by foreign Mail Transfer Agent - key is held within TXT DNS-record.
+Possible values for selector: selector1, selector2, selector3
+
+dig +short txt selector1._domainkey.<domain>
 ```
 

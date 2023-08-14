@@ -1,57 +1,57 @@
 # Vocabulary
 
-## Administrative units
+#### Administrative units
 An administrative unit is an Azure AD resource that can be a container for users, groups, or devices. It is used to restrict permissions for a given role.
 
-## Azure App Service
+#### Azure App Service
 The Azure App Service provides HTTP-based services for hosting webapplications or REST APIs.
 
-## Azure Blob Storage
+#### Azure Blob Storage
 Stores unstructered data like files, videos, audio, etc.
 
-## Azure Key Vault 
+#### Azure Key Vault 
 Azure Key Vaults are places where encrypted secrets can stored (types: key, secret, certificate).
 
-## Azure Resource Manager
+#### Azure Resource Manager
 The ARM is the Client deployment and management service for Azure used to manage the access control of resources.
 
-## Conditional Access Policies
+#### Conditional Access Policies
 Fine-grained controls for access to resources and when or where MFA is applied.
 
-## Core Domain
+#### Core Domain
 The initial domain name (Example: tenant.onmicrosoft.com)
 
-## Enterprise
+#### Enterprise
 The Enterprise represents the Azure global unique identity that a company owns and allows access to subscriptions, tenants and services.
 
-## Function App
+#### Function App
 The also called Azure Functions provides the possibility to run code serverless. The code execution reacts to events like processing file uploads or scheduled tasks.
 
-## Managed Identity
+#### Managed Identity
 A Managed Identity is a Service Principal of a special type that may only be used with Azure resources. Managed Identities can be used to access Azure Key Vaults and storage accounts.
 
-### Hybrid Joined machine
+##### Hybrid Joined machine
 Device joined to an on-prem AD and Azure AD.
 
-## Resource
+#### Resource
 A Resource can be an account, run-book, virtual network, application, etc.
 
-## Runbook
+#### Runbook
 A Runbook is part of the Azure Automation service. It supports scripting languages like PowerShell or Python.
 
-## Storage Account
+#### Storage Account
 An Azure storage account can contain all sort of Azure Storage data objects, including blobs, file shares, queues, tables, and disks.
 
-## Subscriptions
+#### Subscriptions
 A Subscription is a logical unit of Azure services that links to an Azure account. The Subscriptions describes how you gain access to an Azure service. Each Subscription can only trust a single directory.
 
-## System-Assigned Managed Identity
+#### System-Assigned Managed Identity
 Once a resource has been deleted the SAMI will be deleted too.
 
-## Tenant
+#### Tenant
 A Tenant is an instance of an Enterprise. An Enterprise can have multiple tenants (like domains in a forest).
 
-## User-Assigned Managed Identity
+#### User-Assigned Managed Identity
 Once a resource has been deleted the UAMI won't not be deleted. UAMI can be used on multiple resources.
 
 # Resource Based Access Control
@@ -100,30 +100,30 @@ Management-Groups
 For each Azure AD Connect method the account MSOL_<installId> is created at on-prem AD.
 This user can reset the password of any user and DCsync permission on AD
 
-## Password Hash Synchronization
+### Password Hash Synchronization
 Using the Password Hash Synchronization (PHS) the passwords from on-premise AD are sent to the cloud. This is using a specific service account (MSOL_<installId>) that has similar rights like DCSync. Authentication takes place on Azure AD. Password expiry in on-prem domain does not reflect to Azure AD. Additionally the user Sync_<id> is created. This uswr can reset the password of every synced user.
 
-## Pass Through Authentication
+### Pass Through Authentication
 Using the Pass Through Authentication (PTA) the passwords are kept on-premise and an on-premise agent validates the authentication.
 
-## Active Directory Federation Services
+### Active Directory Federation Services
 Using the Active Directory Federation Services (ADFS) Azure AD is set as a trusted agent for federation and allows to login with on-premise credentials.
 
-## Azure AD Directory
+### Azure AD Directory
 Each tenant has a dedicated Directory, which is used to perform identity and access managment functions.
 
 # Token types
 
-## Access Token
+### Access Token
 Used in combination of user, client, and resource. Cannot be revoked until expiry (1 hour default).
 
-## ID Token
+### ID Token
 Used in combination of user and client. Contains information about the user.
 
-## Refresh Token
+### Refresh Token
 Used in combination of user and client. Used to get new access and ID tokens. Cannot be revoked until expiry (default 90 days of inactivity).
 
-## Primary Refresh Token
+### Primary Refresh Token
 Used for single sign and to obtain and refresh tokens to any application. Valid for 90 days and continuously renewed. Can be extracted from AzureAD joined or Hybrid joined machines.
 
 

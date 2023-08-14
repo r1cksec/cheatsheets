@@ -133,6 +133,9 @@ Another potato, using PrintNotify COM service for lifting rights
 https://github.com/BeichenDream/SharpToken
 Windows Token Stealing Expert
 
+https://github.com/BinBashBanana/html-obfuscator
+Easily obfuscate your html!
+
 https://github.com/BishopFox/cloudfox
 Automating situational awareness for cloud penetration tests.
 
@@ -325,11 +328,17 @@ A tool for generating multiple types of NTLMv2 hash theft files by Jacob Wilkin 
 https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner
 Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning.
 
+https://github.com/HackmichNet/AzTokenFinder
+Is a small tool to extract JWT (or JWT like looking data) from different processes, like PowerShell, Excel, Word or others.
+
 https://github.com/Hackndo/lsassy
 Extract credentials from lsass remotely
 
 https://github.com/Hackplayers/evil-winrm
 The ultimate WinRM shell for hacking/pentesting
+
+https://github.com/HalilDeniz/DNSWatch
+DNSWatch is a Python-based tool that allows you to sniff and analyze DNS (Domain Name System) traffic on your network.
 
 https://github.com/HarmJ0y/DAMP
 The Discretionary ACL Modification Project: Persistence Through Host-based Security Descriptor Modification
@@ -501,6 +510,9 @@ Awesome information for WebSockets security research
 
 https://github.com/PhilipHaglund/ADCS
 The two PowerShell scripts provides an easy and documented process to install, configure and setup a complete two-tier PKI environment.
+
+https://github.com/Plachtaa/VALL-E-X
+An open source implementation of Microsoft's VALL-E X zero-shot TTS model. Demo is available in https://plachtaa.github.io
 
 https://github.com/Postuf/telegram-osint-lib
 Telegram scenario-based API aimed at OSINT
@@ -687,6 +699,9 @@ Selenium-based Python script to automate sending emails to warm up your sender r
 
 https://github.com/WKL-Sec/dcomhijack
 Lateral Movement Using DCOM and DLL Hijacking
+
+https://github.com/WeAreCloudar/s3-account-search
+S3 Account Search
 
 https://github.com/Wh04m1001/DFSCoerce
 PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAddStdRoot (found by @xct_de) methods.
@@ -1860,6 +1875,9 @@ OWASP Joomla Vulnerability Scanner Project
 
 https://github.com/rezasp/joomscan
 OWASP Joomla! Vulnerability Scanner (JoomScan) is an open source project, developed with the aim of automating the task of vulnerability detection and reliability assurance in Joomla CMS deployments.
+
+https://github.com/righteousgambit/quiet-riot
+Unauthenticated enumeration of AWS, Azure, and GCP Principals
 
 https://github.com/robbyrussell/oh-my-zsh
 A delightful community-driven (with 1900+ contributors) framework for managing your zsh configuration.

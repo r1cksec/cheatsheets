@@ -19,6 +19,7 @@ https://aditya-pratap9557.medium.com/windows-triaging-with-powershell-part-1-par
 https://aditya-pratap9557.medium.com/windows-triaging-with-powershell-part-2-artifacts-collection-d28a8a9010cd ; #forensic #powershell #triage #artifacts
 https://alice.climent-pommeret.red/posts/process-killer-driver ; #lolbin #process-killer #windows
 https://an0n-r0.medium.com/backdooring-clickonce-net-for-initial-access-a-practical-example-1eb6863c0579 ; #phishing #windows #clickonce-dot-net #backdoor
+https://andresriancho.com/wp-content/uploads/2019/06/whitepaper-internet-scale-analysis-of-aws-cognito-security.pdf ; #aws #cognito #cloud #big-data
 https://assume-breach.medium.com/home-grown-red-team-using-lnk-files-to-bypass-applocker-3fb1ecae291f ; #windows #applocker #amsi #bypass #lnk
 https://attl4s.github.io/assets/pdf/Understanding_a_Payloads_Life.pdf ; #meterpreter #payload #c2 #reflective-loading #evasion #bypass
 https://axelarator.github.io/posts/codesigningcerts ; #windows #code-signing #signature #sigthief #certificate
@@ -91,6 +92,7 @@ https://decoder.cloud/2022/09/21/giving-juicypotato-a-second-chance-juicypotaton
 https://decoder.cloud/2023/02/13/localpotato-when-swapping-the-context-leads-you-to-system ; #windows #ntlm #local-potato
 https://defcon.org/images/defcon-19/dc-19-presentations/Duckwall/DEFCON-19-Duckwall-Bridge-Too-Far.pdf ; #802-1x #bridge #linux
 https://devblogs.microsoft.com/oldnewthing/20230303-00/?p=107894 ; #clipboard #enumeration #history
+https://diablohorn.com/2023/08/22/lateral-movement-a-conceptual-overview ; #lateral-movement #network #identity
 https://digitalinvestigator.blogspot.com/2022/11/techniques-in-email-forensic-analysis.html ; #forensic #email
 https://dirkjanm.io/obtaining-domain-admin-from-azure-ad-via-cloud-kerberos-trust ; #kerberos #active-directory #trust #azure #entra #ntlm
 https://diversenok.github.io/2022/08/10/Concealed-Detection.html ; #concealed-code-execution #detection #forensic #modules #process-identity
@@ -185,6 +187,7 @@ https://medium.com/@bobbyrsec/the-dangers-of-googles-zip-tld-5e1e675e59a5 ; #phi
 https://medium.com/@cyb_detective/how-to-automate-the-analysis-of-links-to-user-profiles-obtained-with-nickname-enumeration-tools-1d0abaf22c53 ; #osint #nickname #nuclei
 https://medium.com/@moon_osint/how-to-find-the-administrator-of-an-onion-site-89d176b0061a ; #osint #tor #darknet #threat-intelligence
 https://medium.com/@psychsecurity/mfa-phishing-using-novnc-and-aws-ebc781b4d093 ; #phishing #mfa #vnc
+https://medium.com/@two06/hacking-a-tapo-tc60-camera-e6ce7ca6cad1 ; #hardware #iot #internet-of-things #reverse-engineering #camera
 https://medium.com/@youcef.s.kelouaz/writing-a-sliver-c2-powershell-stager-with-shellcode-compression-and-aes-encryption-9725c0201ea8 ; #c2 #sliver #powershell #stager #shellcode #hollowing
 https://miltonamcs-private-organization.gitbook.io/analysing-a-malicious-github-repository ; #threat-intelligence #malware-analyse #github #repository
 https://montysecurity.medium.com/identifying-phishing-pages-with-shodan-3fa664bd5372 ; #threat-intelligence #shodan #phishing
@@ -200,7 +203,7 @@ https://news.sophos.com/en-us/2022/03/29/reconstructing-powershell-scripts-from-
 https://nixintel.info/osint/geolocating-mobile-phones-with-an-ip ; #osint #geo-location #ip
 https://nixintel.info/osint/geolocation-at-the-retail-park ; #osint #geo-location #image #map
 https://noperator.dev/posts/zip-snip ; #phishing #spoofing #zip #scheme-abuse
-https://notsosecure.com/hacking-aws-cognito-misconfigurations : #aws #cognito #cloud
+https://notsosecure.com/hacking-aws-cognito-misconfigurations ; #aws #cognito #cloud #lambda
 https://o365blog.com/post/gmsa ; #cloud #azure #entra #group-managed-service-account #gmsa #password-dump
 https://objective-see.org/downloads/MacMalware_2022.pdf ; #macosx #malware #analyse #threat-intelligence
 https://offensivedefence.co.uk/posts/dinvoke-syscalls ; #syscall #dinvoke
@@ -217,6 +220,7 @@ https://pentestbook.six2dez.com/enumeration/cloud/azure ; #cloud #azure #entra #
 https://pgj11.com/posts/Diamond-And-Sapphire-Tickets ; #kerberoasting #active-directory #diamond #sapphire #s4u2self
 https://plessas.net/facebookmatrix ; #osint #facebook
 https://portswigger.net/kb/issues ; #webapp #wiki #cheatsheets
+https://portswigger.net/research/smashing-the-state-machine ; #web #gitlab #race-conditions #http
 https://portswigger.net/web-security/all-materials ; #webapp #wiki #methodology
 https://posts.inthecyber.com/leveraging-microsoft-teams-for-initial-access-42beb07f12c4?gi=e95fe0fe7c69 ; #ms-teams #phishing #http-post
 https://posts.specterops.io/abusing-azure-app-service-managed-identity-assignments-c3adefccff95 ; #cloud #azure #entra #app-service #jwt
@@ -365,6 +369,7 @@ https://www.mdsec.co.uk/2022/10/analysing-lastpass-part-1 ; #browser #debbuging 
 https://www.mdsec.co.uk/2022/10/autodialdlling-your-way ; #lateral-movement #windows #autodial #dll #registry #nthash
 https://www.mdsec.co.uk/2023/03/exploiting-cve-2023-23397-microsoft-outlook-elevation-of-privilege-vulnerability ; #windows #outlook #calender-invite #cve #ntlm
 https://www.mdsec.co.uk/2023/06/cve-2023-26258-remote-code-execution-in-arcserve-udp-backup ; #java #deserialization #cve #jar
+https://www.mdsec.co.uk/2023/08/leveraging-vscode-extensions-for-initial-access ; #phishing #initial-access #uri-handler #vscode #extension
 https://www.mike-gualtieri.com/posts/live-off-the-land-and-crack-the-ntlmssp-protocol ; #windows #ntlm #lolbin #ntlmv2
 https://www.mwrcybersec.com/an-inside-look-how-to-distribute-credentials-securely-in-sccm ; #windows #sccm #system-centre-configuration-manager #secure-credential-distribution #setup
 https://www.n00py.io/2022/01/adding-dcsync-permissions-from-linux ; #active-directory #dcsync #linux #permissions
@@ -393,6 +398,8 @@ https://www.securesystems.de/blog/offphish-phishing-revisited-in-2023 ; #phishin
 https://www.securityjoes.com/post/process-mockingjay-echoing-rwx-in-userland-to-achieve-code-execution ; #windows #process-mockingjay #injection #rwx #edr #evasion #bypass
 https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation ; #threat-intelligence #malware-analyse #sparkrat #golang #shellcode
 https://www.shielder.com/blog/2022/09/how-to-decrypt-manage-engine-pmp-passwords-for-fun-and-domain-admin-a-red-teaming-tale ; #reverse-engineering #manageengine-password-manager #java-deserialization
+https://www.sonarsource.com/blog/playing-dominos-with-moodles-security-1 ; #moodle #web #xss #oauth #account-takeover #redirect
+https://www.sonarsource.com/blog/playing-dominos-with-moodles-security-1 ; #moodle #web #xss #remote-code-execution #rce #path-traversal
 https://www.synack.com/blog/exploits-explained-5-unusual-authentication-bypass-techniques ; #webapp #refresh-token
 https://www.synacktiv.com/en/publications/a-dive-into-microsoft-defender-for-identity.html ; #windows #etw #mdi #azure #entra #edr #ldap #kerberos #evasion #bypass
 https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html ; #cloud #azure #entra #methodology #recon #phs
@@ -401,7 +408,7 @@ https://www.synacktiv.com/publications/traces-of-windows-remote-command-executio
 https://www.synacktiv.com/publications/windows-secrets-extraction-a-summary ; #windows #lsass #dpapi #lsa
 https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2023-011.txt ; #printer #cve #wifi #password
 https://www.thehacker.recipes/ad/movement/kerberos/forged-tickets/diamond ; #kerberoast #active-directory #diamond #cheatsheets
-https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search-a-novel-method.html ; #phishing #uri #search-ms
+https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search-a-novel-method.html ; #phishing #uri-handler #search-ms
 https://www.tripwire.com/state-of-security/ghidra-101-creating-structures-in-ghidra ; #reverse-engineering #ghidra #data-structure
 https://www.trustedsec.com/blog/a-diamond-in-the-ruff ; #kerberoast #active-directory #golden #diamond
 https://www.trustedsec.com/blog/a-lapse-in-judgement ; #windows #laps #lab-setup #crackmapexec #detection #event-id
