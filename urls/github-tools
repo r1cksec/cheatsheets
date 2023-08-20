@@ -1735,6 +1735,9 @@ A tool for standing up (and tearing down!) purposefully insecure cloud infrastru
 https://github.com/nccgroup/ssh_user_enum
 SSH User Enumeration Script in Python Using The Timing Attack
 
+https://github.com/netero1010/GhostTask
+Create scheduled tasks using registry manipulations and bypass event logs such as 4698 "Scheduled task created"
+
 https://github.com/nettitude/Aladdin
 Aladdin is a payload generation technique based on the work of James Forshaw (@tiraniddo) that allows the deseriallization of a .NET payload and execution in memory.
 
@@ -2046,6 +2049,9 @@ Standalone binaries for Linux/Windows of Impacket's examples
 
 https://github.com/ropnop/kerbrute
 A tool to perform Kerberos pre-auth bruteforcing
+
+https://github.com/rosegabe/employeexing
+A script that collects employee data located within Xing
 
 https://github.com/rtrouton/create_macos_vm_install_dmg
 This script prepares macOS installer disk images for use with virtualization software like VMware Fusion or Parallels.

@@ -1,11 +1,6 @@
-### Get lets encrypt certificate on debian - insert into /etc/apt/sources.list
-```
-deb http://deb.debian.org/debian stretch-backports main
-```
-
 ### Install
 ```
-apt-get install certbot python-certbot-apache -t stretch-backports
+apt install certbot python3-certbot-apache
 ```
 
 ### Get fully qualified domain name
