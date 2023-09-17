@@ -28,3 +28,13 @@ netsh winhttp show proxy
 netsh.exe add helper <file>.dll
 ```
 
+### Port forward
+```
+netsh interface portproxy add v4tov4 listenport=9000 connectaddress=127.0.0.1 connectport=1080
+```
+
+### Show port forward settings
+```
+netsh interface portproxy show v4tov4
+```
+

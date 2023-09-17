@@ -16,7 +16,7 @@ nuclei -u <rhost> -o <file>
 nuclei -l <rhostsFile> -t osint/<template>.yaml -o <file>
 ```
 
-### Execute only osint tempaltes
+### Execute only osint templates
 ```
 nuclei -tags osint -var user=<user> -o <file>
 ```

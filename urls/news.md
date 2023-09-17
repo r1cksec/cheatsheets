@@ -2,11 +2,14 @@
 * https://allinfosecnews.com
 * https://archlinux.org/news
 * https://blog.badsectorlabs.com
+* https://cvecrowd.com
 * https://github.com/Simpsonpt/AppSecEzine
 * https://latesthackingnews.com/category/cyber-security-news
 * https://rss.voidsec.com
 * https://thehackernews.com
 * https://thisweekin4n6.com
 * https://www.golem.de/specials/security
+* https://www.ransomlook.io/recent
 * https://www.ransomware.live/#/recentvictims
+* https://www.reddit.com/r/redteamsec
 * https://www.threatable.io

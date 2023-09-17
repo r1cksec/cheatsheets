@@ -23,6 +23,7 @@ https://acut3.github.io/bug-bounty/2023/01/03/fetch-diversion.html ; #webapp #ap
 https://adepts.of0x.cc/vba-exports-runtime ; #shellcode #windows #vba
 https://aditya-pratap9557.medium.com/windows-triaging-with-powershell-part-1-parsing-event-logs-a6748657d150 ; #forensic #dfir #powershell #triage #event-logs
 https://aditya-pratap9557.medium.com/windows-triaging-with-powershell-part-2-artifacts-collection-d28a8a9010cd ; #forensic #dfir #powershell #triage #artifacts
+https://adsecurity.org/?p=4367 ; #active-directory #powershell #windows #group-managed-service-accounts #gmsa #msds-managedpassword
 https://alice.climent-pommeret.red/posts/process-killer-driver ; #lolbin #process-killer #windows
 https://amr-git-dot.github.io/forensic%20investigation/Breach_Investigation ; #dfir #forensic #methodology #memory-analyse
 https://an0n-r0.medium.com/backdooring-clickonce-net-for-initial-access-a-practical-example-1eb6863c0579 ; #phishing #windows #clickonce-dot-net #backdoor #initial-access
@@ -45,6 +46,7 @@ https://badoption.eu/blog/2023/09/28/ZipLink.html ; #phishing #lnk #hta #shortcu
 https://badoption.eu/blog/2023/10/03/MSIFortune.html ; #windows #msi #privilege-escalation #transform-files #dll-sideloading #powershell
 https://badoption.eu/docs/blog/2023/01/31/code_c2.html ; #c2 #command-and-control #vscode #tunnel
 https://bakerstreetforensics.com/2023/07/19/hunting-for-indicators-with-powershell-new-files ; #threat-intelligence #malware-analyse #forensic #dfir #powershell
+https://billdemirkapi.me/unpacking-cve-2021-40444-microsoft-office-rce ; #cve #windows #microsoft-word #zip #mhtml #iframe
 https://bishopfox.com/blog/introducing-cloudfox ; #cloud #aws #azure #entra #enumeration
 https://bishopfox.com/blog/spoofy-email-domain-spoofing ; #phishing #mail #dmark #dkim #spf
 https://bleekseeks.com/blog/how-to-protect-against-modern-phishing-attacks ; #phishing #evilginx #conditional-access-policy #continous-access-evaluation
@@ -81,7 +83,9 @@ https://blog.nietaanraken.nl/posts/aur-packages-github-repo-jacking ; #supply-ch
 https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary ; #threat-intelligence #malware-analyse #atm
 https://blog.phylum.io/attackers-repurposing-existing-python-based-malware-for-distribution-on-npm ; #supply-chain #npm #python #malware-analyse
 https://blog.projectdiscovery.io/nuclei-fuzz-all-the-way ; #webapp #nuclei #fuzzing #url
+https://blog.pulsedive.com/analyzing-darkgate-loaders ; #malware-analyzing #threat-intelligence #darkgate
 https://blog.redteam-pentesting.de/2022/introducing-pretender ; #pretender #responder #ntlm-relaying #dns #dhcpv6 #netbios #llmnr
+https://blog.sekoia.io/darkgate-internals ; #malware-analyzing #threat-intelligence #darkgate
 https://blog.sicuranext.com/how-attackers-fingerprint-your-wordpress-website ; #http #wordpress #methodology #user-enumeration
 https://blogs.juniper.net/en-us/threat-research/dreambus-botnet-resurfaces-targets-rocketmq-vulnerability ; #threat-intel #malware #rocketmq #interactsh
 https://blog.stratumsecurity.com/2023/06/01/sqli-the-road-to-bypassing-an-industry-leading-waf ; #webapp #waf #sqli
@@ -169,6 +173,7 @@ https://github.com/philippgille/docs-1/blob/master/docs/csharp/language-referenc
 https://github.com/pop3ret/AWSome-Pentesting/blob/main/AWSome-Pentesting-Cheatsheet.md ; #cloud #aws #cheatsheets
 https://github.com/specterops/at-ps ; #windows #powershell #wiki #methodology
 https://github.com/swisskyrepo/HardwareAllTheThings ; #hardware #cheatsheets #wiki
+https://github.com/tothi/pwn-hisilicon-dvr ; #hisilicon #dvr #hi3520d #firmware #remote-code-execution #telnet
 https://godiego.co/posts/STO-Azure ; #cloud #azure #entra #subdomain-takeover #cloudapp #traffic-manager
 https://hackcompute.com/hacking-epp-servers ; #webapp #epp #dns #extensible-provision-protocol
 https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults ; #cloud #aws #organizations #cheatsheets
@@ -219,6 +224,7 @@ https://labs.withsecure.com/publications/scheduled-task-tampering ; #windows #pe
 https://ldapwiki.com ; #active-directory #ldap #wiki #documentation
 https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/malware-naming?view=o365-worldwide ; #windows #documentation #malware
 https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/wdac-and-applocker-overview ; #windows #applocker #windows-defender-application-control #wdac
+https://libdzonerzy.so/articles/from-zero-to-botnet-glinet.html ; #cve #gl.inet #router #firmware #lua
 https://luemmelsec.github.io/gaylord-M-FOCker-ready-to-pwn-your-MIFARE-tags ; #rfid #nfc #flipper-zero #proxmark3
 https://luemmelsec.github.io/Pentest-Everything-SMTP ; #smtp #simple-mail-transfer-protocol #mail-transfer-agent
 https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI ; #active-directory #certificate-service #adcs #methodology #esc1-10
@@ -487,6 +493,7 @@ https://www.osintme.com/index.php/2022/10/18/the-osint-me-ultimate-guide-to-tele
 https://www.patreon.com/posts/91648640?utm_campaign=postshare_creator ; #dotnet #console-app #initial-access
 https://www.pavel.gr/blog/neutralising-amsi-system-wide-as-an-admin ; #windows #amsi #bypass #admin #dll #scanbuffer #scanstring
 https://www.pavel.gr/blog/obfuscating-rubeus-using-codecepticon ; #obtaining #windows #rubeus #certificate
+https://www.pentestpartners.com/security-blog/living-off-the-land-ad-cs-style ; #windows #active-directory #adcs #certificate-service #manage-user-certificates
 https://www.pnfsoftware.com/blog/analyzing-golang-executables ; #reverse-engineering #golang #malware-analyse
 https://www.politoinc.com/post/ldap-queries-for-offensive-and-defensive-operations ; #active-directory #ldap #queries #enumeration #kerberos #shadow-credentials #sid-history
 https://www.politoinc.com/post/playing-with-bubbles-an-introduction-to-dll-sideloading ; #windows #dll #sideloading #hijack #spartacus
@@ -496,6 +503,7 @@ https://www.prosec-networks.com/en/blog/petit-potam-ntlm-relay-angriff ; #active
 https://www.rapid7.com/blog/post/2023/05/05/appdomain-manager-injection-new-techniques-for-red-teams ; #windows #lateral-movement #persistence #initial-access #appdomain-manager-injection #powershell
 https://www.redteam.cafe/phishing/long-live-dmarc-email-spoof-issues ; #phishing #dmarc #spoofing #mail
 https://www.redteam.cafe/red-team/dll-sideloading/dll-sideloading-not-by-dllmain ; #windows #dll #sideloading #hijack #frida
+https://www.reliaquest.com/blog/scattered-spider-attack-analysis-account-compromise ; #scattered-spider #ransomware #threat-intelligence
 https://www.resecurity.com/blog/article/ransomware-attacks-against-the-energy-sector-on-the-rise-nuclear-and-oil-gas-are-major-targets-2024 ; #ransomware #threat-intel #negotiation
 https://www.resecurity.com/blog/article/smishing-triad-targeted-usps-and-us-citizens-for-data-theft ; #threat-intel #telegram #smishing #phishing #sql-injection
 https://www.riskinsight-wavestone.com/en/2023/10/a-universal-edr-bypass-built-in-windows-10 ; #edr #windows #evasion #bypass
@@ -514,6 +522,7 @@ https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkr
 https://www.shielder.com/blog/2022/09/how-to-decrypt-manage-engine-pmp-passwords-for-fun-and-domain-admin-a-red-teaming-tale ; #reverse-engineering #manageengine-password-manager #java-deserialization
 https://www.sonarsource.com/blog/playing-dominos-with-moodles-security-1 ; #moodle #web #xss #oauth #account-takeover #redirect
 https://www.sonarsource.com/blog/playing-dominos-with-moodles-security-1 ; #moodle #web #xss #remote-code-execution #rce #path-traversal
+https://www.sonarsource.com/blog/visual-studio-code-security-deep-dive-into-your-favorite-editor ; #windows #phishing #vscode #visual-studio-code #extension #cve
 https://www.synack.com/blog/exploits-explained-5-unusual-authentication-bypass-techniques ; #webapp #refresh-token
 https://www.synacktiv.com/en/publications/a-dive-into-microsoft-defender-for-identity.html ; #windows #etw #mdi #azure #entra #edr #ldap #kerberos #evasion #bypass
 https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html ; #cloud #azure #entra #methodology #recon #phs

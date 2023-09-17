@@ -3,13 +3,10 @@
 htpasswd -c /etc/apache2/.htpasswd <user>
 ```
 
-### Add dir for basic auth
+### Basic authentication
 ```
 vim /etc/apache2/apache2.conf
-```
 
-### Basic authentication inside: /etc/apache2/apache2.conf
-```
 <Directory /var/www/html>
     AuthType Basic
     AuthName "Restricted Content"
@@ -37,6 +34,18 @@ vim /etc/apache2/apache2.conf
 </VirtualHost>
 ```
 
+### Filter User-Agents
+```
+vim /etc/apache2/apache2.conf
+
+<Directory /var/www/html>
+    RewriteEngine on
+    RewriteCond %{HTTP_USER_AGENT} "Windows Installer"
+    RewriteRule ^.*$ %{request_filename} [L]
+    RewriteRule ^ - [F,L]
+</Directory>
+```
+
 ### Disable packages
 ```
 a2disconf <package>
@@ -48,8 +57,10 @@ a2enmod headers
 sed -i '$ a\Header always append X-Frame-Options DENY' /etc/apache2/apache2.conf
 ```
 
-### Remove apache version inside: /etc/apache2/apache2.conf
+### Remove apache version
 ```
+vim /etc/apache2/apache2.conf
+
 Header unset Server
 ServerSignature Off
 ServerTokens Prod

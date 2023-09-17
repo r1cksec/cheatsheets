@@ -13,6 +13,9 @@ Quick POC looking at how encryption works for LAPS (v2)
 https://gist.github.com/zblurx/009633b2db25918bdbbff664a01508fc
 Simple script to extract local admin password in cleartext with LAPSv2 using impacket
 
+https://github.com/0xB455/m365-fatigue
+This Python script automates the authentication process for Microsoft 365 by using the device code flow and Selenium for automated login. It keeps bombing the user with MFA requests and stores the access_token once the MFA was approved.
+
 https://github.com/0xZDH/o365spray
 Username enumeration and password spraying tool aimed at Microsoft O365.
 
@@ -151,6 +154,9 @@ Adversary Emulation Framework
 https://github.com/BishopFox/spoofcheck
 Simple script that checks a domain for email protections
 
+https://github.com/BlackSnufkin/GhostDriver
+yet another AV killer tool using BYOVD
+
 https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence
 Protintelligence is a Python script for the OSINT and Cyber Community. It finds intelligence on Protonmail accounts
 
@@ -171,6 +177,9 @@ A tool for enumerating potential hosts that are open to GSSAPI abuse within Acti
 
 https://github.com/CTI-Driven/LOLBins
 The LOLBins CTI-Driven (Living-Off-the-Land Binaries Cyber Threat Intelligence Driven) is a project that aims to help cyber defenders understand how LOLBin binaries are used by threat actors during an intrusion in a graphical and digestible format for the TIPs platform using the STIX format.
+
+https://github.com/CalfCrusher/MaccaroniC2
+A proof-of-concept Command & Control framework that utilizes the powerful AsyncSSH Python library which provides an asynchronous client and server implementation of the SSHv2 protocol and use PyNgrok wrapper for ngrok integration.
 
 https://github.com/CiscoCXSecurity/bbqsql
 SQL Injection Exploitation Tool
@@ -225,6 +234,9 @@ CMSmap is a python open source CMS scanner that automates the process of detecti
 
 https://github.com/DragoQCC/HardHatC2
 A C# Command & Control framework
+
+https://github.com/Drew-Sec/EvilSlackbot
+A Slack bot phishing framework for Red Teaming exercises
 
 https://github.com/EncodeGroup/Gopher
 C# tool to discover low hanging fruits
@@ -775,6 +787,9 @@ A .NET tool for exporting and importing certificates without touching disk.
 https://github.com/ThreatUnkown/jsubfinder
 jsubfinder searches webpages for javascript & analyzes them for hidden subdomains and secrets (wip).
 
+https://github.com/Trevohack/DynastyPersist
+A Linux persistence tool!
+
 https://github.com/Tylous/Limelighter
 A tool for generating fake code signing certificates or signing real ones
 
@@ -810,6 +825,9 @@ Process Ghosting in C#
 
 https://github.com/X-C3LL/SharpNTLMRawUnHide
 C# version of NTLMRawUnHide
+
+https://github.com/Xacone/BestEdrOfTheMarket
+Little AV/EDR bypassing lab for training & learning purposes
 
 https://github.com/XiaoliChan/wmiexec-Pro
 New generation of wmiexec.py
@@ -924,6 +942,9 @@ A tool to escalate privileges in an active directory network by coercing authent
 
 https://github.com/bee-san/pyWhat
 Identify anything. pyWhat easily lets you identify emails, IP addresses, and more. Feed it a .pcap file or some text and it'll tell you what it is!
+
+https://github.com/bellingcat/instagram-location-search
+Finds Instagram location IDs near a specified latitude and longitude.
 
 https://github.com/bellingcat/reddit-post-scraping-tool
 Given a subreddit name and a keyword, this program returns all top (by default) posts that contain the specified keyword.
@@ -1551,6 +1572,9 @@ This is a comprehensive, feature-rich API Fuzzer designed to help discover poten
 
 https://github.com/khyrenz/parseusbs
 Parses USB connection artifacts from offline Registry hives
+
+https://github.com/kleiton0x00/Proxy-DLL-Loads
+A proof of concept demonstrating the DLL-load proxying using undocumented Syscalls.
 
 https://github.com/kleiton0x00/RedditC2
 Abusing Reddit API to host the C2 traffic, since most of the blue-team members use Reddit, it might be a great way to make the traffic look legit.
@@ -2227,6 +2251,9 @@ DirSync is a simple proof of concept PowerShell module to demonstrate the impact
 https://github.com/skahwah/SQLRecon
 A C# MS SQL toolkit designed for offensive reconnaissance and post-exploitation.
 
+https://github.com/skelsec/evilrdp
+Th evil twin of aardwolfgui using the aardwolf RDP client library that gives you extended control over the target and additional scripting capabilities from the command line.
+
 https://github.com/skelsec/octopwnweb
 OctoPwn in your browser
 
@@ -2407,6 +2434,9 @@ UAC Bypass By Abusing Kerberos Tickets
 https://github.com/wh0amitz/S4UTomato
 Escalate Service Account To LocalSystem via Kerberos
 
+https://github.com/wh0amitz/SharpRODC
+To audit the security of read-only domain controllers
+
 https://github.com/wixtoolset/wix3
 WiX Toolset v3.x (create msi files)
 
@@ -2421,6 +2451,9 @@ Teamsniper is a tool for fetching keywords in a Microsoft Teams such as (passwor
 
 https://github.com/xalicex/LOLDrivers_finder
 The purpose of this project is to retrieve potential process killer drivers.
+
+https://github.com/xforcered/ADOKit
+Azure DevOps Services Attack Toolkit
 
 https://github.com/xforcered/InvisibilityCloak
 Proof-of-concept obfuscation toolkit for C# post-exploitation tools
