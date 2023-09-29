@@ -65,10 +65,10 @@ https://github.com/AdrianVollmer/PowerHub
 A post exploitation tool based on a web application, focusing on bypassing endpoint protection and application whitelisting
 
 https://github.com/AdrianVollmer/PowerSploit
-[Fork] PowerSploit - A PowerShell Post-Exploitation Framework
+Inject shellcode into the process ID of your choosing or within the context of the running PowerShell process
 
 https://github.com/AdrianVollmer/PowerSploit
-Inject shellcode into the process ID of your choosing or within the context of the running PowerShell process
+[Fork] PowerSploit - A PowerShell Post-Exploitation Framework
 
 https://github.com/Aetsu/OffensivePipeline
 OffensivePipeline allows to download, compile (without Visual Studio) and obfuscate C# tools for Red Team exercises.
@@ -160,6 +160,9 @@ Threadless Process Injection using remote function hooking.
 https://github.com/CCob/gssapi-abuse
 A tool for enumerating potential hosts that are open to GSSAPI abuse within Active Directory networks
 
+https://github.com/CTI-Driven/LOLBins
+The LOLBins CTI-Driven (Living-Off-the-Land Binaries Cyber Threat Intelligence Driven) is a project that aims to help cyber defenders understand how LOLBin binaries are used by threat actors during an intrusion in a graphical and digestible format for the TIPs platform using the STIX format.
+
 https://github.com/CiscoCXSecurity/bbqsql
 SQL Injection Exploitation Tool
 
@@ -201,6 +204,9 @@ Crack any Microsoft Windows users password without any privilege (Guest account 
 
 https://github.com/Datalux/Osintgram
 Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname
+
+https://github.com/DidierStevens/Beta
+Beta versions of my software for malware analyse (onenote)
 
 https://github.com/Dionach/CMSmap
 CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
@@ -400,6 +406,9 @@ PXEThief is a set of tooling that can extract passwords from the Operating Syste
 https://github.com/Macmod/goblob
 A fast enumeration tool for publicly exposed Azure Storage blobs.
 
+https://github.com/Maldev-Academy/MaldevAcademyLdr.1
+Maldev Academy's October update saw several interesting modules being released to our users. One of them was our DLL loader that was successfully tested against several EDRs including MDE and Crowdstrike.
+
 https://github.com/Malwarize/webpalm
 WebPalm is a powerful command-line tool for website mapping and web scraping. With its recursive approach, it can generate a complete tree of all webpages and their links on a website. It can also extract data from the body of each page using regular expressions, making it an ideal tool for web scraping and data extraction.
 
@@ -435,6 +444,9 @@ Patch AMSI and ETW
 
 https://github.com/Mr-Un1k0d3r/SCShell
 Fileless lateral movement tool that relies on ChangeServiceConfigA to run command
+
+https://github.com/MrEmpy/Reaper
+Proof of concept on BYOVD attack (bring your own vulnerable driver)
 
 https://github.com/MustafaBilgici/SucoshScanny
 "Sucosh" is an automated Source Code vulnerability scanner and assessment framework for Python(Flask-Django) & NodeJs capable of performing code review in Web Application Developing or Source Code Analysis processes.
@@ -474,6 +486,9 @@ Find netblocks owned by a company
 
 https://github.com/NetSPI/PowerUpSQL
 PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
+
+https://github.com/NetSPI/Powerhuntshares
+PowerHuntShares is an audit script designed in inventory, analyze, and report excessive privileges configured on Active Directory domains.
 
 https://github.com/Nettitude/PoshC2
 A proxy aware C2 framework used to aid red teamers with post-exploitation and lateral movement.
@@ -1156,6 +1171,9 @@ Active Directory ACL exploitation with BloodHound
 https://github.com/fox-it/adconnectdump
 Dump Azure AD Connect credentials for Azure AD and Active Directory
 
+https://github.com/fox-it/dissect
+Dissect is a digital forensics & incident response framework and toolset that allows you to quickly access and analyse forensic artefacts from various disk and file formats, developed by Fox-IT (part of NCC Group).
+
 https://github.com/foxlox/GIUDA
 Ask a TGS on behalf of another user without password
 
@@ -1411,6 +1429,9 @@ Run macOS on QEMU/KVM. With OpenCore + Big Sur + Monterey + Ventura support now!
 https://github.com/khyatiparekh/API-Fuzzer
 This is a comprehensive, feature-rich API Fuzzer designed to help discover potential vulnerabilities in your application. Features
 
+https://github.com/khyrenz/parseusbs
+Parses USB connection artifacts from offline Registry hives
+
 https://github.com/kleiton0x00/RedditC2
 Abusing Reddit API to host the C2 traffic, since most of the blue-team members use Reddit, it might be a great way to make the traffic look legit.
 
@@ -1572,6 +1593,12 @@ Multi-Packer wrapper letting us daisy-chain various packers, obfuscators and oth
 
 https://github.com/mgeeky/SharpWebServer
 Red Team oriented C# Simple HTTP & WebDAV Server with Net-NTLM hashes capture functionality
+
+https://github.com/mgeeky/msi-shenanigans
+Proof of Concept code and samples presenting emerging threat of MSI installer files.
+
+https://github.com/mgeeky/msidump
+MSI Dump - a tool that analyzes malicious MSI installation packages, extracts files, streams, binary data and incorporates YARA scanner.
 
 https://github.com/micahvandeusen/gMSADumper
 Lists who can read any gMSA password blobs and parses them if the current user has access.
@@ -1765,6 +1792,9 @@ In-depth Attack Surface Mapping and Asset Discovery
 https://github.com/p0dalirius/Coercer
 A python script to automatically coerce a Windows server to authenticate on an arbitrary machine through 9 methods.
 
+https://github.com/p0dalirius/ExtractBitlockerKeys
+A system administration or post-exploitation script to automatically extract the bitlocker recovery keys from a domain.
+
 https://github.com/p0dalirius/LDAPWordlistHarvester
 A tool to generate a wordlist from the information present in LDAP, in order to crack passwords of domain accounts.
 
@@ -1830,6 +1860,9 @@ Nosey Parker is a command-line program that finds secrets and sensitive informat
 
 https://github.com/projectdiscovery/asnmap
 Go CLI and Library for quickly mapping organization network ranges using ASN information.
+
+https://github.com/projectdiscovery/interactsh
+An OOB interaction gathering server and client library
 
 https://github.com/projectdiscovery/katana
 A next-generation crawling and spidering framework.
@@ -2074,6 +2107,12 @@ Text-prompted Generative Audio Model
 https://github.com/swisskyrepo/HardwareAllTheThings
 Hardware/IOT Pentesting Wiki
 
+https://github.com/synacktiv/GPOddity
+The GPOddity project, aiming at automating GPO attack vectors through NTLM relaying (and more).
+
+https://github.com/synacktiv/ntdissector
+Ntdissector is a tool for parsing records of an NTDS database. Records are dumped in JSON format and can be filtered by object class.
+
 https://github.com/t3l3machus/Villain
 Villain is a Windows & Linux backdoor generator and multi-session handler that allows users to connect with sibling servers (other machines running Villain) and share their backdoor sessions, handy for working as a team.
 
@@ -2196,6 +2235,9 @@ UAC Bypass By Abusing Kerberos Tickets
 
 https://github.com/wh0amitz/S4UTomato
 Escalate Service Account To LocalSystem via Kerberos
+
+https://github.com/wixtoolset/wix3
+WiX Toolset v3.x (create msi files)
 
 https://github.com/wpscanteam/wpscan
 WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.

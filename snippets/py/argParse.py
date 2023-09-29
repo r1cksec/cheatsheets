@@ -28,7 +28,7 @@ argumentParser.add_argument("-t", "--timeout", dest="timeout",
 
 args = argumentParser.parse_args()
 
-# if no module option passed set print exploit and auxiliary true
+# print verbose
 if (args.verbose):
     print("Print verbose")
 

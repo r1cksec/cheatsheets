@@ -1,6 +1,6 @@
 using System.IO;
 
-string path = @"C:\directory";
+string path = @"C:\\directory";
 
 if (!Directory.Exists(path))
 {

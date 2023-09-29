@@ -1,0 +1,8 @@
+<!-- post install actions -->
+<Binary Id="someId3" SourceFile="file.vbs" />
+<CustomAction Id="someId4" Execute="immediate" BinaryKey="someId3" VBScriptCall="" Return="ignore" Impersonate="yes" />
+
+<InstallExecuteSequence>
+    <Custom Action="someId4" Before="InstallFinalize">NOT REMOVE</Custom>
+</InstallExecuteSequence>
+

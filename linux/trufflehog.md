@@ -16,3 +16,8 @@ trufflehog git file://<localGitRepo> --no-update
 trufflehog filesystem <localGitRepo> --no-update
 ```
 
+### Scan CircleCI logs
+```
+trufflehog circleci –token=<circleCiApiToken>
+```
+
