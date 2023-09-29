@@ -5,6 +5,7 @@ https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 ```
 
 ### Services
+* https://admin.exchange.microsoft.com
 * https://admin.microsoft.com
 * https://intune.microsoft.com
 * https://myapps.microsoft.com

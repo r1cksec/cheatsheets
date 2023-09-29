@@ -54,6 +54,7 @@ https://tls.bufferover.run ; #osint #certificate #domain #subdomain
 https://urlscan.io ; #osint #asn #subdomain #file-search #rootdomain
 https://viewdns.info ; #osint #asn #subdomain #whois #nameserver #dns-history #geolocation #portscan #rootdomain
 https://viz.greynoise.io ; #osint #portscan #threat-intelligence
+https://whois.domaintools.com ; #whois #domain #dns-history #nameserver #asn #geolocation
 https://wigle.net ; #osint #wifi #geolocation #wardriving
 https://www.crunchbase.com ; #osint #company-registry #acquisition
 https://www.expireddomains.net ; #osint #dns #domain #auction

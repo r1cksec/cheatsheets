@@ -31,6 +31,9 @@ Remote Desktop Protocol .NET Console Application for Authenticated Command Execu
 https://github.com/0xv1n/proc-suspend
 powershell script i wrote that can suspend an arbitrary process (with limits)
 
+https://github.com/12Knocksinna/Office365itpros
+A collection of powershell scripts for administration of Office 365
+
 https://github.com/1njected/CMLoot
 Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) SMB shares
 
@@ -129,6 +132,9 @@ Another potato, using PrintNotify COM service for lifting rights
 
 https://github.com/BeichenDream/SharpToken
 Windows Token Stealing Expert
+
+https://github.com/Bert-JanP/Incident-Response-Powershell
+This page contains Powershell Digital Forensics & Incident Response solutions. The first is a complete incident response script. The second is a page where all the individual incident response commands are listed.
 
 https://github.com/BinBashBanana/html-obfuscator
 Easily obfuscate your html!
@@ -1146,6 +1152,9 @@ Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, fi
 
 https://github.com/efchatz/WPAxFuzz
 A full-featured open-source Wi-Fi fuzzer
+
+https://github.com/efchatz/pandora
+A red team tool that assists into extracting/dumping master credentials and/or entries from different password managers.
 
 https://github.com/egbertbouman/youtube-comment-downloader
 Simple script for downloading Youtube comments without using the Youtube API

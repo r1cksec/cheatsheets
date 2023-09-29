@@ -287,6 +287,7 @@ https://posts.specterops.io/domain-of-thrones-part-i-c183ee4bf379 ; #active-dire
 https://posts.specterops.io/from-da-to-ea-with-esc5-f9f045aa105c ; #active-directory #certificate-service #adcs #esc5 #ldap
 https://posts.specterops.io/get-your-socks-on-with-gtunnel-4a70a9b82b24 ; #pivoting #socks #gtunnel #proxy
 https://posts.specterops.io/introducing-bloodhound-4-2-the-azure-refactor-1cff734938bd ; #cloud #azure #entra #azure #entrahound
+https://posts.specterops.io/lateral-movement-without-lateral-movement-brought-to-you-by-configmgr-9b79b04634c7 ; #sccm #system-centre-configuration-manager #windows #lateral-movement #active-directory
 https://posts.specterops.io/less-smartscreen-more-caffeine-ab-using-clickonce-for-trusted-code-execution-1446ea8051c5?gi=bf1d6922691f ; #phishing #smartscreen #clickonce
 https://posts.specterops.io/offensive-lateral-movement-1744ae62b14f?gi=6820f895197f ; #lateral-movement #windows #named-pipes #wmi #dcom #msbuild #mshta
 https://posts.specterops.io/performance-diagnostics-and-wmi-21f3e01790d3?gi=194cff02dd96 ; #lateral-movement #windows #wmi #powershell
@@ -301,6 +302,7 @@ https://powerseb.github.io/posts/LSASS-parsing-without-a-cat ; #windows #lsass #
 https://powersploit.readthedocs.io/en/latest ; #windows #powershell #documentation
 https://powerzure.readthedocs.io/en/latest/Functions/infogathering.html; #cloud #azure #entra #powerzure #documentation #wiki
 https://ppn.snovvcrash.rocks/red-team/maldev/code-injection/shellcode-runners ; #shellcode #vba #powershell #csharp #cheatsheets
+https://practical365.com/teams-external-access-allowlist ; #ms-teams #phishing #external-access-configuration
 https://practicalsecurityanalytics.com/new-amsi-bypass-using-clr-hooking ; #windows #amsi #bypass #clr-hooking #api-call
 https://prfalken.org/index.php/2023/01/26/installing-a-malware-analysis-lab ; #lab #setup #malware-analyse #methodology
 https://prfalken.org/index.php/2023/01/26/installing-a-malware-analysis-lab ; #threat-intelligence #malware-analyzing #lab-setup #windows #vm #flare-vm #remnux

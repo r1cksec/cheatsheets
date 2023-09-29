@@ -1,5 +1,6 @@
 | Category | Description
 | - | - |
+| Api | Collection of curl commands
 | Exploits | Sorted by CVE
 | Fuzzing  | Lists with various contents
 | Linux    | Command line for Linux

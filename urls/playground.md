@@ -3,6 +3,7 @@
 * https://github.com/bkimminich/juice-shop
 * https://github.com/dineshshetty/Android-InsecureBankv2
 * https://github.com/hvqzao/java-deserialize-webapp
+* https://github.com/KolbTo/Vulnerable_Spring_Boot_Project
 * https://github.com/mvelazc0/BadZure
 * https://github.com/Orange-Cyberdefense/GOAD
 * https://github.com/payatu/diva-android
