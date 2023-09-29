@@ -1,5 +1,5 @@
 ### Source
-https://urlscan.io/docs/api/
+https://urlscan.io/docs/api
 
 ### Get root- and subdomains
 ```

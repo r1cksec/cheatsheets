@@ -1,4 +1,5 @@
 https://3wifi.stascorp.com ; #wifi #wardriving #osint #geolocation
+https://aadinternals.com/osint ; #osint #azure #entra #tenant #domain
 https://app.binaryedge.io ; #osint #portscan #email #dataleak #breach #leak
 https://app.shadowmap.org ; #osint #sun #map #image #geolocation
 https://app.validin.com ; #osint #nameserver #dns-history #rootdomain
@@ -46,12 +47,12 @@ https://saucenao.com ; #osint #reverse-image-search
 https://search.censys.io ; #osint #subdomain #asn #portscan
 https://searchcode.com ; #osint #source-code #repository
 https://securitytrails.com ; #osint #subdomain #nameserver #portscan #dns-history #whois
-https://spyonweb.com ; #osint #domain #nameserver #dns-history #google-id #google-analytics #google-adsense #rootserver
+https://spyonweb.com ; #osint #nameserver #dns-history #google-id #google-analytics #google-adsense #rootserver
 https://sslmate.com ; #osint #domain #subdomain #certificate
 https://tineye.com ; #osint #reverse-image-search
 https://tls.bufferover.run ; #osint #certificate #domain #subdomain
-https://urlscan.io ; #osint #asn #domain #subdomain #file-search #rootdomain
-https://viewdns.info ; #osint #asn #domain #subdomain #whois #nameserver #dns-history #geolocation #portscan #rootdomain
+https://urlscan.io ; #osint #asn #subdomain #file-search #rootdomain
+https://viewdns.info ; #osint #asn #subdomain #whois #nameserver #dns-history #geolocation #portscan #rootdomain
 https://viz.greynoise.io ; #osint #portscan #threat-intelligence
 https://wigle.net ; #osint #wifi #geolocation #wardriving
 https://www.crunchbase.com ; #osint #company-registry #acquisition
@@ -62,13 +63,12 @@ https://www.locatefamily.com ; #osint #firstname #lastname
 https://www.northdata.de ; #osint #company-registry #acquisition
 https://www.onyphe.io ; #osint #domain #subdomain #asn #portscan #whois
 https://www.rask.ai ; #osint #video #translation
-https://www.robtex.com ; #osint #nameserver #whois #asn #domain #subdomain #rootdomain
+https://www.robtex.com ; #osint #nameserver #whois #asn #subdomain #rootdomain
 https://www.shodan.io ; #osint #portscan #certificate #asn #geolocation
 https://www.skymem.info ; #osint #domain #email
 https://www.smappen.com/app ; #osint #map #geolocation #distance
 https://www.suncalc.org ; #osint #sun #map #geolocation
 https://www.unternehmensregister.de ; #osint #company-registry #acquisition
 https://www.xdcc.eu ; #osint #irc-search
-https://www.zoomeye.org ; #osint #portscan #certificate #asn #domain #rootdomain
+https://www.zoomeye.org ; #osint #portscan #certificate #asn #rootdomain
 https://ytcomment.kmcat.uk ; #osint #youtube #comment
-https://aadinternals.com/osint ; #osint #azure #entra #tenant #domain

@@ -28,3 +28,8 @@ site:*.<targetDomain> intext:"Welcome to JIRA"
 site:*.<targetDomain> intitle:"Log In JIRA"
 ```
 
+### If misconfigured a registration may be possible
+```
+<company>.atlassian.net
+```
+

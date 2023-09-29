@@ -7,6 +7,7 @@
 * https://github.com/Orange-Cyberdefense/GOAD
 * https://github.com/payatu/diva-android
 * https://github.com/RhinoSecurityLabs/cloudgoat
+* https://github.com/simondotsh/nsec2023-ctf-aws
 * https://github.com/WebGoat/WebGoat
 * https://overthewire.org/wargames
 * https://portswigger.net/web-security

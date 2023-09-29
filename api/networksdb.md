@@ -1,7 +1,7 @@
 ### Source
 https://networksdb.io/api/docs
 
-### Retreive information about an organisation 
+### Get ASN and organisation
 ```
 curl -s -H "X-Api-Key: <apiKey>" "https://networksdb.io/api/org-search" -d search=<companyName>
 ```

@@ -31,6 +31,11 @@ msf> services <rhost>
 msf> services -R -u -p <rport>
 ```
 
+### Export services to file
+```
+msf> services -u -o <file>
+```
+
 ### Execute command on all sessions
 ```
 msf> sessions -c ipconfig

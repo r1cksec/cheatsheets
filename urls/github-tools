@@ -448,6 +448,9 @@ This is a simple example of DLL hijacking enabling proxy execution.
 https://github.com/MitchHS/Mischief-DLL-Stager
 Reasonably undetected shellcode stager and executer.
 
+https://github.com/Mr-Un1k0d3r/.NetConfigLoader
+.net config loader
+
 https://github.com/Mr-Un1k0d3r/AMSI-ETW-Patch
 Patch AMSI and ETW
 
@@ -1273,6 +1276,9 @@ An ADCS Exploitation Automation Tool Weaponizing Certipy and Coercer
 https://github.com/gtworek/PSBits
 Simple (relatively) things allowing you to dig a bit deeper than usual.
 
+https://github.com/guibacellar/TEx
+TEx is a Telegram Explorer tool created to help Researchers, Investigators and Law Enforcement Agents to Collect and Process the Huge Amount of Data Generated from Criminal, Fraud, Security and Others Telegram Groups.
+
 https://github.com/h311d1n3r/Cerberus
 A Python tool to unstrip Rust binaries on Linux
 
@@ -1311,6 +1317,9 @@ Defeating Windows User Account Control
 
 https://github.com/hisxo/JSpector
 A simple Burp Suite extension to crawl JavaScript (JS) files in passive mode and display the results directly on the issues
+
+https://github.com/hoodoer/JS-Tap
+JavaScript payload and supporting software to be used as XSS payload or post exploitation implant to monitor users as they use the targeted application.
 
 https://github.com/hthh/switch-reversing
 My Switch reversing scripts

@@ -9,3 +9,8 @@ IIS 8.5 - Windows Server 2012 R2 or Windows 8.1
 IIS 10  - Windows Server 2016 or Windows 10
 ```
 
+### Logs
+```
+C:\inetpub\logs\LogFiles
+```
+
