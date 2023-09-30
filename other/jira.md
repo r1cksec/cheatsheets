@@ -21,3 +21,10 @@ https://<rhost>/servicedesk/customer/user/login
 https://<rhosts>/issues/?jql=summary%20~%20%22*<searchKey>*%22%20OR%20description%20~%20%22*<searchKey>*%22%20ORDER%20BY%20lastViewed%20DESC  
 ```
 
+### Google Dorks
+```
+site:*.<targetDomain> intext:"Atlassian Jira Project Management Software"
+site:*.<targetDomain> intext:"Welcome to JIRA"
+site:*.<targetDomain> intitle:"Log In JIRA"
+```
+

@@ -3,10 +3,8 @@ https://github.com/owasp-amass/amass
 
 ### Modules:
 ```
-intel - collect further root domains associated with the organisation 
+intel - collect further rootdomains associated with the organisation 
 enum - collect subdomains
-viz - visual result presentation
-track - compare results across enumerations
 ```
 
 ### OSINT sources
@@ -26,7 +24,7 @@ options:
 https://raw.githubusercontent.com/owasp-amass/amass/master/examples/datasources.yaml
 
 # Execute
-amass intel -d <domain> whois --config <pathToConfigYaml>
+amass intel -d <domain> -whois --config <pathToConfigYaml>
 ```
 
 ### Find further root domain names 
@@ -51,6 +49,6 @@ amass intel -ip -addr <XXX.XXX.XXX.XXX-XXX>
 
 ### Basic enumeration using different OSINT sources (passiv - no DNS resolution and validation, src show source)
 ```
-amass enum -passive -d <domain> -src -o <outputfile>
+amass enum -d <domain> -o <outputfile>
 ```
 

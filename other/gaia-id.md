@@ -9,5 +9,7 @@ Search for:
 ### Get information about Gaia ID
 ```
 https://www.google.com/maps/contrib/<gaiaId>
+https://web.archive.org/web/*/https://plus.google.com/<gaiaId>*
+https://web.archive.org/web/*/https://get.google.com/albumarchive/<gaiaId>*
 ```
 

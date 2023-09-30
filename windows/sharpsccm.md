@@ -1,5 +1,5 @@
 ### Source
-https://github.com/Mayyhem/SharpSCCM, 
+https://github.com/Mayyhem/SharpSCCM
 
 ### Identify SCCM server on local machine
 ```

@@ -13,9 +13,6 @@ Quick POC looking at how encryption works for LAPS (v2)
 https://gist.github.com/zblurx/009633b2db25918bdbbff664a01508fc
 Simple script to extract local admin password in cleartext with LAPSv2 using impacket
 
-https://gist.githubusercontent.com/superkojiman/11076951/raw/053152dba6c5cc3107ff0374ce7246306958d72c/namemash.py
-Generate Userlist
-
 https://github.com/0xZDH/o365spray
 Username enumeration and password spraying tool aimed at Microsoft O365.
 
@@ -40,7 +37,7 @@ Find interesting files stored on (System Center) Configuration Manager (SCCM/CM)
 https://github.com/3v4Si0N/HTTP-revshell
 Powershell reverse shell using HTTP/S protocol with AMSI bypass and Proxy Aware
 
-https://github.com/4D5A/Networks-Administration/blob/main/Invoke-DNSQuery/Invoke-DNSQuery.ps1
+https://github.com/4D5A/Networks-Administration
 Queries public DNS records for a domain in regard of mail security
 
 https://github.com/4ra1n/java-gate
@@ -70,7 +67,7 @@ A post exploitation tool based on a web application, focusing on bypassing endpo
 https://github.com/AdrianVollmer/PowerSploit
 [Fork] PowerSploit - A PowerShell Post-Exploitation Framework
 
-https://github.com/AdrianVollmer/PowerSploit/blob/master/CodeExecution/Invoke-Shellcode.ps1
+https://github.com/AdrianVollmer/PowerSploit
 Inject shellcode into the process ID of your choosing or within the context of the running PowerShell process
 
 https://github.com/Aetsu/OffensivePipeline
@@ -217,6 +214,9 @@ C# tool to discover low hanging fruits
 https://github.com/EricZimmerman/LECmd
 Lnk Explorer Command line edition!!
 
+https://github.com/EvotecIT/GPOZaurr
+Group Policy Eater is a PowerShell module that aims to gather information about Group Policies but also allows fixing issues that you may find in them.
+
 https://github.com/ExAndroidDev/fakemeeting
 Creates and sends fake meeting invite
 
@@ -343,7 +343,7 @@ DNSWatch is a Python-based tool that allows you to sniff and analyze DNS (Domain
 https://github.com/HarmJ0y/DAMP
 The Discretionary ACL Modification Project: Persistence Through Host-based Security Descriptor Modification
 
-https://github.com/HotCakeX/Harden-Windows-Security/blob/main/Rationale.md
+https://github.com/HotCakeX/Harden-Windows-Security
 Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels
 
 https://github.com/HunnicCyber/SharpSniper
@@ -389,7 +389,7 @@ https://github.com/LaresLLC/SlinkyCat
 Slinky Cat attempts to give users an easy-to-navigate menu offering predefined Active Directory Service Interfaces (ADSI) and .NET queries which can be used to enumerate a Windows domain.
 
 https://github.com/LuemmelSec/Pentest-Tools-Collection
-Active Directory Tool Collection
+Active Directory Tool Collection. Convert .net exe into powershell script.
 
 https://github.com/LuemmelSec/ntlmrelayx.py_to_exe
 While trying to convert a current version of impackets ntlmrelayx.py to an exe with pyinstaller, I stumbled upon a shitload of problems.
@@ -572,9 +572,6 @@ https://github.com/Rolix44/Kubestroyer
 Kubernetes exploitation tool
 
 https://github.com/RoseSecurity/ScrapPY
- ScrapPY is a Python utility for scraping manuals, documents, and other sensitive PDFs to generate wordlists that can be utilized by offensive security tools to perform brute force, forced browsing, and dictionary attacks against targets. The tool dives deep to discover keywords and phrases leading to potential passwords or hidden directories.
-
-https://github.com/RoseSecurity/ScrapPY
 ScrapPY is a Python utility for scraping manuals, documents, and other sensitive PDFs to generate wordlists that can be utilized by offensive security tools to perform brute force, forced browsing, and dictionary attacks against targets. The tool dives deep to discover keywords and phrases leading to potential passwords or hidden directories.
 
 https://github.com/RythmStick/AMSITrigger
@@ -637,7 +634,7 @@ Showcasing two different techniques for changing DLL load order by using undocum
 https://github.com/SecurityRiskAdvisors/letitgo
 Enumerate and check domains for Azure tenants
 
-https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC/blob/main/Proof-Of-Concept.py
+https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC
 CVE-2021-28482
 
 https://github.com/ShawnDEvans/smbmap
@@ -706,6 +703,9 @@ A tool for generating fake code signing certificates or signing real ones
 https://github.com/VoldeSec/PatchlessCLRLoader
 .NET assembly loader with patchless AMSI and ETW bypass
 
+https://github.com/WKL-Sec/WMIExec
+Set of python scripts which perform different ways of command execution via WMI protocol.
+
 https://github.com/WKL-Sec/Warmer
 Selenium-based Python script to automate sending emails to warm up your sender reputation and improve email deliverability
 
@@ -735,6 +735,9 @@ C# version of NTLMRawUnHide
 
 https://github.com/XiaoliChan/wmiexec-Pro
 New generation of wmiexec.py
+
+https://github.com/YOLOP0wn/POSTDump
+Another tool to perform minidump of LSASS process using few technics to avoid detection.
 
 https://github.com/Z4kSec/Masky
 Python library with CLI allowing to remotely dump domain user credentials via an ADCS without dumping the LSASS process memory
@@ -847,7 +850,7 @@ The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and 
 https://github.com/beurtschipper/Depix
 Recovers passwords from pixelized screenshots
 
-https://github.com/biffalo/handy-posh/blob/main/get-tasks.ps1
+https://github.com/biffalo/handy-posh
 Get scheduled tasks in task root and prints name and action of each
 
 https://github.com/bishopfox/eyeballer
@@ -1081,6 +1084,9 @@ WebSocket REPL for pentesters
 https://github.com/drwetter/testssl.sh
 Testing TLS/SSL encryption anywhere on any port
 
+https://github.com/duckduckgo/tracker-radar
+Data set of top third party web domains with rich metadata about them
+
 https://github.com/dwisiswant0/apkleaks
 Scanning APK file for URIs, endpoints & secrets.
 
@@ -1092,6 +1098,9 @@ Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, fi
 
 https://github.com/efchatz/WPAxFuzz
 A full-featured open-source Wi-Fi fuzzer
+
+https://github.com/egbertbouman/youtube-comment-downloader
+Simple script for downloading Youtube comments without using the Youtube API
 
 https://github.com/eladshamir/Internal-Monologue
 Internal Monologue Attack: Retrieving NTLM Hashes without Touching LSASS
@@ -1170,6 +1179,9 @@ Helps with finding and registering categorized domains
 
 https://github.com/fwdcloudsec/known_aws_accounts
 List of known AWS accounts
+
+https://github.com/g0h4n/REC2
+REC2 (Rusty External Command and Control) is client and server tool allowing auditor to execute command from VirusTotal and Mastodon APIs written in Rust.
 
 https://github.com/garrettfoster13/sccmhunter
 SCCMHunter is a post-ex tool built to streamline identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
@@ -1255,7 +1267,7 @@ A simple Burp Suite extension to crawl JavaScript (JS) files in passive mode and
 https://github.com/hthh/switch-reversing
 My Switch reversing scripts
 
-https://github.com/httpvoid/writeups/blob/main/Confluence-RCE.md
+https://github.com/httpvoid/writeups
 CVE-2021-26084 Remote Code Execution on Confluence Servers
 
 https://github.com/huntergregal/mimipenguin
@@ -1426,6 +1438,9 @@ CVE-2019–11581 PoC
 https://github.com/l4rm4nd/LinkedInDumper
 Python 3 script to dump company employees from LinkedIn API
 
+https://github.com/l4rm4nd/XingDumper
+Python 3 script to dump company employees from XING API
+
 https://github.com/laluka/jolokia-exploitation-toolkit
 Jolokia is a protocol bridge that enables users to interact with MBeans (JMB) through HTTP. 
 
@@ -1540,13 +1555,16 @@ holehe allows you to check if the mail is used on different sites like twitter, 
 https://github.com/merces/entropy
 CLI program to calculate file entropy
 
+https://github.com/mertdas/RedPersist
+RedPersist is a Windows Persistence tool written in C#
+
 https://github.com/mgeeky/PackMyPayload
 A PoC that packages payloads into output containers to evade Mark-of-the-Web flag & demonstrate risks associated with container file formats. Supports: ZIP, 7zip, PDF, ISO, IMG, CAB, VHD, VHDX
 
 https://github.com/mgeeky/Penetration-Testing-Tools
 A collection of more than 170+ tools, scripts, cheatsheets and other loots that I have developed over years for Red Teaming/Pentesting/IT Security audits purposes. Most of them came handy on at least one of my real-world engagements.
 
-https://github.com/mgeeky/Penetration-Testing-Tools/blob/master/phishing/vba-windows-persistence.vbs
+https://github.com/mgeeky/Penetration-Testing-Tools
 This macro implements two windows persistence methods:  WMI Event Filter object and HKCU Registry Run
 
 https://github.com/mgeeky/ProtectMyTooling
@@ -1611,6 +1629,9 @@ Get Fine Grained Password Policy
 
 https://github.com/n0kovo/fb_friend_list_scraper
 OSINT tool to scrape names and usernames from large friend lists on Facebook, without being rate limited.
+
+https://github.com/n0pe-sled/WMI-Persistence
+Persistence via WMI
 
 https://github.com/n1nj4sec/pupy
 Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python
@@ -1699,7 +1720,7 @@ Network Analysis Tool
 https://github.com/ohbriansung/phishing_email_pdf_attack
 Attach an executable file and use JavaScript to download the attachment
 
-https://github.com/ohpe/juicy-potato/blob/master/CLSID/GetCLSID.ps1
+https://github.com/ohpe/juicy-potato
 This script extracts CLSIDs and AppIDs related to LocalService.DESCRIPTION
 
 https://github.com/onekey-sec/unblob
@@ -1743,6 +1764,9 @@ In-depth Attack Surface Mapping and Asset Discovery
 
 https://github.com/p0dalirius/Coercer
 A python script to automatically coerce a Windows server to authenticate on an arbitrary machine through 9 methods.
+
+https://github.com/p0dalirius/LDAPWordlistHarvester
+A tool to generate a wordlist from the information present in LDAP, in order to crack passwords of domain accounts.
 
 https://github.com/p0dalirius/pyLAPS
 Python setter/getter for property ms-Mcs-AdmPwd used by LAPS.
@@ -1797,6 +1821,9 @@ This tool is able to parse memory dumps of the LSASS process without any additio
 
 https://github.com/pracsec/AmsiBypassHookManagedAPI
 A new AMSI Bypass technique using .NET ALI Call Hooking.
+
+https://github.com/praetorian-inc/ADFSRelay
+Proof of Concept Utilities Developed to Research NTLM Relaying Attacks Targeting ADFS
 
 https://github.com/praetorian-inc/noseyparker
 Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
@@ -1934,13 +1961,7 @@ https://github.com/rvazarkar/GMSAPasswordReader
 Reads the password blob from a GMSA account using LDAP, and parses the values into hashes for re-use.
 
 https://github.com/rvrsh3ll/Misc-Powershell-Scripts
-Random Tools
-
-https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Get-BrowserData.ps1
-Enumerates browser history or bookmarks for a Chrome, Internet Explorer and/or Firefox browsers on Windows machines.
-
-https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Invoke-DCOM.ps1
-Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
+Random Tools. Enumerates browser history or bookmarks for a Chrome, Internet Explorer and/or Firefox browsers on Windows machines. Execute's commands via various DCOM methods as demonstrated by (@enigma0x3)
 
 https://github.com/rvrsh3ll/TokenTactics
 Azure JWT Token Manipulation Toolset
@@ -2239,12 +2260,6 @@ Fish shell like syntax highlighting for Zsh.
 https://github.com/zzzteph/probable_subdomains
 Subdomains analysis and generation tool. Reveal the hidden!
 
-https://gitlab.com/KevinJClark/csharptoolbox/-/blob/master/ShhProcessExit.cs
+https://gitlab.com/KevinJClark/csharptoolbox
 C# port of LsassSilentProcessExit
-
-https://raw.githubusercontent.com/LuemmelSec/Pentest-Tools-Collection/main/tools/convert_c%23_to_ps1.ps1
-Convert .net exe into powershell script.
-
-https://raw.githubusercontent.com/n0pe-sled/WMI-Persistence/master/WMI-Persistence.ps1
-Persistence via WMI
 

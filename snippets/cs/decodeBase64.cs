@@ -1,4 +1,3 @@
-using System;
 using System.Text;
 
 byte[] decodedBytes = Convert.FromBase64String("c29tZVN0cmluZwo=");

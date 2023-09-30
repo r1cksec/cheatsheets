@@ -1,7 +1,7 @@
 ### Source
 https://github.com/trufflesecurity/truffleHog  
 
-### Scan git repository for secrets
+### Scan git repository for secrets (secrets found are used to authenticate for verification)
 ```
 trufflehog git <remoteGitRepo> --no-update
 ```
@@ -10,7 +10,6 @@ trufflehog git <remoteGitRepo> --no-update
 ```
 trufflehog git file://<localGitRepo> --no-update
 ```
-
 
 ### Scan local repository (when the repository is broken)
 ```
