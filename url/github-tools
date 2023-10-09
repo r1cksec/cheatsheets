@@ -85,6 +85,9 @@ OffensivePipeline allows to download, compile (without Visual Studio) and obfusc
 https://github.com/Alb-310/Geogramint
 An OSINT Geolocalization tool for Telegram that find nearby users and groups
 
+https://github.com/AleksaMCode/Preferred-Network-List-Sniffer
+PNLS is a reconnaissance tool that captures and displays SSIDs from device's Preferred Network List.
+
 https://github.com/AlessandroZ/BeRoot
 Privilege Escalation Project - Windows / Linux / Mac
 
@@ -304,6 +307,9 @@ This is a PowerShell based tool that is designed to act like a RAT. Its interfac
 https://github.com/FourCoreLabs/LolDriverScan
 Scan vulnerable drivers on Windows with loldrivers.io
 
+https://github.com/FoxIO-LLC/ja4
+JA4+ is a suite of network fingerprinting standards
+
 https://github.com/FuzzySecurity/PowerShell-Suite
 My musings with PowerShell
 
@@ -412,6 +418,9 @@ PowerShell Ransomware Simulator with C2 Server
 https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell
 Fully functioning reverse shell written entirely in VBA.
 
+https://github.com/K3YOMI/Wall-of-Flippers
+Wall of Flippers is designed to find Flipper Zero devices using BLE (Bluetooth Low Energy)
+
 https://github.com/Kevin-Robertson/Inveigh
 .NET IPv4/IPv6 machine-in-the-middle tool for penetration testers
 
@@ -498,6 +507,9 @@ Collection of c code for red teaming
 
 https://github.com/Mr-Un1k0d3r/SCShell
 Fileless lateral movement tool that relies on ChangeServiceConfigA to run command
+
+https://github.com/MrDomainAdmin/LyinEagle
+Python C2 with JScript Implant
 
 https://github.com/MrEmpy/Reaper
 Proof of concept on BYOVD attack (bring your own vulnerable driver)
@@ -1183,6 +1195,9 @@ Making Favicon.ico based Recon Great again !
 https://github.com/devanshbatham/OpenRedireX
 A fuzzer for detecting open redirect vulnerabilities
 
+https://github.com/devanshbatham/headerpwn
+A fuzzer for finding anomalies and analyzing how servers respond to different HTTP headers
+
 https://github.com/dfir-dd/dfir-toolkit
 CLI tools for forensic investigation of Windows artifacts
 
@@ -1566,6 +1581,9 @@ the transparent ransomware claim tracker
 
 https://github.com/jpillora/chisel
 A fast TCP/UDP tunnel over HTTP
+
+https://github.com/jsecurity101/PowerParse
+PowerShell PE Parser designed to help and aid reverse engineers.
 
 https://github.com/jtesta/ssh-audit
 SSH server &amp; client auditing (banner, key exchange, encryption, mac, compression, compatibility, security, etc)

