@@ -2533,3 +2533,15 @@ Subdomains analysis and generation tool. Reveal the hidden!
 https://gitlab.com/KevinJClark/csharptoolbox
 C# port of LsassSilentProcessExit
 
+https://github.com/peasead/elastic-container
+Stand up a simple Elastic container with Kibana, Fleet, and the Detection Engine
+
+https://github.com/crissyfield/troll-a
+Troll-A is a command line tool for extracting secrets such as passwords, API keys, and tokens from WARC (Web ARChive) files.
+
+https://github.com/byinarie/teams_dump
+PoC for dumping and decrypting cookies in the latest version of Microsoft Teams
+
+https://github.com/Tw1sm/PySQLRecon
+Offensive MSSQL toolkit written in Python, based off SQLRecon
+
