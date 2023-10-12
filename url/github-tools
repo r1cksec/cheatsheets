@@ -793,6 +793,9 @@ jsubfinder searches webpages for javascript & analyzes them for hidden subdomain
 https://github.com/Trevohack/DynastyPersist
 A Linux persistence tool!
 
+https://github.com/Tw1sm/PySQLRecon
+Offensive MSSQL toolkit written in Python, based off SQLRecon
+
 https://github.com/Tylous/Limelighter
 A tool for generating fake code signing certificates or signing real ones
 
@@ -1003,6 +1006,9 @@ Covert Attack Chain and C2 Utilizing Microsoft Teams GIFs
 https://github.com/bsauce/kernel-exploit-factory
 Linux kernel CVE exploit analysis report and relative debug environment. You don't need to compile Linux kernel and configure your environment anymore.
 
+https://github.com/byinarie/teams_dump
+PoC for dumping and decrypting cookies in the latest version of Microsoft Teams
+
 https://github.com/byt3bl33d3r/CrackMapExec
 A swiss army knife for pentesting networks
 
@@ -1068,6 +1074,9 @@ File formats explanations, logos redrawing...
 
 https://github.com/cribdragg3r/Alaris
 A protective and Low Level Shellcode Loader that defeats modern EDR systems.
+
+https://github.com/crissyfield/troll-a
+Troll-A is a command line tool for extracting secrets such as passwords, API keys, and tokens from WARC (Web ARChive) files.
 
 https://github.com/csandker/Azure-AccessPermissions
 Easy to use PowerShell script to enumerate access permissions in an Azure Active Directory environment.
@@ -2005,6 +2014,9 @@ Run PowerShell with rundll32. Bypass software restrictions.
 https://github.com/padovah4ck/PSByPassCLM
 Bypass for PowerShell Constrained Language Mode
 
+https://github.com/peasead/elastic-container
+Stand up a simple Elastic container with Kibana, Fleet, and the Detection Engine
+
 https://github.com/peewpw/Invoke-PSImage
 Encodes a PowerShell script in the pixels of a PNG file and generates a oneliner to execute
 
@@ -2532,16 +2544,4 @@ Subdomains analysis and generation tool. Reveal the hidden!
 
 https://gitlab.com/KevinJClark/csharptoolbox
 C# port of LsassSilentProcessExit
-
-https://github.com/peasead/elastic-container
-Stand up a simple Elastic container with Kibana, Fleet, and the Detection Engine
-
-https://github.com/crissyfield/troll-a
-Troll-A is a command line tool for extracting secrets such as passwords, API keys, and tokens from WARC (Web ARChive) files.
-
-https://github.com/byinarie/teams_dump
-PoC for dumping and decrypting cookies in the latest version of Microsoft Teams
-
-https://github.com/Tw1sm/PySQLRecon
-Offensive MSSQL toolkit written in Python, based off SQLRecon
 
