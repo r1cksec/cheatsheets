@@ -73,7 +73,7 @@ https://blog.compass-security.com/2023/10/relaying-ntlm-to-mssql ; #ntlm-relayin
 https://blog.cyble.com/2023/06/09/over-45-thousand-users-fell-victim-to-malicious-pypi-packages ; #threat-intelligence #python #pypi #supply-chain
 https://blog.cyble.com/2023/06/13/threat-actor-targets-russian-gaming-community-with-wannacry-imitator ; #threat-intelligence #malware-analyse #gaming #ransomware #wannacry
 https://blog.delivr.to/svg-smuggling-a-picture-worth-a-thousand-words-fae8a946a300?gi=e2ee37ee9c09 ; #threat-intelligence #malware-analyse #svg-smuggling
-https://blog.deteact.com/gunicorn-http-request-smuggling : #web #http-request-smuggling
+https://blog.deteact.com/gunicorn-http-request-smuggling ; #web #http-request-smuggling
 https://blog.didierstevens.com/2023/01/22/analyzing-malicious-onenote-documents ; #threat-intelligence #malware-analyse #onenote
 https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro?sd=pf ; #security-operation-center
 https://blog.harmj0y.net/redteaming/keethief-a-case-study-in-attacking-keepass-part-2 ; #keepass #keethief #keefarce #password-extraction
@@ -591,4 +591,4 @@ https://xret2pwn.github.io/Myths-About-External-C2 ; #c2 #command-and-control #i
 https://xret2pwn.github.io/The-Art-of-Clipboard-Forensics-Recovering-Deleted-Data ; #clipboard #memory #dfir #forensic #history
 https://zer1t0.gitlab.io/posts/attacking_ad ; #active-directory #methodology #kerberos #trust #gpo #kerberoasting #asreproasting #logon-types #acl 
 http://www.selfadsi.de ; #active-directory #ldap #wiki #documentation
-Vhttps://www.docguard.io/in-depth-analysis-of-typhon-stealer ; #threat-intel #malware-analyse #sandbox-evasion
+https://www.docguard.io/in-depth-analysis-of-typhon-stealer ; #threat-intel #malware-analyse #sandbox-evasion
