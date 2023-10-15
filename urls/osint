@@ -1,82 +1,75 @@
-ftp://ftp.ripe.net/ripe/dbase/ripe.db.gz
-https://3wifi.stascorp.com
-https://app.binaryedge.io
-https://app.shadowmap.org
-https://archive.is
-https://archive.org/web
-https://avatarapi.com
-https://bevigil.com
-https://bgp.he.net
-https://bgp.tools
-https://bigdatacloud.com
-https://builtwith.com
-https://censys.io
-https://chaos.projectdiscovery.io
-https://completedns.com/dns-history
-https://crt.sh
-https://defastra.com
-https://dehashed.com
-https://dnsdumpster.com
-https://facecheck.id
-https://forensic-architecture.org
-https://fullhunt.io
-https://gps-coordinates.org/latitude-and-longitude.php
-https://grep.app
-https://greynoise.io
-https://haveibeenpwned.com
-https://hunter.io
-https://intelx.io
-https://ipinfo.io
-https://iplocation.net
-https://leakix.net
-https://main.whoisxmlapi.com
-https://netlas.io
-https://networksdb.io
-https://newspapermap.com
-https://onyphe.io
-https://opendata.rapid7.com
-https://osint.industries
-https://osint.sh
-https://osm-search.bellingcat.com
-https://otx.alienvault.com
-https://pastebin.com
-https://phonebook.cz
-https://pimeyes.com
-https://psbdmp.ws
-https://psbdmpw.ws
-https://publicwww.com
-https://rapidapi.com
-https://saucenao.com
-https://searchcode.com
-https://securitytrails.com
-https://spamhaus.com
-https://spyonweb.com
-https://sslmate.com
-https://tineye.com
-https://tls.bufferover.run
-https://urlscan.io
-https://viewdns.info
-https://viz.greynoise.io
-https://wigle.net
-https://www.crunchbase.com
-https://www.digicert.com
-https://www.expireddomains.net
-https://www.handelsregister.de
-https://www.importyeti.com
-https://www.iplocation.net/ip-lookup
-https://www.locatefamily.com
-https://www.northdata.de
-https://www.onyphe.io
-https://www.rask.ai
-https://www.robtex.com
-https://www.shodan.io
-https://www.skymem.info
-https://www.smappen.com/app
-https://www.suncalc.org
-https://www.unternehmensregister.de
-https://www.whitepages.com
-https://www.xdcc.eu
-https://www.zoomeye.org
-https://yandex.com
-https://ytcomment.kmcat.uk
-http://urlm.de
+https://3wifi.stascorp.com ; #wifi #wardriving #osint
+https://app.binaryedge.io ; #osint #portscan #email #dataleak #breach #leak
+https://app.shadowmap.org ; #osint #sun #map #image #geolocation
+https://app.validin.com ; #osint #nameserver #domain #dns-history
+https://archive.is ; #osint #archive #webscraping
+https://archive.org/web ; #osint #archive #webscraping
+https://avatarapi.com ; #osint #email #image #user-profile
+https://bevigil.com ; #osint #email #breach #subdomain #leak
+https://bgp.he.net ; #osint #nameserver #dns-txt #dns #asn
+https://bgp.tools ; #osint #asn #cidr #ipv4 #whois
+https://bigdatacloud.com ; #osint #email #threat-intelligence #user-agent #geolocation #spam
+https://buckets.grayhatwarfare.com ; #osint #buckets #file-search
+https://builtwith.com ; #osint #http #google-id
+https://chaos.projectdiscovery.io ; #osint #subdomain
+https://completedns.com/dns-history ; #osint #nameserver #dns-history
+https://crt.sh ; #osint #certificate #subdomain #tls
+https://defastra.com ; #osint #email #online-profiles #phone
+https://dehashed.com ; #osint #break #leak #email
+https://dnsdumpster.com ; #osint #subdomain #nameserver #dns-txt #portscan 
+https://epieos.com ; #osint #email #phone #user-profile
+https://facecheck.id ; #osint #image-search #facial-recognition
+https://forensic-architecture.org ; #osint #investigation #modelling #geolocation #simulation
+https://fullhunt.io ; #osint #portscan #subdomain #country
+https://gps-coordinates.org/latitude-and-longitude.php ; #osint #geolocation #longitude #latitude
+https://grep.app ; #osint #git #repository #source-code
+https://haveibeenpwned.com ; #osint #breach #leak #email
+https://hunter.io ; #osint #domain #email #user-profile
+https://intelx.io ; #osint #crawling #breach #leak #email #user-profile #phone #geolocation #bitcoin #social-media
+https://ipinfo.io ; #osint #geolocation #hostname #asn
+https://iplocation.net ; #osint #geolocation #hostname #user-agent
+https://leakix.net ; #osint #subdomain #asn #country #portscan
+https://netlas.io ; #osint #whois #nameserver #subdomains #certificate #asn
+https://networksdb.io ; #osint #asn #subdomain #geolocation #whois
+https://newspapermap.com ; #osint #map #newspaper
+https://onyphe.io ; #osint #asn #whoi #portscan #webscraping #asn #portscan #subdomain
+https://osint.industries ; #osint #email #user-profile
+https://osint.sh ; #osint #subdomain #dns-history #whois #nameserver
+https://osm-search.bellingcat.com ; #osint #geolocation #map #image
+https://otx.alienvault.com ; #osint #malware #threat-intelligence
+https://pastebin.com ; #osint #storage #dumps
+https://phonebook.cz ; #osint #email #domain
+https://pimeyes.com ; #osint #reverse-image-search
+https://predictasearch.com ; #osint #email #user-profile #phone
+https://psbdmp.ws ; #osint #storage #dumps
+https://rapidapi.com ; #osint #api-management
+https://saucenao.com ; #osint #reverse-image-search
+https://search.censys.io ; #osint #subdomain #asn #portscan
+https://searchcode.com ; #osint #source-code #repository
+https://securitytrails.com ; #osint #subdomain #nameserver #portscan #dns-history #whois
+https://spyonweb.com ; #osint #domain #nameserver #dns-history #google-id #google-analytics #google-adsense
+https://sslmate.com ; #osint #domain #subdomain #certificate
+https://tineye.com ; #osint #reverse-image-search
+https://tls.bufferover.run ; #osint #certificate #domain #subdomain
+https://urlscan.io ; #osint #asn #domain #subdomain #file-search
+https://viewdns.info ; #osint #asn #domain #subdomain #whois #nameserver #dns-history #geolocation #portscan
+https://viz.greynoise.io ; #osint #portscan #threat-intelligence
+https://wigle.net ; #osint #wifi #geolocation
+https://www.crunchbase.com ; #osint #company-registry #acquisition
+https://www.expireddomains.net ; #osint #dns #domain #auction
+https://www.handelsregister.de ; #osint #company-registry #acquisition
+https://www.iplocation.net/ip-lookup ; #osint
+https://www.locatefamily.com ; #osint #firstname #lastname
+https://www.northdata.de ; #osint #company-registry #acquisition
+https://www.onyphe.io ; #osint #domain #subdomain #asn #portscan #whois
+https://www.rask.ai ; #osint #video #translation
+https://www.robtex.com ; #osint #nameserver #whois #asn #domain #subdomain
+https://www.shodan.io ; #osint #portscan #certificate #asn #geolocation
+https://www.skymem.info ; #osint #domain #email
+https://www.smappen.com/app ; #osint #map #geolocation #distance
+https://www.suncalc.org ; #osint #sun #map #geolocation
+https://www.unternehmensregister.de ; #osint #company-registry #acquisition
+https://www.xdcc.eu ; #osint #irc-search
+https://www.zoomeye.org ; #osint #portscan #certificate #asn #domain
+https://ytcomment.kmcat.uk ; #osint #youtube #comment
+https://aadinternals.com/osint ; #osint #azure #entra #tenant #domain
