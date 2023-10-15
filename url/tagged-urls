@@ -75,6 +75,7 @@ https://blog.delivr.to/svg-smuggling-a-picture-worth-a-thousand-words-fae8a946a3
 https://blog.didierstevens.com/2023/01/22/analyzing-malicious-onenote-documents ; #threat-intelligence #malware-analyse #onenote
 https://blog.ecapuano.com/p/so-you-want-to-be-a-soc-analyst-intro?sd=pf ; #security-operation-center
 https://blog.harmj0y.net/redteaming/keethief-a-case-study-in-attacking-keepass-part-2 ; #keepass #keethief #keefarce #password-extraction
+https://blog.huli.tw/2023/11/27/en/server-side-rendering-ssr-and-isomorphic ; #server-side-rendering #ssr #web #javascript
 https://blog.impalabs.com/2303_advisory_parallels-desktop_toolgate.html ; #directory-traversal #cve #parallels-desktop
 https://blog.lexfo.fr/sshimpanzee.html ; #ssh #network #tunnel #sshimpanzee #dns #icmp #http #linux 
 https://blog.malicious.group/inline-assembly ; #inline-assembly #compiler #c #breakpoint
@@ -88,7 +89,10 @@ https://blog.redteam-pentesting.de/2022/introducing-pretender ; #pretender #resp
 https://blog.sekoia.io/darkgate-internals ; #malware-analyzing #threat-intelligence #darkgate
 https://blog.sicuranext.com/how-attackers-fingerprint-your-wordpress-website ; #http #wordpress #methodology #user-enumeration
 https://blogs.juniper.net/en-us/threat-research/dreambus-botnet-resurfaces-targets-rocketmq-vulnerability ; #threat-intel #malware #rocketmq #interactsh
+https://blog.solidsnail.com/posts/vscode-shell-integ-rce ; #cve #ansi-escape-sequences #vscode
 https://blog.stratumsecurity.com/2023/06/01/sqli-the-road-to-bypassing-an-industry-leading-waf ; #webapp #waf #sqli
+https://blog.sunggwanchoi.com/recreating-a-msi-payload-for-fun-and-no-profit ; #windows #shellcode #dll #msi #visual-studio-installer-projects
+https://blog.sunggwanchoi.com/recreating-an-iso-payload-for-fun-and-no-profit ; #windows #iso #mark-of-the-web #motw #shellcode #msfvenom #proxy-dll
 https://blog.sygnia.co/guarding-the-bridge-new-attack-vectors-in-azure-ad-connect ; #azure #entra #adcs #active-directory #pass-through-authentication #federation #password-hash-synchronization
 https://blog.syss.com/posts/zero-touch-pwn ; #zoom #audiocode #automatic-provisioning-procedure #voip #http
 https://blog.thc.org/infecting-ssh-public-keys-with-backdoors ; #ssh backdoor
@@ -107,16 +111,20 @@ https://bushido-sec.com/index.php/2023/06/19/the-art-of-fuzzing ; #fuzzing #c #s
 https://cdn.defastra.com/downloads/papers/Defastra_Email_Addresses_Risk_Assessment.pdf ; #threat-intelligence #malware-analyse #temp-mails #scam #detection
 https://cdn.defastra.com/downloads/papers/Defastra_SMS_Verification_Black_Market.pdf ; #threat-intelligence #malware-analyse #sms #scam #detection
 https://cedowens.medium.com/what-to-expect-when-youre-expecting-purple-team-edition-c6879655fe1 ; #expect-routines #linux #automation #c2 #purple-teaming #sliver #golang
+https://celes.in/posts/cloudflare_ns_whois ; #osint #nameserver #reverse-lookup #cloudflare #whoisxmlapi
 https://charbelnemnom.com/deploy-microsoft-defender-for-identity/?expand_article=1 ; #microsoft #defender-for-identity #azure #entra #setup #adcs
 https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html ; #webapp #graphql #cheatsheets #methodology
 https://chris.partridge.tech/2023/malware-targeting-cybersecurity-subreddit ; #threat-intel #malware-analyse #stager #lnk
 https://cloudbrothers.info/azure-attack-paths ; #cloud #azure #entra #methodology #subscription #delegation #lighthouse #adfs #runbook
 https://cocomelonc.github.io/malware/2022/08/26/malware-pers-9.html ; #persistence #windows #file-extension
 https://cocomelonc.github.io/malware/2023/06/07/syscalls-1.html ; #syscall #c++ #dll
+https://cocomelonc.github.io/malware/2023/11/23/malware-cryptography-22.html ; #shellcode #xtea #encryption #av #anti-virus #bypass
 https://code.visualstudio.com/docs/remote/tunnels ; #pivoting #tunnel #vs-code
 https://code-white.com/blog/2023-08-blindsiding-auditd-for-fun-and-profit ; #linux #audit-events #evasion #apollon #daphne #detection
 https://codewhitesec.blogspot.com/2023/04/java-exploitation-restrictions-in.html ; #java #deserialization #jdk #ysoserial
 https://csandker.io/2022/10/19/Untangling-Azure-Permissions.html ; #cloud #azure #entra #access-permission #app-roles #api-permissions
+https://cyberdom.blog/2023/12/03/spotting-the-adversary-with-microsoft-defender-for-identity ; #azure #entra #microsoft-defender-for-identity #event-id #forensic #dfir #dcshadow #mdi
+https://cyberdom.blog/2023/12/09/unmasking-the-shadows-the-art-of-threat-hunting-in-defender-for-identity ; #azure #entra #microsoft-defender-for-identity #forensic #dfir #threat-hunting #ldap #mdi
 https://cybergladius.com/bash-code-obfuscation ; #obfuscation #bash #linux #backdoor
 https://dec0ne.github.io/research/2022-11-14-Undetected-Lsass-Dump-Workflow ; #windows #lsass #syscall #bypass #av #anti-virus #dump
 https://decoded.avast.io/janvojtesek/raspberry-robins-roshtyak-a-little-lesson-in-trickery ; #threat-intelligence #malware-analyse #raspberry-robin #shellcode
@@ -140,6 +148,7 @@ https://eta.st/2023/01/31/rail-tickets.html ; #reverse-engineering #rail-ticket 
 https://exploit.ph/des-is-useful.html ; #active-directory #kerberos #domain-controller #rubues #des #targeted-kerberoasting #data-encryption-standard
 https://exploits.forsale/themebleed ; #poc #theme-bleed #windows11 #cve-2023-38146
 https://explore.avertium.com/resource/an-in-depth-look-at-cuba-ransomware ; #threat-intelligence #cuba #ransomware
+https://exposingtheinvisible.org/guides/google-dorking ; #google-dork #bing #yahoo #duckduckgo #osint #recon
 https://falconspy.org/redteam/tradecraft/2023/10/05/2023-10-05-Slack-Impersonation.html ; #slack #cookie-api-token #ripcord
 https://firexfly.com/quines ; #quine #c
 https://forensicitguy.github.io/net-downloader-originlogger ; #threat-intelligence #malware-analyse #dot-net #deobfuscation
@@ -155,6 +164,7 @@ https://gist.github.com/NotMedic/b1ab7809eea94cc05513905b26964663 ; #pivoting #t
 https://gist.github.com/ustayready/3ba2e4b1a4ec3cdad188f0f7d0dc4b73 ; #phishing #open-redirect #google-docs
 https://git.culbertreport.com/posts/Sliver-vs-Havoc ; #c2 #command-and-control #sliver #havoc
 https://github.blog/2023-08-17-mtls-when-certificate-authentication-is-done-wrong ; #certificate #mtls #java #chain-validation #revocation
+https://github.com/austin-lai/Persistence-through-Windows-Screensaver-Hijacking ; #windows #persistence #screen-saver #registry
 https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks ; #shodan #cheatsheets #dork
 https://github.com/BC-SECURITY/Long-Live-The-Empire ; #c2 #methodology #empire #workshop
 https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE/blob/master/1-part-100-article/google/Shodan%20Queries.txt ; #shodan #cheatsheets #queries
@@ -199,9 +209,11 @@ https://isc.sans.edu/diary/A+new+spin+on+the+ZeroFont+phishing+technique/30248 ;
 https://itm4n.github.io/dll-proxying ; #windows #dll #privesc #privilege-escalation #proxying #wrapper
 https://itm4n.github.io/lsass-runasppl ; #windows #lsass #lsa-protection #runasppl #credential-guard #driver
 https://itm4n.github.io/windows-dll-hijacking-clarified ; #windows #dll #sideloading #hijack
+https://j4s0nmo0n.github.io/belettetimoree.github.io/2023-12-01-WSUS-to-ESC8.html ; #windows #wsus #man-in-the-middle #mitm #adcs #active-directory #certificate-service #pkinit #ntlmrelay #kerberos #tgt
 https://javascript.info ; #javascript #wiki #cheatsheets
 https://jhalon.github.io/utilizing-syscalls-in-csharp-1 ; #syscall #csharp #direct-system-call #dot-net
 https://jhalon.github.io/utilizing-syscalls-in-csharp-2 ; #syscall #csharp
+https://john-woodman.com/research/spotifyc2 ; #c2 #command-and-control #spotify
 https://joshua.hu/nagios-hacking-cve-2023-37154 ; #nagios #ssh #cve-2023-37154 #backdoor
 https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_1_1_yamashige-nakatani-tanaka_en.pdf ; #windows #rmm #remote-monitoring-managment #forensic #dfir
 https://jsecurity101.medium.com/wmi-internals-part-1-41bb97e7f5eb ; #windows #wmi #wiki #methodology
@@ -253,6 +265,7 @@ https://medium.com/@xploiterd/ec2-user-data-to-rce-f601264a75c2 ; #aws #cloud #u
 https://medium.com/@youcef.s.kelouaz/writing-a-sliver-c2-powershell-stager-with-shellcode-compression-and-aes-encryption-9725c0201ea8 ; #c2 #sliver #powershell #stager #shellcode #hollowing
 https://mgeeky.tech/msi-shenanigans-part-1 ; #windows #msi #vbscript #dll #initial-access #wix
 https://micahbabinski.medium.com/search-ms-webdav-and-chill-99c5b23ac462 ; #initial-access #webdav #search-ms #uri-handler #windows
+https://microsoftedge.github.io/edgevr/posts/Escaping-the-sandbox-A-bug-that-speaks-for-itself ; #windows #browser #edge #chrome #chromium #sandbox #com #ispvoice
 https://miltonamcs-private-organization.gitbook.io/analysing-a-malicious-github-repository ; #threat-intelligence #malware-analyse #github #repository
 https://montysecurity.medium.com/identifying-phishing-pages-with-shodan-3fa664bd5372 ; #threat-intelligence #shodan #phishing
 https://mrd0x.com/browser-in-the-browser-phishing-attack ; #phishing #browser-in-the-browser #bitb
@@ -326,6 +339,7 @@ https://prfalken.org/index.php/2023/01/26/installing-a-malware-analysis-lab ; #l
 https://prfalken.org/index.php/2023/01/26/installing-a-malware-analysis-lab ; #threat-intelligence #malware-analyzing #lab-setup #windows #vm #flare-vm #remnux
 https://ptr0x1.com/posts/edr-evasion-part-ii-scarecrow ; #edr #bypass #sandbox-evasion
 https://ptr0x1.com/posts/edr-evasion-part-i-understanding-scarecrow ; #edr #bypass #evasion #shellcode #sideloading #etw #unhooking
+https://pulsesecurity.co.nz/articles/OMGCICD-gitlab ; #gitlab #ci-cd #continuous-deployment #docker-in-docker #dind
 https://pushsecurity.com/blog/samljacking-a-poisoned-tenant ; #saml #samljacking #sso #saas #phishing #nuclino
 https://pushsecurity.com/blog/slack-phishing-for-initial-access ; #phishing #slack #initial-access #instant-messenger
 https://rastamouse.me/d-invoke-gadgettojscript ; #windows #dinvoke #pinvoke #dll #injection #gadgettojscript
@@ -519,7 +533,7 @@ https://www.securesystems.de/blog/active-directory-spotlight-attacking-the-micro
 https://www.securesystems.de/blog/offphish-phishing-revisited-in-2023 ; #phishing #mail #motw #evasion #bypass
 https://www.securityjoes.com/post/process-mockingjay-echoing-rwx-in-userland-to-achieve-code-execution ; #windows #process-mockingjay #injection #rwx #edr #evasion #bypass
 https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation ; #threat-intelligence #malware-analyse #sparkrat #golang #shellcode
-https://www.shielder.com/blog/2022/09/how-to-decrypt-manage-engine-pmp-passwords-for-fun-and-domain-admin-a-red-teaming-tale ; #reverse-engineering #manageengine-password-manager #java-deserialization
+https://www.shielder.com/blog/2022/09/how-to-decrypt-manage-engine-pmp-passwords-for-fun-and-domain-admin-a-red-teaming-tale ; #reverse-engineering #manageengine-password-manager #java #deserialization
 https://www.sonarsource.com/blog/playing-dominos-with-moodles-security-1 ; #moodle #web #xss #oauth #account-takeover #redirect
 https://www.sonarsource.com/blog/playing-dominos-with-moodles-security-1 ; #moodle #web #xss #remote-code-execution #rce #path-traversal
 https://www.sonarsource.com/blog/visual-studio-code-security-deep-dive-into-your-favorite-editor ; #windows #phishing #vscode #visual-studio-code #extension #cve

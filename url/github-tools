@@ -700,6 +700,9 @@ C# porting of SysWhispers2. It uses SharpASM to find the code caves for executin
 https://github.com/SECFORCE/Tunna
 Tunna is a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.
 
+https://github.com/SafeBreach-Labs/PoolParty
+A set of fully-undetectable process injection techniques abusing Windows Thread Pools
+
 https://github.com/SamJoan/droopescan
 A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
 
@@ -838,6 +841,9 @@ Another tool to perform minidump of LSASS process using few technics to avoid de
 https://github.com/Yara-Rules/rules
 Repository of yara rules
 
+https://github.com/Z4kSec/IoctlHunter
+IoctlHunter is a command-line tool designed to simplify the analysis of IOCTL calls made by userland software targeting Windows drivers (BYOVD (Bring Your Own Vulnerable Driver)).
+
 https://github.com/Z4kSec/Masky
 Python library with CLI allowing to remotely dump domain user credentials via an ADCS without dumping the LSASS process memory
 
@@ -891,6 +897,9 @@ PowerView alternative
 
 https://github.com/anirudhbiyani/findmytakeover
 find dangling domains in a multi cloud environment
+
+https://github.com/anoopengineer/winscppasswd
+WinSCP Password Extractor/Decrypter/Revealer written in go language
 
 https://github.com/anshumanbh/git-all-secrets
 A tool to capture all the git secrets by leveraging multiple open source git searching tools
@@ -1084,6 +1093,9 @@ A container-based framework to enable the integration of mobile components in se
 https://github.com/cym13/vbs-reverse-shell
 VBS reverse shell scripts
 
+https://github.com/d3adzo/mesa
+Command and Control that uses NTP as the transport protocol.
+
 https://github.com/d3lb3/KeeFarceReborn
 A standalone DLL that exports databases in cleartext once injected in the KeePass process.
 
@@ -1191,6 +1203,9 @@ Active Directory information dumper via LDAP
 
 https://github.com/djhohnstein/SharpChromium
 .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
+
+https://github.com/dotnet/Kerberos.NET
+A Kerberos implementation built entirely in managed code.
 
 https://github.com/doyensec/inql
 InQL - A Burp Extension for GraphQL Security Testing
@@ -1354,6 +1369,9 @@ strings2: An improved strings extraction tool.
 https://github.com/google/osv-scanner
 Vulnerability scanner written in Go which uses the data provided by osv.dev
 
+https://github.com/googleprojectzero/Jackalope
+Binary, coverage-guided fuzzer for Windows, macOS, Linux and Android
+
 https://github.com/gophish/gophish
 Open-Source Phishing Toolkit
 
@@ -1497,6 +1515,9 @@ WhatsApp spy - logs online/offline events from ANYONE in the world
 
 https://github.com/jazzpizazz/BloodHound.py-Kerberos
 A Python based ingestor for BloodHound
+
+https://github.com/jborean93/PSEtw
+PowerShell ETW consumer module
 
 https://github.com/jborean93/dpapi-ng
 Python DPAPI NG Decryptor for non-Windows Platforms
@@ -2200,7 +2221,7 @@ Scan for misconfigured S3 buckets across S3-compatible APIs!
 https://github.com/sa7mon/S3Scanner
 Scan for open S3 buckets and dump the contents
 
-https://github.com/safebreach-labs/cloudminer
+https://github.com/safebreach-labs/CloudMiner
 Execute code using Azure Automation service without getting charged
 
 https://github.com/samratashok/ADModule
