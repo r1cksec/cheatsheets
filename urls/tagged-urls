@@ -169,10 +169,12 @@ https://improsec.com/tech-blog/read2own ; #cloud #azure #entra #lab-setup #cheat
 https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-2-known-ad-attacks-from-child-to-parent ; #active-directory #kerberos #inter-realm #goldenticket
 https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-3-sid-filtering-explained ; #active-directory #kerberos #inter-realm #goldenticket #sid-filter
 https://improsec.com/tech-blog/sid-filter-as-security-boundary-between-domains-part-4-bypass-sid-filtering-research ; #active-directory #kerberos #sid-filter #trust
+https://inbits-sec.com/posts/in-memory-unhooking ; #edr #unhooking #windows
 https://infosecwriteups.com/one-of-the-most-devastating-ransomware-is-a-good-point-to-start-learning-malware-analysis-a80007093de3 ; #threat-intelligence #malware-analyse #ransomware #wannacry
 https://infosecwriteups.com/password-reset-poisoning-with-host-header-injection-345b902a9ca5?gi=7cf13b5f9d42 ; #webapp #host-header-injection
 https://infosecwriteups.com/red-teaming-evading-av-c948ec5d10e9 ; #windows #av #anti-virus #edr #evasion #bypass #windows-defender #shellcode #meterpreter
 https://infosecwriteups.com/shellcodes-are-dead-long-live-fileless-shellcodes-609cbacd5cb0?gi=2442aa3a41e3 ; #shellcode #fileless #heap #obfuscation
+https://infosecwriteups.com/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397 ; #cors #webapp #xss
 https://isc.sans.edu/diary/A+new+spin+on+the+ZeroFont+phishing+technique/30248 ; #phishing #email #threat-intelligence
 https://itm4n.github.io/dll-proxying ; #windows #dll #privesc #privilege-escalation #proxying #wrapper
 https://itm4n.github.io/lsass-runasppl ; #windows #lsass #lsa-protection #runasppl #credential-guard #driver
@@ -181,9 +183,11 @@ https://javascript.info ; #javascript #wiki #cheatsheets
 https://jhalon.github.io/utilizing-syscalls-in-csharp-1 ; #syscall #csharp #direct-system-call #dot-net
 https://jhalon.github.io/utilizing-syscalls-in-csharp-2 ; #syscall #csharp
 https://joshua.hu/nagios-hacking-cve-2023-37154 ; #nagios #ssh #cve-2023-37154 #backdoor
+https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_1_1_yamashige-nakatani-tanaka_en.pdf ; #windows #rmm #remote-monitoring-managment #forensic #dfir
 https://jsecurity101.medium.com/wmi-internals-part-1-41bb97e7f5eb ; #windows #wmi #wiki #methodology
 https://jsecurity101.medium.com/wmi-internals-part-2-522f3e97709a ; #windows #wmi #provider #methodology
 https://jxy-s.github.io/herpaderping ; #av #anti-virus #bypass #process-doppelganging #process-hollowing
+https://klezvirus.github.io/RedTeaming/AV_Evasion/FromInjectionToHijacking ; #module-stumping #windows #code-injection
 https://krebsonsecurity.com/2023/07/who-and-what-is-behind-the-malware-proxy-service-socksescort ; #threat-intelligence #malware-analyzing #proxy #socksescort #illicit-services
 https://kuenzi.dev/toothbrush ; #internet-of-things #iot #philips-sonicare #reverse-engineering #nfc
 https://labs.cognisys.group/posts/Combining-Indirect-Dynamic-Syscalls-and-API-Hashing ; #windows #api-hashing #indirect-dynamic-syscall
@@ -240,6 +244,7 @@ https://nixintel.info/osint/geolocating-mobile-phones-with-an-ip ; #osint #geo-l
 https://nixintel.info/osint/geolocation-at-the-retail-park ; #osint #geo-location #image #map
 https://noperator.dev/posts/zip-snip ; #phishing #spoofing #zip #scheme-abuse
 https://notsosecure.com/hacking-aws-cognito-misconfigurations ; #aws #cognito #cloud #lambda
+https://nyxgeek.wordpress.com/2023/09/21/enumerating-24-million-users ; #user-enumeration #azure #entra #onedrive #microsoft
 https://o365blog.com/post/gmsa ; #cloud #azure #entra #group-managed-service-account #gmsa #password-dump
 https://objective-see.org/downloads/MacMalware_2022.pdf ; #macosx #malware #analyse #threat-intelligence
 https://offensivedefence.co.uk/posts/dinvoke-syscalls ; #syscall #dinvoke
@@ -249,6 +254,7 @@ https://osintteam.blog/leaks-and-breaches-for-osint-a7e3eb6bb56f?gi=fca0a7e44907
 https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr ; #syscall #av #anti-virus #edr #bypass #direct-system-call #reflective-dll-injection
 https://outflank.nl/blog/2023/03/28/attacking-visual-studio-for-initial-access ; #phishing #windows #visual-studio #vs-code #backdoor #initial-access
 https://outflank.nl/blog/2023/04/25/so-you-think-you-can-block-macros ; #windows #macros #xll-ghosting-hijack #dll-references #flow-depending-cell-content
+https://outflank.nl/blog/2023/10/19/listing-remote-named-pipes ; #windows #named-pipes #enumeration #smb
 https://owasp.org/www-community/attacks ; #webapp #cheatsheets
 https://palant.info/2022/08/10/anatomy-of-a-basic-extension ; #browser #chrome #extension #manifest
 https://pentera.io/resources/research/the-lolbas-odyssey-finding-new-lolbas-and-how-you-can-too ; #lolbin #windows #methodology
@@ -365,6 +371,7 @@ https://trikkss.github.io/posts/hiding_windows_api_calls_part1 ; #windows #api-h
 https://trufflesecurity.com/blog/4500-of-the-top-1-million-websites-leaked-source-code-secrets ; #git #secrets #aws #api-keys
 https://trufflesecurity.com/blog/secrets-leak-in-ci-cd ; #continuous-integration #jenkins #ec2 #api #secrets
 https://trufflesecurity.com/blog/trufflehog-commands-git-vs-filesystem ; #trufflehog #git #github #secrets #keys
+https://trustedsec.com/blog/a-hitchhackers-guide-to-dacl-based-detections-part-1-a ; #windows #acl #active-directory #gpo
 https://undev.ninja/introduction-to-threat-intelligence-etw ; #windows #event-tracing #descriptors 
 https://unit42.paloaltonetworks.com/cl0p-group-distributes-ransomware-data-with-torrents/#post-130278-_no8dslefr23j ; #threat-intelligence #ransomware #torrent
 https://unit42.paloaltonetworks.com/fake-cve-2023-40477-poc-hides-venomrat ; #threat-intel #fake-poc #powershell #python #malware
@@ -446,12 +453,14 @@ https://www.pavel.gr/blog/obfuscating-rubeus-using-codecepticon ; #obtaining #wi
 https://www.pnfsoftware.com/blog/analyzing-golang-executables ; #reverse-engineering #golang #malware-analyse
 https://www.politoinc.com/post/ldap-queries-for-offensive-and-defensive-operations ; #active-directory #ldap #queries #enumeration #kerberos #shadow-credentials #sid-history
 https://www.politoinc.com/post/playing-with-bubbles-an-introduction-to-dll-sideloading ; #windows #dll #sideloading #hijack #spartacus
+https://www.praetorian.com/blog/pwn-request-hacking-microsoft-github-repositories-and-more ; #github #continuous-integration #continuous-delivery #code-injection
 https://www.proofpoint.com/us/threat-insight/post/ursnif-banking-trojan-campaign-sandbox-evasion-techniques ; #sandbox #threat-intelligence #macro
 https://www.prosec-networks.com/en/blog/petit-potam-ntlm-relay-angriff ; #active-directory #certificate-service #adcs #petit-potam #printerbug #rpc
 https://www.rapid7.com/blog/post/2023/05/05/appdomain-manager-injection-new-techniques-for-red-teams ; #windows #lateral-movement #persistence #initial-access #appdomain-manager-injection #powershell
 https://www.redteam.cafe/phishing/long-live-dmarc-email-spoof-issues ; #phishing #dmarc #spoofing #mail
 https://www.redteam.cafe/red-team/dll-sideloading/dll-sideloading-not-by-dllmain ; #windows #dll #sideloading #hijack #frida
 https://www.resecurity.com/blog/article/smishing-triad-targeted-usps-and-us-citizens-for-data-theft ; #threat-intel #telegram #smishing #phishing #sql-injection
+https://www.riskinsight-wavestone.com/en/2023/10/a-universal-edr-bypass-built-in-windows-10 ; #edr #windows #evasion #bypass
 https://www.rootcat.de/blog/ec2-meta_may23 ; #cloud #aws #ec2 #meta-data
 https://www.r-tec.net/r-tec-blog-evade-signature-based-phishing-detections.html ; #phishing #evasion #signature-based #safe-browsing
 https://www.r-tec.net/r-tec-blog-net-assembly-obfuscation-for-memory-scanner-evasion.html ; #dot-net #memory-scanner #evasion #reflective-loader #obfuscation

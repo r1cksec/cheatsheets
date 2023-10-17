@@ -238,6 +238,9 @@ Physmem2profit can be used to create a minidump of a target hosts' LSASS process
 https://github.com/Fadi002/unshackle
 Open-source tool to bypass windows and linux passwords from bootable usb
 
+https://github.com/FalconForceTeam/FalconHound
+FalconHound is a blue team multi-tool. It allows you to utilize and enhance the power of BloodHound in a more automated fashion. It is designed to be used in conjunction with a SIEM or other log aggregation tool.
+
 https://github.com/Flangvik/DeployPrinterNightmare
 C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc!
 
@@ -694,6 +697,9 @@ Perform a MitM attack and extract clear text credentials from RDP connections
 https://github.com/Taonn/EmailAll
 EmailAll is a powerful Email Collect tool
 
+https://github.com/The-Viper-One/PsMapExec
+A PowerShell tool that takes strong inspiration from CrackMapExec.
+
 https://github.com/TheD1rkMtr/FilelessPELoader
 Loading Remote AES Encrypted PE in memory , Decrypted it and run it
 
@@ -855,6 +861,9 @@ A tool to escalate privileges in an active directory network by coercing authent
 
 https://github.com/bee-san/pyWhat
 Identify anything. pyWhat easily lets you identify emails, IP addresses, and more. Feed it a .pcap file or some text and it'll tell you what it is!
+
+https://github.com/bellingcat/reddit-post-scraping-tool
+Given a subreddit name and a keyword, this program returns all top (by default) posts that contain the specified keyword.
 
 https://github.com/besimorhino/powercat
 netshell features all in version 2 powershell
@@ -1342,6 +1351,9 @@ OSINT Tool: Generate username lists for companies on LinkedIn
 https://github.com/iomoath/PowerShx
 Run Powershell without software restrictions.
 
+https://github.com/ionuttbara/windows-defender-remover
+A tool which is uses to remove Windows Defender in Windows 8.x, Windows 10 (every version) and Windows 11.
+
 https://github.com/irsdl/IIS-ShortName-Scanner
 latest version of scanners for IIS short filename (8.3) disclosure vulnerability
 
@@ -1384,6 +1396,9 @@ Create fake certs for binaries using windows binaries and the power of bat files
 https://github.com/jhaddix/awsScrape
 A tool to scrape the AWS ranges looking for a keyword in SSL certificate data.
 
+https://github.com/jhx0/PowerShell-Scripts
+A collection of PowerShell scripts/helpers to aid in daily tasks.
+
 https://github.com/jm33-m0/SSH-Harvester
 Harvest passwords automatically from OpenSSH server
 
@@ -1404,6 +1419,9 @@ A fast TCP/UDP tunnel over HTTP
 
 https://github.com/jtesta/ssh-audit
 SSH server &amp; client auditing (banner, key exchange, encryption, mac, compression, compatibility, security, etc)
+
+https://github.com/jthuraisamy/TelemetrySourcerer
+Enumerate and disable common sources of telemetry used by AV/EDR.
 
 https://github.com/juliourena/SharpNoPSExec
 Get file less command execution for lateral movement.
@@ -1666,6 +1684,9 @@ Persistence via WMI
 https://github.com/n1nj4sec/pupy
 Pupy is an opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python
 
+https://github.com/naacbin/CovenantDecryptor
+CovenantDecryptor is designed to decrypt the communication data of Covenant traffic.
+
 https://github.com/naksyn/Pyramid
 a tool to help operate in EDRs' blind spots
 
@@ -1714,6 +1735,9 @@ A tool for pointesters to find candies in SharePoint
 https://github.com/nidem/kerberoast
 Kerberoast is a series of tools for attacking MS Kerberos implementations.
 
+https://github.com/nikhilh-20/ELFEN
+ELFEN: Automated Linux Malware Analysis Sandbox
+
 https://github.com/nmap/nmap
 Nmap - the Network Mapper. Github mirror of official SVN repository.
 
@@ -1731,6 +1755,9 @@ A proof-of-concept C2 channel through DuckDuckGo's image proxy service
 
 https://github.com/noperator/CVE-2019-18935
 RCE exploit for a .NET JSON deserialization vulnerability in Telerik UI for ASP.NET AJAX.
+
+https://github.com/nxenon/grpc-pentest-suite
+gRPC-Web Pentesting Suite + Burp Suite Extension
 
 https://github.com/nyancrimew/goop
 Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
@@ -1782,6 +1809,9 @@ ScareCrow - Payload creation framework designed around EDR bypass.
 
 https://github.com/optiv/rustyIron
 This tool represents a communication framework for navigating MobileIron's MDM authentication methods, allowing for account enumeration, single-factor authentication attacks, and message decryption.
+
+https://github.com/outflanknl/C2-Tool-Collection
+A collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
 
 https://github.com/outflanknl/Dumpert
 LSASS memory dumper using direct system calls and API unhooking.
@@ -1974,6 +2004,9 @@ OWASP Joomla! Vulnerability Scanner (JoomScan) is an open source project, develo
 
 https://github.com/righteousgambit/quiet-riot
 Unauthenticated enumeration of AWS, Azure, and GCP Principals
+
+https://github.com/rly0nheart/rug
+A free, open-source tool for generating random user data. Like Lorem Ipsum, but for people.
 
 https://github.com/robbyrussell/oh-my-zsh
 A delightful community-driven (with 1900+ contributors) framework for managing your zsh configuration.

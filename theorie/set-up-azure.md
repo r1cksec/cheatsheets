@@ -75,5 +75,5 @@ List devices (may need some minutes)
 
 ### Microsoft Defender for Identity
 * https://portal.atp.azure.com/tenantPortal
-> Learning period on (create more flase positive alerts)
+> Learning period on (create more false positive alerts)
 
