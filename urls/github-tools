@@ -481,6 +481,9 @@ https://github.com/Mr-Un1k0d3r/.NetConfigLoader
 https://github.com/Mr-Un1k0d3r/AMSI-ETW-Patch
 Patch AMSI and ETW
 
+https://github.com/Mr-Un1k0d3r/RedTeamCCode
+Collection of c code for red teaming
+
 https://github.com/Mr-Un1k0d3r/SCShell
 Fileless lateral movement tool that relies on ChangeServiceConfigA to run command
 
@@ -1333,6 +1336,9 @@ Vulnerability scanner written in Go which uses the data provided by osv.dev
 https://github.com/gophish/gophish
 Open-Source Phishing Toolkit
 
+https://github.com/grayhatkiller/SharpExShell
+SharpExShell automates the DCOM lateral movment technique which abuses ActivateMicrosoftApp method of Excel application.
+
 https://github.com/grimlockx/ADCSKiller
 An ADCS Exploitation Automation Tool Weaponizing Certipy and Coercer
 
@@ -1368,6 +1374,9 @@ Converts a EXE into DLL
 
 https://github.com/hasherezade/pe-bear
 Portable Executable reversing tool with a friendly GUI
+
+https://github.com/hatlord/snmpwn
+An SNMPv3 User Enumerator and Attack tool
 
 https://github.com/hausec/PowerZure
 PowerShell framework to assess Azure security
@@ -1737,6 +1746,9 @@ NTLMRawUnhide.py is a Python3 script designed to parse network packet capture fi
 
 https://github.com/montysecurity/C2-Tracker
 Live Feed of C2 servers, tools, and botnets
+
+https://github.com/moom825/visualstudio-suo-exploit
+This repository is a tool to create a .suo that when run by visual studio's will achieve code execution
 
 https://github.com/moonD4rk/HackBrowserData
 Decrypt passwords/cookies/history/bookmarks from the browser.
@@ -2110,6 +2122,9 @@ A free, open-source tool for generating random user data. Like Lorem Ipsum, but 
 https://github.com/robbyrussell/oh-my-zsh
 A delightful community-driven (with 1900+ contributors) framework for managing your zsh configuration.
 
+https://github.com/rohsec/LEAKEY
+LEAKEY is a bash script which checks and validates for leaked credentials. The idea behind LEAKEY is to make it highly customizable and easy to add checks for new services.
+
 https://github.com/rootSySdk/PowerGPOAbuse
 Powershell version of SharpGPOAbuse
 
@@ -2185,6 +2200,9 @@ Patch PE, ELF, Mach-O binaries with shellcode new version in development, availa
 https://github.com/secur30nly/go-self-delete
 Go implementation of the self-deletion of an running executable from disk
 
+https://github.com/secureworks/squarephish
+SquarePhish is an advanced phishing tool that uses a technique combining the OAuth Device code authentication flow and QR codes.
+
 https://github.com/seekr-osint/seekr
 A multi-purpose OSINT toolkit with a neat web-interface.
 
@@ -2259,6 +2277,9 @@ The GPOddity project, aiming at automating GPO attack vectors through NTLM relay
 
 https://github.com/synacktiv/ntdissector
 Ntdissector is a tool for parsing records of an NTDS database. Records are dumped in JSON format and can be filtered by object class.
+
+https://github.com/synacktiv/pcapan
+A pcap capture analysis helper
 
 https://github.com/t3l3machus/Villain
 Villain is a Windows & Linux backdoor generator and multi-session handler that allows users to connect with sibling servers (other machines running Villain) and share their backdoor sessions, handy for working as a team.

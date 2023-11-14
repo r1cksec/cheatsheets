@@ -1,5 +1,6 @@
 http://hacking-printers.net/wiki/index.php/Main_Page ; #printer #wiki #methodology
 https://0x44.xyz/blog/cve-2023-4369 ; #browser #extension #chrome #privilege-escalation
+https://0xboku.com/2021/07/12/ArtOfDeviceCodePhish.html ; #azure #entra #setup #phishing #device-code #o365
 https://0xdarkvortex.dev/c2-infra-on-azure ; #command-and-control #c2 #domain-fronting #infrastructure #azure #entra
 https://0xdarkvortex.dev/hiding-in-plainsight ; #syscall #call-stack #dll 
 https://0xdarkvortex.dev/proxying-dll-loads-for-hiding-etwti-stack-tracing ; #windows #dll #sideloading #proxying #evasion #stack
@@ -46,8 +47,10 @@ https://badoption.eu/docs/blog/2023/01/31/code_c2.html ; #c2 #command-and-contro
 https://bakerstreetforensics.com/2023/07/19/hunting-for-indicators-with-powershell-new-files ; #threat-intelligence #malware-analyse #forensic #dfir #powershell
 https://bishopfox.com/blog/introducing-cloudfox ; #cloud #aws #azure #entra #enumeration
 https://bishopfox.com/blog/spoofy-email-domain-spoofing ; #phishing #mail #dmark #dkim #spf
+https://bleekseeks.com/blog/how-to-protect-against-modern-phishing-attacks ; #phishing #evilginx #conditional-access-policy #continous-access-evaluation
 https://blog.0x4.xyz/bypassing-windows-protection-mechanisms/bypass-windows-defender-atp ; #windows-defender-atp #advanced-threat-protection #edr #evasion #bypass
 https://blog.ampedsoftware.com/2023/02/28/cctv-the-beginners-guide ; #cctv #camera #video #hdd
+https://blog.apnic.net/2023/11/22/ja4-network-fingerprinting ; #ja4+ #jarm #threat-intel #dfir #forensic
 https://blog.assetnote.io/2021/08/29/exploiting-graphql ; #webapp #graphql #batchql #csrf
 https://blog.assetnote.io/2023/04/30/rce-oracle-opera ; #webapp #oracle-opera #rce #cve
 https://blog.bitsadmin.com/living-off-the-foreign-land-windows-as-offensive-platform-part-3 ; #windows #active-directory #lolbas #wmi #powershell #registry #certificate #cim
@@ -127,6 +130,7 @@ https://diversenok.github.io/2022/08/10/Concealed-Detection.html ; #concealed-co
 https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc ; #c2 #command-and-control #matrix #cheatsheets
 https://documentation.help/WiX-3.10.1/documentation.pdf ; #wix #msi #windows #man #wiki #methodology
 https://elliotonsecurity.com/living-off-the-land-reverse-engineering-methodology-plus-tips-and-tricks-cmdl32-case-study ; #reverse-engineering #lolbin #windows
+https://embee-research.ghost.io/practical-queries-for-malware-infrastructure-part-3 ; #threatintel #censys #malware-infrastructure
 https://espysys.com/blog/telegram-osint-the-ultimate-guide-to-unveiling-insights-beyond-what-meets-the-eye ; #osint #telegram
 https://eta.st/2023/01/31/rail-tickets.html ; #reverse-engineering #rail-ticket #decompiling
 https://exploit.ph/des-is-useful.html ; #active-directory #kerberos #domain-controller #rubues #des #targeted-kerberoasting #data-encryption-standard
@@ -260,7 +264,7 @@ https://nixintel.info/osint/geolocating-mobile-phones-with-an-ip ; #osint #geo-l
 https://nixintel.info/osint/geolocation-at-the-retail-park ; #osint #geo-location #image #map
 https://noperator.dev/posts/zip-snip ; #phishing #spoofing #zip #scheme-abuse
 https://notsosecure.com/hacking-aws-cognito-misconfigurations ; #aws #cognito #cloud #lambda
-https://nullg0re.com/2023/09/hijacking-someone-else-dcsync : #windows #dc-sync #aad-connect #ntds-dit #dump
+https://nullg0re.com/2023/09/hijacking-someone-else-dcsync ; #windows #dc-sync #aad-connect #ntds-dit #dump
 https://nyxgeek.wordpress.com/2023/09/21/enumerating-24-million-users ; #user-enumeration #azure #entra #onedrive #microsoft
 https://o365blog.com/post/gmsa ; #cloud #azure #entra #group-managed-service-account #gmsa #password-dump
 https://objective-see.org/downloads/MacMalware_2022.pdf ; #macosx #malware #analyse #threat-intelligence
@@ -435,6 +439,7 @@ https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Ko
 https://www.cadosecurity.com/oracleiv-a-dockerised-ddos-botnet ; #malware #botnet #docker #threat-intel
 https://www.chudamax.com/posts/kerberos-102-overview ; #kerberos #windows #active-directory #methodology
 https://www.cisa.gov/sites/default/files/2023-06/aa23-165a_understanding_TA_LockBit.pdf ; #threat-intelligence #malware-analyse #ransomware #lockbit
+https://www.coresecurity.com/core-labs/articles/running-pes-inline-without-console ; #windows #evasion #edr #bypass #conhost
 https://www.crowdstrike.com/blog/how-to-detect-and-prevent-impackets-wmiexec ; #forensic #dfir #lateral-movement #impacket #event-id #detection
 https://www.crowdstrike.com/blog/noauth-microsoft-azure-ad-vulnerability ; #cloud #azure #entra #nouath #azure #entra-application
 https://www.cryptic.red/post/defending-your-phishing-page-against-eop-and-safe-links-a-blacklist-approach ; #phishing #safelinks #o365
@@ -454,7 +459,7 @@ https://www.horizon3.ai/from-cve-2022-33679-to-unauthenticated-kerberoasting ; #
 https://www.http418infosec.com/offsecops-using-jenkins-for-red-team-tooling ; #jenkins #pipeline #obfuscation #csharp
 https://www.huntandhackett.com/blog/concealed-code-execution-techniques-and-detection; #concealed-code-execution #detection #process-tampering #code-injection
 https://www.ikat.kronicd.net/Linux ; #kiosk #breakout #linux #methodology #cheatsheets
-https://www.immersivelabs.com/blog/detecting-and-decrypting-sliver-c2-a-threat-hunters-guide ; #threat-intelligence #malware-analyse #sliver #c #detection
+https://www.immersivelabs.com/blog/detecting-and-decrypting-sliver-c2-a-threat-hunters-guide ; #threat-intelligence #malware-analyse #sliver #c #detection #dfir #forensic #monitoring
 https://www.immunit.ch/blog/2021/07/05/microsoft-teams-user-enumeration ; #ms-teams #phishing #enumeration #instant-messenger
 https://www.immunit.ch/blog/2023/05/11/wsus-rce-inject ; #windows #wsus
 https://www.inversecos.com/2022/05/how-to-perform-clipboard-forensics.html ; #clipboard #memory #forensic #dfir #history
@@ -512,6 +517,7 @@ https://www.sonarsource.com/blog/playing-dominos-with-moodles-security-1 ; #mood
 https://www.synack.com/blog/exploits-explained-5-unusual-authentication-bypass-techniques ; #webapp #refresh-token
 https://www.synacktiv.com/en/publications/a-dive-into-microsoft-defender-for-identity.html ; #windows #etw #mdi #azure #entra #edr #ldap #kerberos #evasion #bypass
 https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html ; #cloud #azure #entra #methodology #recon #phs
+https://www.synacktiv.com/en/publications/pcapan-a-pcap-analysis-helper.html ; #dfir #forensic #pcab
 https://www.synacktiv.com/publications/exploring-android-heap-allocations-in-jemalloc-new ; #android #heap-overflow #allocation
 https://www.synacktiv.com/publications/gpoddity-exploiting-active-directory-gpos-through-ntlm-relaying-and-more ; #active-directory #gpo #group-policy #sysvol #ntlm-relaying
 https://www.synacktiv.com/publications/introducing-ntdissector-a-swiss-army-knife-for-your-ntdsdit-files.html ; #active-directory #ntds-dit #dump

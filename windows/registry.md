@@ -106,3 +106,8 @@ HKCU\Software\Microsoft\Windows\CurrentVersion\RunServices
 HKCU\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
 ```
 
+### Prevent windows reboot on expired VMs (delete whole key)
+```
+HKLM\SYSTEM\CurrentControlSet\Services\WLMS
+```
+

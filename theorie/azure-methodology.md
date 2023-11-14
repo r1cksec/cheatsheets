@@ -115,16 +115,24 @@ Each tenant has a dedicated Directory, which is used to perform identity and acc
 # Token types
 
 ### Access Token
-Used in combination of user, client, and resource. Cannot be revoked until expiry (1 hour default).
+Can be used to talk to APIs and access resources. 
+Tied to specific client (the application that requested the token) and a specific resource (the accessed API).
+Cannot be revoked until expiry (1 hour default).
 
 ### ID Token
-Used in combination of user and client. Contains information about the user.
+Used in combination of user and client.
+Contains information about the user.
 
 ### Refresh Token
-Used in combination of user and client. Used to get new access and ID tokens. Cannot be revoked until expiry (default 90 days of inactivity).
+Issued to applications to obtain new access tokens
+Can only be used by the application they were issued to, or in some cases by a group of applications.
+Used to get new Access and ID tokens.
+Cannot be revoked until expiry (default 90 days of inactivity).
 
 ### Primary Refresh Token
-Used for single sign and to obtain and refresh tokens to any application. Valid for 90 days and continuously renewed. Can be extracted from AzureAD joined or Hybrid joined machines.
+Used for Single Sign On and to obtain refresh tokens to any application.
+Valid for 90 days and continuously renewed.
+Can be extracted from AzureAD joined or Hybrid joined machines.
 
 
 # Microsoft MFA verification options

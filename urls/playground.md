@@ -6,6 +6,7 @@
 * https://github.com/KolbTo/Vulnerable_Spring_Boot_Project
 * https://github.com/mvelazc0/BadZure
 * https://github.com/Orange-Cyberdefense/GOAD
+* https://github.com/patrickhener/invictus
 * https://github.com/payatu/diva-android
 * https://github.com/RhinoSecurityLabs/cloudgoat
 * https://github.com/simondotsh/nsec2023-ctf-aws
