@@ -31,6 +31,7 @@ C:\Windows\system32\drivers\etc\hosts
 
 ### Ntds.dit 
 ```
+C:\Windows\NTDS\ntds.dit
 C:\Windows\system32\Windows\NTDS\ntds.dit
 ```
 

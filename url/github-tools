@@ -151,6 +151,9 @@ Easily obfuscate your html!
 https://github.com/BishopFox/cloudfox
 Automating situational awareness for cloud penetration tests.
 
+https://github.com/BishopFox/sj
+A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
+
 https://github.com/BishopFox/sliver
 Adversary Emulation Framework
 
@@ -442,6 +445,9 @@ A collection of tools Neil and Andy have been working on released in one place a
 https://github.com/LaresLLC/SlinkyCat
 Slinky Cat attempts to give users an easy-to-navigate menu offering predefined Active Directory Service Interfaces (ADSI) and .NET queries which can be used to enumerate a Windows domain.
 
+https://github.com/Leo4j/Amnesiac
+Amnesiac is a post-exploitation framework entirely written in PowerShell and designed to assist with lateral movement within Active Directory environments
+
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection. Convert .net exe into powershell script.
 
@@ -453,6 +459,9 @@ PXEThief is a set of tooling that can extract passwords from the Operating Syste
 
 https://github.com/Macmod/goblob
 A fast enumeration tool for publicly exposed Azure Storage blobs.
+
+https://github.com/Maldev-Academy/Christmas
+This PoC creates multiple processes, where each process performs a specific task as part of the injection operation. Each child process will spawn another process and pass the required information via the command line.
 
 https://github.com/Maldev-Academy/EntropyReducer
 Reduce Entropy And Obfuscate Youre Payload With Serialized Linked Lists
@@ -850,6 +859,9 @@ Little AV/EDR bypassing lab for training & learning purposes
 https://github.com/XiaoliChan/wmiexec-Pro
 New generation of wmiexec.py
 
+https://github.com/YARAHQ/yara-forge
+Automated YARA Rule Standardization and Quality Assurance Tool
+
 https://github.com/YOLOP0wn/POSTDump
 Another tool to perform minidump of LSASS process using few technics to avoid detection.
 
@@ -973,6 +985,9 @@ Finds Instagram location IDs near a specified latitude and longitude.
 https://github.com/bellingcat/reddit-post-scraping-tool
 Given a subreddit name and a keyword, this program returns all top (by default) posts that contain the specified keyword.
 
+https://github.com/bensadeh/tailspin
+A log file highlighter
+
 https://github.com/besimorhino/powercat
 netshell features all in version 2 powershell
 
@@ -1006,6 +1021,9 @@ A round-trip obfuscated HTTP file transfer setup built to bypass IDS detections.
 https://github.com/blacklanternsecurity/MANSPIDER
 Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!
 
+https://github.com/blacklanternsecurity/bbot
+OSINT automation for hackers.
+
 https://github.com/blackorbird/PrintNightmare
 Remote code execution in Windows Spooler Service
 
@@ -1029,6 +1047,9 @@ My experiments in weaponizing Nim
 
 https://github.com/byt3bl33d3r/SprayingToolkit
 Scripts to make password spraying attacks against Lync/S4B, OWA &amp; O365 a lot quicker, less painful and more efficient
+
+https://github.com/c3c/ADExplorerSnapshot.py
+ADExplorerSnapshot.py is an AD Explorer snapshot parser. It is made as an ingestor for BloodHound, and also supports full-object dumping to NDJSON.
 
 https://github.com/caarlos0/twitter-cleaner
 Automatically delete tweets, retweets, and favorites from your timeline, and, if provided, from your twitter archive as well.
@@ -1420,6 +1441,9 @@ Source Code Management Attack Toolkit
 https://github.com/haccer/subjack
 Subdomain Takeover tool written in Go
 
+https://github.com/hackerhouse-opensource/WMIProcessWatcher
+A CIA tradecraft technique to asynchronously detect when a process is created using WMI.
+
 https://github.com/hakaioffsec/navgix
 navgix is a multi-threaded golang tool that will check for nginx alias traversal vulnerabilities
 
@@ -1446,6 +1470,9 @@ PowerShell framework to assess Azure security
 
 https://github.com/hausec/ProxyLogon
 ProxyLogon PoC
+
+https://github.com/hephaest0s/usbkill
+« usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
 
 https://github.com/hfiref0x/UACME
 Defeating Windows User Account Control
@@ -1602,6 +1629,9 @@ Wordlist, rules and masks from Kaonashi project (RootedCON 2019)
 
 https://github.com/karendm/ADHunt
 Tool for enumerating Active Directory environments
+
+https://github.com/kevin-mizu/domloggerpp
+A browser extension that allows you to monitor, intercept, and debug JavaScript sinks based on customizable configurations.
 
 https://github.com/kfosaaen/Get-LAPSPasswords
 Powershell function to pull the local admin passwords from LDAP, stored there by LAPS.
@@ -2439,6 +2469,9 @@ Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types
 
 https://github.com/twelvesec/passcat
 Passwords Recovery Tool
+
+https://github.com/ultrafunkamsterdam/undetected-chromedriver
+Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)
 
 https://github.com/unixpickle/gobfuscate
 Obfuscate Go binaries and packages

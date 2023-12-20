@@ -7,7 +7,7 @@ $objUser.Value
 
 ### Convert objectname to SID
 ```
-$objUser = New-Object System.Security.Principal.NTAccount(<name>)
+$objUser = New-Object System.Security.Principal.NTAccount("<name>")
 $strSid = $objUser.Translate([System.Security.Principal.SecurityIdentifier])
 $strSid.Value
 ```
