@@ -11,6 +11,7 @@
 * https://bgp.tools ; #osint #asn #cidr #ipv4 #whois
 * https://bigdatacloud.com ; #osint #email #threat-intelligence #user-agent #geolocation #spam
 * https://buckets.grayhatwarfare.com ; #osint #buckets #file-search
+* https://openbuckets.io ; #osint #buckets #file-search #multi-cloud
 * https://builtwith.com ; #osint #http #google-id
 * https://chaos.projectdiscovery.io ; #osint #subdomain
 * https://completedns.com/dns-history ; #osint #nameserver #dns-history
