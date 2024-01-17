@@ -565,6 +565,9 @@ https://github.com/MustafaBilgici/SucoshScanny
 https://github.com/MythicAgents/Nimplant
 A cross-platform implant written in Nim
 
+https://github.com/MzHmO/Parasite-Invoke
+Hide your P/Invoke signatures through other people's signed assemblies
+
 https://github.com/MzHmO/PowershellKerberos
 Some scripts to abuse kerberos using Powershell
 
@@ -829,6 +832,9 @@ The Internets #1 Subdomain Takeover Tool
 https://github.com/SySS-Research/Seth
 Perform a MitM attack and extract clear text credentials from RDP connections
 
+https://github.com/SySS-Research/azurenum
+Enumerate Microsoft Entra ID (Azure AD) fast
+
 https://github.com/Taonn/EmailAll
 EmailAll is a powerful Email Collect tool
 
@@ -945,6 +951,9 @@ Hiding unsigned DLL inside a signed DLL
 
 https://github.com/achyuthjoism/tweeds
 An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a Tweets and more while evading most API limitations.
+
+https://github.com/airbus-seclab/bincat
+Binary code static analyser, with IDA integration. Performs value and taint analysis, type reconstruction, use-after-free and double-free detection
 
 https://github.com/ajuelosemmanuel/duolingOSINT
 Gather information about a Duolingo user
@@ -1155,6 +1164,9 @@ PSAmsi is a tool for auditing and defeating AMSI signatures.
 
 https://github.com/cobbr/SharpSploit
 SharpSploit is a .NET post-exploitation library written in C#
+
+https://github.com/codingo/dorky
+A tool to quickly do keyword searches over Gitlab and Github for OSINT & bug bounty recon
 
 https://github.com/conflict-investigations/media-search-engine
 Search geolocations for (social) media posts in databases like Bellingcat, Cen4InfoRes etc.
@@ -2221,6 +2233,9 @@ Nosey Parker is a command-line program that finds secrets and sensitive informat
 https://github.com/projectdiscovery/asnmap
 Go CLI and Library for quickly mapping organization network ranges using ASN information.
 
+https://github.com/projectdiscovery/dnsx
+dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.
+
 https://github.com/projectdiscovery/interactsh
 An OOB interaction gathering server and client library
 
@@ -2721,4 +2736,7 @@ Subdomains analysis and generation tool. Reveal the hidden!
 
 https://gitlab.com/KevinJClark/csharptoolbox
 Ongoing collection of C Sharp tools
+
+https://gitlab.com/surfer-project/surfer
+A waveform viewer with a focus on a snappy usable interface, and extensibility.
 

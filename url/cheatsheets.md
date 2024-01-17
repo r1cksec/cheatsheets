@@ -79,6 +79,7 @@
 * https://github.com/rvrsh3ll/Azure-App-Tools
 * https://github.com/snowcra5h/windows-api-function-cheatsheets
 * https://github.com/streaak/keyhacks
+* https://github.com/subat0mik/Misconfiguration-Manager
 * https://github.com/subat0mik/whoamsi
 * https://github.com/t3l3machus/PowerShell-Obfuscation-Bible
 * https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet

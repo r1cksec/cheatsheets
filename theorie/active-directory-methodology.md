@@ -785,7 +785,7 @@ $> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <
 
 ### ESC2
 
-ESC2 is when a certificate template can be used for any purpose (see ESC3 - use template = ESC2).
+ESC2 is when a certificate template can be used for any purpose (change Enrollment Agents - see ESC3)
 
 ### ESC3
 
@@ -825,6 +825,10 @@ Restore the configuration afterwards:
 ```
 $> certipy template '<domain>/<user>'@<certificatesRhost> -hashes :<ntHash> -template 'ESC4' -configuration '<file>.json'
 ```
+
+### ESC5
+
+Write Access on PKI Object.
 
 ### ESC6
 
@@ -893,6 +897,23 @@ Get NT hash of domain controller:
 $> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
 ```
 
+### ESC9
+
+GenericWrite on user or computer and vulnerable certficate template:
+
+1. change username
+2. request certificate
+3. change username.
+
+### ESC10
+
+Same as ESC9 but any certificate template can be used.
+
+### ESC11
+
+RPC Enrollment relay attack: 
+
+ICertPassage Remote (ICPR) to NTLM
 
 # Best Practice
 - Check and follow up log notifications

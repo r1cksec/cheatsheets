@@ -13,6 +13,7 @@
 * https://bigdatacloud.com ; #osint #email #threat-intelligence #user-agent #geolocation #spam
 * https://buckets.grayhatwarfare.com ; #osint #buckets #file-search
 * https://builtwith.com ; #osint #http #google-id
+* https://castrickclues.com ; #osint #email #user-profile
 * https://certificatedetails.com ; #osint #certficate #subdomain #tls
 * https://chaos.projectdiscovery.io ; #osint #subdomain
 * https://columbus.elmasy.com ; #osint #subdomain

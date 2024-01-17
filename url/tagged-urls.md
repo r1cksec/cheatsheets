@@ -233,6 +233,7 @@
 * https://infosecwriteups.com/red-teaming-evading-av-c948ec5d10e9 ; #windows #av #anti-virus #edr #evasion #bypass #windows-defender #shellcode #meterpreter
 * https://infosecwriteups.com/shellcodes-are-dead-long-live-fileless-shellcodes-609cbacd5cb0?gi=2442aa3a41e3 ; #shellcode #fileless #heap #obfuscation
 * https://infosecwriteups.com/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397 ; #cors #webapp #xss
+* https://intezer.com/blog/malware-analysis/malware-reverse-engineering-beginners ; #reverse-engineering #assembly #arithmetic-logical-unit
 * https://ipslav.github.io/2023-12-12-let-me-manage-your-appdomain ; #windows #appdomain #edr #evasion #dirtyclr #dot-net
 * https://isc.sans.edu/diary/A+new+spin+on+the+ZeroFont+phishing+technique/30248 ; #phishing #email #threat-intelligence
 * https://isc.sans.edu/diary/rss/30676 ; #phishing #threatintel #internet-archive #waybackmachine
@@ -244,6 +245,7 @@
 * https://javascript.info ; #javascript #wiki #cheatsheets
 * https://jhalon.github.io/utilizing-syscalls-in-csharp-1 ; #syscall #csharp #direct-system-call #dot-net
 * https://jhalon.github.io/utilizing-syscalls-in-csharp-2 ; #syscall #csharp
+* https://jmswrnr.com/blog/hacking-a-smart-home-device ; #hardware #iot #internet-of-things #reverse-engineering #smart-home #esp32
 * https://johnstawinski.com/2024/01/11/playing-with-fire-how-we-executed-a-critical-supply-chain-attack-on-pytorch ; #cicd #continuous-integration-continous-deployment #self-hosted-runner #pipeline #token #aws
 * https://john-woodman.com/research/spotifyc2 ; #c2 #command-and-control #spotify
 * https://joshua.hu/nagios-hacking-cve-2023-37154 ; #nagios #ssh #cve-2023-37154 #backdoor
@@ -407,6 +409,7 @@
 * https://redhuntlabs.com/blog/introducing-bucketloot-an-automated-cloud-bucket-inspector ; #cloud #aws #bucket
 * https://redmaple.tech/blogs/2023/extract-bitwarden-vault-passwords ; #reverse-engineering #bitwarden #master-password #chromium
 * https://redops.at/en/blog/meterpreter-vs-modern-edrs-in-2023 ; #windows #meterpreter #shellcode #xor #edr #evasion #bypass
+* https://redsiege.com/blog/2024/01/you-cant-see-me-protecting-your-phishing-infrastructure ; #phishing #infrastructure #apache
 * https://redteaming.co.uk/2020/07/12/dll-proxy-loading-your-favorite-c-implant ; #windows #dll #sideloading #proxying #donut #payload
 * https://repositorio-aberto.up.pt/bitstream/10216/142935/2/572983.pdf ; #gaming #cheat #detection #prevention
 * https://research.aurainfosec.io/pentest/hook-line-and-phishlet ; #phishing #exvilginx #adfs #azure #entra #mfa
@@ -432,6 +435,7 @@
 * https://scorpiosoftware.net/2023/09/24/windows-hook-events ; #windows #event-hooking #dll-injection
 * https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide ; #phishing #smtp #mail #spoofing
 * https://secret.club/2023/06/05/spoof-pe-sections.html ; #windows-kernel #pe-section #spoofing
+* https://securelist.com/network-tunneling-with-qemu/111803 ; #windows #socket #tunnel #pivot #qemu
 * https://securesystems.de/blog/a-fresh-look-at-user-enumeration-in-microsoft-teams ; #ms-teams #phishing #enumeration #instant-messenger
 * https://securitycafe.ro/2023/04/03/mobile-pentesting-101-how-to-set-up-your-android-environment ; #mobile #android #lab-setup #emulator #mobsf
 * https://security.humanativaspa.it/a-journey-into-iot-unknown-chinese-alarm-part-1-discover-components-and-ports ; #internet-of-things #iot #xiaomi #chip #fcc-id
