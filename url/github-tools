@@ -58,6 +58,9 @@ A suite of tools to disrupt campaigns using the Sliver C2 framework.
 https://github.com/ADPunisher/OwnershipStealer
 This C# code is a console application that attempts to take ownership of a specified file.
 
+https://github.com/ASOT-LABS/TeamsBreaker
+TeamsBreaker is a tool designed for automating the sending of phishing messages to victims. It is heavily based from TeamsPhisher and TeamsEnum.
+
 https://github.com/ATTACKnDEFEND/pdf-smuggler
 Create PDFs with HTML smuggling attachments that save on opening the document.
 
@@ -212,7 +215,7 @@ https://github.com/CycodeLabs/raven
 CI/CD Security Analyzer
 
 https://github.com/D00Movenok/BounceBack
-Stealth redirector for your red team operation security
+BounceBack is a powerful, highly customizable and configurable reverse proxy with WAF functionality for hiding your C2/phishing/etc infrastructure from blue teams, sandboxes, scanners, etc.
 
 https://github.com/D3Ext/Hooka
 Shellcode loader, hooks detector and more written in Golang
@@ -565,9 +568,6 @@ Some scripts to abuse kerberos using Powershell
 https://github.com/MzHmO/psexec_noinstall
 Repository contains psexec, which will help to exploit the forgotten pipe
 
-https://github.com/N0rz3/GitSint
-OSINT Tool (github tracker)
-
 https://github.com/NHAS/reverse_ssh
 SSH based reverse shell
 
@@ -793,6 +793,9 @@ Email recon made fast and easy, with a framework to build on
 https://github.com/SirVer/ultisnips
 UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!
 
+https://github.com/Slowerzs/ThievingFox
+ThievingFox is a collection of post-exploitation tools to gather credentials from various password managers and windows utilities.
+
 https://github.com/SnaffCon/Snaffler
 A tool to help find credentials on smb shares.
 
@@ -874,6 +877,9 @@ PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAdd
 https://github.com/WiredPulse/Invoke-HiveNightmare
 PoC for CVE-2021-36934, which enables a standard user to be able to retrieve the SAM, Security, and Software Registry hives in Windows 10 version 1809 or newer
 
+https://github.com/WithSecureLabs/lolcerts
+A repository of code signing certificates known to have been leaked or stolen, then abused by threat actors
+
 https://github.com/WoeUSB/WoeUSB
 A Microsoft Windows® USB installation media preparer for GNU+Linux
 
@@ -891,6 +897,9 @@ Little AV/EDR bypassing lab for training & learning purposes
 
 https://github.com/XiaoliChan/wmiexec-Pro
 New generation of wmiexec.py
+
+https://github.com/Xre0uS/MultiDump
+MultiDump is a post-exploitation tool for dumping and extracting LSASS memory discreetly.
 
 https://github.com/YARAHQ/yara-forge
 Automated YARA Rule Standardization and Quality Assurance Tool
@@ -1549,6 +1558,9 @@ A braindead program for cracking encrypted ZIP archives. Forked from http://oldh
 https://github.com/iagox86/dnscat2
 Welcome to dnscat2, a DNS tunnel that WON'T make you sick and kill you!
 
+https://github.com/iamagarre/BadExclusions
+BadExclusions is a tool to identify folder custom or undocumented exclusions on AV/EDR
+
 https://github.com/iamj0ker/bypass-403
 A simple script just made for self use for bypassing 403
 
@@ -1563,6 +1575,9 @@ Bypass AMSI via PowerShell by splitting a file into multiple chunks
 
 https://github.com/icyguider/Shhhloader
 Syscall Shellcode Loader (Work in Progress)
+
+https://github.com/icyguider/UAC-BOF-Bonanza
+Collection of UAC Bypass Techniques Weaponized as BOFs
 
 https://github.com/idnahacks/GoodHound
 Uses Sharphound, Bloodhound and Neo4j to produce an actionable list of attack paths for targeted remediation.
@@ -1647,6 +1662,9 @@ Harvest passwords automatically from OpenSSH server
 
 https://github.com/joeavanzato/Trawler
 PowerShell script to help Incident Responders discover adversary persistence mechanisms.
+
+https://github.com/joeyism/linkedin_scraper
+A library that scrapes Linkedin for user data
 
 https://github.com/jonaslejon/malicious-pdf
 Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator
@@ -1743,6 +1761,9 @@ Metagoofil is an information gathering tool designed for extracting metadata of 
 
 https://github.com/last-byte/PersistenceSniper
 Powershell module that can be used by Blue Teams, Incident Responders and System Administrators to hunt persistences implanted in Windows machines.
+
+https://github.com/leandrofroes/gftrace
+A command line Windows API tracing tool for Golang binaries.
 
 https://github.com/leechristensen/SpoolSample
 PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface. This is possible via other protocols as well.
@@ -1899,6 +1920,12 @@ The new Windows Terminal and the original Windows console host, all in the same 
 
 https://github.com/mitre/caldera
 Automated Adversary Emulation Platform
+
+https://github.com/mlcsec/FormThief
+Spoofing desktop login applications with WinForms and WPF
+
+https://github.com/mlcsec/proctools
+Small toolkit for extracting information and dumping sensitive strings from Windows processes
 
 https://github.com/mlgualtieri/NTLMRawUnHide
 NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
@@ -2421,6 +2448,9 @@ PDFator is an InfoSec project that consists of a Python script and a C applicati
 
 https://github.com/snovvcrash/SharpDXWebcam
 Utilizing DirectX and DShowNET assemblies to record video from a host's webcam
+
+https://github.com/sockysec/Telerecon
+A reconnaissance framework for researching and investigating Telegram.
 
 https://github.com/soufianetahiri/CitrixSecureAccessAuthCookieDump
 Dump Citrix Secure Access auth cookie from the process memory

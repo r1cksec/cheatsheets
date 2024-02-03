@@ -6,8 +6,13 @@ https://app.validin.com/docs
 curl -s -H "Authorization: BEARER <apiKey>" "https://app.validin.com/api/axon/domain/dns/history/<domain>"
 ```
 
-### Get domains that resolve(d) to the given IP address
+### Perform historical reverse IP lookup on single IP
 ```
 curl -s -H "Authorization: BEARER <apiKey>" "https://app.validin.com/api/axon/ip/dns/history/<ip>"
+```
+
+### Perform historical reverse IP lookup on range
+```
+curl -s -H "Authorization: BEARER <apiKey>" "https://app.validin.com/api/axon/ip/dns/history/<ip>/<cidr>"
 ```
 

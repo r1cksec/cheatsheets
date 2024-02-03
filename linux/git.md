@@ -1,7 +1,7 @@
-### Set email and username for all repositories (remove --global for current repository)
+### Configure email and username
 ```
-git config --global user.email "<mail>"
-git config --global user.name "<user>"
+git config user.name "r1cksec"
+git config user.email "77610058+r1cksec@users.noreply.github.com"
 ```
 
 ### Sign files with given key

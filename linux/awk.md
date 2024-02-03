@@ -3,9 +3,9 @@
 cat <file> | awk -F '#' '{print $2,$3}'
 ```
 
-### Get all user in group vboxusers
+### Print last and second last match
 ```
-awk -F ':' '/vboxusers/{print $4}' /etc/group
+cat <file> | awk -F '.' '{print $(NF-1)"."$NF}'
 ```
 
 ### Convert to lower case

@@ -31,6 +31,7 @@
 * https://evasions.checkpoint.com
 * https://facemorph.me
 * https://filesec.io
+* https://formcrafts.com ; #web #hosting
 * https://github.com/bundesAPI
 * https://gtfoargs.github.io
 * https://gtfobins.github.io

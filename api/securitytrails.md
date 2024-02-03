@@ -11,6 +11,11 @@ curl -s --request GET --url "https://api.securitytrails.com/v1/account/usage" --
 curl -s --request GET --url "https://api.securitytrails.com/v1/history/<domain>/whois" --header "accept: application/json" --header "APIKEY: <apiKey>"
 ```
 
+### Get historical DNS records (A, AAAA, MX, NS, SOA, TXT)
+```
+curl -s --request GET --url "https://api.securitytrails.com/v1/history/<domain>/dns/a" --header "accept: application/json" --header "APIKEY: <apiKey>"
+```
+
 ### Get mail-, nameserver and dns records
 ```
 curl -s --request GET --url "https://api.securitytrails.com/v1/domain/<domain>" --header "accept: application/json" --header "APIKEY: <apiKey>"

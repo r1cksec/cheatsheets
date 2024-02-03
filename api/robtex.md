@@ -1,11 +1,10 @@
 ### Source
 https://www.robtex.com/api
 
-### Get domains that resolve to the given IP address and geolocation
+### Get domain history and GEO-location of given ip
 ```
 curl -s "https://freeapi.robtex.com/ipquery/<ip>"
 curl -s "https://freeapi.robtex.com/pdns/reverse/<ip>"
-curl -s "https://freeapi.robtex.com/ipquery/<ip>?key=<apiKey>"
 ```
 
 ### Get ip range of given ASN

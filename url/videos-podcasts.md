@@ -1,5 +1,6 @@
 * https://darknetdiaries.com ; #mixed #stories #podcast
 * https://media.defcon.org ; #mixed #convention #security-conference #archive
+* https://www.youtube.com/watch?v=2Y4nwJVLlqw ; #dll-process-injection #windows #virtual-alloc
 * https://www.youtube.com/watch?v=3T2Al3jdY38 ; #ansi #ecape #log-file #command-line #defcon
 * https://www.youtube.com/watch?v=aSiIHKeN3ys ; #blind-xxe #dns #web
 * https://www.youtube.com/watch?v=BnmVXJQAQu8 ; #malware-analyse #php-webshell #deobfuscation #the-cyber-yeti

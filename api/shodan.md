@@ -31,6 +31,7 @@ cat cidrRanges.txt | xargs -I % sh -c 'echo %\\n; curl -s "https://api.shodan.io
 country:<country>
 http.title:<title>
 http.html:<keyword>
+http.favicon.hash:<murmurHash3>
 net:<networkCidr>
 org:<company>
 port:<port>

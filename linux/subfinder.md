@@ -6,9 +6,55 @@ https://github.com/projectdiscovery/subfinder
 subfinder -d <domain>
 ```
 
-### OSINT sources:
+### OSINT sources without API key
 ```
-alienvault,archiveis,binaryedge,bufferover,censys,certspotter,certspotterold,commoncrawl,crtsh,digicert,dnsdumpster,dnsdb,entrust,googleter,hackertarget,intelx,ipv4info,passivetotal,rapiddns,securitytrails,shodan,sitedossier,sublist3r,spyse,threatcrowd,threatminer,urlscan,virustotal,waybackarchive,zoomeye
+alienvault
+anubis
+commoncrawl
+crtsh
+digitorus
+dnsdumpster
+gitlab
+hackertarget
+leakix
+netlas
+rapiddns
+reconcloud
+redhuntlabs
+riddler
+sitedossier
+threatminer
+waybackarchive
+```
+
+### OSINT sources with API key
+```
+bevigil
+binaryedge
+bufferover
+builtwith
+c99
+censys
+certspotter
+chaos
+chinaz
+dnsdb
+dnsrepo
+facebook
+fofa
+fullhunt
+github
+hunterio
+intelx
+passivetotal
+quake
+robtex
+securitytrails
+shodan
+threatbook
+virustotal
+whoisxml
+zoomeye
 ```
 
 ### API setup
