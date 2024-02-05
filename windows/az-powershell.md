@@ -140,3 +140,8 @@ Get-AzAccessToken -ResourceTypeName MSGraph
 Connect-AzAccount -AccountId <user>@<tenant>.onmicrosoft.com -AccessToken <token> -MicrosoftGraphAccessToken <graphToken>
 ```
 
+### List connections attached to Function App
+```
+az functionapp hybrid-connection list --name <functionAppName> --resource-group <resourceGroupName>
+```
+

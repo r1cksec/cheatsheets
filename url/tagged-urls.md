@@ -21,6 +21,7 @@
 * https://aadinternals.com/post/dcaas ; #azure #entra #microsoft-entra-domain-services #mdes #ntash #windowslegacycredentials #getwindowscredentialssyncconfig
 * https://aadinternals.com/post/phishing ; # phishing #azure #entra #oauth #device-code-authentication
 * https://aadinternals.com/talks/Dumping%20NTHashes%20from%20AAD.pdf ; #cloud #azure #entra #onprem #nthash
+* https://aceresponder.com/blog/exploiting-empire-c2-framework ; #c2 #command-and-control #stager #directory-traversal
 * https://acut3.github.io/bug-bounty/2023/01/03/fetch-diversion.html ; #webapp #api #xss #csrf
 * https://adepts.of0x.cc/vba-exports-runtime ; #shellcode #windows #vba
 * https://adepts.of0x.cc/visual-studio-dcom ; #windows #lateral-movement #dcom #visual-studio
@@ -98,6 +99,7 @@
 * https://blog.projectdiscovery.io/guide-to-dns-takeovers ; #dns-takeover #nameserver #subdomain-takeover #osint #recon
 * https://blog.projectdiscovery.io/nuclei-fuzz-all-the-way ; #webapp #nuclei #fuzzing #url
 * https://blog.pulsedive.com/analyzing-darkgate-loaders ; #malware-analyse #threat-intelligence #darkgate
+* https://blog.quarkslab.com/php-deserialization-attacks-and-a-new-gadget-chain-in-laravel.html ; #php #deserialization #gadged-chain #magic-methods
 * https://blog.redteam-pentesting.de/2022/introducing-pretender ; #pretender #responder #ntlm-relaying #dns #dhcpv6 #netbios #llmnr
 * https://blog.redteam-pentesting.de/2024/bitwarden-heist ; #password-dump #password-manager #bitwarden #windows-hello
 * https://blog.sekoia.io/darkgate-internals ; #malware-analyse #threat-intelligence #darkgate
@@ -233,6 +235,7 @@
 * https://infosecwriteups.com/think-outside-the-scope-advanced-cors-exploitation-techniques-dad019c68397 ; #cors #webapp #xss
 * https://ipslav.github.io/2023-12-12-let-me-manage-your-appdomain ; #windows #appdomain #edr #evasion #dirtyclr #dot-net
 * https://isc.sans.edu/diary/A+new+spin+on+the+ZeroFont+phishing+technique/30248 ; #phishing #email #threat-intelligence
+* https://isc.sans.edu/diary/rss/30676 ; #phishing #threatintel #internet-archive #waybackmachine
 * https://itm4n.github.io/dll-proxying ; #windows #dll #privesc #privilege-escalation #proxying #wrapper
 * https://itm4n.github.io/lsass-runasppl ; #windows #lsass #lsa-protection #runasppl #credential-guard #driver
 * https://itm4n.github.io/printnightmare-exploitation ; #windows #printer #printnightmare #powershell #bring-your-own-vulnerable-printer-driver 
@@ -318,6 +321,7 @@
 * https://nasbench.medium.com/lolbined-using-kaspersky-endpoint-security-kes-installer-to-execute-arbitrary-commands-1c999f1b7fea ; #lolbin #av #anti-virus #uninstaller #kaspersky #dll #windows
 * https://neil-fox.github.io/Impacket-usage-&-detection ; #forensic #dfir #impacket #detection #lateral-movement #event-id
 * https://neil-fox.github.io/Investigating-Cisco-Routers ; #router #cisco #forensic #dfir #log #telnet #python #csv
+* https://neodyme.io/en/blog/github_secrets ; #github #secrets #hidden-commits
 * https://networklogician.com/2021/04/17/sniffing-ssh-passwords ; #ssh #sniffing
 * https://news.sophos.com/en-us/2022/03/29/reconstructing-powershell-scripts-from-multiple-windows-event-logs ; #windows #forensic #dfir #event-logs
 * https://nixintel.info/osint/geolocating-mobile-phones-with-an-ip ; #osint #geo-location #ip
@@ -498,6 +502,7 @@
 * https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit ; #windows #event-tracing #bypass #amsi #obfuscation
 * https://whiteknightlabs.com/2023/05/09/cant-stop-the-phish-tips-for-warming-up-your-email-domain-right ; #phishing #mail #evasion #bypass
 * https://whiteknightlabs.com/2023/06/26/navigating-stealthy-wmi-lateral-movement ; #lateral-movement #windows #wmi #win32
+* https://whiteknightlabs.com/2024/02/21/pivoting-from-microsoft-cloud-to-on-premise-machines ; #azure #entra #lateral-movement #on-prem-pivot #psremoting
 * https://windowsir.blogspot.com/2022/12/persistence-and-lolbins.html ; #windows #persistence #lolbin
 * https://worthdoingbadly.com/coretrust ; #macosx #cve #poc #driverkit #coretrust
 * https://www.activecountermeasures.com/counting-connections-with-tshark ; #forensic #dfir #network #traffiq #tshark
@@ -507,6 +512,7 @@
 * https://www.akamai.com/blog/security-research/dark-frost-botnet-unexpected-author-profile ; #threat-intelligence #malware-analyse #botnet #gaming #opsec #c2
 * https://www.akamai.com/blog/security-research/linux-lateral-movement-more-than-ssh ; #lateral-movement #linux #ssh #snmp #rdp #telnet #r-command #ftp #samba #rsync
 * https://www.akamai.com/blog/security-research/rpc-toolkit-fantastic-interfaces-how-to-find ; #rpc #windows #enumeration
+* https://www.akamai.com/blog/security-research/spoofing-dns-by-abusing-dhcp ; #windows #active-directory #dns #spoofing #dhcp
 * https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-server_595799 ; #pivoting #forward-proxy #nginx
 * https://www.alteredsecurity.com/post/a-primer-on-dcsync-attack-and-detection ; #forensic #dfir #active-directory #dcsync #detection
 * https://www.alteredsecurity.com/post/fantastic-windows-logon-types-and-where-to-find-credentials-in-them ; #forensic #dfir #logon-types #lsass-dump #detection #event-logs
@@ -658,6 +664,3 @@
 * https://zer1t0.gitlab.io/posts/attacking_ad ; #active-directory #methodology #kerberos #trust #gpo #kerberoast #asreproast #logon-types #acl 
 * http://www.selfadsi.de ; #active-directory #ldap #wiki #documentation
 * http://www.webappsec.org/projects/articles/121106.shtml ; #smtp #imap #injection #http #mail
-* https://blog.quarkslab.com/php-deserialization-attacks-and-a-new-gadget-chain-in-laravel.html ; #php #deserialization #gadged-chain #magic-methods
-* https://isc.sans.edu/diary/rss/30676 ; #phishing #threatintel #internet-archive #waybackmachine
-* https://www.akamai.com/blog/security-research/spoofing-dns-by-abusing-dhcp ; #windows #active-directory #dns #spoofing #dhcp

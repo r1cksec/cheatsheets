@@ -16,6 +16,9 @@ Simple script to extract local admin password in cleartext with LAPSv2 using imp
 https://github.com/0xB455/m365-fatigue
 This Python script automates the authentication process for Microsoft 365 by using the device code flow and Selenium for automated login. It keeps bombing the user with MFA requests and stores the access_token once the MFA was approved.
 
+https://github.com/0xNslabs/CanaryTokenScanner
+Script designed to identify Canary Tokens within Microsoft Office documents and Acrobat Reader PDF (docx, xlsx, pptx, pdf).
+
 https://github.com/0xZDH/o365spray
 Username enumeration and password spraying tool aimed at Microsoft O365.
 
@@ -820,6 +823,9 @@ A GUI tool for removing bloat from executables
 https://github.com/Srinivas11789/PcapXray
 PcapXray - A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction
 
+https://github.com/Stratus-Security/Subdominator
+The Internets #1 Subdomain Takeover Tool
+
 https://github.com/SySS-Research/Seth
 Perform a MitM attack and extract clear text credentials from RDP connections
 
@@ -1119,6 +1125,9 @@ A PowerShell armoury for security guys and girls
 
 https://github.com/channyein1337/jsleak
 jsleak is a tool to find secret , paths or links in the source code during the recon.
+
+https://github.com/chaudharyarjun/RepoReaper
+RepoReaper is an automated tool crafted to meticulously scan and identify exposed .git repositories within specified domains and their subdomains.
 
 https://github.com/chrismaddalena/SharpCloud
 Simple C# for checking for the existence of credential files related to AWS, Microsoft Azure, and Google Compute.
@@ -1690,6 +1699,9 @@ Enumerate and disable common sources of telemetry used by AV/EDR.
 https://github.com/juliourena/SharpNoPSExec
 Get file less command execution for lateral movement.
 
+https://github.com/justakazh/sicat
+The useful exploit finder
+
 https://github.com/kaluche/bloodhound-quickwin
 Simple script to extract useful informations from the combo BloodHound + Neo4j
 
@@ -2007,6 +2019,9 @@ A tool for standing up (and tearing down!) purposefully insecure cloud infrastru
 
 https://github.com/nccgroup/ssh_user_enum
 SSH User Enumeration Script in Python Using The Timing Attack
+
+https://github.com/neodyme-labs/github-secrets
+This tool analyzes a given Github repository and searches for dangling or force-pushed commits containing potential secret or interesting information.
 
 https://github.com/netero1010/EDRSilencer
 A tool uses Windows Filtering Platform (WFP) to block Endpoint Detection and Response (EDR) agents from reporting security events to the server.
@@ -2677,6 +2692,9 @@ user.js file to harden Firefox and optimize privacy, security, and speed
 https://github.com/ytdl-org/youtube-dl
 Command-line program to download videos from YouTube.com and other video sites
 
+https://github.com/yuyudhn/AzSubEnum
+Azure Service Subdomain Enumeration
+
 https://github.com/z0m31en7/WhatMail
 WhatMail is a command-line tool that analyzes the header of an email and provides detailed information about various fields.
 
@@ -2702,17 +2720,5 @@ https://github.com/zzzteph/probable_subdomains
 Subdomains analysis and generation tool. Reveal the hidden!
 
 https://gitlab.com/KevinJClark/csharptoolbox
-C# port of LsassSilentProcessExit
-
-https://github.com/justakazh/sicat
-The useful exploit finder
-
-https://github.com/yuyudhn/AzSubEnum
-Azure Service Subdomain Enumeration
-
-https://github.com/Stratus-Security/Subdominator
-The Internets #1 Subdomain Takeover Tool
-
-https://github.com/chaudharyarjun/RepoReaper
-RepoReaper is an automated tool crafted to meticulously scan and identify exposed .git repositories within specified domains and their subdomains.
+Ongoing collection of C Sharp tools
 

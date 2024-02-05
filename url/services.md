@@ -9,6 +9,7 @@
 * https://app.docguard.io
 * https://archlinux.org/mirrors/status
 * https://badfiles.ch
+* https://boostsecurityio.github.io/lotp ; #living-off-the-pipeline #ci-cd #continuous-integration-continous-deployment
 * https://browserleaks.com
 * https://canarytokens.org
 * https://caniuse.com
@@ -32,6 +33,7 @@
 * https://facemorph.me
 * https://filesec.io
 * https://formcrafts.com ; #web #hosting
+* https://formspark.io ; #hosting #webhooks #email
 * https://github.com/bundesAPI
 * https://gtfoargs.github.io
 * https://gtfobins.github.io
@@ -92,4 +94,3 @@
 * https://www.youtubechapters.app ; #youtube #videos #chapter-definition
 * https://zws.im ; #url-shortener
 * http://www.insecam.org ; #webcam #livecam
-* https://formspark.io ; #hosting #webhooks #email
