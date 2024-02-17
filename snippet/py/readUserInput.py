@@ -1,0 +1,3 @@
+userInput = input()
+print(userInput)
+

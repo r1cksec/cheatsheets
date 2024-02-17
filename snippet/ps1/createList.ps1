@@ -1,0 +1,6 @@
+$list = @(
+"first",
+"second",
+"third"
+)
+

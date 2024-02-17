@@ -1,0 +1,8 @@
+body 
+{
+    margin: 0;
+    height: 1000px;
+    background-color: red; /* old browser no gradient support*/
+    background-image: linear-gradient(blue, white);
+}
+

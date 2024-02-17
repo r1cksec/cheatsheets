@@ -1,0 +1,8 @@
+<!-- post install actions, DllEntry="" must correspond to cs public static ActionResult name -->
+<Binary Id="someId3" SourceFile="file-ca.dll"/>
+<CustomAction Id="someId4" BinaryKey="someId3" DllEntry="EntryPoint" Return="ignore" Impersonate="yes" />
+
+<InstallExecuteSequence>
+    <Custom Action="someId4" Before="InstallFinalize">NOT REMOVE</Custom>
+</InstallExecuteSequence>
+

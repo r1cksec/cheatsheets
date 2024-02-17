@@ -1,0 +1,31 @@
+div 
+{
+    background-color: green;
+    opacity: 0.3;
+}
+
+➜  css cat overlayImages.css           
+#images
+{
+    position:relative;
+}
+
+#img1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#img2
+{
+    width: 400px;
+    height: 20px;
+}
+
+<div id="images">
+    <img src="<img>" id="img1">
+    <img src="<img>" id="img2">
+</div>
+

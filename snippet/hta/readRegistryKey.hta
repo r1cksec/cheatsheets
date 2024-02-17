@@ -1,0 +1,13 @@
+' define key path
+keyPath = "Software\Classes\txtfile\shell\open\command"
+
+' open key under current user
+Set objRegistry = GetObject("winmgmts:\\.\root\default:StdRegProv")
+objRegistry.CreateKey &H80000001, keyPath
+
+' get value of key
+objRegistry.GetStringValue &H80000001, keyPath, "", currentValue
+
+' print
+MsgBox "Current Value: " & currentValue
+

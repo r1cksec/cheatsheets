@@ -1,0 +1,10 @@
+/etc/mysql/debian.cnf
+/etc/mysql/my.cnf
+/etc/passwd
+/etc/shadow
+/etc/ssh/ssh_config
+/etc/ssh/sshd_config
+/home/<user>/.bash_history
+/home/<user>/.ssh/authorized_keys
+/home/<user>/.vnc/passwd
+/usr/share/tomcat9/etc/tomcat-users.xml

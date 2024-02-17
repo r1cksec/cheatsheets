@@ -1,0 +1,46 @@
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <!-- Language="1033" for english us, UpdateCode='Some GUID', Version='x.x.x.x' -->
+    <Product Name="Some Name" Manufacturer="Some Manufacturer" Id="*" UpgradeCode="E6856A52-51FD-4D36-92A8-3A7E0A9B7A47" Language="1031" Version="1.2.1.3">
+        <!-- InstallPrivileges="limited" no admin permission required -->
+        <Package Manufacturer="Some Manufacturer" InstallerVersion="483" Compressed="yes" InstallPrivileges="limited" InstallScope="perUser" />
+
+        <!-- hide application from Control Panel -->
+        <Property Id="ARPSYSTEMCOMPONENT" Value="1"/>
+
+        <!-- remove repair button -->      
+        <Property Id="ARPNOREPAIR" Value="yes" Secure="yes"/>
+
+        <!-- remove modify button -->
+        <Property Id="ARPNOMODIFY" Value="yes" Secure="yes"/>
+
+        <Media Id="1" Cabinet="someCabinet.cab" EmbedCab="yes" CompressionLevel="high"/>
+
+        <SetDirectory Id="someId1" Value="[%LOCALAPPDATA]\someDir"/>
+
+        <!-- define the directories -->
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="someId1"/>
+        </Directory>
+
+        <!-- add file to installer package -->
+        <DirectoryRef Id="someId1">
+            <Component Id="someId2" Guid="4FB661F6-BF29-49F0-9003-ECB95BD4DB89">
+                <RemoveFile Id="someIdX" Name="*.*" On="uninstall" Directory="someId1"/>
+                <File Id="someId2" Source="file.txt" KeyPath="yes"/>
+            </Component>
+        </DirectoryRef>
+
+        <!-- install the files -->
+        <Feature Id="MainProgram" Title="Some Title" Level="1">
+            <ComponentRef Id="someId2"/>
+        </Feature>
+
+        <!-- post install actions -->
+        <CustomAction Id="someId3" Execute="deferred" Directory="someId1" Return="asyncNoWait" ExeCommand="calc" Impersonate="yes" />
+
+        <InstallExecuteSequence>
+            <Custom Action="someId3" Before="InstallFinalize">NOT REMOVE</Custom>
+        </InstallExecuteSequence>
+    </Product>
+</Wix>
+

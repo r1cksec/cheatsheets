@@ -1,0 +1,9 @@
+' sleep 3 seconds
+Sub window_OnLoad
+    window.setTimeout GetRef("Delayed"), 3000
+End Sub
+
+Sub Delayed()
+    MsgBox("Message")
+End Sub
+

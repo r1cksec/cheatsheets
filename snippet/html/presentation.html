@@ -1,0 +1,77 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <style>
+    .collapsible
+	{
+      background-color: #777;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+    
+    .active, .collapsible:hover
+	{
+      background-color: #555;
+    }
+    
+    .content 
+	{
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+<center><h1>Results:</h1></center>
+
+<h2>XXX</h2>
+<button type="button" class="collapsible">YYY</button>
+<div class="content">
+  <p>Lorem ipsum</p>
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpa1.narvii.com%2F6702%2F9fdf85c3ff5ac39e8effcc86dbe9db2140c1513a_hq.gif&f=1&nofb=1">
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<h2>AAA</h2>
+<button type="button" class="collapsible">BBB</button>
+<div class="content">
+  <p>Lorem ipsum2</p>
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdata.whicdn.com%2Fimages%2F249833977%2Foriginal.gif&f=1&nofb=1">
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++)
+{
+  coll[i].addEventListener("click", function()
+  {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+
+    if (content.style.display === "block")
+      content.style.display = "none";
+	else
+      content.style.display = "block";
+  });
+}
+</script>
+
+</body>
+</html>
+
+

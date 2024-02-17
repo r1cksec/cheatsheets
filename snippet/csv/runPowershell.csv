@@ -1,0 +1,4 @@
+Column1;Column2;Column3
+Val1;Date1;Data
+Val2;Date2;"=1+cmd|' /C powershell <command>'!A0"
+

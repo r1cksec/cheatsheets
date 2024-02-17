@@ -1,0 +1,10 @@
+' define key path
+keyPath = "Software\Classes\txtfile\shell\open\command"
+
+' open key under current user
+Set objRegistry = GetObject("winmgmts:\\.\root\default:StdRegProv")
+objRegistry.CreateKey &H80000001, keyPath
+
+' set key
+objRegistry.SetStringValue &H80000001, keyPath, "", "C:\path\to\file.exe"
+
