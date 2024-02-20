@@ -3,7 +3,7 @@ https://www.zoomeye.org/doc
 
 ### Get current subscription status
 ```
-curl -X GET "https://api.zoomeye.org/resources-info" -H "API-KEY:<apiKey>"
+curl -s -X GET "https://api.zoomeye.org/resources-info" -H "API-KEY:<apiKey>"
 ```
 
 ### Search for associated domain names

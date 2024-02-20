@@ -658,3 +658,6 @@
 * https://zer1t0.gitlab.io/posts/attacking_ad ; #active-directory #methodology #kerberos #trust #gpo #kerberoast #asreproast #logon-types #acl 
 * http://www.selfadsi.de ; #active-directory #ldap #wiki #documentation
 * http://www.webappsec.org/projects/articles/121106.shtml ; #smtp #imap #injection #http #mail
+* https://blog.quarkslab.com/php-deserialization-attacks-and-a-new-gadget-chain-in-laravel.html ; #php #deserialization #gadged-chain #magic-methods
+* https://isc.sans.edu/diary/rss/30676 ; #phishing #threatintel #internet-archive #waybackmachine
+* https://www.akamai.com/blog/security-research/spoofing-dns-by-abusing-dhcp ; #windows #active-directory #dns #spoofing #dhcp

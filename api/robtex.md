@@ -1,5 +1,5 @@
 ### Source
-https://www.robtex.com/api
+https://www.robtex.com/api/
 
 ### Get domain history and GEO-location of given ip
 ```

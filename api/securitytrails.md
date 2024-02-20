@@ -3,7 +3,7 @@ https://docs.securitytrails.com/reference/history-whois
 
 ### Return details about current subscription
 ```
-curl -s --request GET --url "https://api.securitytrails.com/v1/account/usage" --header "accept: application/json" --header "APIKEY: <apiKey>"
+curl -s --request GET --url "https://api.securitytrails.com/v1/account/usage" --header "APIKEY: <apiKey>"
 ```
 
 ### Get historical whois information

@@ -14,3 +14,4 @@
 * https://www.youtube.com/watch?v=VGkfDBdlwjg ; #azure #entra #user-enumeration #phishing #microsoft-direct-send
 * https://www.youtube.com/watch?v=xhcKAClO-AM ; #lockpicking #lockpickinglawyer
 * https://www.youtube.com/watch?v=zccAvgC4UxU ; #threat-intel #osint #malware #http #wifi #dns #defcon
+* https://www.youtube.com/watch?v=4aiAtGF9tF4 ; #indodenito #dll-sideloading #c++ #api-monitor

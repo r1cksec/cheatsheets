@@ -92,3 +92,8 @@ C:\Windows\Temp
 C:\Users\<user>\Default\AppData\LocalTemp
 ```
 
+### EDB Windows search service
+```
+C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb
+```
+

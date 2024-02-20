@@ -1,9 +1,9 @@
 ### Source
 https://developer.shodan.io/api
 
-### Return details about current subscription
+### Return usage of current subscription
 ```
-curl -s "https://api.shodan.io/account/profile?key=<apiKey>"
+curl -s "https://api.shodan.io/api-info?key=<apiKey>"
 ```
 
 ### Get rootdomains and subdomains of given company

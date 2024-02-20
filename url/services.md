@@ -45,7 +45,7 @@
 * https://kiosk.vsim.xyz ; #kisok #escape #tooling
 * https://lofl-project.github.io
 * https://lolbas-project.github.io
-* https://lots-project.com
+* https://lots-project.com ; #living-off-the-trusted-sites #phishing
 * https://malpedia.caad.fkie.fraunhofer.de
 * https://msportals.io
 * https://myip.wtf/json
@@ -65,7 +65,6 @@
 * https://ransomwhe.re
 * https://readme-typing-svg.demolab.com/demo
 * https://report.netcraft.com/report
-* https://report-phishing.projects.fleaz.me
 * https://scam-alert.io
 * https://scamsearch.io
 * https://socradar.io/labs/accountbreach
@@ -76,13 +75,13 @@
 * https://windows96.net
 * https://wtfbins.wtf
 * https://www.breaches.cloud
-* https://www.browserling.com
+* https://www.browserling.com ; #online-browser
 * https://www.cloudvulndb.org
 * https://www.denic.de/service/tools/idn-web-converter
 * https://www.irongeek.com/homoglyph-attack-generator.php
 * https://www.kali.org/tools
-* https://www.loldrivers.io
-* https://www.loobins.io
+* https://www.loldrivers.io ; #living-off-the-land-drivers
+* https://www.loobins.io ; #living-off-the-orchard-macOS-binaries
 * https://www.mail-tester.com
 * https://www.online-python.com
 * https://www.ransomware.live
@@ -90,6 +89,7 @@
 * https://www.virustotal.com
 * https://www.vonage.com
 * https://www.whatiswhere.com
-* https://www.youtubechapters.app
-* https://zws.im
-* http://www.insecam.org
+* https://www.youtubechapters.app ; #youtube #videos #chapter-definition
+* https://zws.im ; #url-shortener
+* http://www.insecam.org ; #webcam #livecam
+* https://formspark.io ; #hosting #webhooks #email

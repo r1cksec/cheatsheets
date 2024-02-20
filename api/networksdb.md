@@ -1,6 +1,11 @@
 ### Source
 https://networksdb.io/api/docs
 
+### Get information about current subscription
+```
+curl -sH "X-Api-Key: <apiKey>" https://networksdb.io/api/key
+```
+
 ### Get ASN and organisation
 ```
 curl -s -H "X-Api-Key: <apiKey>" "https://networksdb.io/api/org-search" -d search=<companyName>
