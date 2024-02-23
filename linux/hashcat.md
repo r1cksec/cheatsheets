@@ -43,6 +43,7 @@ hashcat -o <outfile> -m <hashType> -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m 
 1400 = SHA256
 1410 = sha256($pass.$salt)
 1420 = sha256($salt.$pass)
+1800 = sha512crypt $6$, SHA512 (Unix)
 2100 = Domain Cached Credentials (DCC), MS Cache - format: $DCC2$10240#<user>#<hash>
 2500 = WPA/WPA2
 5600 = NetNTLMv2

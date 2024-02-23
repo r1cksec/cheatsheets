@@ -26,7 +26,7 @@
 * https://epieos.com ; #osint #email #phone #user-profile
 * https://facecheck.id ; #osint #image-search #facial-recognition
 * https://fullhunt.io ; #osint #portscan #subdomain #country
-* https://geospy.web.app ; #osint #geolocation #image
+* https://geospy.ai ; #osint #geolocation #image
 * https://gps-coordinates.org/latitude-and-longitude.php ; #osint #geolocation #longitude #latitude
 * https://grep.app ; #osint #git #repository #source-code
 * https://hackertarget.com/reverse-analytics-search ; #osint #google-adsense #google-analytics #rootdomain #http-header #http-title #nameserver #reverse-ip

@@ -2,6 +2,11 @@
 https://search.censys.io/api
 https://search.censys.io/search/definitions
 
+### API key
+```
+echo "ApiId:Secret" | base64
+```
+
 ### Return details about current subscription
 ```
 curl -s "https://search.censys.io/api/v1/account" -H "accept: application/json" -H "Authorization: Basic <apiKey>"

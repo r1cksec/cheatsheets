@@ -5,11 +5,12 @@
 * https://andrewmarsh.com/apps/staging/sunpath3d.html
 * https://antiscan.me
 * https://anvaka.github.io/map-of-github
-* https://any.run
+* https://any.run ; #forensic #dfir #malware #sandbox
 * https://app.docguard.io
 * https://archlinux.org/mirrors/status
 * https://badfiles.ch
 * https://boostsecurityio.github.io/lotp ; #living-off-the-pipeline #ci-cd #continuous-integration-continous-deployment
+* https://br0k3nlab.com/LoFP
 * https://browserleaks.com
 * https://canarytokens.org
 * https://caniuse.com
@@ -42,7 +43,8 @@
 * https://ifconfig.me
 * https://imagecolorpicker.com
 * https://ipv4.myip.wtf/json
-* https://jwt.io
+* https://jwt.io ; #json-web-token
+* https://jwt.ms ; #json-web-token
 * https://kartaview.org
 * https://kiosk.vsim.xyz ; #kisok #escape #tooling
 * https://lofl-project.github.io
@@ -71,6 +73,7 @@
 * https://scamsearch.io
 * https://socradar.io/labs/accountbreach
 * https://spydialer.com
+* https://strontic.github.io/xcyclopedia ; #windows #forensic #dfir #executable
 * https://threats.wiz.io ; #cloud #malware #watchlist
 * https://urlfiltering.paloaltonetworks.com
 * https://vim-adventures.com
@@ -78,6 +81,7 @@
 * https://wtfbins.wtf
 * https://www.breaches.cloud
 * https://www.browserling.com ; #online-browser
+* https://www.capsolver.com ; #captcha-solving
 * https://www.cloudvulndb.org
 * https://www.denic.de/service/tools/idn-web-converter
 * https://www.irongeek.com/homoglyph-attack-generator.php

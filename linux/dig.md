@@ -1,3 +1,8 @@
+### Resolve domain using specific DNS server and TCP
+```
+dig +tcp @<dnsServer> <domain>
+```
+
 ### Get nameserver
 ```
 dig +short NS <domain>

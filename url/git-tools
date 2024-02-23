@@ -169,6 +169,9 @@ Simple script that checks a domain for email protections
 https://github.com/BlackSnufkin/GhostDriver
 yet another AV killer tool using BYOVD
 
+https://github.com/BloodHoundAD/BloodHound
+Six Degrees of Domain Admin
+
 https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence
 Protintelligence is a Python script for the OSINT and Cyber Community. It finds intelligence on Protonmail accounts
 
@@ -331,6 +334,9 @@ Scan vulnerable drivers on Windows with loldrivers.io
 https://github.com/FoxIO-LLC/ja4
 JA4+ is a suite of network fingerprinting standards
 
+https://github.com/FoxIO-LLC/ja4tscan
+JA4TScan is an active TCP server fingerprinting tool.
+
 https://github.com/Frissi0n/GTFONow
 Automatic privilege escalation for misconfigured capabilities, sudo and suid binaries using GTFOBins.
 
@@ -414,6 +420,9 @@ The Discretionary ACL Modification Project: Persistence Through Host-based Secur
 
 https://github.com/Helixo32/NimBlackout
 Kill AV/EDR leveraging BYOVD attack
+
+https://github.com/HexaCluster/pgdsat
+PostgreSQL Database Security Assessment Tool
 
 https://github.com/HotCakeX/Harden-Windows-Security
 Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels
@@ -955,6 +964,9 @@ Bash tool used for proactive detection of malicious activity on macOS systems.
 https://github.com/abdallah-elsharif/hellMaker
 Hiding unsigned DLL inside a signed DLL
 
+https://github.com/absolomb/FindMeAccess
+FindMeAccess is a tool useful for finding gaps in Azure/M365 MFA requirements for different resources, client ids, and user agents.
+
 https://github.com/achyuthjoism/tweeds
 An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a Tweets and more while evading most API limitations.
 
@@ -1102,6 +1114,9 @@ A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdom
 https://github.com/bobbyrsec/Microsoft-Teams-GIFShell
 Covert Attack Chain and C2 Utilizing Microsoft Teams GIFs
 
+https://github.com/boostsecurityio/poutine
+poutine is a security scanner that detects misconfigurations and vulnerabilities in the build pipelines of a repository.  It supports parsing CI workflows from GitHub Actions and Gitlab CI/CD.
+
 https://github.com/bridgecrewio/checkov
 Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.
 
@@ -1143,6 +1158,9 @@ Make security testing of K8s, Docker, and Containerd easier.
 
 https://github.com/cfalta/PowerShellArmoury
 A PowerShell armoury for security guys and girls
+
+https://github.com/cgosec/Blauhaunt
+A tool collection for filtering and visualizing logon events. Designed to help answering the "Cotton Eye Joe" question (Where did you come from where did you go) in Security Incidents and Threat Hunts
 
 https://github.com/channyein1337/jsleak
 jsleak is a tool to find secret , paths or links in the source code during the recon.
@@ -1407,6 +1425,9 @@ Python3 terminal application that contains 260+ Neo4j cyphers for BloodHound dat
 
 https://github.com/fin3ss3g0d/evilgophish
 evilginx2 + gophish
+
+https://github.com/firefart/stunner
+Stunner is a tool to test and exploit STUN, TURN and TURN over TCP servers.
 
 https://github.com/fkasler/cuddlephish
 Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
@@ -2029,6 +2050,9 @@ pure-python implementation of MemoryModule technique to load a dll entirely from
 https://github.com/narstybits/MacOS-DuckyScripts
 PLUG & PLAY FLIPPER ZERO SCRIPTS For MacOS
 
+https://github.com/nbaertsch/AutoAppDomainHijack
+Automated .NET AppDomain hijack payload generation
+
 https://github.com/nccgroup/DroppedConnection
 Emulates a Cisco ASA Anyconnect VPN service, accepting any credentials (and logging them) before serving VBS to the client that gets executed in the context of the user.
 
@@ -2248,6 +2272,9 @@ Nosey Parker is a command-line program that finds secrets and sensitive informat
 https://github.com/projectdiscovery/asnmap
 Go CLI and Library for quickly mapping organization network ranges using ASN information.
 
+https://github.com/projectdiscovery/cdncheck
+cdncheck is a tool for identifying the technology associated with dns / ip network addresses.
+
 https://github.com/projectdiscovery/dnsx
 dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.
 
@@ -2431,6 +2458,9 @@ A PowerShell module to deploy active directory decoy objects.
 https://github.com/samratashok/nishang
 Nishang - Offensive PowerShell for red team, penetration testing and offensive security.
 
+https://github.com/sarperavci/GoogleRecaptchaBypass
+Solve Google reCAPTCHA in less than 5 seconds!
+
 https://github.com/saw-your-packet/EC2StepShell
 EC2StepShell is an AWS post-exploitation tool for getting high privileges reverse shells in public or private EC2 instances.
 
@@ -2514,6 +2544,9 @@ Nginxpwner is a simple tool to look for common Nginx misconfigurations and vulne
 
 https://github.com/stealth/devpops
 Companion Worm research
+
+https://github.com/strontic/xcyclopedia
+The xCyclopedia project attempts to document all executable binaries (and eventually scripts) that reside on a typical operating system.
 
 https://github.com/sullo/nikto
 Nikto web server scanner

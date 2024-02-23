@@ -4,14 +4,14 @@ git config user.name "r1cksec"
 git config user.email "77610058+r1cksec@users.noreply.github.com"
 ```
 
-### Sign files with given key
-```
-git config --global commit.gpgsign true
-```
-
 ### List config of current repository
 ```
 git config --list --local
+```
+
+### Sign files with given key
+```
+git config --global commit.gpgsign true
 ```
 
 ### Show available tags
@@ -88,4 +88,5 @@ git config --global --unset http.proxy
 
 ### Generate access token
 * https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+
 

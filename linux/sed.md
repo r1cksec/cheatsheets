@@ -38,8 +38,8 @@ echo "00123" | sed 's/^0*//'
 echo "    some string" | sed -e 's/^[[:space:]]*//'
 ```
 
-# Edit file in place
+### Replace german umlaute
 ```
-sed -i 's/replaceThis/replaceWith/g' <file>
+sed 's/ä/ae/g; s/Ä/Ae/g; s/ö/oe/g; s/Ö/Oe/g; s/ü/ue/g; s/Ü/Ue/g; s/ß/ss/g'
 ```
 

@@ -18,3 +18,13 @@ history -t -R
 set -x varName "content"
 ```
 
+### Delete word to the right
+```
+Alt + d
+```
+
+### Delete word to the left
+```
+CTRL + w
+```
+

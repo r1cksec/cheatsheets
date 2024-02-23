@@ -234,7 +234,7 @@ The metadata can also contain other informations like domains or e-mail addresse
 strings * | grep -i "@"
 ```
 
-Searching for PDF documents and extracting the metadata can also be done at once with the script `get-pdf-metadata` (see https://github.com/r1cksec/thoth/blob/master/scripts/get-pdf-metadata)
+Searching for PDF documents and extracting the metadata can also be done at once with the script `get-pdf-metadata` (see https://github.com/r1cksec/corptrace/blob/master/ressources/modules/startpage_get_pdf_metadata.py)
 
 ```
 get-pdf-Metadata <domain>
@@ -304,12 +304,6 @@ But it is still possible to collect employees using Google Dorks.
 
 ```
 intitle:"companyName" inurl:"linkedin.com/in/" site:linkedin.com
-```
-
-Since automation is king, there is of course a script `dork-linkedIn-employees` that crawls the first pages of the Dork query results (see https://github.com/r1cksec/thoth/blob/master/scripts/dork-linkedIn-employees)
-
-```
-python3 dork-linkedIn-employees <companyName>
 ```
 
 Alternativly, you can pay for rekruting solutions like PhantomBuster (see https://phantombuster.com) and thus obtain additional information.

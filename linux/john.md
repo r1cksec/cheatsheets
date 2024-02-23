@@ -3,8 +3,8 @@ https://github.com/openwall/john
 
 ### Install
 ```
-wget https://www.openwall.com/john/k/john-currentNumber-jumbo-1.tar.xz
-tar -xf <file>
+git clone https://github.com/openwall/john
+apt install libssl-dev -y
 cd <johnRepo>/src
 ./configure && make
 ../run/john
@@ -35,19 +35,19 @@ wpapsk (wpa2)
 john --loopback --fork=4
 ```
 
-### File containing cracked passwords
-```
-~/.john/john.pot
-```
-
 ### List all formats
 ```
 john --list=formats
 ```
 
-### Example
+### Using korelogic rules
 ```
-john --wordlist=<wordlist> <fileToCrack> --rules=korelogic --format=NT
+john --wordlist=<wordlist> <hashFile> --rules=korelogic --format=NT
+```
+
+### Using specific session and pot
+```
+john <hashFile> --session=<sessionName> --pot=<potFile>
 ```
 
 ### Convert file for john

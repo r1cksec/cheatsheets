@@ -3,7 +3,7 @@ https://github.com/projectdiscovery/dnsx
 
 ### Resolve domains to ipv4 from file
 ```
-dnsx -a -l <file>
+dnsx -silent -a -resp -l <file>
 ```
 
 ### Get asn of domain

