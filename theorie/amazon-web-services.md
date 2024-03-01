@@ -25,13 +25,14 @@ A cloud storage service (S3 = Simple Storage Service).
 Names of the logical groups within S3.
 
 #### OrganizationAccountAccessRole
-This role has by default the AdministratorAccess Policy attached to it, giving the role complete control over the member accounts. In summary, this means that an attacker who controls the management account can potentially compromise any account in the organization as an administrator.
+This role has by default the AdministratorAccess Policy attached to it, giving the role complete control over the member accounts. In summary, this means that an attacker who controls the management account can potentially compromise any account in the organization as an administrator, which has this role enabled. The attacker needs an IAM account in the managment account, which has the permissions to assume this OrganizationAccountAccessRole.
 
 #### Connection Tracking
 Content Tracking allows the security groups to track information about the network traffic and allow/deny that traffic based on the Security Group rules.
 
 #### Management Account
-The account that effectively owns an organization.
+An AWS Account, which is the choosen managment account for an organisation. This account can be the central account for organization managment, but it can also delegate to other accounts. E.g. a security account for handling monitoring. 
+
 
 #### IMDS
 The Instance Metadata Service contains the metadata and information about that specific EC2 instance.
@@ -116,12 +117,14 @@ export AWS_SECRET_ACCESS_KEY=<key>
 export AWS_SESSION_TOKEN=<token>
 ```
 
-### Check if credentials are valid (logs to CloudTrail)
-```
-# logs to CloudTrail
-aws sts get-caller-identity
+Make use of aws cli --profile options, to keep track of keys and accounts
 
-# does not create logs
+### Check if credentials are valid (possibly logged to CloudTrail)
+```
+aws sts get-caller-identity
+aws iam get-user --user-name AmosBurton --profile initial 
+
+# possibly less logged, but needs sns permissions and account id up front
 aws sns publish --topic-arn arn:aws:sns:us-east-1:*account id*:aaa --message aaa
 ```
 
@@ -163,17 +166,17 @@ User Data contains information about the deployment process (CloudFormation, YAM
 
 Path to file containing the logs of User Data:
 
-### Remote
+### Local endpoint for user data
 ```
 http://169.254.169.254/latest/user-data
 ```
 
-### Windows
+### Windows logging for user data 
 ```
 C:\ProgramData\Amazon\EC2Launch\log\agent.log
 ```
 
-### Ubuntu
+### Ubuntu logging for user data
 ```
 /var/log/cloud-init.log
 /var/log/cloud-init.log
@@ -194,18 +197,22 @@ TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metad
 curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/user-data/
 ```
 
+Access via powershell locally with IMDSv2:
+```
+[string]$token = Invoke-RestMethod -Headers @{"X-aws-ec2-metadata-token-ttl-seconds" = "21600"} -Method PUT -Uri http://169.254.169.254/latest/api/token
+```
+Drop keys powershell locally with IMDSv2:
+```
+Invoke-RestMethod -Headers @{"X-aws-ec2-metadata-token" = $token} -Method GET -Uri http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance
+```
+
+
 ## Enumeration - Get EC2 instance profile setup
 ```
-aws sts get-caller-identity
-
 TOKEN=`curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-metadata-token-ttl-seconds: 21600"`
 curl -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/dynamic/instance-identity/document
 ```
 
-## Enumeration - Get Account ID from AWS Access Key
-```
-aws sts get-access-key-info --access-key-id=<keyId>
-```
 
 ## Enumeration - Get AWS Account ID from bucket
 * https://github.com/WeAreCloudar/s3-account-search
@@ -222,6 +229,23 @@ Will generate CloudTrail logs.
 ```
 python generate_bruteforce_tests.py
 python3 enumerate-iam.py --access-key $AWS_ACCESS_KEY_ID --secret-key $AWS_SECRET_ACCESS_KEY --session-token $AWS_SESSION_TOKEN
+```
+
+## With Cloudwatch permissions
+
+Check history of an Alarm
+```
+aws cloudwatch describe-alarm-history --alarm-name "iamshadow" --history-item-type StateUpdate
+```
+
+Disable an Alarm
+```
+aws cloudwatch disable-alarm-actions --alarm-names soundofdapolice
+```
+
+Similar, unsubscribe to sns topic
+```
+aws sns unsubscribe --subscription-arn arn:aws:sns:us-west-2:666666666666:my-topic:somerandomstring
 ```
 
 ## Assume Role Abuse
