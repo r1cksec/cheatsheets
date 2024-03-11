@@ -8,15 +8,10 @@ ssh-keygen -t rsa -b 4096
 ssh-copy-id -i ~/.ssh/<privateKey> <user>@<rhost>
 ```
 
-### If error occurs try:
+### Correct permissione for ssh files
 ```
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
-```
-
-### Download public ssh key
-```
-ssh-keyscan -t rsa <rhost> -p <rport>
 ```
 
 ### Change password of private ssh key
@@ -24,7 +19,7 @@ ssh-keyscan -t rsa <rhost> -p <rport>
 ssh-keygen -p -f <privateKey>
 ```
 
-### Only allow key-based authentication in /etc/ssh/sshd_config
+### Harden ssh config (/etc/ssh/sshd_config)
 ```
 PubkeyAuthentication yes
 PasswordAuthentication no
@@ -74,3 +69,9 @@ proxychains <command>
 # will not be added to /var/log/utmp, sessions will not appear using w, no usage of .bash_profile .profile
 ssh -o UserKnownHostsFile=/dev/null -T <user>@<rhost> 'bash -i'
 ```
+
+### Port forward over multiple hosts
+```
+ssh -D 9050 -J <user>@<rhost>:<port>,<user>@<rhost>:<port> <user>@<rhost> -p <port>
+```
+

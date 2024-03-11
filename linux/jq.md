@@ -1,6 +1,16 @@
 ### Source
 https://github.com/stedolan/jq
 
+### Print in csv format and replace char ;
+```
+cat <file>.json | jq -r '"\(.key1) ; \(.key | gsub(";"; "_"))"'
+```
+
+### Print key1 if key1 exists, else key2
+```
+cat <file>.json | jq -r 'if has("key1") then .key1 else .key2 end'
+```
+
 ### Print distinguishedname of bloodhound users
 ```
 cat <userFile>.json | jq '.data[].Properties.distinguishedname

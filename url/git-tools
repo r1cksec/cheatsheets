@@ -22,6 +22,9 @@ Script designed to identify Canary Tokens within Microsoft Office documents and 
 https://github.com/0xZDH/o365spray
 Username enumeration and password spraying tool aimed at Microsoft O365.
 
+https://github.com/0xda568/IconJector
+This is a Windows Explorer DLL injection technique that uses the change icon dialog on Windows.
+
 https://github.com/0xless/slip
 Slip is a CLI tool to create malicious archive files containing path traversal payloads. It supports zip, tar, 7z, jar, war, apk and ipa archives.
 
@@ -30,6 +33,9 @@ Linux anti-debugging and anti-analysis rust library
 
 https://github.com/0xrawsec/whids
 Open Source EDR for Windows
+
+https://github.com/0xthirteen/AssemblyHunter
+Find assemblies on hosts that can be useful for payloads or post ex. No pre-built assemblies will be provided, open project, select release and build. Build for .Net Framework 4.0+ (some assemblies are not identified correctly less than 4.0)
 
 https://github.com/0xthirteen/PerfExec
 The code is not super clean but project contains an example performance dll that will run CMD.exe and a .NET assembly that will execute the DLL or gather performance data locally or remotely.
@@ -255,6 +261,9 @@ Beta versions of my software for malware analyse (onenote)
 
 https://github.com/Dionach/CMSmap
 CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
+
+https://github.com/Diverto/IPPrintC2
+PoC for using MS Windows printers for persistence / command and control via Internet Printing
 
 https://github.com/DragoQCC/HardHatC2
 A C# Command & Control framework
@@ -1351,6 +1360,9 @@ Active Directory information dumper via LDAP
 https://github.com/djhohnstein/SharpChromium
 .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
 
+https://github.com/dnSpyEx/dnSpy
+Unofficial revival of the well known .NET debugger and assembly editor, dnSpy
+
 https://github.com/dotnet/Kerberos.NET
 A Kerberos implementation built entirely in managed code.
 
@@ -1402,6 +1414,9 @@ Analyze and help extract older "hidden" versions of a pdf from the current pdf.
 https://github.com/enjoiz/Privesc
 Windows batch script that finds misconfiguration issues which can lead to privilege escalation.
 
+https://github.com/es3n1n/no-defender
+There's a WSC (Windows Security Center) service in Windows which is used by antiviruses to let Windows know that there's some other antivirus in the hood and it should disable Windows Defender.
+
 https://github.com/evallen/ntpescape
 NTP Exfiltration Tool
 
@@ -1431,6 +1446,9 @@ Stunner is a tool to test and exploit STUN, TURN and TURN over TCP servers.
 
 https://github.com/fkasler/cuddlephish
 Weaponized Browser-in-the-Middle (BitM) for Penetration Testers
+
+https://github.com/florylsk/ExecIT
+Execute shellcode files with rundll32
 
 https://github.com/florylsk/NtRemoteLoad
 Remote shellcode injector, based on HWSyscalls by ShorSec, leveraging undetectable (currently) indirect native syscalls to inject shellcode into another process, creating a thread and executing it.
@@ -1776,6 +1794,9 @@ This is a comprehensive, feature-rich API Fuzzer designed to help discover poten
 
 https://github.com/khyrenz/parseusbs
 Parses USB connection artifacts from offline Registry hives
+
+https://github.com/kiber-io/apkd
+APK downloader from few sources
 
 https://github.com/kleiton0x00/Proxy-DLL-Loads
 A proof of concept demonstrating the DLL-load proxying using undocumented Syscalls.
@@ -2139,6 +2160,9 @@ retrieve information via O365 and AzureAD with a valid cred
 
 https://github.com/nyxgeek/onedrive_user_enum
 onedrive user enumeration - pentest tool to enumerate valid o365 users
+
+https://github.com/obsidianforensics/hindsight
+Web browser forensics for Google Chrome/Chromium
 
 https://github.com/odedshimon/BruteShark
 Network Analysis Tool
@@ -2677,6 +2701,9 @@ Password guess tool
 https://github.com/vanhoefm/fragattacks
 This repository contains the FragAttacks tool. It can test Wi-Fi clients and access points for fragmentation and aggregation attacks.
 
+https://github.com/visma-prodsec/confused
+Tool to check for dependency confusion vulnerabilities in multiple package management systems
+
 https://github.com/vm32/Linux-Incident-Response
 practical toolkit for cybersecurity and IT professionals. It features a detailed Linux cheatsheet for incident response
 
@@ -2728,6 +2755,9 @@ The purpose of this project is to retrieve potential process killer drivers.
 https://github.com/xforcered/InvisibilityCloak
 Proof-of-concept obfuscation toolkit for C# post-exploitation tools
 
+https://github.com/xnl-h4ck3r/waymore
+Find way more from the Wayback Machine, Common Crawl, Alien Vault OTX, URLScan & VirusTotal!
+
 https://github.com/xpn/Powershell-PostExploitation
 Scripts created to help with post exploitation of a Windows host
 
@@ -2736,6 +2766,9 @@ Tooling related to the WAM Bam - Recovering Web Tokens From Office blog post
 
 https://github.com/xroche/httrack
 HTTrack Website Copier, copy websites to your computer (Official repository)
+
+https://github.com/xssdoctor/graphqlMaker
+Finds graphql queries in javascript files
 
 https://github.com/yamakadi/clroxide
 A rust library that allows you to host the CLR and execute dotnet binaries.

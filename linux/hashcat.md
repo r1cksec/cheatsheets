@@ -80,3 +80,8 @@ hashcat -a 0 -o <resultFile> -m 1000 <hashFile> <wordlist> --potfile-path <potFi
 hashcat -m <hashId> <resultFile> --show
 ```
 
+### List hash formats
+```
+hashcat --hash-info
+```
+

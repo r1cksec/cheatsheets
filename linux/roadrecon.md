@@ -27,3 +27,8 @@ roadrecon plugin xlsexport -v -d <file>.db
 libreoffice --headless --convert-to csv <file>.xls --outdir <outdir>
 ```
 
+### Export usernames
+```
+sqlite3 <file>.db "select UserPrincipalName from Users;" 
+```
+

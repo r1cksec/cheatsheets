@@ -5,7 +5,7 @@ screen -S <name>
 
 ### Log session to file
 ```
-screen -S <name> -L -Logfile <file>
+screen -S <name> -L -Logfile $(date +"%Y-%m-%d_%T")
 ```
 
 ### Detach

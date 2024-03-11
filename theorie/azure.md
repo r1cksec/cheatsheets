@@ -9,6 +9,9 @@ The Azure App Service provides HTTP-based services for hosting webapplications o
 #### Azure Blob Storage
 Stores unstructered data like files, videos, audio, etc.
 
+### Azure Files
+Fully managed file shares in the cloud which can be accessed via protocols such as SMB, NFS, or REST API.
+
 #### Azure Key Vault 
 Azure Key Vaults are places where encrypted secrets can stored (types: key, secret, certificate).
 
@@ -193,7 +196,7 @@ https://management.azure.com
 ```
 Check 'NameSpaceType' value:
 
-Managed -> O365 is in use
+Managed = O365 is in use
 Federated = Federated Active Directory
 Unknown = Record does not exist
 
@@ -203,7 +206,6 @@ python3 o365spray.py --validate --domain <targetDomain>
 ## Verify Email Addresses
 * https://github.com/nyxgeek/onedrive_user_enum
 * https://github.com/dievus/Oh365UserFinder
-* https://github.com/LMGsec/o365creeper
 * https://github.com/immunIT/TeamsUserEnum
 
 ```

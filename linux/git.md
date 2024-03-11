@@ -24,16 +24,6 @@ git fetch --tags
 git log <tagName>
 ```
 
-### Switch to specific version
-```
-git checkout <tagName>
-```
-
-### Switch to newest commit (new repos use main)
-```
-git checkout master
-```
-
 ### Get project url
 ```
 git remote get-url origin
@@ -42,6 +32,11 @@ git remote get-url origin
 ### Set project url
 ```
 git remote set-url origin <user>@<rhost>:<path>.git
+```
+
+### Remove branch from repository
+```
+git push origin -d <branch>
 ```
 
 ### Set custom timestamp
@@ -80,10 +75,22 @@ git push origin master
 git clone ssh://<user>@<rhost>/<path>.git
 ```
 
+### List available runner
+```
+curl -s --header "PRIVATE-TOKEN: <token>" "https://<gitlabRhost>/api/v4/runners"
+curl -s --header "PRIVATE-TOKEN: <token>" "https://<gitlabRhost>/api/v4/runners/<id>/jobs"
+curl -s --header "PRIVATE-TOKEN: <token>" "https://<gitlabRhost>/api/v4/runners/<id>/jobs/<jobNumber>/trace"
+```
+
 ### Proxy settings
 ```
 git config --global http.proxy http://<rhost>:<port>
 git config --global --unset http.proxy
+```
+
+### Download using oauth token
+```
+https://oauth2:<token>@<gitlabHost>/<userOrOrg>/<repository>
 ```
 
 ### Generate access token

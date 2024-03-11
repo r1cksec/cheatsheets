@@ -13,4 +13,5 @@
 * https://www.ransomlook.io/recent
 * https://www.ransomware.live/#/recentvictims
 * https://www.reddit.com/r/redteamsec
+* https://www.sixgen.io/news
 * https://www.threatable.io
