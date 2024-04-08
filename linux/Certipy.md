@@ -1,9 +1,9 @@
 ### Source
 https://github.com/ly4k/Certipy  
 
-### Check for vulnerable templates
+### Check for vulnerable templates (does only check port 80 in regard of ESC8)
 ```
-certipy find -u <user>@<domain> -p <password> -dc-ip <dcIp> -ns <dnsIp> -dns-tcp -old-bloodhound
+certipy find -u <user>@<domain> -p <password> -dc-ip <dcIp> -ns <dnsIp> -dns-tcp
 ```
 
 ### Create golden certificate

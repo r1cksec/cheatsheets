@@ -1,19 +1,20 @@
-21
-22
-23
-25
-53
-80
-389
-443
-445
-623
-1433
-2049
-3306
-3389
-5432
-5985
-5986
-8080
-8443
+21      FTP
+22      SSH
+23      Telnet
+25      SMTP
+53      DNS
+80      HTTP
+389     LDAP
+443     HTTPS
+445     SMB
+623     IPMI
+1433    MsSQL
+2049    NFS 
+3306    MySQL
+3389    RDP
+5432    PostgreSQL
+5985    WinRM
+5986    WinRM
+8080    HTTP
+8443    HTTPS
+

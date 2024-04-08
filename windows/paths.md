@@ -35,6 +35,11 @@ C:\Windows\NTDS\ntds.dit
 C:\Windows\system32\Windows\NTDS\ntds.dit
 ```
 
+### SAM
+```
+C:\windows\system32\config\SAM
+```
+
 ### Powershell 
 ```
 C:\WINDOWS\system32\WindowsPowershell\v1.0\powershell.exe

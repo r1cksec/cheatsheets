@@ -51,12 +51,17 @@ chown <user>:<user> <key>*
 
 ### Dynamic port forwarding (forward proxychains traffic into server network)
 ```
-ssh -D 9050 <user>@<sshServer> -N -v
+ssh -D 9050 <user>@<rhost> -N -v
 ```
 
 ### Remote port forwarding (forward proxychains traffic into client network)
 ```
-ssh -o 'StrictHostKeyChecking=no' -i .\<privateKey> -N -R 9050 <user>@<sshServer>
+ssh -o 'StrictHostKeyChecking=no' -i .\<privateKey> -N -R 9050 <user>@<rhost>
+```
+
+### Port forward to local port on remote server
+```
+ssh -N -L 127.0.0.1:9050:127.0.0.1:9051 <user>@<rhost>
 ```
 
 ### Proxychains uses port 9050 as default -> /etc/proxychains4.conf)
@@ -72,6 +77,11 @@ ssh -o UserKnownHostsFile=/dev/null -T <user>@<rhost> 'bash -i'
 
 ### Port forward over multiple hosts
 ```
-ssh -D 9050 -J <user>@<rhost>:<port>,<user>@<rhost>:<port> <user>@<rhost> -p <port>
+ssh -D 9050 -J <user>@<jumphost1>:<port>,<user>@<jumphost2>:<port> <user>@<rhost> -p <port>
+```
+
+### Port forward over multiple hosts
+```
+ssh -D 9050 -o ProxyCommand="ssh -W %h:%p <user>@<jumphost>" <user>@localhost -p <port>
 ```
 

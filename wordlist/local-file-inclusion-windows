@@ -1,0 +1,102 @@
+$HOME\documents\windowspowershell\microsoft.powershellise_profile.ps1
+$HOME\documents\windowspowershell\microsoft.powershell_profile.ps1
+$HOME\appdata\roaming\microsoft\windows\powershell\psreadline\consolehost_history.txt
+$HOME\.ssh\known_hosts
+c:\apache\logs\access.log
+c:\apache\logs\error.log
+c:\apache\php\php.ini
+c:\boot.ini
+c:\documents and settings\administrator\ntuser.dat
+c:\inetpub\logs\logfiles
+c:\inetpub\wwwroot\global.asa
+c:\inetpub\wwwroot\index.asp
+c:\inetpub\wwwroot\web.config
+c:\mysql\data\hostname.err
+c:\mysql\data\mysql.err
+c:\mysql\data\mysql.log
+c:\mysql\my.cnf
+c:\mysql\my.ini
+c:\php4\php.ini
+c:\php5\php.ini
+c:\php\php.ini
+c:\program files\apache group\apache2\conf\httpd.conf
+c:\program files\apache group\apache\conf\httpd.conf
+c:\program files\apache group\apache\logs\access.log
+c:\program files\apache group\apache\logs\error.log
+c:\program files\filezilla server\filezilla server.xml
+c:\program files\mysql\data\hostname.err
+c:\program files\mysql\data\mysql-bin.log
+c:\program files\mysql\data\mysql.err
+c:\program files\mysql\data\mysql.log
+c:\program files\mysql\my.cnf
+c:\program files\mysql\my.ini
+c:\program files\mysql\mysql server 5.0\data\hostname.err
+c:\program files\mysql\mysql server 5.0\data\mysql-bin.log
+c:\program files\mysql\mysql server 5.0\data\mysql.err
+c:\program files\mysql\mysql server 5.0\data\mysql.log
+c:\program files\mysql\mysql server 5.0\my.cnf
+c:\program files\mysql\mysql server 5.0\my.ini
+c:\program files\mysql\mysql server 5.1\my.ini
+c:\program files (x86)\apache group\apache2\conf\httpd.conf
+c:\program files (x86)\apache group\apache\conf\access.log
+c:\program files (x86)\apache group\apache\conf\error.log
+c:\program files (x86)\apache group\apache\conf\httpd.conf
+c:\program files (x86)\filezilla server\filezilla server.xml
+c:\program files (x86)\xampp\apache\conf\httpd.conf
+c:\sysprep.inf
+c:\sysprep\sysprep.inf
+c:\sysprep\sysprep.xml
+c:\sysprep.xml
+c:\system32\inetsrv\metabase.xml
+c:\system volume information\wpsettings.dat
+c:\unattended.txt
+c:\unattended.xml
+c:\unattend.txt
+c:\unattend.xml
+c:\users\administrator\appdata\local\recently-used.xbel
+c:\users\administrator\desktop\desktop.ini
+c:\users\administrator\ntuser.dat
+c:\windows\ccm\logs\filesystemfile.log
+c:\windows\debug\netlogon.log
+c:\windows\debug\netsetup.log
+c:\windows\debug\passwd.log
+c:\windows\debug\sammui.log
+c:\windows\iis.log
+c:\windows\panther\sysprep.inf
+c:\windows\panther\unattended\unattended.xml
+c:\windows\panther\unattended.xml
+c:\windows\panther\unattend\unattended.xml
+c:\windows\php.ini
+c:\windows\repair\sam
+c:\windows\repair\security
+c:\windows\repair\software
+c:\windows\repair\system
+c:\windows\system32\config\appevent.evt
+c:\windows\system32\config\default.sav
+c:\windows\system32\config\regback\default
+c:\windows\system32\config\regback\sam
+c:\windows\system32\config\regback\security
+c:\windows\system32\config\regback\software
+c:\windows\system32\config\regback\system
+c:\windows\system32\config\secevent.evt
+c:\windows\system32\config\security.sav
+c:\windows\system32\config\software.sav
+c:\windows\system32\config\system
+c:\windows\system32\config\system.sav
+c:\windows\system32\drivers\etc\hosts
+c:\windows\system32\inetsrv\config\applicationhost.config
+c:\windows\system32\inetsrv\config\schema\aspnet_schema.xml
+c:\windows\system32\logfiles\httperr\httperr1.log
+c:\windows\system32\tasks\daily
+c:\windows\system32\windowspowershell\v1.0\microsoft.powershell_profile.ps1
+c:\windows\system32\windowspowershell\v1.0\profile.ps1
+c:\windows\system32\winevt\logs\system.evtx
+c:\windows\system32\winevt\logs\windows powershell.evtx
+c:\windows\system.ini
+c:\windows\windowsupdate.log
+c:\windows\win.ini
+c:\winnt\php.ini
+c:\winnt\win.ini
+c:\xampp\apache\bin\php.ini
+c:\xampp\apache\logs\access.log
+c:\xampp\apache\logs\error.log

@@ -20,6 +20,6 @@ Get-NetFirewallRule -DisplayName "<name>"
 
 ### Remove firewall rule
 ```
-Get-NetFirewallRule -DisplayName "<name>"
+Remove-NetFirewallRule -DisplayName "<name>"
 ```
 

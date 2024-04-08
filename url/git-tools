@@ -496,6 +496,9 @@ SuperSharpShares is a tool designed to automate enumerating domain shares, allow
 https://github.com/Leo4j/Amnesiac
 Amnesiac is a post-exploitation framework entirely written in PowerShell and designed to assist with lateral movement within Active Directory environments
 
+https://github.com/Leo4j/Invoke-SessionHunter
+Retrieve and display information about active user sessions on remote computers. No admin privileges required.
+
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection. Convert .net exe into powershell script.
 
@@ -621,6 +624,9 @@ PowerHuntShares is an audit script designed in inventory, analyze, and report ex
 
 https://github.com/Nettitude/PoshC2
 A proxy aware C2 framework used to aid red teamers with post-exploitation and lateral movement.
+
+https://github.com/Notselwyn/CVE-2024-1086
+Universal local privilege escalation Proof-of-Concept exploit for CVE-2024-1086, working on most Linux kernels between v5.14 and v6.6, including Debian, Ubuntu, and KernelCTF. The success rate is 99.4% in KernelCTF images.
 
 https://github.com/Nyr/openvpn-install
 OpenVPN road warrior installer for Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS and Fedora
@@ -1416,6 +1422,9 @@ Windows batch script that finds misconfiguration issues which can lead to privil
 
 https://github.com/es3n1n/no-defender
 There's a WSC (Windows Security Center) service in Windows which is used by antiviruses to let Windows know that there's some other antivirus in the hood and it should disable Windows Defender.
+
+https://github.com/eset/nimfilt
+A collection of modules and scripts to help with analyzing Nim binaries
 
 https://github.com/evallen/ntpescape
 NTP Exfiltration Tool

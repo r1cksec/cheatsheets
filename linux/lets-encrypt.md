@@ -10,7 +10,7 @@ hostname -f
 
 ### Create certificate
 ```
-certbot --apache
+certbot certonly --register-unsafely-without-email -v --standalone
 ```
 
 ### Renew certificate 

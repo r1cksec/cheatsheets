@@ -98,6 +98,7 @@
 * https://blog.nietaanraken.nl/posts/aur-packages-github-repo-jacking ; #supply-chain #arch #aur #threat-intelligence
 * https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary ; #threat-intelligence #malware-analyse #atm
 * https://blog.phylum.io/attackers-repurposing-existing-python-based-malware-for-distribution-on-npm ; #supply-chain #npm #python #malware-analyse
+* https://blog.plerion.com/things-you-wish-you-didnt-need-to-know-about-s3 ; #aws #bucket #s3 #storage #cognito
 * https://blog.projectdiscovery.io/guide-to-dns-takeovers ; #dns-takeover #nameserver #subdomain-takeover #osint #recon
 * https://blog.projectdiscovery.io/nuclei-fuzz-all-the-way ; #webapp #nuclei #fuzzing #url
 * https://blog.pulsedive.com/analyzing-darkgate-loaders ; #malware-analyse #threat-intelligence #darkgate
@@ -270,6 +271,7 @@
 * https://labs.lares.com/adcs-exploits-investigations-pt1 ; #active-directory #certificate-service #adcs #detection #event-id
 * https://labs.lares.com/adcs-exploits-investigations-pt2 ; #active-directory #certificate-service #adcs #detection #esc1 #esc3 #esc4 esc6
 * https://labs.lares.com/fear-kerberos-pt1 ; #windows #active-directory #kerberos #key-distribution-center #tgs #tgt #pre-authentication
+* https://labs.lares.com/fear-kerberos-pt2 ; #windows #active-directory #kerberos #key-distribution-center #tgs #tgt #pre-authentication #roasting
 * https://labs.lares.com/owa-cap-bypass ; #outlook #mfa-bypass #token #cookie #owa #bearer #http
 * https://labs.lares.com/securing-active-directory-via-acls ; #active-directory #acl #ace #bloodhound
 * https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations ; #shellcode #hook #syscall #windows
@@ -408,6 +410,7 @@
 * https://pushsecurity.com/blog/phishing-microsoft-teams-for-initial-access ; #ms-teams #phishing #spoofing #instant-messenger
 * https://pushsecurity.com/blog/samljacking-a-poisoned-tenant ; #saml #samljacking #sso #saas #phishing #nuclino
 * https://pushsecurity.com/blog/slack-phishing-for-initial-access ; #phishing #slack #initial-access #instant-messenger
+* https://pwning.tech/nftables ; #cve #nf_tables #linux #kernel #local-privilege-escalation
 * https://quitten.github.io/Facebook ; #phishing #facebook #link-preview
 * https://rastamouse.me/d-invoke-gadgettojscript ; #windows #dinvoke #pinvoke #dll #injection #gadgettojscript
 * https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/docs/images/SharpHoundCheatSheet.png ; #bloodhound #ingestor #sharphound #collection-method
@@ -560,6 +563,7 @@
 * https://www.docguard.io/microsoft-compiled-html-help-chm-using-in-spearphishing-attack ; #threa-tinel #malware-analyse #chm
 * https://www.docguard.io/unraveling-obfuscated-macros-in-office-filesa-step-by-step-guide ; #threat-intelligence #malware #macro #obfuscation #vba
 * https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process ; #shellcode #process-injection #cheatsheets
+* https://www.elastic.co/security-labs/grimresource ; #initial-access #msc #javascript #windows #mmc #dotNetToJScript
 * https://www.errno.fr/TTYPushback.html ; #linux #privesc #privilege-escalation #tty-pushback
 * https://www.example-code.com/vbscript/http.asp ; #vbscript #cheatsheets
 * https://www.f3rn0s.xyz/posts/reverse-socks ; #pivoting #reverse-socks #chisel #rdp #citrix
@@ -601,6 +605,7 @@
 * https://www.netspi.com/blog/technical/network-penetration-testing/network-share-permissions-powerhuntshares ; #windows #active-directory #ntfs #smb-share
 * https://www.offensive-security.com/metasploit-unleashed ; #c2 #command-and-control #wiki #methodology #documentation
 * https://www.osintme.com/index.php/2022/10/18/the-osint-me-ultimate-guide-to-telegram-osint-and-privacy ; #osint #telegram
+* https://www.outflank.nl/blog/2024/06/03/edr-internals-macos-linux ; #edr #telemetry #linux #macosx
 * https://www.patreon.com/posts/91648640?utm_campaign=postshare_creator ; #dotnet #console-app #initial-access
 * https://www.pavel.gr/blog/neutralising-amsi-system-wide-as-an-admin ; #windows #amsi #bypass #admin #dll #scanbuffer #scanstring
 * https://www.pavel.gr/blog/obfuscating-rubeus-using-codecepticon ; #obtaining #windows #rubeus #certificate

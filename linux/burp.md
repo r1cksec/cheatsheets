@@ -24,13 +24,22 @@ SOCKS proxy port: 9050
 
 ### Restrict traffic to scope
 ```
-Settings > Project > Scopt
+Settings > Project > Scope
 Enable "Use advanced scope control"
 
 Add > .*\.domain\.com
 
 Out-of-scope request handling:
 Enable: "Drop all out-of-scope requests"
+```
+
+### Silence Burp
+```
+Settings > Project > Collaborator
+Enable "Dont't use Burp Collaborator"
+
+Settings > Suite > Updates
+Disable "Enable auto-updates (require restart)"
 ```
 
 ### Intruder Payload types

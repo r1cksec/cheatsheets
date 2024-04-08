@@ -6,6 +6,6 @@ lsof -Pnl +M -i6
 
 ### Get information for specific port number
 ```
-lsof -i :33991
+lsof -i :<port>
 ```
 

@@ -13,3 +13,8 @@ journalctl --disk-usage
 journalctl --vacuum-time=2d
 ```
 
+### Show ssh events of last 3 hours
+```
+journalctl -u ssh --since -3h
+```
+

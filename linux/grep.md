@@ -8,6 +8,11 @@ grep -Eo '([0-9]*\.){3}[0-9]*'
 grep -oiE "<title>(.*)</title>"
 ```
 
+### Grep for subdomains
+```
+grep -RiEo '([a-zA-Z0-9-]+\.)*domain\.com' *
+```
+
 ### Grep logical or
 ```
 grep -E "pattern1|pattern2"

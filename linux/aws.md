@@ -50,3 +50,28 @@ aws ec2 authorize-security-group-ingress --group-name <groupName> --protocol tcp
 aws ec2 describe-subnets --query 'Subnets[*].[SubnetId, AvailabilityZone, VpcId, Tags[?Key==`Name`].Value | [0]]'
 ```
 
+### List s3 buckets
+```
+aws s3api list-buckets
+```
+
+### Show content of bucket
+```
+aws s3 ls s3://<name>
+```
+
+### Synchronize content of bucket 
+```
+aws s3 sync s3://<name> <directory>
+```
+
+### Download content of bucket 
+```
+aws s3 cp ./<directory> s3://<name>/<path>
+```
+
+### Get api gateways of region
+```
+aws apigateway --region eu-central-1 get-rest-apis
+```
+

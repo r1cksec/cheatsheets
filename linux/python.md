@@ -23,3 +23,9 @@ virtualenv -p /usr/bin/python2.7 <name>
 python -m smtpd -n -c debuggingServer :<lport>
 ```
 
+### Use proxy
+```
+export http_proxy=127.0.0.1:8080
+export https_proxy=127.0.0.1:8080
+```
+

@@ -49,7 +49,7 @@ docker network create --subnet=192.168.0.0/16 <networkName>
 docker network ls
 ```
 
-### Delte network
+### Delete network
 ```
 docker network rm <networkName>
 ```

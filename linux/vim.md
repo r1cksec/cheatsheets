@@ -228,3 +228,8 @@ zg
 zw
 ```
 
+### Replace last / of each line with -
+```
+:%s/\(.*\)\(\/\)/\1-/g
+```
+

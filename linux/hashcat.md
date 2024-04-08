@@ -1,9 +1,9 @@
 ### Source
 https://github.com/hashcat/hashcat  
 
-### Wordlist crack, -m hash type, -a attack mode
+### Crack using multiple wordlists and rules
 ```
-hashcat -m 0 -a 0 <fileToCrack> <wordlist>
+hashcat --username -a 0 -o <resultFile> -m <mode> <hashFile> <wordlist1> <wordlist2> --potfile-path <potfile> --session <session> -r <rule1> <rule2>
 ```
 
 ### Attack modes
@@ -25,6 +25,11 @@ hashcat -m 0 -a 0 <fileToCrack> <wordlist>
 ?a = ?l?u?d?s
 ```
 
+### Salt format
+```
+hash:salt
+```
+
 ### Example all alphanumeric chars from 1 to 6 chars
 ```
 hashcat -o <outfile> -m <hashType> -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m <hashType> --increment
@@ -43,6 +48,7 @@ hashcat -o <outfile> -m <hashType> -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m 
 1400 = SHA256
 1410 = sha256($pass.$salt)
 1420 = sha256($salt.$pass)
+1700 = SHA-512
 1800 = sha512crypt $6$, SHA512 (Unix)
 2100 = Domain Cached Credentials (DCC), MS Cache - format: $DCC2$10240#<user>#<hash>
 2500 = WPA/WPA2
@@ -59,7 +65,7 @@ hashcat -o <outfile> -m <hashType> -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m 
 19700 = Kerberos 5 TGS-REP (etype 18)
 ```
 
-### Cracking kerberoast, -O optimize kernel but also limits password length, -w workload high (speeds up but can also affect availability)
+### Crack kerberoast, -O optimize kernel but also limits password length, -w workload high (speeds up but can also affect availability)
 ```
 hashcat -a 0 -o <resultFile> -m 13100 <hashFile> <wordlist> -O -r <ruleFile> -w 3
 ```

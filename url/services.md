@@ -84,6 +84,7 @@
 * https://www.capsolver.com ; #captcha-solving
 * https://www.cloudvulndb.org
 * https://www.denic.de/service/tools/idn-web-converter
+* https://www.hiclipart.com ; #image #transparent #png
 * https://www.irongeek.com/homoglyph-attack-generator.php
 * https://www.kali.org/tools
 * https://www.loldrivers.io ; #living-off-the-land-drivers

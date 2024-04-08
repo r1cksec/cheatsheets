@@ -8,7 +8,7 @@ ip -br a
 ip -o l show | awk -F': ' '{print $2}'
 ```
 
-### Start interface (use down for stopping)
+### Start interface (up/down)
 ```
 ip l set <interface> up
 ```
@@ -51,5 +51,10 @@ ip route | awk '/default/ { print $3 }'
 ### Show arp cache for interface
 ```
 ip neigh show dev <interface>
+```
+
+### Set mtu valu
+```
+ip link set dev <interface> mtu <value>
 ```
 
