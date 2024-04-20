@@ -26,3 +26,8 @@ nuclei -tags osint -var user=<user> -o <file>
 nuclei -tl
 ```
 
+### Print all wordpress hosts
+```
+cat <nucleiScan>.json | jq -r 'select(.["template-id"] | contains("wordpress")) | .host'
+```
+

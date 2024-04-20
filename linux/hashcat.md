@@ -60,13 +60,18 @@ hashcat -o <outfile> -m <hashType> -a 3 <fileToCrack> -1 ?l?u?d ?1?1?1?1?1?1 -m 
 
 ### Cracking kerberoast, -O optimize kernel but also limits password length, -w workload high (speeds up but can also affect availability)
 ```
-hashcat -a 0 -o <resultFile> -m 13100 <fileToCrack> <wordlist> -O -r <pathToRule> -w 3
+hashcat -a 0 -o <resultFile> -m 13100 <hashFile> <wordlist> -O -r <ruleFile> -w 3
 ```
 
-### Cracking wpa2
+### Crack WPA2
 ```
 cap2hccapx <input>.pcap <output>.hccapx [<essid1>] [<essid2>]
 hashcat -m 2500 -a 0 <wordlist> <file>.hccapx
+```
+
+### Crack NTLM
+```
+hashcat -a 0 -o <resultFile> -m 1000 <hashFile> <wordlist> --potfile-path <potFile> --session <sessionName> --quiet
 ```
 
 ### Show results

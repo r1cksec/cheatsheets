@@ -1,19 +1,19 @@
 ### Source
-https://www.zoomeye.org/doc
+https://www.zoomeye.hk/doc
 
 ### Get current subscription status
 ```
-curl -s -X GET "https://api.zoomeye.org/resources-info" -H "API-KEY:<apiKey>"
+curl -s -X GET "https://api.zoomeye.hk/resources-info" -H "API-KEY:<apiKey>"
 ```
 
 ### Search for associated domain names
 ```
-curl -s -X GET "https://api.zoomeye.org/domain/search?q=<domain>" -H "API-KEY:<apiKey>
+curl -s -X GET "https://api.zoomeye.hk/domain/search?q=<domain>" -H "API-KEY:<apiKey>
 ```
 
 ### Send query to host endpoint
 ```
-curl -s -X GET "https://api.zoomeye.org/host/search?query=<query>" -H "API-KEY:<apiKey>"
+curl -s -X GET "https://api.zoomeye.hk/host/search?query=<query>" -H "API-KEY:<apiKey>"
 ```
 
 ### Host Filters
@@ -34,11 +34,12 @@ ver:<version>
 
 ### Send query to web endpoint
 ```
-curl -s -X GET "https://api.zoomeye.org/web/search?query=<query>" -H "API-KEY:<apiKey>"
+curl -s -X GET "https://api.zoomeye.hk/web/search?query=<query>" -H "API-KEY:<apiKey>"
 ```
 
 ### Web Filters
 ```
+asn:<asn>
 app:<wordpress>
 city:<city>
 country:<country>

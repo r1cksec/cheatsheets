@@ -1,6 +1,11 @@
 ### Source
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 
+### Install
+```
+winget install -e --id Microsoft.AzureCLI
+```
+
 ### Initial connect
 ```
 az login -u <user>@<tenant>.onmicrosoft.com -p <password>

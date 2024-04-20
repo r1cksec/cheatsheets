@@ -177,6 +177,11 @@ dw
 shift + a
 ```
 
+### Delete all chars inside delimiter (example ")
+```
+c + i + "
+```
+
 ### Write output of command directly to vim
 ```
 :read ! <command>

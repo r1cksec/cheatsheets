@@ -1,4 +1,4 @@
-# insert into: /etc/systemd/system/<jobName>.service  
+### vim /etc/systemd/system/jobName.service  
 ```
 [Unit]
 Description=<description>
@@ -8,7 +8,7 @@ Type=forking
 ExecStart=/bin/bash <path/to/script>.sh
 ```
 
-# insert into: /etc/systemd/system/<jobName>.timer  
+### vim /etc/systemd/system/jobName.timer  
 ```
 [Unit]
 Description=<description>
@@ -41,5 +41,10 @@ echo "text" | systemd-cat -p info
 ### List unit files
 ```
 systemctl list-unit-files
+```
+
+### Reset failed jobs
+```
+systemctl reset-failed
 ```
 

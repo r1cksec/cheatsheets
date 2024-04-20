@@ -20,6 +20,7 @@ Get-WinEvent -FilterHashtable @{Logname='Security';ID=4769} -MaxEvents 1000 | ?{
 4634  Account logoff
 4672  Administrator privileges assigned to a new logon
 4648  Logon attempt with explicit credentials (Access Token Manipulation)
+7036  Service started/stopped
 7045  New service installed
 ```
 

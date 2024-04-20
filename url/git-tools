@@ -808,6 +808,9 @@ A tool to help find credentials on smb shares.
 https://github.com/SolomonSklash/RubeusToCcache
 A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache files for Impacket
 
+https://github.com/SpecterOps/BloodHound
+Six Degrees of Domain Admin
+
 https://github.com/SpiderLabs/Responder
 Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
 
@@ -837,6 +840,9 @@ Enumerate Microsoft Entra ID (Azure AD) fast
 
 https://github.com/Taonn/EmailAll
 EmailAll is a powerful Email Collect tool
+
+https://github.com/TarlogicSecurity/BlueSpy
+PoC to record audio from a Bluetooth device
 
 https://github.com/The-Viper-One/PsMapExec
 A PowerShell tool that takes strong inspiration from CrackMapExec.
@@ -967,6 +973,9 @@ Malwoverview is a first response tool used for threat hunting and offers intel i
 https://github.com/ambionics/phpggc
 PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
 
+https://github.com/anchore/grype
+A vulnerability scanner for container images and filesystems
+
 https://github.com/anderspitman/awesome-tunneling
 List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
 
@@ -1092,6 +1101,9 @@ A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdom
 
 https://github.com/bobbyrsec/Microsoft-Teams-GIFShell
 Covert Attack Chain and C2 Utilizing Microsoft Teams GIFs
+
+https://github.com/bridgecrewio/checkov
+Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.
 
 https://github.com/bsauce/kernel-exploit-factory
 Linux kernel CVE exploit analysis report and relative debug environment. You don't need to compile Linux kernel and configure your environment anymore.
@@ -1860,6 +1872,9 @@ Email addresses harvester
 
 https://github.com/mandatoryprogrammer/CursedChrome
 Chrome-extension implant that turns victim Chrome browsers into fully-functional HTTP proxies, allowing you to browse sites as your victims.
+
+https://github.com/mandiant/CcmPwn
+ccmpwn.py - lateral movement script that leverages the CcmExec service to remotely hijack user sessions.
 
 https://github.com/mandiant/SharPersist
 Windows persistence toolkit written in C#.

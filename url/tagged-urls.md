@@ -112,6 +112,7 @@
 * https://blog.sunggwanchoi.com/recreating-a-msi-payload-for-fun-and-no-profit ; #windows #shellcode #dll #msi #visual-studio-installer-projects
 * https://blog.sunggwanchoi.com/recreating-an-iso-payload-for-fun-and-no-profit ; #windows #iso #mark-of-the-web #motw #shellcode #msfvenom #proxy-dll
 * https://blog.sygnia.co/guarding-the-bridge-new-attack-vectors-in-azure-ad-connect ; #azure #entra #adcs #active-directory #pass-through-authentication #federation #password-hash-synchronization
+* https://blog.syss.com/posts/introducing-azurenum ; #azure #entra #conditional-access #dynamic-groups #service-principal
 * https://blog.syss.com/posts/zero-touch-pwn ; #zoom #audiocode #automatic-provisioning-procedure #voip #http
 * https://blog.talosintelligence.com/lazarus_new_rats_dlang_and_telegram ; #malware-analyse #threat-intelligence
 * https://blog.thc.org/infecting-ssh-public-keys-with-backdoors ; #ssh backdoor
@@ -136,6 +137,7 @@
 * https://chris.partridge.tech/2023/malware-targeting-cybersecurity-subreddit ; #threat-intel #malware-analyse #stager #lnk
 * https://class.malware.re/2020/04/18/android-intro-and-tools.html ; #android #malware-analyse #manifest #apk #jar #java
 * https://cloudbrothers.info/azure-attack-paths ; #cloud #azure #entra #methodology #subscription #delegation #lighthouse #adfs #runbook
+* https://cloud.google.com/blog/topics/threat-intelligence/windows-session-hijacking-via-ccmexec ; #sccm #ccmexec #session-hijacking #appdomainmanager-injection
 * https://cocomelonc.github.io/malware/2022/08/26/malware-pers-9.html ; #persistence #windows #file-extension
 * https://cocomelonc.github.io/malware/2023/06/07/syscalls-1.html ; #syscall #c++ #dll
 * https://cocomelonc.github.io/malware/2023/11/23/malware-cryptography-22.html ; #shellcode #xtea #encryption #av #anti-virus #bypass
@@ -262,6 +264,7 @@
 * https://labs.jumpsec.com/advisory-idor-in-microsoft-teams-allows-for-external-tenants-to-introduce-malware ; #ms-teams #phishing #http-post #instant-messenger
 * https://labs.lares.com/adcs-exploits-investigations-pt1 ; #active-directory #certificate-service #adcs #detection #event-id
 * https://labs.lares.com/adcs-exploits-investigations-pt2 ; #active-directory #certificate-service #adcs #detection #esc1 #esc3 #esc4 esc6
+* https://labs.lares.com/fear-kerberos-pt1 ; #windows #active-directory #kerberos #key-distribution-center #tgs #tgt #pre-authentication
 * https://labs.lares.com/owa-cap-bypass ; #outlook #mfa-bypass #token #cookie #owa #bearer #http
 * https://labs.lares.com/securing-active-directory-via-acls ; #active-directory #acl #ace #bloodhound
 * https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations ; #shellcode #hook #syscall #windows

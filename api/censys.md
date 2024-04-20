@@ -29,9 +29,12 @@ cat cidrRanges.txt | xargs -I % sh -c 'echo %\\n; curl -s "https://search.censys
 
 ### Definitions
 ```
+autonomous_system.asn
+dns.names
+services.http.response.headers
+services.http.response.html_title
 services.port
-services.http.response.headers 
-services.http.response.html_title 
 services.software.product
+whois.organization.name
 ```
 

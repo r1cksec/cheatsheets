@@ -1,5 +1,5 @@
 ### Source
-https://github.com/projectdiscovery/subfinder  
+https://github.com/projectdiscovery/subfinder
 
 ### Find domains using OSINT
 ```

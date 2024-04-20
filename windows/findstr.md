@@ -3,3 +3,8 @@
 findstr /S /I <string> *.txt
 ```
 
+### Download file from webdav
+```
+findstr /V someStr \\<rhost>\<file> > %HOMEPATH%\<outfile>
+```
+

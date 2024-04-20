@@ -29,6 +29,7 @@ cat cidrRanges.txt | xargs -I % sh -c 'echo %\\n; curl -s "https://api.shodan.io
 ### Filters
 ```
 country:<country>
+hostname:<domain>
 http.title:<title>
 http.html:<keyword>
 http.favicon.hash:<murmurHash3>

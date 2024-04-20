@@ -23,3 +23,8 @@ awk '{print substr($1,1,2)}'
 awk 'length($1) < 10 { print $1 }'
 ```
 
+### Replace ; with :
+```
+awk -F ";" '{gsub(/;/, ":"); print}'
+```
+

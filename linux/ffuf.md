@@ -1,8 +1,13 @@
 ### Source
 https://github.com/ffuf/ffuf  
 
-### Fuzz cgi directory (-e extensions, -t threads) - (https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/CGI-XPlatform.fuzz.txt)
+### Fuzz webpath (-e extensions, -t threads) 
 ```
 ffuf -w <path>/SecLists/Discovery/Web-Content/CGI-XPlatform.fuzz.txt -u <rhost>/ccgi-bin/FUZZ -t <number> -e .sh,.pl,.cgi
+```
+
+### Print 200 status code URLs
+```
+jq -r '.results[] | select(.status == 200) | .url' <file>.json
 ```
 
