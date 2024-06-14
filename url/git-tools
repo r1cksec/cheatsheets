@@ -196,6 +196,9 @@ Threadless Process Injection using remote function hooking.
 https://github.com/CCob/gssapi-abuse
 A tool for enumerating potential hosts that are open to GSSAPI abuse within Active Directory networks
 
+https://github.com/CICADA8-Research/RemoteKrbRelay
+Remote Kerberos Relay made easy! Advanced Kerberos Relay Framework
+
 https://github.com/CTI-Driven/LOLBins
 The LOLBins CTI-Driven (Living-Off-the-Land Binaries Cyber Threat Intelligence Driven) is a project that aims to help cyber defenders understand how LOLBin binaries are used by threat actors during an intrusion in a graphical and digestible format for the TIPs platform using the STIX format.
 
@@ -960,6 +963,9 @@ IoctlHunter is a command-line tool designed to simplify the analysis of IOCTL ca
 
 https://github.com/Z4kSec/Masky
 Python library with CLI allowing to remotely dump domain user credentials via an ADCS without dumping the LSASS process memory
+
+https://github.com/ZERODETECTION/MSC_Dropper
+MSC Dropper is a Python script designed to automate the creation of MSC (Microsoft Management Console) files with customizable payloads for arbitrary execution. This tool leverages a method discovered by Samir (@SBousseaden) from Elastic Security Labs, termed #GrimResource, which facilitates initial access and evasion through mmc.exe.
 
 https://github.com/ZephrFish/AutoHoneyPoC
 AutoPoC Generator HoneyPoC
