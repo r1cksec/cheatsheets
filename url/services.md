@@ -9,6 +9,7 @@
 * https://any.run ; #forensic #dfir #malware #sandbox
 * https://app.docguard.io
 * https://archlinux.org/mirrors/status
+* https://aws-token-decoder.netlify.app ; #aws #session-token-decoder
 * https://badfiles.ch
 * https://boostsecurityio.github.io/lotp ; #living-off-the-pipeline #ci-cd #continuous-integration-continous-deployment
 * https://br0k3nlab.com/LoFP

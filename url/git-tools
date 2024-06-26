@@ -1,5 +1,14 @@
+http://github.com/Syzik/DockerRegistryGrabber
+Enumerate / Dump Docker Registry
+
 http://github.com/Velocidex/WinPmem
 WinPmem is a physical memory acquisition tool
+
+http://github.com/evilsocket/legba
+A multiprotocol credentials bruteforcer / password sprayer and enumerator.
+
+http://github.com/lanjelot/patator
+Patator is a multi-purpose brute-forcer, with a modular design and a flexible usage. 
 
 https://gist.github.com/CCob/fe3b63d80890fafeca982f76c8a3efdf
 Patch AMSI using hardware breakpoints
@@ -201,6 +210,9 @@ Threadless Process Injection using remote function hooking.
 
 https://github.com/CCob/gssapi-abuse
 A tool for enumerating potential hosts that are open to GSSAPI abuse within Active Directory networks
+
+https://github.com/CICADA8-Research/IHxExec
+Process injection alternative
 
 https://github.com/CICADA8-Research/RemoteKrbRelay
 Remote Kerberos Relay made easy! Advanced Kerberos Relay Framework
@@ -511,6 +523,15 @@ Amnesiac is a post-exploitation framework entirely written in PowerShell and des
 https://github.com/Leo4j/Invoke-SessionHunter
 Retrieve and display information about active user sessions on remote computers. No admin privileges required.
 
+https://github.com/Leo4j/Invoke-ShareHunter
+Enumerate the Domain for Readable and Writable Shares
+
+https://github.com/Leo4j/KeyCredentialLink
+Add Shadow Credentials to a target object by editing their msDS-KeyCredentialLink attribute
+
+https://github.com/Leo4j/SessionExec
+SessionExec allows you to execute specified commands in other Sessions on Windows Systems, either targeting a specific session ID or All sessions, with the option to suppress command output
+
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection. Convert .net exe into powershell script.
 
@@ -621,6 +642,9 @@ A Highly capable Pe Packer
 
 https://github.com/NUL0x4C/HellShell
 transform your payload into ipv4/ipv6/mac arrays
+
+https://github.com/NVISOsecurity/codasm
+Payload encoding utility to effectively lower payload entropy.
 
 https://github.com/Ne0nd0g/go-shellcode
 A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
@@ -811,9 +835,6 @@ C# porting of SysWhispers2. It uses SharpASM to find the code caves for executin
 https://github.com/SECFORCE/Tunna
 Tunna is a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.
 
-https://github.com/SaadAhla/dropper
-Project that generates Malicious Office Macro Enabled Dropper for DLL SideLoading and Embed it in Lnk file to bypass MOTW
-
 https://github.com/SafeBreach-Labs/PoolParty
 A set of fully-undetectable process injection techniques abusing Windows Thread Pools
 
@@ -829,9 +850,6 @@ Timeroasting scripts by Tom Tervoort
 https://github.com/SecureAuthCorp/impacket
 Impacket is a collection of Python classes for working with network protocols.
 
-https://github.com/SecurityAndStuff/DllLoadPath
-Showcasing two different techniques for changing DLL load order by using undocumented APIs.
-
 https://github.com/SecurityRiskAdvisors/letitgo
 Enumerate and check domains for Azure tenants
 
@@ -846,6 +864,9 @@ DavRelayUp - a universal no-fix local privilege escalation in domain-joined wind
 
 https://github.com/ShutdownRepo/pywhisker
 Python version of the C# tool for "Shadow Credentials" attacks
+
+https://github.com/ShutdownRepo/targetedKerberoast
+Kerberoast with ACL abuse capabilities
 
 https://github.com/SimplySecurity/SimplyEmail
 Email recon made fast and easy, with a framework to build on
@@ -1044,9 +1065,6 @@ Enumerate the permissions associated with AWS credential set
 
 https://github.com/androidmalware/DigisparkAttiny85-scripts
 The script tests 20 most popular mobile phone PINs in 6 minutes using Digispark ATtiny85 board.
-
-https://github.com/anil-yelken/wardriving
-Python Wardriving
 
 https://github.com/aniqfakhrul/powerview.py
 PowerView alternative
@@ -1249,9 +1267,6 @@ A tool to quickly do keyword searches over Gitlab and Github for OSINT & bug bou
 https://github.com/coffeegist/bofhound
 Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
 
-https://github.com/fortalice/bofhound
-Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
-
 https://github.com/conflict-investigations/media-search-engine
 Search geolocations for (social) media posts in databases like Bellingcat, Cen4InfoRes etc.
 
@@ -1426,9 +1441,6 @@ Data set of top third party web domains with rich metadata about them
 https://github.com/dwisiswant0/apkleaks
 Scanning APK file for URIs, endpoints & secrets.
 
-https://github.com/ecriminal/phpvuln
-Audit tool to find common vulnerabilities in PHP source code
-
 https://github.com/edoardottt/cariddi
 Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more
 
@@ -1437,6 +1449,9 @@ A full-featured open-source Wi-Fi fuzzer
 
 https://github.com/efchatz/pandora
 A red team tool that assists into extracting/dumping master credentials and/or entries from different password managers.
+
+https://github.com/efeali/fragtunnel
+Fragtunnel is a proof-of-concept (PoC) TCP tunnel tool that you can use to tunnel your application's traffic and bypass next-generation firewalls en route to the target.
 
 https://github.com/egbertbouman/youtube-comment-downloader
 Simple script for downloading Youtube comments without using the Youtube API
@@ -1473,6 +1488,9 @@ NTP Exfiltration Tool
 
 https://github.com/evild3ad/MemProcFS-Analyzer
 MemProcFS-Analyzer - Automated Forensic Analysis of Windows Memory Dumps for DFIR
+
+https://github.com/exiftool/exiftool
+ExifTool meta information reader/writer
 
 https://github.com/expl0itabl3/check_mdi
 Python script to enumerate valid Microsoft 365 domains, retrieve tenant name, and check for an MDI instance Resources
@@ -1542,6 +1560,9 @@ Ask a TGS on behalf of another user without password
 
 https://github.com/fr0gger/IATelligence
 IATelligence is a Python script that will extract the IAT of a PE file and request GPT to get more information about the API and the ATT&CK matrix related
+
+https://github.com/franc-pentest/ldeep
+In-depth ldap enumeration utility
 
 https://github.com/francozappa/bluffs
 Bluetooth Forward and Future Secrecy Attacks and Defenses (BLUFFS) [CVE 2023-24023]
@@ -1903,6 +1924,9 @@ Metagoofil is an information gathering tool designed for extracting metadata of 
 https://github.com/last-byte/PersistenceSniper
 Powershell module that can be used by Blue Teams, Incident Responders and System Administrators to hunt persistences implanted in Windows machines.
 
+https://github.com/lawndoc/Respotter
+Respotter is a Responder honeypot! Catch attackers and red teams as soon as they spin up Responder in your environment.
+
 https://github.com/leandrofroes/gftrace
 A command line Windows API tracing tool for Golang binaries.
 
@@ -2071,6 +2095,9 @@ Automated Adversary Emulation Platform
 https://github.com/mlcsec/FormThief
 Spoofing desktop login applications with WinForms and WPF
 
+https://github.com/mlcsec/Graphpython
+Modular cross-platform Microsoft Graph API (Entra, o365, and Intune) enumeration and exploitation toolkit
+
 https://github.com/mlcsec/proctools
 Small toolkit for extracting information and dumping sensitive strings from Windows processes
 
@@ -2238,6 +2265,9 @@ Attach an executable file and use JavaScript to download the attachment
 
 https://github.com/ohpe/juicy-potato
 This script extracts CLSIDs and AppIDs related to LocalService.DESCRIPTION
+
+https://github.com/okigan/awscurl
+curl-like access to AWS resources with AWS Signature Version 4 request signing.
 
 https://github.com/onekey-sec/unblob
 Extract files from any kind of container formats
@@ -2416,6 +2446,9 @@ pwnSpoof (from Punk Security) generates realistic spoofed log files for common w
 https://github.com/pwn1sher/WMEye
 WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Execution for lateral movement
 
+https://github.com/pwnfoo/NTLMRecon
+Enumerate information from NTLM authentication enabled web endpoints
+
 https://github.com/pwnsauc3/RWXFinder
 The program uses the Windows API functions to traverse through directories and locate DLL files with RWX section
 
@@ -2476,6 +2509,12 @@ OWASP Joomla Vulnerability Scanner Project
 https://github.com/rezasp/joomscan
 OWASP Joomla! Vulnerability Scanner (JoomScan) is an open source project, developed with the aim of automating the task of vulnerability detection and reliability assurance in Joomla CMS deployments.
 
+https://github.com/ricardojoserf/NativeDump
+Dump lsass using only Native APIs by hand-crafting Minidump files (without MinidumpWriteDump!)
+
+https://github.com/ricardojoserf/SharpSelfDelete
+PoC to self-delete a binary in C#
+
 https://github.com/righteousgambit/quiet-riot
 Unauthenticated enumeration of AWS, Azure, and GCP Principals
 
@@ -2526,6 +2565,9 @@ Silentbridge is a toolkit for bypassing 802.1x-2010 and 802.1x-2004.
 
 https://github.com/s0md3v/Arjun
 HTTP parameter discovery suite.
+
+https://github.com/s0md3v/Corsy
+CORS Misconfiguration Scanner
 
 https://github.com/s0md3v/Orbit
 Blockchain Transactions Investigation Tool
@@ -2601,9 +2643,6 @@ Async Python library to parse local and remote disk images.
 
 https://github.com/skelsec/evilrdp
 Th evil twin of aardwolfgui using the aardwolf RDP client library that gives you extended control over the target and additional scripting capabilities from the command line.
-
-https://github.com/skelsec/octopwnweb
-OctoPwn in your browser
 
 https://github.com/skelsec/pypykatz
 Mimikatz implementation in pure Python
@@ -2743,11 +2782,17 @@ hardCIDR is a Linux Bash script, but also functions under macOS. Your mileage ma
 https://github.com/trustedsec/orpheus
 Bypassing Kerberoast Detections with Modified KDC Options and Encryption Types
 
+https://github.com/trustedsec/specula
+Specula at its core is a C2 framework that operates via the Outlook home page feature.
+
 https://github.com/tsale/TeleTracker
 TeleTracker is a simple set of Python scripts designed for anyone investigating Telegram channels. It helps you send messages quickly and gather useful channel information easily.
 
 https://github.com/twelvesec/passcat
 Passwords Recovery Tool
+
+https://github.com/two06/CerealKiller
+.NET deserialization hunter
 
 https://github.com/ultrafunkamsterdam/undetected-chromedriver
 Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)
@@ -2790,6 +2835,9 @@ Use smb2 protocol to detect remote computer os version, support win7/server2008-
 
 https://github.com/waelmas/frameless-bitb
 A new approach to Browser In The Browser (BITB) without the use of iframes, allowing the bypass of traditional framebusters implemented by login pages like Microsoft and the use with Evilginx.
+
+https://github.com/wavestone-cdt/EDRSandblast
+EDRSandBlast is a tool written in C that weaponize a vulnerable signed driver to bypass EDR detections (Notify Routine callbacks, Object Callbacks and ETW TI provider) and LSASS protections. Multiple userland unhooking techniques are also implemented to evade userland monitoring.
 
 https://github.com/waydroid/waydroid
 Waydroid uses a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
@@ -2886,6 +2934,9 @@ Fish-like autosuggestions for zsh
 
 https://github.com/zsh-users/zsh-syntax-highlighting
 Fish shell like syntax highlighting for Zsh.
+
+https://github.com/zyn3rgy/smbtakeover
+BOF and Python3 implementation of technique to unbind 445/tcp on Windows via SCM interactions
 
 https://github.com/zzzteph/probable_subdomains
 Subdomains analysis and generation tool. Reveal the hidden!

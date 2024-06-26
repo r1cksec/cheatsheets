@@ -1,3 +1,4 @@
+* http://blog.syss.com/posts/voip-deskphone-firmware-security ; #voice-over-ip #voip #firmware #alcatel-ale-deskphone #zero-touch-pwn
 * http://hacking-printers.net/wiki/index.php/Main_Page ; #printer #wiki #methodology
 * https://00xbyte.github.io/posts/Don%27t-Believe-Your-Eyes-A-WhatsApp-Clickjacking-Vulnerability ; #phishing #whatsapp #unicode #link-preview
 * https://0x44.xyz/blog/cve-2023-4369 ; #browser #extension #chrome #privilege-escalation
@@ -207,7 +208,6 @@
 * https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki ; #c2 #command-and-control #infrastructure #wiki #methodology
 * https://github.com/FuzzySecurity/BHUSA-2023 ;#windows #kernel #rootkit #direct-kernel-object-manipulation #edr #evasion
 * https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet ; #java #deserialization #cheatsheets #wiki
-* https://github.com/humbleladdd/Shodan-Dorks ; #shodan #filter #cheatsheets
 * https://github.com/huntandhackett/process-cloning ; #windows #process-cloning
 * https://github.com/jakejarvis/awesome-shodan-queries ; #shodan #cheatsheets #queries
 * https://github.com/lazzslayer/Breaking-Into-The-Cloud-Slides ; #cloud #aws #azure #entra #methodology
@@ -288,6 +288,7 @@
 * https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/malware-naming?view=o365-worldwide ; #windows #documentation #malware
 * https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/wdac-and-applocker-overview ; #windows #applocker #windows-defender-application-control #wdac
 * https://libdzonerzy.so/articles/from-zero-to-botnet-glinet.html ; #cve #gl.inet #router #firmware #lua
+* https://logan-goins.com/2024-05-04-ADCS ; #windows #active-directory-certificate-services #esc #certipy #petitpotam
 * https://luemmelsec.github.io/gaylord-M-FOCker-ready-to-pwn-your-MIFARE-tags ; #rfid #nfc #flipper-zero #proxmark3
 * https://luemmelsec.github.io/Pentest-Everything-SMTP ; #smtp #simple-mail-transfer-protocol #mail-transfer-agent
 * https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI ; #active-directory #certificate-service #adcs #methodology #esc1-10
@@ -302,6 +303,8 @@
 * https://mandomat.github.io/2023-09-21-localization-with-silent-SMS ; #sms #location #software-defined-radio
 * https://matheuzsecurity.github.io/hacking/linux-threat-hunting-persistence ; #linux #persistence #ssh #crontab #pam #pluggable-authentication-modules
 * https://mattfrisbie.substack.com/p/spy-chrome-extension ; #browser #chrome #extension
+* https://mayfly277.github.io/posts/SCCM-LAB-part0x1 ; #sccm #windows #active-directory #system-centre-configuration-manager #sccmhunter #ldap #pxe #pre-boot-execution-environment
+* https://mayfly277.github.io/posts/SCCM-LAB-part0x2 ; #sccm #windows #active-directory #system-centre-configuration-manager #sccmhunter #ntlm-relay #mssql
 * https://mccaulay.co.uk/mast1c0re-introduction-exploiting-the-ps4-and-ps5-through-a-gamesave ; #gaming #playstation #escape #emulator
 * https://mccaulay.co.uk/mast1c0re-part-2-arbitrary-ps2-code-execution ; #gaming #playstation #escape #assembly #elf
 * https://mccaulay.co.uk/mast1c0re-part-3-escaping-the-emulator ; #gaming #playstation #escape #emulator #debugging
@@ -310,6 +313,7 @@
 * https://medium.com/@bobbyrsec/gifshell-covert-attack-chain-and-c2-utilizing-microsoft-teams-gifs-1618c4e64ed7 ; #c2 #command-and-control #gif #ms-teams #instant-messenger
 * https://medium.com/@bobbyrsec/microsoft-teams-attachment-spoofing-and-lack-of-permissions-enforcement-leads-to-rce-via-ntlm-458aea1826c5 ; #phishing #spoofing #attachment #ms-teams #instant-messenger
 * https://medium.com/@bobbyrsec/the-dangers-of-googles-zip-tld-5e1e675e59a5 ; #phishing #spoofing #url #scheme-abuse
+* https://medium.com/@brsdncr/malicious-document-analysis-ii-12b1e697457e ; #threat-intelligence #malware #binary-analyse #forensic #dfir
 * https://medium.com/cider-sec/ppe-poisoned-pipeline-execution-34f4e8d0d4e9 ; #poisoned-pipeline-xecution #jenkins #ec2 #api #secrets #cicd #continuous-integration-continous-deployment
 * https://medium.com/@cyb_detective/how-to-automate-the-analysis-of-links-to-user-profiles-obtained-with-nickname-enumeration-tools-1d0abaf22c53 ; #osint #nickname #nuclei
 * https://medium.com/@knownsec404team/unveiling-the-dark-gray-market-organizations-behind-the-vpn-scenes-f2b8dbf09467 ; #threat-intelligence #vpn #zoomeye #ssl-certificate
@@ -320,6 +324,7 @@
 * https://medium.com/@Sec0ps/using-windows-helpfile-as-a-foothold-cebbb55f6655 ; #threat-intelligence #chm #initial-access #phishing
 * https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489 ; #aws #cloud #key-id #authentication #python
 * https://medium.com/@TalBeerySec/hi-meta-whatsapp-with-privacy-6d646c5aa3bc ; #whatsapp #linked-devices-enumeration
+https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tokens-a6c76469cba7 ; #aws #cloud #session-token
 * https://medium.com/tenable-techblog/wordpress-mycalendar-plugin-unauthenticated-sql-injection-cve-2023-6360-d272887ddf12 ; #web #sqli #wordpress #php
 * https://medium.com/@two06/hacking-a-tapo-tc60-camera-e6ce7ca6cad1 ; #hardware #iot #internet-of-things #reverse-engineering #camera
 * https://medium.com/@xploiterd/ec2-user-data-to-rce-f601264a75c2 ; #aws #cloud #user-data #rce
@@ -395,6 +400,7 @@
 * https://posts.specterops.io/phishing-with-dynamite-7d33d8fac038 ; #phishing #token #webrtc #bitm #browser-in-the-middle
 * https://posts.specterops.io/pwned-by-the-mail-carrier-0750edfad43b ; #active-directory #ms-exchange
 * https://posts.specterops.io/relaying-ntlm-authentication-from-sccm-clients-7dccb8f92867 ; #windows #sccm #system-centre-configuration-manager #ntlm-relaying
+* https://posts.specterops.io/sccm-hierarchy-takeover-with-high-availability-7dcbd3696b43 ; #sccm #windows #active-directory #system-centre-configuration-manager #sccmhunter #site-takeover
 * https://posts.specterops.io/sccm-site-takeover-via-automatic-client-push-installation-f567ec80d5b1?gi=d0d74f9f89fa ; #windows #sccm #system-centre-configuration-manager #automatic-client-push-installation
 * https://posts.specterops.io/site-takeover-via-sccms-adminservice-api-d932e22b2bf ; #windows #active-directory #sccm #ntlm-relaying #coercion #sms #petit-potam
 * https://posts.specterops.io/the-phantom-credentials-of-sccm-why-the-naa-wont-die-332ac7aa1ab9 ; #windows #sccm #system-centre-configuration-manager #network-access-account #dpapi
@@ -505,10 +511,12 @@
 * https://threatanatomy.io/en/posts/004-analyzing-a-dotnet-c2-agent ; #pestudio #windows #malware-analyse #visual-studio #dnspy #command-and-control #c2 #dot-net
 * https://tij.me/blog/harvesting-active-directory-credentials-via-http-request-smuggling ; #webapp #http-request-smuggling #proxy
 * https://tomforb.es/i-scanned-every-package-on-pypi-and-found-57-live-aws-keys ; #python #pypi #aws #enumeration #github-actions
+* https://tracebit.com/blog/how-to-find-the-aws-account-id-of-any-s3-bucket ; #aws #bucket #account-id
 * https://trevorsaudi.com/posts/2023-07-21_red_team03 ; #shellcode #c++ #process-injection
 * https://trikkss.github.io/posts/hiding_windows_api_calls_part1 ; #windows #api-hashing #evasion #getprocaddress
 * https://troopers.de/downloads/troopers23/TR23_DumpingNTHashesfromAzureAD.pdf ; #azure #entra #nthash #azure-ad-domain-services #aadds
 * https://trufflesecurity.com/blog/4500-of-the-top-1-million-websites-leaked-source-code-secrets ; #git #secrets #aws #api-keys
+* https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github ; #deleted-fork #github #cross-fork-object-reference #cfor
 * https://trufflesecurity.com/blog/google-oauth-is-broken-sort-of ; #google #oauth #email-alias
 * https://trufflesecurity.com/blog/secrets-leak-in-ci-cd ; #jenkins #ec2 #api #secrets #cicd #continuous-integration-continous-deployment
 * https://trufflesecurity.com/blog/trufflehog-commands-git-vs-filesystem ; #trufflehog #git #github #secrets #keys
@@ -656,6 +664,7 @@
 * https://www.synack.com/blog/exploits-explained-5-unusual-authentication-bypass-techniques ; #webapp #refresh-token
 * https://www.synacktiv.com/en/publications/a-dive-into-microsoft-defender-for-identity.html ; #windows #etw #mdi #azure #entra #edr #ldap #kerberos #evasion #bypass
 * https://www.synacktiv.com/en/publications/azure-ad-introduction-for-red-teamers.html ; #cloud #azure #entra #methodology #recon #phs
+* https://www.synacktiv.com/en/publications/github-actions-exploitation-untrusted-input ; #github-actions #expression-injection #continuous-integration #continuous-delivery #code-injection
 * https://www.synacktiv.com/en/publications/pcapan-a-pcap-analysis-helper.html ; #dfir #forensic #pcab
 * https://www.synacktiv.com/publications/exploring-android-heap-allocations-in-jemalloc-new ; #android #heap-overflow #allocation
 * https://www.synacktiv.com/publications/gpoddity-exploiting-active-directory-gpos-through-ntlm-relaying-and-more ; #active-directory #gpo #group-policy #sysvol #ntlm-relaying
@@ -692,6 +701,7 @@
 * https://x4sh3s.github.io/posts/Divide-and-bypass-amsi ; #windows #amsi #bypass #divide #add-type
 * https://x-c3ll.github.io/posts/javascript-antidebugging ; #web #javascript #anti-debugging
 * https://xorvoid.com/sectorc.html ; #c #compiler #assembly #bios
+* https://xphantom.nl/posts/crypto-attack-jenkins ; #webapp #jenkins #cve-2024-23897 #remote-ccode-execution #exploit
 * https://xret2pwn.github.io/Myths-About-External-C2 ; #c2 #command-and-control #infrastructure #sockets #named-pipes
 * https://xret2pwn.github.io/The-Art-of-Clipboard-Forensics-Recovering-Deleted-Data ; #clipboard #memory #dfir #forensic #history
 * https://zer1t0.gitlab.io/posts/attacking_ad ; #active-directory #methodology #kerberos #trust #gpo #kerberoast #asreproast #logon-types #acl 
