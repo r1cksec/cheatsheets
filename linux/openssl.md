@@ -18,6 +18,6 @@ openssl enc -d -aes-256-cbc -pbkdf2 -k <password> <encryptedFile> > <file>
 
 ### Print information
 ```
-openssl x509 -in <file>.pem -text -noout
+openssl x509 -text -noout -in <file>.pem
 ```
 

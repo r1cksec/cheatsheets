@@ -74,6 +74,7 @@ $HOME\Documents\WindowsPowerShell\Microsoft.PowerShellISE_profile.ps1
 ### Sam, system, security 
 ```
 C:\Windows\system32\config
+C:\Windows\system32\config\RegBack
 ```
 
 ### Scheduled taks as system 

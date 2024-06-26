@@ -59,6 +59,16 @@ ssh -D 9050 <user>@<rhost> -N -v
 ssh -o 'StrictHostKeyChecking=no' -i .\<privateKey> -N -R 9050 <user>@<rhost>
 ```
 
+### Port forward over multiple hosts
+```
+ssh -D 9050 -J <user>@<jumphost1>:<port>,<user>@<jumphost2>:<port> <user>@<rhost> -p <port>
+```
+
+### Port forward over multiple hosts
+```
+ssh -D 9050 -o ProxyCommand="ssh -W %h:%p <user>@<jumphost>" <user>@localhost -p <port>
+```
+
 ### Port forward to local port on remote server
 ```
 ssh -N -L 127.0.0.1:9050:127.0.0.1:9051 <user>@<rhost>
@@ -73,15 +83,5 @@ proxychains <command>
 ```
 # will not be added to /var/log/utmp, sessions will not appear using w, no usage of .bash_profile .profile
 ssh -o UserKnownHostsFile=/dev/null -T <user>@<rhost> 'bash -i'
-```
-
-### Port forward over multiple hosts
-```
-ssh -D 9050 -J <user>@<jumphost1>:<port>,<user>@<jumphost2>:<port> <user>@<rhost> -p <port>
-```
-
-### Port forward over multiple hosts
-```
-ssh -D 9050 -o ProxyCommand="ssh -W %h:%p <user>@<jumphost>" <user>@localhost -p <port>
 ```
 

@@ -8,3 +8,8 @@ chromium --ignore-certificate-errors -headless --screenshot="<file>.png" <rhost>
 chromium --proxy-server="socks4://<ip>:<port>
 ```
 
+### Chrome DevTools Protocol port
+```
+9222
+```
+

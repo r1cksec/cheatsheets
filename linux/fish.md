@@ -28,3 +28,8 @@ Alt + d
 CTRL + w
 ```
 
+### Set new prompt
+```
+function fish_prompt; echo (whoami)@(hostname) (date +"%Y.%m.%d_%T")" > "; end
+```
+

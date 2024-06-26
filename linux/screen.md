@@ -5,7 +5,8 @@ screen -S <name>
 
 ### Log session to file
 ```
-screen -S <name> -L -Logfile $(date +"%Y.%m.%d_%T")
+screen -S <name> -L -Logfile $(date +"%Y.%m.%d_%T") -s bash
+PS1="$(whoami)@$(hostname)> "
 ```
 
 ### Detach

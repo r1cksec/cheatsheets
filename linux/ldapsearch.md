@@ -1,20 +1,32 @@
+### Install
+```
+apt install ldap-utils
+```
+
 ### Basic request (works unauthenticated, -L = dont print LDIF version, -s scope of search)
 ```
 ldapsearch -LLL -x -H ldap://<domainController> -b '' -s base '(objectclass=*)'
 ```
 
-### Get all domain joined operating systems (-z result limit, -x simple auth, -W prompt for password, -D binddn, -b basedn)
+### Get information about single user (-b searchbase)
 ```
-ldapsearch -H ldap://<domainController> -z none -x -W -D "<user>@<domain>" -b "dc=<domainComponent>,dc=<domainComponent>" "(objectclass=computer)" "DNSHostName" "OperatingSystem"
-```
-
-### Get information about all user objects
-```
-ldapsearch -H ldap://<domainController> -z none -x -W -D "<user>@<domain>" -b "dc=<domainComponent>,dc=<domainComponent>" "(objectclass=user)"
+ldapsearch -H ldap://<domainController> -D "<user>@<domain>" -w '<password>' -b "dc=<domainComponent>,dc=<domainComponent>,dc=<domainComponent>" "(sAMAccountName=<user>)"
 ```
 
-### Logical AND (use | for OR) (use ! NEGATION)
+### Filter
 ```
-ldapsearch -H ldap://<domainController> -z none -x -W -D "<user>@<domain>" -b "dc=<domainComponent>,dc=<domainComponent>" "(&(<condition1>)(<condition2>))"
+"(objectclass=computer)" "DNSHostName" "OperatingSystem"
+"(objectclass=user)"
+"(&(<condition1>)(<condition2>))"
+```
+
+### Reference error troubleshooting
+```
+RefErr: DSID-0310079C -> wrong DN/searchbase (incorrect domain controller or incorrect searchbase)
+```
+
+### Certificate error troubleshooting
+```
+LDAPTLS_REQCERT=never
 ```
 

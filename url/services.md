@@ -1,5 +1,6 @@
 * http://asciiqr.com ; #ascii #unicode #phishing #qr-code
 * http://bugmenot.com
+* http://ntfy.sh ; #notification #hook #phishing
 * https://12ft.io
 * https://amsi.fail
 * https://andrewmarsh.com/apps/staging/sunpath3d.html
@@ -76,6 +77,7 @@
 * https://strontic.github.io/xcyclopedia ; #windows #forensic #dfir #executable
 * https://threats.wiz.io ; #cloud #malware #watchlist
 * https://urlfiltering.paloaltonetworks.com
+* https://uuid.pirate-server.com ; #windows #globally-unique-identifier #guid #uuid
 * https://vim-adventures.com
 * https://windows96.net
 * https://wtfbins.wtf

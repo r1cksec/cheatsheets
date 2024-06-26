@@ -1,3 +1,6 @@
+http://github.com/Velocidex/WinPmem
+WinPmem is a physical memory acquisition tool
+
 https://gist.github.com/CCob/fe3b63d80890fafeca982f76c8a3efdf
 Patch AMSI using hardware breakpoints
 
@@ -42,6 +45,9 @@ The code is not super clean but project contains an example performance dll that
 
 https://github.com/0xthirteen/SharpRDP
 Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
+
+https://github.com/0xv1n/RemoteSessionEnum
+The purpose of this project was to attempt to replicate the functionality of qwinsta /server:<servername> utilizing the largely undocumented Windows Station (WinSta) API.
 
 https://github.com/0xv1n/proc-suspend
 powershell script i wrote that can suspend an arbitrary process (with limits)
@@ -310,6 +316,9 @@ C# tool for installing a shared network printer abusing the PrinterNightmare bug
 https://github.com/Flangvik/NetLoader
 Loads any C# binary in mem, patching AMSI + ETW.
 
+https://github.com/Flangvik/QRucible
+Python utility that generates "imageless" QR codes in various formats
+
 https://github.com/Flangvik/SharpCollection
 Nightly builds of common C# offensive tools, fresh from their respective master branches built and released in a CDI fashion using Azure DevOps release pipelines.
 
@@ -508,6 +517,9 @@ Active Directory Tool Collection. Convert .net exe into powershell script.
 https://github.com/LuemmelSec/ntlmrelayx.py_to_exe
 While trying to convert a current version of impackets ntlmrelayx.py to an exe with pyinstaller, I stumbled upon a shitload of problems.
 
+https://github.com/LvMalware/cf-proxy
+A simple worker that acts as proxy to tunnel requests over the internet, forwarding them through Cloudflare's global network of servers. This way, we can archieve automatic IP address rotation, all coming from a trusted ASN
+
 https://github.com/MWR-CyberSec/PXEThief
 PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager 
 
@@ -543,6 +555,9 @@ Protected Processes Light Killer
 
 https://github.com/Mayyhem/SharpSCCM
 A C# utility for interacting with SCCM
+
+https://github.com/Meckazin/ChromeKatz
+Dump cookies directly from Chrome process memory
 
 https://github.com/MellowNight/2D-Injector
 Hiding unsigned DLL inside a signed DLL
@@ -697,6 +712,9 @@ Checks running processes, process metadata, Dlls loaded into your current proces
 https://github.com/RUB-NDS/PRET
 Printer Exploitation Toolkit - The tool that made dumpster diving obsolete.
 
+https://github.com/Raphire/Win11Debloat
+A simple, easy to use powershell script to remove bloatware apps from windows, disable telemetry, bing in windows search aswell as perform various other changes to declutter and improve your windows experience. This script works for both windows 10 and windows 11.
+
 https://github.com/Raz0r/aemscan
 Adobe Experience Manager Vulnerability Scanner
 
@@ -718,8 +736,14 @@ The AWS exploitation framework, designed for testing the security of Amazon Web 
 https://github.com/RiccardoAncarani/LiquidSnake
 LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript
 
+https://github.com/RichardoC/gitlab-secrets
+This tool analyzes a given Gitlab repository and searches for dangling or force-pushed commits containing potential secret or interesting information.
+
 https://github.com/Ridter/Exchange2domain
 CVE-2018-8581
+
+https://github.com/Ridter/atexec-pro
+Fileless atexec, no more need for port 445. The TSCH service is used by default(need port 135 a dynamic high port), port 445 is no longer required.
 
 https://github.com/Ridter/noPac
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user
@@ -786,6 +810,9 @@ C# porting of SysWhispers2. It uses SharpASM to find the code caves for executin
 
 https://github.com/SECFORCE/Tunna
 Tunna is a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.
+
+https://github.com/SaadAhla/dropper
+Project that generates Malicious Office Macro Enabled Dropper for DLL SideLoading and Embed it in Lnk file to bypass MOTW
 
 https://github.com/SafeBreach-Labs/PoolParty
 A set of fully-undetectable process injection techniques abusing Windows Thread Pools
@@ -1219,6 +1246,12 @@ SharpSploit is a .NET post-exploitation library written in C#
 https://github.com/codingo/dorky
 A tool to quickly do keyword searches over Gitlab and Github for OSINT & bug bounty recon
 
+https://github.com/coffeegist/bofhound
+Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
+
+https://github.com/fortalice/bofhound
+Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
+
 https://github.com/conflict-investigations/media-search-engine
 Search geolocations for (social) media posts in databases like Bellingcat, Cen4InfoRes etc.
 
@@ -1426,6 +1459,9 @@ Analyze and help extract older "hidden" versions of a pdf from the current pdf.
 https://github.com/enjoiz/Privesc
 Windows batch script that finds misconfiguration issues which can lead to privilege escalation.
 
+https://github.com/erebe/wstunnel
+Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
+
 https://github.com/es3n1n/no-defender
 There's a WSC (Windows Security Center) service in Windows which is used by antiviruses to let Windows know that there's some other antivirus in the hood and it should disable Windows Defender.
 
@@ -1443,6 +1479,9 @@ Python script to enumerate valid Microsoft 365 domains, retrieve tenant name, an
 
 https://github.com/facefusion/facefusion
 Next generation face swapper and enhancer
+
+https://github.com/fail2ban/fail2ban
+Daemon to ban hosts that cause multiple authentication errors
 
 https://github.com/felamos/weirdhta
 A tool to create obfuscated HTA script.
@@ -1476,6 +1515,12 @@ Fake Protocol Server
 
 https://github.com/forrest-orr/moneta
 Moneta is a live usermode memory analysis tool for Windows with the capability to detect malware IOCs
+
+https://github.com/fortalice/bofhound
+Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
+
+https://github.com/fortalice/pyldapsearch
+Tool for issuing manual LDAP queries which offers bofhound compatible output
 
 https://github.com/fortra/No-Consolation
 A BOF that runs unmanaged PEs inline
@@ -1747,6 +1792,9 @@ A collection of PowerShell scripts/helpers to aid in daily tasks.
 https://github.com/jm33-m0/SSH-Harvester
 Harvest passwords automatically from OpenSSH server
 
+https://github.com/joaoviictorti/RustRedOps
+RustRedOps is a repository for advanced Red Team techniques and offensive malware, focused on Rust
+
 https://github.com/joeavanzato/Trawler
 PowerShell script to help Incident Responders discover adversary persistence mechanisms.
 
@@ -1923,6 +1971,9 @@ Infoga - Email OSINT
 
 https://github.com/magisterquis/chromecookiestealer
 Steal/Inject Chrome cookies over the DevTools (--remote-debugging-port) protocol.
+
+https://github.com/magisterquis/curlrevshell
+Kooky cURL-powered replacement for reverse shell via /dev/tcp
 
 https://github.com/maldevel/EmailHarvester
 Email addresses harvester 
@@ -2254,6 +2305,9 @@ Run PowerShell with rundll32. Bypass software restrictions.
 https://github.com/padovah4ck/PSByPassCLM
 Bypass for PowerShell Constrained Language Mode
 
+https://github.com/patrickhener/goshs
+A SimpleHTTPServer written in Go, enhanced with features and with a nice design
+
 https://github.com/peasead/elastic-container
 Stand up a simple Elastic container with Kibana, Fleet, and the Detection Engine
 
@@ -2572,6 +2626,9 @@ Dump Citrix Secure Access auth cookie from the process memory
 https://github.com/sqlmapproject/sqlmap
 Automatic SQL injection and database takeover tool
 
+https://github.com/srlabs/Certiception
+An ADCS honeypot to catch attackers in your internal network.
+
 https://github.com/sse-secure-systems/TeamsEnum
 User Enumeration of Microsoft Teams users via API
 
@@ -2748,6 +2805,9 @@ UAC Bypass By Abusing Kerberos Tickets
 
 https://github.com/wh0amitz/S4UTomato
 Escalate Service Account To LocalSystem via Kerberos
+
+https://github.com/wh0amitz/SharpADWS
+Active Directory reconnaissance and exploitation for Red Teams via the Active Directory Web Services (ADWS).
 
 https://github.com/wh0amitz/SharpRODC
 To audit the security of read-only domain controllers

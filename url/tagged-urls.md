@@ -16,6 +16,7 @@
 * https://0xtoxin.github.io/malware%20analysis/KrakenKeylogger-pt1 ; #threat-intelligence #malware-analyse #kraken #phishing #lnk #powershell #hta #dot-net #exfiltration
 * https://0xtoxin.github.io/threat%20hunting/KrakenKeylogger-pt2 ; #threat-intelligence #malware-analyse #infrastructure #c2
 * https://0xv1n.github.io/posts/scmanager ; #windows #persistence #scm #living-of-the-land
+* https://0xv1n.github.io/posts/sessionenumeration ; #qwinsta #windows #session-enumeration #c++
 * https://1modm.github.io/Browser-fingerprint.html ; #browser #fingerprint #opsec #http
 * https://4sysops.com/archives/enable-applocker-on-windows-10-pro-and-windows-11-pro-with-powershell ; #windows #enable #applocker #group-policy
 * https://7h3h4ckv157.medium.com/mastering-the-realm-of-graphql-exploitation-a12ed5e04263 ; #webapp #graphql #rest
@@ -82,6 +83,7 @@
 * https://blog.compass-security.com/2022/11/relaying-to-ad-certificate-services-over-rpc ; #active-directory #certificate-service #adcs #ntlm #rpc #certipy
 * https://blog.compass-security.com/2023/10/relaying-ntlm-to-mssql ; #ntlm-relaying #mssql #windows #active-directory
 * https://blog.compass-security.com/2024/01/device-code-phishing-add-your-own-sign-in-methods-on-entra-id ; #azure #entra #device-code-phishing #refresh-token
+* https://blog.cyber5w.com/introducing-windows-registry ; #windows #registry
 * https://blog.cyble.com/2023/06/09/over-45-thousand-users-fell-victim-to-malicious-pypi-packages ; #threat-intelligence #python #pypi #supply-chain
 * https://blog.cyble.com/2023/06/13/threat-actor-targets-russian-gaming-community-with-wannacry-imitator ; #threat-intelligence #malware-analyse #gaming #ransomware #wannacry
 * https://blog.delivr.to/svg-smuggling-a-picture-worth-a-thousand-words-fae8a946a300?gi=e2ee37ee9c09 ; #threat-intelligence #malware-analyse #svg-smuggling
@@ -139,6 +141,7 @@
 * https://charbelnemnom.com/deploy-microsoft-defender-for-identity/?expand_article=1 ; #microsoft #defender-for-identity #azure #entra #setup #adcs
 * https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html ; #webapp #graphql #cheatsheets #methodology
 * https://chris.partridge.tech/2023/malware-targeting-cybersecurity-subreddit ; #threat-intelligence #malware-analyse #stager #lnk
+* https://cicada-8.medium.com/process-injection-is-dead-long-live-ihxhelppaneserver-af8f20431b5d ; #windows #cross-session-activation #com-object #impersonation
 * https://class.malware.re/2020/04/18/android-intro-and-tools.html ; #android #malware-analyse #manifest #apk #jar #java
 * https://cloudbrothers.info/azure-attack-paths ; #cloud #azure #entra #methodology #subscription #delegation #lighthouse #adfs #runbook
 * https://cloud.google.com/blog/topics/threat-intelligence/windows-session-hijacking-via-ccmexec ; #sccm #ccmexec #session-hijacking #appdomainmanager-injection
@@ -173,6 +176,7 @@
 * https://elliotonsecurity.com/living-off-the-land-reverse-engineering-methodology-plus-tips-and-tricks-cmdl32-case-study ; #reverse-engineering #lolbin #windows
 * https://embee-research.ghost.io/practical-queries-for-malware-infrastructure-part-3 ; #threat-intelligence #censys #malware-infrastructure
 * https://embee-research.ghost.io/threat-intel-queries-with-fofabot ; #fofa #cheatsheets #queries #threat-intelligence #malware
+* http://sensepost.com/blog/2024/dumping-lsa-secrets-a-story-about-task-decorrelation ; #windows #lsa #registry #dump #secret
 * https://espysys.com/blog/telegram-osint-the-ultimate-guide-to-unveiling-insights-beyond-what-meets-the-eye ; #osint #telegram
 * https://eta.st/2023/01/31/rail-tickets.html ; #reverse-engineering #rail-ticket #decompiling
 * https://exploit.ph/des-is-useful.html ; #active-directory #kerberos #domain-controller #rubues #des #targeted-kerberoast #data-encryption-standard
@@ -217,6 +221,7 @@
 * https://github.com/swisskyrepo/HardwareAllTheThings ; #hardware #cheatsheets #wiki
 * https://github.com/TecR0c/DoubleTrouble ; #proof-of-concept #poc #cve #java-deserialization #cve-2023-39475 #cve-2023-39476
 * https://github.com/tothi/pwn-hisilicon-dvr ; #hisilicon #dvr #hi3520d #firmware #remote-code-execution #telnet
+* https://github.security.telekom.com/2024/07/rt-peripheral-sight-printer-cve.html ; #active-directory #printer #ldap #smtp
 * https://godiego.co/posts/STO-Azure ; #cloud #azure #entra #subdomain-takeover #cloudapp #traffic-manager
 * https://h4ndsh.github.io/2023/phpinfo ; #web #php #remote-code-execution #register-argc-argv #pearcmd
 * https://hackcompute.com/hacking-epp-servers ; #webapp #epp #dns #extensible-provision-protocol
@@ -374,9 +379,11 @@
 * https://posts.specterops.io/at-the-edge-of-tier-zero-the-curious-case-of-the-rodc-ef5f1799ca06 ; #read-only-domain-controller #rodc #tier-zero #active-directory
 * https://posts.specterops.io/automating-azure-abuse-research-part-1-30b0eca33418 ; #cloud #azure #entra #lab-setup
 * https://posts.specterops.io/automating-dll-hijack-discovery-81c4295904b0?gi=c30e46860a63 ; #windows #dll #hijack #ms-teams #vscode
+* https://posts.specterops.io/bofhound-session-integration-7b88b6f18423 ; #windows #active-directory #bloodhound #bofhound #session-enumeration #ldap
 * https://posts.specterops.io/coercing-ntlm-authentication-from-sccm-e6e23ea8260a ; #windows #sccm #system-centre-configuration-manager #coercion #ntlm #primary-site-server #sms-provider
 * https://posts.specterops.io/domain-of-thrones-part-i-c183ee4bf379 ; #active-directory #domain-controller #credential-dump #windows
 * https://posts.specterops.io/domain-of-thrones-part-ii-45080d5dbfc8 ; #active-directory #persistence #ndts #dcsync #golden-ticket #diamond #adcs #certificate-service
+* https://posts.specterops.io/drink-like-a-phish-b9e91d0b5677 ; #phishing #bot-prevention
 * https://posts.specterops.io/from-da-to-ea-with-esc5-f9f045aa105c ; #active-directory #certificate-service #adcs #esc5 #ldap
 * https://posts.specterops.io/get-your-socks-on-with-gtunnel-4a70a9b82b24 ; #pivoting #socks #gtunnel #proxy
 * https://posts.specterops.io/introducing-bloodhound-4-2-the-azure-refactor-1cff734938bd ; #cloud #azure #entra #azure #entrahound
@@ -483,6 +490,7 @@
 * https://swarm.ptsecurity.com/discovering-domains-via-a-time-correlation-attack ; #recon #osint #domain #certificate-transparency #time-correlation
 * https://swarm.ptsecurity.com/jetty-features-for-hacking-web-apps ; #webapp #jetty #file-upload #waf
 * https://syfuhs.net/understanding-windows-auth ; #windows #lsass #authentication #methodology #kerberos #azure #entra #trust
+* https://syntax-err0r.github.io/Silently_Install_Chrome_Extension.html ; #windows #chrome #persistence
 * https://synthesis.to/2023/08/02/api_functions.html ; #reverse-engineering #reverse-engine #binary-analyse #api-functions #coreutils #plugx
 * https://sysdig.com/blog/ambersquid ; #threat-intelligence #malware #aws #cloud #ec2 #cryptocurrency
 * https://systemweakness.com/alternate-data-streams-good-or-bad-3e22e972f8fd ; #windows #alternate-data-stream #powershell
@@ -570,6 +578,7 @@
 * https://www.fo-sec.com/articles/10-defender-bypass-methods ; #windows-defender #av #anti-virus #evasion #bypass #etw #amsi #obfuscation
 * https://www.geekboy.ninja/blog ; #web #xss #clickjacking #pastejacking
 * https://www.guidepointsecurity.com/blog/beyond-the-basics-exploring-uncommon-ntlm-relay-attack-techniques ; #windows #active-directory #ntlm-relay #shadow-credentials #s4u2self #resource-based-delegation
+* https://www.guidepointsecurity.com/blog/sccm-exploitation-evading-defenses-and-moving-laterally-with-sccm-application-deployment ; #sccm #system-centre-configuration-manager #windows #active-directory
 * https://www.hackerone.com/application-security/guide-subdomain-takeovers ; #web #subdomain-takeover #cname #osint #recon #methodology #dns
 * https://www.horizon3.ai/from-cve-2022-33679-to-unauthenticated-kerberoasting ; #kerberoast #active-directory #kerberoast #cve #spn #tgt
 * https://www.http418infosec.com/offsecops-using-jenkins-for-red-team-tooling ; #jenkins #pipeline #obfuscation #csharp
