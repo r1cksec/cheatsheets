@@ -643,6 +643,9 @@ A Highly capable Pe Packer
 https://github.com/NUL0x4C/HellShell
 transform your payload into ipv4/ipv6/mac arrays
 
+https://github.com/NVISOsecurity/KNOCKOUT
+The tool KNOCKOUT streamlines the collection and aggregation of incident response artifacts from multiple sources, significantly saving time during critical initial access phases of Red Team exercises.
+
 https://github.com/NVISOsecurity/codasm
 Payload encoding utility to effectively lower payload entropy.
 
@@ -874,6 +877,9 @@ Email recon made fast and easy, with a framework to build on
 https://github.com/SirVer/ultisnips
 UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips!
 
+https://github.com/SkyEmie/batch-obfuscator
+Easy way to obfuscuate batch files (Windows)
+
 https://github.com/Slowerzs/ThievingFox
 ThievingFox is a collection of post-exploitation tools to gather credentials from various password managers and windows utilities.
 
@@ -966,6 +972,9 @@ S3 Account Search
 
 https://github.com/Wh04m1001/DFSCoerce
 PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAddStdRoot (found by @xct_de) methods.
+
+https://github.com/Wh1t3Rh1n0/SlackEnum
+A user enumeration tool for Slack.
 
 https://github.com/WiredPulse/Invoke-HiveNightmare
 PoC for CVE-2021-36934, which enables a standard user to be able to retrieve the SAM, Security, and Software Registry hives in Windows 10 version 1809 or newer
@@ -1318,6 +1327,9 @@ a c2 fully written in nim
 https://github.com/daem0nc0re/Abusing_Weak_ACL_on_Certificate_Templates
 Summary about certificate templates with weak ACL.
 
+https://github.com/daem0nc0re/PrivFu
+Kernel mode WinDbg extension and PoCs for token privilege investigation.
+
 https://github.com/daffainfo/Key-Checker
 Go scripts for checking API key / access token validity
 
@@ -1602,9 +1614,6 @@ An open-source process injection enumeration tool written in C#
 
 https://github.com/gildas-lormeau/SingleFile
 Web Extension and CLI tool for saving a faithful copy of an entire web page in a single HTML file
-
-https://github.com/gildas-lormeau/SingleFileZ
-Web Extension for Firefox/MS Edge and CLI tool to save a faithful copy of an entire web page in a self-extracting HTML/ZIP polyglot file
 
 https://github.com/gildas-lormeau/single-file-cli
 SingleFile can be launched from the command line by running it into a (headless) browser.

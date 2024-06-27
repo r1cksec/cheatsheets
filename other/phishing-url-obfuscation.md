@@ -1,6 +1,6 @@
 ### Google translate
 ```
-https://<domain>-<com>.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en
+https://r1cksec-de.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en
 ```
 
 ### Google with warning
@@ -11,6 +11,11 @@ https://www.google.com/url?sa=t&url=https://r1cksec.de
 ### Google weblight
 ```
 https://googleweblight.com/i?u=r1cksec.de
+```
+
+### Twitter / X
+```
+https://t.co/gVOJPP2ymM
 ```
 
 ### Youtube with warning

@@ -1,5 +1,4 @@
 * https://0dayfans.com
-* https://allinfosecnews.com
 * https://archlinux.org/news
 * https://blog.badsectorlabs.com
 * https://cvecrowd.com
@@ -9,6 +8,7 @@
 * https://talkback.sh
 * https://thehackernews.com
 * https://thisweekin4n6.com
+* https://www.breaches.cloud
 * https://www.golem.de/specials/security
 * https://www.ransomlook.io/recent
 * https://www.ransomware.live/#/recentvictims

@@ -54,9 +54,12 @@
 * https://predictasearch.com ; #osint #email #user-profile #phone
 * https://psbdmp.ws ; #osint #storage #dumps
 * https://saucenao.com ; #osint #reverse-image-search
+* https://scam-alert.io ; #scam #crypto-wallet
+* https://scamsearch.io ; #scam-database #email #username #phone #crypto-wallet
 * https://search.censys.io ; #osint #subdomain #asn #portscan
 * https://searchcode.com ; #osint #source-code #repository
 * https://securitytrails.com ; #osint #subdomain #nameserver #portscan #dns-history #whois
+* https://spydialer.com ; #phone #email #address
 * https://spyonweb.com ; #osint #nameserver #dns-history #google-id #google-analytics #google-adsense #rootdomain
 * https://sslmate.com ; #osint #domain #subdomain #certificate
 * https://tineye.com ; #osint #reverse-image-search
@@ -81,6 +84,7 @@
 * https://www.subdomain.center ; #osint #subdomain 
 * https://www.suncalc.org ; #osint #sun #map #geolocation
 * https://www.unternehmensregister.de ; #osint #company-registry #acquisition
+* https://www.whatiswhere.com ; #points-of-interest #open-street-map
 * https://www.whoxy.com : #osint #whois #domain #rootdomain
 * https://www.xdcc.eu ; #osint #irc-search
 * https://www.zoomeye.org ; #osint #portscan #certificate #asn #rootdomain

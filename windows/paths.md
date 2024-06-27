@@ -35,11 +35,6 @@ C:\Windows\NTDS\ntds.dit
 C:\Windows\system32\Windows\NTDS\ntds.dit
 ```
 
-### SAM
-```
-C:\windows\system32\config\SAM
-```
-
 ### Powershell 
 ```
 C:\WINDOWS\system32\WindowsPowershell\v1.0\powershell.exe
@@ -50,24 +45,16 @@ C:\WINDOWS\system32\WindowsPowershell\v1.0\powershell.exe
 C:\Users\<user>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
 ```
 
-### Powershell profile all user 
+### Powershell profile
 ```
+$HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 C:\Windows\System32\WindowsPowerShell\v1.0\profile.ps1
 C:\Windows\System32\WindowsPowerShell\v1.0\Microsoft.PowerShell_profile.ps1
 ```
 
-### Powershell profile all users (ISE) 
+### Powershell profile (ISE) 
 ```
 C:\Windows\System32\WindowsPowerShell\v1.0\Microsoft.PowerShellISE_profile.ps1
-```
-
-### Powershell profile current user 
-```
-$HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
-```
-
-### Powershell profile current user (ISE) 
-```
 $HOME\Documents\WindowsPowerShell\Microsoft.PowerShellISE_profile.ps1
 ```
 

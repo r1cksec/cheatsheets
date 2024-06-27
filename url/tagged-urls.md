@@ -46,6 +46,7 @@
 * https://attl4s.github.io/assets/pdf/Understanding_a_Payloads_Life.pdf ; #meterpreter #payload #c2 #reflective-loading #evasion #bypass
 * https://axelarator.github.io/posts/codesigningcerts ; #windows #code-signing #signature #sigthief #certificate
 * https://axelp.io/ImperfectProjector ; #reverse-engineering #amazon-projector #cgi #firmware #web
+* https://b4ny4n.github.io/network-pentest/2020/06/17/kapacitor-shells-via-chronograph.html ; #web #remote-code-execution #rce #chronograph
 * https://badoption.eu/blog/2023/02/06/spoof_office_comments.html ; #phishing #spoofing #ms-office
 * https://badoption.eu/blog/2023/02/12/S4B_Teams.html ; #ms-teams #phishing #skype-for-business #s4b #ntlm #password-spray #spoofing #instant-messenger
 * https://badoption.eu/blog/2023/06/01/zipjar.html ; #phishing #zip #jar #windows #webdav #java
@@ -100,6 +101,7 @@
 * https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm ; #shellcode #rdi-loader #c #assembly #obfuscation
 * https://blog.nietaanraken.nl/posts/aur-packages-github-repo-jacking ; #supply-chain #arch #aur #threat-intelligence
 * https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary ; #threat-intelligence #malware-analyse #atm
+* https://blog.nviso.eu/2024/08/02/from-evidence-to-advantage-leveraging-incident-response-artifacts-for-red-team-engagements ; #windows-api #registry #forensic-artifacts
 * https://blog.phylum.io/attackers-repurposing-existing-python-based-malware-for-distribution-on-npm ; #supply-chain #npm #python #malware-analyse
 * https://blog.plerion.com/things-you-wish-you-didnt-need-to-know-about-s3 ; #aws #bucket #s3 #storage #cognito
 * https://blog.projectdiscovery.io/guide-to-dns-takeovers ; #dns-takeover #nameserver #subdomain-takeover #osint #recon
@@ -164,8 +166,10 @@
 * https://decoder.cloud/2023/02/13/localpotato-when-swapping-the-context-leads-you-to-system ; #windows #ntlm #local-potato
 * https://decoder.cloud/2023/09/05/from-ntauthcertificates-to-silver-certificate ; #windows #adcs #active-directory #certificate-service
 * https://defcon.org/images/defcon-19/dc-19-presentations/Duckwall/DEFCON-19-Duckwall-Bridge-Too-Far.pdf ; #802-1x #bridge #linux
+* https://detect.fyi/threat-hunting-suspicious-named-pipes-a4206e8a4bc8?gi=f841fec0eb16 ; #threat-intelligence #named-pipe #ipc #windows #linux #event-id #threat-hunting
 * https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c?gi=25697c91242b ; #dfir #forensic #event-id #log #windows #services #siem
 * https://devblogs.microsoft.com/oldnewthing/20230303-00/?p=107894 ; #clipboard #enumeration #history
+* https://dfir.ch/posts/search-ms_protocol_handler ; #threat-intelligence #search-ms #uri-handler #protocol-provider
 * https://diablohorn.com/2023/08/22/lateral-movement-a-conceptual-overview ; #lateral-movement #network #identity
 * https://digitalinvestigator.blogspot.com/2022/11/techniques-in-email-forensic-analysis.html ; #forensic #dfir #email
 * https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra ; #entra #azure #temporary-access-passes #cloud-kerberos-trust
@@ -193,6 +197,7 @@
 * https://fortynorthsecurity.com/blog/extending-and-detecting-persistassist-act-ii ; #windows #persistence #wmi #event-consumer
 * https://fortynorthsecurity.com/blog/extending-persistassist ; #windows #persistence #wmi
 * https://frischkorn-nicholas.medium.com/red-teaming-macos-101-33b5a1834a2e ; #macosx #methodology #wiki
+* https://frycos.github.io/vulns4free/2024/07/10/dynamics-ups-and-downs.html ; #microsoft-dynamics-365-business-central #cve-2024-35248 #cve-2024-35249 #json-deserialization #dot-net
 * https://fuzzing.io/hushcon23.pdf ; #fuzzing
 * https://ghostlulz.com/binary-exploitation-ret2libc ; #buffer-overflow #linux #gdb
 * https://gi7w0rm.medium.com/the-curious-case-of-the-7777-botnet-86e3464c3ffd ; #threat-intelligence #botnet #shodan
@@ -561,6 +566,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.blackhillsinfosec.com/constrained-language-mode-bypass-when-pslockdownpolicy-is-used ; #windows #powershell #constrained-language-mode #clm #bypass
 * https://www.blackhillsinfosec.com/hunting-for-ssrf-bugs-in-pdf-generators ; #web #server-side-request-forgery #ssrf #pdf #javascript #html #aws
 * https://www.blackhillsinfosec.com/introducing-graphrunner ; #azure #entra #microsoft365 #graphrunner
+* https://www.blackhillsinfosec.com/introducing-slackenum ; #slack #phishing
 * https://www.blackhillsinfosec.com/spoofing-microsoft-365-like-its-1995 ; #phishing #microsoft-direct-send #spoofing #mail
 * https://www.blazeinfosec.com/post/tearing-amsi-with-3-bytes ; #windows #amsi #bypass #dll
 * https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Konfigurationsempfehlungen_zur_Haertung_von_Windows_10.pdf?__blob=publicationFile&v=3 ; #windows #hardening
@@ -588,6 +594,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.guidepointsecurity.com/blog/beyond-the-basics-exploring-uncommon-ntlm-relay-attack-techniques ; #windows #active-directory #ntlm-relay #shadow-credentials #s4u2self #resource-based-delegation
 * https://www.guidepointsecurity.com/blog/sccm-exploitation-evading-defenses-and-moving-laterally-with-sccm-application-deployment ; #sccm #system-centre-configuration-manager #windows #active-directory
 * https://www.hackerone.com/application-security/guide-subdomain-takeovers ; #web #subdomain-takeover #cname #osint #recon #methodology #dns
+* https://www.hackthebox.com/blog/llmnr-poisoning-attack-detection ; #llmnr ntlm-relay #detection
 * https://www.horizon3.ai/from-cve-2022-33679-to-unauthenticated-kerberoasting ; #kerberoast #active-directory #kerberoast #cve #spn #tgt
 * https://www.http418infosec.com/offsecops-using-jenkins-for-red-team-tooling ; #jenkins #pipeline #obfuscation #csharp
 * https://www.huntandhackett.com/blog/concealed-code-execution-techniques-and-detection; #concealed-code-execution #detection #process-tampering #code-injection
@@ -596,6 +603,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.immersivelabs.com/blog/detecting-and-decrypting-sliver-c2-a-threat-hunters-guide ; #threat-intelligence #malware-analyse #sliver #c #detection #dfir #forensic #monitoring
 * https://www.immunit.ch/blog/2021/07/05/microsoft-teams-user-enumeration ; #ms-teams #phishing #enumeration #instant-messenger
 * https://www.immunit.ch/blog/2023/05/11/wsus-rce-inject ; #windows #wsus
+* https://www.intrinsec.com/kerberos_opsec_part_2_as_rep-roasting ; #active-directory #rubeus #asreproast #windows
 * https://www.intruder.io/research/split-second-dns-rebinding-in-chrome-and-safari ; #dns-rebinding #chrome #safari
 * https://www.intruder.io/research/we-hacked-ourselves-with-dns-rebinding ; #dns-rebinding #cloud #aws #ec2
 * https://www.inversecos.com/2022/05/how-to-perform-clipboard-forensics.html ; #clipboard #memory #forensic #dfir #history

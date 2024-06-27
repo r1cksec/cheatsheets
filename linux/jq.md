@@ -11,6 +11,12 @@ cat <file>.json | jq -r '"\(.key1) ; \(.key | gsub(";"; "_"))"'
 cat <file>.json | jq -r 'if has("key1") then .key1 else .key2 end'
 ```
 
+### Use variable inside jq statement
+```
+var="content"
+echo "<json>" | jq -r --arg vari "${var}" 'select(.key == $vari) | .key2'
+```
+
 ### Print distinguishedname of bloodhound users
 ```
 cat <userFile>.json | jq '.data[].Properties.distinguishedname

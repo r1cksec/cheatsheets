@@ -1,9 +1,9 @@
 ### Source
 https://github.com/SecureAuthCorp/impacket/blob/master/examples/mssqlclient.py  
 
-### Start mssql session
+### Start mssql session using AD authentication
 ```
-impacket-mssqlclient <user>:<password>@<rhost>
+impacket-mssqlclient -windows-auth <user>:<password>@<rhost>
 ```
 
 ### Using hashes

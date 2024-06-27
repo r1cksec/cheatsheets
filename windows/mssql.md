@@ -20,3 +20,25 @@ mssql> EXEC('sp_configure ''xp_cmdshell'',1; reconfigure;') AT [<fdqnRhost>]
 mssql> SELECT * FROM OPENQUERY("<fqdnRhost>", 'select * from sys.configuration where name = ''xp_cmdshell''')
 ```
 
+### Get hostname
+```
+SELECT HOST_NAME();
+```
+
+### Get tables
+```
+SELECT name FROM <database>..sysobjects;
+SELECT * FROM <databaseName>.INFORMATION_SCHEMA.TABLES;
+```
+
+### Get content of table
+```
+SELECT * FROM master..sql_logins;
+```
+
+### Get permissions
+```
+SELECT is_srvrolemember('sysadmin');
+SELECT is_srvrolemember('serveradmin');
+```
+

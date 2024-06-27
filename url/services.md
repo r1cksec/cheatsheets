@@ -1,16 +1,15 @@
 * http://asciiqr.com ; #ascii #unicode #phishing #qr-code
-* http://bugmenot.com
+* http://bugmenot.com ; #account-share
 * http://ntfy.sh ; #notification #hook #phishing
-* https://12ft.io
-* https://amsi.fail
+* https://12ft.io ; #paywall-bypass
+* https://amsi.fail ; #amsi-bypass-generator
 * https://andrewmarsh.com/apps/staging/sunpath3d.html
-* https://antiscan.me
-* https://anvaka.github.io/map-of-github
+* https://antiscan.me ; #anti-virus
+* https://anvaka.github.io/map-of-github ; #github
 * https://any.run ; #forensic #dfir #malware #sandbox
-* https://app.docguard.io
-* https://archlinux.org/mirrors/status
+* https://app.docguard.io ; #malware-analyse
+* https://archlinux.org/mirrors/status ; #mirror
 * https://aws-token-decoder.netlify.app ; #aws #session-token-decoder
-* https://badfiles.ch
 * https://boostsecurityio.github.io/lotp ; #living-off-the-pipeline #ci-cd #continuous-integration-continous-deployment
 * https://br0k3nlab.com/LoFP
 * https://browserleaks.com
@@ -71,34 +70,28 @@
 * https://ransomwhe.re
 * https://readme-typing-svg.demolab.com/demo
 * https://report.netcraft.com/report
-* https://scam-alert.io
-* https://scamsearch.io
 * https://socradar.io/labs/accountbreach
-* https://spydialer.com
 * https://strontic.github.io/xcyclopedia ; #windows #forensic #dfir #executable
 * https://threats.wiz.io ; #cloud #malware #watchlist
 * https://urlfiltering.paloaltonetworks.com
 * https://uuid.pirate-server.com ; #windows #globally-unique-identifier #guid #uuid
-* https://vim-adventures.com
-* https://windows96.net
-* https://wtfbins.wtf
-* https://www.breaches.cloud
-* https://www.browserling.com ; #online-browser
+* https://vim-adventures.com ; #vim #game
+* https://windows96.net ; #windows #os-simluator
+* https://wtfbins.wtf ; #threat-hunting #binary-suspicious behavior
+* https://www.browserling.com ; #online-browser #phishing-analyse
 * https://www.capsolver.com ; #captcha-solving
-* https://www.cloudvulndb.org
-* https://www.denic.de/service/tools/idn-web-converter
+* https://www.cloudvulndb.org ; #cloud-vulnerability-database
+* https://www.denic.de/service/tools/idn-web-converter ; #idn #ace #phishing #homoglyph #domain
 * https://www.hiclipart.com ; #image #transparent #png
-* https://www.irongeek.com/homoglyph-attack-generator.php
-* https://www.kali.org/tools
-* https://www.loldrivers.io ; #living-off-the-land-drivers
+* https://www.irongeek.com/homoglyph-attack-generator.php ; #homoglyph-generator #phishing
+* https://www.kali.org/tools ; #tool-documentation
+* https://www.loldrivers.io ; #living-off-the-land-drivers #windows
 * https://www.loobins.io ; #living-off-the-orchard-macOS-binaries
-* https://www.mail-tester.com
-* https://www.online-python.com
-* https://www.ransomware.live
-* https://www.revshells.com
-* https://www.virustotal.com
-* https://www.vonage.com
-* https://www.whatiswhere.com
+* https://www.mail-tester.com ; #email-evaluation #smtp #dmarc
+* https://www.online-python.com ; #python #online-interpreter
+* https://www.revshells.com ; #reverse-shell-generator
+* https://www.virustotal.com ; #sandbox #malware-analyse #domain
+* https://www.vonage.com ; #spoof #phone #sms
 * https://www.youtubechapters.app ; #youtube #videos #chapter-definition
 * https://zws.im ; #url-shortener
 * http://www.insecam.org ; #webcam #livecam

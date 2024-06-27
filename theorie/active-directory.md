@@ -91,7 +91,7 @@ A System Access Control List describes which accesses to objects are to be logge
 The Security Account Manger is the logon name used to support clients and servers running earlier versions of windows, such as NT 4.0, 95, 98 and LAN Manager. Duplicate in database is not possible.
 
 #### SCCM
-The System Center Configuration Manager is deployment software.
+The System Center Configuration Manager is a deployment software. Since 2020 known as Microsoft Endpoint Configuration Manager (MECM)
 
 #### Security Principal 
 A user or computer account, group or process running in a security context.

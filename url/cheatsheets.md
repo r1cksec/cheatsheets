@@ -1,4 +1,5 @@
 * http://pinvoke.net
+* https://badfiles.ch
 * https://book.hacktricks.xyz
 * https://cheatsheetseries.owasp.org
 * https://dmcxblue.gitbook.io/red-team-notes-2-0/files/red-team-guide
@@ -66,6 +67,7 @@
 * https://github.com/milabs/awesome-linux-rootkits
 * https://github.com/MrM8BRH/Splunk
 * https://github.com/Mr-Un1k0d3r/EDRs
+* https://github.com/mthcht/awesome-lists
 * https://github.com/nebgnahz/awesome-iot-hacks
 * https://github.com/netlas-io/netlas-dorks
 * https://github.com/nullg0re/Experienced-Pentester-OSEP
