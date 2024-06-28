@@ -56,7 +56,7 @@ https://github.com/0xthirteen/SharpRDP
 Remote Desktop Protocol .NET Console Application for Authenticated Command Execution
 
 https://github.com/0xv1n/RemoteSessionEnum
-The purpose of this project was to attempt to replicate the functionality of qwinsta /server:<servername> utilizing the largely undocumented Windows Station (WinSta) API.
+Remotely Enumerate sessions using undocumented Windows Station APIs
 
 https://github.com/0xv1n/proc-suspend
 powershell script i wrote that can suspend an arbitrary process (with limits)
@@ -93,6 +93,9 @@ https://github.com/Accenture/Codecepticon
 
 https://github.com/Accenture/Spartacus
 Spartacus DLL Hijacking Discovery Tool
+
+https://github.com/AdnaneKhan/Gato-X
+Gato Extreme Edition is a hard fork of Gato, which was originally developed by @AdnaneKhan, @mas0nd, and @DS-koolaid. Gato-X is maintained by @AdnaneKhan and serves to automate advanced enumeration and exploitation techniques against GitHub repositories and organizations for security research purposes.
 
 https://github.com/AdrianVollmer/Congruence
 A command line interface to Atlassian Confluence
@@ -193,6 +196,9 @@ yet another AV killer tool using BYOVD
 https://github.com/BloodHoundAD/BloodHound
 Six Degrees of Domain Admin
 
+https://github.com/C0untFloyd/roop-unleashed
+Evolved Fork of roop with Web Server and lots of additions
+
 https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence
 Protintelligence is a Python script for the OSINT and Cyber Community. It finds intelligence on Protonmail accounts
 
@@ -201,6 +207,9 @@ Another LSASS dumping tool that uses a dynamically compiled LSA plugin to grab a
 
 https://github.com/CCob/SharpBlock
 A method of bypassing EDR's active projection DLL's by preventing entry point exection
+
+https://github.com/CCob/Shwmae
+Shwmae (shuh-my) is a Windows Hello abuse tool that was released during DEF CON 32 as part of the Abusing Windows Hello Without a Severed Hand talk. The purpose of the tool is to abuse Windows Hello from a privileged user context.
 
 https://github.com/CCob/SweetPotato
 Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019
@@ -841,6 +850,9 @@ Tunna is a set of tools which will wrap and tunnel any TCP communication over HT
 https://github.com/SafeBreach-Labs/PoolParty
 A set of fully-undetectable process injection techniques abusing Windows Thread Pools
 
+https://github.com/SafeBreach-Labs/QuickShell
+A library and a set of tools for exploiting and communicating with Google's Quick Share devices.
+
 https://github.com/SamJoan/droopescan
 A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
 
@@ -924,6 +936,9 @@ EmailAll is a powerful Email Collect tool
 
 https://github.com/TarlogicSecurity/BlueSpy
 PoC to record audio from a Bluetooth device
+
+https://github.com/Teach2Breach/Tempest
+A command and control framework written in rust.
 
 https://github.com/The-Viper-One/PsMapExec
 A PowerShell tool that takes strong inspiration from CrackMapExec.
@@ -1128,6 +1143,9 @@ Prevents you from committing secrets and credentials into git repositories
 
 https://github.com/ayoubfathi/leaky-paths
 A collection of special paths linked to major web CVEs, known misconfigurations, juicy APIs ..etc. It could be used as a part of web content discovery, to scan passively for high-quality endpoints and quick-wins.
+
+https://github.com/badsectorlabs/sccm-http-looter
+Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) shares via HTTP(s)
 
 https://github.com/bats3c/ADCSPwn
 A tool to escalate privileges in an active directory network by coercing authenticate from machine accounts and relaying to the certificate service.
@@ -1663,6 +1681,9 @@ Subdomain Takeover tool written in Go
 https://github.com/hackerhouse-opensource/WMIProcessWatcher
 A CIA tradecraft technique to asynchronously detect when a process is created using WMI.
 
+https://github.com/hacksider/Deep-Live-Cam
+real time face swap and one-click video deepfake with only a single image
+
 https://github.com/hakaioffsec/navgix
 navgix is a multi-threaded golang tool that will check for nginx alias traversal vulnerabilities
 
@@ -1899,6 +1920,9 @@ Abusing Reddit API to host the C2 traffic, since most of the blue-team members u
 
 https://github.com/kleiton0x00/Shelltropy
 A technique of hiding malicious shellcode via Shannon encoding.
+
+https://github.com/kleiton0x00/contexter
+Contexter - A secondary context path traversal / server-side parameter pollution testing tool written in Python 3
 
 https://github.com/klezVirus/CandyPotato
 Pure C++, weaponized, fully automated implementation of RottenPotatoNG
@@ -2428,6 +2452,9 @@ Go alternative of python SimpleHTTPServer
 https://github.com/projectdiscovery/subfinder
 Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
 
+https://github.com/projectdiscovery/tldfinder
+A streamlined tool for discovering TLDs, associated domains, and related domain names.
+
 https://github.com/projectdiscovery/useragent
 Curated list of categorized User Agents
 
@@ -2524,6 +2551,9 @@ Dump lsass using only Native APIs by hand-crafting Minidump files (without Minid
 https://github.com/ricardojoserf/SharpSelfDelete
 PoC to self-delete a binary in C#
 
+https://github.com/ricardojoserf/TrickDump
+Dump lsass using only NTAPIS running 3 programs to create 3 JSON and 1 ZIP file... and generate the Minidump later!
+
 https://github.com/righteousgambit/quiet-riot
 Unauthenticated enumeration of AWS, Azure, and GCP Principals
 
@@ -2559,6 +2589,9 @@ A script that collects employee data located within Xing
 
 https://github.com/rtrouton/create_macos_vm_install_dmg
 This script prepares macOS installer disk images for use with virtualization software like VMware Fusion or Parallels.
+
+https://github.com/runZeroInc/sshamble
+SSHamble: Unexpected Exposures in SSH
 
 https://github.com/rvazarkar/GMSAPasswordReader
 Reads the password blob from a GMSA account using LDAP, and parses the values into hashes for re-use.
@@ -2728,6 +2761,9 @@ World’s single largest Internet domains dataset
 https://github.com/techjacker/repo-security-scanner
 CLI tool that finds secrets accidentally committed to a git repo, eg passwords, private keys
 
+https://github.com/tehstoni/tryharder
+C++ Staged Shellcode Loader with Evasion capabilities.
+
 https://github.com/tennc/webshell
 This is a webshell open source project
 
@@ -2784,6 +2820,9 @@ Rust Weaponization for Red Team Engagements.
 
 https://github.com/trufflesecurity/truffleHog
 Searches through git repositories for high entropy strings and secrets, digging deep into commit history
+
+https://github.com/trustedsec/ELFLoader
+This is a ELF object in memory loader/runner. The goal is to create a single elf loader that can be used to run follow on capabilities across all x86_64 and x86 nix operating systems.
 
 https://github.com/trustedsec/hardcidr
 hardCIDR is a Linux Bash script, but also functions under macOS. Your mileage may vary on other distros. The script with no specified options will query ARIN and a pool of BGP route servers. The route server is selected at random at runtime.
@@ -2937,6 +2976,9 @@ Collection of tools that reflect the network dimension into Bloodhound's data
 
 https://github.com/zeronetworks/BlueHound
 BlueHound is an open-source tool that helps blue teams pinpoint the security issues that actually matter.
+
+https://github.com/zeze-zeze/NamedPipeMaster
+a tool used to analyze and monitor in named pipes
 
 https://github.com/zsh-users/zsh-autosuggestions 
 Fish-like autosuggestions for zsh

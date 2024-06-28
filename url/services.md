@@ -72,7 +72,6 @@
 * https://report.netcraft.com/report
 * https://socradar.io/labs/accountbreach
 * https://strontic.github.io/xcyclopedia ; #windows #forensic #dfir #executable
-* https://threats.wiz.io ; #cloud #malware #watchlist
 * https://urlfiltering.paloaltonetworks.com
 * https://uuid.pirate-server.com ; #windows #globally-unique-identifier #guid #uuid
 * https://vim-adventures.com ; #vim #game

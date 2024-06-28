@@ -8,10 +8,11 @@
 * https://talkback.sh
 * https://thehackernews.com
 * https://thisweekin4n6.com
+* https://threats.wiz.io/all-incidents
 * https://www.breaches.cloud
 * https://www.golem.de/specials/security
 * https://www.ransomlook.io/recent
-* https://www.ransomware.live/#/recentvictims
+* https://www.ransomware.live/#/recent
 * https://www.reddit.com/r/redteamsec
 * https://www.sixgen.io/news
 * https://www.threatable.io

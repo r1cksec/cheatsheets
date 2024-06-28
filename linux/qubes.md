@@ -8,14 +8,19 @@ sudo qubes-dom0-update <packet>
 qvm-run --pass-io <qubeName> '<command>'
 ```
 
-### Copy file to dom0
+### List PCI devices
 ```
-qvm-run --pass-io <qubeName> 'cat <file> > <outFile>'
+qvm-pci list
 ```
 
-### Copy file to qube
+### Detach PCI (Eternet controller)
 ```
-qvm-copy-to-vm <qubeName> <file>
+qvm-pci detach -v sys-net dom0:00_1f.6
+```
+
+### Attach PCI (Eternet controller)
+```
+qvm-pci attach -v --persistent --option no-script-reset=True sys-net dom0:00_1f.6
 ```
 
 ### List network information of qube
@@ -41,5 +46,20 @@ qvm-prefs <qubeName> maxmem 8000
 ### Watch memory usage
 ```
 xentop
+```
+
+### Install untrusted qube
+```
+sudo qubesctl state.sls qvm.untrusted
+```
+
+### Copy file to dom0
+```
+qvm-run --pass-io <qubeName> 'cat <file> > <outFile>'
+```
+
+### Copy file to qube
+```
+qvm-copy-to-vm <qubeName> <file>
 ```
 

@@ -56,7 +56,7 @@ git difftool --tool-help
 
 ### Use specific difftool and do not prompt user
 ```
-git difftool -y --tool=vimdiff
+git difftool -y --tool=meld <commit>
 ```
 
 ### Use git via ssh
