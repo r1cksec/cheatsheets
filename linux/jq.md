@@ -17,6 +17,11 @@ var="content"
 echo "<json>" | jq -r --arg vari "${var}" 'select(.key == $vari) | .key2'
 ```
 
+### Do not print null values
+```
+cat <file>.json | jq -r ".matches[] | .key[], .subkey | select(. != null)" 
+```
+
 ### Print distinguishedname of bloodhound users
 ```
 cat <userFile>.json | jq '.data[].Properties.distinguishedname

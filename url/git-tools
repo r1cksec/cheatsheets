@@ -1144,6 +1144,9 @@ Prevents you from committing secrets and credentials into git repositories
 https://github.com/ayoubfathi/leaky-paths
 A collection of special paths linked to major web CVEs, known misconfigurations, juicy APIs ..etc. It could be used as a part of web content discovery, to scan passively for high-quality endpoints and quick-wins.
 
+https://github.com/b1tg/rust-windows-shellcode
+Windows shellcode development in Rust
+
 https://github.com/badsectorlabs/sccm-http-looter
 Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) shares via HTTP(s)
 
@@ -1711,6 +1714,9 @@ PowerShell framework to assess Azure security
 https://github.com/hausec/ProxyLogon
 ProxyLogon PoC
 
+https://github.com/helviojunior/hookchain
+HookChain: A new perspective for Bypassing EDR Solutions
+
 https://github.com/hephaest0s/usbkill
 « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
 
@@ -1809,6 +1815,9 @@ A collaborative, multi-platform, red teaming framework
 
 https://github.com/jacob-baines/concealed_position
 Bring your own print driver privilege escalation tool
+
+https://github.com/jacobdjwilson/awesome-annual-security-reports
+A curated list of annual cyber security reports
 
 https://github.com/jasperan/whatsapp-osint
 WhatsApp spy - logs online/offline events from ANYONE in the world
@@ -2479,6 +2488,9 @@ dnsReaper - subdomain takeover tool for attackers, bug bounty hunters and the bl
 https://github.com/punk-security/pwnspoof
 pwnSpoof (from Punk Security) generates realistic spoofed log files for common web servers with customisable attack scenarios.
 
+https://github.com/pushsecurity/saas-attacks
+Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face.
+
 https://github.com/pwn1sher/WMEye
 WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Execution for lateral movement
 
@@ -2815,6 +2827,9 @@ This repo contains a massive amount (8000+) of WordPress related Nuclei template
 https://github.com/tr3ss/newclei
 A Go tool that gets the newest PRs from projectdiscovery/nuclei-templates.
 
+https://github.com/trickster0/EDR_Detector
+EDR Detector that can find what kind of endpoint solution is being used according to drivers in the system.
+
 https://github.com/trickster0/OffensiveRust
 Rust Weaponization for Red Team Engagements.
 
@@ -2841,6 +2856,9 @@ Passwords Recovery Tool
 
 https://github.com/two06/CerealKiller
 .NET deserialization hunter
+
+https://github.com/tyranid/oleviewdotnet
+A .net OLE/COM viewer and inspector to merge functionality of OleView and Test Container
 
 https://github.com/ultrafunkamsterdam/undetected-chromedriver
 Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)

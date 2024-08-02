@@ -23,8 +23,14 @@ argumentParser.add_argument("-v", "--verbose", dest = "verbose",
                             action = "store_true")
 
 argumentParser.add_argument("-t", "--timeout", dest="timeout",
-                            help = "maximal time that...",
+                            help = "maximal time that ...",
                             default = "600")
+
+argumentParser.add_argument("-g", "--graph", dest = "generateGraph",
+                            help = "generate graph ...",
+                            nargs="?",
+                            const="light",
+                            choices=["dark", "light"])
 
 args = argumentParser.parse_args()
 

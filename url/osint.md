@@ -1,6 +1,7 @@
 * https://3wifi.stascorp.com ; #wifi #wardriving #osint #geolocation
 * https://aadinternals.com/osint ; #osint #azure #entra #tenant #domain
 * https://app.binaryedge.io ; #osint #portscan #email #dataleak #breach #leak
+* https://app.malcore.io ; #malware-analyse #sandbox #yara #ransom-note #domain #whois #history #threat-intelligence
 * https://app.shadowmap.org ; #osint #sun #map #image #geolocation
 * https://app.tomba.io ; #osint #email #domain #geolocation #social-media #whois
 * https://app.validin.com ; #osint #nameserver #dns-history #rootdomain
