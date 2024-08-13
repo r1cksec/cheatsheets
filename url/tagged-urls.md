@@ -103,6 +103,7 @@
 * https://blog.nietaanraken.nl/posts/aur-packages-github-repo-jacking ; #supply-chain #arch #aur #threat-intelligence
 * https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary ; #threat-intelligence #malware-analyse #atm
 * https://blog.nviso.eu/2024/08/02/from-evidence-to-advantage-leveraging-incident-response-artifacts-for-red-team-engagements ; #windows-api #registry #forensic-artifacts
+* https://blog.orange.tw/posts/2024-08-confusion-attacks-en ; #web #apache #filename-confusion #acl-bypass #server-side-code-disclosure #handler-confusion #php
 * https://blog.phylum.io/attackers-repurposing-existing-python-based-malware-for-distribution-on-npm ; #supply-chain #npm #python #malware-analyse
 * https://blog.plerion.com/things-you-wish-you-didnt-need-to-know-about-s3 ; #aws #bucket #s3 #storage #cognito
 * https://blog.projectdiscovery.io/guide-to-dns-takeovers ; #dns-takeover #nameserver #subdomain-takeover #osint #reconaissance
@@ -158,6 +159,7 @@
 * https://code-white.com/blog/2023-08-blindsiding-auditd-for-fun-and-profit ; #linux #audit-events #evasion #apollon #daphne #detection
 * https://codewhitesec.blogspot.com/2023/04/java-exploitation-restrictions-in.html ; #java #deserialization #jdk #ysoserial
 * https://csandker.io/2022/10/19/Untangling-Azure-Permissions.html ; #cloud #azure #entra #access-permission #app-roles #api-permissions
+* https://cyberdefnerd.com/2024/09/02/virtual-desktops-what-they-are-where-can-we-find-them ; #windows #registry #virtual-desktop #dfir #forensic
 * https://cyberdom.blog/2023/12/03/spotting-the-adversary-with-microsoft-defender-for-identity ; #azure #entra #microsoft-defender-for-identity #event-id #forensic #dfir #dcshadow #mdi
 * https://cyberdom.blog/2023/12/09/unmasking-the-shadows-the-art-of-threat-hunting-in-defender-for-identity ; #azure #entra #microsoft-defender-for-identity #forensic #dfir #threat-hunting #ldap #mdi
 * https://cybergladius.com/bash-code-obfuscation ; #obfuscation #bash #linux #backdoor
@@ -578,6 +580,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.blackhillsinfosec.com/introducing-graphrunner ; #azure #entra #microsoft365 #graphrunner
 * https://www.blackhillsinfosec.com/introducing-slackenum ; #slack #phishing
 * https://www.blackhillsinfosec.com/spoofing-microsoft-365-like-its-1995 ; #phishing #microsoft-direct-send #spoofing #mail
+* https://www.blackhillsinfosec.com/wishing-webhook-phishing-in-teams ; #microsoft-teams #phishing #initial-access #webhook
 * https://www.blazeinfosec.com/post/tearing-amsi-with-3-bytes ; #windows #amsi #bypass #dll
 * https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Konfigurationsempfehlungen_zur_Haertung_von_Windows_10.pdf?__blob=publicationFile&v=3 ; #windows #hardening
 * https://www.cadosecurity.com/oracleiv-a-dockerised-ddos-botnet ; #malware #botnet #docker #threat-intelligence
@@ -595,6 +598,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.docguard.io/microsoft-compiled-html-help-chm-using-in-spearphishing-attack ; #threa-tinel #malware-analyse #chm
 * https://www.docguard.io/unraveling-obfuscated-macros-in-office-filesa-step-by-step-guide ; #threat-intelligence #malware #macro #obfuscation #vba
 * https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process ; #shellcode #process-injection #cheatsheets
+* https://www.elastic.co/security-labs/dismantling-smart-app-control ; #windows #initial-access #lnk-stomping #smart-screen-bypass
 * https://www.elastic.co/security-labs/grimresource ; #initial-access #msc #javascript #windows #mmc #dotNetToJScript
 * https://www.errno.fr/TTYPushback.html ; #linux #privesc #privilege-escalation #tty-pushback
 * https://www.example-code.com/vbscript/http.asp ; #vbscript #cheatsheets
@@ -726,6 +730,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://xret2pwn.github.io/Myths-About-External-C2 ; #c2 #command-and-control #infrastructure #sockets #named-pipes
 * https://xret2pwn.github.io/The-Art-of-Clipboard-Forensics-Recovering-Deleted-Data ; #clipboard #memory #dfir #forensic #history
 * https://xybytes.com/azure/Abusing-Azure-Arc ; #azure-arc #lateral-movement #service-principal
+* https://xybytes.com/windows/Exploiting-Azure-Arc-Management-Tool-to-Capture-NetNTLM-Hashes ; #azure-arg #windows #responder #ntlm-relaying
 * https://zer1t0.gitlab.io/posts/attacking_ad ; #active-directory #methodology #kerberos #trust #gpo #kerberoast #asreproast #logon-types #acl 
 * http://www.selfadsi.de ; #active-directory #ldap #wiki #documentation
 * http://www.webappsec.org/projects/articles/121106.shtml ; #smtp #imap #injection #http #mail

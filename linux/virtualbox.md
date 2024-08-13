@@ -38,7 +38,7 @@ VBoxLinuxAdditions.run/VBoxLinuxAdditions.run
 
 ###  Fix error "Can not register the hard disk"
 ```
-vboxmanage closemedium disk <id>"
+vboxmanage closemedium disk <id>
 ```
 
 ### Install developer build

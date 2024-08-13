@@ -12,7 +12,7 @@
 * https://www.breaches.cloud
 * https://www.golem.de/specials/security
 * https://www.ransomlook.io/recent
-* https://www.ransomware.live/#/recent
+* https://www.ransomware.live
 * https://www.reddit.com/r/redteamsec
 * https://www.sixgen.io/news
 * https://www.threatable.io

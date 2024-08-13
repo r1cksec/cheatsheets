@@ -301,6 +301,9 @@ A C# Command & Control framework
 https://github.com/Drew-Sec/EvilSlackbot
 A Slack bot phishing framework for Red Teaming exercises
 
+https://github.com/Dump-GUY/EXE-or-DLL-or-ShellCode
+Just a simple silly PoC demonstrating executable "exe" file that can be used like exe, dll or shellcode...
+
 https://github.com/EncodeGroup/Gopher
 C# tool to discover low hanging fruits
 
@@ -552,6 +555,9 @@ A simple worker that acts as proxy to tunnel requests over the internet, forward
 
 https://github.com/MWR-CyberSec/PXEThief
 PXEThief is a set of tooling that can extract passwords from the Operating System Deployment functionality in Microsoft Endpoint Configuration Manager 
+
+https://github.com/MaLDAPtive/Invoke-Maldaptive
+MaLDAPtive is a framework for LDAP SearchFilter parsing, obfuscation, deobfuscation and detection.
 
 https://github.com/Macmod/goblob
 A fast enumeration tool for publicly exposed Azure Storage blobs.
@@ -1027,6 +1033,9 @@ Another tool to perform minidump of LSASS process using few technics to avoid de
 https://github.com/Yara-Rules/rules
 Repository of yara rules
 
+https://github.com/Yaxxine7/ASRepCatcher
+Make everyone in your VLAN ASRep roastable. ASRepCatcher uses ARP spoofing to catch AS-REP messages returned by the Domain Controller to the clients and prints out the hash to crack.
+
 https://github.com/YosfanEilay/ForensicMiner
 A really good DFIR automation for collecting and analyzing evidence designed for cybersecurity professionals.
 
@@ -1074,6 +1083,9 @@ Tunneling Internet traffic over Whatsapp
 
 https://github.com/alexandreborges/malwoverview
 Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, InQuest and it is able to scan Android devices against VT.
+
+https://github.com/alexdhital/Infiltrax
+Infiltrax is a post-exploitation reconnaissance tool for penetration testers and red teams, designed to capture screenshots, retrieve clipboard contents, log keystrokes, and install AnyDesk for persistent remote access.
 
 https://github.com/ambionics/phpggc
 PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
@@ -1621,6 +1633,9 @@ List of known AWS accounts
 https://github.com/g0h4n/REC2
 REC2 (Rusty External Command and Control) is client and server tool allowing auditor to execute command from VirusTotal and Mastodon APIs written in Rust.
 
+https://github.com/gajos112/RegRipperPlugins
+In this repository you can find all RegRipper plugins that I have created. We encourage you to improve them and update these changes!
+
 https://github.com/garrettfoster13/sccmhunter
 SCCMHunter is a post-ex tool built to streamline identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
 
@@ -1855,6 +1870,9 @@ Harvest passwords automatically from OpenSSH server
 https://github.com/joaoviictorti/RustRedOps
 RustRedOps is a repository for advanced Red Team techniques and offensive malware, focused on Rust
 
+https://github.com/joe-desimone/rep-research
+Windows Smart App Control and SmartScreen bypass
+
 https://github.com/joeavanzato/Trawler
 PowerShell script to help Incident Responders discover adversary persistence mechanisms.
 
@@ -1899,6 +1917,9 @@ Tool for enumerating Active Directory environments
 
 https://github.com/kevin-mizu/domloggerpp
 A browser extension that allows you to monitor, intercept, and debug JavaScript sinks based on customizable configurations.
+
+https://github.com/keydet89/RegRipper3.0
+Instead, select the hive to parse, and the output directory and the GUI will automatically run all applicable plugins against the hive.
 
 https://github.com/kfosaaen/Get-LAPSPasswords
 Powershell function to pull the local admin passwords from LDAP, stored there by LAPS.
@@ -2034,6 +2055,9 @@ SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt
 
 https://github.com/m4ll0k/infoga
 Infoga - Email OSINT
+
+https://github.com/magisterquis/alpt4ats
+A Lazy Programmer's Tips for Avoiding the SOC ~ BSides Belfast 2024
 
 https://github.com/magisterquis/chromecookiestealer
 Steal/Inject Chrome cookies over the DevTools (--remote-debugging-port) protocol.
@@ -2284,6 +2308,9 @@ gRPC-Web Pentesting Suite + Burp Suite Extension
 https://github.com/nyancrimew/goop
 Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
 
+https://github.com/nyxgeek/cloudkicker
+self-hosted Azure OSINT tool
+
 https://github.com/nyxgeek/guestlist
 tool for identifying guest relationships between companies
 
@@ -2337,6 +2364,9 @@ ScareCrow - Payload creation framework designed around EDR bypass.
 
 https://github.com/optiv/rustyIron
 This tool represents a communication framework for navigating MobileIron's MDM authentication methods, allowing for account enumeration, single-factor authentication attacks, and message decryption.
+
+https://github.com/orhun/binsider
+Analyze ELF binaries like a boss
 
 https://github.com/outflanknl/C2-Tool-Collection
 A collection of tools which integrate with Cobalt Strike (and possibly other C2 frameworks) through BOF and reflective DLL loading techniques.
@@ -2653,6 +2683,9 @@ Solve Google reCAPTCHA in less than 5 seconds!
 https://github.com/saw-your-packet/EC2StepShell
 EC2StepShell is an AWS post-exploitation tool for getting high privileges reverse shells in public or private EC2 instances.
 
+https://github.com/sec-consult/msiscan
+Scanning tool for identifying local privilege escalation issues in vulnerable MSI installers
+
 https://github.com/secretsquirrel/SigThief
 Stealing Signatures and Making One Invalid Signature at a Time
 
@@ -2676,6 +2709,9 @@ A windows token impersonation tool
 
 https://github.com/sensepost/ruler
 A tool to abuse Exchange services
+
+https://github.com/shaddy43/BrowserSnatch
+This project steals important data from all chromium and gecko browsers installed in the system and gather the data in a stealer db to be exfiltrated out. A powerful Browser Stealer
 
 https://github.com/shellphish/how2heap
 A repository for learning various heap exploitation techniques.
@@ -2769,6 +2805,9 @@ Protected Process Dumper Tool
 
 https://github.com/tb0hdan/domains
 World’s single largest Internet domains dataset
+
+https://github.com/techBrandon/CAPs
+Scripts to enumerate and report on Entra Conditional Access
 
 https://github.com/techjacker/repo-security-scanner
 CLI tool that finds secrets accidentally committed to a git repo, eg passwords, private keys
@@ -2901,6 +2940,9 @@ Use smb2 protocol to detect remote computer os version, support win7/server2008-
 
 https://github.com/waelmas/frameless-bitb
 A new approach to Browser In The Browser (BITB) without the use of iframes, allowing the bypass of traditional framebusters implemented by login pages like Microsoft and the use with Evilginx.
+
+https://github.com/watchtowrlabs/CVE-2024-40711
+Pre-Auth Exploit for CVE-2024-40711
 
 https://github.com/wavestone-cdt/EDRSandblast
 EDRSandBlast is a tool written in C that weaponize a vulnerable signed driver to bypass EDR detections (Notify Routine callbacks, Object Callbacks and ETW TI provider) and LSASS protections. Multiple userland unhooking techniques are also implemented to evade userland monitoring.
