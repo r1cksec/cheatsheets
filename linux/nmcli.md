@@ -13,6 +13,11 @@ nmcli device set <interface> managed no
 nmcli connection
 ```
 
+### Delete connection
+```
+nmcli c delete <id>
+```
+
 ### Show details of a connection
 ```
 nmcli connection show <name>

@@ -1,6 +1,7 @@
 * http://asciiqr.com ; #ascii #unicode #phishing #qr-code
 * http://bugmenot.com ; #account-share
 * http://ntfy.sh ; #notification #hook #phishing
+* https://0xanalyst.github.io/Project-Lost ; #living-off-security-tools #av #edr #bypass
 * https://12ft.io ; #paywall-bypass
 * https://amsi.fail ; #amsi-bypass-generator
 * https://andrewmarsh.com/apps/staging/sunpath3d.html
@@ -14,9 +15,9 @@
 * https://br0k3nlab.com/LoFP
 * https://browserleaks.com
 * https://canarytokens.org
-* https://caniuse.com
-* https://chat.openai.com
-* https://check-host.net
+* https://caniuse.com ; #browser-support-tables #web-assembly #html #css
+* https://chat.openai.com ; #chatbot #artificial-intelligence
+* https://check-host.net ; #distributed-denial-of-service #ddos #health-status
 * https://ciphersuite.info
 * https://cofense.com/knowledge-center-hub/real-phishing-examples-and-threats
 * https://command-not-found.com
@@ -89,6 +90,7 @@
 * https://www.mail-tester.com ; #email-evaluation #smtp #dmarc
 * https://www.online-python.com ; #python #online-interpreter
 * https://www.revshells.com ; #reverse-shell-generator
+* https://www.useragents.me ; #user-agent #operating-system
 * https://www.virustotal.com ; #sandbox #malware-analyse #domain
 * https://www.vonage.com ; #spoof #phone #sms
 * https://www.youtubechapters.app ; #youtube #videos #chapter-definition

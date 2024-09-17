@@ -29,7 +29,7 @@ curl -s "https://search.censys.io/api/v2/hosts/search?per_page=100&q=autonomous_
 
 ### Collect information about multiple hosts
 ```
-cat cidrRanges.txt | xargs -I % sh -c 'echo %\\n; curl -s "https://search.censys.io/api/v2/hosts/search?per_page=100&q=ip:{'%'}" -H "accept: application/json" -H "Authorization: Basic <apiKey>" > $(echo %|tr "/" "_").json ; sleep 3'
+cat <cidrRanges>.txt | xargs -I % sh -c 'echo %"\n"; curl -s "https://search.censys.io/api/v2/hosts/search?per_page=100&q=ip:{'%'}" -H "accept: application/json" -H "Authorization: Basic <apiKey>" > $(echo %|tr "/" "_").json ; sleep 3'
 ```
 
 ### Definitions

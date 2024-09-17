@@ -1,13 +1,12 @@
 ### Source
 https://github.com/projectdiscovery/dnsx
 
-### Resolve domains to ipv4 from file
+### Get mailserver
 ```
-dnsx -silent -a -resp -l <file>
-```
-
-### Get asn of domain
-```
-dnsx -silent -l <file> -asn -resp
+dnsx -silent -l <file> -mx -resp
 ```
 
+### Get nameserver as json
+```
+dnsx -j -silent -l <file> -ns
+```

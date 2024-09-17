@@ -51,3 +51,8 @@ site:<site>
 title:<title>
 ```
 
+### Print results of on demand scan
+```
+jq -r '"\(.ip) ; \(.portinfo.port) ; \(.portinfo.title) ; \(.portinfo.domains)"' <file>.json
+```
+

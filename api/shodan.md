@@ -23,7 +23,7 @@ curl -s "https://api.shodan.io/shodan/host/<ip>?key=<apiKey>"
 
 ### Collect information about multiple hosts
 ```
-cat cidrRanges.txt | xargs -I % sh -c 'echo %\\n; curl -s "https://api.shodan.io/shodan/host/search?key=<apiKey>&query=net:%" > $(echo %|tr "/" "_").json ; sleep 3'
+cat cidrRanges.txt | xargs -I % sh -c 'echo %"\n"; curl -s "https://api.shodan.io/shodan/host/search?key=<apiKey>&query=net:%" > $(echo %|tr "/" "_").json ; sleep 3'
 ```
 
 ### Filters

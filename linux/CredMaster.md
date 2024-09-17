@@ -22,3 +22,8 @@ Okta - Okta Authentication Portal
 OWA - Outlook Web Access
 ```
 
+### Get aws api gateways
+```
+aws apigateway --region <region> get-rest-apis | jq -r '.items[] | .id, .name, (.createdDate | todate)'
+```
+

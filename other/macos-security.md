@@ -29,7 +29,7 @@ etc.
 
 ### Quarantine Attribute
 ```
-Appended by ths OS to files downloaded via Browsers, Bluetooth, Airdrop
+Appended by the OS to files downloaded via Browsers, Bluetooth, Airdrop
 Using curl does not append the attribute
 ```
 

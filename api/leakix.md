@@ -13,6 +13,11 @@ curl -s -H "api-key: <apiKey>" -H "accept: application/json" "https://leakix.net
 
 ### Collect information about multiple hosts
 ```
-cat hosts.txt | xargs -I % sh -c 'echo %\\n; curl -s -H "api-key: <apiKey>" -H "accept: application/json" "https://leakix.net/host/%" > %.json ; cat %.json; sleep 5'
+cat <hosts>.txt | xargs -I % sh -c 'echo %"\n"; curl -s -H "api-key: <apiKey>" -H "accept: application/json" "https://leakix.net/host/%" > %.json ; cat %.json; sleep 5'
+```
+
+### Print results
+```
+ls | xargs -I % sh -c 'cat %' | jq -r '.Services[]? | "\(.ip) ; \(.port) ; \(.http.title)"' | sort -u
 ```
 

@@ -75,3 +75,13 @@ aws s3 cp ./<directory> s3://<name>/<path>
 aws apigateway --region eu-central-1 get-rest-apis
 ```
 
+### List ssh keys
+```
+aws ec2 describe-key-pairs
+```
+
+### Import ssh key
+```
+aws ec2 import-key-pair --key-name "<name>" --public-key-material "<sshKey>"
+```
+
