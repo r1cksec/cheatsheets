@@ -8,6 +8,11 @@ tcpdump -i <interface> host <ip>
 tcpdump net <range> and src port <port>
 ```
 
+### Filter traffic by two source hosts
+```
+tcpdump -i <interface> -nn src host <ip> or src host <ip>
+```
+
 ### Filter by icmp protocol
 ```
 tcpdump icmp

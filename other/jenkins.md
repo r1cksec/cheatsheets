@@ -1,5 +1,7 @@
-### Code execution via groovy script <rhost>/script
+### Code execution via groovy script 
 ```
+<rhost>/script
+
 def process = "<command>".execute()
 println "Found text ${process.text}"
 ```

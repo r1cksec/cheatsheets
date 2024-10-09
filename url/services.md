@@ -31,6 +31,7 @@
 * https://delivr.to/payloads
 * https://demo.f4map.com
 * https://developer.microsoft.com/en-us/microsoft-edge/tools/vms
+* https://elevenlabs.io ; #artificia-intelligence #ai #text-to-speech
 * https://emailrep.io
 * https://evasions.checkpoint.com
 * https://facemorph.me
@@ -52,6 +53,7 @@
 * https://lofl-project.github.io
 * https://lolbas-project.github.io
 * https://lots-project.com ; #living-off-the-trusted-sites #phishing
+* https://lottunnels.github.io ; #living-off-the-tunnels #pivot #socks #socket
 * https://malpedia.caad.fkie.fraunhofer.de
 * https://msportals.io
 * https://myip.wtf/json

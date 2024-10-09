@@ -16,12 +16,13 @@ C:\<pathToWix>\sdk\MakeSfxCA.exe C:\<pathTo>\<newCustomAction>.dll C:\<pathToWix
 ```
 
 ### Custom action type numbers
-| Number | Action |
-| - | - |
-| 1250, 3298, 226 | EXE or system command 
-| 1126, 102       | VBScript 
-| 1125, 101       | JScript 
-| 1218, 194       | Binary table: EXE 
-| 65              | Binary table: DLL 
-| 1746            | EXE in from installation directory 
+```
+Number              Action
+1250, 3298, 226     EXE or system command 
+1126, 102           VBScript 
+1125, 101           JScript 
+1218, 194           Binary table: EXE 
+65                  Binary table: DLL 
+1746                EXE in from installation directory 
+```
 

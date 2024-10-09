@@ -4,6 +4,7 @@
 * https://cvecrowd.com
 * https://github.com/Simpsonpt/AppSecEzine
 * https://latesthackingnews.com/category/cyber-security-news
+* https://ransomfeed.it
 * https://rss.voidsec.com
 * https://talkback.sh
 * https://thehackernews.com

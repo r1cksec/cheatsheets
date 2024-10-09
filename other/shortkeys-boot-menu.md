@@ -1,3 +1,4 @@
+```
 Acer        Esc, F12, F9  
 Asus        Esc, F2 
 Clevo       F7  
@@ -9,4 +10,5 @@ Samsung     Esc, F12, F2
 Sony        F11, Esc, F10  
 Toshiba     F12  
 Others      F12, Esc  
+```
 

@@ -67,6 +67,7 @@
 * https://bishopfox.com/blog/spoofy-email-domain-spoofing ; #phishing #mail #dmark #dkim #spf
 * https://bleekseeks.com/blog/how-to-protect-against-modern-phishing-attacks ; #phishing #evilginx #conditional-access-policy #continous-access-evaluation
 * https://blog.0x4.xyz/bypassing-windows-protection-mechanisms/bypass-windows-defender-atp ; #windows-defender-atp #advanced-threat-protection #edr #evasion #bypass
+* https://blog.amberwolf.com/blog/2024/november/palo-alto-globalprotect---code-execution-and-privilege-escalation-via-malicious-vpn-server-cve-2024-5921 ; #vpn #initial-access #local-privilege-escalation #palo-alto #cve-2024-5921 #global-protect
 * https://blog.ampedsoftware.com/2023/02/28/cctv-the-beginners-guide ; #cctv #camera #video #hdd
 * https://blog.apnic.net/2023/11/22/ja4-network-fingerprinting ; #ja4+ #jarm #threat-intelligence #dfir #forensic
 * https://blog.assetnote.io/2021/08/29/exploiting-graphql ; #webapp #graphql #batchql #csrf
@@ -175,6 +176,7 @@
 * https://decoder.cloud/2023/02/13/localpotato-when-swapping-the-context-leads-you-to-system ; #windows #ntlm #local-potato
 * https://decoder.cloud/2023/09/05/from-ntauthcertificates-to-silver-certificate ; #windows #adcs #active-directory #certificate-service
 * https://decoder.cloud/2024/08/02/the-fake-potato ; #windows #powershell #dot-net #cross-session-activation #com-object #impersonation #cve-2024-38100
+* https://decoder.cloud/2024/11/26/group-policy-nightmares-pt2 ; #dnsadmins #active-directory #smb-relay #https-adcs
 * https://defcon.org/images/defcon-19/dc-19-presentations/Duckwall/DEFCON-19-Duckwall-Bridge-Too-Far.pdf ; #802-1x #bridge #linux
 * https://detect.fyi/threat-hunting-suspicious-named-pipes-a4206e8a4bc8?gi=f841fec0eb16 ; #threat-intelligence #named-pipe #ipc #windows #linux #event-id #threat-hunting
 * https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c?gi=25697c91242b ; #dfir #forensic #event-id #log #windows #services #siem
@@ -192,6 +194,7 @@
 * https://elliotonsecurity.com/living-off-the-land-reverse-engineering-methodology-plus-tips-and-tricks-cmdl32-case-study ; #reverse-engineering #lolbin #windows
 * https://embee-research.ghost.io/practical-queries-for-malware-infrastructure-part-3 ; #threat-intelligence #censys #malware-infrastructure
 * https://embee-research.ghost.io/threat-intel-queries-with-fofabot ; #fofa #cheatsheets #queries #threat-intelligence #malware
+* https://embracethered.com/blog/posts/2024/security-probllms-in-xai-grok ; #llm #large-language-model #prompt-injection #grok
 * http://sensepost.com/blog/2024/dumping-lsa-secrets-a-story-about-task-decorrelation ; #windows #lsa #registry #dump #secret
 * https://espysys.com/blog/telegram-osint-the-ultimate-guide-to-unveiling-insights-beyond-what-meets-the-eye ; #osint #telegram
 * https://eta.st/2023/01/31/rail-tickets.html ; #reverse-engineering #rail-ticket #decompiling
@@ -292,6 +295,7 @@
 * https://labs.guard.io/mrtonyscam-botnet-of-facebook-users-launch-high-intent-messenger-phishing-attack-on-business-3182cfb12f4d ; #threat-intelligence #malware #facebook #phishing #batch
 * https://labs.jumpsec.com/advisory-idor-in-microsoft-teams-allows-for-external-tenants-to-introduce-malware ; #ms-teams #phishing #http-post #instant-messenger
 * https://labs.jumpsec.com/ssh-tunnelling-to-punch-through-corporate-firewalls-updated-take-on-one-of-the-oldest-lolbins ; #windows #ssh #pivoting #proxy #firewall #port-forwarding
+* https://labs.jumpsec.com/weaponize-your-word-malicious-template-injection ; #windows #word #template-injection #docx #settings-xml-rels #docm
 * https://labs.lares.com/adcs-exploits-investigations-pt1 ; #active-directory #certificate-service #adcs #detection #event-id
 * https://labs.lares.com/adcs-exploits-investigations-pt2 ; #active-directory #certificate-service #adcs #detection #esc1 #esc3 #esc4 esc6
 * https://labs.lares.com/fear-kerberos-pt1 ; #windows #active-directory #kerberos #key-distribution-center #tgs #tgt #pre-authentication
@@ -558,6 +562,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://unit42.paloaltonetworks.com/detecting-malicious-stockpiled-domains ; #phishing #threat-intelligence #domain #certificate
 * https://unit42.paloaltonetworks.com/fake-cve-2023-40477-poc-hides-venomrat ; #threat-intelligence #fake-poc #powershell #python #malware
 * https://unit42.paloaltonetworks.com/next-gen-kerberos-attacks ; #kerberos #active-directory #diamond #sapphire #s4u2self #delegation #tgs #tgt
+* https://unit42.paloaltonetworks.com/unique-popular-techniques-lateral-movement-macos ; #macosx #lateral-movement #apple-remote-desktop #ard #ssh #remote-apple-events #applescript
 * https://unit42.paloaltonetworks.com/unit42-threat-intelligence-roundup ; #phishing #malware #threat-intelligence #dropper #infection-chain
 * https://up.nttdata.com/l/970163/2024-01-22/58n5n/970163/1705913860OSud8AHj/Using_Microsoft_Teams_for_Phishing.pdf ; #ms-teams #phishing #spoofing #instant-messenger #splash-screen-bypass
 * https://v3ded.github.io/redteam/red-team-tactics-writing-windows-kernel-drivers-for-advanced-persistence-part-2 ; #windows #persistence #kernel-driver
@@ -606,6 +611,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.cryptic.red/post/defending-your-phishing-page-against-eop-and-safe-links-a-blacklist-approach ; #phishing #safelinks #o365
 * https://www.cyberark.com/resources/threat-research-blog/persistence-techniques-that-persist ; #windows #persistence #methodology #wiki
 * https://www.cybereason.com/blog/dcom-lateral-movement-techniques ; #lateral-movement #windows #dcom #powershell
+* https://www.deepinstinct.com/blog/forget-psexec-dcom-upload-execute-backdoor ; #windows #lateral-movement #dcom #idispatch #clsid
 * https://www.descope.com/blog/post/noauth ; #cloud #azure #entra #noauth #open-id
 * https://www.docguard.io/deep-dive-analysis-of-shell-link-lnk-binary-file-format-and-malicious-lnk-files ; #windows #lnk #malware #threat-intelligence
 * https://www.docguard.io/in-depth-analysis-of-typhon-stealer ; #threat-intelligence #malware-analyse #sandbox-evasion
