@@ -78,6 +78,7 @@
 * https://blog.bushidotoken.net/2023/07/investigating-sms-phishing-text.html ; #threat-intelligence #sms #phishing
 * https://blog.bushidotoken.net/2023/08/hacktivists-liars-and-morons.html ; #threat-intelligence #hacktivist #ftp
 * https://blog.bushidotoken.net/2023/09/tracking-adversaries-akira-another.html ; #akira #conti #ransomware #threat-intelligence
+* https://blog.bwlryq.net/posts/icmp_exfiltration ; #icmp #data-exfiltration #pcap
 * https://blog.calif.io/p/privilege-escalation-in-eks ; #cloud #aws #kuberneted #elastic #privesc #privilege-escalation
 * https://blog.calif.io/p/redash-saml-authentication-bypass ; #webapp #saml #authentication-bypass #cve
 * https://blog.christophetd.fr/dll-unlinking ; #windows #dll #injection #evasion #unlinking
@@ -90,6 +91,7 @@
 * https://blog.cyber5w.com/introducing-windows-registry ; #windows #registry
 * https://blog.cyble.com/2023/06/09/over-45-thousand-users-fell-victim-to-malicious-pypi-packages ; #threat-intelligence #python #pypi #supply-chain
 * https://blog.cyble.com/2023/06/13/threat-actor-targets-russian-gaming-community-with-wannacry-imitator ; #threat-intelligence #malware-analyse #gaming #ransomware #wannacry
+* https://blog.deeb.ch/posts/how-edr-works ; #edr #evasion #bypass #shellcode #signature #event-tracing-for-windows #etw #hooks #memory #kernel
 * https://blog.delivr.to/svg-smuggling-a-picture-worth-a-thousand-words-fae8a946a300?gi=e2ee37ee9c09 ; #threat-intelligence #malware-analyse #svg-smuggling
 * https://blog.deteact.com/gunicorn-http-request-smuggling ; #web #http-request-smuggling
 * https://blog.didierstevens.com/2023/01/22/analyzing-malicious-onenote-documents ; #threat-intelligence #malware-analyse #onenote
@@ -295,6 +297,7 @@
 * https://labs.guard.io/mrtonyscam-botnet-of-facebook-users-launch-high-intent-messenger-phishing-attack-on-business-3182cfb12f4d ; #threat-intelligence #malware #facebook #phishing #batch
 * https://labs.jumpsec.com/advisory-idor-in-microsoft-teams-allows-for-external-tenants-to-introduce-malware ; #ms-teams #phishing #http-post #instant-messenger
 * https://labs.jumpsec.com/ssh-tunnelling-to-punch-through-corporate-firewalls-updated-take-on-one-of-the-oldest-lolbins ; #windows #ssh #pivoting #proxy #firewall #port-forwarding
+* https://labs.jumpsec.com/tokensmith-bypassing-intune-compliant-device-conditional-access ; #entra #cap #conditional-access-policies #client-id
 * https://labs.jumpsec.com/weaponize-your-word-malicious-template-injection ; #windows #word #template-injection #docx #settings-xml-rels #docm
 * https://labs.lares.com/adcs-exploits-investigations-pt1 ; #active-directory #certificate-service #adcs #detection #event-id
 * https://labs.lares.com/adcs-exploits-investigations-pt2 ; #active-directory #certificate-service #adcs #detection #esc1 #esc3 #esc4 esc6
@@ -419,6 +422,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://posts.specterops.io/from-da-to-ea-with-esc5-f9f045aa105c ; #active-directory #certificate-service #adcs #esc5 #ldap
 * https://posts.specterops.io/get-your-socks-on-with-gtunnel-4a70a9b82b24 ; #pivoting #socks #gtunnel #proxy
 * https://posts.specterops.io/introducing-bloodhound-4-2-the-azure-refactor-1cff734938bd ; #cloud #azure #entra #azure #entrahound
+* https://posts.specterops.io/intune-attack-paths-part-1-4ad1882c1811 ; #azure #entra #intunes #on-prem #active-directory
 * https://posts.specterops.io/lateral-movement-abuse-the-power-of-dcom-excel-application-3c016d0d9922 ; #active-directory #windows #dcom #excel #lateral-movement #clsid
 * https://posts.specterops.io/lateral-movement-without-lateral-movement-brought-to-you-by-configmgr-9b79b04634c7 ; #sccm #system-centre-configuration-manager #windows #lateral-movement #active-directory
 * https://posts.specterops.io/less-smartscreen-more-caffeine-ab-using-clickonce-for-trusted-code-execution-1446ea8051c5?gi=bf1d6922691f ; #phishing #smartscreen #clickonce
@@ -620,6 +624,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process ; #shellcode #process-injection #cheatsheets
 * https://www.elastic.co/security-labs/dismantling-smart-app-control ; #windows #initial-access #lnk-stomping #smart-screen-bypass
 * https://www.elastic.co/security-labs/grimresource ; #initial-access #msc #javascript #windows #mmc #dotNetToJScript
+* https://www.enyei.com/ie-dcom-to-lfi ; #windows #dcom #lateral-movement #edge #local-file-read
 * https://www.errno.fr/TTYPushback.html ; #linux #privesc #privilege-escalation #tty-pushback
 * https://www.example-code.com/vbscript/http.asp ; #vbscript #cheatsheets
 * https://www.fo-sec.com/articles/10-defender-bypass-methods ; #windows-defender #av #anti-virus #evasion #bypass #etw #amsi #obfuscation

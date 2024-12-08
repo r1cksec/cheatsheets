@@ -55,6 +55,7 @@
 * https://lots-project.com ; #living-off-the-trusted-sites #phishing
 * https://lottunnels.github.io ; #living-off-the-tunnels #pivot #socks #socket
 * https://malpedia.caad.fkie.fraunhofer.de
+* https://mha.azurewebsites.net/pages/mha.html ; #email #header-analyze #phishing
 * https://msportals.io
 * https://myip.wtf/json
 * https://nthashes.com

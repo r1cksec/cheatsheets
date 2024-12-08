@@ -115,6 +115,9 @@ https://github.com/AdrianVollmer/PowerSploit
 https://github.com/Aetsu/OffensivePipeline
 OffensivePipeline allows to download, compile (without Visual Studio) and obfuscate C# tools for Red Team exercises.
 
+https://github.com/AirbusProtect/AD-Canaries
+The purpose of this project is to publish and maintain the deployment PowerShell script that automates deployments for Active Directory Canary objects.
+
 https://github.com/Alb-310/Geogramint
 An OSINT Geolocalization tool for Telegram that find nearby users and groups
 
@@ -153,6 +156,9 @@ Bypass UAC at any level by abusing the Program Compatibility Assistant with RPC,
 
 https://github.com/AzeemIdrisi/PhoneSploit-Pro
 An all-in-one hacking tool to remotely exploit Android devices using ADB and Metasploit-Framework to get a Meterpreter session.
+
+https://github.com/Azure/PyRIT
+The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.
 
 https://github.com/Azure/Stormspotter
 Azure Red Team tool for graphing Azure and Azure Active Directory objects
@@ -526,6 +532,9 @@ CVE-2021-34527 is a critical remote code execution and local privilege escalatio
 https://github.com/JohnWoodman/VBA-Macro-Reverse-Shell
 Fully functioning reverse shell written entirely in VBA.
 
+https://github.com/JumpsecLabs/TokenSmith
+TokenSmith generates Entra ID access & refresh tokens on offensive engagements. It is suitable for both covert adversary simulations and penetration tests with the tokens generated working out of the box with many popular Azure post exploitation tools.
+
 https://github.com/K3YOMI/Wall-of-Flippers
 Wall of Flippers is designed to find Flipper Zero devices using BLE (Bluetooth Low Energy)
 
@@ -534,6 +543,12 @@ https://github.com/Kevin-Robertson/Inveigh
 
 https://github.com/Kevin-Robertson/Invoke-TheHash
 PowerShell Pass The Hash Utils
+
+https://github.com/Krypteria/Proxll
+Tool designed to simplify the generation of proxy DLLs while addressing common conflicts related to windows.h
+
+https://github.com/Kudaes/ADPT
+DLL proxying for lazy people
 
 https://github.com/Kudaes/Eclipse
 Activation Context Hijack
@@ -561,6 +576,9 @@ SuperSharpShares is a tool designed to automate enumerating domain shares, allow
 
 https://github.com/Leo4j/Amnesiac
 Amnesiac is a post-exploitation framework entirely written in PowerShell and designed to assist with lateral movement within Active Directory environments
+
+https://github.com/Leo4j/Invoke-SMBRemoting
+Interactive Shell and Command Execution over Named-Pipes (SMB) for Fileless lateral movement
 
 https://github.com/Leo4j/Invoke-SessionHunter
 Retrieve and display information about active user sessions on remote computers. No admin privileges required.
@@ -598,6 +616,9 @@ This PoC creates multiple processes, where each process performs a specific task
 https://github.com/Maldev-Academy/EntropyReducer
 Reduce Entropy And Obfuscate Youre Payload With Serialized Linked Lists
 
+https://github.com/Maldev-Academy/ExecutePeFromPngViaLNK
+Extract and execute a PE embedded within a PNG file using an LNK file. The PE file is encrypted using a single-key XOR algorithm and then injected as an IDAT section to the end of a specified PNG file.
+
 https://github.com/Maldev-Academy/MaldevAcademyLdr.1
 Maldev Academy's October update saw several interesting modules being released to our users. One of them was our DLL loader that was successfully tested against several EDRs including MDE and Crowdstrike.
 
@@ -624,6 +645,9 @@ A C# utility for interacting with SCCM
 
 https://github.com/Meckazin/ChromeKatz
 Dump cookies directly from Chrome process memory
+
+https://github.com/MegaManSec/LDAP-Monitoring-Watchdog
+LDAP Watchdog: A real-time linux-compatible LDAP monitoring tool for detecting directory changes, providing visibility into additions, modifications, and deletions for administrators and security researchers.
 
 https://github.com/MegaManSec/SSH-Snake
 SSH-Snake is a self-propagating, self-replicating, file-less script that automates the post-exploitation task of SSH private key and host discovery.
@@ -973,6 +997,9 @@ A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache f
 https://github.com/SpecterOps/BloodHound
 Six Degrees of Domain Admin
 
+https://github.com/SpecterOps/cred1py
+A Python POC for CRED1 over SOCKS5
+
 https://github.com/SpiderLabs/Responder
 Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
 
@@ -1270,9 +1297,6 @@ netshell features all in version 2 powershell
 https://github.com/bettercap/bettercap
 The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.
 
-https://github.com/beurtschipper/Depix
-Recovers passwords from pixelized screenshots
-
 https://github.com/biffalo/handy-posh
 Get scheduled tasks in task root and prints name and action of each
 
@@ -1389,6 +1413,9 @@ A light-weight first-stage C2 implant written in Nim.
 
 https://github.com/chvancooten/maldev-for-dummies
 A workshop about Malware Development
+
+https://github.com/citronneur/pamspy
+Credentials Dumper for Linux using eBPF
 
 https://github.com/cjm00n/EvilSln
 A New Exploitation Technique for Visual Studio Projects
@@ -1759,6 +1786,9 @@ In this repository you can find all RegRipper plugins that I have created. We en
 https://github.com/garrettfoster13/sccmhunter
 SCCMHunter is a post-ex tool built to streamline identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
 
+https://github.com/gatariee/gocheck
+Because AV evasion should be easy.
+
 https://github.com/gchq/CyberChef
 The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
 
@@ -1882,6 +1912,9 @@ A tool to dump the login password from the current linux user
 https://github.com/hustvl/Matte-Anything
 Matte Anything: Interactive Natural Image Matting with Segment Anything Models
 
+https://github.com/hvs-consulting/nfs-security-tooling
+This script prints details about an NFS server and detects some potential misconfigurations which are highlighted in red.
+
 https://github.com/hyc/fcrackzip
 A braindead program for cracking encrypted ZIP archives. Forked from http://oldhome.schmorp.de/marc/fcrackzip.html
 
@@ -1968,6 +2001,9 @@ A powerful obfuscator for JavaScript and Node.js
 
 https://github.com/jazzpizazz/BloodHound.py-Kerberos
 A Python based ingestor for BloodHound
+
+https://github.com/jborean93/AmsiProvider
+Test AMSI Provider implementation in C#
 
 https://github.com/jborean93/PSEtw
 PowerShell ETW consumer module
@@ -2395,6 +2431,9 @@ SSH User Enumeration Script in Python Using The Timing Attack
 https://github.com/neodyme-labs/github-secrets
 This tool analyzes a given Github repository and searches for dangling or force-pushed commits containing potential secret or interesting information.
 
+https://github.com/netero1010/ClipboardHistoryThief
+POC tool to extract all persistent clipboard history data from clipboard service process memory
+
 https://github.com/netero1010/EDRSilencer
 A tool uses Windows Filtering Platform (WFP) to block Endpoint Detection and Response (EDR) agents from reporting security events to the server.
 
@@ -2665,6 +2704,9 @@ dnsReaper - subdomain takeover tool for attackers, bug bounty hunters and the bl
 https://github.com/punk-security/pwnspoof
 pwnSpoof (from Punk Security) generates realistic spoofed log files for common web servers with customisable attack scenarios.
 
+https://github.com/purs3lab/Argus
+This repo contains the code for our USENIX Security '23 paper "ARGUS: A Framework for Staged Static Taint Analysis of GitHub Workflows and Actions". Argus is a comprehensive security analysis tool specifically designed for GitHub Actions. Built with an aim to enhance the security of CI/CD workflows, Argus utilizes taint-tracking techniques and an impact classifier to detect potential vulnerabilities in GitHub Action workflows.
+
 https://github.com/pushsecurity/saas-attacks
 Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face.
 
@@ -2833,6 +2875,9 @@ Spartacus DLL Hijacking Discovery Tool
 https://github.com/safebreach-labs/CloudMiner
 Execute code using Azure Automation service without getting charged
 
+https://github.com/safedv/RustPotato
+A Rust implementation of GodPotato — abusing SeImpersonate to gain SYSTEM privileges. Includes a TCP-based reverse shell and indirect NTAPI for various operations.
+
 https://github.com/safedv/Rustic64Shell
 64-bit, position-independent reverse tcp shell, built in Rust for Windows.
 
@@ -2931,6 +2976,9 @@ A reconnaissance framework for researching and investigating Telegram.
 
 https://github.com/soufianetahiri/CitrixSecureAccessAuthCookieDump
 Dump Citrix Secure Access auth cookie from the process memory
+
+https://github.com/spipm/Depixelization_poc
+Depix is a PoC for a technique to recover plaintext from pixelized screenshots.
 
 https://github.com/sqlmapproject/sqlmap
 Automatic SQL injection and database takeover tool

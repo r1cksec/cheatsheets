@@ -80,6 +80,19 @@ ServerTokens Prod
 apt-get install apache2 php libapache2-mod-php
 ```
 
+### Disable CORS
+```
+a2enmod headers
+
+vim  /etc/apache2/apache2.conf
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
+```
+
 ### Load Balancer
 ```
 a2ensite forward_proxy.conf

@@ -11,6 +11,11 @@ impacket-smbclient <domain>/<user>:<password>@<rhost>
 impacket-smbclient -hashes :<ntlmHash> <domain>/<user>@<rhost> -file <commandFile>.txt
 ```
 
+### Connect using null session
+```
+impacket-smbclient <rhost>
+```
+
 ### Opsec considerations - Windows Security Log Event IDs
 ```
 -Logon (4624) -> multiple
