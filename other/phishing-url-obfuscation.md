@@ -28,3 +28,12 @@ https://www.youtube.com/redirect?q=https%3A%2F%2Fr1cksec.de
 https://www.youtube.com/redirect?event=video_description&redir_token=<token>&q=https%3A%2F%2F<domain>
 ```
 
+### Blogpost (create blog and insert HTML)
+```
+<a id="redirectLink" href="http://<domain>">Click here</a>
+
+<script>
+  document.getElementById("redirectLink").click();
+</script>
+```
+

@@ -15,8 +15,15 @@ vim /etc/apache2/apache2.conf
 </Directory>
 ```
 
+### Authentication WebDAV
+```
+htdigest -c /etc/apache2/<file>.passwd webdav <user>
+```
+
 ### Redirect to port 443
 ```
+a2enmod rewrite
+
 <VirtualHost *:80>
     ServerName <domain>
 
@@ -66,6 +73,11 @@ sed -i '$ a\Header always append X-Frame-Options DENY' /etc/apache2/apache2.conf
 </Directory>
 ```
 
+### Disable status page
+```
+a2dismod status
+```
+
 ### Remove apache version
 ```
 vim /etc/apache2/apache2.conf
@@ -75,12 +87,34 @@ ServerSignature Off
 ServerTokens Prod
 ```
 
+### Configure TLS
+```
+a2enmod ssl
+a2ensite <domain>.conf
+
+vim /etc/apache2/sites-available/<domain>.conf
+
+<VirtualHost *:443>
+    ServerName <domain>
+    DocumentRoot /var/www/html
+
+    <Directory /var/www/html>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    SSLEngine on
+    SSLCertificateFile /etc/letsencrypt/live/<domain>/fullchain.pem
+    SSLCertificateKeyFile /etc/letsencrypt/live/<domain>/privkey.pem
+</VirtualHost>
+```
+
 ### Install PHP
 ```
 apt-get install apache2 php libapache2-mod-php
 ```
 
-### Disable CORS
+### Allow CORS
 ```
 a2enmod headers
 
@@ -123,5 +157,10 @@ vim /etc/apache2/sites-available/forward_proxy.conf
     ErrorLog ${APACHE_LOG_DIR}/error_forward_proxy.log
     CustomLog ${APACHE_LOG_DIR}/access_forward_proxy.log combined
 </VirtualHost>
+```
+
+### Print sorted overview of logs
+```
+awk '{ip=$1; time=substr($4, 2); if (!seen[ip]) {first[ip]=time; seen[ip]=1} last[ip]=time; count[ip]++} END {for (ip in count) printf "%-15s %6d %s -> %s\n", ip, count[ip], first[ip], last[ip]}' /var/log/apache2/access.log | sort -k2 -n
 ```
 

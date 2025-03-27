@@ -1,6 +1,6 @@
 ### Show if network manager manages interface
 ```
-nmli device
+nmcli device
 ```
 
 ### Disable interface for network manager

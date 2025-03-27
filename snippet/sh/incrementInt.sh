@@ -11,3 +11,6 @@ done
 let i=${i}+1
 echo ${i}
 
+# alternatively
+$((i + 1))
+

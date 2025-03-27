@@ -1,5 +1,5 @@
-### Install windows server 2016 and create a domain controler
-* https://ittutorials.net/microsoft/windows-server-2016/setting-up-active-directory-ad-in-windows-server-2016
+### Install windows server 2022 and create a domain controler
+* https://www.roosho.com/how-to-setup-active-directory-on-windows-server-2022-step-by-step-guide
 
 ### Set password policy to never expire password
 * http://woshub.com/password-policy-active-directory

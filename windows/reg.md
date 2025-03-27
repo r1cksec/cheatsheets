@@ -28,13 +28,12 @@ reg query "<path>"
 reg save hklm\security <file>
 ```
 
-
 ### Re-enable command prompt
 ```
 reg add HKCU\Software\Policies\Microsoft\Windows\System /v DisableCMD /t REG_DWORD /d 0 /f
 ```
 
-### Disable remote user account control (UAC) local account token filter policy
+### Disable local account token filter policy
 ```
 reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
 ```

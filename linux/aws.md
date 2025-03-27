@@ -65,7 +65,7 @@ aws s3 ls s3://<name>
 aws s3 sync s3://<name> <directory>
 ```
 
-### Download content of bucket 
+### Upload/Download content of bucket 
 ```
 aws s3 cp ./<directory> s3://<name>/<path>
 ```

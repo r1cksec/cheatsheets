@@ -19,7 +19,6 @@
 * https://chat.openai.com ; #chatbot #artificial-intelligence
 * https://check-host.net ; #distributed-denial-of-service #ddos #health-status
 * https://ciphersuite.info
-* https://cofense.com/knowledge-center-hub/real-phishing-examples-and-threats
 * https://command-not-found.com
 * https://coveryourtracks.eff.org
 * https://crackstation.net

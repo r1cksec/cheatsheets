@@ -15,6 +15,7 @@ https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 * https://rdweb.wvd.microsoft.com/arm/webclient/index.html
 * https://security.microsoft.com
 * https://teams.microsoft.com
+* https://login.microsoftonline.com/common/oauth2/deviceauth
 * https://www.microsoft365.com/mycontent
 
 ### Token resources

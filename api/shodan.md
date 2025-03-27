@@ -40,3 +40,9 @@ product:<software>
 isp:<internetServiceProvider>
 ```
 
+### Shodan CLI
+```
+pip install shodan
+shodan scan submit --filename <file>.json.gz <ipOrRange>
+```
+

@@ -13,4 +13,8 @@ Stop-Service -Name <name> -Force
 Set-Service -Name <name> -StartupType Disabled
 ```
 
+### Start RDP service
+```
+Start-Service -Name TermService
+```
 

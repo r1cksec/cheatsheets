@@ -28,3 +28,21 @@ $ram = (($obj.TotalVisibleMemorySize - $obj.FreePhysicalMemory)/1024/1024)
 Write-Host "RAM usage in GB:" $ram
 ```
 
+### Create registry key
+```
+(Get-WmiObject -List -Namespace "root\default" | Where-Object { $_.Name -eq "StdRegProv" }).CreateKey(
+    2147483649, # HKEY_CURRENT_USER as UInt32
+    "Software\Classes\CLSID\{clsid}\InProcServer32"
+)
+```
+
+### Set registry value
+```
+(Get-WmiObject -List -Namespace "root\default" | Where-Object { $_.Name -eq "StdRegProv" }).SetStringValue(
+    2147483649,
+    "Software\Classes\CLSID\{<clsid}\InProcServer32",
+    "",
+    "C:\\Users\\<user>\\AppData\\<file>.dll"
+)
+```
+

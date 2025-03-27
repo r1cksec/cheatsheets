@@ -13,6 +13,11 @@ $scp = ConvertTo-SecureString '<password>' -AsPlainText -Force; $cred = New-Obje
 Start-Process -wi 1 -FilePath "powershell" -ArgumentList " -c ssh -o 'StrictHostKeyChecking=no' -i $HOME\.ssh\<privateKey> -N -R 9050 <user>@<rhost>"
 ```
 
+### Search for process by name
+```
+Get-Process | Where-Object { $_.ProcessName -like "*<name>*" } | Select-Object ProcessName, Id
+```
+
 ### Stop process by name
 ```
 Stop-Process -Name "<name>"

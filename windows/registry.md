@@ -28,11 +28,6 @@ HKLM\Software
 HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system\LocalAccountTokenFilterPolicy 
 ```
 
-### Local account token filter policy
-```
-HKLM\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\POLICIES\SYSTEM /V LocalAccountTokenFilterPolicy 
-```
-
 ### OS information
 ```
 HKLM\Software\Microsoft\Windows NT\CurrentVersion 
