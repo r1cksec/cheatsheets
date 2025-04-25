@@ -32,3 +32,8 @@ cat <userFile>.json | jq '.data[].Properties.distinguishedname
 cat <userFile>.json | jq '.data[].Properties | select(.name | ascii_downcase == "<name>")'
 ```
 
+### Print server computer objects from ADExplorerSnapshot.py
+```
+cat <file_computers>.json | jq -r '.data[] | select(.Properties.distinguishedname | ascii_downcase | test("server")) | .Properties .name' | sort -u
+```
+

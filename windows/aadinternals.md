@@ -9,32 +9,52 @@ Import-Module AADInternals.psd1
 
 ### Gather informations from AzureAD
 ```
-Get-AADIntTenantDomains -Domain <domain>
+Invoke-AADIntReconAsOutsider -DomainName <tenant>.onmicrosoft.com
+```
+
+### Read local config
+```
+Get-AADIntConfiguration
+```
+
+# Set user-agent in local config
+```
+Set-AADIntSetting -Setting "User-Agent" -Value "<userAgent>"
 ```
 
 ### Gather informations from AzureAD
 ```
-Invoke-AADIntReconAsOutsider -DomainName <tenant>.onmicrosoft.com
+Get-AADIntTenantDomains -Domain <domain>
 ```
 
-### Get GMSA password from given user
+# Show the cached credentials
 ```
-Get-AADIntLSASecrets -AccountName "<domain>\<user>"
-```
-
-### Use AAD Graph token
-```
-Connect-AzureAD -AccountId <user>@<tenant>.onmicrosoft.com -AadAccessToken <token>
+Get-AADIntCache
 ```
 
-### Retreive Primary Refresh Token from memory
+# Clear the cache
 ```
-Get-AADIntUserPRTToken
+Clear-AADIntCache
 ```
 
-### Check MS Teams
+# Add access token to cache
 ```
-Get-AADIntAccessTokenForTeams -SaveToCache
-Get-Content "mail-addresses.txt" | % { echo $_ ; Get-AADIntTeamsAvailability -UserPrincipalName $_ }
+Add-AADIntAccessTokenToCache -AccessToken "<accessToken>" -RefreshToken "<refreshToken>"
+```
+
+# Get access token for MS Graph API for "Microsoft Office" client using interactive login
+```
+Get-AADIntAccessToken -ClientId "<clientId>" -Resource "https://graph.microsoft.com"
+```
+
+# Parse access token
+```
+Read-AADIntAccesstoken -AccessToken <accessToken> -showdate
+```
+
+# Get access token from refresh token
+```
+Import-Module .\AccessToken_utils.ps1
+Get-AADIntAccessTokenWithRefreshToken -ClientId "<clientId>" -Resource "https://graph.windows.net" -TenantId "<tenantId>" -RefreshToken <refreshToken>
 ```
 

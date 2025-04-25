@@ -31,3 +31,8 @@ nuclei -tl
 cat <nucleiScan>.json | jq -r 'select(.["template-id"] | contains("wordpress")) | .host'
 ```
 
+### Print all matched URLs
+```
+cat <nucleiScan>.json | jq -r '.["matched-at"]'
+```
+

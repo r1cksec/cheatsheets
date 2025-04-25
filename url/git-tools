@@ -28,6 +28,9 @@ Quick POC looking at how encryption works for LAPS (v2)
 https://gist.github.com/zblurx/009633b2db25918bdbbff664a01508fc
 Simple script to extract local admin password in cleartext with LAPSv2 using impacket
 
+https://github.com/000pp/Pinkerton
+Python project to crawl for JavaScript files and search for secrets like API keys, authorization tokens, hardcoded password or related.
+
 https://github.com/0xB455/ActiveSyncBruter
 ActiveSyncBruter is a penetration testing tool designed to enumerate and brute-force credentials against Microsoft Exchange ActiveSync endpoints. It supports both single-credential checks and bulk testing from a file. The tool employs a two-phase approach to quickly filter out invalid credentials and then re‑verify potential valid candidates.
 
@@ -598,6 +601,9 @@ PowerShell Pass The Hash Utils
 https://github.com/Kryp7os/SharpRBCD
 An executable that simplifies adding the msds-AllowedToActOnBehalfOfOtherIdentity attribute for RBCD
 
+https://github.com/Krypteria/Neo4LDAP
+Neo4LDAP is a query and visualization tool focused on Active Directory environments. It combines LDAP syntax with graph-based data analysis in Neo4j, offering an alternative approach to tools like BloodHound.
+
 https://github.com/Krypteria/Proxll
 Tool designed to simplify the generation of proxy DLLs while addressing common conflicts related to windows.h
 
@@ -1120,6 +1126,9 @@ Encypting the Heap while sleeping by hooking and modifying Sleep with our own sl
 https://github.com/TheD1rkMtr/TakeMyRDP
 A keystroke logger targeting the Remote Desktop Protocol (RDP) related processes, It utilizes a low-level keyboard input hook, allowing it to record keystrokes in certain contexts (like in mstsc.exe and CredentialUIBroker.exe)
 
+https://github.com/TheManticoreProject/Delegations
+A tool to work with all types of Kerberos delegations (unconstrained, constrained, and resource-based constrained delegations) in Active Directory
+
 https://github.com/ThePorgs/impacket
 Impacket is a collection of Python classes for working with network protocols.
 
@@ -1249,6 +1258,9 @@ An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twi
 https://github.com/adanalvarez/TrailDiscover
 An evolving repository of CloudTrail events with detailed descriptions, MITRE ATT&CK insights, real-world incidents, references and security implications
 
+https://github.com/adityatelange/evil-winrm-py
+A python-based tool for executing commands on remote Windows machines using the WinRM (Windows Remote Management) protocol.
+
 https://github.com/airbus-seclab/bincat
 Binary code static analyser, with IDA integration. Performs value and taint analysis, type reconstruction, use-after-free and double-free detection
 
@@ -1281,6 +1293,9 @@ A vulnerability scanner for container images and filesystems
 
 https://github.com/anderspitman/awesome-tunneling
 List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
+
+https://github.com/andreisss/Living-off-the-COM-Type-Coercion-Abuse
+This technique leverages PowerShell's .NET interop layer and COM automation to achieve stealthy command execution by abusing implicit type coercion
 
 https://github.com/andresriancho/enumerate-iam
 Enumerate the permissions associated with AWS credential set
@@ -1552,6 +1567,9 @@ Framework for Kerberos relaying
 https://github.com/cube0x0/noPac
 CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter.
 
+https://github.com/cxnturi0n/convoC2
+C2 infrastructure over Microsoft Teams.
+
 https://github.com/cyberark/PipeViewer
 A tool that shows detailed information about named pipes in Windows
 
@@ -1698,6 +1716,9 @@ A C# project that builds a Web Applciation which redirects all HTTPS
 
 https://github.com/dnSpyEx/dnSpy
 Unofficial revival of the well known .NET debugger and assembly editor, dnSpy
+
+https://github.com/dobin/ShellcodeObfuscationLab
+Test bench lab for Shellcode Obfuscation
 
 https://github.com/dobin/ttpExtractor
 Uses LLM to extract TTP's from CTI report PDFs. With focus on the P (Procedures). As in, what the threat actors were actually doing.
@@ -2115,6 +2136,9 @@ POSIX script for mail security checks of domain names
 
 https://github.com/jfjallid/go-secdump
 Tool to remotely dump secrets from the Windows registry
+
+https://github.com/jfjallid/kerbtool
+A tool to interact with Kerberos to request, forge and convert various types of tickets in an Active Directory environment
 
 https://github.com/jfmaes/Invoke-DLLClone
 Koppeling x Metatwin x LazySign
@@ -3159,6 +3183,9 @@ Local & remote Windows DLL Proxying
 
 https://github.com/synacktiv/GPOddity
 The GPOddity project, aiming at automating GPO attack vectors through NTLM relaying (and more).
+
+https://github.com/synacktiv/Invoke-RunAsWithCert
+A PowerShell script to perform PKINIT authentication with the Windows API from a non domain-joined machine.
 
 https://github.com/synacktiv/ntdissector
 Ntdissector is a tool for parsing records of an NTDS database. Records are dumped in JSON format and can be filtered by object class.

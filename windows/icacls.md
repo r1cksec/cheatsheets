@@ -13,3 +13,9 @@ icacls <file> /grant:R "<user>:(R)"
 icacls <file> /reset
 ```
 
+### Set ssh key permissions
+```
+icacls C:\Users\<user>\.ssh /inheritance:r /grant:r <user>:(F)
+icacls C:\Users\<user>\.ssh\id_rsa /inheritance:r /grant:r <user>:(F)
+```
+

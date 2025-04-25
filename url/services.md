@@ -29,7 +29,6 @@
 * https://darkfeed.io
 * https://delivr.to/payloads
 * https://demo.f4map.com
-* https://developer.microsoft.com/en-us/microsoft-edge/tools/vms
 * https://elevenlabs.io ; #artificia-intelligence #ai #text-to-speech
 * https://emailrep.io
 * https://evasions.checkpoint.com
@@ -49,8 +48,9 @@
 * https://jwt.ms ; #json-web-token
 * https://kartaview.org
 * https://kiosk.vsim.xyz ; #kisok #escape #tooling
-* https://lofl-project.github.io
-* https://lolbas-project.github.io
+* https://lofl-project.github.io ; #living-off-the-foreign-land-cmdlets-binaries
+* https://lolbas-project.github.io ; #living-off-the-land-binaries-scripts-libraries
+* https://lolc2.github.io ; #living-off-the-land-c2
 * https://lots-project.com ; #living-off-the-trusted-sites #phishing
 * https://lottunnels.github.io ; #living-off-the-tunnels #pivot #socks #socket
 * https://malpedia.caad.fkie.fraunhofer.de

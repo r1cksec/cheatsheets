@@ -1,8 +1,8 @@
 ### Source
-https://gitlab.com/kalilinux/packages/smtp-user-enum  
+https://github.com/cytopia/smtp-user-enum
 
-### -M method (VRFY,EXPN,RCPT), w wait seconds for response
+### Enumerate using SMTP, Methods: VRFY,EXPN,RCPT
 ```
-smtp-user-enum -M VRFY -D <domain> -U <file> -w 10 -v -t <rhost>
+python3 smtp-user-enum -U <userList.txt> -m RCPT <rhost>  25
 ```
 
