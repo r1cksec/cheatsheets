@@ -1,5 +1,3 @@
-* https://3wifi.stascorp.com ; #wifi #wardriving #osint #geolocation
-* https://aadinternals.com/osint ; #osint #azure #entra #tenant #domain
 * https://app.binaryedge.io ; #osint #portscan #email #dataleak #breach #leak
 * https://app.malcore.io ; #malware-analyse #sandbox #yara #ransom-note #domain #whois #history #threat-intelligence
 * https://app.shadowmap.org ; #osint #sun #map #image #geolocation
@@ -20,7 +18,6 @@
 * https://columbus.elmasy.com ; #osint #subdomain
 * https://completedns.com/dns-history ; #osint #nameserver #dns-history
 * https://crt.sh ; #osint #certificate #subdomain #tls #rootdomain
-* https://defastra.com ; #osint #email #online-profiles #phone
 * https://dehashed.com ; #osint #break #leak #email
 * https://dnsdumpster.com ; #osint #subdomain #nameserver #dns-txt #portscan 
 * https://dnslytics.com ; #osint #reverse-ip #nameserver #google-adsense #google-analytics #rootdomain
@@ -52,7 +49,7 @@
 * https://pastebin.com ; #osint #storage #dumps
 * https://phonebook.cz ; #osint #email #domain
 * https://picarta.ai ; #osint #geolocation #image
-* https://pimeyes.com ; #osint #reverse-image-search
+* https://pimeyes.com ; #osint #reverse-image-search #facial-recognition
 * https://predictasearch.com ; #osint #email #user-profile #phone
 * https://psbdmp.ws ; #osint #storage #dumps
 * https://saucenao.com ; #osint #reverse-image-search
@@ -77,6 +74,7 @@
 * https://www.iplocation.net/ip-lookup ; #osint #geolocation #ip
 * https://www.locatefamily.com ; #osint #firstname #lastname
 * https://www.northdata.de ; #osint #company-registry #acquisition
+* https://www.numlookup.com ; #osint #online-profiles #phone
 * https://www.onyphe.io ; #osint #domain #subdomain #asn #portscan #whois
 * https://www.rask.ai ; #osint #video #translation
 * https://www.robtex.com ; #osint #nameserver #whois #asn #subdomain #rootdomain
@@ -90,5 +88,4 @@
 * https://www.whoxy.com : #osint #whois #domain #rootdomain
 * https://www.xdcc.eu ; #osint #irc-search
 * https://www.zoomeye.org ; #osint #portscan #certificate #asn #rootdomain
-* https://ydshieh-kosmos-2.hf.space ; #osint #geolocation #image
 * https://ytcomment.kmcat.uk ; #osint #youtube #comment

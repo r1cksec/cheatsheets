@@ -42,7 +42,7 @@
 * https://gtfobins.github.io
 * https://icon-icons.com
 * https://id-ransomware.malwarehunterteam.com
-* https://ifconfig.me
+* https://ifconfig.me ; #ip-geolocation
 * https://imagecolorpicker.com
 * https://ipv4.myip.wtf/json
 * https://jwt.io ; #json-web-token
@@ -56,11 +56,11 @@
 * https://malpedia.caad.fkie.fraunhofer.de
 * https://mha.azurewebsites.net/pages/mha.html ; #email #header-analyze #phishing
 * https://msportals.io
-* https://myip.wtf/json
-* https://nthashes.com
-* https://ntlm.pw
-* https://nuclei-templates.netlify.app
-* https://ohmygit.org
+* https://myip.wtf/json ; #ip-geolocation
+* https://nthashes.com ; #hashes #cracking
+* https://ntlm.pw ; #hashes #cracking
+* https://nuclei-templates.netlify.app ; #nuclei #templates
+* https://ohmygit.org ; #git #game
 * https://ohpe.it/juicy-potato/CLSID
 * https://openphish.com
 * https://otc.armchairresearch.org/map

@@ -22,5 +22,9 @@ cat <file.html> | sendEmail -f "<user>@<company.com>" -u "<subject>" -s "<compan
 ```
 SPAMHAUS will block most residential IP addresses from sending spoofed emails.
 Do not send phishing emails from your house IP adress.
+
+If you get:
+... Service unavailable, Client host [...] blocked using Spamhaus. 
+-> Try sending using the ipv4 address instead of <company-com>.mail.protection.outlook.com
 ```
 

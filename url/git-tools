@@ -28,6 +28,9 @@ Quick POC looking at how encryption works for LAPS (v2)
 https://gist.github.com/zblurx/009633b2db25918bdbbff664a01508fc
 Simple script to extract local admin password in cleartext with LAPSv2 using impacket
 
+https://github.com/0xB455/ActiveSyncBruter
+ActiveSyncBruter is a penetration testing tool designed to enumerate and brute-force credentials against Microsoft Exchange ActiveSync endpoints. It supports both single-credential checks and bulk testing from a file. The tool employs a two-phase approach to quickly filter out invalid credentials and then re‑verify potential valid candidates.
+
 https://github.com/0xB455/m365-fatigue
 This Python script automates the authentication process for Microsoft 365 by using the device code flow and Selenium for automated login. It keeps bombing the user with MFA requests and stores the access_token once the MFA was approved.
 
@@ -148,6 +151,9 @@ Script written in python to perform Resource-Based Constrained Delegation (RBCD)
 https://github.com/AmberWolfCyber/NachoVPN
 NachoVPN is a Proof of Concept that demonstrates exploitation of SSL-VPN clients, using a rogue VPN server.
 
+https://github.com/Arcanum-Sec/Scopify
+Scopify is a Python command-line tool designed for penetration testers and bug bounty hunters to quickly gather and analyze infrastructure information (CDN, Hosting, SaaS) for a target company by scraping netify.ai.
+
 https://github.com/Arno0x/EmbedInHTML
 Embed and hide any file in an HTML file
 
@@ -192,6 +198,9 @@ Another potato, using PrintNotify COM service for lifting rights
 
 https://github.com/BeichenDream/SharpToken
 Windows Token Stealing Expert
+
+https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules
+KQL Queries. Defender For Endpoint and Azure Sentinel Hunting and Detection Queries in KQL. Out of the box KQL queries for: Advanced Hunting, Custom Detection, Analytics Rules & Hunting Rules.
 
 https://github.com/Bert-JanP/Incident-Response-Powershell
 This page contains Powershell Digital Forensics & Incident Response solutions. The first is a complete incident response script. The second is a page where all the individual incident response commands are listed.
@@ -382,6 +391,9 @@ FalconHound is a blue team multi-tool. It allows you to utilize and enhance the 
 https://github.com/FalconForceTeam/SOAPHound
 SOAPHound is a custom-developed .NET data collector tool which can be used to enumerate Active Directory environments via the Active Directory Web Services (ADWS) protocol.
 
+https://github.com/FalconOpsLLC/goexec
+Windows remote execution multitool
+
 https://github.com/Flangvik/DeployPrinterNightmare
 C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc!
 
@@ -432,6 +444,9 @@ JA4TScan is an active TCP server fingerprinting tool.
 
 https://github.com/Friends-Security/ShadowHound
 PowerShell scripts for alternative SharpHound enumeration, including users, groups, computers, and certificates, using the ActiveDirectory module (ADWS) or System.DirectoryServices class (LDAP).
+
+https://github.com/Friends-Security/sharefiltrator
+tool for enumeration & bulk download of sensitive files found in SharePoint environments
 
 https://github.com/Frissi0n/GTFONow
 Automatic privilege escalation for misconfigured capabilities, sudo and suid binaries using GTFOBins.
@@ -663,6 +678,9 @@ Reduce Entropy And Obfuscate Youre Payload With Serialized Linked Lists
 
 https://github.com/Maldev-Academy/ExecutePeFromPngViaLNK
 Extract and execute a PE embedded within a PNG file using an LNK file. The PE file is encrypted using a single-key XOR algorithm and then injected as an IDAT section to the end of a specified PNG file.
+
+https://github.com/Maldev-Academy/LsassHijackingViaReg
+Injecting DLL into LSASS at boot
 
 https://github.com/Maldev-Academy/MaldevAcademyLdr.1
 Maldev Academy's October update saw several interesting modules being released to our users. One of them was our DLL loader that was successfully tested against several EDRs including MDE and Crowdstrike.
@@ -1330,6 +1348,12 @@ A collection of special paths linked to major web CVEs, known misconfigurations,
 https://github.com/b1tg/rust-windows-shellcode
 Windows shellcode development in Rust
 
+https://github.com/b3rito/b3acon
+b3acon - a mail-based C2 that communicates via an in-memory C# IMAP client dynamically compiled in memory using PowerShell.
+
+https://github.com/b3rito/peeko
+peeko – Browser-based XSS C2 for stealthy internal network exploration via infected browser.
+
 https://github.com/badsectorlabs/sccm-http-looter
 Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) shares via HTTP(s)
 
@@ -1497,6 +1521,9 @@ A tool to quickly do keyword searches over Gitlab and Github for OSINT & bug bou
 
 https://github.com/coffeegist/bofhound
 Generate BloodHound compatible JSON from logs written by ldapsearch BOF, pyldapsearch and Brute Ratel's LDAP Sentinel
+
+https://github.com/cogiceo/GPOHound
+Offensive GPO dumping and analysis tool that leverages and enriches BloodHound data
 
 https://github.com/conflict-investigations/media-search-engine
 Search geolocations for (social) media posts in databases like Bellingcat, Cen4InfoRes etc.
@@ -1960,6 +1987,9 @@ Visualize the time packets spend in the kernel, analyze requests/responses in co
 https://github.com/hephaest0s/usbkill
 « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
 
+https://github.com/heqnx/SharpAMSIGhosting
+C# port of the AMSI bypass technique originally developed and documented by Andrea Bocchetti
+
 https://github.com/hfiref0x/UACME
 Defeating Windows User Account Control
 
@@ -2215,8 +2245,14 @@ CVE-2019–11581 PoC
 https://github.com/l4rm4nd/LinkedInDumper
 Python 3 script to dump company employees from LinkedIn API
 
+https://github.com/l4rm4nd/LinkedInDumper
+Python 3 script to dump/scrape/extract company employees from LinkedIn API
+
 https://github.com/l4rm4nd/XingDumper
 Python 3 script to dump company employees from XING API
+
+https://github.com/l4rm4nd/XingDumper
+Python 3 script to dump/scrape/extract company employees from XING API
 
 https://github.com/laluka/jolokia-exploitation-toolkit
 Jolokia is a protocol bridge that enables users to interact with MBeans (JMB) through HTTP. 
@@ -2427,6 +2463,9 @@ This repository is a tool to create a .suo that when run by visual studio's will
 
 https://github.com/moonD4rk/HackBrowserData
 Decrypt passwords/cookies/history/bookmarks from the browser.
+
+https://github.com/mordavid/dcsynchound
+This script analyzes the DCSync output file from several tools (such as Mimikatz, Secretsdump and SharpKatz...)
 
 https://github.com/mpgn/BackupOperatorToDA
 From an account member of the group Backup Operators to Domain Admin without RDP or WinRM on the Domain Controller
@@ -2803,6 +2842,9 @@ Deserialization payload generator for a variety of .NET formatters
 https://github.com/qsecure-labs/overlord
 Overlord - Red Teaming Infrastructure Automation
 
+https://github.com/quarkslab/proxyblob
+SOCKS5 proxy tool that uses Azure Blob Storage as a means of communication.
+
 https://github.com/quay/clair
 Vulnerability Static Analysis for Containers
 
@@ -3061,6 +3103,9 @@ Utilizing DirectX and DShowNET assemblies to record video from a host's webcam
 https://github.com/sockysec/Telerecon
 A reconnaissance framework for researching and investigating Telegram.
 
+https://github.com/som3canadian/Cloudflare-Redirector
+Just another C2 Redirector using CloudFlare. Support multiple C2 and multiple domains. Support for websocket listener.
+
 https://github.com/soufianetahiri/CitrixSecureAccessAuthCookieDump
 Dump Citrix Secure Access auth cookie from the process memory
 
@@ -3126,6 +3171,9 @@ Villain is a Windows & Linux backdoor generator and multi-session handler that a
 
 https://github.com/t3l3machus/eviltree
 A python3 remake of the classic "tree" command with the additional feature of searching for user provided keywords/regex in files, highlighting those that contain matches.
+
+https://github.com/tasooshi/torboost
+Download utility for Tor
 
 https://github.com/tastypepperoni/PPLBlade
 Protected Process Dumper Tool

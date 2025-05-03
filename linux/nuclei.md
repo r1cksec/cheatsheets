@@ -3,7 +3,7 @@ https://github.com/projectdiscovery/nuclei
 
 ### Install
 ```
-go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 ```
 
 ### Scan single host using default templates

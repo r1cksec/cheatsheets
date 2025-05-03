@@ -102,6 +102,7 @@
 * https://blog.huli.tw/2023/11/27/en/server-side-rendering-ssr-and-isomorphic ; #server-side-rendering #ssr #web #javascript
 * https://blog.impalabs.com/2303_advisory_parallels-desktop_toolgate.html ; #directory-traversal #cve #parallels-desktop
 * https://blog.lexfo.fr/sshimpanzee.html ; #ssh #network #tunnel #sshimpanzee #dns #icmp #http #linux 
+* https://blog.lexfo.fr/symfony-secret-fragment.html ; #deserialization #php #symfony #web
 * https://blog.lumen.com/routers-roasting-on-an-open-firewall-the-kv-botnet-investigation ; #threat-intelligence #malware #botnet #router #cisco
 * https://blog.malicious.group/inline-assembly ; #inline-assembly #compiler #c #breakpoint
 * https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm ; #shellcode #rdi-loader #c #assembly #obfuscation
@@ -179,6 +180,7 @@
 * https://decoder.cloud/2023/09/05/from-ntauthcertificates-to-silver-certificate ; #windows #adcs #active-directory #certificate-service
 * https://decoder.cloud/2024/08/02/the-fake-potato ; #windows #powershell #dot-net #cross-session-activation #com-object #impersonation #cve-2024-38100
 * https://decoder.cloud/2024/11/26/group-policy-nightmares-pt2 ; #dnsadmins #active-directory #smb-relay #https-adcs
+* https://decoder.cloud/2025/04/24/from-ntlm-relay-to-kerberos-relay-everything-you-need-to-know ; #active-directory #windows #kerberos-relay #krbrelayx #dns-hostname-resolution
 * https://defcon.org/images/defcon-19/dc-19-presentations/Duckwall/DEFCON-19-Duckwall-Bridge-Too-Far.pdf ; #802-1x #bridge #linux
 * https://detect.fyi/threat-hunting-suspicious-named-pipes-a4206e8a4bc8?gi=f841fec0eb16 ; #threat-intelligence #named-pipe #ipc #windows #linux #event-id #threat-hunting
 * https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c?gi=25697c91242b ; #dfir #forensic #event-id #log #windows #services #siem
@@ -722,6 +724,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.synacktiv.com/publications/gpoddity-exploiting-active-directory-gpos-through-ntlm-relaying-and-more ; #active-directory #gpo #group-policy #sysvol #ntlm-relaying
 * https://www.synacktiv.com/publications/introducing-ntdissector-a-swiss-army-knife-for-your-ntdsdit-files.html ; #active-directory #ntds-dit #dump
 * https://www.synacktiv.com/publications/traces-of-windows-remote-command-execution.html ; #forensic #dfir #windows #lateral-movement #impacket #event-id
+* https://www.synacktiv.com/publications/typo3-leak-to-remote-code-execution ; #typo3 #cms #deserialization #php
 * https://www.synacktiv.com/publications/windows-secrets-extraction-a-summary ; #windows #lsass #dpapi #lsa
 * https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2023-011.txt ; #printer #cve #wifi #password
 * https://www.syss.de/fileadmin/user_upload/2021_04_Angriff_auf_Anti-Phishing-Banner_in_E-Mails.pdf ; #phishing #email

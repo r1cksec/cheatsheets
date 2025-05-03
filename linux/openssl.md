@@ -16,8 +16,13 @@ openssl enc -aes-256-cbc -pbkdf2 -k <password> <file> > <encryptedFile>
 openssl enc -d -aes-256-cbc -pbkdf2 -k <password> <encryptedFile> > <file>
 ```
 
-### Print information
+### Print information (pem)
 ```
 openssl x509 -text -noout -in <file>.pem
+```
+
+### Print information (crl)
+```
+openssl crl -in <file>.crl -inform DER -text -noout
 ```
 

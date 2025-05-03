@@ -1,6 +1,21 @@
 ### Source
 https://github.com/dirkjanm/ROADtools
 
+### Authenticate using Device Code
+```
+roadrecon auth --device-code
+```
+
+### Authenticate using Token
+```
+roadrecon auth --refresh-token "<refreshToken>" -c <clientId>
+```
+
+### Run enumeration
+```
+roadrecon gather -f <.roadtools_auth>
+```
+
 ### Start graphical interface
 ```
 roadrecon gui

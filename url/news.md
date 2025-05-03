@@ -4,6 +4,7 @@
 * https://cvecrowd.com
 * https://github.com/Simpsonpt/AppSecEzine
 * https://latesthackingnews.com/category/cyber-security-news
+* https://minimedusa.lol
 * https://ransomfeed.it
 * https://rss.voidsec.com
 * https://talkback.sh
@@ -17,3 +18,4 @@
 * https://www.reddit.com/r/redteamsec
 * https://www.sixgen.io/news
 * https://www.threatable.io
+* https://www.witha.name
