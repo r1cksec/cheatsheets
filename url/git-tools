@@ -142,6 +142,9 @@ Privilege Escalation Project - Windows / Linux / Mac
 https://github.com/AlessandroZ/LaZagne
 Credentials recovery project
 
+https://github.com/AlmondOffSec/DCOMRunAs
+Lateral movement with DCOM DLL hijacking
+
 https://github.com/AlmondOffSec/PassTheCert
 Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel
 
@@ -277,6 +280,9 @@ A proof-of-concept Command & Control framework that utilizes the powerful AsyncS
 https://github.com/ChaitanyaHaritash/IllusiveFog
 Windows Administrator level Implant.
 
+https://github.com/ChoiSG/SharpSilentChrome
+SharpSilentChrome is a C# project that "silently" installs browser extensions on Google Chrome or MS Edge by updating the browsers' Preferences and Secure Preferences files. Currently, it only supports Windows.
+
 https://github.com/CiscoCXSecurity/bbqsql
 SQL Injection Exploitation Tool
 
@@ -300,6 +306,9 @@ Token Tormentor was designed to demonstrate the capabilities of Device Code Phis
 
 https://github.com/CriticalPathSecurity/Zeek-Intelligence-Feeds
 Zeek-Formatted Threat Intelligence Feeds
+
+https://github.com/CroodSolutions/AutoRMM
+AutoRMM is a collection of scripts and instructions we are organizing, to test delivery mechanisms for RMM and screen sharing tools, along with post exploitation strategies for blue and red teams wanting to more realistically simulate adversary capabilities using these strategies.
 
 https://github.com/Cryakl/Ultimate-RAT-Collection
 For educational purposes only, exhaustive samples of 450+ classic/modern trojan builders including screenshots.
@@ -363,6 +372,9 @@ A Slack bot phishing framework for Red Teaming exercises
 
 https://github.com/Dump-GUY/EXE-or-DLL-or-ShellCode
 Just a simple silly PoC demonstrating executable "exe" file that can be used like exe, dll or shellcode...
+
+https://github.com/EgeBalci/evilreplay
+This tool is a weaponized adaptation of the OpenReplay project, tailored for penetration testers and security professionals to demonstrate and assess the impact of Cross-Site Scripting (XSS) vulnerabilities in restricted environments without the need for stealing cookies.
 
 https://github.com/EncodeGroup/Gopher
 C# tool to discover low hanging fruits
@@ -462,6 +474,9 @@ StandIn is a small .NET35/45 AD post-exploitation toolkit
 
 https://github.com/G0ldenGunSec/GetWebDAVStatus
 Determine if the WebClient Service (WebDAV) is running on a remote system
+
+https://github.com/G0ldenGunSec/SCCM_SQL_Collector
+PoC script to demonstrate collection of SCCM attack paths that can be viewed in BH with OpenGraph
 
 https://github.com/G0ldenGunSec/SharpSecDump
 .Net port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py
@@ -652,6 +667,9 @@ Add Shadow Credentials to a target object by editing their msDS-KeyCredentialLin
 https://github.com/Leo4j/SessionExec
 SessionExec allows you to execute specified commands in other Sessions on Windows Systems, either targeting a specific session ID or All sessions, with the option to suppress command output
 
+https://github.com/LowOrbitSecurity/gubble
+gubble is a tool designed to audit Google Workspace group settings. It analyzes settings such as who can join, view membership, post messages, view conversations, and more to help identify potential security risks associated with group configurations.
+
 https://github.com/LuemmelSec/Pentest-Tools-Collection
 Active Directory Tool Collection. Convert .net exe into powershell script.
 
@@ -672,6 +690,9 @@ MaLDAPtive is a framework for LDAP SearchFilter parsing, obfuscation, deobfuscat
 
 https://github.com/Macmod/goblob
 A fast enumeration tool for publicly exposed Azure Storage blobs.
+
+https://github.com/Macmod/godap
+A complete terminal user interface (TUI) for LDAP.
 
 https://github.com/Malcrove/SeamlessPass
 A tool leveraging Kerberos tickets to get Microsoft 365 access tokens using Seamless SSO
@@ -1072,6 +1093,9 @@ A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache f
 https://github.com/SpecterOps/BloodHound
 Six Degrees of Domain Admin
 
+https://github.com/SpecterOps/MSSQLHound
+PowerShell collector for adding MSSQL attack paths to BloodHound with OpenGraph
+
 https://github.com/SpecterOps/cred1py
 A Python POC for CRED1 over SOCKS5
 
@@ -1128,6 +1152,9 @@ A keystroke logger targeting the Remote Desktop Protocol (RDP) related processes
 
 https://github.com/TheManticoreProject/Delegations
 A tool to work with all types of Kerberos delegations (unconstrained, constrained, and resource-based constrained delegations) in Active Directory
+
+https://github.com/TheManticoreProject/LDAPWordlistHarvester
+A tool that allows you to extract a client-specific wordlist from the LDAP of an Active Directory.
 
 https://github.com/ThePorgs/impacket
 Impacket is a collection of Python classes for working with network protocols.
@@ -1714,6 +1741,9 @@ https://github.com/djhohnstein/SharpChromium
 https://github.com/dmcxblue/AzureRedirector
 A C# project that builds a Web Applciation which redirects all HTTPS
 
+https://github.com/dmcxblue/WSL-Payloads
+A small How-To on creating your own weaponized WSL file
+
 https://github.com/dnSpyEx/dnSpy
 Unofficial revival of the well known .NET debugger and assembly editor, dnSpy
 
@@ -2158,6 +2188,9 @@ Harvest passwords automatically from OpenSSH server
 https://github.com/joaoviictorti/RustRedOps
 RustRedOps is a repository for advanced Red Team techniques and offensive malware, focused on Rust
 
+https://github.com/joaoviictorti/hypnus
+Memory Obfuscation in Rust
+
 https://github.com/joaoviictorti/rustclr
 Host CLR and run .NET binaries using Rust
 
@@ -2374,6 +2407,9 @@ Kooky cURL-powered replacement for reverse shell via /dev/tcp
 https://github.com/maldevel/EmailHarvester
 Email addresses harvester 
 
+https://github.com/mammo0/networkminer-cli
+The purpose of this fork is to extract only the files from a network data stream. Nothing more or less...
+
 https://github.com/mandatoryprogrammer/CursedChrome
 Chrome-extension implant that turns victim Chrome browsers into fully-functional HTTP proxies, allowing you to browse sites as your victims.
 
@@ -2464,6 +2500,9 @@ KrabsETW provides a modern C++ wrapper and a .NET wrapper around the low-level E
 https://github.com/microsoft/terminal
 The new Windows Terminal and the original Windows console host, all in the same place! 
 
+https://github.com/midoxnet/mapperplus
+MapperPlus facilitates the extraction of source code from a collection of targets that have publicly exposed .js.map files.
+
 https://github.com/mitre/caldera
 Automated Adversary Emulation Platform
 
@@ -2478,6 +2517,9 @@ Small toolkit for extracting information and dumping sensitive strings from Wind
 
 https://github.com/mlgualtieri/NTLMRawUnHide
 NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl
+
+https://github.com/mongodb/kingfisher
+Kingfisher is a blazingly fast secret‑scanning and validation tool built in Rust
 
 https://github.com/montysecurity/C2-Tracker
 Live Feed of C2 servers, tools, and botnets
@@ -2715,9 +2757,6 @@ A system administration or post-exploitation script to automatically extract the
 
 https://github.com/p0dalirius/FindProcessesWithNamedPipes
 A simple C++ Windows tool to get information about processes exposing named pipes.
-
-https://github.com/p0dalirius/LDAPWordlistHarvester
-A tool to generate a wordlist from the information present in LDAP, in order to crack passwords of domain accounts.
 
 https://github.com/p0dalirius/pyLAPS
 Python setter/getter for property ms-Mcs-AdmPwd used by LAPS.
@@ -2974,6 +3013,12 @@ A tool to perform Kerberos pre-auth bruteforcing
 https://github.com/rosegabe/employeexing
 A script that collects employee data located within Xing
 
+https://github.com/rtecCyberSec/BitlockMove
+Lateral Movement via Bitlocker DCOM interfaces & COM Hijacking
+
+https://github.com/rtecCyberSec/SpeechRuntimeMove
+Lateral Movement as loggedon User via Speech Named Pipe COM & ISpeechNamedPipe + COM Hijacking
+
 https://github.com/rtrouton/create_macos_vm_install_dmg
 This script prepares macOS installer disk images for use with virtualization software like VMware Fusion or Parallels.
 
@@ -3046,6 +3091,9 @@ Solve Google reCAPTCHA in less than 5 seconds!
 https://github.com/saw-your-packet/EC2StepShell
 EC2StepShell is an AWS post-exploitation tool for getting high privileges reverse shells in public or private EC2 instances.
 
+https://github.com/scramblr/NETGEAR_ROUTER_HIDDEN_PAGES
+This is a list of currently known hidden pages within NETGEAR routers, switches, and other networking equipment. Why hidden? Ask Netgear.
+
 https://github.com/scrt/PowerChell
 A PowerShell console in C/C++ with all the security features disabled
 
@@ -3072,6 +3120,9 @@ SquarePhish is an advanced phishing tool that uses a technique combining the OAu
 
 https://github.com/seekr-osint/seekr
 A multi-purpose OSINT toolkit with a neat web-interface.
+
+https://github.com/sensepost/depscanner
+Detect public repository dependencies in the GitHub repositories with an orphan required library.
 
 https://github.com/sensepost/gowitness
 gowitness is a website screenshot utility written in Golang, that uses Chrome Headleas
@@ -3136,6 +3187,9 @@ Dump Citrix Secure Access auth cookie from the process memory
 https://github.com/spipm/Depixelization_poc
 Depix is a PoC for a technique to recover plaintext from pixelized screenshots.
 
+https://github.com/spyboy-productions/CamXploit
+Find, analyze, and check for exposed IP cameras with open ports, known vulnerabilities, and weak login credentials.
+
 https://github.com/sqlmapproject/sqlmap
 Automatic SQL injection and database takeover tool
 
@@ -3148,6 +3202,9 @@ User Enumeration of Microsoft Teams users via API
 https://github.com/sshuttle/sshuttle
 Transparent proxy server that works as a poor man's VPN. Forwards over ssh. Doesn't require admin. Works with Linux and MacOS. Supports DNS tunneling.
 
+https://github.com/stamparm/maltrail
+Malicious traffic detection system
+
 https://github.com/stark0de/nginxpwner
 Nginxpwner is a simple tool to look for common Nginx misconfigurations and vulnerabilities.
 
@@ -3159,6 +3216,9 @@ Tool for reverse engineering macOS/OS X
 
 https://github.com/strontic/xcyclopedia
 The xCyclopedia project attempts to document all executable binaries (and eventually scripts) that reside on a typical operating system.
+
+https://github.com/sud0Ru/NauthNRPC
+Enumerate Domain Users Without Authentication
 
 https://github.com/sullo/nikto
 Nikto web server scanner
@@ -3193,6 +3253,9 @@ Ntdissector is a tool for parsing records of an NTDS database. Records are dumpe
 https://github.com/synacktiv/pcapan
 A pcap capture analysis helper
 
+https://github.com/t-tani/defender2yara
+Convert Microsoft Defender Antivirus Signatures (VDM) into YARA rules
+
 https://github.com/t3l3machus/Villain
 Villain is a Windows & Linux backdoor generator and multi-session handler that allows users to connect with sibling servers (other machines running Villain) and share their backdoor sessions, handy for working as a team.
 
@@ -3216,6 +3279,9 @@ CLI tool that finds secrets accidentally committed to a git repo, eg passwords, 
 
 https://github.com/tehstoni/tryharder
 C++ Staged Shellcode Loader with Evasion capabilities.
+
+https://github.com/temp43487580/mprecon
+a small script to collect information from a management point
 
 https://github.com/tennc/webshell
 This is a webshell open source project
@@ -3273,6 +3339,9 @@ EDR Detector that can find what kind of endpoint solution is being used accordin
 
 https://github.com/trickster0/OffensiveRust
 Rust Weaponization for Red Team Engagements.
+
+https://github.com/trufflesecurity/force-push-scanner
+Scan for secrets in dangling commits on GitHub using GH Archive data.
 
 https://github.com/trufflesecurity/truffleHog
 Searches through git repositories for high entropy strings and secrets, digging deep into commit history
@@ -3351,6 +3420,12 @@ Use smb2 protocol to detect remote computer os version, support win7/server2008-
 
 https://github.com/waelmas/frameless-bitb
 A new approach to Browser In The Browser (BITB) without the use of iframes, allowing the bypass of traditional framebusters implemented by login pages like Microsoft and the use with Evilginx.
+
+https://github.com/wariv/DarkLnk
+Build sneaky & malicious LNK files
+
+https://github.com/warpnet/MS-RPC-Fuzzer
+Gain insights into MS-RPC implementations that may be vulnerable using an automated approach and make it easy to visualize the data. By following this approach, a security researcher will hopefully identify interesting RPC services in such a time that would take a manual approach significantly more.
 
 https://github.com/watchtowrlabs/CVE-2024-40711
 Pre-Auth Exploit for CVE-2024-40711

@@ -38,3 +38,8 @@ grep -Eio ".{0,20}string.{0,20}"
 grep -LEiR '([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})' "$@"
 ```
 
+### Delete files that matches the grep content
+```
+grep -liR "<string>" * | xargs -d '\n' rm -v
+```
+

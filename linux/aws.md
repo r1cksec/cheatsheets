@@ -57,7 +57,7 @@ aws s3api list-buckets
 
 ### Show content of bucket
 ```
-aws s3 ls s3://<name>
+aws s3 ls s3://<name> --no-sign-request
 ```
 
 ### Synchronize content of bucket 

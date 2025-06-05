@@ -78,6 +78,7 @@
 * https://urlfiltering.paloaltonetworks.com
 * https://uuid.pirate-server.com ; #windows #globally-unique-identifier #guid #uuid
 * https://vim-adventures.com ; #vim #game
+* https://whale-alert.io ; #bitcoin #tracking #wallet
 * https://windows96.net ; #windows #os-simluator
 * https://wtfbins.wtf ; #threat-hunting #binary-suspicious behavior
 * https://www.browserling.com ; #online-browser #phishing-analyse

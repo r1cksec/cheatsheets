@@ -16,6 +16,7 @@
 * https://0xpatrik.com/subdomain-takeover ; #web #subdomain-takeover #cname #dns
 * https://0xpatrik.com/takeover-proofs ; #sudomain-takeover #dns #aws #github #heroku
 * https://0xstarlight.github.io/posts/Bypassing-Windows-Defender ; #av #anti-virus #bypass #windows-defender #powershell #etw #patch
+* https://0xsultan.github.io/dfir/Exfiltrate-Without-Borders ; #mouse-without-borders #lateral-movement #data-exfiltration #windows
 * https://0xtoxin.github.io/malware%20analysis/KrakenKeylogger-pt1 ; #threat-intelligence #malware-analyse #kraken #phishing #lnk #powershell #hta #dot-net #exfiltration
 * https://0xtoxin.github.io/threat%20hunting/KrakenKeylogger-pt2 ; #threat-intelligence #malware-analyse #infrastructure #c2
 * https://0xv1n.github.io/posts/scmanager ; #windows #persistence #scm #living-of-the-land
@@ -116,9 +117,11 @@
 * https://blog.projectdiscovery.io/guide-to-dns-takeovers ; #dns-takeover #nameserver #subdomain-takeover #osint #reconaissance
 * https://blog.projectdiscovery.io/nuclei-fuzz-all-the-way ; #webapp #nuclei #fuzzing #url
 * https://blog.pulsedive.com/analyzing-darkgate-loaders ; #malware-analyse #threat-intelligence #darkgate
+* https://blog.quarkslab.com/a-story-about-confluence-and-tokens.html ; #confluence #access-token #database #aws #rest-api #atlassian
 * https://blog.quarkslab.com/php-deserialization-attacks-and-a-new-gadget-chain-in-laravel.html ; #php #deserialization #gadged-chain #magic-methods
 * https://blog.redteam-pentesting.de/2022/introducing-pretender ; #pretender #responder #ntlm-relaying #dns #dhcpv6 #netbios #llmnr
 * https://blog.redteam-pentesting.de/2024/bitwarden-heist ; #password-dump #password-manager #bitwarden #windows-hello
+* https://blog.redteam-pentesting.de/2025/windows-coercion ; #windows #coercion #service #callback #smb #kerberos #relaying #pretender #responder
 * https://blog.sekoia.io/darkgate-internals ; #malware-analyse #threat-intelligence #darkgate
 * https://blog.sicuranext.com/how-attackers-fingerprint-your-wordpress-website ; #http #wordpress #methodology #user-enumeration
 * https://blogs.juniper.net/en-us/threat-research/dreambus-botnet-resurfaces-targets-rocketmq-vulnerability ; #threat-intelligence #malware #rocketmq #interactsh
@@ -245,6 +248,7 @@
 * https://github.com/swisskyrepo/HardwareAllTheThings ; #hardware #cheatsheets #wiki
 * https://github.com/TecR0c/DoubleTrouble ; #proof-of-concept #poc #cve #java-deserialization #cve-2023-39475 #cve-2023-39476
 * https://github.com/tothi/pwn-hisilicon-dvr ; #hisilicon #dvr #hi3520d #firmware #remote-code-execution #telnet
+* https://github.com/trickster0/PrimitiveInjection ; #write-allocation #etw #event-tracing-for-windows #evasion #process-injection
 * https://github.security.telekom.com/2024/07/rt-peripheral-sight-printer-cve.html ; #active-directory #printer #ldap #smtp
 * https://godiego.co/posts/STO-Azure ; #cloud #azure #entra #subdomain-takeover #cloudapp #traffic-manager
 * https://h4ndsh.github.io/2023/phpinfo ; #web #php #remote-code-execution #register-argc-argv #pearcmd
@@ -453,6 +457,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://practicalsecurityanalytics.com/new-amsi-bypass-using-clr-hooking ; #windows #amsi #bypass #clr-hooking #api-call
 * https://prfalken.org/index.php/2023/01/26/installing-a-malware-analysis-lab ; #lab #setup #malware-analyse #methodology
 * https://prfalken.org/index.php/2023/01/26/installing-a-malware-analysis-lab ; #threat-intelligence #malware-analyse #lab-setup #windows #vm #flare-vm #remnux
+* https://print3m.github.io/blog/filejacking-initial-access-with-file-system-api ; #javascript #phishing #file-access #initial-access
 * https://ptr0x1.com/posts/edr-evasion-part-ii-scarecrow ; #edr #bypass #sandbox-evasion
 * https://ptr0x1.com/posts/edr-evasion-part-i-understanding-scarecrow ; #edr #bypass #evasion #shellcode #sideloading #etw #unhooking
 * https://pulsesecurity.co.nz/articles/OMGCICD-gitlab ; #gitlab #cicd #continuous-integration-continous-deployment #docker-in-docker
@@ -563,6 +568,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://trufflesecurity.com/blog/google-oauth-is-broken-sort-of ; #google #oauth #email-alias
 * https://trufflesecurity.com/blog/secrets-leak-in-ci-cd ; #jenkins #ec2 #api #secrets #cicd #continuous-integration-continous-deployment
 * https://trufflesecurity.com/blog/trufflehog-commands-git-vs-filesystem ; #trufflehog #git #github #secrets #keys
+* https://trustedsec.com/blog/abusing-chrome-remote-desktop-on-red-team-operations-a-practical-guide ; #remote-desktop #rdp #chrome #msi
 * https://trustedsec.com/blog/a-hitchhackers-guide-to-dacl-based-detections-part-1-a ; #windows #acl #active-directory #gpo
 * https://trustedsec.com/blog/js-tap-weaponizing-javascript-for-red-teams ; #javascript #xss #web #persistence
 * https://trustedsec.com/blog/kicking-it-old-school-with-time-based-enumeration-in-azure ; #azure #time-based-user-enumeration #autodiscover

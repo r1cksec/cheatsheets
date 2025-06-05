@@ -6,6 +6,11 @@ https://github.com/stedolan/jq
 cat <file>.json | jq -r '"\(.key1) ; \(.key | gsub(";"; "_"))"'
 ```
 
+### Print side by side
+```
+jq -r '.key1[] | [.key2, .key3, .key4] | join(" ")' <file>.json
+```
+
 ### Print key1 if key1 exists, else key2
 ```
 cat <file>.json | jq -r 'if has("key1") then .key1 else .key2 end'
