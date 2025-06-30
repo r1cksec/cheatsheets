@@ -85,3 +85,8 @@ proxychains <command>
 ssh -o UserKnownHostsFile=/dev/null -T <user>@<rhost> 'bash -i'
 ```
 
+### Print ssh ipv4 from logs
+```
+journalctl | grep " sshd" | grep "Failed password\|Accepted password\|Invalid user" | grep -Eo '([0-9]*\.){3}[0-9]*' | sort | uniq -c | sort -n
+```
+

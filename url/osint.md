@@ -38,6 +38,7 @@
 * https://keyserver.ubuntu.com ; #osint #pgp #email
 * https://labs.tib.eu/geoestimation ; #osint #geolocation #image
 * https://leakix.net ; #osint #subdomain #asn #country #portscan
+* https://micahvandeusen.com/tools/tenant-domains ; #azure #entra #osint #rootdomain #tenant
 * https://netlas.io ; #osint #whois #nameserver #subdomains #certificate #asn
 * https://networksdb.io ; #osint #asn #subdomain #geolocation #whois
 * https://newspapermap.com ; #osint #map #newspaper
@@ -47,6 +48,7 @@
 * https://osint.sh ; #osint #subdomain #dns-history #whois #nameserver #rootdomain #google-adsense #google-analytics
 * https://osm-search.bellingcat.com ; #osint #geolocation #map #image
 * https://otx.alienvault.com ; #osint #malware #threat-intelligence
+* https://pagecached.com ; #archive #osint #webscraping #cache
 * https://pastebin.com ; #osint #storage #dumps
 * https://phonebook.cz ; #osint #email #domain
 * https://picarta.ai ; #osint #geolocation #image

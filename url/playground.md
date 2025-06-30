@@ -15,5 +15,6 @@
 * https://portswigger.net/web-security
 * https://sourceforge.net/projects/metasploitable
 * https://www.hackthebox.eu
+* https://www.soc-labs.top/en/detection
 * https://www.tryhackme.com
 * https://www.vulnhub.com

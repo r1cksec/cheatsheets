@@ -24,6 +24,7 @@
 * https://github.com/chubin/awesome-console-services
 * https://github.com/chvancooten/maldev-for-dummies
 * https://github.com/chvancooten/OSEP-Code-Snippets
+* https://github.com/cipher387/API-s-for-OSINT
 * https://github.com/cipher387/awesome-grep
 * https://github.com/Cloud-Architekt/AzureAD-Attack-Defense
 * https://github.com/cqcore/Social-Media-OSINT
@@ -105,6 +106,7 @@
 * https://searx.space
 * https://sources.debian.org/src/gsettings-desktop-schemas/3.38.0-2/schemas
 * https://start.me/p/BnrMKd/01-ncso
+* https://start.me/p/wMrA5z/cyber-threat-intelligence
 * https://start.me/p/X2wwpk/14-dark-web-breach-data
 * https://swisskyrepo.github.io/InternalAllTheThings
 * https://unprotect.it/snippets

@@ -466,6 +466,9 @@ tool for enumeration & bulk download of sensitive files found in SharePoint envi
 https://github.com/Frissi0n/GTFONow
 Automatic privilege escalation for misconfigured capabilities, sudo and suid binaries using GTFOBins.
 
+https://github.com/Fudgedotdotdot/dump_kerberos_tickets
+Dump Kerberos tickets like Rubeus's dump command.
+
 https://github.com/FuzzySecurity/PowerShell-Suite
 My musings with PowerShell
 
@@ -820,6 +823,9 @@ Payload encoding utility to effectively lower payload entropy.
 https://github.com/Ne0nd0g/go-shellcode
 A repository of Windows Shellcode runners and supporting utilities. The applications load and execute Shellcode using various API calls or techniques.
 
+https://github.com/NetSPI/ATEAM
+A Python reconnaissance tool designed to discover Azure services and attribute tenant ownership information based on their responses.
+
 https://github.com/NetSPI/FuncoPop
 Tools for attacking Azure Function Apps
 
@@ -915,6 +921,9 @@ PowerSCCM - PowerShell module to interact with SCCM deployments
 
 https://github.com/Prepouce/CoercedPotato
 From Patate (LOCAL/NETWORK SERVICE) to SYSTEM by abusing SeImpersonatePrivilege on Windows 10, Windows 11 and Server 2022.
+
+https://github.com/Print3M/DllShimmer
+Weaponize DLL hijacking easily. Backdoor any function in any DLL.
 
 https://github.com/PwnDexter/Invoke-EDRChecker
 Checks running processes, process metadata, Dlls loaded into your current process and the each DLLs metadata, common install directories, installed services, the registry and running drivers for the presence of known defensive products such as AV's, EDR's and logging tools.
@@ -1399,6 +1408,9 @@ peeko – Browser-based XSS C2 for stealthy internal network exploration via inf
 https://github.com/badsectorlabs/sccm-http-looter
 Find interesting files stored on (System Center) Configuration Manager (SCCM/CM) shares via HTTP(s)
 
+https://github.com/bagelByt3s/LudusHound
+LudusHound is a tool for red and blue teams that transforms BloodHound data into a fully functional, Active Directory replica environment via Ludus for controlled testing.
+
 https://github.com/bats3c/ADCSPwn
 A tool to escalate privileges in an active directory network by coercing authenticate from machine accounts and relaying to the certificate service.
 
@@ -1596,6 +1608,9 @@ CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter.
 
 https://github.com/cxnturi0n/convoC2
 C2 infrastructure over Microsoft Teams.
+
+https://github.com/cyberark/FuzzyAI
+A powerful tool for automated LLM fuzzing. It is designed to help developers and security researchers identify and mitigate potential jailbreaks in their LLM APIs.
 
 https://github.com/cyberark/PipeViewer
 A tool that shows detailed information about named pipes in Windows
@@ -2824,11 +2839,17 @@ A new AMSI Bypass technique using .NET ALI Call Hooking.
 https://github.com/praetorian-inc/ADFSRelay
 Proof of Concept Utilities Developed to Research NTLM Relaying Attacks Targeting ADFS
 
+https://github.com/praetorian-inc/ChromeAlone
+A tool to transform Chromium browsers into a C2 Implant
+
 https://github.com/praetorian-inc/gato
 GitHub Actions Pipeline Enumeration and Attack Tool
 
 https://github.com/praetorian-inc/noseyparker
 Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
+
+https://github.com/praetorian-inc/turnt
+A tool designed for smuggling interactive command and control traffic through legitimate TURN servers hosted by reputable providers such as Zoom.
 
 https://github.com/projectdiscovery/asnmap
 Go CLI and Library for quickly mapping organization network ranges using ASN information.
@@ -3015,6 +3036,9 @@ A script that collects employee data located within Xing
 
 https://github.com/rtecCyberSec/BitlockMove
 Lateral Movement via Bitlocker DCOM interfaces & COM Hijacking
+
+https://github.com/rtecCyberSec/RAITrigger
+Local SYSTEM auth trigger for relaying
 
 https://github.com/rtecCyberSec/SpeechRuntimeMove
 Lateral Movement as loggedon User via Speech Named Pipe COM & ISpeechNamedPipe + COM Hijacking
@@ -3246,6 +3270,9 @@ The GPOddity project, aiming at automating GPO attack vectors through NTLM relay
 
 https://github.com/synacktiv/Invoke-RunAsWithCert
 A PowerShell script to perform PKINIT authentication with the Windows API from a non domain-joined machine.
+
+https://github.com/synacktiv/gpoParser
+gpoParser is a tool designed to extract and analyze configurations applied through Group Policy Objects (GPOs) in an Active Directory environment.
 
 https://github.com/synacktiv/ntdissector
 Ntdissector is a tool for parsing records of an NTDS database. Records are dumped in JSON format and can be filtered by object class.
@@ -3501,6 +3528,9 @@ Official git repo for iodine dns tunnel
 
 https://github.com/yasserbdj96/hiphp
 The BackDoor of HIPHP gives you the power to control websites based on PHP using HTTP/HTTPS protocol. By sending files, tokens and commands through port 80's POST/GET method, users can access a range of activities such as downloading and editing files. It also allows for connecting to Tor networks with password protection for extra security.
+
+https://github.com/yo-yo-yo-jbo/dumping_lsass
+The different ways to dump lsass
 
 https://github.com/yokoffing/Betterfox
 user.js file to harden Firefox and optimize privacy, security, and speed

@@ -21,11 +21,9 @@
 * https://ciphersuite.info
 * https://command-not-found.com
 * https://coveryourtracks.eff.org
-* https://crackstation.net
-* https://crontab.guru
-* https://cryptpad.fr
-* https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg
-* https://cvexploits.io
+* https://crackstation.net ; password-hash #cracking #ntlm #md5 #sha256
+* https://crontab.guru ; #cron #schedule #linux
+* https://cryptpad.fr ; #dump #collaboration-suite
 * https://darkfeed.io
 * https://delivr.to/payloads
 * https://demo.f4map.com
