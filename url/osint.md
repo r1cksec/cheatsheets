@@ -43,7 +43,6 @@
 * https://networksdb.io ; #osint #asn #subdomain #geolocation #whois
 * https://newspapermap.com ; #osint #map #newspaper
 * https://onyphe.io ; #osint #asn #whoi #portscan #webscraping #asn #portscan #subdomain
-* https://openbuckets.io ; #osint #buckets #file-search 
 * https://osint.industries ; #osint #email #user-profile
 * https://osint.sh ; #osint #subdomain #dns-history #whois #nameserver #rootdomain #google-adsense #google-analytics
 * https://osm-search.bellingcat.com ; #osint #geolocation #map #image

@@ -94,6 +94,9 @@ Queries public DNS records for a domain in regard of mail security
 https://github.com/4ra1n/java-gate
 Java JNI HellsGate/HalosGate/TartarusGate/RecycledGate/SSN Syscall/Many Shellcode Loaders
 
+https://github.com/8ales/Azure-AppHunter
+Azure AppHunter is an open-source tool created for security researchers, red teamers and defenders to help them identify excessive privileges assigned to Service Principals
+
 https://github.com/ACE-Responder/RogueSliver
 A suite of tools to disrupt campaigns using the Sliver C2 framework.
 
@@ -102,9 +105,6 @@ This C# code is a console application that attempts to take ownership of a speci
 
 https://github.com/ASOT-LABS/TeamsBreaker
 TeamsBreaker is a tool designed for automating the sending of phishing messages to victims. It is heavily based from TeamsPhisher and TeamsEnum.
-
-https://github.com/ATTACKnDEFEND/pdf-smuggler
-Create PDFs with HTML smuggling attachments that save on opening the document.
 
 https://github.com/Accenture/Codecepticon
 .NET/PowerShell/VBA Offensive Security Obfuscator
@@ -223,9 +223,6 @@ A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition fi
 https://github.com/BishopFox/sliver
 Adversary Emulation Framework
 
-https://github.com/BishopFox/spoofcheck
-Simple script that checks a domain for email protections
-
 https://github.com/BlackSnufkin/GhostDriver
 yet another AV killer tool using BYOVD
 
@@ -234,9 +231,6 @@ Six Degrees of Domain Admin
 
 https://github.com/BushidoUK/Ransomware-Tool-Matrix
 A resource containing all the tools each ransomware gangs uses
-
-https://github.com/C0untFloyd/roop-unleashed
-Evolved Fork of roop with Web Server and lots of additions
 
 https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence
 Protintelligence is a Python script for the OSINT and Cyber Community. It finds intelligence on Protonmail accounts
@@ -330,6 +324,9 @@ Golang library for malware development and red teamers
 
 https://github.com/D4stiny/ForkPlayground
 An implementation and proof-of-concept of Process Forking.
+
+https://github.com/DarkCoderSc/OptixGate
+Open-source multi-purpose remote access tool for Microsoft Windows
 
 https://github.com/DarkCoderSc/PowerBruteLogon
 PowerBruteLogon (Ported version of WinBruteLogon in pure PowerShell)
@@ -469,6 +466,9 @@ Automatic privilege escalation for misconfigured capabilities, sudo and suid bin
 https://github.com/Fudgedotdotdot/dump_kerberos_tickets
 Dump Kerberos tickets like Rubeus's dump command.
 
+https://github.com/Fudgedotdotdot/nimpersonate
+Impersonate Windows tokens in Nim
+
 https://github.com/FuzzySecurity/PowerShell-Suite
 My musings with PowerShell
 
@@ -546,6 +546,9 @@ Extract credentials from lsass remotely
 
 https://github.com/Hackplayers/evil-winrm
 The ultimate WinRM shell for hacking/pentesting
+
+https://github.com/Hakumarachi/keyringCCacheDumper
+A bash script to automatically dump all kerberos secrets stored into keyring
 
 https://github.com/HalilDeniz/DNSWatch
 DNSWatch is a Python-based tool that allows you to sniff and analyze DNS (Domain Name System) traffic on your network.
@@ -703,9 +706,6 @@ A tool leveraging Kerberos tickets to get Microsoft 365 access tokens using Seam
 https://github.com/Maldev-Academy/Christmas
 This PoC creates multiple processes, where each process performs a specific task as part of the injection operation. Each child process will spawn another process and pass the required information via the command line.
 
-https://github.com/Maldev-Academy/EntropyReducer
-Reduce Entropy And Obfuscate Youre Payload With Serialized Linked Lists
-
 https://github.com/Maldev-Academy/ExecutePeFromPngViaLNK
 Extract and execute a PE embedded within a PNG file using an LNK file. The PE file is encrypted using a single-key XOR algorithm and then injected as an IDAT section to the end of a specified PNG file.
 
@@ -744,9 +744,6 @@ LDAP Watchdog: A real-time linux-compatible LDAP monitoring tool for detecting d
 
 https://github.com/MegaManSec/SSH-Snake
 SSH-Snake is a self-propagating, self-replicating, file-less script that automates the post-exploitation task of SSH private key and host discovery.
-
-https://github.com/MellowNight/2D-Injector
-Hiding unsigned DLL inside a signed DLL
 
 https://github.com/Meltedd/HVNC
 Standalone HVNC Client & Server | Coded in C++ (Modified Tinynuke)
@@ -807,9 +804,6 @@ Repository contains psexec, which will help to exploit the forgotten pipe
 
 https://github.com/NHAS/reverse_ssh
 SSH based reverse shell
-
-https://github.com/NUL0x4C/AtomPePacker
-A Highly capable Pe Packer
 
 https://github.com/NUL0x4C/HellShell
 transform your payload into ipv4/ipv6/mac arrays
@@ -990,9 +984,6 @@ Kubernetes exploitation tool
 
 https://github.com/RoseSecurity/ScrapPY
 ScrapPY is a Python utility for scraping manuals, documents, and other sensitive PDFs to generate wordlists that can be utilized by offensive security tools to perform brute force, forced browsing, and dictionary attacks against targets. The tool dives deep to discover keywords and phrases leading to potential passwords or hidden directories.
-
-https://github.com/RtlDallas/Jomungand
-Shellcode Loader with memory evasion
 
 https://github.com/RythmStick/AMSITrigger
 The Hunt for Malicious Strings
@@ -1212,6 +1203,9 @@ PoC for MS-DFSNM coerce authentication using NetrDfsRemoveStdRoot and NetrDfsAdd
 
 https://github.com/Wh1t3Rh1n0/SlackEnum
 A user enumeration tool for Slack.
+
+https://github.com/Whitecat18/Rust-for-Malware-Development
+Rust for malware Development is a repository for advanced Red Team techniques and offensive malwares & Ransomwares, focused on Rust 🦀
 
 https://github.com/WiredPulse/Invoke-HiveNightmare
 PoC for CVE-2021-36934, which enables a standard user to be able to retrieve the SAM, Security, and Software Registry hives in Windows 10 version 1809 or newer
@@ -1551,9 +1545,6 @@ A workshop about Malware Development
 
 https://github.com/citronneur/pamspy
 Credentials Dumper for Linux using eBPF
-
-https://github.com/cjm00n/EvilSln
-A New Exploitation Technique for Visual Studio Projects
 
 https://github.com/clong/DetectionLab
 Automate the creation of a lab environment complete with security tooling and logging best practices
@@ -2053,9 +2044,6 @@ Visualize the time packets spend in the kernel, analyze requests/responses in co
 https://github.com/hephaest0s/usbkill
 « usbkill » is an anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer.
 
-https://github.com/heqnx/SharpAMSIGhosting
-C# port of the AMSI bypass technique originally developed and documented by Andrea Bocchetti
-
 https://github.com/hfiref0x/UACME
 Defeating Windows User Account Control
 
@@ -2407,9 +2395,6 @@ GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumera
 https://github.com/m4ll0k/SecretFinder
 SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files
 
-https://github.com/m4ll0k/infoga
-Infoga - Email OSINT
-
 https://github.com/magisterquis/alpt4ats
 A Lazy Programmer's Tips for Avoiding the SOC ~ BSides Belfast 2024
 
@@ -2427,6 +2412,9 @@ The purpose of this fork is to extract only the files from a network data stream
 
 https://github.com/mandatoryprogrammer/CursedChrome
 Chrome-extension implant that turns victim Chrome browsers into fully-functional HTTP proxies, allowing you to browse sites as your victims.
+
+https://github.com/mandatoryprogrammer/thermoptic
+A next-generation HTTP stealth proxy which perfectly cloaks requests as the Chrome browser across all layers of the stack.
 
 https://github.com/mandiant/CcmPwn
 ccmpwn.py - lateral movement script that leverages the CcmExec service to remotely hijack user sessions.
@@ -2845,6 +2833,9 @@ A tool to transform Chromium browsers into a C2 Implant
 https://github.com/praetorian-inc/gato
 GitHub Actions Pipeline Enumeration and Attack Tool
 
+https://github.com/praetorian-inc/glato
+Glato (pronounced "Gelato"), or GiLab Attack Toolkit, is an enumeration and attack tool that allows both blue teamers and offensive security practitioners to identify and exploit pipeline vulnerabilities within a GitLab Instance's public and private repositories.
+
 https://github.com/praetorian-inc/noseyparker
 Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
 
@@ -3196,9 +3187,6 @@ PDFator is an InfoSec project that consists of a Python script and a C applicati
 https://github.com/snovvcrash/RemoteRegSave
 A .NET implementation to dump SAM, SYSTEM, SECURITY registry hives from a remote host
 
-https://github.com/snovvcrash/SharpDXWebcam
-Utilizing DirectX and DShowNET assemblies to record video from a host's webcam
-
 https://github.com/sockysec/Telerecon
 A reconnaissance framework for researching and investigating Telegram.
 
@@ -3333,6 +3321,9 @@ Checks expired domains for categorization/reputation and Archive.org history to 
 
 https://github.com/threatexpress/invoke-pipeshell
 SMB Named Pipe shell
+
+https://github.com/tijme/dittobytes
+Metamorphic cross-compilation of C++ & C-code to PIC, BOF & EXE.
 
 https://github.com/tillson/git-hound
 Reconnaissance tool for GitHub code search. Finds exposed API keys using pattern matching, commit history searching, and a unique result scoring system.

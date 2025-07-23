@@ -51,7 +51,6 @@
 * https://github.com/indianajson/can-i-take-over-dns
 * https://github.com/infosecn1nja/AD-Attack-Defense
 * https://github.com/infosecn1nja/Red-Teaming-Toolkit
-* https://github.com/INIT6Source/Hacker_Hiring_Discords
 * https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet
 * https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT
 * https://github.com/jatrost/awesome-detection-rules

@@ -1,20 +1,21 @@
-* https://blueteamlabs.online
-* https://github.com/BishopFox/cloudfoxable
-* https://github.com/bkimminich/juice-shop
-* https://github.com/dineshshetty/Android-InsecureBankv2
-* https://github.com/hvqzao/java-deserialize-webapp
-* https://github.com/KolbTo/Vulnerable_Spring_Boot_Project
-* https://github.com/mvelazc0/BadZure
-* https://github.com/Orange-Cyberdefense/GOAD
-* https://github.com/patrickhener/invictus
-* https://github.com/payatu/diva-android
-* https://github.com/RhinoSecurityLabs/cloudgoat
-* https://github.com/simondotsh/nsec2023-ctf-aws
-* https://github.com/WebGoat/WebGoat
-* https://overthewire.org/wargames
-* https://portswigger.net/web-security
-* https://sourceforge.net/projects/metasploitable
-* https://www.hackthebox.eu
-* https://www.soc-labs.top/en/detection
-* https://www.tryhackme.com
-* https://www.vulnhub.com
+* https://blueteamlabs.online ; #blueteam #forensics #reverse-engineering #threat-hunting
+* https://gandalf.lakera.ai/baseline ; #ai #prompt-injection
+* https://github.com/BishopFox/cloudfoxable ; #cloud #aws #pentest
+* https://github.com/dineshshetty/Android-InsecureBankv2 ; #android #pentest
+* https://github.com/hvqzao/java-deserialize-webapp ; #web #pentest #java
+* https://github.com/juice-shop/juice-shop ; #web #owasp #pentest
+* https://github.com/KolbTo/Vulnerable_Spring_Boot_Project ; #web #owasp
+* https://github.com/mvelazc0/BadZure ; #azure #pentest #cloud
+* https://github.com/Orange-Cyberdefense/GOAD ; #active-directory #pentest
+* https://github.com/patrickhener/invictus ; #pentest #osed #ida #reverse-engineering
+* https://github.com/payatu/diva-android : #pentest #android
+* https://github.com/RhinoSecurityLabs/cloudgoat ; #pentest #cloud
+* https://github.com/simondotsh/nsec2023-ctf-aws ; #pentest #cloud #aws
+* https://github.com/WebGoat/WebGoat ; #web #owasp #pentest
+* https://overthewire.org/wargames ; #ssh #command-line
+* https://portswigger.net/web-security ; #web #owasp
+* https://sourceforge.net/projects/metasploitable ; #msf #metasploit #exploit #cve
+* https://www.hackthebox.eu ; #blueteam #pentest #reverse-engineering #web #active-directory #owasp
+* https://www.soc-labs.top/en/detection ; #blueteam #threat-hunting
+* https://www.tryhackme.com ; #pentest #blueteam #threat-hunting #web #owasp
+* https://www.vulnhub.com ; #pentest #web #owasp
