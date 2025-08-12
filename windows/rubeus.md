@@ -1,7 +1,7 @@
 ### Sources or compile directly from github
-https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.0_Any/Rubeus.exe
-https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1  
-https://github.com/GhostPack/Rubeus
+* https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.0_Any/Rubeus.exe
+* https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-Rubeus.ps1  
+* https://github.com/GhostPack/Rubeus
 
 ## Note: Always use the fully qualified domain name to execute commands after getting a ticket
 

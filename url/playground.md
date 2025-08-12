@@ -15,6 +15,7 @@
 * https://overthewire.org/wargames ; #ssh #command-line
 * https://portswigger.net/web-security ; #web #owasp
 * https://sourceforge.net/projects/metasploitable ; #msf #metasploit #exploit #cve
+* https://typo.himanshuanand.com ; #phishing #typosquatted #domain
 * https://www.hackthebox.eu ; #blueteam #pentest #reverse-engineering #web #active-directory #owasp
 * https://www.soc-labs.top/en/detection ; #blueteam #threat-hunting
 * https://www.tryhackme.com ; #pentest #blueteam #threat-hunting #web #owasp

@@ -640,6 +640,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.horizon3.ai/from-cve-2022-33679-to-unauthenticated-kerberoasting ; #kerberoast #active-directory #kerberoast #cve #spn #tgt
 * https://www.http418infosec.com/offsecops-using-jenkins-for-red-team-tooling ; #jenkins #pipeline #obfuscation #csharp
 * https://www.huntandhackett.com/blog/concealed-code-execution-techniques-and-detection ; #concealed-code-execution #detection #process-tampering #code-injection
+* https://www.huntress.com/blog/rare-look-inside-attacker-operation ; #threat-intelligence #malware
 * https://www.icaria.de/posts/2021/07/token2 ; #rfid #totp-hardware-token
 * https://www.ikat.kronicd.net/Linux ; #kiosk #breakout #linux #methodology #cheatsheets
 * https://www.immersivelabs.com/blog/detecting-and-decrypting-sliver-c2-a-threat-hunters-guide ; #threat-intelligence #malware-analyse #sliver #c #detection #dfir #forensic #monitoring
@@ -708,6 +709,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.secura.com/uploads/whitepapers/Secura-WP-Timeroasting-v3.pdf ; #active-directory #kerberos #timeroasting #trustroasting
 * https://www.securesystems.de/blog/active-directory-spotlight-attacking-the-microsoft-configuration-manager ; #windows #sccm #system-centre-configuration-manager #active-directory #hardening
 * https://www.securesystems.de/blog/offphish-phishing-revisited-in-2023 ; #phishing #mail #motw #evasion #bypass
+* https://www.securify.nl/blog/living-off-the-land-stealing-netntlm-hashes ; #windows #active-directory #hash #netntlm #ntlm-relaying #lolbas
 * https://www.securityjoes.com/post/process-mockingjay-echoing-rwx-in-userland-to-achieve-code-execution ; #windows #process-mockingjay #injection #rwx #edr #evasion #bypass
 * https://www.sentinelone.com/labs/dragonspark-attacks-evade-detection-with-sparkrat-and-golang-source-code-interpretation ; #threat-intelligence #malware-analyse #sparkrat #golang #shellcode
 * https://www.shielder.com/blog/2022/09/how-to-decrypt-manage-engine-pmp-passwords-for-fun-and-domain-admin-a-red-teaming-tale ; #reverse-engineering #manageengine-password-manager #java #deserialization

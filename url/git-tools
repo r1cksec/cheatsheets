@@ -226,6 +226,9 @@ Adversary Emulation Framework
 https://github.com/BlackSnufkin/GhostDriver
 yet another AV killer tool using BYOVD
 
+https://github.com/BlackSnufkin/LitterBox
+A secure sandbox environment for malware developers and red teamers to test payloads against detection mechanisms before deployment. Integrates with LLM agents via MCP for enhanced analysis capabilities.
+
 https://github.com/BloodHoundAD/BloodHound
 Six Degrees of Domain Admin
 
@@ -715,6 +718,9 @@ Injecting DLL into LSASS at boot
 https://github.com/Maldev-Academy/MaldevAcademyLdr.1
 Maldev Academy's October update saw several interesting modules being released to our users. One of them was our DLL loader that was successfully tested against several EDRs including MDE and Crowdstrike.
 
+https://github.com/Maldev-Academy/MaldevAcademyLdr.2
+RunPE implementation with multiple evasive techniques
+
 https://github.com/Malwarize/webpalm
 WebPalm is a powerful command-line tool for website mapping and web scraping. With its recursive approach, it can generate a complete tree of all webpages and their links on a website. It can also extract data from the body of each page using regular expressions, making it an ideal tool for web scraping and data extraction.
 
@@ -768,6 +774,9 @@ https://github.com/Mr-Un1k0d3r/.NetConfigLoader
 
 https://github.com/Mr-Un1k0d3r/AMSI-ETW-Patch
 Patch AMSI and ETW
+
+https://github.com/Mr-Un1k0d3r/DotnetNoVirtualProtectShellcodeLoader
+load shellcode without P/D Invoke and VirtualProtect call.
 
 https://github.com/Mr-Un1k0d3r/RedTeamCCode
 Collection of c code for red teaming
@@ -915,6 +924,9 @@ PowerSCCM - PowerShell module to interact with SCCM deployments
 
 https://github.com/Prepouce/CoercedPotato
 From Patate (LOCAL/NETWORK SERVICE) to SYSTEM by abusing SeImpersonatePrivilege on Windows 10, Windows 11 and Server 2022.
+
+https://github.com/Print3M/ByteCaster
+Swiss Army Knife for payload encryption, obfuscation, and conversion to byte arrays – all in a single command (14 output formats supported)!
 
 https://github.com/Print3M/DllShimmer
 Weaponize DLL hijacking easily. Backdoor any function in any DLL.
@@ -1173,6 +1185,9 @@ A Linux persistence tool!
 
 https://github.com/Tw1sm/PySQLRecon
 Offensive MSSQL toolkit written in Python, based off SQLRecon
+
+https://github.com/TwoSevenOneT/WSASS
+This is the tool to dump the LSASS process on modern Windows 11
 
 https://github.com/Tylous/FaceDancer
 FaceDancer is an exploitation tool aimed at creating hijackable, proxy-based DLLs by taking advantage of COM-based system DLL image loading
@@ -1741,6 +1756,9 @@ Active Directory Integrated DNS dumping by any authenticated user
 https://github.com/dirkjanm/ldapdomaindump
 Active Directory information dumper via LDAP
 
+https://github.com/dis0rder0x00/obex
+Obex – Blocking unwanted DLLs in user mode
+
 https://github.com/djhohnstein/SharpChromium
 .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
 
@@ -1932,6 +1950,9 @@ List of known AWS accounts
 
 https://github.com/g0h4n/REC2
 REC2 (Rusty External Command and Control) is client and server tool allowing auditor to execute command from VirusTotal and Mastodon APIs written in Rust.
+
+https://github.com/gabriel-sztejnworcel/pipe-intercept
+Intercept Windows Named Pipes communication using Burp or similar HTTP proxy tools
 
 https://github.com/gajos112/RegRipperPlugins
 In this repository you can find all RegRipper plugins that I have created. We encourage you to improve them and update these changes!
@@ -3342,6 +3363,9 @@ Make JSON greppable!
 
 https://github.com/tomnomnom/waybackurls
 Fetch all the URLs that the Wayback Machine knows about for a domain
+
+https://github.com/toneillcodes/EntraID-API-Library
+A collection of useful API endpoints for security operators and administrators
 
 https://github.com/topotam/PetitPotam
 PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions.

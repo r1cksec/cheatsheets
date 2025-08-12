@@ -26,3 +26,10 @@ openssl x509 -text -noout -in <file>.pem
 openssl crl -in <file>.crl -inform DER -text -noout
 ```
 
+### Generate self signed certificate
+```
+openssl genrsa -out <keyfile>.key 4096
+openssl req -new -key <keyfile>.key -out <signrequestfile>.csr
+openssl x509 -req -days 365 -in <signrequestfile>.csr -signkey <keyfile>.key -out <certfile>.crt
+```
+

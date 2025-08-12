@@ -61,7 +61,6 @@
 * https://searchcode.com ; #osint #source-code #repository
 * https://securitytrails.com ; #osint #subdomain #nameserver #portscan #dns-history #whois
 * https://spydialer.com ; #phone #email #address
-* https://spyonweb.com ; #osint #nameserver #dns-history #google-id #google-analytics #google-adsense #rootdomain
 * https://sslmate.com ; #osint #domain #subdomain #certificate
 * https://tineye.com ; #osint #reverse-image-search
 * https://tls.bufferover.run ; #osint #certificate #domain #subdomain

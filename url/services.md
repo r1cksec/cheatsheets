@@ -64,6 +64,7 @@
 * https://otc.armchairresearch.org/map
 * https://phishingquiz.withgoogle.com
 * https://phishtank.com
+* https://phishyurl.com ; #phishing #domain #url
 * https://pkg.kali.org
 * https://privacy.sexy
 * https://privacytests.org
