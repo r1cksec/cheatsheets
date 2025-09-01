@@ -14,5 +14,6 @@ $shortcut.Save()
 ```
 $Home\Desktop
 $env:APPDATA\Roaming\Microsoft\Windows\Start Menu
+$env:APPDATA\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
 ```
 

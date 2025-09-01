@@ -41,6 +41,7 @@
 * https://an0n-r0.medium.com/backdooring-clickonce-net-for-initial-access-a-practical-example-1eb6863c0579 ; #phishing #windows #clickonce-dot-net #backdoor #initial-access
 * https://andresriancho.com/wp-content/uploads/2019/06/whitepaper-internet-scale-analysis-of-aws-cognito-security.pdf ; #aws #cognito #cloud #big-data
 * https://angry-bender.github.io/blog/SIEM-On-The-Cheap-Using-Sqlite-For-Data-Analysis ; #sqlite #csv #forensic #dfir
+* https://article.pacificsec.com/blog/2025-02-03-abusing-github-actions-to-compromise-aws-accounts ; #aws #github #cicd #continuous-integration-continous-deployment #openid-connect #yaml
 * https://artkond.com/2017/03/23/pivoting-guide ; #pivot #ssh #icmp #dns #iodine #socks #proxychains
 * https://assume-breach.medium.com/home-grown-red-team-hosting-encrypted-stager-shellcode-1dc5e06eaeb3 ; #metepreter #mfsvenom #shellcode #encrypted #evasion #bypass #edr #python
 * https://assume-breach.medium.com/home-grown-red-team-lnk-phishing-revisited-in-2023-364daf70a06a ; #phishing #initial-access #lnk #windows #csharp #dll
@@ -95,6 +96,7 @@
 * https://blog.cyble.com/2023/06/09/over-45-thousand-users-fell-victim-to-malicious-pypi-packages ; #threat-intelligence #python #pypi #supply-chain
 * https://blog.cyble.com/2023/06/13/threat-actor-targets-russian-gaming-community-with-wannacry-imitator ; #threat-intelligence #malware-analyse #gaming #ransomware #wannacry
 * https://blog.deeb.ch/posts/how-edr-works ; #edr #evasion #bypass #shellcode #signature #event-tracing-for-windows #etw #hooks #memory #kernel
+* https://blog.delivr.to/filejacking-exfiltrating-mapped-drives-from-the-browser-bb0af6736625 ; #phishing #chrome #edge #file-api #javascript #initial-access
 * https://blog.delivr.to/svg-smuggling-a-picture-worth-a-thousand-words-fae8a946a300?gi=e2ee37ee9c09 ; #threat-intelligence #malware-analyse #svg-smuggling
 * https://blog.deteact.com/gunicorn-http-request-smuggling ; #web #http-request-smuggling
 * https://blog.didierstevens.com/2023/01/22/analyzing-malicious-onenote-documents ; #threat-intelligence #malware-analyse #onenote
@@ -112,6 +114,7 @@
 * https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary ; #threat-intelligence #malware-analyse #atm
 * https://blog.nviso.eu/2024/08/02/from-evidence-to-advantage-leveraging-incident-response-artifacts-for-red-team-engagements ; #windows-api #registry #forensic-artifacts
 * https://blog.orange.tw/posts/2024-08-confusion-attacks-en ; #web #apache #filename-confusion #acl-bypass #server-side-code-disclosure #handler-confusion #php
+* https://blog.phantomsec.tools/phantom-persistence ; #persistence #run-once #register-application-restart
 * https://blog.phylum.io/attackers-repurposing-existing-python-based-malware-for-distribution-on-npm ; #supply-chain #npm #python #malware-analyse
 * https://blog.plerion.com/things-you-wish-you-didnt-need-to-know-about-s3 ; #aws #bucket #s3 #storage #cognito
 * https://blog.projectdiscovery.io/guide-to-dns-takeovers ; #dns-takeover #nameserver #subdomain-takeover #osint #reconaissance
@@ -175,6 +178,7 @@
 * https://cyberdom.blog/2023/12/03/spotting-the-adversary-with-microsoft-defender-for-identity ; #azure #entra #microsoft-defender-for-identity #event-id #forensic #dfir #dcshadow #mdi
 * https://cyberdom.blog/2023/12/09/unmasking-the-shadows-the-art-of-threat-hunting-in-defender-for-identity ; #azure #entra #microsoft-defender-for-identity #forensic #dfir #threat-hunting #ldap #mdi
 * https://cybergladius.com/bash-code-obfuscation ; #obfuscation #bash #linux #backdoor
+* https://cybersecuritynews.com/phishing-attack-uses-japanese-character ; #phishing #punycode #spoofing #unicode #url
 * https://dazzyddos.github.io/posts/Abusing_Exclusions_To_Evade_Detection ; #windows #defender-exclusion #anti-virus-evasion
 * https://dec0ne.github.io/research/2022-11-14-Undetected-Lsass-Dump-Workflow ; #windows #lsass #syscall #bypass #av #anti-virus #dump
 * https://decoded.avast.io/janvojtesek/raspberry-robins-roshtyak-a-little-lesson-in-trickery ; #threat-intelligence #malware-analyse #raspberry-robin #shellcode
@@ -192,6 +196,7 @@
 * https://dfir.ch/posts/search-ms_protocol_handler ; #threat-intelligence #search-ms #uri-handler #protocol-provider #phishing
 * https://diablohorn.com/2023/08/22/lateral-movement-a-conceptual-overview ; #lateral-movement #network #identity
 * https://digitalinvestigator.blogspot.com/2022/11/techniques-in-email-forensic-analysis.html ; #forensic #dfir #email
+* https://dirkjanm.io/extending-ad-cs-attack-surface-intune-certs ; #azure #entra #cloud #pkcs #scep #pfx #intune #certficate #rubeus #esc1
 * https://dirkjanm.io/lateral-movement-and-hash-dumping-with-temporary-access-passes-microsoft-entra ; #entra #azure #temporary-access-passes #cloud-kerberos-trust
 * https://dirkjanm.io/obtaining-domain-admin-from-azure-ad-via-cloud-kerberos-trust ; #kerberos #active-directory #trust #azure #entra #ntlm
 * https://dirkjanm.io/phishing-for-microsoft-entra-primary-refresh-tokens ; #azure #entra #phishing #primary-refresh-token
@@ -502,6 +507,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://samcurry.net/web-hackers-vs-the-auto-industry ; #webapp #car-hacking #api
 * https://sandflysecurity.com/blog/detecting-linux-memfd-create-fileless-malware-with-command-line-forensics ; #forensic #dfir #fileless-malware #linux
 * https://sapphirex00.medium.com/c2-antiforensics-evading-network-detection-with-metasploit-b400342f20b1 ; #meterpreter #network-detection #evasion #bypass #tcp #https
+* https://scorpiosoftware.net/2020/07/17/creating-registry-links ; #registry #windows #hkey #hkey-local-machine
 * https://scorpiosoftware.net/2023/09/24/windows-hook-events ; #windows #event-hooking #dll-injection
 * https://sec-consult.com/blog/detail/msi-installer-repair-to-system-a-detailed-journey ; #windows #msi #local-privilege-escalation
 * https://sec-consult.com/blog/detail/smtp-smuggling-spoofing-e-mails-worldwide ; #phishing #smtp #mail #spoofing
@@ -705,6 +711,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.proofpoint.com/us/threat-insight/post/ursnif-banking-trojan-campaign-sandbox-evasion-techniques ; #sandbox #threat-intelligence #macro
 * https://www.prosec-networks.com/en/blog/petit-potam-ntlm-relay-angriff ; #active-directory #certificate-service #adcs #petit-potam #printerbug #rpc
 * https://www.rapid7.com/blog/post/2023/05/05/appdomain-manager-injection-new-techniques-for-red-teams ; #windows #lateral-movement #persistence #initial-access #appdomain-manager-injection #powershell
+* https://www.recordedfuture.com/research/behind-the-curtain-how-lumma-affiliates-operate ; #malware #threat-intelligence #lumma #stealer #proxy
 * https://www.redteam.cafe/phishing/long-live-dmarc-email-spoof-issues ; #phishing #dmarc #spoofing #mail
 * https://www.redteam.cafe/red-team/dll-sideloading/dll-sideloading-not-by-dllmain ; #windows #dll #sideloading #hijack #frida
 * https://www.reliaquest.com/blog/scattered-spider-attack-analysis-account-compromise ; #scattered-spider #ransomware #threat-intelligence
