@@ -4,6 +4,11 @@ https://login.microsoftonline.com/getuserrealm.srf?login=<targetMail>
 https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
 ```
 
+### Get tenant id
+```
+curl -s "https://login.microsoftonline.com/<tenant>/v2.0/.well-known/openid-configuration" | jq -r '.issuer'
+```
+
 ### Services
 * https://admin.exchange.microsoft.com
 * https://admin.microsoft.com

@@ -13,6 +13,6 @@ swaks --server <mailServerIp> --to <receiver>@<domain> --from <sender>@<domain> 
 
 ### Send authenticated HTML E-Mail using gmail
 ```
-swaks -a <user>@<domain> -s smtp.gmail.com:587 -tls -a LOGIN --to <receiver>@<domain> --body <file>.html -header "Subject: <subject>"
+swaks -s smtp.gmail.com:587 -tls -a LOGIN --to <receiver>@<domain> --body <file>.html -header "Subject: <subject>" --auth-password <user> --auth-password <password>
 ```
 

@@ -32,6 +32,7 @@
 * https://hackertarget.com/reverse-analytics-search ; #osint #google-adsense #google-analytics #rootdomain #http-header #http-title #nameserver #reverse-ip
 * https://haveibeenpwned.com ; #osint #breach #leak #email
 * https://hunter.io ; #osint #domain #email #user-profile
+* https://iknowwhatyoudownload.com ; #osint #torrent #download #ipv4
 * https://intelx.io ; #osint #crawling #breach #leak #email #user-profile #phone #geolocation #bitcoin #social-media
 * https://ipinfo.io ; #osint #geolocation #hostname #asn
 * https://iplocation.net ; #osint #geolocation #hostname #user-agent
@@ -54,6 +55,7 @@
 * https://pimeyes.com ; #osint #reverse-image-search #facial-recognition
 * https://predictasearch.com ; #osint #email #user-profile #phone
 * https://psbdmp.ws ; #osint #storage #dumps
+* https://radar.cloudflare.com ; #osint #bot #http #asn #certficate #whois #dns
 * https://saucenao.com ; #osint #reverse-image-search
 * https://scam-alert.io ; #scam #crypto-wallet
 * https://scamsearch.io ; #scam-database #email #username #phone #crypto-wallet

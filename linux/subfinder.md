@@ -16,13 +16,16 @@ digitorus
 dnsdumpster
 gitlab
 hackertarget
+hudsonrock
 leakix
 netlas
+pugrecon
 rapiddns
 reconcloud
 redhuntlabs
 riddler
 sitedossier
+threatcrowd
 threatminer
 waybackarchive
 ```
@@ -30,16 +33,17 @@ waybackarchive
 ### OSINT sources with API key
 ```
 bevigil
-binaryedge
 bufferover
 builtwith
 c99
 censys
-certspotter
-chaos
+certspotter (sslmate)
+chaos (projectdiscovery)
 chinaz
+digitalyama
 dnsdb
 dnsrepo
+driftnet
 facebook
 fofa
 fullhunt
@@ -49,6 +53,7 @@ intelx
 passivetotal
 quake
 robtex
+rsecloud
 securitytrails
 shodan
 threatbook
@@ -63,6 +68,12 @@ Path to config:
 $HOME/.config/subfinder/provider-config.yaml
 
 Example:
-binaryedge: [apiKey]
+bevigil: [apiKey]
+
+List sources (listed sources depend on provider-config.yaml)
+subfinder --provider-config provider-config.yaml -ls
+
+Overview of current OSINT provider:
+pkg/passive/sources_test.go
 ```
 

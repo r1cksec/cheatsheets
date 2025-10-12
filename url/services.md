@@ -20,6 +20,8 @@
 * https://check-host.net ; #distributed-denial-of-service #ddos #health-status
 * https://ciphersuite.info
 * https://command-not-found.com
+* https://config.zscaler.com/zscaler.net/cenr ; #zscaler #ip-address-ranges
+* https://copy.sh/v86 ; #emulator #operating-system
 * https://coveryourtracks.eff.org
 * https://crackstation.net ; password-hash #cracking #ntlm #md5 #sha256
 * https://crontab.guru ; #cron #schedule #linux

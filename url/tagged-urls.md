@@ -60,6 +60,7 @@
 * https://badoption.eu/blog/2023/12/21/RedirectChain.html ; #windows #phishing #python #java #ruby #uri-handler #edge #protocol-provider #webdav #visual-studio
 * https://badoption.eu/blog/2024/01/12/teams5.html ; #ms-teams #phishing #bypass #instant-messenger
 * https://badoption.eu/blog/2024/04/25/netntlm.html ; #windows #active-directory #ntlm-relaying #ssh #http-sys #searchConnectors-ms #lnk
+* https://badoption.eu/blog/2025/04/07/zipcrack.html ; #zip #archive #plaintext #bkcrack
 * https://badoption.eu/docs/blog/2023/01/31/code_c2.html ; #c2 #command-and-control #vscode #tunnel
 * https://bakerstreetforensics.com/2023/07/19/hunting-for-indicators-with-powershell-new-files ; #threat-intelligence #malware-analyse #forensic #dfir #powershell
 * https://baldur.dk/blog/writing-metasploit-exploit.html ; #metasploit #exploit-development #ruby
@@ -168,6 +169,7 @@
 * https://cocomelonc.github.io/persistence/2024/08/14/malware-pers-26.html ; #windows #persistence #dll #socket #procmon
 * https://code.visualstudio.com/docs/remote/tunnels ; #pivoting #tunnel #vs-code
 * https://code-white.com/blog/2023-08-blindsiding-auditd-for-fun-and-profit ; #linux #audit-events #evasion #apollon #daphne #detection
+* https://code-white.com/blog/ivanti-desktop-and-server-management ; #windows #ivanti #dsm #desktop-server-management #software-distribution #rpc #credential-dump #privesc #privilege-escalation #msi
 * https://code-white.com/blog/teaching-the-old-net-remoting-new-exploitation-tricks ; #dot-net-remoting #marshaling #log4net #deserialization
 * https://codewhitesec.blogspot.com/2023/04/java-exploitation-restrictions-in.html ; #java #deserialization #jdk #ysoserial
 * https://csandker.io/2022/10/19/Untangling-Azure-Permissions.html ; #cloud #azure #entra #access-permission #app-roles #api-permissions
@@ -246,6 +248,7 @@
 * https://github.com/tothi/pwn-hisilicon-dvr ; #hisilicon #dvr #hi3520d #firmware #remote-code-execution #telnet
 * https://github.com/trickster0/PrimitiveInjection ; #write-allocation #etw #event-tracing-for-windows #evasion #process-injection
 * https://github.security.telekom.com/2024/07/rt-peripheral-sight-printer-cve.html ; #active-directory #printer #ldap #smtp
+* https://globetech.biz/index.php/2025/06/16/the-return-of-amsi-easy-dll-patching-without-c3 ; #windows #powershell #antimalware-scan-interface #amsi #bypass
 * https://godiego.co/posts/STO-Azure ; #cloud #azure #entra #subdomain-takeover #cloudapp #traffic-manager
 * https://h4ndsh.github.io/2023/phpinfo ; #web #php #remote-code-execution #register-argc-argv #pearcmd
 * https://hackcompute.com/hacking-epp-servers ; #webapp #epp #dns #extensible-provision-protocol
@@ -278,6 +281,7 @@
 * https://itm4n.github.io/ghost-in-the-ppl-part-3 ; #windows #lsass-dump #autodial #ppl #mini-dump-write-dump
 * https://itm4n.github.io/lsass-runasppl ; #windows #lsass #lsa-protection #runasppl #credential-guard #driver
 * https://itm4n.github.io/printnightmare-exploitation ; #windows #printer #printnightmare #powershell #bring-your-own-vulnerable-printer-driver 
+* https://itm4n.github.io/reinventing-powershell ; #powershell #amsi #antimalware-scan-interface #c #transcription #execution-policy #constrained-language-mode #applocker #windows #bypass
 * https://itm4n.github.io/windows-dll-hijacking-clarified ; #windows #dll #sideloading #hijack
 * https://j4s0nmo0n.github.io/belettetimoree.github.io/2023-12-01-WSUS-to-ESC8.html ; #windows #wsus #man-in-the-middle #mitm #adcs #active-directory #certificate-service #pkinit #ntlmrelay #kerberos #tgt
 * https://javascript.info ; #javascript #wiki #cheatsheets
@@ -344,6 +348,7 @@
 * https://medium.com/@brsdncr/malicious-document-analysis-ii-12b1e697457e ; #threat-intelligence #malware #binary-analyse #forensic #dfir
 * https://medium.com/cider-sec/ppe-poisoned-pipeline-execution-34f4e8d0d4e9 ; #poisoned-pipeline-xecution #jenkins #ec2 #api #secrets #cicd #continuous-integration-continous-deployment
 * https://medium.com/@cyb_detective/how-to-automate-the-analysis-of-links-to-user-profiles-obtained-with-nickname-enumeration-tools-1d0abaf22c53 ; #osint #nickname #nuclei
+* https://medium.com/@danemeth90/revisiting-browser-cache-smuggling-1a8ab374d55e ; #phishing #browser-cache-smuggling #com-hijacking #intial-access
 * https://medium.com/@knownsec404team/unveiling-the-dark-gray-market-organizations-behind-the-vpn-scenes-f2b8dbf09467 ; #threat-intelligence #vpn #zoomeye #ssl-certificate
 * https://medium.com/@lsepaolo/threat-hunting-dns-c2-c461abf4794d ; #threat-intelligence #dfir #elastic #sliver #dns #command-and-control #c2
 * https://medium.com/@MahendravarmanR/endpoint-detection-and-response-edr-using-elastic-stack-ac125724ad23 ; #elastic-edr #lab-setup
@@ -635,8 +640,10 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.ghostlulz.com/blog/binary-exploitation-ret2libc ; #buffer-overflow #linux #gdb
 * https://www.guidepointsecurity.com/blog/beyond-the-basics-exploring-uncommon-ntlm-relay-attack-techniques ; #windows #active-directory #ntlm-relay #shadow-credentials #s4u2self #resource-based-delegation
 * https://www.guidepointsecurity.com/blog/sccm-exploitation-evading-defenses-and-moving-laterally-with-sccm-application-deployment ; #sccm #system-centre-configuration-manager #windows #active-directory
+* https://www.hackcraft.gr/2025/10/xwizard-from-xml-to-shellexec-using-wizardry ; #windows #initial-access #xwizards #xml #dll
 * https://www.hackerone.com/application-security/guide-subdomain-takeovers ; #web #subdomain-takeover #cname #osint #methodology #dns
 * https://www.hackthebox.com/blog/llmnr-poisoning-attack-detection ; #llmnr ntlm-relay #detection
+* https://www.hexacorn.com/blog/category/autostart-persistence ; #windows #persistence #dll #registry-key
 * https://www.horizon3.ai/from-cve-2022-33679-to-unauthenticated-kerberoasting ; #kerberoast #active-directory #kerberoast #cve #spn #tgt
 * https://www.http418infosec.com/offsecops-using-jenkins-for-red-team-tooling ; #jenkins #pipeline #obfuscation #csharp
 * https://www.huntandhackett.com/blog/concealed-code-execution-techniques-and-detection ; #concealed-code-execution #detection #process-tampering #code-injection
@@ -699,6 +706,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://www.rezonate.io/blog/har-files-attack-okta-customers ; #cookies #har #web #threat-intelligence
 * https://www.riskinsight-wavestone.com/en/2023/10/a-universal-edr-bypass-built-in-windows-10 ; #edr #windows #evasion #bypass
 * https://www.rootcat.de/blog/ec2-meta_may23 ; #cloud #aws #ec2 #meta-data
+* https://www.r-tec.net/r-tec-blog-bypass-amsi-in-2025.html ; #windows #powershell #antimalware-scan-interface #amsi #bypass
 * https://www.r-tec.net/r-tec-blog-evade-signature-based-phishing-detections.html ; #phishing #evasion #signature-based #safe-browsing
 * https://www.r-tec.net/r-tec-blog-net-assembly-obfuscation-for-memory-scanner-evasion.html ; #dot-net #memory-scanner #evasion #reflective-loader #obfuscation
 * https://www.r-tec.net/r-tec-blog-process-injection-avoiding-kernel-triggered-memory-scans.html ; #process-injection #event-tracing-for-windows #pic #etw #edr #kernel

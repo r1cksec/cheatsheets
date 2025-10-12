@@ -43,6 +43,9 @@ Script designed to identify Canary Tokens within Microsoft Office documents and 
 https://github.com/0xZDH/o365spray
 Username enumeration and password spraying tool aimed at Microsoft O365.
 
+https://github.com/0xagil/Clickfix-Email
+This repository contains a proof of concept demonstrating the ClickFix attack technique - a CSS-based social engineering attack where visible text differs from the actual copied content.
+
 https://github.com/0xda568/IconJector
 This is a Windows Explorer DLL injection technique that uses the change icon dialog on Windows.
 
@@ -223,6 +226,9 @@ A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition fi
 https://github.com/BishopFox/sliver
 Adversary Emulation Framework
 
+https://github.com/BishopFox/unredacter
+Never ever ever use pixelation as a redaction technique (blurr)
+
 https://github.com/BlackSnufkin/GhostDriver
 yet another AV killer tool using BYOVD
 
@@ -310,6 +316,9 @@ AutoRMM is a collection of scripts and instructions we are organizing, to test d
 https://github.com/Cryakl/Ultimate-RAT-Collection
 For educational purposes only, exhaustive samples of 450+ classic/modern trojan builders including screenshots.
 
+https://github.com/CsEnox/SeManageVolumeExploit
+The capacity to create a file under user control within protected directories opens up a multitude of possibilities for privilege escalation. One of the relatively straightforward techniques involves replacing the "Printconfig.dll" file situated at "C:\Windows\System32\spool\drivers\x64\3" with a malicious DLL.
+
 https://github.com/CycodeLabs/raven
 CI/CD Security Analyzer
 
@@ -381,6 +390,12 @@ C# tool to discover low hanging fruits
 
 https://github.com/EricZimmerman/LECmd
 Lnk Explorer Command line edition!!
+
+https://github.com/Esonhugh/ysoysoserial.net
+a golang based dotnet ysoserial poc generation tool. Operated by cursor and metasploit
+
+https://github.com/EvilBytecode/Amsi-Patch-Updated-2025
+How to bypass AMSI (Antimalware Scan Interface) in PowerShell/C++ by dynamically patching the AmsiScanBuffer function.
 
 https://github.com/EvotecIT/GPOZaurr
 Group Policy Eater is a PowerShell module that aims to gather information about Group Policies but also allows fixing issues that you may find in them.
@@ -573,6 +588,9 @@ Harden Windows Safely, Securely using Official Supported Microsoft methods and p
 
 https://github.com/HunnicCyber/SharpSniper
 Find specific users in active directory via their username and logon IP address
+
+https://github.com/IcarusxB/Past-Life
+CLI tool to inspect Solana accounts, transactions, daily balances and max recorded balance
 
 https://github.com/Idov31/Cronos
 PoC for a new sleep obfuscation technique leveraging waitable timers to evade memory scanners.
@@ -853,6 +871,9 @@ A proxy aware C2 framework used to aid red teamers with post-exploitation and la
 https://github.com/NocteDefensor/Sharelord
 .NET Assembly that creates network shares,sets ACE entries for directories, sets share perms, and deletes shares. Learning project for C#
 
+https://github.com/Nomad0x7/sekken-enum
+A Beacon Object File (BOF) for Active Directory enumeration through Active Directory Web Services (ADWS) compatible with BOFHound
+
 https://github.com/Notselwyn/CVE-2024-1086
 Universal local privilege escalation Proof-of-Concept exploit for CVE-2024-1086, working on most Linux kernels between v5.14 and v6.6, including Debian, Ubuntu, and KernelCTF. The success rate is 99.4% in KernelCTF images.
 
@@ -1039,6 +1060,9 @@ Decrypt Veeam database passwords
 https://github.com/S3cur3Th1sSh1t/WinPwn
 Automation for internal Windows Penetrationtest / AD-Security
 
+https://github.com/SECFORCE/LLMGoat
+This project is a deliberately vulnerable environment to learn about LLM-specific risks based on the OWASP Top 10 for LLM Applications.
+
 https://github.com/SECFORCE/SharpWhispers
 C# porting of SysWhispers2. It uses SharpASM to find the code caves for executing the system call stub.
 
@@ -1065,6 +1089,9 @@ Impacket is a collection of Python classes for working with network protocols.
 
 https://github.com/SecurityRiskAdvisors/letitgo
 Enumerate and check domains for Azure tenants
+
+https://github.com/Shac0x/Wonka
+Wonka is a sweet Windows tool that extracts Kerberos tickets from the Local Security Authority (LSA) cache. Like finding a ticket, but for security research and penetration testing!
 
 https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC
 CVE-2021-28482
@@ -1339,6 +1366,9 @@ A vulnerability scanner for container images and filesystems
 https://github.com/anderspitman/awesome-tunneling
 List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
 
+https://github.com/andreisss/Ghosting-AMSI
+AMSI Bypass via RPC Hijack (NdrClientCall3) This technique exploits the COM-level mechanics AMSI uses when delegating scan requests to antivirus (AV) providers through RPC.
+
 https://github.com/andreisss/Living-off-the-COM-Type-Coercion-Abuse
 This technique leverages PowerShell's .NET interop layer and COM automation to achieve stealthy command execution by abusing implicit type coercion
 
@@ -1576,6 +1606,15 @@ PSAmsi is a tool for auditing and defeating AMSI signatures.
 https://github.com/cobbr/SharpSploit
 SharpSploit is a .NET post-exploitation library written in C#
 
+https://github.com/codewhitesec/HandleKatz
+PIC lsass dumper using cloned handles
+
+https://github.com/codewhitesec/Lastenzug
+Socks4a proxy leveraging PIC, Websockets and static obfuscation on assembly level
+
+https://github.com/codewhitesec/dsm
+This repository contains some proof of concept exploits targeting Ivanti Desktop and Server Management (DSM).
+
 https://github.com/codingo/dorky
 A tool to quickly do keyword searches over Gitlab and Github for OSINT & bug bounty recon
 
@@ -1589,7 +1628,7 @@ https://github.com/conflict-investigations/media-search-engine
 Search geolocations for (social) media posts in databases like Bellingcat, Cen4InfoRes etc.
 
 https://github.com/corkami/pics
-File formats explanations, logos redrawing...
+File formats dissections and more...
 
 https://github.com/cribdragg3r/Alaris
 A protective and Low Level Shellcode Loader that defeats modern EDR systems.
@@ -1846,6 +1885,9 @@ A collection of modules and scripts to help with analyzing Nim binaries
 https://github.com/evallen/ntpescape
 NTP Exfiltration Tool
 
+https://github.com/eversinc33/NetRunner
+A .NET assembly tracer using Harmony for runtime method interception
+
 https://github.com/evild3ad/MemProcFS-Analyzer
 MemProcFS-Analyzer - Automated Forensic Analysis of Windows Memory Dumps for DFIR
 
@@ -2092,6 +2134,9 @@ This script prints details about an NFS server and detects some potential miscon
 https://github.com/hyc/fcrackzip
 A braindead program for cracking encrypted ZIP archives. Forked from http://oldhome.schmorp.de/marc/fcrackzip.html
 
+https://github.com/i-am-shodan/USBArmyKnife
+USB Army Knife – the ultimate close access tool for penetration testers and red teamers.
+
 https://github.com/iagox86/dnscat2
 Welcome to dnscat2, a DNS tunnel that WON'T make you sick and kill you!
 
@@ -2324,13 +2369,7 @@ https://github.com/kobs0N/CVE-2019-11581.git
 CVE-2019–11581 PoC
 
 https://github.com/l4rm4nd/LinkedInDumper
-Python 3 script to dump company employees from LinkedIn API
-
-https://github.com/l4rm4nd/LinkedInDumper
 Python 3 script to dump/scrape/extract company employees from LinkedIn API
-
-https://github.com/l4rm4nd/XingDumper
-Python 3 script to dump company employees from XING API
 
 https://github.com/l4rm4nd/XingDumper
 Python 3 script to dump/scrape/extract company employees from XING API
@@ -2896,6 +2935,9 @@ A streamlined tool for discovering TLDs, associated domains, and related domain 
 https://github.com/projectdiscovery/useragent
 Curated list of categorized User Agents
 
+https://github.com/protectai/modelscan
+Protection against Model Serialization Attacks
+
 https://github.com/prowler-cloud/prowler
 Prowler is an Open Source Security tool for AWS, Azure and GCP to perform Cloud Security best practices assessments, audits, incident response, compliance, continuous monitoring, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, GXP, Well-Architected Security, ENS and more.
 
@@ -3394,6 +3436,9 @@ Tool for viewing NTDS.dit
 https://github.com/trustedsec/ELFLoader
 This is a ELF object in memory loader/runner. The goal is to create a single elf loader that can be used to run follow on capabilities across all x86_64 and x86 nix operating systems.
 
+https://github.com/trustedsec/Titanis
+Windows protocol library, including SMB and RPC implementations, among others.
+
 https://github.com/trustedsec/hardcidr
 hardCIDR is a Linux Bash script, but also functions under macOS. Your mileage may vary on other distros. The script with no specified options will query ARIN and a pool of BGP route servers. The route server is selected at random at runtime.
 
@@ -3495,6 +3540,9 @@ Active Directory reconnaissance and exploitation for Red Teams via the Active Di
 
 https://github.com/wh0amitz/SharpRODC
 To audit the security of read-only domain controllers
+
+https://github.com/whokilleddb/clickforclickonce
+ClickForClickOnce project aims at providing a web-based interface for easily generating configurable and ready-to-deploy clickonce payloads. The project uses Microsoft signed binaries in it's ClickOnce deployments and then sideloads a payload DLL using AppDomainManager Injection.
 
 https://github.com/wixtoolset/wix3
 WiX Toolset v3.x (create msi files)
