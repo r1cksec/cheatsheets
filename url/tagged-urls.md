@@ -183,6 +183,7 @@
 * https://cybersecuritynews.com/phishing-attack-uses-japanese-character ; #phishing #punycode #spoofing #unicode #url
 * https://dazzyddos.github.io/posts/Abusing_Exclusions_To_Evade_Detection ; #windows #defender-exclusion #anti-virus-evasion
 * https://dec0ne.github.io/2022-11-14-Undetected-Lsass-Dump-Workflow ; #windows #lsass #syscall #bypass #av #anti-virus #dump
+* https://deceptiq.com/blog/ntuser-man-registry-persistence ; #registry #ntuser.dat #ntuser.man #persistence
 * https://decoder.cloud/2022/09/21/giving-juicypotato-a-second-chance-juicypotatong ; #privesc #privilege-escalation #juicy-potato #windows #clsid
 * https://decoder.cloud/2023/02/13/localpotato-when-swapping-the-context-leads-you-to-system ; #windows #ntlm #local-potato
 * https://decoder.cloud/2023/09/05/from-ntauthcertificates-to-silver-certificate ; #windows #adcs #active-directory #certificate-service
@@ -208,7 +209,7 @@
 * https://embee-research.ghost.io/practical-queries-for-malware-infrastructure-part-3 ; #threat-intelligence #censys #malware-infrastructure
 * https://embee-research.ghost.io/threat-intel-queries-with-fofabot ; #fofa #cheatsheets #queries #threat-intelligence #malware
 * https://embracethered.com/blog/posts/2024/security-probllms-in-xai-grok ; #llm #large-language-model #prompt-injection #grok
-* http://sensepost.com/blog/2024/dumping-lsa-secrets-a-story-about-task-decorrelation ; #windows #lsa #registry #dump #secret
+* http://sensepost.com/blog/2024/dumping-lsa-secrets-a-story-about-task-decorrelation ; #windows #lsa #registry #dump #secretsdump #system #security #sam
 * https://espysys.com/blog/telegram-osint-the-ultimate-guide-to-unveiling-insights-beyond-what-meets-the-eye ; #osint #telegram
 * https://eta.st/2023/01/31/rail-tickets.html ; #reverse-engineering #rail-ticket #decompiling
 * https://exploit.ph/des-is-useful.html ; #active-directory #kerberos #domain-controller #rubues #des #targeted-kerberoast #data-encryption-standard
@@ -254,6 +255,7 @@
 * https://github.security.telekom.com/2024/07/rt-peripheral-sight-printer-cve.html ; #active-directory #printer #ldap #smtp
 * https://globetech.biz/index.php/2025/06/16/the-return-of-amsi-easy-dll-patching-without-c3 ; #windows #powershell #antimalware-scan-interface #amsi #bypass
 * https://godiego.co/posts/STO-Azure ; #cloud #azure #entra #subdomain-takeover #cloudapp #traffic-manager
+* https://grahamhelton.com/blog/nodes-proxy-rce ; #kubernetes #node-proxy #get-permission
 * https://h4ndsh.github.io/2023/phpinfo ; #web #php #remote-code-execution #register-argc-argv #pearcmd
 * https://hackcompute.com/hacking-epp-servers ; #webapp #epp #dns #extensible-provision-protocol
 * https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults ; #cloud #aws #organizations #cheatsheets
@@ -480,6 +482,7 @@ https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tok
 * https://redmaple.tech/blogs/2023/extract-bitwarden-vault-passwords ; #reverse-engineering #bitwarden #master-password #chromium
 * https://redops.at/en/blog/meterpreter-vs-modern-edrs-in-2023 ; #windows #meterpreter #shellcode #xor #edr #evasion #bypass
 * https://redsiege.com/blog/2024/01/you-cant-see-me-protecting-your-phishing-infrastructure ; #phishing #infrastructure #apache
+* https://redsiege.com/blog/2024/04/sshishing-abusing-shortcut-files-and-the-windows-ssh-client-for-initial-access ; #ssh #proxycommand #shortcut #lnk #phishing #pdf
 * https://redteaming.co.uk/2020/07/12/dll-proxy-loading-your-favorite-c-implant ; #windows #dll #sideloading #proxying #donut #payload
 * https://redteamrecipe.com/macos-red-teaming ; #mac-os #ioplatformexpertdevice #tcc-database #application-bundle #electron-app #keychain #healthinspector-utility
 * https://repositorio-aberto.up.pt/bitstream/10216/142935/2/572983.pdf ; #gaming #cheat #detection #prevention

@@ -3,7 +3,7 @@ https://raw.githubusercontent.com/NetSPI/PowerUpSQL/master/PowerUpSQL.ps1
 
 ### Discover active directory domain SQL server
 ```
-Get-SQLInstanceDomain -Verbose -DomainController <dc> | Get-SQLServerinfo -Verbose
+Get-SQLInstanceDomain -Verbose -DomainController <domainController> | Get-SQLServerinfo -Verbose
 ```
 
 ### List accessible SQL server using credentials

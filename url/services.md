@@ -60,7 +60,7 @@
 * https://msportals.io
 * https://myip.wtf/json ; #ip-geolocation
 * https://nthashes.com ; #hashes #cracking
-* https://ntlm.pw ; #hashes #cracking
+* https://ntlm.pw ; #hashes #cracking #nt #lm #md5 #sha1 #sha256
 * https://nuclei-templates.netlify.app ; #nuclei #templates
 * https://ohmygit.org ; #git #game
 * https://ohpe.it/juicy-potato/CLSID

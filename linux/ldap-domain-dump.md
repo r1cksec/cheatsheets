@@ -3,12 +3,12 @@ https://github.com/dirkjanm/ldapdomaindump
 
 ### Basic usage
 ```
-python3 ldapdomaindump -u <domain>\\<user> -p <password> <ipOfDomainController> -d "|"
+python3 ldapdomaindump -u <domain>\\<user> -p <password> <domainController> -d "|"
 ```
 
 ### Using LDAPS
 ```
-python3 ldapdomaindump -u <domain>\\<user> -p <password> ldaps://<ipOfDomainController> -d "|" 
+python3 ldapdomaindump -u <domain>\\<user> -p <password> ldaps://<domainController> -d "|" 
 ```
 
 ### Operating system overview

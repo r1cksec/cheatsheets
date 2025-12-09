@@ -13,6 +13,11 @@ ldapsearch -LLL -x -H ldap://<domainController> -b '' -s base '(objectclass=*)'
 ldapsearch -H ldap://<domainController> -D "<user>@<domain>" -w '<password>' -b "dc=<domainComponent>,dc=<domainComponent>,dc=<domainComponent>" "(sAMAccountName=<user>)"
 ```
 
+### Get domain controller
+```
+ldapsearch --dn "dc=<domainComponent>,dc=<domainComponent>,dc=<domainComponent>" "(&(objectCategory=Computer)(userAccountControl:1.2.840.113556.1.4.803:=8192))"
+```
+
 ### Filter
 ```
 "(objectclass=computer)" "DNSHostName" "OperatingSystem"

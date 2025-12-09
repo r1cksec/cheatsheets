@@ -3,6 +3,11 @@
 $ExecutionContext.SessionState.LanguageMode
 ```
 
+### Test language mode
+```
+[math]::Sqrt(4)
+```
+
 ### Set full language mode
 ```
 $ExecutionContext.SessionState.LanguageMode = "FullLanguage"

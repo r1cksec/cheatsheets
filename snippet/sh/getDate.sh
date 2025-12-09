@@ -1,2 +1,1 @@
-date +"%Y-%m-%d_%T"
-
+date +"%d-%m-%Y_%T"

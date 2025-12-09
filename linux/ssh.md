@@ -44,7 +44,7 @@ cd .ssh
 touch authorized_keys
 chown <user>:<user> authorized_keys
 chmod 600 authorized_keys
-ssh-keygen -t rsa -b 4096
+ssh-keygen -t ed25519 -C "user@host"
 cat <publicKey> >> authorized_keys
 chown <user>:<user> <key>* 
 ```

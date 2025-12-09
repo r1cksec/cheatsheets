@@ -46,6 +46,9 @@ Username enumeration and password spraying tool aimed at Microsoft O365.
 https://github.com/0xagil/Clickfix-Email
 This repository contains a proof of concept demonstrating the ClickFix attack technique - a CSS-based social engineering attack where visible text differs from the actual copied content.
 
+https://github.com/0xbbuddha/notion
+A Mythic C2 profile that uses Notion as a covert communication channel.
+
 https://github.com/0xda568/IconJector
 This is a Windows Explorer DLL injection technique that uses the change icon dialog on Windows.
 
@@ -385,6 +388,9 @@ CMSmap is a python open source CMS scanner that automates the process of detecti
 https://github.com/Diverto/IPPrintC2
 PoC for using MS Windows printers for persistence / command and control via Internet Printing
 
+https://github.com/DotNetRussell/BloodBash
+A Bloodhound alternative. BloodBash will ingest the same files bloodhound does but no server is required to use this tool. It's great for quick AD enumeration.
+
 https://github.com/DragoQCC/HardHatC2
 A C# Command & Control framework
 
@@ -598,6 +604,9 @@ PostgreSQL Database Security Assessment Tool
 https://github.com/HotCakeX/Harden-Windows-Security
 Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels | SLSA Level 3 Compliant for Secure Development and Build Process | Apps Available on MS Store
 
+https://github.com/HullaBrian/EventHorizon
+Tool that gathers a customizable set of ETW telemetry and generates user-defined detections
+
 https://github.com/HunnicCyber/SharpSniper
 Find specific users in active directory via their username and logon IP address
 
@@ -750,6 +759,9 @@ Maldev Academy's October update saw several interesting modules being released t
 
 https://github.com/Maldev-Academy/MaldevAcademyLdr.2
 RunPE implementation with multiple evasive techniques
+
+https://github.com/Maldev-Academy/PrefetchFileParser
+A lightweight Windows Prefetch file parser to extract programs' execution history
 
 https://github.com/Malwarize/webpalm
 WebPalm is a powerful command-line tool for website mapping and web scraping. With its recursive approach, it can generate a complete tree of all webpages and their links on a website. It can also extract data from the body of each page using regular expressions, making it an ideal tool for web scraping and data extraction.
@@ -996,6 +1008,9 @@ Initial Access and Post-Exploitation Tool for AAD and O365 with a browser-based 
 
 https://github.com/RedCursorSecurityConsulting/PPLKiller
 Tool to bypass LSA Protection (aka Protected Process Light)
+
+https://github.com/RedTeamPentesting/keycred
+The project also contains a tool to manipulate the msDS-KeyCredentialLink LDAP attribute in order to register KeyCredentialLinks in Active Directory environments.
 
 https://github.com/RedTeamPentesting/pretender
 Your MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing.
@@ -1249,6 +1264,9 @@ FaceDancer is an exploitation tool aimed at creating hijackable, proxy-based DLL
 https://github.com/Tylous/Limelighter
 A tool for generating fake code signing certificates or signing real ones
 
+https://github.com/V-i-x-x/WIFIAIR-C2-Channel
+Command channel that uses Wi-Fi Beacons as a unidirectional C2 transport
+
 https://github.com/VirusTotal/yara-python
 The Python interface for YARA
 
@@ -1458,6 +1476,9 @@ Escalate your SSRF vulnerabilities on Modern Cloud Environments. `surf` allows y
 
 https://github.com/assume-breach/Home-Grown-Red-Team
 This repo is a resource for various red teaming techniques and tools based on open source software and non-commerical tools.
+
+https://github.com/attacksurge/ax
+Ax Framework is a free and open-source tool utilized by Bug Hunters and Penetration Testers to efficiently operate in multiple cloud environments. It helps build and deploy repeatable infrastructure tailored for offensive security purposes.
 
 https://github.com/avilum/secimport
 Python sandbox toolkit, powered by eBPF / Dtrace
@@ -1888,6 +1909,9 @@ Leveraging GitHub Actions to rotate IP addresses during password spraying attack
 https://github.com/dwisiswant0/apkleaks
 Scanning APK file for URIs, endpoints & secrets.
 
+https://github.com/dwisiswant0/sandboxec
+A lightweight command sandbox for Linux, secure-by-default, built on Landlock.
+
 https://github.com/edoardottt/cariddi
 Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more
 
@@ -2130,6 +2154,9 @@ navgix is a multi-threaded golang tool that will check for nginx alias traversal
 
 https://github.com/hakluke/hakrawler
 Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
+
+https://github.com/hakwerk/labca
+A private Certificate Authority for internal (lab) use, based on the open source ACME Automated Certificate Management Environment implementation from Let's Encrypt (tm).
 
 https://github.com/hashcat/hashcat
 World's fastest and most advanced password recovery utility
@@ -2518,6 +2545,9 @@ Tool for Active Directory Certificate Services enumeration and abuse
 https://github.com/ly4k/PassTheChallenge
 Recovering NTLM hashes from Credential Guard
 
+https://github.com/m0x41nos/TimeAfterFree
+PHP 8 sandbox escape PoC demonstrating a disable_functions bypass on Unix-like systems.
+
 https://github.com/m3n0sd0n4ld/GooFuzz
 GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumerate directories, files, subdomains or parameters without leaving evidence on the target's server and by means of advanced Google searches (Google Dorking).
 
@@ -2553,6 +2583,9 @@ Windows persistence toolkit written in C#.
 
 https://github.com/mandiant/capa
 The FLARE team's open-source tool to identify capabilities in executable files.
+
+https://github.com/mandiant/cleanldap
+BOF to perform stealthy LDAP queries over AD WS
 
 https://github.com/mandiant/gostringungarbler
 Python tool to resolve all strings in Go binaries obfuscated by garble
@@ -2965,11 +2998,17 @@ Proof of Concept Utilities Developed to Research NTLM Relaying Attacks Targeting
 https://github.com/praetorian-inc/ChromeAlone
 A tool to transform Chromium browsers into a C2 Implant
 
+https://github.com/praetorian-inc/GitPhish
+GitPhish is a comprehensive security research tool designed to perform GitHub's device code authentication flow.
+
 https://github.com/praetorian-inc/gato
 GitHub Actions Pipeline Enumeration and Attack Tool
 
 https://github.com/praetorian-inc/glato
 Glato (pronounced "Gelato"), or GiLab Attack Toolkit, is an enumeration and attack tool that allows both blue teamers and offensive security practitioners to identify and exploit pipeline vulnerabilities within a GitLab Instance's public and private repositories.
+
+https://github.com/praetorian-inc/google-redirector
+A lightweight redirector for Google Cloud Run, enabling domain fronting via Google-owned infrastructure.
 
 https://github.com/praetorian-inc/noseyparker
 Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
@@ -3067,7 +3106,7 @@ C2 Powershell Command & Control Framework with BuiltIn Commands
 https://github.com/r0oth3x49/ghauri
 An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws
 
-https://github.com/r1cksec/thoth
+https://github.com/r1cksec/corptrace
 Automate recon for red team assessments.
 
 https://github.com/r3nt0n/bopscrk
@@ -3087,6 +3126,9 @@ PowerShell script to quickly find missing software patches for local privilege e
 
 https://github.com/rasta-mouse/ThreatCheck
 Identifies the bytes that Microsoft Defender / AMSI Consumer flags on.
+
+https://github.com/rbnroot/CAPSlock
+CAPSlock is an offline Conditional Access (CA) analysis tool built on top of a roadrecon database.
 
 https://github.com/reacherhq/check-if-email-exists
 Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
@@ -3625,6 +3667,9 @@ To audit the security of read-only domain controllers
 https://github.com/whokilleddb/clickforclickonce
 ClickForClickOnce project aims at providing a web-based interface for easily generating configurable and ready-to-deploy clickonce payloads. The project uses Microsoft signed binaries in it's ClickOnce deployments and then sideloads a payload DLL using AppDomainManager Injection.
 
+https://github.com/wietze/lnk-it-up
+Project for generating and identifying deceptive LNK files.
+
 https://github.com/wixtoolset/wix3
 WiX Toolset v3.x (create msi files)
 
@@ -3711,6 +3756,9 @@ a tool used to analyze and monitor in named pipes
 
 https://github.com/zh54321/GraphPreConsentExplorer
 A comprehensive list of usable Entra ID first-party clients with pre-consented Microsoft Graph scopes, in a simple YAML-file explorable with a simple HTML GUI.
+
+https://github.com/zh54321/SharePointDumper
+PowerShell SharePoint extraction + auditing tool for red/blue/purple teams. Enumerates all SharePoint sites/drives a user can access via Microsoft Graph, recursively downloads files, and logs every Graph + SharePoint HTTP request for SIEM correlation, detection engineering, and IR testing.
 
 https://github.com/ziggy42/epsilon
 A WASM virtual machine written in Go with 0 dependencies
