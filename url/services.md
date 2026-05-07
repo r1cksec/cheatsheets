@@ -75,6 +75,7 @@
 * http://sqlfiddle.com
 * https://ransomwhe.re
 * https://readme-typing-svg.demolab.com/demo
+* https://relatedrepos.com/ ; #github #open-source #discovery
 * https://report.netcraft.com/report
 * https://socradar.io/labs/accountbreach
 * https://strontic.github.io/xcyclopedia ; #windows #forensic #dfir #executable
