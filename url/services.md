@@ -1,105 +1,71 @@
 * http://asciiqr.com ; #ascii #unicode #phishing #qr-code
 * http://bugmenot.com ; #account-share
 * http://ntfy.sh ; #notification #hook #phishing
-* https://0xanalyst.github.io/Project-Lost ; #living-off-security-tools #av #edr #bypass
-* https://12ft.io ; #paywall-bypass
-* https://amsi.fail ; #amsi-bypass-generator
-* https://andrewmarsh.com/apps/staging/sunpath3d.html
-* https://antiscan.me ; #anti-virus
-* https://anvaka.github.io/map-of-github ; #github
-* https://any.run ; #forensic #dfir #malware #sandbox
-* https://app.docguard.io ; #malware-analyse
+* https://amsi.fail ; #amsi-bypass-generator #powershell
+* https://andrewmarsh.com/apps/staging/sunpath3d.html ; #osint #map #sun #shadow
+* https://anvaka.github.io/map-of-github ; #github #topic-map
 * https://archlinux.org/mirrors/status ; #mirror
 * https://aws-token-decoder.netlify.app ; #aws #session-token-decoder
-* https://boostsecurityio.github.io/lotp ; #living-off-the-pipeline #ci-cd #continuous-integration-continous-deployment
-* https://br0k3nlab.com/LoFP
-* https://browserleaks.com
-* https://canarytokens.org
+* https://browserleaks.com ; #browser-fingerprint #privacy
+* https://canarytokens.org ; #dfir #blue-team #canary
 * https://caniuse.com ; #browser-support-tables #web-assembly #html #css
-* https://chat.openai.com ; #chatbot #artificial-intelligence
 * https://check-host.net ; #distributed-denial-of-service #ddos #health-status
-* https://ciphersuite.info
-* https://command-not-found.com
+* https://ciphersuite.info ; #tls #ssl #ciphers
 * https://config.zscaler.com/zscaler.net/cenr ; #zscaler #ip-address-ranges
 * https://copy.sh/v86 ; #emulator #operating-system
-* https://coveryourtracks.eff.org
+* https://coveryourtracks.eff.org ; #browser-fingerprint #privacy
 * https://crackstation.net ; password-hash #cracking #ntlm #md5 #sha256
 * https://crontab.guru ; #cron #schedule #linux
 * https://cryptpad.fr ; #dump #collaboration-suite
-* https://darkfeed.io
+* https://data443.com/cyren-url-category-check-gate ; #email #domain-reputation #phishing
 * https://deepwiki.com ; #wiki #ai #repository #github #gitlab
-* https://delivr.to/payloads
-* https://demo.f4map.com
-* https://elevenlabs.io ; #artificia-intelligence #ai #text-to-speech
-* https://emailrep.io
-* https://entrascopes.com ; #cloud #azure #entra #scope #app-id #microsoft #tokens #graph
-* https://evasions.checkpoint.com
-* https://facemorph.me
-* https://filesec.io
-* https://formcrafts.com ; #web #hosting
-* https://formspark.io ; #hosting #webhooks #email
-* https://gtfoargs.github.io
-* https://gtfobins.github.io
-* https://icon-icons.com
-* https://id-ransomware.malwarehunterteam.com
+* https://delivr.to/payloads ; #phishing #email #payload-delivery
+* https://emailrep.io ; #email #domain-reputation #phishing
+* https://facemorph.me ; #image-generation #face
+* https://global.sitesafety.trendmicro.com ; #email #domain-reputation #phishing
+* https://icon-icons.com ; #icon-database
 * https://ifconfig.me ; #ip-geolocation
-* https://imagecolorpicker.com
-* https://ipv4.myip.wtf/json
-* https://jwt.io ; #json-web-token
-* https://jwt.ms ; #json-web-token
-* https://kartaview.org
+* https://imagecolorpicker.com ; #image-analyzer #color-picker
+* https://ipv4.myip.wtf/json ; #ip-location
+* https://jwt.io ; #json-web-token #debugger
+* https://jwt.ms ; #json-web-token #debugger
 * https://kiosk.vsim.xyz ; #kisok #escape #tooling
-* https://lofl-project.github.io ; #living-off-the-foreign-land-cmdlets-binaries
-* https://lolbas-project.github.io ; #living-off-the-land-binaries-scripts-libraries
-* https://lolc2.github.io ; #living-off-the-land-c2
-* https://lolfsaas.github.io ; #living-of-the-land-of-free-saas #phishing #commandandcontroll #c2 #data-exfiltration #payload-hosting
-* https://lolprox.yxz.red ; #living-off-the-land-c2 #proxmox #virtualisation
-* https://lots-project.com ; #living-off-the-trusted-sites #phishing
-* https://lottunnels.github.io ; #living-off-the-tunnels #pivot #socks #socket
-* https://malpedia.caad.fkie.fraunhofer.de
 * https://mha.azurewebsites.net/pages/mha.html ; #email #header-analyze #phishing
-* https://msportals.io
+* https://multirbl.valli.org/lookup ; #email #domain-reputation #phishing
 * https://myip.wtf/json ; #ip-geolocation
 * https://nthashes.com ; #hashes #cracking
 * https://ntlm.pw ; #hashes #cracking #nt #lm #md5 #sha1 #sha256
 * https://nuclei-templates.netlify.app ; #nuclei #templates
 * https://ohmygit.org ; #git #game
-* https://ohpe.it/juicy-potato/CLSID
-* https://openphish.com
-* https://otc.armchairresearch.org/map
-* https://phishingquiz.withgoogle.com
-* https://phishtank.com
-* https://phishyurl.com ; #phishing #domain #url
-* https://pkg.kali.org
-* https://privacytests.org
-* http://sqlfiddle.com
-* https://ransomwhe.re
-* https://readme-typing-svg.demolab.com/demo
-* https://report.netcraft.com/report
-* https://socradar.io/labs/accountbreach
-* https://strontic.github.io/xcyclopedia ; #windows #forensic #dfir #executable
+* https://phishingquiz.withgoogle.com ; #phishing #awarness-training #quiz
+* https://pkg.kali.org ; #kali-linux #package-tracker
+* https://privacytests.org ; #browser #fingerprinting #privacy #data-tracking
+* https://readme-typing-svg.demolab.com/demo ; #svg-generator
+* https://report.netcraft.com/report ; #phishing-reporting
+* https://sitelookup.mcafee.com ; #email #domain-reputation #phishing
+* https://sitereview.bluecoat.com ; #email #domain-reputation #phishing
 * https://thispersonnotexist.org ; #ai #image #fake-persona
-* https://urlfiltering.paloaltonetworks.com
-* https://uuid.pirate-server.com ; #windows #globally-unique-identifier #guid #uuid
+* https://tools.zvelo.com ; #email #domain-reputation #phishing
+* https://trustedsource.org/en/feedback/url ; #email #domain-reputation #phishing
+* https://urlfiltering.paloaltonetworks.com/query ; #email #domain-reputation #phishing
+* https://vercel.com/drop ; #web #hosting #html #css
 * https://vim-adventures.com ; #vim #game
-* https://whale-alert.io ; #bitcoin #tracking #wallet
 * https://windows96.net ; #windows #os-simluator
-* https://wormhole.app #fileshare #file-transfer
+* https://wormhole.app ; #fileshare #file-transfer
 * https://wtfbins.wtf ; #threat-hunting #binary-suspicious behavior
+* https://www.brightcloud.com/tools/url-ip-lookup.php ; #email #domain-reputation #phishing
 * https://www.browserling.com ; #online-browser #phishing-analyse
 * https://www.capsolver.com ; #captcha-solving
-* https://www.cloudvulndb.org ; #cloud-vulnerability-database
+* https://www.cloudflare.com/drop ; #web #hosting #html #css
 * https://www.denic.de/service/tools/idn-web-converter ; #idn #ace #phishing #homoglyph #domain
+* https://www.fortiguard.com/webfilter ; #email #domain-reputation #phishing
 * https://www.hiclipart.com ; #image #transparent #png
 * https://www.irongeek.com/homoglyph-attack-generator.php ; #homoglyph-generator #phishing
-* https://www.kali.org/tools ; #tool-documentation
-* https://www.loldrivers.io ; #living-off-the-land-drivers #windows
-* https://www.loobins.io ; #living-off-the-orchard-macOS-binaries
+* https://www.kali.org/tools ; #tool-documentation #package-tracker #linux
 * https://www.mail-tester.com ; #email-evaluation #smtp #dmarc
 * https://www.online-python.com ; #python #online-interpreter
 * https://www.revshells.com ; #reverse-shell-generator
 * https://www.useragents.me ; #user-agent #operating-system
-* https://www.virustotal.com ; #sandbox #malware-analyse #domain
 * https://www.vonage.com ; #spoof #phone #sms
 * https://www.youtubechapters.app ; #youtube #videos #chapter-definition
 * https://zws.im ; #url-shortener

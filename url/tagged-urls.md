@@ -76,6 +76,7 @@
 * https://blog.apnic.net/2023/11/22/ja4-network-fingerprinting ; #ja4+ #jarm #threat-intelligence #dfir #forensic
 * https://blog.assetnote.io/2021/08/29/exploiting-graphql ; #webapp #graphql #batchql #csrf
 * https://blog.assetnote.io/2023/04/30/rce-oracle-opera ; #webapp #oracle-opera #rce #cve
+* https://blog.atsika.ninja/posts/byoi-trusted-host ; #bring-your-own-interpreter #edr-evasion #bun #java-script
 * https://blog.atsika.ninja/posts/the-phishy-github-issue-case ; #github-issue #phishing #oauth-app
 * https://blog.balliskit.com/macos-redteam-3-initial-access-with-darwinops-pkg-0a1d0160e662 ; #macosx #intial-access #phishing #pkgbuild
 * https://blog.bitsadmin.com/living-off-the-foreign-land-windows-as-offensive-platform-part-3 ; #windows #active-directory #lolbas #wmi #powershell #registry #certificate #cim
@@ -114,6 +115,7 @@
 * https://blog.nviso.eu/2023/01/10/malware-based-attacks-on-atms-a-summary ; #threat-intelligence #malware-analyse #atm
 * https://blog.nviso.eu/2024/08/02/from-evidence-to-advantage-leveraging-incident-response-artifacts-for-red-team-engagements ; #windows-api #registry #forensic-artifacts
 * https://blog.orange.tw/posts/2024-08-confusion-attacks-en ; #web #apache #filename-confusion #acl-bypass #server-side-code-disclosure #handler-confusion #php
+* https://blog.paradoxis.nl/playing-around-with-adidns-rpc-internals-0c59c15d0a15 ; #adidns #dnsadmins #dnscmd #beacon-object-file #bof #active-directory
 * https://blog.phantomsec.tools/phantom-persistence ; #persistence #run-once #register-application-restart
 * https://blog.plerion.com/things-you-wish-you-didnt-need-to-know-about-s3 ; #aws #bucket #s3 #storage #cognito
 * https://blog.projectdiscovery.io/guide-to-dns-takeovers ; #dns-takeover #nameserver #subdomain-takeover #osint #reconaissance
@@ -138,6 +140,7 @@
 * https://blog.sunggwanchoi.com/recreating-an-iso-payload-for-fun-and-no-profit ; #windows #iso #mark-of-the-web #motw #shellcode #msfvenom #proxy-dll
 * https://blog.sygnia.co/guarding-the-bridge-new-attack-vectors-in-azure-ad-connect ; #azure #entra #adcs #active-directory #pass-through-authentication #federation #password-hash-synchronization
 * https://blog.syss.com/posts/introducing-azurenum ; #azure #entra #conditional-access #dynamic-groups #service-principal
+* https://blog.syss.com/posts/meshhacks ; #mesh #mx4200 #linksys-mr9600 #hardware-hacking
 * https://blog.syss.com/posts/zero-touch-pwn ; #zoom #audiocode #automatic-provisioning-procedure #voip #http
 * https://blog.talosintelligence.com/lazarus_new_rats_dlang_and_telegram ; #malware-analyse #threat-intelligence
 * https://blog.thc.org/infecting-ssh-public-keys-with-backdoors ; #ssh backdoor
@@ -331,8 +334,10 @@
 * https://lorenzomeacci.com/bypassing-edr-in-a-crystal-clear-way ; #cof #crystal-palace #pico #position-independent-code-object #module-overloading #stomping #call-stack-spoofing #sleep-mask #shellcode-loader #edr-evasion
 * https://lorenzomeacci.com/unwind-data-cant-sleep-introducing-insomniacunwinding ; #sleepmask #edr-evasion #crystal-palace #position-independent-code #unwind-data
 * https://luemmelsec.github.io/gaylord-M-FOCker-ready-to-pwn-your-MIFARE-tags ; #rfid #nfc #flipper-zero #proxmark3
+* https://luemmelsec.github.io/I-got-99-problems-but-my-NAC-aint-one ; #network-access-control #nac #802.1x
 * https://luemmelsec.github.io/Pentest-Everything-SMTP ; #smtp #simple-mail-transfer-protocol #mail-transfer-agent
 * https://luemmelsec.github.io/Skidaddle-Skideldi-I-just-pwnd-your-PKI ; #active-directory #certificate-service #adcs #methodology #esc1-10
+* https://lyra.horse/blog/2025/12/svg-clickjacking ; #svg #clickjacking #web #qr-code #pixel-reading
 * https://m0chan.github.io/2019/07/26/Bypassing-2FA-For-Fun-With-Evilginx2.html ; #mfa #evilginx2 #phishing #token
 * https://m0chan.github.io/2019/07/31/How-To-Attack-Kerberos-101.html ; #active-directory #windows #kerberos #golden-ticket #kerberoast #rubeus
 * https://m365internals.com/2021/11/30/lateral-movement-with-managed-identities-of-azure-virtual-machines ; #cloud #azure #entra #lateral-movement #managed-identities #vm
@@ -344,6 +349,7 @@
 * https://malwaretech.com/2023/12/silly-edr-bypasses-and-where-to-find-them.html ; #edr #bypass #evasion #syscall #indirect-syscall
 * https://malwaretech.com/2025/10/exif-smuggling.html ; #phishing #initial-access #clickfix #filefix #exif-smuggling
 * https://mandomat.github.io/2023-09-21-localization-with-silent-SMS ; #sms #location #software-defined-radio
+* https://maorsabag.github.io/posts/adaptix-stealthpalace/sleeping-beauty-ii ; #control-flow-guard #cet #stack-spoofing #crystal-palace #ntsetinformationvirtualmemory #bitmap
 * https://matheuzsecurity.github.io/hacking/linux-threat-hunting-persistence ; #linux #persistence #ssh #crontab #pam #pluggable-authentication-modules
 * https://mattfrisbie.substack.com/p/spy-chrome-extension ; #browser #chrome #extension
 * https://mayfly277.github.io/posts/SCCM-LAB-part0x1 ; #sccm #windows #active-directory #system-centre-configuration-manager #sccmhunter #ldap #pxe #pre-boot-execution-environment

@@ -63,3 +63,18 @@ qvm-run --pass-io <qubeName> 'cat <file> > <outFile>'
 qvm-copy-to-vm <qubeName> <file>
 ```
 
+### List firewall rules
+```
+qvm-firewall <qubeName> list
+```
+
+### Add firewall rule
+```
+qvm-firewall <qubeName> add drop dsthost=<cidr>
+```
+
+### Delete firewall rule
+```
+qvm-firewall <qubeName> del --rule-no <number>
+```
+

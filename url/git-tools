@@ -130,6 +130,9 @@ This C# code is a console application that attempts to take ownership of a speci
 https://github.com/ASOT-LABS/TeamsBreaker
 TeamsBreaker is a tool designed for automating the sending of phishing messages to victims. It is heavily based from TeamsPhisher and TeamsEnum.
 
+https://github.com/AWSHound/AWSHound
+AWS Bloodhound OpenGraph Connector
+
 https://github.com/Accenture/Codecepticon
 .NET/PowerShell/VBA Offensive Security Obfuscator
 
@@ -192,6 +195,9 @@ Analyzes software dependencies across GitHub repositories to identify security v
 
 https://github.com/Arcanum-Sec/Scopify
 Scopify is a Python command-line tool designed for penetration testers and bug bounty hunters to quickly gather and analyze infrastructure information (CDN, Hosting, SaaS) for a target company by scraping netify.ai.
+
+https://github.com/Arcanum-Sec/wraith
+WRAITH — a modern browser-hooking framework (BeEF + blind-XSS successor) for red teams, researchers, and educators. For authorized security testing, research & education only.
 
 https://github.com/Arno0x/EmbedInHTML
 Embed and hide any file in an HTML file
@@ -352,9 +358,6 @@ Zeek-Formatted Threat Intelligence Feeds
 https://github.com/CroodSolutions/AutoRMM
 AutoRMM is a collection of scripts and instructions we are organizing, to test delivery mechanisms for RMM and screen sharing tools, along with post exploitation strategies for blue and red teams wanting to more realistically simulate adversary capabilities using these strategies.
 
-https://github.com/Cryakl/Ultimate-RAT-Collection
-For educational purposes only, exhaustive samples of 450+ classic/modern trojan builders including screenshots.
-
 https://github.com/CsEnox/SeManageVolumeExploit
 The capacity to create a file under user control within protected directories opens up a multitude of possibilities for privilege escalation. One of the relatively straightforward techniques involves replacing the "Printconfig.dll" file situated at "C:\Windows\System32\spool\drivers\x64\3" with a malicious DLL.
 
@@ -402,6 +405,9 @@ Chrome browser extension-based Command & Control
 
 https://github.com/Datalux/Osintgram
 Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname
+
+https://github.com/DavidCarliez/trustmebro
+Bypass llm guardrails by confusing it with fabricated tool output.
 
 https://github.com/DidierStevens/Beta
 Beta versions of my software for malware analyse (onenote)
@@ -528,6 +534,9 @@ Impersonate Windows tokens in Nim
 
 https://github.com/FuzzySecurity/PowerShell-Suite
 My musings with PowerShell
+
+https://github.com/FuzzySecurity/Sharp-Suite
+code samples in C#
 
 https://github.com/FuzzySecurity/StandIn
 StandIn is a small .NET35/45 AD post-exploitation toolkit
@@ -690,6 +699,9 @@ PowerShell Pass The Hash Utils
 
 https://github.com/Kritt-ai/open-kritt
 An open-source, self-hosted security research platform that turns focused AI analysis into de-duplicated, ranked findings with configurable validation and enrichment.
+
+https://github.com/KriyosArcane/TrustMeBro
+Authenticode signature manipulation toolkit for Red Team operations and security research. Covers signature stealing, metadata cloning, SIP hijacking across 19 file types, WinVerifyTrust FinalPolicy bypass, PKCS#7 payload embedding, SIP execution surface implants, Smart App Control Bypass, and analyst-triggered persistence via OID handlers.
 
 https://github.com/Kryp7os/SharpRBCD
 An executable that simplifies adding the msds-AllowedToActOnBehalfOfOtherIdentity attribute for RBCD
@@ -883,6 +895,9 @@ Google Calendar RAT is a PoC of Command&Control over Google Calendar Events
 https://github.com/MustafaBilgici/SucoshScanny
 "Sucosh" is an automated Source Code vulnerability scanner and assessment framework for Python(Flask-Django) & NodeJs capable of performing code review in Web Application Developing or Source Code Analysis processes.
 
+https://github.com/MythicAgents/Hades
+Hades is a fully-featured cross-platform Chrome Extension agent. Hades is designed for Mythic 3.0 and newer.
+
 https://github.com/MythicAgents/Nimplant
 A cross-platform implant written in Nim
 
@@ -919,6 +934,9 @@ High-performance, multi-threaded YARA & IOC scanner
 https://github.com/Neo23x0/signature-base
 YARA signature and IOC database for my scanners and tools
 
+https://github.com/NetSPI/AD-PathFinder
+Attack path mapping for Active Directory, ADCS, SCCM, and MSSQL using BloodHound CE + OpenGraph data.
+
 https://github.com/NetSPI/ATEAM
 A Python reconnaissance tool designed to discover Azure services and attribute tenant ownership information based on their responses.
 
@@ -939,9 +957,6 @@ PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
 
 https://github.com/Nettitude/PoshC2
 A proxy aware C2 framework used to aid red teamers with post-exploitation and lateral movement.
-
-https://github.com/Nightmare-Eclipse/RedSun
-When Windows Defender realizes that a malicious file has a cloud tag, for whatever stupid and hilarious reason, the antivirus that's supposed to protect decides that it is a good idea to just rewrite the file it found again to it's original location. The PoC abuses this behaviour to overwrite system files and gain administrative privileges.
 
 https://github.com/NocteDefensor/Sharelord
 .NET Assembly that creates network shares,sets ACE entries for directories, sets share perms, and deletes shares. Learning project for C#
@@ -1195,6 +1210,9 @@ Timeroasting scripts by Tom Tervoort
 https://github.com/SecureAuthCorp/impacket
 Impacket is a collection of Python classes for working with network protocols.
 
+https://github.com/ServiceNow/dark-agent
+Mythic C2 agent with a full in-memory BOF loader for macOS and Linux
+
 https://github.com/Shac0x/Wonka
 Wonka is a sweet Windows tool that extracts Kerberos tickets from the Local Security Authority (LSA) cache. Like finding a ticket, but for security research and penetration testing!
 
@@ -1248,6 +1266,9 @@ PowerShell collector for adding MSSQL attack paths to BloodHound with OpenGraph
 
 https://github.com/SpecterOps/cred1py
 A Python POC for CRED1 over SOCKS5
+
+https://github.com/SpecterOps/pass-the-passkey
+This repository contains a collection of tools and resources related to the Pass-the-Passkey family of attacks, which target WebAuthn and FIDO2 authentication mechanisms.
 
 https://github.com/SpiderLabs/Responder
 Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
@@ -1372,11 +1393,11 @@ A user enumeration tool for Slack.
 https://github.com/Whispergate/Erebus
 Erebus is an Initial Access wrapper for the Mythic Command & Control Server. It converts existing Mythic shellcode into payloads specifically used for phishing and IA operations.
 
+https://github.com/Whispergate/SCADAver
+SCADAver: a Rust-powered, multi-protocol OT/ICS security framework for authorized labs featuring asset discovery, enumeration, controlled validation, simulators, and CLI, TUI, and web interfaces. Discover validate, and try not to cut off the water supply.
+
 https://github.com/Whispergate/Sphinx
 A litterbox integration for the Mythic Command and Control Server
-
-https://github.com/Whitecat18/Rust-for-Malware-Development
-Rust for malware Development is a repository for advanced Red Team techniques and offensive malwares & Ransomwares, focused on Rust 🦀
 
 https://github.com/WiredPulse/Invoke-HiveNightmare
 PoC for CVE-2021-36934, which enables a standard user to be able to retrieve the SAM, Security, and Software Registry hives in Windows 10 version 1809 or newer
@@ -1384,8 +1405,8 @@ PoC for CVE-2021-36934, which enables a standard user to be able to retrieve the
 https://github.com/WithSecureLabs/lolcerts
 A repository of code signing certificates known to have been leaked or stolen, then abused by threat actors
 
-https://github.com/WoeUSB/WoeUSB
-A Microsoft Windows® USB installation media preparer for GNU+Linux
+https://github.com/WoeUSB/WoeUSB-ng
+WoeUSB-ng is a simple tool that enable you to create your own usb stick windows installer from an iso image or a real DVD. This is a rewrite of original WoeUSB.
 
 https://github.com/Wra7h/FlavorTown
 Various ways to execute shellcode
@@ -1978,6 +1999,9 @@ Obex – Blocking unwanted DLLs in user mode
 https://github.com/djhohnstein/SharpChromium
 .NET 4.0 CLR Project to retrieve Chromium data, such as cookies, history and saved logins.
 
+https://github.com/dmcxblue/ANIMO
+ANIMO is a comprehensive Azure AD / Entra ID assessment platform that combines PowerShell-based session management, Azure CLI parity, and native Graph / ARM API integration.
+
 https://github.com/dmcxblue/AzureRedirector
 A C# project that builds a Web Applciation which redirects all HTTPS
 
@@ -2248,6 +2272,9 @@ IMDSPOOF is a cyber deception tool that spoofs the AWS IMDS service to return Ho
 https://github.com/grayhatkiller/SharpExShell
 SharpExShell automates the DCOM lateral movment technique which abuses ActivateMicrosoftApp method of Excel application.
 
+https://github.com/gremwell/o365enum
+Enumerate valid usernames from Office 365 using ActiveSync, Autodiscover v1, or office.com login page.
+
 https://github.com/grimlockx/ADCSKiller
 An ADCS Exploitation Automation Tool Weaponizing Certipy and Coercer
 
@@ -2425,6 +2452,9 @@ Abusing Impersonation Privileges on Windows 10 and Server 2019
 https://github.com/its-a-feature/Mythic
 A collaborative, multi-platform, red teaming framework
 
+https://github.com/ivancabrera02/pyTGTdeleg
+pyTGTDeleg abuses the Kerberos delegation mechanism (tgtdeleg trick) to extract a usable forwarded TGT from a domain-joined MSSQL server, using only SA credentials.
+
 https://github.com/j0hnZ3RA/ldapx-py
 Transform LDAP filters, BaseDNs, attribute lists, and attribute entries using composable middleware chains. Zero dependencies. Works as a library or CLI tool.
 
@@ -2535,9 +2565,6 @@ A sleepmask based on Ekko that preserves unwind data at sleep time.
 
 https://github.com/karendm/ADHunt
 Tool for enumerating Active Directory environments
-
-https://github.com/kernelstub/Ferrum
-Windows security research toolkit for LPE, persistence, COM hijacking, and attack surface enumeration.
 
 https://github.com/kevin-mizu/domloggerpp
 A browser extension that allows you to monitor, intercept, and debug JavaScript sinks based on customizable configurations.
@@ -2868,6 +2895,9 @@ This script analyzes the DCSync output file from several tools (such as Mimikatz
 
 https://github.com/mpgn/BackupOperatorToDA
 From an account member of the group Backup Operators to Domain Admin without RDP or WinRM on the Domain Controller
+
+https://github.com/mpgn/NetExec-mcp
+An MCP server that lets an AI agent drive NetExec (nxc) for authorized security testing only.
 
 https://github.com/mrd0x/EvilSelenium
 EvilSelenium is a tool that weaponizes Selenium to attack Chromium based browsers.
@@ -3338,9 +3368,6 @@ https://github.com/reveng007/SharpGmailC2
 Our Friendly Gmail will act as Server and implant will exfiltrate data via smtp and will read commands from C2 (Gmail) via imap protocol
 
 https://github.com/rezasp/joomscan
-OWASP Joomla Vulnerability Scanner Project
-
-https://github.com/rezasp/joomscan
 OWASP Joomla! Vulnerability Scanner (JoomScan) is an open source project, developed with the aim of automating the task of vulnerability detection and reliability assurance in Joomla CMS deployments.
 
 https://github.com/ricardojoserf/NativeDump
@@ -3430,6 +3457,9 @@ Azure JWT Token Manipulation Toolset
 https://github.com/rweijnen/createdump
 Leverage WindowsApp createdump tool to obtain an lsass dump
 
+https://github.com/rylena/sshdesk
+A full interactive remote desktop delivered entirely through SSH and displayed directly in your terminal.
+
 https://github.com/s0lst1c3/silentbridge
 Silentbridge is a toolkit for bypassing 802.1x-2010 and 802.1x-2004.
 
@@ -3480,6 +3510,9 @@ Solve Google reCAPTCHA in less than 5 seconds!
 
 https://github.com/saw-your-packet/EC2StepShell
 EC2StepShell is an AWS post-exploitation tool for getting high privileges reverse shells in public or private EC2 instances.
+
+https://github.com/scipag/nac_bypass
+Script collection to bypass Network Access Control (NAC, 802.1x)
 
 https://github.com/scramblr/NETGEAR_ROUTER_HIDDEN_PAGES
 This is a list of currently known hidden pages within NETGEAR routers, switches, and other networking equipment. Why hidden? Ask Netgear.
@@ -3910,6 +3943,9 @@ Proof-of-concept obfuscation toolkit for C# post-exploitation tools
 https://github.com/xnl-h4ck3r/waymore
 Find way more from the Wayback Machine, Common Crawl, Alien Vault OTX, URLScan & VirusTotal!
 
+https://github.com/xpn/Ouroboros
+A POC tool for exploring dev-tunnels
+
 https://github.com/xpn/Powershell-PostExploitation
 Scripts created to help with post exploitation of a Windows host
 
@@ -3937,6 +3973,9 @@ Official git repo for iodine dns tunnel
 https://github.com/yasserbdj96/hiphp
 The BackDoor of HIPHP gives you the power to control websites based on PHP using HTTP/HTTPS protocol. By sending files, tokens and commands through port 80's POST/GET method, users can access a range of activities such as downloading and editing files. It also allows for connecting to Tor networks with password protection for extra security.
 
+https://github.com/yassinmohamed1111/rodork
+Interactive CLI Tool that automates Shodan discovery of unsecured robots, ROS nodes, cobots, and ICS. Shipped with 50+ targeted dorks, It can filter, score, and export the results in seconds.
+
 https://github.com/yo-yo-yo-jbo/dumping_lsass
 The different ways to dump lsass
 
@@ -3954,6 +3993,9 @@ WhatMail is a command-line tool that analyzes the header of an email and provide
 
 https://github.com/zblurx/dploot
 DPAPI looting remotely in Python
+
+https://github.com/zer0condition/GoodmansKernel
+Run unsigned kernel payloads in a signed kernel driver via wasm3. No JIT/W^x (HVCI/etc., compliant)
 
 https://github.com/zer0condition/ReverseKit
 x64 Dynamic Reverse Engineering Toolkit
