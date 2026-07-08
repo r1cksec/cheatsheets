@@ -52,6 +52,7 @@
 * https://lofl-project.github.io ; #living-off-the-foreign-land-cmdlets-binaries
 * https://lolbas-project.github.io ; #living-off-the-land-binaries-scripts-libraries
 * https://lolc2.github.io ; #living-off-the-land-c2
+* https://lolfsaas.github.io ; #living-of-the-land-of-free-saas #phishing #commandandcontroll #c2 #data-exfiltration #payload-hosting
 * https://lolprox.yxz.red ; #living-off-the-land-c2 #proxmox #virtualisation
 * https://lots-project.com ; #living-off-the-trusted-sites #phishing
 * https://lottunnels.github.io ; #living-off-the-tunnels #pivot #socks #socket

@@ -1,5 +1,5 @@
 ### Show open ports
 ```
-get-nettcpconnection
+get-nettcpconnection -State listen
 ```
 

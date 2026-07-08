@@ -50,3 +50,8 @@ pg_restore -h localhost -U postgres -d <database> <file>
 SELECT * FROM <table>
 ```
 
+### Delete database
+```
+dropdb -U postgres -h localhost <database>
+```
+

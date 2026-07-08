@@ -65,6 +65,7 @@
 * https://github.com/Kyuu-Ji/Awesome-Azure-Pentest
 * https://github.com/lazzslayer/Breaking-Into-The-Cloud-Slides
 * https://github.com/Lissy93/awesome-privacy
+* https://github.com/lolfsaas/lolfsaas.github.io ; #living-of-the-land-of-free-saas #phishing #commandandcontroll #c2 #data-exfiltration #payload-hosting
 * https://github.com/matthieu-hackwitharts/Win32_Offensive_Cheatsheet
 * https://github.com/milabs/awesome-linux-rootkits
 * https://github.com/MrM8BRH/Splunk

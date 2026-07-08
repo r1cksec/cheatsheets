@@ -106,3 +106,8 @@ C:\Users\<user>\AppData/Local/Microsoft/TokenBroker/Cache
 C:\Users\<user>\AppData\Roaming\Microsoft\Protect\<sid>\<guid>
 ```
 
+### Recent file access
+```
+AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+```
+

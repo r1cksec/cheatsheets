@@ -26,6 +26,11 @@ openssl x509 -text -noout -in <file>.pem
 openssl crl -in <file>.crl -inform DER -text -noout
 ```
 
+### Print information (pfx)
+```
+openssl pkcs12 -info -in <file>.pfx
+```
+
 ### Generate self signed certificate
 ```
 openssl genrsa -out <keyfile>.key 4096

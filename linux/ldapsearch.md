@@ -18,6 +18,11 @@ ldapsearch -H ldap://<domainController> -D "<user>@<domain>" -w '<password>' -b 
 ldapsearch --dn "dc=<domainComponent>,dc=<domainComponent>,dc=<domainComponent>" "(&(objectCategory=Computer)(userAccountControl:1.2.840.113556.1.4.803:=8192))"
 ```
 
+### Query computer objects
+```
+ldapsearch "(&(objectCategory=computer)(objectClass=computer))" dnsHostname,operatingSystem,description
+```
+
 ### Filter
 ```
 "(objectclass=computer)" "DNSHostName" "OperatingSystem"

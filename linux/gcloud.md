@@ -138,3 +138,15 @@ gcloud logging logs list --project <projectId>
 gcloud logging read "logName=projects/<projectId>/logs/<logpath>" --project <projectId> --limit 50 --format json
 ```
 
+### Print ipv4 addresses of given project id
+```
+PROJECT_ID="<projectId>"
+
+gcloud logging read 'logName:"cloudaudit.googleapis.com"' --project="${PROJECT_ID}" --format='table(
+      timestamp,
+      protoPayload.authenticationInfo.principalEmail,
+      protoPayload.serviceName,
+      protoPayload.methodName,
+      protoPayload.requestMetadata.callerIp
+    )' --limit=200
+```
