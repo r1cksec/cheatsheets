@@ -29,6 +29,7 @@
 * https://dnsdumpster.com ; #osint #subdomain #nameserver #dns-txt #portscan 
 * https://dnslytics.com ; #osint #reverse-ip #nameserver #google-adsense #google-analytics #rootdomain
 * https://epieos.com ; #osint #email #phone #user-profile
+* https://face2social.com ; #osint #image-search #facial-recognition
 * https://facecheck.id ; #osint #image-search #facial-recognition
 * https://faceonlive.com/face-search-online ; #osint #image-search #facial-recognition
 * https://fullhunt.io ; #osint #portscan #subdomain #country
