@@ -13,3 +13,8 @@ find . -type d -empty -delete
 find . -type f -exec ls -lh {} + | awk '{ print $9 ": " $5 }' | sort -k2,2h | tail -n 10
 ```
 
+### Copy all files from subfolders to current directory
+```
+find . -mindepth 2 -type f -exec cp -t . -- {} +
+```
+

@@ -233,6 +233,7 @@
 * https://frischkorn-nicholas.medium.com/red-teaming-macos-101-33b5a1834a2e ; #macosx #methodology #wiki
 * https://frycos.github.io/vulns4free/2024/07/10/dynamics-ups-and-downs.html ; #microsoft-dynamics-365-business-central #cve-2024-35248 #cve-2024-35249 #json-deserialization #dot-net
 * https://fuzzing.io/hushcon23.pdf ; #fuzzing
+* https://g3tsyst3m.com/initial%20access/Using-WebDav-to-Outsmart-Smartscreen,-MOTW,-and-that-OTHER-Alert ; #phishing #initial-access #windows #webdav #mark-of-the-web #motw #smartscreen
 * https://g3tsyst3m.com/lotp/Living-off-the-Process ; #thread-hijacking #return-oriented-programming #rop-chains #living-of-the-process #rwx
 * https://gi7w0rm.medium.com/the-curious-case-of-the-7777-botnet-86e3464c3ffd ; #threat-intelligence #botnet #shodan
 * https://gi7w0rm.medium.com/uncovering-ddgroup-a-long-time-threat-actor-d3b3020625a4 ; #threat-intelligence #webdav #uri-handler #search-ms #protocol-provider
@@ -291,6 +292,8 @@
 * https://ipslav.github.io/2023-12-12-let-me-manage-your-appdomain ; #windows #appdomain #edr #evasion #dirtyclr #dot-net
 * https://ipurple.team/2024/09/10/browser-stored-credentials ; #edge #chrome #browser #credentials #post-exploitation
 * https://ipurple.team/2026/05/13/entrypoint-hijacking ; #edr-evasion #dll-entrypoint-hijack 
+* https://ipurple.team/2026/06/09/winget ; #phishing #initial-access #windows #powershell #winget
+* https://ipurple.team/2026/08/04/provisioning-packages ; #phishing #initial-access #windows #provisioning-packages #ppkg #xml
 * https://iq.thc.org/discover-proton-mail-registration-date-with-one-weird-trick ; #proto #email #osint #pgp #web-key-directory
 * https://isc.sans.edu/diary/A+new+spin+on+the+ZeroFont+phishing+technique/30248 ; #phishing #email #threat-intelligence
 * https://isc.sans.edu/diary/rss/30676 ; #phishing #threat-intelligence #internet-archive #waybackmachine
@@ -611,6 +614,7 @@
 * https://versprite.com/vs-labs/slipping-malware-through-microsoft-security-checks ; #microsoft-defender #smartscreen #evasion #bypass
 * https://vim-jp.org/vimdoc-en ; #linux #documentation #wiki
 * https://vulncheck.com/blog/xiongmai-iot-exploitation ; #internet-of-things #iot #xiongmai #python #cve #overflow
+* https://w4ke.info/2025/06/18/funky-chunks.html ; #web #http-request-smuggling #term-ext #ext-term #spill-term #term-spill
 * https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit ; #windows #event-tracing #bypass #amsi #obfuscation
 * https://whiteknightlabs.com/2023/05/09/cant-stop-the-phish-tips-for-warming-up-your-email-domain-right ; #phishing #mail #evasion #bypass
 * https://whiteknightlabs.com/2023/06/26/navigating-stealthy-wmi-lateral-movement ; #lateral-movement #windows #wmi #win32
@@ -712,6 +716,7 @@
 * https://www.netero1010-securitylab.com/detection/dcsync-detection ; #active-directory #dcsync #detection
 * https://www.netero1010-securitylab.com/red-team/abuse-sccm-remote-control-as-native-vnc ; #lateral-movement #sccm #windows #vnc #wmi
 * https://www.netspi.com/blog/technical-blog/network-pentesting/hijacking-sql-server-credentials-with-agent-jobs-for-domain-privilege-escalation ; #windows #mssql #impersonation #sql-server-credential-object #proxy-account
+* https://www.netspi.com/blog/technical-blog/red-teaming/bofscale-a-cdn-fronted-tailnet-from-a-bof-pe ; #tailscale #rfc-6455 #websocket #ts2021 #async-bof
 * https://www.netspi.com/blog/technical/network-penetration-testing/decrypting-iis-passwords-to-break-out-of-the-dmz-part-2 ; #windows #iis #application-pool #credential-dump #appcmd
 * https://www.netspi.com/blog/technical/network-penetration-testing/network-share-permissions-powerhuntshares ; #windows #active-directory #ntfs #smb-share
 * https://www.offensive-security.com/metasploit-unleashed ; #c2 #command-and-control #wiki #methodology #documentation
@@ -804,6 +809,7 @@
 * https://www.x86matthew.com/view_post?id=clipboard_inject ; #shellcode #clipboard #injection #c
 * https://www.x86matthew.com/view_post?id=embed_exe_lnk ; #phishing #exe #lnk #spoofing
 * https://www.x86matthew.com/view_post?id=windows_no_exec ; #windows #allocating #noexxec #ntdll #memory-execution
+* https://www.zerosalarium.com/2024/12/LOLBIN%20WinGet%20execute%20PowerShell%20script.html ; #phishing #initial-access #windows #powershell #winget
 * https://www.zerosalarium.com/2026/06/edrchoker-choking-telemetry-stream-block-edr.html ; #edr #bypass #evasion #bandwith-throttling #policy-based #quality-of-service
 * https://x4sh3s.github.io/posts/Divide-and-bypass-amsi ; #windows #amsi #bypass #divide #add-type
 * https://x-c3ll.github.io/posts/javascript-antidebugging ; #web #javascript #anti-debugging
